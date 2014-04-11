@@ -27,7 +27,7 @@ _.each(LIBRARIES, function(library){
   library.name = library.name.toLowerCase();
   library.id = library.name.replace(/\./g, '');
   library.keywords = library.keywords && library.keywords.join(',');
-  LIBRARIES_MAP[library.name.toLowerCase()] = library;
+  LIBRARIES_MAP[library.name.toLowerCase().replace(/\./g, '')] = library;
 });
 
 // Templates
@@ -68,7 +68,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   });
 
   app.get('/libraries/:library', function(req, res) {
-    var library = req.params.library.toLowerCase();
+    var library = req.params.library.toLowerCase().replace(/\./g, '');
     console.log(library, LIBRARIES_MAP[library]);//.library
     res.send(generatePage({
       page: {
