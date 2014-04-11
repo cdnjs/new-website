@@ -69,7 +69,6 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
   app.get('/libraries/:library', function(req, res) {
     var library = req.params.library.toLowerCase().replace(/\./g, '');
-    console.log(library, LIBRARIES_MAP[library]);//.library
     res.send(generatePage({
       page: {
         template: templates.library,
@@ -97,33 +96,39 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     }, function(error, result){
       // TODO - This is very gross
       var user = _.find(result.items, function(usera) {
-        console.log(usera.login, req.params.login)
         return usera.login === req.params.login || false
       });
-      db.collection('user_data').findOne({user_id: user.user_id}, function(err, document) {
-        console.log(err);
-        var favorites = document && document.favorites || [];
-        var fullFavorites = [];
+      if(user && user.user_id) {
+        db.collection('user_data').findOne({user_id: user.user_id}, function(err, document) {
+          var favorites = document && document.favorites || [];
+          var fullFavorites = [];
 
-        _.each(favorites, function(favorite){
-          if(LIBRARIES_MAP[favorite]) {
-            fullFavorites.push(LIBRARIES_MAP[favorite]);
+          _.each(favorites, function(favorite){
+            if(LIBRARIES_MAP[favorite]) {
+              fullFavorites.push(LIBRARIES_MAP[favorite]);
+            }
+          })
+          var data = {
+            login: req.params.login,
+            created_at: user.created_at,
+            favorites: fullFavorites,
+            gravatar: get_gravatar(user.email, 100)
           }
-        })
-        var data = {
-          login: req.params.login,
-          created_at: user.created_at,
-          favorites: fullFavorites,
-          gravatar: get_gravatar(user.email, 100)
-        }
+          res.send(generatePage({
+            page: {
+              template: templates.profile,
+              data: data
+            }
+          }));
+
+        });
+      } else {
         res.send(generatePage({
           page: {
-            template: templates.profile,
-            data: data
+            template: 'A random error occured'
           }
         }));
-
-      });
+      }
     });
   });
   
@@ -206,9 +211,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     checkUser(req, function (user) {
       db.collection('user_data').findOne({user_id: user.user_id}, function(err, document) {
         var favorites = document && document.favorites || [];
-        console.log('delete', favorites);
         favorites = _.without(favorites, library);
-        console.log('delete', favorites);
         db.collection('user_data').update({user_id: user.user_id}, {$set: {favorites: favorites}}, {upsert:true}, function(err) {});
         res.send({message: 'success'});
       });
