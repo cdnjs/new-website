@@ -91,10 +91,15 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   }
   
   app.get('/profile/:login', function(req, res) {
-    UserApp.User.get({
-        "login": req.params.login
+    UserApp.User.search({
+      "page_size": 250,
+      "fields": "*"
     }, function(error, result){
-      var user = result[0];
+      // TODO - This is very gross
+      var user = _.find(result.items, function(usera) {
+        console.log(usera.login, req.params.login)
+        return usera.login === req.params.login || false
+      });
       db.collection('user_data').findOne({user_id: user.user_id}, function(err, document) {
         console.log(err);
         var favorites = document && document.favorites || [];
