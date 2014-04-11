@@ -71,9 +71,9 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   app.get('/libraries/:library', function(req, res) {
     var library = req.params.library.toLowerCase().replace(/\./g, '');
     res.send(generatePage({
+      title: library + ' - cdnjs.com - the missing cdn for javascript and css',
       page: {
         template: templates.library,
-        title: library + ' - cdnjs.com - the missing cdn for javascript and css',
         data: {library: LIBRARIES_MAP[library]}
       }
     }));
@@ -93,20 +93,31 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
   // User APP is playing hard ball this is a hack
 
+  // User APP is playing hard ball this is a hack
+    var users = [];
+    var getUsers = function () {
+      UserApp.User.search({
+        "page_size": 250,
+        "fields": "*"
+      }, function(error, result){
+        if(result.items.length > 0) {
+      console.log('Got users');
+          users = result.items
+        } else {
+          getUsers();
+        }
+      });
+    }
+    getUsers();
+    setInterval(getUsers, 240000);
 
-  app.get('/profile/:login', function(req, res) {
-    UserApp.User.search({
-        "page": 1,
-        "page_size": 1,
-        "fields": "*",
-        "filters": [{
-            "query": "login:" + req.params.login
-        }]
-    }, function(error, result){
-        // Handle error/result
+    app.get('/profile/:login', function(req, res) {
+      getUsers();
       
       // TODO - This is very gross
-      var user = result.items[0];
+      var user = _.find(users, function(usera) {
+        return usera.login === req.params.login || false
+      });
       if(user && user.user_id) {
         db.collection('user_data').findOne({user_id: user.user_id}, function(err, document) {
           var favorites = document && document.favorites || [];
@@ -138,7 +149,6 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
           }
         }));
       }
-    });
 
   });
   
