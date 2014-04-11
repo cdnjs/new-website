@@ -24,6 +24,7 @@ var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.json', 'utf8')).pack
 // Map libraries array into object for easy access
 var LIBRARIES_MAP = {};
 _.each(LIBRARIES, function(library){
+  library.originalName = library.name;
   library.name = library.name.toLowerCase();
   library.id = library.name.replace(/\./g, '');
   library.keywords = library.keywords && library.keywords.join(',');
@@ -57,7 +58,7 @@ var generatePage = function (options) {
 
 
 MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
-
+  console.log(err, db);
   app.get('/', function(req, res) {
     res.send(generatePage({
       page: {
@@ -90,30 +91,21 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   }
 
   // User APP is playing hard ball this is a hack
-  var users = [];
-  var getUsers = function () {
-    UserApp.User.search({
-      "page_size": 250,
-      "fields": "*"
-    }, function(error, result){
-      if(result && result.items.length > 0) {
-    console.log('Got users');
-        users = result.items
-      } else {
-        getUsers();
-      }
-    });
-  }
-  getUsers();
-  setInterval(getUsers, 240000);
+
 
   app.get('/profile/:login', function(req, res) {
-      getUsers();
+    UserApp.User.search({
+        "page": 1,
+        "page_size": 1,
+        "fields": "*",
+        "filters": [{
+            "query": "login:" + req.params.login
+        }]
+    }, function(error, result){
+        // Handle error/result
       
       // TODO - This is very gross
-      var user = _.find(users, function(usera) {
-        return usera.login === req.params.login || false
-      });
+      var user = result.items[0];
       if(user && user.user_id) {
         db.collection('user_data').findOne({user_id: user.user_id}, function(err, document) {
           var favorites = document && document.favorites || [];
@@ -145,6 +137,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
           }
         }));
       }
+    });
+
   });
   
 
