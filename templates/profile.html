@@ -1,0 +1,42 @@
+<img style="float: left;margin-right: 10px;" src="{{gravatar}}" />
+<h2>{{login}}</h2>
+<div class="row">
+  <div class="col-md-12">
+    <div class="">
+      <div class="packages-table-container">
+
+        <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
+          <thead>
+            <tr>
+              <th>Library</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#favorites}}
+            <tr itemscope itemtype="http://schema.org/SoftwareApplication" data-library-name="{{name}}" data-library-keywords="{{keywords}}" id="{{id}}" class="odd gradeX normal">
+              <td style="white-space: nowrap;">
+                <a itemprop="name" href="libraries/{{name}}">
+                    {{name}}
+                  </a>
+                <meta itemprop="url" content="{{homepage}}" />
+                <meta itemprop="version" content="{{version}}" />
+                <!-- hidden text for searching -->
+                <div style="display: none;">
+                  {{keywords}}
+                </div>
+              </td>
+              <td style="padding: 0; width: 100%;">
+                <div style="position: relative; padding: 8px;">
+                  <p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">//cdnjs.cloudflare.com/ajax/libs/{{name}}/{{version}}/{{filename}}</p>
+                  <span class="change-favorite" style="cursor: pointer; position: absolute; right: 10px; top: 5px; "></span>
+                </div>
+              </td>
+            </tr>
+            {{/favorites}}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

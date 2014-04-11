@@ -1,9 +1,5 @@
 (function($) {
 
-
-
-
-
     function selectText(element) {
       var doc = document;
       var text = element;
@@ -42,6 +38,7 @@
           console.log(user);
           currentUser = user;
           onUserLoaded();
+          $('.profile').attr('href', '/profile/' + user.login);
           $('.profile, .logout').show();
         } else {
           $('.login, .register').show();
@@ -107,7 +104,7 @@
     var favorites = [];
 
     function getFavorites(callback) {
-      $.get("http://cdnjs-server.herokuapp.com/favorites?token=" + token, function(data) {
+      $.get("/favorites?token=" + token, function(data) {
         if (data) {
           favorites = data;
           callback(data);
@@ -134,7 +131,7 @@
           _gaq.push(['_trackEvent', 'favorite', 'added', rowId]);
 
           $.ajax({
-            url: 'http://cdnjs-server.herokuapp.com/favorites?token=' + token,
+            url: '/favorites?token=' + token,
             success: function() {
               console.log(arguments)
             },
@@ -148,7 +145,7 @@
           favorites = _.without(favorites, rowId);
 
           $.ajax({
-            url: 'http://cdnjs-server.herokuapp.com/favorites?token=' + token,
+            url: '/favorites?token=' + token,
             success: function() {
               console.log(arguments)
             },
