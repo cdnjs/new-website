@@ -44,14 +44,14 @@ var templates = {
 
 var generatePage = function (options) {
   var layout = options.layout || templates.layout;
-
+  var title = options.title || 'cdnjs.com - the missing cdn for javascript and css'
   var page = {
     data: options.page && options.page.data || {},
     template: options.page && options.page.template || 'No content'
   }
   var pageContent = Mustache.render(page.template, page.data);
 
-  var fullContent = Mustache.render(layout, {page: pageContent});
+  var fullContent = Mustache.render(layout, {title: title, page: pageContent});
   return fullContent;
 
 }
@@ -73,6 +73,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     res.send(generatePage({
       page: {
         template: templates.library,
+        title: library + ' - cdnjs.com - the missing cdn for javascript and css',
         data: {library: LIBRARIES_MAP[library]}
       }
     }));
