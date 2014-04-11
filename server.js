@@ -19,7 +19,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser());
 
 // Load libraries into ram
-var LIBRARIES = JSON.parse(fs.readFileSync('packages.json', 'utf8')).packages;
+var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.json', 'utf8')).packages;
 
 // Map libraries array into object for easy access
 var LIBRARIES_MAP = {};
