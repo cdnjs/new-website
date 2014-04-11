@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/cdnjs/new-website",
   "dependencies": {
-    "express": "^4.0.0"
+    "express": "^4.0.0",
+    "lodash": "^2.4.1",
+    "mustache": "^0.8.1"
   }
 }
