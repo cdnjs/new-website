@@ -88,14 +88,30 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
    
       return 'http://www.gravatar.com/avatar/' + MD5(email) + '.jpg?s=' + size;
   }
-  
-  app.get('/profile/:login', function(req, res) {
+
+  // User APP is playing hard ball this is a hack
+  var users = [];
+  var getUsers = function () {
     UserApp.User.search({
       "page_size": 250,
       "fields": "*"
     }, function(error, result){
+      if(result.items.length > 0) {
+    console.log('Got users');
+        users = result.items
+      } else {
+        getUsers();
+      }
+    });
+  }
+  getUsers();
+  setInterval(getUsers, 240000);
+
+  app.get('/profile/:login', function(req, res) {
+      getUsers();
+      
       // TODO - This is very gross
-      var user = _.find(result.items, function(usera) {
+      var user = _.find(users, function(usera) {
         return usera.login === req.params.login || false
       });
       if(user && user.user_id) {
@@ -129,7 +145,6 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
           }
         }));
       }
-    });
   });
   
 
