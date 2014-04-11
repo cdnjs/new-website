@@ -96,7 +96,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       "page_size": 250,
       "fields": "*"
     }, function(error, result){
-      if(result.items.length > 0) {
+      if(result && result.items.length > 0) {
     console.log('Got users');
         users = result.items
       } else {
