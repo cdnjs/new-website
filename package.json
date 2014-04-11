@@ -1,0 +1,23 @@
+{
+  "name": "new-website",
+  "version": "0.0.0",
+  "description": "new-website ===========",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cdnjs/new-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdnjs/new-website/issues"
+  },
+  "homepage": "https://github.com/cdnjs/new-website",
+  "dependencies": {
+    "express": "^4.0.0"
+  }
+}
