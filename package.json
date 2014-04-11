@@ -23,6 +23,7 @@
     "lodash": "^2.4.1",
     "mongodb": "^1.4.0",
     "mustache": "^0.8.1",
+    "superagent": "^0.17.0",
     "userapp": "^0.2.3"
   }
 }
