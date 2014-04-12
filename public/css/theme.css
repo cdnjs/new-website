@@ -2,3 +2,13 @@ body {
   overflow-y: scroll;
   padding-top: 15px;
 }
+
+.avatar-frame{border: 2px solid #dd4814;}
+.avatar-frame,.avatar-frame img{
+  width: 90px;
+  margin-bottom: 17px;
+  height: 90px;
+  -webkit-border-radius: 80px; /* Saf3+, Chrome */
+  border-radius: 80px; /* Opera 10.5, IE 9 */
+  /*-moz-border-radius: 30px;  Disabled for FF1+ */
+  }
