@@ -100,7 +100,7 @@
 
 
     // TODO - This is some pretty ugly code by Thomas </honesty>
-    /*
+
     var favorites = [];
 
     function getFavorites(callback) {
@@ -171,11 +171,11 @@
       //putClassOnFavorites(favorites);
     });
 
+
   $('p.library-url').on('mouseenter', function(event) {
 
     selectText($(event.currentTarget)[0]);
   });
-  */
 
   //http://www.merriampark.com/ld.htm, http://www.mgilleland.com/ld/ldjavascript.htm, Damerau–Levenshtein distance (Wikipedia)
 
@@ -229,7 +229,7 @@
     // Step 7
     return d[n][m];
   }
-  var favorites = [];
+
   // TODO: generate this as part of the template
   rowSelector = '#example > tbody > tr'; 
   matchedRowSelector = '#example tr.search-result'; 
@@ -291,7 +291,7 @@
       //$(matchedRowSelector).empty();
       //$rowCache.show();
       $(rowSelector).show();
-      //putClassOnFavorites(favorites);
+      putClassOnFavorites(favorites);
 
     }
   }

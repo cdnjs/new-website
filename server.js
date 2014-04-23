@@ -57,7 +57,7 @@ var generatePage = function (options) {
   return fullContent;
 
 }
-var favoriteCount = {};
+
 
 MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   app.get('/', function(req, res) {
@@ -68,26 +68,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       }
     }));
   });
-  app.get('/a', function(req, res){
 
-    db.collection('user_data').aggregate([
-  {$unwind:"$favorites"},
-  {$group:{_id:null, clrs: {$push : "$favorites"} }},
-  {$project:{_id:0, colors: "$clrs"}}
-        ], function(err, result) {
-          console.log(arguments);
-          _.each(result.colors, function(lib){
-            if(typeof favoriteCount[lib] !== 'undefined') {
-              favoriteCount[lib]++;
-            } else {
-              favoriteCount[lib] = 0;
-            }
-          });
-          console.log(favoriteCount);
-          res.send(favoriteCount);
-      });
-
-  })
   app.get('/libraries/:library', function(req, res) {
     var library = req.params.library.toLowerCase().replace(/\./g, '');
     res.send(generatePage({
