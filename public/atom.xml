@@ -10,10 +10,180 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 23 Apr 2014 23:05:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Apr 2014 11:51:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.4]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.4/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.4/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 28 Apr 2014 01:45:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[minicart updated to version 3.0.5]]></title>
+            <description><![CDATA[The Mini Cart is a great way to improve your PayPal shopping cart integration.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.5/minicart.min.js">//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.5/minicart.min.js</a>]]></description>
+            <link>http://www.minicartjs.com</link>
+            <guid isPermaLink="false">minicart3.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 28 Apr 2014 01:45:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-router updated to version 0.2.10]]></title>
+            <description><![CDATA[State-based routing for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js</a>]]></description>
+            <link>http://angular-ui.github.com/</link>
+            <guid isPermaLink="false">angular-ui-router0.2.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 28 Apr 2014 01:30:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[benchmark updated to version 1.0.0]]></title>
+            <description><![CDATA[A benchmarking library that works on nearly all JavaScript platforms, supports high-resolution timers, and returns statistically significant results.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/benchmark/1.0.0/benchmark.js">//cdnjs.cloudflare.com/ajax/libs/benchmark/1.0.0/benchmark.js</a>]]></description>
+            <link>http://benchmarkjs.com/</link>
+            <guid isPermaLink="false">benchmark1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 27 Apr 2014 22:37:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.pjax updated to version 1.8.0]]></title>
+            <description><![CDATA[pjax is a jQuery plugin that uses ajax and pushState to deliver a fast browsing experience with real permalinks, page titles, and a working back button.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.8.0/jquery.pjax.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.8.0/jquery.pjax.min.js</a>]]></description>
+            <link>http://pjax.heroku.com</link>
+            <guid isPermaLink="false">jquery.pjax1.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 27 Apr 2014 17:01:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jcarousel updated to version 0.3.1]]></title>
+            <description><![CDATA[jCarousel is a jQuery plugin for controlling a list of items in horizontal or vertical order. It provides a full-featured and flexible toolset for navigating any HTML based content in a carousel-like fashion.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel.min.js">//cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.1/jquery.jcarousel.min.js</a>]]></description>
+            <link>http://sorgalla.com/jcarousel/</link>
+            <guid isPermaLink="false">jcarousel0.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 26 Apr 2014 12:29:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vue updated to version 0.10.4]]></title>
+            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.10.4/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.10.4/vue.min.js</a>]]></description>
+            <link>http://vuejs.org</link>
+            <guid isPermaLink="false">vue0.10.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 25 Apr 2014 20:00:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[restangular updated to version 1.4.0]]></title>
+            <description><![CDATA[Restfull Resources service for AngularJS apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/restangular/1.4.0/restangular.min.js">//cdnjs.cloudflare.com/ajax/libs/restangular/1.4.0/restangular.min.js</a>]]></description>
+            <link>https://github.com/mgonto/restangular</link>
+            <guid isPermaLink="false">restangular1.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 25 Apr 2014 19:15:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-wizard updated to version 0.4.0]]></title>
+            <description><![CDATA[Easy to use Wizard library for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-wizard/0.4.0/angular-wizard.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-wizard/0.4.0/angular-wizard.min.js</a>]]></description>
+            <link>https://github.com/mgonto/angular-wizard</link>
+            <guid isPermaLink="false">angular-wizard0.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 25 Apr 2014 19:15:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-grid updated to version 2.0.10]]></title>
+            <description><![CDATA[Angular Data Grid written in AngularJS and jQuery by the AngularUI Team<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.10/ng-grid.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.10/ng-grid.min.js</a>]]></description>
+            <link>http://angular-ui.github.io/ng-grid/</link>
+            <guid isPermaLink="false">ng-grid2.0.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 25 Apr 2014 17:30:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[floatthead updated to version 1.2.7]]></title>
+            <description><![CDATA[locking table headers without special css<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.7/jquery.floatThead.min.js">//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.7/jquery.floatThead.min.js</a>]]></description>
+            <link>https://github.com/mkoryak/floatThead</link>
+            <guid isPermaLink="false">floatthead1.2.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 25 Apr 2014 02:45:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jszip updated to version 2.2.1]]></title>
+            <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.1/jszip.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.1/jszip.js</a>]]></description>
+            <link>http://stuk.github.io/jszip/</link>
+            <guid isPermaLink="false">jszip2.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 24 Apr 2014 20:00:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mathjs updated to version 0.21.0]]></title>
+            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/0.21.0/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/0.21.0/math.min.js</a>]]></description>
+            <link>http://mathjs.org</link>
+            <guid isPermaLink="false">mathjs0.21.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 24 Apr 2014 19:30:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jspdf(0.9.0rc1) was added]]></title>
+            <description><![CDATA[A HTML5 client-side solution for generating PDFs. Perfect for event tickets, reports, certificates, you name it!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js">//cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js</a>]]></description>
+            <link>http://parall.ax/products/jspdf</link>
+            <guid isPermaLink="false">jspdf0.9.0rc1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 24 Apr 2014 18:00:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highstock updated to version 2.0.1]]></title>
+            <description><![CDATA[Highstock lets you create stock or general timeline charts in pure JavaScript, including sophisticated navigation options like a small navigator series, preset date ranges, date picker, scrolling and panning. Highstock is NOT free for commercial use.  See the license here: http://shop.highsoft.com/highstock.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.1/highstock.js">//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.1/highstock.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highstock2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 24 Apr 2014 16:58:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highcharts updated to version 4.0.1]]></title>
+            <description><![CDATA[Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie and scatter chart types. Highcharts is NOT free for commercial use.  See the license here: http://highcharts.com/license<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.1/highcharts.js">//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.1/highcharts.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highcharts4.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 24 Apr 2014 16:55:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[reveal.js updated to version 2.6.2]]></title>
+            <description><![CDATA[A framework for easily creating beautiful presentations using HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/js/reveal.min.js">//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/js/reveal.min.js</a>]]></description>
+            <link>http://lab.hakim.se/reveal-js/</link>
+            <guid isPermaLink="false">reveal.js2.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 24 Apr 2014 16:50:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[polymer updated to version 0.2.3]]></title>
+            <description><![CDATA[Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/polymer/0.2.3/polymer.js">//cdnjs.cloudflare.com/ajax/libs/polymer/0.2.3/polymer.js</a>]]></description>
+            <link>http://polymer-project.org/</link>
+            <guid isPermaLink="false">polymer0.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 24 Apr 2014 09:12:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.tablesorter updated to version 2.16.0]]></title>
+            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell.
+
+This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.16.0/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.16.0/jquery.tablesorter.min.js</a>]]></description>
+            <link>http://mottie.github.com/tablesorter/docs/</link>
+            <guid isPermaLink="false">jquery.tablesorter2.16.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 24 Apr 2014 01:50:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-select updated to version 1.5.4]]></title>
+            <description><![CDATA[A custom <select> for Bootstrap using button dropdown as replacement<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.js</a>]]></description>
+            <link>http://silviomoreto.github.io/bootstrap-select/</link>
+            <guid isPermaLink="false">bootstrap-select1.5.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 23 Apr 2014 23:21:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pubnub updated to version 3.6.2]]></title>
+            <description><![CDATA[PubNub, a new kind of Cloud-Hosted Broadcasting Service for Mass Communication.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.2/pubnub.min.js">//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.2/pubnub.min.js</a>]]></description>
+            <link>http://www.pubnub.com/</link>
+            <guid isPermaLink="false">pubnub3.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 23 Apr 2014 23:15:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[string.js updated to version 1.8.1]]></title>
             <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/1.8.1/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/1.8.1/string.min.js</a>]]></description>
@@ -21,14 +191,6 @@
             <guid isPermaLink="false">string.js1.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 23 Apr 2014 21:00:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highstock updated to version 2.0.0]]></title>
-            <description><![CDATA[Highstock lets you create stock or general timeline charts in pure JavaScript, including sophisticated navigation options like a small navigator series, preset date ranges, date picker, scrolling and panning. Highstock is NOT free for commercial use.  See the license here: http://shop.highsoft.com/highstock.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.0/highstock.js">//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.0/highstock.js</a>]]></description>
-            <link>http://highcharts.com/</link>
-            <guid isPermaLink="false">highstock2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 16:12:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember.js updated to version 1.5.1]]></title>
@@ -127,6 +289,14 @@
             <pubDate>Tue, 22 Apr 2014 18:32:25 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Snowstorm updated to version 20131208]]></title>
+            <description><![CDATA[A JavaScript Snow Effect for HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js">//cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js</a>]]></description>
+            <link>http://www.schillmania.com/projects/snowstorm/</link>
+            <guid isPermaLink="false">Snowstorm20131208</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 22 Apr 2014 13:11:22 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[codemirror updated to version 4.1.0]]></title>
             <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.1.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.1.0/codemirror.min.js</a>]]></description>
             <link>http://codemirror.net</link>
@@ -167,14 +337,6 @@
             <pubDate>Tue, 22 Apr 2014 07:06:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[mathjs updated to version 0.20.0]]></title>
-            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/0.20.0/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/0.20.0/math.min.js</a>]]></description>
-            <link>http://mathjs.org</link>
-            <guid isPermaLink="false">mathjs0.20.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 22 Apr 2014 06:31:27 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[parallax updated to version 1.1.1]]></title>
             <description><![CDATA[Parallax Engine that reacts to the orientation of a smart device.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/parallax/1.1.1/parallax.min.js">//cdnjs.cloudflare.com/ajax/libs/parallax/1.1.1/parallax.min.js</a>]]></description>
             <link>http://wagerfield.github.io/parallax/</link>
@@ -189,14 +351,6 @@
             <guid isPermaLink="false">shred0.8.10</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 22 Apr 2014 05:31:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jszip updated to version 2.2.0]]></title>
-            <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.0/jszip.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.0/jszip.js</a>]]></description>
-            <link>http://stuk.github.io/jszip/</link>
-            <guid isPermaLink="false">jszip2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 22 Apr 2014 04:46:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[moment-timezone updated to version 0.0.6]]></title>
@@ -221,14 +375,6 @@
             <guid isPermaLink="false">es5-shim2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 22 Apr 2014 03:13:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[reveal.js updated to version 2.6.2]]></title>
-            <description><![CDATA[A framework for easily creating beautiful presentations using HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/js/reveal.min.js">//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/js/reveal.min.js</a>]]></description>
-            <link>http://lab.hakim.se/reveal-js/</link>
-            <guid isPermaLink="false">reveal.js2.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 22 Apr 2014 02:25:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mocha(1.0.2) was added]]></title>
@@ -292,14 +438,6 @@
             <guid isPermaLink="false">Cookies.js0.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 21 Apr 2014 20:10:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mithril updated to version 0.1.4]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.4/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.4/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 16:49:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[leaflet.markercluster updated to version 0.4.0]]></title>
@@ -435,14 +573,6 @@
             <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-ui-router updated to version 0.2.10]]></title>
-            <description><![CDATA[State-based routing for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js</a>]]></description>
-            <link>http://angular-ui.github.com/</link>
-            <guid isPermaLink="false">angular-ui-router0.2.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-moment updated to version 0.7.0]]></title>
             <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.7.0/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.7.0/angular-moment.min.js</a>]]></description>
             <link>https://github.com/urish/angular-moment</link>
@@ -456,6 +586,14 @@
             <guid isPermaLink="false">Faker0.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-rtl updated to version 3.1.1]]></title>
+            <description><![CDATA[Right-to-left (RTL) theme for Boostrap 3.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1/css/bootstrap-rtl.min.css">//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1/css/bootstrap-rtl.min.css</a>]]></description>
+            <link>http://github.com/ratnic/bootstrap-rtl</link>
+            <guid isPermaLink="false">bootstrap-rtl3.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 20 Apr 2014 23:31:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jasny-bootstrap updated to version 3.1.2]]></title>
@@ -488,14 +626,6 @@
             <guid isPermaLink="false">speakingurl0.9.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 19 Apr 2014 08:38:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-rtl updated to version 3.1.1-rc1]]></title>
-            <description><![CDATA[Right-to-left (RTL) theme for Boostrap 3.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1-rc1/css/bootstrap-rtl.min.css">//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1-rc1/css/bootstrap-rtl.min.css</a>]]></description>
-            <link>http://github.com/ratnic/bootstrap-rtl</link>
-            <guid isPermaLink="false">bootstrap-rtl3.1.1-rc1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 19 Apr 2014 01:40:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vega updated to version 1.3.3]]></title>
@@ -761,14 +891,6 @@
             <pubDate>Wed, 16 Apr 2014 06:45:55 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[minicart updated to version 3.0.5]]></title>
-            <description><![CDATA[The Mini Cart is a great way to improve your PayPal shopping cart integration.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.5/minicart.min.js">//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.5/minicart.min.js</a>]]></description>
-            <link>http://www.minicartjs.com</link>
-            <guid isPermaLink="false">minicart3.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 16 Apr 2014 03:12:52 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[piwik updated to version 2.1.0]]></title>
             <description><![CDATA[Piwik is a free web analytics tool that provides you with detailed reports on your website's visitors, your marketing campaigns and much more. Piwik is an open source alternative to Google Analytics, available in 45 languages, and has been downloaded more than 1 million times!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/piwik/2.1.0/piwik.js">//cdnjs.cloudflare.com/ajax/libs/piwik/2.1.0/piwik.js</a>]]></description>
             <link>http://piwik.org/</link>
@@ -824,14 +946,6 @@
             <pubDate>Mon, 14 Apr 2014 18:00:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[floatthead updated to version 1.2.6]]></title>
-            <description><![CDATA[locking table headers without special css<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.6/jquery.floatThead.min.js">//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.6/jquery.floatThead.min.js</a>]]></description>
-            <link>https://github.com/mkoryak/floatThead</link>
-            <guid isPermaLink="false">floatthead1.2.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 14 Apr 2014 18:00:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[tinymce updated to version 4.0.21]]></title>
             <description><![CDATA[TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinymce/4.0.21/tinymce.min.js">//cdnjs.cloudflare.com/ajax/libs/tinymce/4.0.21/tinymce.min.js</a>]]></description>
             <link>http://www.tinymce.com</link>
@@ -846,158 +960,6 @@
             <guid isPermaLink="false">ng-dialog0.1.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 14 Apr 2014 17:30:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.2.20]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.2.20/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.2.20/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.2.20</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 14 Apr 2014 04:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-tags-input updated to version 2.0.1]]></title>
-            <description><![CDATA[Tags input directive for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-tags-input/2.0.1/ng-tags-input.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-tags-input/2.0.1/ng-tags-input.min.js</a>]]></description>
-            <link>http://mbenford.github.io/ngTagsInput</link>
-            <guid isPermaLink="false">ng-tags-input2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 14 Apr 2014 02:20:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ember-resource.js updated to version 2.0.0]]></title>
-            <description><![CDATA[A simple library to connect your Ember.js application to JSON backends.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-resource.js/2.0.0/ember-resource.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-resource.js/2.0.0/ember-resource.min.js</a>]]></description>
-            <link>https://github.com/zendesk/ember-resource</link>
-            <guid isPermaLink="false">ember-resource.js2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 13 Apr 2014 19:52:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sortable updated to version 0.6.0]]></title>
-            <description><![CDATA[The simplest, most elegant way to sort a table.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sortable/0.6.0/js/sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/sortable/0.6.0/js/sortable.min.js</a>]]></description>
-            <link>http://github.hubspot.com/sortable/</link>
-            <guid isPermaLink="false">sortable0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 13 Apr 2014 09:28:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Base64 updated to version 0.2.1]]></title>
-            <description><![CDATA[Base64 encoding and decoding<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Base64/0.2.1/base64.min.js">//cdnjs.cloudflare.com/ajax/libs/Base64/0.2.1/base64.min.js</a>]]></description>
-            <guid isPermaLink="false">Base640.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 13 Apr 2014 06:30:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment.js updated to version 2.6.0]]></title>
-            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.6.0/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.6.0/moment.min.js</a>]]></description>
-            <link>http://momentjs.com/</link>
-            <guid isPermaLink="false">moment.js2.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 12 Apr 2014 16:45:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[timelinejs updated to version 2.30.1]]></title>
-            <description><![CDATA[TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.30.1/js/storyjs-embed.js">//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.30.1/js/storyjs-embed.js</a>]]></description>
-            <link>http://timeline.verite.co/</link>
-            <guid isPermaLink="false">timelinejs2.30.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 11 Apr 2014 20:34:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.tablesorter updated to version 2.15.14]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell.
-
-This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.15.14/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.15.14/jquery.tablesorter.min.js</a>]]></description>
-            <link>http://mottie.github.com/tablesorter/docs/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.15.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 11 Apr 2014 19:17:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsxgraph updated to version 0.99.1]]></title>
-            <description><![CDATA[JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.1/jsxgraphcore.js">//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.1/jsxgraphcore.js</a>]]></description>
-            <link>http://jsxgraph.org/</link>
-            <guid isPermaLink="false">jsxgraph0.99.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 11 Apr 2014 17:49:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[crel updated to version 1.1.2]]></title>
-            <description><![CDATA[A small, simple, and fast DOM creation utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crel/1.1.2/crel.min.js">//cdnjs.cloudflare.com/ajax/libs/crel/1.1.2/crel.min.js</a>]]></description>
-            <guid isPermaLink="false">crel1.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 11 Apr 2014 15:15:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ekko-lightbox(3.0.3a) was added]]></title>
-            <description><![CDATA[A lightbox gallery plugin for Bootstrap 3 based on the modal plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.0.3a/ekko-lightbox.min.js">//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.0.3a/ekko-lightbox.min.js</a>]]></description>
-            <link>http://ashleydw.github.io/lightbox/</link>
-            <guid isPermaLink="false">ekko-lightbox3.0.3a</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 11 Apr 2014 14:03:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[phaser updated to version 2.0.3]]></title>
-            <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.3/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.3/phaser.min.js</a>]]></description>
-            <link>http://phaser.io/</link>
-            <guid isPermaLink="false">phaser2.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 11 Apr 2014 13:51:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-pageable updated to version 1.4.6]]></title>
-            <description><![CDATA[A pageable Backbone.Collection superset. Supports server-side/client-side/infinite pagination and sorting.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-pageable/1.4.6/backbone-pageable.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-pageable/1.4.6/backbone-pageable.min.js</a>]]></description>
-            <link>https://github.com/backbone-paginator/backbone-pageable</link>
-            <guid isPermaLink="false">backbone-pageable1.4.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 11 Apr 2014 13:21:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ratchet updated to version 2.0.2]]></title>
-            <description><![CDATA[Prototype iPhone apps with simple HTML, CSS, and JS components.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ratchet/2.0.2/js/ratchet.min.js">//cdnjs.cloudflare.com/ajax/libs/ratchet/2.0.2/js/ratchet.min.js</a>]]></description>
-            <link>https://github.com/twbs/ratchet</link>
-            <guid isPermaLink="false">ratchet2.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 11 Apr 2014 05:18:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gremlins.js(0.1.0) was added]]></title>
-            <description><![CDATA[A monkey testing library written in JavaScript, for Node.js and the browser. Use it to check the robustness of web applications by unleashing a horde of undisciplined gremlins.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gremlins.js/0.1.0/gremlins.min.js">//cdnjs.cloudflare.com/ajax/libs/gremlins.js/0.1.0/gremlins.min.js</a>]]></description>
-            <link>https://github.com/marmelab/gremlins.js</link>
-            <guid isPermaLink="false">gremlins.js0.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 11 Apr 2014 01:08:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yui updated to version 3.16.0]]></title>
-            <description><![CDATA[The YUI Library is a set of utilities and controls, written with JavaScript and CSS, for building richly interactive web applications using techniques such as DOM scripting, DHTML and AJAX.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yui/3.16.0/yui-min.js">//cdnjs.cloudflare.com/ajax/libs/yui/3.16.0/yui-min.js</a>]]></description>
-            <link>http://yuilibrary.com/</link>
-            <guid isPermaLink="false">yui3.16.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 10 Apr 2014 19:11:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[URI.js updated to version 1.11.2]]></title>
-            <description><![CDATA[URI.js is a javascript library for working with URLs. It offers a "jQuery-style" API (Fluent Interface, Method Chaining) to read and write all regular components and a number of convenience methods like .directory() and .authority(). URI.js offers simple, yet powerful ways of working with query string, has a number of URI-normalization functions and converts relative/absolute paths.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js">//cdnjs.cloudflare.com/ajax/libs/URI.js/1.11.2/URI.min.js</a>]]></description>
-            <link>http://medialize.github.com/URI.js/</link>
-            <guid isPermaLink="false">URI.js1.11.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 10 Apr 2014 14:13:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ink updated to version 3.0.0]]></title>
-            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.0.0/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.0.0/js/ink-all.min.js</a>]]></description>
-            <link>http://ink.sapo.pt/</link>
-            <guid isPermaLink="false">ink3.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 10 Apr 2014 10:27:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bluebird updated to version 1.2.2]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/1.2.2/bluebird.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/1.2.2/bluebird.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird1.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 10 Apr 2014 09:07:11 GMT</pubDate>
         </item>
     </channel>
 </rss>
