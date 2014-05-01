@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 May 2014 20:21:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 May 2014 20:38:03 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.2.11]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.11/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.11/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.2.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 May 2014 20:30:46 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[vega updated to version 1.4.0]]></title>
             <description><![CDATA[Vega is a visualization grammar, a declarative format for creating, saving and sharing visualization designs. <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vega/1.4.0/vega.min.js">//cdnjs.cloudflare.com/ajax/libs/vega/1.4.0/vega.min.js</a>]]></description>
@@ -21,14 +29,6 @@
             <guid isPermaLink="false">vega1.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 May 2014 20:15:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.2.10]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.10/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.10/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.2.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 May 2014 17:30:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery updated to version 2.1.1]]></title>
