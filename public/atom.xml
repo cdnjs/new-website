@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 May 2014 20:38:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 May 2014 21:21:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jszip updated to version 2.2.2]]></title>
+            <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.2/jszip.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.2/jszip.js</a>]]></description>
+            <link>http://stuk.github.io/jszip/</link>
+            <guid isPermaLink="false">jszip2.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 May 2014 21:15:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.2.11]]></title>
             <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.11/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.11/p5.min.js</a>]]></description>
@@ -243,14 +251,6 @@
             <guid isPermaLink="false">floatthead1.2.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 25 Apr 2014 02:45:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jszip updated to version 2.2.1]]></title>
-            <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.1/jszip.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.1/jszip.js</a>]]></description>
-            <link>http://stuk.github.io/jszip/</link>
-            <guid isPermaLink="false">jszip2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 24 Apr 2014 20:00:39 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mathjs updated to version 0.21.0]]></title>
