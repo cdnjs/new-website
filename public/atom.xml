@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 May 2014 09:53:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 May 2014 17:36:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.2.10]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.10/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.10/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.2.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 May 2014 17:30:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery updated to version 2.1.1]]></title>
+            <description><![CDATA[jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js</a>]]></description>
+            <link>http://jquery.com/</link>
+            <guid isPermaLink="false">jquery2.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 May 2014 17:30:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-image-spinner updated to version 0.1.5]]></title>
             <description><![CDATA[Angular directive for showing image spinner in the container with image<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-image-spinner/0.1.5/angular-image-spinner.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-image-spinner/0.1.5/angular-image-spinner.min.js</a>]]></description>
@@ -53,14 +69,6 @@
             <guid isPermaLink="false">gillie0.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 May 2014 03:04:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.2.9]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.9/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.9/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.2.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 May 2014 02:00:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[xlsx updated to version 0.6.1-a]]></title>
@@ -911,22 +919,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">jquery.simpleWeather2.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 17 Apr 2014 17:29:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[foundation-essential updated to version 5.2.2]]></title>
-            <description><![CDATA[Slimmed-down build of ZURB Foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.2.2/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.2.2/js/foundation.min.js</a>]]></description>
-            <link>http://foundation.zurb.com</link>
-            <guid isPermaLink="false">foundation-essential5.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 17 Apr 2014 12:36:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gumby(2.6.0) was added]]></title>
-            <description><![CDATA[A Flexible, Responsive CSS Framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gumby/2.6.0/css/gumby.min.css">//cdnjs.cloudflare.com/ajax/libs/gumby/2.6.0/css/gumby.min.css</a>]]></description>
-            <link>http://gumbyframework.com/</link>
-            <guid isPermaLink="false">gumby2.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 17 Apr 2014 11:38:54 GMT</pubDate>
         </item>
     </channel>
 </rss>
