@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 May 2014 23:31:50 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 May 2014 11:50:48 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[vis updated to version 1.0.0]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/1.0.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/1.0.0/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 11:45:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jszip updated to version 2.2.2]]></title>
             <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.2/jszip.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.2/jszip.js</a>]]></description>
@@ -738,14 +746,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <pubDate>Sat, 19 Apr 2014 14:46:55 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[vis updated to version 0.7.4]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/0.7.4/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/0.7.4/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis0.7.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 19 Apr 2014 09:03:16 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[speakingurl updated to version 0.9.1]]></title>
             <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.9.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.9.1/speakingurl.min.js</a>]]></description>
             <link>http://pid.github.io/speakingurl/</link>
@@ -887,30 +887,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">d3-geo-projection0.2.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 18 Apr 2014 14:30:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[socket.io updated to version 0.9.16]]></title>
-            <description><![CDATA[Browser-side code for Socket.IO. Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js">//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js</a>]]></description>
-            <link>http://socket.io</link>
-            <guid isPermaLink="false">socket.io0.9.16</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 10:00:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-markdown updated to version 2.2.1]]></title>
-            <description><![CDATA[A bootstrap plugin for markdown editing<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.2.1/js/bootstrap-markdown.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.2.1/js/bootstrap-markdown.js</a>]]></description>
-            <link>https://github.com/toopay/bootstrap-markdown</link>
-            <guid isPermaLink="false">bootstrap-markdown2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 09:30:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gl-matrix updated to version 2.1.0]]></title>
-            <description><![CDATA[Javascript Matrix and Vector library for High Performance WebGL apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix-min.js">//cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix-min.js</a>]]></description>
-            <link>https://github.com/toji/gl-matrix</link>
-            <guid isPermaLink="false">gl-matrix2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 09:15:59 GMT</pubDate>
         </item>
     </channel>
 </rss>
