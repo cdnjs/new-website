@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 03 May 2014 17:20:36 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 May 2014 20:04:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[xlsx updated to version 0.6.2]]></title>
+            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js</a>]]></description>
+            <link>https://github.com/SheetJS/js-xlsx</link>
+            <guid isPermaLink="false">xlsx0.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 May 2014 20:00:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ocanvas updated to version 2.7.0]]></title>
             <description><![CDATA[oCanvas is a JavaScript library that makes development with HTML5 canvas easy, by using an object-based approach.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.0/ocanvas.min.js">//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.0/ocanvas.min.js</a>]]></description>
@@ -133,14 +141,6 @@
             <guid isPermaLink="false">gillie0.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 May 2014 03:04:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[xlsx updated to version 0.6.1-a]]></title>
-            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.1-a/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.1-a/xlsx.js</a>]]></description>
-            <link>https://github.com/SheetJS/js-xlsx</link>
-            <guid isPermaLink="false">xlsx0.6.1-a</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 May 2014 00:30:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[phaser updated to version 2.0.4]]></title>
