@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 03 May 2014 17:16:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 May 2014 17:20:36 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -53,6 +53,14 @@
             <guid isPermaLink="false">vis1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 02 May 2014 11:45:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[oppia(0.0.1) was added]]></title>
+            <description><![CDATA[Oppia is a tool for creating interactive online educational activities that give immediate, personalized feedback to learners.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/oppia/0.0.1/oppia-player.min.js">//cdnjs.cloudflare.com/ajax/libs/oppia/0.0.1/oppia-player.min.js</a>]]></description>
+            <link>https://code.google.com/p/oppia/</link>
+            <guid isPermaLink="false">oppia0.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 07:27:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[modernizr updated to version 2.8.1]]></title>
