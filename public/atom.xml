@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 02 May 2014 21:05:22 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 May 2014 08:40:49 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -29,6 +29,14 @@
             <guid isPermaLink="false">vis1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 02 May 2014 11:45:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[modernizr updated to version 2.8.1]]></title>
+            <description><![CDATA[Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user's browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js">//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js</a>]]></description>
+            <link>http://www.modernizr.com/</link>
+            <guid isPermaLink="false">modernizr2.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 06:31:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jszip updated to version 2.2.2]]></title>
@@ -77,14 +85,6 @@
             <guid isPermaLink="false">weather-icons0.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 May 2014 09:48:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[modernizr updated to version 2.8.0]]></title>
-            <description><![CDATA[Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user's browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.0/modernizr.min.js">//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.0/modernizr.min.js</a>]]></description>
-            <link>http://www.modernizr.com/</link>
-            <guid isPermaLink="false">modernizr2.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 May 2014 04:24:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[gillie(0.2.1) was added]]></title>
@@ -744,14 +744,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">sizzle1.10.19</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 19 Apr 2014 14:46:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[speakingurl updated to version 0.9.1]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.9.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.9.1/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.9.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 19 Apr 2014 08:38:02 GMT</pubDate>
         </item>
     </channel>
 </rss>
