@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 03 May 2014 17:15:45 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 May 2014 17:16:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -23,12 +23,28 @@
             <pubDate>Sat, 03 May 2014 10:34:19 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[mithril updated to version 0.1.11]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 May 2014 02:41:41 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[cytoscape updated to version 2.2.6]]></title>
             <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.6/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.6/cytoscape.min.js</a>]]></description>
             <link>http://cytoscape.github.io/cytoscape.js</link>
             <guid isPermaLink="false">cytoscape2.2.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 02 May 2014 21:01:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-ajaxtransport-xdomainrequest updated to version 1.0.2]]></title>
+            <description><![CDATA[Implements automatic Cross Origin Resource Sharing support using the XDomainRequest object for IE8 and IE9 when using the ajax function in jQuery 1.5+.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js</a>]]></description>
+            <link>https://github.com/MoonScript/jQuery-ajaxTransport-XDomainRequest</link>
+            <guid isPermaLink="false">jquery-ajaxtransport-xdomainrequest1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 19:05:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vis updated to version 1.0.0]]></title>
@@ -187,14 +203,6 @@
             <guid isPermaLink="false">jquery-cookie1.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 28 Apr 2014 17:27:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mithril updated to version 0.1.4]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.4/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.4/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 28 Apr 2014 01:45:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[minicart updated to version 3.0.5]]></title>
