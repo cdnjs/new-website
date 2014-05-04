@@ -10,10 +10,82 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 May 2014 23:31:50 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 May 2014 20:04:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[xlsx updated to version 0.6.2]]></title>
+            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js</a>]]></description>
+            <link>https://github.com/SheetJS/js-xlsx</link>
+            <guid isPermaLink="false">xlsx0.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 May 2014 20:00:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ocanvas updated to version 2.7.0]]></title>
+            <description><![CDATA[oCanvas is a JavaScript library that makes development with HTML5 canvas easy, by using an object-based approach.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.0/ocanvas.min.js">//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.0/ocanvas.min.js</a>]]></description>
+            <link>http://ocanvas.org/</link>
+            <guid isPermaLink="false">ocanvas2.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 May 2014 10:34:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.11]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 May 2014 02:41:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.2.6]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.6/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.6/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.2.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 21:01:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-ajaxtransport-xdomainrequest updated to version 1.0.2]]></title>
+            <description><![CDATA[Implements automatic Cross Origin Resource Sharing support using the XDomainRequest object for IE8 and IE9 when using the ajax function in jQuery 1.5+.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js</a>]]></description>
+            <link>https://github.com/MoonScript/jQuery-ajaxTransport-XDomainRequest</link>
+            <guid isPermaLink="false">jquery-ajaxtransport-xdomainrequest1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 19:05:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vis updated to version 1.0.0]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/1.0.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/1.0.0/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 11:45:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[oppia(0.0.1) was added]]></title>
+            <description><![CDATA[Oppia is a tool for creating interactive online educational activities that give immediate, personalized feedback to learners.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/oppia/0.0.1/oppia-player.min.js">//cdnjs.cloudflare.com/ajax/libs/oppia/0.0.1/oppia-player.min.js</a>]]></description>
+            <link>https://code.google.com/p/oppia/</link>
+            <guid isPermaLink="false">oppia0.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 07:27:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[modernizr updated to version 2.8.1]]></title>
+            <description><![CDATA[Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user's browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js">//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js</a>]]></description>
+            <link>http://www.modernizr.com/</link>
+            <guid isPermaLink="false">modernizr2.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 06:31:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[flight updated to version 1.1.4]]></title>
+            <description><![CDATA[An event-driven web framework, from Twitter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flight/1.1.4/flight.min.js">//cdnjs.cloudflare.com/ajax/libs/flight/1.1.4/flight.min.js</a>]]></description>
+            <link>http://twitter.github.io/flight/</link>
+            <guid isPermaLink="false">flight1.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 00:21:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jszip updated to version 2.2.2]]></title>
             <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.2/jszip.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.2.2/jszip.js</a>]]></description>
@@ -63,28 +135,12 @@
             <pubDate>Thu, 01 May 2014 09:48:58 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[modernizr updated to version 2.8.0]]></title>
-            <description><![CDATA[Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user's browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.0/modernizr.min.js">//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.0/modernizr.min.js</a>]]></description>
-            <link>http://www.modernizr.com/</link>
-            <guid isPermaLink="false">modernizr2.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 May 2014 04:24:08 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[gillie(0.2.1) was added]]></title>
             <description><![CDATA[MVC JavaScript MicroFramework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gillie/0.2.1/gillie.min.js">//cdnjs.cloudflare.com/ajax/libs/gillie/0.2.1/gillie.min.js</a>]]></description>
             <link>http://pablovallejo.github.io/gillie</link>
             <guid isPermaLink="false">gillie0.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 May 2014 03:04:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[xlsx updated to version 0.6.1-a]]></title>
-            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.1-a/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.1-a/xlsx.js</a>]]></description>
-            <link>https://github.com/SheetJS/js-xlsx</link>
-            <guid isPermaLink="false">xlsx0.6.1-a</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 May 2014 00:30:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[phaser updated to version 2.0.4]]></title>
@@ -109,14 +165,6 @@
             <guid isPermaLink="false">gsap1.11.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 29 Apr 2014 23:31:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cytoscape updated to version 2.2.5]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.5/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.5/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.2.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 29 Apr 2014 21:45:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[toastr.js updated to version 2.0.2]]></title>
@@ -163,14 +211,6 @@
             <guid isPermaLink="false">jquery-cookie1.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 28 Apr 2014 17:27:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mithril updated to version 0.1.4]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.4/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.4/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 28 Apr 2014 01:45:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[minicart updated to version 3.0.5]]></title>
@@ -720,197 +760,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">selectize.js0.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 20 Apr 2014 17:21:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jasny-bootstrap updated to version 3.1.2]]></title>
-            <description><![CDATA[Additional features and components for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.2/css/jasny-bootstrap.min.css">//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.2/css/jasny-bootstrap.min.css</a>]]></description>
-            <link>http://jasny.github.com/bootstrap/</link>
-            <guid isPermaLink="false">jasny-bootstrap3.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 19 Apr 2014 16:34:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sizzle updated to version 1.10.19]]></title>
-            <description><![CDATA[A pure-JavaScript, bottom-up CSS selector engine designed to be easily dropped in to a host library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sizzle/1.10.19/sizzle.min.js">//cdnjs.cloudflare.com/ajax/libs/sizzle/1.10.19/sizzle.min.js</a>]]></description>
-            <link>http://sizzlejs.com/</link>
-            <guid isPermaLink="false">sizzle1.10.19</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 19 Apr 2014 14:46:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vis updated to version 0.7.4]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/0.7.4/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/0.7.4/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis0.7.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 19 Apr 2014 09:03:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[speakingurl updated to version 0.9.1]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.9.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.9.1/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.9.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 19 Apr 2014 08:38:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[underscore.string updated to version 2.3.3]]></title>
-            <description><![CDATA[Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.string/2.3.3/underscore.string.min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.string/2.3.3/underscore.string.min.js</a>]]></description>
-            <link>http://epeli.github.com/underscore.string/</link>
-            <guid isPermaLink="false">underscore.string2.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[typeahead.js updated to version 0.10.2]]></title>
-            <description><![CDATA[a fast and fully-featured autocomplete library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.2/typeahead.bundle.min.js">//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.2/typeahead.bundle.min.js</a>]]></description>
-            <link>http://twitter.github.com/typeahead.js/</link>
-            <guid isPermaLink="false">typeahead.js0.10.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[string_score updated to version 0.1.20]]></title>
-            <description><![CDATA[string_score - JavaScript string ranking library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string_score/0.1.20/string_score.min.js">//cdnjs.cloudflare.com/ajax/libs/string_score/0.1.20/string_score.min.js</a>]]></description>
-            <link>https://github.com/joshaven/string_score</link>
-            <guid isPermaLink="false">string_score0.1.20</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sass.js updated to version 0.3.0]]></title>
-            <description><![CDATA[Sass parser in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.3.0/sass.min.js">//cdnjs.cloudflare.com/ajax/libs/sass.js/0.3.0/sass.min.js</a>]]></description>
-            <link>https://github.com/medialize/sass.js</link>
-            <guid isPermaLink="false">sass.js0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rickshaw updated to version 1.4.6]]></title>
-            <description><![CDATA[JavaScript toolkit for creating interactive real-time graphs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rickshaw/1.4.6/rickshaw.min.js">//cdnjs.cloudflare.com/ajax/libs/rickshaw/1.4.6/rickshaw.min.js</a>]]></description>
-            <link>http://code.shutterstock.com/rickshaw/</link>
-            <guid isPermaLink="false">rickshaw1.4.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[reqwest updated to version 1.1.0]]></title>
-            <description><![CDATA[A wrapper for asynchronous http requests<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.0/reqwest.js">//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.0/reqwest.js</a>]]></description>
-            <link>https://github.com/ded/reqwest</link>
-            <guid isPermaLink="false">reqwest1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsoneditor updated to version 2.3.6]]></title>
-            <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/2.3.6/jsoneditor-min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/2.3.6/jsoneditor-min.js</a>]]></description>
-            <link>http://jsoneditoronline.org</link>
-            <guid isPermaLink="false">jsoneditor2.3.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[font-awesome updated to version 4.0.3]]></title>
-            <description><![CDATA[Font Awesome<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css</a>]]></description>
-            <link>http://fontawesome.io/</link>
-            <guid isPermaLink="false">font-awesome4.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[eve.js updated to version 0.8.4]]></title>
-            <description><![CDATA[A JavaScript meta-framework for scoped event delegation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/eve.js/0.8.4/eve.min.js">//cdnjs.cloudflare.com/ajax/libs/eve.js/0.8.4/eve.min.js</a>]]></description>
-            <link>http://evejs.com</link>
-            <guid isPermaLink="false">eve.js0.8.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[depot updated to version 0.1.6]]></title>
-            <description><![CDATA[depot.js is a namespaced localStorage wrapper with a simple API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/depot/0.1.6/depot.min.js">//cdnjs.cloudflare.com/ajax/libs/depot/0.1.6/depot.min.js</a>]]></description>
-            <link>https://github.com/mkuklis/depot.js</link>
-            <guid isPermaLink="false">depot0.1.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dc updated to version 1.6.0]]></title>
-            <description><![CDATA[A multi-dimensional charting built to work natively with crossfilter rendered using d3.js <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dc/1.6.0/dc.min.js">//cdnjs.cloudflare.com/ajax/libs/dc/1.6.0/dc.min.js</a>]]></description>
-            <link>http://nickqizhu.github.com/dc.js/</link>
-            <guid isPermaLink="false">dc1.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[crossroads updated to version 0.12.0]]></title>
-            <description><![CDATA[Flexible router which can be used in multiple environments<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crossroads/0.12.0/crossroads.min.js">//cdnjs.cloudflare.com/ajax/libs/crossroads/0.12.0/crossroads.min.js</a>]]></description>
-            <link>http://millermedeiros.github.com/crossroads.js/</link>
-            <guid isPermaLink="false">crossroads0.12.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[crossfilter updated to version 1.3.7]]></title>
-            <description><![CDATA[Fast multidimensional filtering for coordinated views.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.7/crossfilter.min.js">//cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.7/crossfilter.min.js</a>]]></description>
-            <link>http://square.github.com/crossfilter/</link>
-            <guid isPermaLink="false">crossfilter1.3.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bignumber.js updated to version 1.3.0]]></title>
-            <description><![CDATA[A library for arbitrary-precision decimal and non-decimal arithmetic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bignumber.js/1.3.0/bignumber.min.js">//cdnjs.cloudflare.com/ajax/libs/bignumber.js/1.3.0/bignumber.min.js</a>]]></description>
-            <link>http://mikemcl.github.io/bignumber.js/</link>
-            <guid isPermaLink="false">bignumber.js1.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-react-component updated to version 0.6.2]]></title>
-            <description><![CDATA[Backbone.React.Component is a wrapper for React.Component and brings all the power of Facebook's React to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.6.2/backbone-react-component.js">//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.6.2/backbone-react-component.js</a>]]></description>
-            <guid isPermaLink="false">backbone-react-component0.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-associations updated to version 0.6.1]]></title>
-            <description><![CDATA[Create object hierarchies with Backbone models. Respond to hierarchy changes using regular Backbone events<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-associations/0.6.1/backbone-associations-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-associations/0.6.1/backbone-associations-min.js</a>]]></description>
-            <link>http://dhruvaray.github.io/backbone-associations/</link>
-            <guid isPermaLink="false">backbone-associations0.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 18:07:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[d3-geo-projection(0.2.9) was added]]></title>
-            <description><![CDATA[Extended geographic projections for D3.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.9/d3.geo.projection.min.js">//cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.9/d3.geo.projection.min.js</a>]]></description>
-            <link>https://github.com/d3/d3-geo-projection</link>
-            <guid isPermaLink="false">d3-geo-projection0.2.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 14:30:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[socket.io updated to version 0.9.16]]></title>
-            <description><![CDATA[Browser-side code for Socket.IO. Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js">//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js</a>]]></description>
-            <link>http://socket.io</link>
-            <guid isPermaLink="false">socket.io0.9.16</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 10:00:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-markdown updated to version 2.2.1]]></title>
-            <description><![CDATA[A bootstrap plugin for markdown editing<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.2.1/js/bootstrap-markdown.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.2.1/js/bootstrap-markdown.js</a>]]></description>
-            <link>https://github.com/toopay/bootstrap-markdown</link>
-            <guid isPermaLink="false">bootstrap-markdown2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 09:30:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gl-matrix updated to version 2.1.0]]></title>
-            <description><![CDATA[Javascript Matrix and Vector library for High Performance WebGL apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix-min.js">//cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix-min.js</a>]]></description>
-            <link>https://github.com/toji/gl-matrix</link>
-            <guid isPermaLink="false">gl-matrix2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 18 Apr 2014 09:15:59 GMT</pubDate>
         </item>
     </channel>
 </rss>
