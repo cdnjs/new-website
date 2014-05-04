@@ -54,7 +54,7 @@ var generatePage = function (options) {
   }
   var pageContent = Mustache.render(page.template, page.data);
 
-  var fullContent = Mustache.render(layout, {title: title, page: pageContent});
+  var fullContent = Mustache.render(layout, {title: title, description: description, page: pageContent});
   return fullContent;
 
 }
