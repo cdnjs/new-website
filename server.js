@@ -47,10 +47,11 @@ var templates = {
 var generatePage = function (options) {
   var layout = options.layout || templates.layout;
   var title = options.title || 'cdnjs.com - the missing cdn for javascript and css'
+  var description = options.page && options.page.description || 'An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!'
+  
   var page = {
     data: options.page && options.page.data || {},
-    template: options.page && options.page.template || 'No content',
-    description: options.page && options.page.description || 'An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!'
+    template: options.page && options.page.template || 'No content'
   }
   var pageContent = Mustache.render(page.template, page.data);
 
