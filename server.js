@@ -49,7 +49,8 @@ var generatePage = function (options) {
   var title = options.title || 'cdnjs.com - the missing cdn for javascript and css'
   var page = {
     data: options.page && options.page.data || {},
-    template: options.page && options.page.template || 'No content'
+    template: options.page && options.page.template || 'No content',
+    description: options.page && options.page.description || 'An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!'
   }
   var pageContent = Mustache.render(page.template, page.data);
 
@@ -75,7 +76,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       title: library + ' - cdnjs.com - the missing cdn for javascript and css',
       page: {
         template: templates.library,
-        data: {library: LIBRARIES_MAP[library]}
+        data: {library: LIBRARIES_MAP[library]},
+        description: LIBRARIES_MAP[library].description
       }
     }));
   });
