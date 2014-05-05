@@ -1,43 +1,74 @@
 <div class="container" style="text-align: center;">
-    <form class="form" onsubmit="return signup()">
-      <h2 class="form-heading">Sign up for cdnjs</h2><br />
-      <div class="form-fields">
-        <input id="username" type="text" class="form-control" placeholder="Username" required><br />
-        <input id="email" type="text" class="form-control" placeholder="Email address" required><br />
-        <input id="password" type="password" class="form-control" placeholder="Password" required><br />
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Create my account</button>
-      <img id="loader" src="img/ajax-loader.gif" style="display: none; margin: 30px auto;">
-    </form>
-    <p><br />Already have an account? <a href="login">Log in</a></p>
-  </div> 
+  <form class="form" onsubmit="return signup()">
+    <h2 class="form-heading">Sign up for cdnjs</h2>
+    <p>Save your
+      <strong>favorites</strong> for easy access | Receive important system
+      <strong>notifications | </strong>Create your own
+      <strong>public profile</strong> to share.</p>
+    <br />
+    <br />
+    <div class="form-fields">
+      <input id="username" type="text" class="form-control" placeholder="Username" required>
+      <br />
+      <input id="email" type="text" class="form-control" placeholder="Email address" required>
+      <br />
+      <input id="password" type="password" class="form-control" placeholder="Password" required>
+      <br />
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Create my account</button>
+    <img id="loader" src="img/ajax-loader.gif" style="display: none; margin: 30px auto;">
+  </form>
+  <p>
+    <br />Already have an account? <a href="login">Log in</a>
+  </p>
+</div>
 <script>
-    // Function to show and hide the loader anim
-    function showLoader(show) {
-      document.getElementById("loader").style.display = (show ? "block" : "none");
-    }
+// Function to show and hide the loader anim
 
-    function signup() {
-      // Show the loader
-      showLoader(true);
+function showLoader(show) {
+  document.getElementById("loader").style.display = (show ? "block" : "none");
+}
 
-      // This will sign up the user
-      UserApp.User.save({
+function onLoginSuccessful() {
+  // Now, save the token in a cookie
+  Kaka.set("ua_session_token", UserApp.global.token);
+
+  // Redirect the user to the index page
+  window.location.href = "/";
+  showLoader(false);
+}
+
+function signup() {
+  // Show the loader
+  showLoader(true);
+
+  // This will sign up the user
+  UserApp.User.save({
+    login: document.getElementById("username").value,
+    email: document.getElementById("email").value,
+    password: document.getElementById("password").value
+  }, function(error, user) {
+    if (error) {
+      alert("Error: " + error.message);
+    } else {
+
+      UserApp.User.login({
         login: document.getElementById("username").value,
-        email: document.getElementById("email").value,
         password: document.getElementById("password").value
-      }, function(error, user) {
+      }, function(error, result) {
         if (error) {
+          // Wrong password maybe?
           alert("Error: " + error.message);
+          showLoader(false);
         } else {
-          
-          // Redirect to login page
-          window.location.href = "/login";
+          onLoginSuccessful();
         }
-
-        showLoader(false);
       });
-      
-      return false;
     }
-  </script>
+
+    showLoader(false);
+  });
+
+  return false;
+}
+</script>
