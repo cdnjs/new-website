@@ -35,6 +35,8 @@ body {
 .css-type .copy-options  .css {
   display: block !important;
 }
+
+.library-container .add-favorite,
 .favorite .add-favorite {
   display: none;
 }

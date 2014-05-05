@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row library-container">
   <div class="col-md-12">
     <h1>{{library.name}}</h1>
 
@@ -25,7 +25,7 @@
             <tbody>
               {{#files}}
               <tr class="library">
-                <td>
+                <td class="library-column" style="position: relative; padding: 8px;">
                   <p class='library-url'>//cdnjs.cloudflare.com/ajax/libs/{{library.originalName}}/{{version}}/{{.}}</p>
                 </td>
               </tr>
