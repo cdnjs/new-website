@@ -29,6 +29,12 @@ _.each(LIBRARIES, function(library){
   library.originalName = library.name;
   library.name = library.name.toLowerCase();
   library.id = library.name.replace(/\./g, '');
+
+  if(library.filename && library.filename.substr(library.filename.length-3, library.filename.length) === 'css') {
+    library.fileType = 'css';
+  } else {
+    library.fileType = 'js';
+  }
   library.keywords = library.keywords && library.keywords.join(',');
   library.assets = _.map(library.assets, function (assets) {
     if(library.version === assets.version) {

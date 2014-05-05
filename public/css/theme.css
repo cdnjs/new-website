@@ -16,3 +16,22 @@ body {
 .assets.active {
   display: block !important;
 }
+
+.copy-button-group {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+}
+.copy-options .css {
+  display: none;
+}
+.copy-options .js {
+  display: none;
+}
+.js-type .copy-options  .js {
+  display: block !important;
+}
+
+.css-type .copy-options  .css {
+  display: block !important;
+}
