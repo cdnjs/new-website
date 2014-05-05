@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 May 2014 11:14:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 May 2014 11:15:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">angular-busy4.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 05 May 2014 06:18:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[trianglify(0.1.2) was added]]></title>
+            <description><![CDATA[Trianglify is a javascript library for generating colorful triangle meshes that can be used as SVG images and CSS backgrounds.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.2/trianglify.min.js">//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.2/trianglify.min.js</a>]]></description>
+            <link>https://github.com/qrohlf/trianglify</link>
+            <guid isPermaLink="false">trianglify0.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 05 May 2014 06:15:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[breezejs updated to version 1.4.11]]></title>
