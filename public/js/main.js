@@ -1,3 +1,5 @@
+ currentUser = null; // This will contain the logged in user
+
 (function($) {
 
     function selectText(element) {
@@ -25,7 +27,6 @@
     UserApp.initialize({
       appId: "5343d12871774"
     });
-    var currentUser = null; // This will contain the logged in user
     // Check if there is a session cookie
     var token = Kaka.get("ua_session_token");
     if (token) {
@@ -123,10 +124,11 @@
       });
     }
 
-    $('#example .change-favorite').on('click', function(e) {
-
+    $('body').on('click', '.add-favorite', function(e) {
+      if(!currentUser) {
+        window.location = '/register';
+      }
         var rowId = $(e.currentTarget).parents('tr')[0].id;
-        if (!_.contains(favorites, rowId)) {
           favorites.push(rowId);
           _gaq.push(['_trackEvent', 'favorite', 'added', rowId]);
 
@@ -140,21 +142,6 @@
               library: rowId
             }
           })
-        } else if (_.isArray(favorites) && favorites.length > 0) {
-          _gaq.push(['_trackEvent', 'favorite', 'removed', rowId]);
-          favorites = _.without(favorites, rowId);
-
-          $.ajax({
-            url: '/favorites?token=' + token,
-            success: function() {
-              console.log(arguments)
-            },
-            type: 'DELETE',
-            data: {
-              library: rowId
-            }
-          })
-        }
 
         var favRow = $('#' + rowId);
         console.log(favRow);
@@ -169,8 +156,41 @@
         }
       //$('#example tr').removeClass('favorite');
       //putClassOnFavorites(favorites);
+      return false;
     });
+$('body').on('click', '.remove-favorite', function(e) {
 
+        var rowId = $(e.currentTarget).parents('tr')[0].id;
+
+          _gaq.push(['_trackEvent', 'favorite', 'removed', rowId]);
+          favorites = _.without(favorites, rowId);
+
+          $.ajax({
+            url: '/favorites?token=' + token,
+            success: function() {
+              console.log(arguments)
+            },
+            type: 'DELETE',
+            data: {
+              library: rowId
+            }
+          })
+
+        var favRow = $('#' + rowId);
+        console.log(favRow);
+        if (favRow.hasClass('favorite')) {
+          $(favRow).appendTo('#example tbody');
+          favRow.removeClass('favorite');
+        } else {
+          window.a =favRow;
+          favRow.addClass('favorite');
+          $(favRow).prependTo('#example tbody');
+
+        }
+      //$('#example tr').removeClass('favorite');
+      //putClassOnFavorites(favorites);
+      return false;
+    });
 /*
 <div class="btn-group">
                   <button type="button" class="btn btn-primary">Primary</button>
@@ -200,8 +220,9 @@
                     '<li><a data-copy-type="http:" class="copy-http-url copy-button" href="#">Copy HTTP Url</a></li>' +
                     '<li class="js"><a data-copy-embed="script" data-copy-type="http:" class=" copy-http-script copy-button" href="#">Copy HTTP Script Tag</a></li>' +
                     '<li class="css"><a data-copy-embed="link" data-copy-type="http:" class="copy-http-link copy-button" href="#">Copy HTTP Link Tag</a></li>' +
-                    //'<li class="divider"></li>' +
-                    //'<li><a class="disabled add-to-favorites" href="#">Add to favorites</a></li>' +
+                    '<li class="divider"></li>' +
+                    '<li><a class="add-favorite" href="#">Add to favorites</a></li>' +
+                    '<li><a class="remove-favorite" href="#">Remove from favorites</a></li>' +
                  '</ul>');
 
   var copyContainer = $('<div/>');
