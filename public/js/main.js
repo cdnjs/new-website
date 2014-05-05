@@ -307,4 +307,11 @@
   //putClassOnFavorites(getFavorites());
   $('#search-box').focus();
 
+  $('.version-selector').on('change', function (ev) {
+    var val = $(ev.currentTarget).val();
+    $('[data-library-version]').removeClass('active');
+    $('[data-library-version="'+val+'"]').addClass('active');
+
+  });
+
 })(jQuery);

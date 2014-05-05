@@ -30,7 +30,18 @@ _.each(LIBRARIES, function(library){
   library.name = library.name.toLowerCase();
   library.id = library.name.replace(/\./g, '');
   library.keywords = library.keywords && library.keywords.join(',');
+  library.assets = _.map(library.assets, function (assets) {
+    if(library.version === assets.version) {
+      assets.selected = 'selected="selected"';
+      assets.classes = 'active';
+    } else {
+      assets.selected = '';
+      assets.classes = '';
+    }
+    return assets;
+  })
   LIBRARIES_MAP[library.name.toLowerCase().replace(/\./g, '')] = library;
+
 });
 
 // Templates

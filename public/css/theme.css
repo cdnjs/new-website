@@ -11,4 +11,8 @@ body {
   -webkit-border-radius: 80px; /* Saf3+, Chrome */
   border-radius: 80px; /* Opera 10.5, IE 9 */
   /*-moz-border-radius: 30px;  Disabled for FF1+ */
-  }
+}
+
+.assets.active {
+  display: block !important;
+}

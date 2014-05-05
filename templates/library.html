@@ -4,12 +4,15 @@
 
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
       <p>{{library.description}}</p>
-
-
-
+      <select class="version-selector" style="float: right;">
+        {{#library.assets}}
+          <option value="{{version}}" {{selected}}>{{version}}</option>
+        {{/library.assets}}
+      </select>
+      <div style="clear: both;"></div>
+      <br />
       {{#library.assets}}
-
-      <div class="panel panel-primary">
+      <div data-library-version="{{version}}" class="assets panel panel-primary {{classes}}" style="display: none;">
         <div class="panel-heading">
           <div class="panel-title">Version {{version}}</div>
         </div>
