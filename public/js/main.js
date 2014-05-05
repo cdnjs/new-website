@@ -254,6 +254,7 @@ $('body').on('click', '.remove-favorite', function(e) {
       } else if (embed === 'link') {
         url = '<link rel="stylesheet" href="' + url + '">';
       }
+          _gaq.push(['_trackEvent', 'library', 'copied', 1]);
 
       toastr.info('Copied to the clipboard');
 

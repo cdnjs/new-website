@@ -80,6 +80,17 @@ var generatePage = function (options) {
 
 
 MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
+
+
+
+    db.collection('user_data').aggregate(
+    { $project: { favorites: 1 }},
+    { $unwind: "$favorites" },
+    { $group: { _id: "result", count: { $sum: 1 }}}
+  , function () {
+    console.log(arguments);
+  });
+
   app.get('/', function(req, res) {
     res.send(generatePage({
       page: {
