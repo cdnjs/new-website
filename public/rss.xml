@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 May 2014 01:42:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 May 2014 05:05:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-busy(4.0.2) was added]]></title>
+            <description><![CDATA[Show busy/loading indicators on any $http or $resource request, or on any promise<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-busy/4.0.2/angular-busy.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-busy/4.0.2/angular-busy.min.js</a>]]></description>
+            <link>https://github.com/cgross/angular-busy</link>
+            <guid isPermaLink="false">angular-busy4.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 04 May 2014 22:56:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ocanvas updated to version 2.7.1]]></title>
             <description><![CDATA[oCanvas is a JavaScript library that makes development with HTML5 canvas easy, by using an object-based approach.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.1/ocanvas.min.js">//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.1/ocanvas.min.js</a>]]></description>
