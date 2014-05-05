@@ -9,6 +9,39 @@ var packagesurl = 'https://s3.amazonaws.com/cdnjs-artifacts/packages.json?' + ne
 superagent.get(packagesurl, function(res, textStatus, xhr){
   fs.writeFileSync('public/packages.json', JSON.stringify(res.body, null, 4), 'utf8');
   fs.writeFileSync('public/packages.min.json', JSON.stringify(res.body), 'utf8');
+
+
+  // Generate sitemap
+
+  var pages = [
+    'http://cdnjs.com/',
+    'http://cdnjs.com/about',
+    'http://cdnjs.com/login',
+    'http://cdnjs.com/register'
+  ];
+
+
+  var xml = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+
+
+  var librariePages = _.map(res.body.packages, function (package) {
+    return 'http://cdnjs.com/libraries/' + package.name;
+  });
+
+
+  pages = pages.concat(librariePages);
+
+  _.each(pages, function(page){
+    xml += '<url><loc>' + page + '</loc></url>';
+  });
+
+
+  xml += '</urlset>';
+
+  fs.writeFileSync('public/sitemap.xml', xml, 'utf8');
+
+
+
 });
 
 
