@@ -248,13 +248,13 @@ $('body').on('click', '.remove-favorite', function(e) {
       var button = $(event.target);
       var embed = button.attr('data-copy-embed');
       var url = button.attr('data-copy-type') + $('.library-url', button.parents('.library-column')).text();
-
+      var oldurl = url;
       if(embed === 'script') {
         url = '<script type="text/javascript" src="' + url + '"></script>';
       } else if (embed === 'link') {
         url = '<link rel="stylesheet" href="' + url + '">';
       }
-          _gaq.push(['_trackEvent', 'library', 'copied', 1]);
+          _gaq.push(['_trackEvent', 'library', 'copied', oldurl]);
 
       toastr.warning('Copied to the clipboard');
 
