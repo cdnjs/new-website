@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 04 May 2014 22:32:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 May 2014 01:42:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ocanvas updated to version 2.7.1]]></title>
+            <description><![CDATA[oCanvas is a JavaScript library that makes development with HTML5 canvas easy, by using an object-based approach.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.1/ocanvas.min.js">//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.1/ocanvas.min.js</a>]]></description>
+            <link>http://ocanvas.org/</link>
+            <guid isPermaLink="false">ocanvas2.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 04 May 2014 21:22:02 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[xlsx updated to version 0.6.2]]></title>
             <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js</a>]]></description>
@@ -21,14 +29,6 @@
             <guid isPermaLink="false">xlsx0.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 May 2014 20:00:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ocanvas updated to version 2.7.0]]></title>
-            <description><![CDATA[oCanvas is a JavaScript library that makes development with HTML5 canvas easy, by using an object-based approach.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.0/ocanvas.min.js">//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.0/ocanvas.min.js</a>]]></description>
-            <link>http://ocanvas.org/</link>
-            <guid isPermaLink="false">ocanvas2.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 May 2014 10:34:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.11]]></title>
@@ -734,14 +734,6 @@
             <guid isPermaLink="false">Faker0.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-rtl updated to version 3.1.1]]></title>
-            <description><![CDATA[Right-to-left (RTL) theme for Boostrap 3.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1/css/bootstrap-rtl.min.css">//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.1/css/bootstrap-rtl.min.css</a>]]></description>
-            <link>http://github.com/ratnic/bootstrap-rtl</link>
-            <guid isPermaLink="false">bootstrap-rtl3.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 20 Apr 2014 23:31:14 GMT</pubDate>
         </item>
     </channel>
 </rss>
