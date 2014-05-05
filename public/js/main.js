@@ -200,8 +200,8 @@
                     '<li><a data-copy-type="http:" class="copy-http-url copy-button" href="#">Copy HTTP Url</a></li>' +
                     '<li class="js"><a data-copy-embed="script" data-copy-type="http:" class=" copy-http-script copy-button" href="#">Copy HTTP Script Tag</a></li>' +
                     '<li class="css"><a data-copy-embed="link" data-copy-type="http:" class="copy-http-link copy-button" href="#">Copy HTTP Link Tag</a></li>' +
-                    '<li class="divider"></li>' +
-                    '<li><a class="disabled add-to-favorites" href="#">Add to favorites</a></li>' +
+                    //'<li class="divider"></li>' +
+                    //'<li><a class="disabled add-to-favorites" href="#">Add to favorites</a></li>' +
                  '</ul>');
 
   var copyContainer = $('<div/>');
