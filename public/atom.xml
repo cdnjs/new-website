@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 May 2014 22:02:41 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 May 2014 23:07:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -133,6 +133,22 @@
             <guid isPermaLink="false">modernizr2.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 02 May 2014 06:31:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[datatables-fixedheader updated to version 2.1.1]]></title>
+            <description><![CDATA[The FixedHeader plug-in will freeze in place the header, footer and left and/or right most columns in a DataTable, ensuring that title information will remain always visible.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/datatables-fixedheader/2.1.1/dataTables.fixedHeader.min.js">//cdnjs.cloudflare.com/ajax/libs/datatables-fixedheader/2.1.1/dataTables.fixedHeader.min.js</a>]]></description>
+            <link>http://datatables.net/extensions/fixedheader/</link>
+            <guid isPermaLink="false">datatables-fixedheader2.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 05:41:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[datatables updated to version 1.10.0]]></title>
+            <description><![CDATA[DataTables enhances HTML tables with the ability to sort, filter and page the data in the table very easily. It provides a comprehensive API and set of configuration options, allowing you to consume data from virtually any data source.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.0/jquery.dataTables.min.js">//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.0/jquery.dataTables.min.js</a>]]></description>
+            <link>http://datatables.net</link>
+            <guid isPermaLink="false">datatables1.10.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 05:15:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[flight updated to version 1.1.4]]></title>
