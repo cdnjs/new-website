@@ -129,6 +129,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
             gravatar: get_gravatar(user.email, 100)
           }
           res.send(generatePage({
+            title: data.login + ' profile - cdnjs.com - the missing cdn for javascript and css',
             page: {
               template: templates.profile,
               data: data
@@ -192,6 +193,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
           })
         }
       res.send(generatePage({
+        title: 'members - cdnjs.com - the missing cdn for javascript and css',
         page: {
           template: templates.members,
           data: {
@@ -214,7 +216,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   app.get('/about', function(req, res) {
     res.send(generatePage({
       page: {
-        template: templates.about
+        template: templates.about,
+        title: 'about - cdnjs.com - the missing cdn for javascript and css'
       }
     }));
   });
