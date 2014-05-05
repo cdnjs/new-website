@@ -254,7 +254,7 @@ $('body').on('click', '.remove-favorite', function(e) {
       } else if (embed === 'link') {
         url = '<link rel="stylesheet" href="' + url + '">';
       }
-          _gaq.push(['_trackEvent', 'library', 'copied', oldurl]);
+          _gaq.push(['_trackEvent', 'library', 'copied', button.parents('.library-column').attr('data-lib-name')]);
 
       toastr.warning('Copied to the clipboard');
 

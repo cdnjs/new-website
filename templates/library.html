@@ -25,7 +25,7 @@
             <tbody>
               {{#files}}
               <tr class="library">
-                <td class="library-column" style="position: relative; padding: 8px;">
+                <td class="library-column"  data-lib-name="{{library.name}}" style="position: relative; padding: 8px;">
                   <p class='library-url'>//cdnjs.cloudflare.com/ajax/libs/{{library.originalName}}/{{version}}/{{.}}</p>
                 </td>
               </tr>
