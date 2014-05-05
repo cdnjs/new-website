@@ -35,3 +35,12 @@ body {
 .css-type .copy-options  .css {
   display: block !important;
 }
+.favorite .add-favorite {
+  display: none;
+}
+.favorite .remove-favorite {
+  display: block !important;
+}
+.remove-favorite {
+  display: none !important;
+}
