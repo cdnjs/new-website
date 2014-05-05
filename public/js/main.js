@@ -256,7 +256,7 @@ $('body').on('click', '.remove-favorite', function(e) {
       }
           _gaq.push(['_trackEvent', 'library', 'copied', 1]);
 
-      toastr.info('Copied to the clipboard');
+      toastr.warning('Copied to the clipboard');
 
       var clipboard = event.clipboardData;
       clipboard.setData( "text/plain", url );
