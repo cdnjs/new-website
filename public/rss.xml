@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 May 2014 11:35:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 May 2014 17:15:46 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -45,6 +45,14 @@
             <guid isPermaLink="false">breezejs1.4.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 05 May 2014 06:00:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb(2.2.0) was added]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.0/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.0/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 05 May 2014 04:05:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ocanvas updated to version 2.7.1]]></title>
@@ -626,146 +634,6 @@
             <guid isPermaLink="false">accounting.js0.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 21 Apr 2014 20:10:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[leaflet.markercluster updated to version 0.4.0]]></title>
-            <description><![CDATA[Marker Clustering plugin for Leaflet.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js">//cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js</a>]]></description>
-            <link>https://github.com/Leaflet/Leaflet.markercluster</link>
-            <guid isPermaLink="false">leaflet.markercluster0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 16:49:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-forms updated to version 0.14.0]]></title>
-            <description><![CDATA[Form framework for BackboneJS with nested forms, editable lists and validation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-forms/0.14.0/backbone-forms.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-forms/0.14.0/backbone-forms.min.js</a>]]></description>
-            <link>https://github.com/powmedia/backbone-forms</link>
-            <guid isPermaLink="false">backbone-forms0.14.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 15:20:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[stapes updated to version 0.8.1]]></title>
-            <description><![CDATA[A (really) tiny Javascript MVC microframework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/stapes/0.8.1/stapes.min.js">//cdnjs.cloudflare.com/ajax/libs/stapes/0.8.1/stapes.min.js</a>]]></description>
-            <link>http://hay.github.com/stapes</link>
-            <guid isPermaLink="false">stapes0.8.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 13:31:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[qwery updated to version 4.0.0]]></title>
-            <description><![CDATA[blazing fast CSS3 query selector engine<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/qwery/4.0.0/qwery.js">//cdnjs.cloudflare.com/ajax/libs/qwery/4.0.0/qwery.js</a>]]></description>
-            <link>https://github.com/ded/qwery</link>
-            <guid isPermaLink="false">qwery4.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 13:31:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[queue-async updated to version 1.0.7]]></title>
-            <description><![CDATA[A little helper for asynchronous JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js">//cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js</a>]]></description>
-            <guid isPermaLink="false">queue-async1.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 13:14:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[q.js updated to version 1.0.1]]></title>
-            <description><![CDATA[A library for promises (CommonJS/Promises/A,B,D)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/q.js/1.0.1/q.js">//cdnjs.cloudflare.com/ajax/libs/q.js/1.0.1/q.js</a>]]></description>
-            <link>https://github.com/kriskowal/q</link>
-            <guid isPermaLink="false">q.js1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 13:14:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[primish updated to version 0.3.5]]></title>
-            <description><![CDATA[A portable Class implementation in javascript, forked from MooTools Prime and created for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/primish/0.3.5/primish-min.js">//cdnjs.cloudflare.com/ajax/libs/primish/0.3.5/primish-min.js</a>]]></description>
-            <guid isPermaLink="false">primish0.3.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 13:14:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockback updated to version 0.18.4]]></title>
-            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.18.4/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.18.4/knockback.min.js</a>]]></description>
-            <guid isPermaLink="false">knockback0.18.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 13:14:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[klass updated to version 1.4.0]]></title>
-            <description><![CDATA[An expressive, cross platform JavaScript Class provider with a classical interface to prototypal inheritance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/klass/1.4.0/klass.js">//cdnjs.cloudflare.com/ajax/libs/klass/1.4.0/klass.js</a>]]></description>
-            <link>http://dustindiaz.com/klass</link>
-            <guid isPermaLink="false">klass1.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 13:14:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jstree updated to version 3.0.0]]></title>
-            <description><![CDATA[jQuery tree plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.0/jstree.min.js">//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.0/jstree.min.js</a>]]></description>
-            <link>http://jstree.com</link>
-            <guid isPermaLink="false">jstree3.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 13:14:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dropzone updated to version 3.8.4]]></title>
-            <description><![CDATA[Drag'n'drop file uploads with image previews<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dropzone/3.8.4/dropzone.min.js">//cdnjs.cloudflare.com/ajax/libs/dropzone/3.8.4/dropzone.min.js</a>]]></description>
-            <link>http://www.dropzonejs.com/</link>
-            <guid isPermaLink="false">dropzone3.8.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 13:14:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cubism updated to version 1.6.0]]></title>
-            <description><![CDATA[A JavaScript library for time series visualization.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cubism/1.6.0/cubism.v1.min.js">//cdnjs.cloudflare.com/ajax/libs/cubism/1.6.0/cubism.v1.min.js</a>]]></description>
-            <link>http://square.github.com/cubism/</link>
-            <guid isPermaLink="false">cubism1.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chroma-js updated to version 0.5.6]]></title>
-            <description><![CDATA[JavaScript library for color conversions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.6/chroma.min.js">//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.6/chroma.min.js</a>]]></description>
-            <link>https://github.com/gka/chroma.js</link>
-            <guid isPermaLink="false">chroma-js0.5.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bucky updated to version 0.2.4]]></title>
-            <description><![CDATA[Open-source tool to measure the performance of your web app directly from your users' browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bucky/0.2.4/bucky.min.js">//cdnjs.cloudflare.com/ajax/libs/bucky/0.2.4/bucky.min.js</a>]]></description>
-            <link>http://github.hubspot.com/bucky/</link>
-            <guid isPermaLink="false">bucky0.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[blueimp-gallery updated to version 2.15.0]]></title>
-            <description><![CDATA[blueimp Gallery is a touch-enabled, responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers. It features swipe, mouse and keyboard navigation, transition effects, slideshow functionality, fullscreen support and on-demand content loading and can be extended to display additional content types.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.15.0/js/blueimp-gallery.js">//cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.15.0/js/blueimp-gallery.js</a>]]></description>
-            <link>https://github.com/blueimp/Gallery</link>
-            <guid isPermaLink="false">blueimp-gallery2.15.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bean updated to version 1.0.6]]></title>
-            <description><![CDATA[A small, fast, framework-agnostic event manager<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bean/1.0.6/bean.min.js">//cdnjs.cloudflare.com/ajax/libs/bean/1.0.6/bean.min.js</a>]]></description>
-            <link>https://github.com/fat/bean</link>
-            <guid isPermaLink="false">bean1.0.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-moment updated to version 0.7.0]]></title>
-            <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.7.0/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.7.0/angular-moment.min.js</a>]]></description>
-            <link>https://github.com/urish/angular-moment</link>
-            <guid isPermaLink="false">angular-moment0.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Faker updated to version 0.7.0]]></title>
-            <description><![CDATA[Generate massive amounts of fake contextual data<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Faker/0.7.0/MinFaker.js">//cdnjs.cloudflare.com/ajax/libs/Faker/0.7.0/MinFaker.js</a>]]></description>
-            <guid isPermaLink="false">Faker0.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 12:44:05 GMT</pubDate>
         </item>
     </channel>
 </rss>
