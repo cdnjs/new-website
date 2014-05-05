@@ -127,7 +127,9 @@
     $('body').on('click', '.add-favorite', function(e) {
       if(!currentUser) {
         window.location = '/register';
+        return false;
       }
+              toastr.success('Added a new favorite')
         var rowId = $(e.currentTarget).parents('tr')[0].id;
           favorites.push(rowId);
           _gaq.push(['_trackEvent', 'favorite', 'added', rowId]);
@@ -135,7 +137,7 @@
           $.ajax({
             url: '/favorites?token=' + token,
             success: function() {
-              console.log(arguments)
+              console.log(arguments);
             },
             type: 'POST',
             data: {
@@ -159,6 +161,7 @@
       return false;
     });
 $('body').on('click', '.remove-favorite', function(e) {
+              toastr.error('Removed a favorite')
 
         var rowId = $(e.currentTarget).parents('tr')[0].id;
 
@@ -251,6 +254,9 @@ $('body').on('click', '.remove-favorite', function(e) {
       } else if (embed === 'link') {
         url = '<link rel="stylesheet" href="' + url + '">';
       }
+
+      toastr.info('Copied to the clipboard');
+
       var clipboard = event.clipboardData;
       clipboard.setData( "text/plain", url );
     });
