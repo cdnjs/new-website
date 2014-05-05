@@ -1,0 +1,24 @@
+<h3>Members</h3>
+<p><em>{{total_users}} community members and growing</em></p>
+<ul class="pagination">
+  {{#page_nav}}
+  <li class="{{classes}}"><a href="/members/{{page}}">{{page}} <span class="sr-only">(current)</span></a></li>
+  {{/page_nav}}
+</ul>
+<table class="table">
+
+<tbody>
+<thead><th style="width: 25px;"></th><th>User</th></thead>
+{{#users}}
+<tr>
+  <td><img src="{{gravatar}}" /></td>
+  <td><a href="/profile/{{login}}">{{login}}</a></td>
+  </tr>
+  {{/users}}
+  </tbody>
+  </table>
+  <ul class="pagination">
+  {{#page_nav}}
+  <li class="{{classes}}"><a href="/members/{{page}}">{{page}} <span class="sr-only">(current)</span></a></li>
+  {{/page_nav}}
+</ul>

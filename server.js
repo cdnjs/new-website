@@ -41,6 +41,7 @@ var templates = {
   login: fs.readFileSync('templates/login.html', 'utf8'),
   register: fs.readFileSync('templates/register.html', 'utf8'),
   profile: fs.readFileSync('templates/profile.html', 'utf8'),
+  members: fs.readFileSync('templates/members.html', 'utf8'),
   about: fs.readFileSync('templates/about.html', 'utf8')
 }
 
@@ -163,6 +164,53 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       }
     }));
   });
+
+
+  var membersRoute = function(req, res) {
+    var page = req.params.page || 1;
+    console.log(page);
+    UserApp.setToken(user_app_token);
+    UserApp.User.search({
+        "page": page,
+        "fields": ["login", "email"],
+        "page_size": 100
+    }, function(error, result){
+        // Handle error/result
+        var users = result.items;
+        users = _.map(users, function(user){
+          return {
+            login: user.login,
+            gravatar: get_gravatar(user.email, 25)
+          }
+        })
+
+        var page_nav = [];
+        for(var i = 0; i<result.total_pages;i++) {
+          page_nav.push({
+            page: i + 1,
+            classes: i + 1 === page*1 ? 'active' : ''
+          })
+        }
+      res.send(generatePage({
+        page: {
+          template: templates.members,
+          data: {
+            users: users,
+            total_pages: result.total_pages,
+            total_users: result.total_items,
+            current_page: page,
+            page_nav: page_nav
+          }
+        }
+      }));
+    });
+  }
+  // TODO - refactor these simple pages
+  app.get('/members', membersRoute);
+  app.get('/members/:page', membersRoute);
+
+
+
   app.get('/about', function(req, res) {
     res.send(generatePage({
       page: {
