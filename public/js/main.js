@@ -171,12 +171,69 @@
       //putClassOnFavorites(favorites);
     });
 
+/*
+<div class="btn-group">
+                  <button type="button" class="btn btn-primary">Primary</button>
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </div>
+*/
 
-  $('p.library-url').on('mouseenter', function(event) {
 
-    selectText($(event.currentTarget)[0]);
+
+
+  var copyEl = $('<div/>').addClass('btn-group copy-button-group');
+  var copyElButton = $('<button/>').attr('data-copy-type','').attr('type', 'button').addClass('btn btn-primary btn-sm copy-button').text('Copy');
+  var toggleButton = $('<button/>').attr('data-toggle', 'dropdown').attr('type', 'button').addClass('btn btn-primary btn-sm dropdown-toggle').append($('<span/>').addClass('caret'));
+  copyElButton.appendTo(copyEl);
+  toggleButton.appendTo(copyEl);
+  copyEl.append('<ul class="dropdown-menu copy-options">' +
+                    '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="#">Copy HTTPS Url</a></li>' +
+                    '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy HTTPS Script Tag</a></li>' +
+                    '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy HTTPS Link Tag</a></li>' +
+                    '<li><a data-copy-type="http:" class="copy-http-url copy-button" href="#">Copy HTTP Url</a></li>' +
+                    '<li class="js"><a data-copy-embed="script" data-copy-type="http:" class=" copy-http-script copy-button" href="#">Copy HTTP Script Tag</a></li>' +
+                    '<li class="css"><a data-copy-embed="link" data-copy-type="http:" class="copy-http-link copy-button" href="#">Copy HTTP Link Tag</a></li>' +
+                    '<li class="divider"></li>' +
+                    '<li><a class="disabled add-to-favorites" href="#">Add to favorites</a></li>' +
+                 '</ul>');
+
+  var copyContainer = $('<div/>');
+  copyEl.attr('style', 'display: none;');
+    copyEl.appendTo('body');
+  $('.library-column').on( "mouseenter", function(ev) {
+    var cont = $(ev.currentTarget);
+    copyEl.show();
+    copyEl.appendTo(cont);
+  })
+  .on( "mouseleave", function(ev) {
+    var cont = $(ev.currentTarget);
+    //copyEl.appendTo('body');
   });
 
+
+  var client = new ZeroClipboard($(".copy-button"));
+  client.on( "ready", function( readyEvent ) {
+    client.on( "copy", function (event) {
+      var button = $(event.target);
+      var embed = button.attr('data-copy-embed');
+      var url = button.attr('data-copy-type') + $('.library-url', button.parents('.library-column')).text();
+
+      if(embed === 'script') {
+        url = '<script type="text/javascript" src="' + url + '"></script>';
+      } else if (embed === 'link') {
+        url = '<link rel="stylesheet" href="' + url + '">';
+      }
+      var clipboard = event.clipboardData;
+      clipboard.setData( "text/plain", url );
+    });
+  });
   //http://www.merriampark.com/ld.htm, http://www.mgilleland.com/ld/ldjavascript.htm, Damerau–Levenshtein distance (Wikipedia)
 
   function levDist(s, t) {
