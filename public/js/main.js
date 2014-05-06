@@ -44,11 +44,12 @@
           $('.status-container').fadeIn(200);
         } else {
           $('.login, .register').show();
-          $('.login-or-register').fadeIn(200);
+          $('.login-or-register').show(200);
         }
       });
     } else {
       $('.login, .register').show();
+          $('.login-or-register').show(200);
 
     }
 
