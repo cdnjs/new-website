@@ -35,7 +35,7 @@ _.each(LIBRARIES, function(library){
   } else {
     library.fileType = 'js';
   }
-  library.keywords = library.keywords && library.keywords.join(',');
+  library.keywords = library.keywords && library.keywords.join(', ');
   library.assets = _.map(library.assets, function (assets) {
     if(library.version === assets.version) {
       assets.selected = 'selected="selected"';

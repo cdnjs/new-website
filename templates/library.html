@@ -1,10 +1,13 @@
 <div class="row library-container">
   <div class="col-md-12">
-    <h1>{{library.name}}</h1>
+    <h1 style="margin-top: 00px;">{{library.name}}</h1>
 
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
       <p>{{library.description}}</p>
-      <select class="version-selector" style="float: right;">
+      <em>{{library.keywords}}</em>
+      <br />
+      <br />
+      <select class="form-control version-selector" style="float: right;">
         {{#library.assets}}
           <option value="{{version}}" {{selected}}>{{version}}</option>
         {{/library.assets}}
