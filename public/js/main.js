@@ -41,9 +41,10 @@
           onUserLoaded();
           $('.profile').attr('href', '/profile/' + user.login);
           $('.profile, .logout').show();
+          $('.status-container').fadeIn(200);
         } else {
           $('.login, .register').show();
-
+          $('.login-or-register').fadeIn(200);
         }
       });
     } else {
@@ -399,4 +400,37 @@ $('body').on('click', '.remove-favorite', function(e) {
 
   });
 
+
+  $('.status-update').on('keydown', function (ev) {
+    var count = 200- 1*($(ev.currentTarget).val().length);
+    $('.character-count').text(count);;
+    if(count < 0) {
+      $('.status-update-button').attr('disabled', 'disabled');
+    } else {
+      $('.status-update-button').removeAttr('disabled');
+
+    }
+  });
+  $('.post-news').on('submit', function (ev) {
+    console.log('update');
+
+    $('textarea', ev.currentTarget).attr('disabled', 'disabled');
+    $('[type="submit"]', ev.currentTarget).attr('disabled', 'disabled');
+    $.ajax({
+      url: '/status?token=' + token,
+      success: function(data) {
+        if(data.error) {
+          toastr.error(data.error);
+        } else {
+          window.location = '/news';
+        }
+      },
+      type: 'POST',
+      data: {
+        status: $('textarea', ev.currentTarget).val()
+      }
+    })
+    return false;
+  });
+  $(".timeago").timeago();
 })(jQuery);

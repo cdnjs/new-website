@@ -20,11 +20,13 @@
   "dependencies": {
     "body-parser": "^1.0.1",
     "express": "^4.0.0",
+    "html-linkify": "^1.1.0",
     "lodash": "^2.4.1",
     "mongodb": "^1.4.0",
     "mustache": "^0.8.1",
     "superagent": "^0.17.0",
     "twit": "^1.1.14",
+    "urlize": "^0.1.2",
     "userapp": "^0.2.3"
   }
 }

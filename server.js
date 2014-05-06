@@ -8,7 +8,7 @@ var MongoClient = require('mongodb').MongoClient;
 var UserApp = require("userapp");
 var UserAppAPI = require("userapp");
 var Twit = require('twit')
-
+var linkify = require("html-linkify");
 var user_app_token = process.env.USER_APP;
 
 // Setup UserApp for sessions
@@ -66,6 +66,8 @@ var templates = {
   profile: fs.readFileSync('templates/profile.html', 'utf8'),
   members: fs.readFileSync('templates/members.html', 'utf8'),
   news: fs.readFileSync('templates/news.html', 'utf8'),
+  neesfeed_item: fs.readFileSync('templates/newsfeed_item.html', 'utf8'),
+  newsfeed: fs.readFileSync('templates/newsfeed.html', 'utf8'),
   about: fs.readFileSync('templates/about.html', 'utf8')
 }
 
@@ -106,7 +108,37 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   });
 
 
-
+  app.get('/news', function(req, res) {
+    db.collection('updates').find().toArray(function(err, docs) {
+      _.each(docs, function(doc){
+        console.log(doc.status);
+        doc.posted_at = new Date(doc.posted_at);
+        doc.status = linkify(doc.status);
+      });
+      res.send(generatePage({
+        title: 'newsfeed - cdnjs.com - the missing cdn for javascript and css',
+        page: {
+          template: templates.newsfeed,
+          data: {updates: docs.reverse()}
+        }
+      }));
+    });
+  });
+  /*
+  app.get('/news/:id', function(req, res) {
+    var id = req.params.id;
+    db.collection('updates').findOne().toArray(function(err, docs) {
+    
+      res.send(generatePage({
+        title: 'newsfeed - cdnjs.com - the missing cdn for javascript and css',
+        page: {
+          template: templates.newsfeed,
+          data: {updates: docs.reverse()}
+        }
+      }));
+    });
+  });
+  */
   app.get('/libraries/:library', function(req, res) {
     var library = req.params.library.toLowerCase().replace(/\./g, '');
     res.send(generatePage({
@@ -326,8 +358,6 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     })
   });
 
-
-
   app.del('/favorites', function(req, res) {
     var library = req.body.library;
     checkUser(req, function (user) {
@@ -340,7 +370,47 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     })
   });
 
+  app.post('/status', function(req, res) {
+    if(req.body.status.length > 200) {
+      res.send({error: 'Message too long'});
+      return false;
+    };
+    var now = (new Date).getTime();
+    checkUser(req, function (user) {
+           
+      if(user) {
+        db.collection('updates').find({user_id: user.user_id}).toArray(function(err, docs) {
+          var updates = docs;
+          var okay = true;
+          if(updates && updates.length > 0) {
+            updates = updates.reverse();
+            console.log(now, updates[0].posted_at*1, now - updates[0].posted_at*1 < 86400)
+            if(now - updates[0].posted_at*1 < 86400) {
+              okay = false;
+            } 
+          }
+          if(okay){
+            db.collection('updates').insert({user_id: user.user_id, login: user.login, status: req.body.status, posted_at: now, gravatar: get_gravatar(user.email, 100)}, {w: 1}, function(err) {});
+            res.send({message: 'Success'});
+          } else {
+            res.send({error: 'You can only post once every 24 hours'});
+          }
+        });
 
+      } else {
+        res.send({error: 'You are not logged in'});
+      }
+
+    })
+  });
+
+  app.get('/status', function(req, res) {
+    var library = req.body.library;
+  
+      db.collection('updates').remove({}, function(err, docs) {
+          res.send({});
+        });
+  });
 
   var port = Number(process.env.PORT || 5000);
   app.listen(port, function() {

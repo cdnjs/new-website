@@ -1,0 +1,49 @@
+  <div class="row">
+    <div class="col-md-3" style="border-right: 1px solid #ccc;">
+      <strong>Post an update</strong>
+
+      <div style="clear: both;"></div>
+      <hr />
+
+      <div class="status-container" style="display: none;">
+        <form class="post-news">
+          <textarea class="form-control status-update"></textarea>
+          <br />
+          <input type='submit' class="btn btn-default pull-right status-update-button" />
+          <label style="line-height: 41px; margin-right: 10px;" class="character-count pull-right">200</label>
+        </form>
+      </div>
+      <div class="login-or-register"  style="display: none;">
+      <p><a href="/login">Login</a> or <a href="/register">register</a> to post a status update</p>
+      </div>
+      <div style="clear: both;"></div>
+      <hr />
+     <strong>Rules</strong><br /> <br/>
+      <ul style="margin: 0;padding:0;">
+        <li>Keep your updates relevant to the web development industry</li>
+        <li>You may only post <strong>one</strong> news item a day</li>
+        <li>Limited to 200 characters, use url shorteners!</li>
+      </ul>
+
+  
+    </div>
+    <div class="col-md-9">
+      <strong>Latest updates</strong>
+      <div style="clear: both;"></div>
+      <hr />
+      <ul style="margin: 0; padding: 0; list-style: none;">
+        {{#updates}}
+          <li style="border-bottom: 1px solid #ccc; margin-bottom: 10px;padding-bottom: 10px;">
+          <div class="row">
+            <div class="col-md-1"><img style="float: left; margin-right: 5px;  margin-bottom: 5px; width: 50px;" class="avatar" src="{{gravatar}}" /></div>
+            <div class="col-md-11">
+            <p><a href="/profile/{{login}}"><strong>{{login}}</strong></a><br />{{{status}}}</p>
+            <div style="color: #ccc;" class="pull-right">Posted <span  class="timeago" title="{{posted_at}}"></span></div></div>
+            <div style="clear: both;"></div></div>
+
+            <div style="clear: both;"></div>
+          </li>
+        {{/updates}}
+      </ul>
+    </div>
+  </div>
