@@ -425,8 +425,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
           }
           if(okay){
             db.collection('updates').insert({user_id: user.user_id, login: user.login, status: req.body.status, posted_at: now, gravatar: get_gravatar(user.email, 100)}, {w: 1}, function(err) {});
-            res.send({message: 'Success'});
             hipchat.message('green', 'New status update by ' + user.login + ' - http://cdnjs.com/news');
+            res.send({message: 'Success'});
 
           } else {
             res.send({error: 'You can only post once every 24 hours'});
