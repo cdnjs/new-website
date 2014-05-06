@@ -122,7 +122,6 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   app.get('/libraries/:library/news', function(req, res) {
     var library = req.params.library.toLowerCase().replace(/\./g, '');
     T.get('search/tweets', { q: library, count: 100 }, function(err, data, response) {
-      console.log(data.statuses);
       res.send(generatePage({
         title: library + ' news - cdnjs.com - the missing cdn for javascript and css',
         page: {
