@@ -158,6 +158,14 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
         }
       }, function(error, result){
         console.log(error, result);
+        if(error) {
+            res.send(generatePage({
+          page: {
+            template: 'A random error occured'
+          }
+        }));
+            return false;
+        }
        users = result.items
     
       // TODO - This is very gross
