@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 May 2014 17:15:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 May 2014 23:08:43 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -71,6 +71,22 @@
             <pubDate>Sat, 03 May 2014 20:00:56 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[evil.js(42) was added]]></title>
+            <description><![CDATA[A JavaScript library for thwarting hotlinkers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/evil.js/42/evil.min.js">//cdnjs.cloudflare.com/ajax/libs/evil.js/42/evil.min.js</a>]]></description>
+            <link>http://kitcambridge.be/evil.js/</link>
+            <guid isPermaLink="false">evil.js42</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 May 2014 16:28:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[prism(0.0.1) was added]]></title>
+            <description><![CDATA[Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js">//cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js</a>]]></description>
+            <link>http://prismjs.com/</link>
+            <guid isPermaLink="false">prism0.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 May 2014 15:58:16 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[mithril updated to version 0.1.11]]></title>
             <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js</a>]]></description>
             <link>http://lhorie.github.io/mithril</link>
@@ -117,6 +133,22 @@
             <guid isPermaLink="false">modernizr2.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 02 May 2014 06:31:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[datatables-fixedheader updated to version 2.1.1]]></title>
+            <description><![CDATA[The FixedHeader plug-in will freeze in place the header, footer and left and/or right most columns in a DataTable, ensuring that title information will remain always visible.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/datatables-fixedheader/2.1.1/dataTables.fixedHeader.min.js">//cdnjs.cloudflare.com/ajax/libs/datatables-fixedheader/2.1.1/dataTables.fixedHeader.min.js</a>]]></description>
+            <link>http://datatables.net/extensions/fixedheader/</link>
+            <guid isPermaLink="false">datatables-fixedheader2.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 05:41:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[datatables updated to version 1.10.0]]></title>
+            <description><![CDATA[DataTables enhances HTML tables with the ability to sort, filter and page the data in the table very easily. It provides a comprehensive API and set of configuration options, allowing you to consume data from virtually any data source.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.0/jquery.dataTables.min.js">//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.0/jquery.dataTables.min.js</a>]]></description>
+            <link>http://datatables.net</link>
+            <guid isPermaLink="false">datatables1.10.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 05:15:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[flight updated to version 1.1.4]]></title>
@@ -181,6 +213,14 @@
             <guid isPermaLink="false">gillie0.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 May 2014 03:04:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tinysort updated to version 1.5.6]]></title>
+            <description><![CDATA[TinySort is a small and simple jQuery plugin that will sort any nodetype by its text- or attribute value, or by that of one of its children.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinysort/1.5.6/jquery.tinysort.min.js">//cdnjs.cloudflare.com/ajax/libs/tinysort/1.5.6/jquery.tinysort.min.js</a>]]></description>
+            <link>http://tinysort.sjeiti.com</link>
+            <guid isPermaLink="false">tinysort1.5.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 30 Apr 2014 23:07:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[phaser updated to version 2.0.4]]></title>
@@ -586,54 +626,6 @@
             <guid isPermaLink="false">mocha1.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 22 Apr 2014 01:23:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[stomp.js updated to version 2.3.1]]></title>
-            <description><![CDATA[JavaScript library for STOMP<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.1/stomp.min.js">//cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.1/stomp.min.js</a>]]></description>
-            <link>http://jmesnil.net/stomp-websocket/doc/</link>
-            <guid isPermaLink="false">stomp.js2.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 20:10:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[numeral.js updated to version 1.5.3]]></title>
-            <description><![CDATA[A lightweight javascript library to format and manipulate numbers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.5.3/numeral.min.js">//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.5.3/numeral.min.js</a>]]></description>
-            <link>http://numeraljs.com/</link>
-            <guid isPermaLink="false">numeral.js1.5.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 20:10:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[idbwrapper updated to version 1.4.1]]></title>
-            <description><![CDATA[A cross-browser wrapper for IndexedDB<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/idbwrapper/1.4.1/idbstore.min.js">//cdnjs.cloudflare.com/ajax/libs/idbwrapper/1.4.1/idbstore.min.js</a>]]></description>
-            <link>https://github.com/jensarps/IDBWrapper</link>
-            <guid isPermaLink="false">idbwrapper1.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 20:10:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cannon.js updated to version 0.5.0]]></title>
-            <description><![CDATA[A lightweight 3D physics engine written in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cannon.js/0.5.0/cannon.min.js">//cdnjs.cloudflare.com/ajax/libs/cannon.js/0.5.0/cannon.min.js</a>]]></description>
-            <link>http://schteppe.github.com/cannon.js</link>
-            <guid isPermaLink="false">cannon.js0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 20:10:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bespoke.js updated to version 0.4.0]]></title>
-            <description><![CDATA[DIY Presentation Micro-Framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bespoke.js/0.4.0/bespoke.min.js">//cdnjs.cloudflare.com/ajax/libs/bespoke.js/0.4.0/bespoke.min.js</a>]]></description>
-            <link>https://github.com/markdalgleish/bespoke.js</link>
-            <guid isPermaLink="false">bespoke.js0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 20:10:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[accounting.js updated to version 0.3.2]]></title>
-            <description><![CDATA[A lightweight JavaScript library for number, money and currency formatting .<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/accounting.js/0.3.2/accounting.min.js">//cdnjs.cloudflare.com/ajax/libs/accounting.js/0.3.2/accounting.min.js</a>]]></description>
-            <link>http://josscrowcroft.github.io/accounting.js/</link>
-            <guid isPermaLink="false">accounting.js0.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 21 Apr 2014 20:10:43 GMT</pubDate>
         </item>
     </channel>
 </rss>
