@@ -441,7 +441,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   });
 
   app.get('/newregistration/:login', function(req, res) {
-      hipchat.message('green', 'New status update by ' + req.params.login + ' - http://cdnjs.com/profile/'+ req.params.login);
+      hipchat.message('green', 'New User - ' + req.params.login + ' - http://cdnjs.com/profile/'+ req.params.login);
     res.send({});
   });
 
