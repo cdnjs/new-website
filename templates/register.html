@@ -61,7 +61,11 @@ function signup() {
           alert("Error: " + error.message);
           showLoader(false);
         } else {
-          onLoginSuccessful();
+          $.ajax('/newregistration/' + document.getElementById("username").value, {
+            success: function () {
+              onLoginSuccessful();
+            }
+          })
         }
       });
     }

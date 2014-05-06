@@ -440,12 +440,9 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     })
   });
 
-  app.get('/status', function(req, res) {
-    var library = req.body.library;
-  
-      db.collection('updates').remove({}, function(err, docs) {
-          res.send({});
-        });
+  app.get('/newregistration/:login', function(req, res) {
+      hipchat.message('green', 'New status update by ' + req.params.login + ' - http://cdnjs.com/profile/'+ req.params.login);
+    res.send({});
   });
 
   var port = Number(process.env.PORT || 5000);
