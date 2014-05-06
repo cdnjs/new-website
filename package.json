@@ -24,6 +24,7 @@
     "mongodb": "^1.4.0",
     "mustache": "^0.8.1",
     "superagent": "^0.17.0",
+    "twit": "^1.1.14",
     "userapp": "^0.2.3"
   }
 }
