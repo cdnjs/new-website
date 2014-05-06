@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var MongoClient = require('mongodb').MongoClient;
 var UserApp = require("userapp");
 var UserAppAPI = require("userapp");
+var Twit = require('twit')
 
 var user_app_token = process.env.USER_APP;
 
@@ -15,7 +16,12 @@ UserApp.initialize({
   appId: '5343d12871774'
 });
 
-
+var T = new Twit({
+    consumer_key:         process.env.CONSUMER_KEY
+  , consumer_secret:      process.env.CONSUMER_SECRET
+  , access_token:         process.env.ACCESS_TOKEN
+  , access_token_secret:  process.env.ACCESS_TOKEN_SECRET
+});
 // Serve public folder
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser());
@@ -59,6 +65,7 @@ var templates = {
   register: fs.readFileSync('templates/register.html', 'utf8'),
   profile: fs.readFileSync('templates/profile.html', 'utf8'),
   members: fs.readFileSync('templates/members.html', 'utf8'),
+  news: fs.readFileSync('templates/news.html', 'utf8'),
   about: fs.readFileSync('templates/about.html', 'utf8')
 }
 
@@ -78,9 +85,7 @@ var generatePage = function (options) {
 
 }
 
-
 MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
-
 
   /*
     db.collection('user_data').aggregate(
@@ -100,6 +105,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     }));
   });
 
+
+
   app.get('/libraries/:library', function(req, res) {
     var library = req.params.library.toLowerCase().replace(/\./g, '');
     res.send(generatePage({
@@ -112,6 +119,21 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     }));
   });
 
+  app.get('/libraries/:library/news', function(req, res) {
+    var library = req.params.library.toLowerCase().replace(/\./g, '');
+    T.get('search/tweets', { q: library, count: 100 }, function(err, data, response) {
+      console.log(data.statuses);
+      res.send(generatePage({
+        title: library + ' news - cdnjs.com - the missing cdn for javascript and css',
+        page: {
+          template: templates.news,
+          data: {statuses: data.statuses, library: LIBRARIES_MAP[library]},
+          description: LIBRARIES_MAP[library].description
+        }
+      }));
+    })
+
+  });
   var get_gravatar = function (email, size) {
    
       // MD5 (Message-Digest Algorithm) by WebToolkit

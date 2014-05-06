@@ -1,0 +1,31 @@
+<div class="container">
+<div class="row">
+
+    <h1 style="margin-top: 00px;">{{library.name}} news</h1>
+
+    <p><a href="{{library.homepage}}">{{library.homepage}}</a>
+      <p>{{library.description}}</p>
+      <em>{{library.keywords}}</em>
+      <br />
+      <h3>Latest Tweets</h3>
+{{#statuses}}
+<div class="tweet-wrapper col-md-3 col-sm-3">
+  <div class="tweet-cards">
+    <div class="card-top">
+    </div>
+    <div class="profile-pic">
+      <img src="{{user.profile_image_url}}"/>
+    </div>
+    <div class="card-bottom">
+      <p id="name">
+        <a href="http://www.twitter.com/{{user.screen_name}}" target="_blank">@{{user.screen_name}}</a>
+      </p>
+      <div class="tweet">{{text}}</div>
+      <!--<p id="date">10m</p>-->
+    </div>
+  </div>
+</div>
+    
+{{/statuses}}
+</div>
+</div>
