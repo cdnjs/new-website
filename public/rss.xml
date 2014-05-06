@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 May 2014 10:55:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 May 2014 14:07:39 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jplayer updated to version 2.6.0]]></title>
+            <description><![CDATA[The jQuery HTML5 Audio / Video Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.0/jquery.jplayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.0/jquery.jplayer.min.js</a>]]></description>
+            <link>http://www.jplayer.org/</link>
+            <guid isPermaLink="false">jplayer2.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 May 2014 14:01:46 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[primish updated to version 0.3.6]]></title>
             <description><![CDATA[A portable Class implementation in javascript, forked from MooTools Prime and created for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/primish/0.3.6/primish-min.js">//cdnjs.cloudflare.com/ajax/libs/primish/0.3.6/primish-min.js</a>]]></description>
@@ -538,38 +546,6 @@
             <guid isPermaLink="false">bitcoinjs-lib0.2.0-1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 22 Apr 2014 15:49:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Snowstorm updated to version 20131208]]></title>
-            <description><![CDATA[A JavaScript Snow Effect for HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js">//cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js</a>]]></description>
-            <link>http://www.schillmania.com/projects/snowstorm/</link>
-            <guid isPermaLink="false">Snowstorm20131208</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 22 Apr 2014 13:11:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[codemirror updated to version 4.1.0]]></title>
-            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.1.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.1.0/codemirror.min.js</a>]]></description>
-            <link>http://codemirror.net</link>
-            <guid isPermaLink="false">codemirror4.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 22 Apr 2014 12:46:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[codemirror(4.1.0) was added]]></title>
-            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.1.0/undefined">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.1.0/undefined</a>]]></description>
-            <link>http://codemirror.net</link>
-            <guid isPermaLink="false">codemirror4.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 22 Apr 2014 12:46:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[codemirror(3.24.0) was added]]></title>
-            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/3.24.0/undefined">//cdnjs.cloudflare.com/ajax/libs/codemirror/3.24.0/undefined</a>]]></description>
-            <link>http://codemirror.net</link>
-            <guid isPermaLink="false">codemirror3.24.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 22 Apr 2014 12:46:13 GMT</pubDate>
         </item>
     </channel>
 </rss>
