@@ -11,6 +11,7 @@ var Twit = require('twit')
 var linkify = require("html-linkify");
 var mongo = require('mongodb');
 var BSON = mongo.BSONPure;
+var Hipchat = require('node-hipchat');
 
 var compress = require('compression');
 
@@ -20,6 +21,25 @@ var user_app_token = process.env.USER_APP;
 UserApp.initialize({
   appId: '5343d12871774'
 });
+
+var HC = new Hipchat(process.env.HIPCHAT);
+var hipchat = {
+  message: function(color, message) {
+    if (process.env.HIPCHAT) {
+      var params = {
+        room: 165440,
+        from: 'Website',
+        message: message,
+        color: color,
+        notify: 0
+      };
+      HC.postMessage(params, function(data) {console.log(arguments)});
+    } else {
+      console.log('No Hipchat API Key');
+    }
+  }
+};
+hipchat.message('purple', 'Server restarting');
 
 var T = new Twit({
     consumer_key:         process.env.CONSUMER_KEY
@@ -398,6 +418,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
           if(okay){
             db.collection('updates').insert({user_id: user.user_id, login: user.login, status: req.body.status, posted_at: now, gravatar: get_gravatar(user.email, 100)}, {w: 1}, function(err) {});
             res.send({message: 'Success'});
+            hipchat.message('green', 'New status update by ' + user.login + ' - http://cdnjs.com/news');
+
           } else {
             res.send({error: 'You can only post once every 24 hours'});
           }
