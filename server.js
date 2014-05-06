@@ -12,6 +12,7 @@ var linkify = require("html-linkify");
 var mongo = require('mongodb');
 var BSON = mongo.BSONPure;
 
+var compress = require('compression');
 
 var user_app_token = process.env.USER_APP;
 
@@ -26,8 +27,10 @@ var T = new Twit({
   , access_token:         process.env.ACCESS_TOKEN
   , access_token_secret:  process.env.ACCESS_TOKEN_SECRET
 });
+
+app.use(compress())
 // Serve public folder
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public', {maxAge: 7200 * 1000}));
 app.use(bodyParser());
 
 // Load libraries into ram
