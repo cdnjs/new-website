@@ -113,7 +113,10 @@ var generatePage = function (options) {
   return fullContent;
 
 }
-
+var setCache = function (res, hours) {
+  res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours); // 4 days
+  res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
+}
 MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
   /*
@@ -126,6 +129,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   });
   */
   app.get('/', function(req, res) {
+    setCache(res, 2);
     res.send(generatePage({
       page: {
         template: templates.home,
@@ -136,6 +140,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
 
   app.get('/libraries/:library', function(req, res) {
+    setCache(res, 1);
+
     var library = req.params.library.toLowerCase().replace(/\./g, '');
     res.send(generatePage({
       title: library + ' - cdnjs.com - the missing cdn for javascript and css',
@@ -148,6 +154,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   });
 
   app.get('/libraries/:library/news', function(req, res) {
+    setCache(res, 48);
+
     var library = req.params.library.toLowerCase().replace(/\./g, '');
     T.get('search/tweets', { q: library, count: 100 }, function(err, data, response) {
       res.send(generatePage({
