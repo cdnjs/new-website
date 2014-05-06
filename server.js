@@ -143,12 +143,13 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     setCache(res, 1);
 
     var library = req.params.library.toLowerCase().replace(/\./g, '');
+    console.log(library);
     res.send(generatePage({
       title: library + ' - cdnjs.com - the missing cdn for javascript and css',
       page: {
         template: templates.library,
         data: {library: LIBRARIES_MAP[library]},
-        description: LIBRARIES_MAP[library].description
+        description: LIBRARIES_MAP[library] && LIBRARIES_MAP[library].description
       }
     }));
   });
