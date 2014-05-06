@@ -27,9 +27,13 @@ superagent.get(packagesurl, function(res, textStatus, xhr){
   var librariePages = _.map(res.body.packages, function (package) {
     return 'http://cdnjs.com/libraries/' + package.name;
   });
-
-
   pages = pages.concat(librariePages);
+
+  var librarieNewsPages = _.map(res.body.packages, function (package) {
+    return 'http://cdnjs.com/libraries/' + package.name + '/news';
+  });
+
+  pages = pages.concat(librarieNewsPages);
 
   _.each(pages, function(page){
     xml += '<url><loc>' + page + '</loc></url>';
