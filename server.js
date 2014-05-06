@@ -82,7 +82,7 @@ var generatePage = function (options) {
 MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
 
-
+  /*
     db.collection('user_data').aggregate(
     { $project: { favorites: 1 }},
     { $unwind: "$favorites" },
@@ -90,7 +90,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   , function () {
     console.log(arguments);
   });
-
+  */
   app.get('/', function(req, res) {
     res.send(generatePage({
       page: {
