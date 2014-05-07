@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 May 2014 08:56:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 May 2014 11:22:00 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[retina.js updated to version 1.0.1]]></title>
+            <description><![CDATA[retina.js makes it easy to serve high-resolution images to devices with retina displays.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/retina.js/1.0.1/retina.min.js">//cdnjs.cloudflare.com/ajax/libs/retina.js/1.0.1/retina.min.js</a>]]></description>
+            <link>http://retinajs.com/</link>
+            <guid isPermaLink="false">retina.js1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 May 2014 09:04:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ng-grid updated to version 2.0.11]]></title>
             <description><![CDATA[Angular Data Grid written in AngularJS and jQuery by the AngularUI Team<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.min.js</a>]]></description>
