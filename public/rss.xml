@@ -10,17 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 May 2014 00:03:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 May 2014 00:08:02 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[elasticsearch(2.1.4) was added]]></title>
+            <title><![CDATA[elasticsearch updated to version 2.1.4]]></title>
             <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.1.4/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.1.4/elasticsearch.js</a>]]></description>
             <link>https://github.com/elasticsearch/elasticsearch-js</link>
             <guid isPermaLink="false">elasticsearch2.1.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 May 2014 20:22:42 GMT</pubDate>
+            <pubDate>Wed, 07 May 2014 00:00:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[nanobar updated to version 0.2.0]]></title>
