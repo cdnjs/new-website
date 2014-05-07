@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 May 2014 00:08:02 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 May 2014 08:07:43 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -262,6 +262,14 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">jquery2.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 May 2014 17:30:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.selection(1.0.1) was added]]></title>
+            <description><![CDATA[selection text/caret operation - jQuery pulgin | 選択範囲のテキスト操作 / キャレット操作 <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.selection/1.0.1/jquery.selection.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.selection/1.0.1/jquery.selection.min.js</a>]]></description>
+            <link>https://github.com/madapaja/jquery.selection</link>
+            <guid isPermaLink="false">jquery.selection1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 May 2014 17:12:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-image-spinner updated to version 0.1.5]]></title>
@@ -524,78 +532,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">string.js1.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 23 Apr 2014 21:00:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ember.js updated to version 1.5.1]]></title>
-            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.5.1/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.5.1/ember.min.js</a>]]></description>
-            <link>http://emberjs.com/</link>
-            <guid isPermaLink="false">ember.js1.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 04:13:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pixi.js updated to version 1.5.2]]></title>
-            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/1.5.2/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/1.5.2/pixi.js</a>]]></description>
-            <link>http://goodboydigital.com/</link>
-            <guid isPermaLink="false">pixi.js1.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 03:36:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[loglevel updated to version 0.6.0]]></title>
-            <description><![CDATA[Minimal lightweight logging for JavaScript, adding reliable log level methods to any available console.log methods<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/loglevel/0.6.0/loglevel.min.js">//cdnjs.cloudflare.com/ajax/libs/loglevel/0.6.0/loglevel.min.js</a>]]></description>
-            <link>https://github.com/pimterry/loglevel</link>
-            <guid isPermaLink="false">loglevel0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 03:36:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[script.js updated to version 2.5.3]]></title>
-            <description><![CDATA[$script.js is an asynchronous JavaScript loader and dependency manager with an astonishingly impressive lightweight footprint<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/script.js/2.5.3/script.min.js">//cdnjs.cloudflare.com/ajax/libs/script.js/2.5.3/script.min.js</a>]]></description>
-            <link>http://www.dustindiaz.com/scriptjs/</link>
-            <guid isPermaLink="false">script.js2.5.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 03:25:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lunr.js updated to version 0.5.2]]></title>
-            <description><![CDATA[Simple full-text search in your browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.2/lunr.min.js">//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.2/lunr.min.js</a>]]></description>
-            <link>http://lunrjs.com</link>
-            <guid isPermaLink="false">lunr.js0.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 03:25:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[hydra.js updated to version 3.9.12]]></title>
-            <description><![CDATA[Framework that gives you the tools to write your application using modules or widgets and make easy to work with them.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hydra.js/3.9.12/hydra.min.js">//cdnjs.cloudflare.com/ajax/libs/hydra.js/3.9.12/hydra.min.js</a>]]></description>
-            <link>http://tcorral.github.com/Hydra.js/</link>
-            <guid isPermaLink="false">hydra.js3.9.12</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 03:25:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[condition updated to version 1.2.0]]></title>
-            <description><![CDATA[Advanced condition library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/condition/1.2.0/condition.min.js">//cdnjs.cloudflare.com/ajax/libs/condition/1.2.0/condition.min.js</a>]]></description>
-            <link>https://github.com/nathggns/condition.js</link>
-            <guid isPermaLink="false">condition1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 03:25:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[autosize.js updated to version 1.18.4]]></title>
-            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js</a>]]></description>
-            <link>http://www.jacklmoore.com</link>
-            <guid isPermaLink="false">autosize.js1.18.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 03:25:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[leapjs updated to version 0.5.0]]></title>
-            <description><![CDATA[A JavaScript client for the LeapMotion.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leapjs/0.5.0/leap.min.js">//cdnjs.cloudflare.com/ajax/libs/leapjs/0.5.0/leap.min.js</a>]]></description>
-            <link>http://github.com/leapmotion/leapjs</link>
-            <guid isPermaLink="false">leapjs0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 01:01:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bitcoinjs-lib(0.2.0-1) was added]]></title>
