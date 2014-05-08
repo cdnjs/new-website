@@ -31,7 +31,7 @@ var hipchat = {
         from: 'Website',
         message: message,
         color: color,
-        notify: 0
+        notify: 1
       };
       HC.postMessage(params, function(data) {console.log(arguments)});
     } else {
