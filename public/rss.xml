@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 May 2014 05:14:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 May 2014 08:39:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -61,6 +61,14 @@
             <guid isPermaLink="false">ng-grid2.0.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 07 May 2014 08:39:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[analytics.js(1.3.29) was added]]></title>
+            <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/analytics.js/1.3.29/analytics.min.js">//cdnjs.cloudflare.com/ajax/libs/analytics.js/1.3.29/analytics.min.js</a>]]></description>
+            <link>https://segment.io/docs/libraries/analytics.js/</link>
+            <guid isPermaLink="false">analytics.js1.3.29</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 May 2014 07:58:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[elasticsearch updated to version 2.1.4]]></title>
