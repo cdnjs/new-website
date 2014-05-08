@@ -422,8 +422,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       }));
     });
   }
-app.get('/news/:id', news_items);
-app.get('/news/:id/:slug', , news_items);
+app.get('/news/:id', news_item);
+app.get('/news/:id/:slug', news_item);
 
   app.post('/status', function(req, res) {
     if(req.body.status.length > 200) {
