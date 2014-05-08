@@ -404,7 +404,22 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       }));
     });
   });
-
+app.get('/news/:id', function(req, res) {
+  var id = new BSON.ObjectID(req.params.id);
+  db.collection('updates').findOne({_id: id}, function(err, doc) {
+      doc.status = linkify(doc.status);
+      doc.timeago = timeago(new Date(doc.posted_at));
+      doc.slug = generateSlug(doc.status);
+     doc.posted_at = new Date(doc.posted_at);
+    res.send(generatePage({
+      title: 'newsfeed - cdnjs.com - the missing cdn for javascript and css',
+      page: {
+        template: templates.newsfeed_item,
+        data: doc
+      }
+    }));
+  });
+});
   app.get('/news/:id/:slug', function(req, res) {
     var id = new BSON.ObjectID(req.params.id);
     db.collection('updates').findOne({_id: id}, function(err, doc) {
