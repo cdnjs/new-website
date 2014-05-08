@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 May 2014 16:40:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 May 2014 19:47:43 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -29,6 +29,14 @@
             <guid isPermaLink="false">angular.js1.2.16</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 08 May 2014 13:40:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-rtl updated to version 3.1.2]]></title>
+            <description><![CDATA[Right-to-left (RTL) theme for Boostrap 3.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.2/css/bootstrap-rtl.min.css">//cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.1.2/css/bootstrap-rtl.min.css</a>]]></description>
+            <link>http://github.com/ratnic/bootstrap-rtl</link>
+            <guid isPermaLink="false">bootstrap-rtl3.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 08 May 2014 12:52:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.12]]></title>
@@ -516,46 +524,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">floatthead1.2.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 25 Apr 2014 02:45:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mathjs updated to version 0.21.0]]></title>
-            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/0.21.0/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/0.21.0/math.min.js</a>]]></description>
-            <link>http://mathjs.org</link>
-            <guid isPermaLink="false">mathjs0.21.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 24 Apr 2014 19:30:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jspdf(0.9.0rc1) was added]]></title>
-            <description><![CDATA[A HTML5 client-side solution for generating PDFs. Perfect for event tickets, reports, certificates, you name it!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js">//cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js</a>]]></description>
-            <link>http://parall.ax/products/jspdf</link>
-            <guid isPermaLink="false">jspdf0.9.0rc1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 24 Apr 2014 18:00:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highstock updated to version 2.0.1]]></title>
-            <description><![CDATA[Highstock lets you create stock or general timeline charts in pure JavaScript, including sophisticated navigation options like a small navigator series, preset date ranges, date picker, scrolling and panning. Highstock is NOT free for commercial use.  See the license here: http://shop.highsoft.com/highstock.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.1/highstock.js">//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.1/highstock.js</a>]]></description>
-            <link>http://highcharts.com/</link>
-            <guid isPermaLink="false">highstock2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 24 Apr 2014 16:58:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highcharts updated to version 4.0.1]]></title>
-            <description><![CDATA[Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie and scatter chart types. Highcharts is NOT free for commercial use.  See the license here: http://highcharts.com/license<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.1/highcharts.js">//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.1/highcharts.js</a>]]></description>
-            <link>http://highcharts.com/</link>
-            <guid isPermaLink="false">highcharts4.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 24 Apr 2014 16:55:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[reveal.js updated to version 2.6.2]]></title>
-            <description><![CDATA[A framework for easily creating beautiful presentations using HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/js/reveal.min.js">//cdnjs.cloudflare.com/ajax/libs/reveal.js/2.6.2/js/reveal.min.js</a>]]></description>
-            <link>http://lab.hakim.se/reveal-js/</link>
-            <guid isPermaLink="false">reveal.js2.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 24 Apr 2014 16:50:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bitcoinjs-lib(0.2.0-1) was added]]></title>
