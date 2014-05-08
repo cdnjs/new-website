@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 May 2014 00:51:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 May 2014 05:14:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.12]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.12/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.12/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 08 May 2014 03:18:41 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-switch updated to version 3.0.0]]></title>
             <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.0/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.0/js/bootstrap-switch.min.js</a>]]></description>
@@ -198,14 +206,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">prism0.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 May 2014 15:58:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mithril updated to version 0.1.11]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 May 2014 02:41:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.2.6]]></title>
