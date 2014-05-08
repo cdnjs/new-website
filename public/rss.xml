@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 May 2014 08:39:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 May 2014 16:40:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[timelinejs updated to version 2.32.0]]></title>
+            <description><![CDATA[TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.32.0/js/storyjs-embed.js">//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.32.0/js/storyjs-embed.js</a>]]></description>
+            <link>http://timeline.knightlab.com/</link>
+            <guid isPermaLink="false">timelinejs2.32.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 08 May 2014 16:29:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular.js updated to version 1.2.16]]></title>
+            <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular.min.js</a>]]></description>
+            <link>http://angularjs.org</link>
+            <guid isPermaLink="false">angular.js1.2.16</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 08 May 2014 13:40:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.12]]></title>
             <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.12/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.12/mithril.min.js</a>]]></description>
@@ -540,14 +556,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">reveal.js2.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 24 Apr 2014 16:50:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[polymer updated to version 0.2.3]]></title>
-            <description><![CDATA[Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/polymer/0.2.3/polymer.js">//cdnjs.cloudflare.com/ajax/libs/polymer/0.2.3/polymer.js</a>]]></description>
-            <link>http://polymer-project.org/</link>
-            <guid isPermaLink="false">polymer0.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 24 Apr 2014 09:12:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bitcoinjs-lib(0.2.0-1) was added]]></title>
