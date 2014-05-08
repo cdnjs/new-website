@@ -413,7 +413,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
         doc.slug = generateSlug(doc.status);
        doc.posted_at = new Date(doc.posted_at);
       res.send(generatePage({
-        title: doc.slug + ' - cdnjs.com',
+        title: description + ' - cdnjs.com',
         page: {
           description: description,
           template: templates.newsfeed_item,
