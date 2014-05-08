@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 May 2014 11:22:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 May 2014 05:14:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.12]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.12/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.12/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 08 May 2014 03:18:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-switch updated to version 3.0.0]]></title>
+            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.0/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.0/js/bootstrap-switch.min.js</a>]]></description>
+            <link>http://www.bootstrap-switch.org</link>
+            <guid isPermaLink="false">bootstrap-switch3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 08 May 2014 00:45:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pubnub updated to version 3.6.3]]></title>
+            <description><![CDATA[PubNub, a new kind of Cloud-Hosted Broadcasting Service for Mass Communication.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.3/pubnub.min.js">//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.3/pubnub.min.js</a>]]></description>
+            <link>http://www.pubnub.com/</link>
+            <guid isPermaLink="false">pubnub3.6.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 May 2014 21:48:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[minitranslate updated to version 0.6.2]]></title>
+            <description><![CDATA[A lightweight way to change words into other words.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minitranslate/0.6.2/minitranslate.min.js">//cdnjs.cloudflare.com/ajax/libs/minitranslate/0.6.2/minitranslate.min.js</a>]]></description>
+            <link>http://bryce.io/minitranslate</link>
+            <guid isPermaLink="false">minitranslate0.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 May 2014 21:15:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[retina.js updated to version 1.0.1]]></title>
             <description><![CDATA[retina.js makes it easy to serve high-resolution images to devices with retina displays.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/retina.js/1.0.1/retina.min.js">//cdnjs.cloudflare.com/ajax/libs/retina.js/1.0.1/retina.min.js</a>]]></description>
@@ -174,14 +206,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">prism0.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 May 2014 15:58:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mithril updated to version 0.1.11]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.11/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 May 2014 02:41:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.2.6]]></title>
@@ -516,30 +540,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">polymer0.2.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 24 Apr 2014 09:12:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-select updated to version 1.5.4]]></title>
-            <description><![CDATA[A custom <select> for Bootstrap using button dropdown as replacement<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.js</a>]]></description>
-            <link>http://silviomoreto.github.io/bootstrap-select/</link>
-            <guid isPermaLink="false">bootstrap-select1.5.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 23:21:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pubnub updated to version 3.6.2]]></title>
-            <description><![CDATA[PubNub, a new kind of Cloud-Hosted Broadcasting Service for Mass Communication.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.2/pubnub.min.js">//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.2/pubnub.min.js</a>]]></description>
-            <link>http://www.pubnub.com/</link>
-            <guid isPermaLink="false">pubnub3.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 23:15:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[string.js updated to version 1.8.1]]></title>
-            <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/1.8.1/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/1.8.1/string.min.js</a>]]></description>
-            <link>http://stringjs.com</link>
-            <guid isPermaLink="false">string.js1.8.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 23 Apr 2014 21:00:39 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bitcoinjs-lib(0.2.0-1) was added]]></title>
