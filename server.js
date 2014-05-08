@@ -407,7 +407,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   var news_item = function(req, res) {
     var id = new BSON.ObjectID(req.params.id);
     db.collection('updates').findOne({_id: id}, function(err, doc) {
-        var description - doc.status;
+        var description = doc.status;
         doc.status = linkify(doc.status);
         doc.timeago = timeago(new Date(doc.posted_at));
         doc.slug = generateSlug(doc.status);
@@ -415,7 +415,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       res.send(generatePage({
         title: doc.slug + ' - cdnjs.com',
         page: {
-          description: description, 
+          description: description,
           template: templates.newsfeed_item,
           data: doc
         }
