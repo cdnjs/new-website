@@ -1,6 +1,13 @@
 <div class="container" style="text-align: center;">
     <form class="form" onsubmit="return login()">
-      <h2 class="form-heading">Log in to cdnjs</h2><br />
+      <h2 class="form-heading">Log in to cdnjs</h2>
+      <p>Save your
+        <strong>favorites</strong> for easy access | Receive important system
+        <strong>notifications | </strong>Create your own
+        <strong>public profile</strong> to share.
+      <br />
+    Post updates about <strong>your projects</strong> to over 40,000 developers a week</p>
+
       <div class="form-fields">
         <input id="username" type="text" class="form-control" placeholder="Username" required autofocus><br />
         <input id="password" type="password" class="form-control" placeholder="Password" required><br />
@@ -9,8 +16,12 @@
       <img id="loader" src="img/ajax-loader.gif" style="display: none; margin: 30px auto;">
     </form>
 
-    <p><br />Don't have an account? <a href="/register">register now</a></p>
-  </div> 
+    <p><br />Don't have an account? <a href="/register">register now</a></p><br />
+    <div  class='col-md-6 col-md-offset-3'>
+
+    <p style="color: #444"><a href="https://www.userapp.io" target="_blank"><img src="https://www.userapp.io/img/badge.png" title="User management by UserApp"></a><br />Our user system is sponsored by UserApp. UserApp provides you with user management functionality that results in faster development, faster revenue, more users, and the ability to serve your users better by engaging with them more efficiently.</p>
+  </div>
+</div>
 <script>
     // Function to show and hide the loader anim
     function showLoader(show) {
@@ -41,12 +52,12 @@
       function onLoginSuccessful() {
         // Now, save the token in a cookie
         Kaka.set("ua_session_token", UserApp.global.token);
-        
+
         // Redirect the user to the index page
         window.location.href = "/";
         showLoader(false);
       }
-      
+
       return false;
     }
   </script>
