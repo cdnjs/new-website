@@ -490,6 +490,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     if(typeof req.cookies.ua_session_token !== 'undefined') {
       checkUser(req.cookies.ua_session_token, function (user) {
           get_news(user, req, res);
+      }, function () {
+        get_news(null, req, res);
       });
     } else {
       get_news(null, req, res);
