@@ -20,6 +20,7 @@
   "dependencies": {
     "body-parser": "^1.0.1",
     "compression": "^1.0.2",
+    "cookie-parser": "^1.0.1",
     "express": "^4.0.0",
     "html-linkify": "^1.1.0",
     "lodash": "^2.4.1",
