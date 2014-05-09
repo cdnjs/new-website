@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 May 2014 23:07:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 May 2014 09:54:03 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -540,14 +540,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">angular-wizard0.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 25 Apr 2014 19:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[floatthead updated to version 1.2.7]]></title>
-            <description><![CDATA[locking table headers without special css<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.7/jquery.floatThead.min.js">//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.7/jquery.floatThead.min.js</a>]]></description>
-            <link>https://github.com/mkoryak/floatThead</link>
-            <guid isPermaLink="false">floatthead1.2.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 25 Apr 2014 02:45:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bitcoinjs-lib(0.2.0-1) was added]]></title>
