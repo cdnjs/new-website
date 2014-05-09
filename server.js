@@ -382,9 +382,10 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
   var checkUser = function (token, callback, error) {
     // TODO - implement session instead of making API call each time
+    console.log('token', token);
     UserApp.setToken(token);
     UserApp.User.get({}, function(error, result) {
-      if(result.length > 0) {
+      if(result && result.length > 0) {
         callback(result[0]);
       } else {
         error();
