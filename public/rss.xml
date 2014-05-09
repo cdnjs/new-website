@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 09 May 2014 09:54:03 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 May 2014 15:07:02 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[vis updated to version 1.0.1]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/1.0.1/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/1.0.1/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 09 May 2014 15:00:48 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bignumber.js updated to version 1.4.0]]></title>
             <description><![CDATA[A library for arbitrary-precision decimal and non-decimal arithmetic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bignumber.js/1.4.0/bignumber.min.js">//cdnjs.cloudflare.com/ajax/libs/bignumber.js/1.4.0/bignumber.min.js</a>]]></description>
@@ -270,14 +278,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">jquery-ajaxtransport-xdomainrequest1.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 02 May 2014 19:05:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vis updated to version 1.0.0]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/1.0.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/1.0.0/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 02 May 2014 11:45:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[oppia(0.0.1) was added]]></title>
