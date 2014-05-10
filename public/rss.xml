@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 May 2014 06:02:05 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 May 2014 06:05:00 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[humanize-plus updated to version 1.4.2]]></title>
+            <description><![CDATA[A simple utility library for making the web more humane.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/humanize-plus/1.4.2/humanize.min.js">//cdnjs.cloudflare.com/ajax/libs/humanize-plus/1.4.2/humanize.min.js</a>]]></description>
+            <link>https://github.com/HubSpot/humanize</link>
+            <guid isPermaLink="false">humanize-plus1.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 May 2014 06:00:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[paper.js updated to version 0.9.18]]></title>
             <description><![CDATA[The Swiss Army Knife of Vector Graphics Scripting<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.18/paper-full.min.js">//cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.18/paper-full.min.js</a>]]></description>
@@ -21,14 +29,6 @@
             <guid isPermaLink="false">paper.js0.9.18</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 10 May 2014 02:26:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[humanize-plus(1.4.2) was added]]></title>
-            <description><![CDATA[A simple utility library for making the web more humane.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/humanize-plus/1.4.2/humanize.min.js">//cdnjs.cloudflare.com/ajax/libs/humanize-plus/1.4.2/humanize.min.js</a>]]></description>
-            <link>https://github.com/HubSpot/humanize</link>
-            <guid isPermaLink="false">humanize-plus1.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 09 May 2014 17:24:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vis updated to version 1.0.1]]></title>
