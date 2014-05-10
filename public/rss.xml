@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 09 May 2014 15:07:02 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 May 2014 02:38:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[paper.js updated to version 0.9.18]]></title>
+            <description><![CDATA[The Swiss Army Knife of Vector Graphics Scripting<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.18/paper-full.min.js">//cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.18/paper-full.min.js</a>]]></description>
+            <link>http://paperjs.org/</link>
+            <guid isPermaLink="false">paper.js0.9.18</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 May 2014 02:26:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[vis updated to version 1.0.1]]></title>
             <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/1.0.1/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/1.0.1/vis.min.js</a>]]></description>
@@ -516,38 +524,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">summernote0.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 26 Apr 2014 07:31:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vue updated to version 0.10.4]]></title>
-            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.10.4/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.10.4/vue.min.js</a>]]></description>
-            <link>http://vuejs.org</link>
-            <guid isPermaLink="false">vue0.10.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 25 Apr 2014 20:00:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[restangular updated to version 1.4.0]]></title>
-            <description><![CDATA[Restfull Resources service for AngularJS apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/restangular/1.4.0/restangular.min.js">//cdnjs.cloudflare.com/ajax/libs/restangular/1.4.0/restangular.min.js</a>]]></description>
-            <link>https://github.com/mgonto/restangular</link>
-            <guid isPermaLink="false">restangular1.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 25 Apr 2014 19:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-wizard updated to version 0.4.0]]></title>
-            <description><![CDATA[Easy to use Wizard library for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-wizard/0.4.0/angular-wizard.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-wizard/0.4.0/angular-wizard.min.js</a>]]></description>
-            <link>https://github.com/mgonto/angular-wizard</link>
-            <guid isPermaLink="false">angular-wizard0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 25 Apr 2014 19:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bitcoinjs-lib(0.2.0-1) was added]]></title>
-            <description><![CDATA[Client-side Bitcoin JavaScript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bitcoinjs-lib/0.2.0-1/bitcoinjs-min.js">//cdnjs.cloudflare.com/ajax/libs/bitcoinjs-lib/0.2.0-1/bitcoinjs-min.js</a>]]></description>
-            <link>http://bitcoinjs.org/</link>
-            <guid isPermaLink="false">bitcoinjs-lib0.2.0-1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 22 Apr 2014 15:49:55 GMT</pubDate>
         </item>
     </channel>
 </rss>
