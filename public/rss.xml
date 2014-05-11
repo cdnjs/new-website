@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 May 2014 11:53:03 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 May 2014 11:54:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[datatables updated to version 1.10.0]]></title>
+            <description><![CDATA[DataTables enhances HTML tables with the ability to sort, filter and page the data in the table very easily. It provides a comprehensive API and set of configuration options, allowing you to consume data from virtually any data source.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.0/jquery.dataTables.min.js">//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.0/jquery.dataTables.min.js</a>]]></description>
+            <link>http://datatables.net</link>
+            <guid isPermaLink="false">datatables1.10.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 May 2014 17:38:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[lunr.js updated to version 0.5.3]]></title>
             <description><![CDATA[Simple full-text search in your browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.3/lunr.min.js">//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.3/lunr.min.js</a>]]></description>
@@ -336,14 +344,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <pubDate>Fri, 02 May 2014 05:41:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[datatables updated to version 1.10.0]]></title>
-            <description><![CDATA[DataTables enhances HTML tables with the ability to sort, filter and page the data in the table very easily. It provides a comprehensive API and set of configuration options, allowing you to consume data from virtually any data source.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.0/jquery.dataTables.min.js">//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.0/jquery.dataTables.min.js</a>]]></description>
-            <link>http://datatables.net</link>
-            <guid isPermaLink="false">datatables1.10.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 02 May 2014 05:15:05 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[flight updated to version 1.1.4]]></title>
             <description><![CDATA[An event-driven web framework, from Twitter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flight/1.1.4/flight.min.js">//cdnjs.cloudflare.com/ajax/libs/flight/1.1.4/flight.min.js</a>]]></description>
             <link>http://twitter.github.io/flight/</link>
@@ -432,7 +432,7 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <pubDate>Wed, 30 Apr 2014 23:07:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[phaser updated to version 2.0.4]]></title>
+            <title><![CDATA[phaser(2.0.4) was added]]></title>
             <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.4/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.4/phaser.min.js</a>]]></description>
             <link>http://phaser.io/</link>
             <guid isPermaLink="false">phaser2.0.4</guid>
