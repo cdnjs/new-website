@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 May 2014 14:20:36 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 May 2014 11:53:03 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -37,6 +37,14 @@
             <guid isPermaLink="false">humanize-plus1.4.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 10 May 2014 06:00:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[skrollr updated to version 0.6.24]]></title>
+            <description><![CDATA[Stand-alone parallax scrolling library for mobile (Android + iOS) and desktop. No jQuery. Just plain JavaScript (and some love).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.24/skrollr.min.js">//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.24/skrollr.min.js</a>]]></description>
+            <link>http://prinzhorn.github.io/skrollr/</link>
+            <guid isPermaLink="false">skrollr0.6.24</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 May 2014 03:30:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[paper.js updated to version 0.9.18]]></title>
@@ -191,14 +199,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">jplayer2.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 06 May 2014 14:01:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[skrollr updated to version 0.6.24]]></title>
-            <description><![CDATA[Stand-alone parallax scrolling library for mobile (Android + iOS) and desktop. No jQuery. Just plain JavaScript (and some love).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.24/skrollr.min.js">//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.24/skrollr.min.js</a>]]></description>
-            <link>http://prinzhorn.github.io/skrollr/</link>
-            <guid isPermaLink="false">skrollr0.6.24</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 May 2014 13:16:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[primish updated to version 0.3.6]]></title>
