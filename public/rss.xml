@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 May 2014 11:54:59 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 May 2014 11:56:05 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">datatables1.10.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 10 May 2014 17:38:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[batman.js updated to version 0.16.0]]></title>
+            <description><![CDATA[The best JavaScript framework for Rails developers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/batman.js/0.16.0/batman.min.js">//cdnjs.cloudflare.com/ajax/libs/batman.js/0.16.0/batman.min.js</a>]]></description>
+            <link>http://batmanjs.org</link>
+            <guid isPermaLink="false">batman.js0.16.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 May 2014 17:11:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[lunr.js updated to version 0.5.3]]></title>
