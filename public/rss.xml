@@ -10,25 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 12 May 2014 09:54:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 May 2014 10:15:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[rimg updated to version 1.6.0]]></title>
-            <description><![CDATA[A responsive image solution for browsers that support mediaqueries (and IE8 support). Pure javascript and no server-side code..<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rimg/1.6.0/rimg.min.js">//cdnjs.cloudflare.com/ajax/libs/rimg/1.6.0/rimg.min.js</a>]]></description>
-            <link>http://joeyvandijk.github.io/rimg</link>
-            <guid isPermaLink="false">rimg1.6.0</guid>
+            <title><![CDATA[jquery.allowed-chars(0.1.3) was added]]></title>
+            <description><![CDATA[jQuery plugin to restrict users for typing only allowed chars for specified element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.allowed-chars/0.1.3/jquery.allowed-chars.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.allowed-chars/0.1.3/jquery.allowed-chars.min.js</a>]]></description>
+            <link>https://github.com/fosco-maestro/jquery-allowed-chars-simple-plugin</link>
+            <guid isPermaLink="false">jquery.allowed-chars0.1.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 12 May 2014 07:44:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[twitter-bootstrap updated to version 3.1.1]]></title>
-            <description><![CDATA[The most popular front-end framework for developing responsive, mobile first projects on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js</a>]]></description>
-            <link>http://getbootstrap.com/</link>
-            <guid isPermaLink="false">twitter-bootstrap3.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 May 2014 19:26:31 GMT</pubDate>
+            <pubDate>Sun, 11 May 2014 13:18:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[datatables updated to version 1.10.0]]></title>
@@ -758,6 +750,14 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <pubDate>Wed, 30 Apr 2014 14:35:02 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[twitter-bootstrap(3.1.1) was added]]></title>
+            <description><![CDATA[Javascript plugins for the Twitter Bootstrap toolkit<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js</a>]]></description>
+            <link>http://getbootstrap.com/</link>
+            <guid isPermaLink="false">twitter-bootstrap3.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 30 Apr 2014 14:35:02 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[twitter-bootstrap-wizard(1.0.0) was added]]></title>
             <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap-wizard/1.0.0/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap-wizard/1.0.0/js/bootstrap.min.js</a>]]></description>
             <guid isPermaLink="false">twitter-bootstrap-wizard1.0.0</guid>
@@ -1435,6 +1435,14 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[Easily convert unordered lists & other nested HTML structures into entertaining, interactive, turntable-like areas.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/roundabout/2.4.2/jquery.roundabout.min.js">//cdnjs.cloudflare.com/ajax/libs/roundabout/2.4.2/jquery.roundabout.min.js</a>]]></description>
             <link>http://fredhq.com/projects/roundabout</link>
             <guid isPermaLink="false">roundabout2.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 30 Apr 2014 14:35:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rimg(1.5.0) was added]]></title>
+            <description><![CDATA[A responsive image solution for browsers that support mediaqueries (and IE8 support). Pure javascript and no server-side code..<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rimg/1.5.0/rimg.min.js">//cdnjs.cloudflare.com/ajax/libs/rimg/1.5.0/rimg.min.js</a>]]></description>
+            <link>http://joeyvandijk.github.io/rimg</link>
+            <guid isPermaLink="false">rimg1.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 30 Apr 2014 14:35:02 GMT</pubDate>
         </item>
