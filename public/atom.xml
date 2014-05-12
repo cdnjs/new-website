@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 12 May 2014 14:05:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 May 2014 14:24:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[extjs updated to version 4.2.1]]></title>
+            <description><![CDATA[Ext JS is the developer's choice for building powerful desktop web applications using JavaScript and web standards.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/extjs/4.2.1/ext-all.js">//cdnjs.cloudflare.com/ajax/libs/extjs/4.2.1/ext-all.js</a>]]></description>
+            <link>http://www.sencha.com/products/extjs/</link>
+            <guid isPermaLink="false">extjs4.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 12 May 2014 14:16:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[sco.js updated to version 1.1.0]]></title>
             <description><![CDATA[Javascript extensions for Twitter Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sco.js/1.1.0/css/scojs.css">//cdnjs.cloudflare.com/ajax/libs/sco.js/1.1.0/css/scojs.css</a>]]></description>
@@ -488,7 +496,7 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <pubDate>Wed, 30 Apr 2014 23:07:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[phaser updated to version 2.0.4]]></title>
+            <title><![CDATA[phaser(2.0.4) was added]]></title>
             <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.4/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.4/phaser.min.js</a>]]></description>
             <link>http://phaser.io/</link>
             <guid isPermaLink="false">phaser2.0.4</guid>
@@ -556,14 +564,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">jquery-cookie1.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 28 Apr 2014 17:27:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[classlist(2014.01.31) was added]]></title>
-            <description><![CDATA[Cross-browser full element.classList implementation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js">//cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js</a>]]></description>
-            <link>https://github.com/eligrey/classList.js</link>
-            <guid isPermaLink="false">classlist2014.01.31</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 28 Apr 2014 14:11:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
