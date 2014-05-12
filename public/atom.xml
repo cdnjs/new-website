@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 12 May 2014 15:04:47 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 May 2014 15:07:46 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[morris.js updated to version 0.5.0]]></title>
+            <description><![CDATA[Pretty time-series line graphs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js">//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js</a>]]></description>
+            <link>http://oesmith.github.com/morris.js/</link>
+            <guid isPermaLink="false">morris.js0.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 12 May 2014 14:58:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[extjs updated to version 4.2.1]]></title>
             <description><![CDATA[Ext JS is the developer's choice for building powerful desktop web applications using JavaScript and web standards.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/extjs/4.2.1/ext-all.js">//cdnjs.cloudflare.com/ajax/libs/extjs/4.2.1/ext-all.js</a>]]></description>
