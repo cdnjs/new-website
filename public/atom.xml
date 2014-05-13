@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 02:36:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 04:00:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">seedrandom2.3.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 May 2014 02:30:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dropzone updated to version 3.9.0]]></title>
+            <description><![CDATA[Drag'n'drop file uploads with image previews<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dropzone/3.9.0/dropzone.min.js">//cdnjs.cloudflare.com/ajax/libs/dropzone/3.9.0/dropzone.min.js</a>]]></description>
+            <link>http://www.dropzonejs.com/</link>
+            <guid isPermaLink="false">dropzone3.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 May 2014 02:11:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[absurd updated to version 0.3.21]]></title>
@@ -597,13 +605,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">semantic-ui0.16.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 29 Apr 2014 09:52:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Base64 updated to version 0.3.0]]></title>
-            <description><![CDATA[Base64 encoding and decoding<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Base64/0.3.0/base64.min.js">//cdnjs.cloudflare.com/ajax/libs/Base64/0.3.0/base64.min.js</a>]]></description>
-            <guid isPermaLink="false">Base640.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 29 Apr 2014 03:45:37 GMT</pubDate>
         </item>
     </channel>
 </rss>
