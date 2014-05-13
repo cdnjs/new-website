@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 10:29:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 17:25:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.2.7]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.7/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.7/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.2.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 May 2014 17:15:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[yui updated to version 3.16.0]]></title>
             <description><![CDATA[The YUI Library is a set of utilities and controls, written with JavaScript and CSS, for building richly interactive web applications using techniques such as DOM scripting, DHTML and AJAX.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yui/3.16.0/yui/yui-min.js">//cdnjs.cloudflare.com/ajax/libs/yui/3.16.0/yui/yui-min.js</a>]]></description>
@@ -440,14 +448,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <pubDate>Sat, 03 May 2014 15:58:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[cytoscape updated to version 2.2.6]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.6/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.6/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.2.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 02 May 2014 21:01:03 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery-ajaxtransport-xdomainrequest updated to version 1.0.2]]></title>
             <description><![CDATA[Implements automatic Cross Origin Resource Sharing support using the XDomainRequest object for IE8 and IE9 when using the ajax function in jQuery 1.5+.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js</a>]]></description>
             <link>https://github.com/MoonScript/jQuery-ajaxTransport-XDomainRequest</link>
@@ -606,21 +606,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">toastr.js2.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 29 Apr 2014 18:17:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[async updated to version 0.8.0]]></title>
-            <description><![CDATA[Higher-order functions and common patterns for asynchronous code<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/async/0.8.0/async.js">//cdnjs.cloudflare.com/ajax/libs/async/0.8.0/async.js</a>]]></description>
-            <guid isPermaLink="false">async0.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 29 Apr 2014 15:30:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[zeroclipboard updated to version 2.0.0-beta.5]]></title>
-            <description><![CDATA[The ZeroClipboard library provides an easy way to copy text to the clipboard using an invisible Adobe Flash movie and a JavaScript interface.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.0.0-beta.5/ZeroClipboard.min.js">//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.0.0-beta.5/ZeroClipboard.min.js</a>]]></description>
-            <link>http://zeroclipboard.org/</link>
-            <guid isPermaLink="false">zeroclipboard2.0.0-beta.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 29 Apr 2014 13:45:42 GMT</pubDate>
         </item>
     </channel>
 </rss>
