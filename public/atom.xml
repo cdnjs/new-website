@@ -10,57 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 19:27:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 19:40:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[mathjs updated to version 0.21.1]]></title>
-            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/0.21.1/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/0.21.1/math.min.js</a>]]></description>
-            <link>http://mathjs.org</link>
-            <guid isPermaLink="false">mathjs0.21.1</guid>
+            <title><![CDATA[nanogallery updated to version 4.4.0]]></title>
+            <description><![CDATA[Image gallery simplified. Very easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr/Picasa/Google+/smugmug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/4.4.0/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/4.4.0/jquery.nanogallery.min.js</a>]]></description>
+            <link>http://www.nanogallery.brisbois.fr/</link>
+            <guid isPermaLink="false">nanogallery4.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 19:15:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pnotify updated to version 2.0.0]]></title>
-            <description><![CDATA[PNotify is a JavaScript notification plugin, developed by SciActive. It is designed to provide an unparalleled level of flexibility, while still being very easy to implement and use.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.core.min.js">//cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.core.min.js</a>]]></description>
-            <link>http://sciactive.com/pnotify/</link>
-            <guid isPermaLink="false">pnotify2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 19:12:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[instantclick updated to version 3.0.1]]></title>
-            <description><![CDATA[A Javascript library that preloads pages making use of pjax.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js">//cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js</a>]]></description>
-            <link>instantclick.io</link>
-            <guid isPermaLink="false">instantclick3.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 18:31:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cytoscape updated to version 2.2.7]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.7/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.7/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.2.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 17:15:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[foundation updated to version 5.2.2]]></title>
-            <description><![CDATA[The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites and apps that work on any kind of device.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation.min.js</a>]]></description>
-            <link>http://foundation.zurb.com</link>
-            <guid isPermaLink="false">foundation5.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 14:36:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[foundation-essential updated to version 5.2.2]]></title>
-            <description><![CDATA[Slimmed-down build of ZURB Foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.2.2/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.2.2/js/foundation.min.js</a>]]></description>
-            <link>http://foundation.zurb.com</link>
-            <guid isPermaLink="false">foundation-essential5.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 14:36:39 GMT</pubDate>
+            <pubDate>Tue, 13 May 2014 19:31:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yui updated to version 3.16.0]]></title>
@@ -93,14 +53,6 @@
             <guid isPermaLink="false">polymer0.2.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 12 May 2014 22:50:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-countdown updated to version 2.0.0]]></title>
-            <description><![CDATA[Countdown for jQuery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.0.0/jquery.countdown.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-countdown/2.0.0/jquery.countdown.min.js</a>]]></description>
-            <link>http://keith-wood.name/countdown.html</link>
-            <guid isPermaLink="false">jquery-countdown2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 12 May 2014 22:27:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.13]]></title>
@@ -494,6 +446,14 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">prism0.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 May 2014 15:58:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.2.6]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.6/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.6/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.2.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 May 2014 21:01:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-ajaxtransport-xdomainrequest updated to version 1.0.2]]></title>
