@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 19:13:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 19:22:41 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[pnotify updated to version 2.0.0]]></title>
+            <description><![CDATA[PNotify is a JavaScript notification plugin, developed by SciActive. It is designed to provide an unparalleled level of flexibility, while still being very easy to implement and use.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.core.min.js">//cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.core.min.js</a>]]></description>
+            <link>http://sciactive.com/pnotify/</link>
+            <guid isPermaLink="false">pnotify2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 May 2014 19:12:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[instantclick updated to version 3.0.1]]></title>
             <description><![CDATA[A Javascript library that preloads pages making use of pjax.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js">//cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js</a>]]></description>
