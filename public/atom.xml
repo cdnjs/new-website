@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 04:00:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 04:05:53 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[dropzone updated to version 3.8.4]]></title>
+            <description><![CDATA[Drag'n'drop file uploads with image previews<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dropzone/3.8.4/dropzone.min.js">//cdnjs.cloudflare.com/ajax/libs/dropzone/3.8.4/dropzone.min.js</a>]]></description>
+            <link>http://www.dropzonejs.com/</link>
+            <guid isPermaLink="false">dropzone3.8.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 May 2014 04:00:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[seedrandom updated to version 2.3.5]]></title>
             <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.5/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.5/seedrandom.min.js</a>]]></description>
@@ -21,14 +29,6 @@
             <guid isPermaLink="false">seedrandom2.3.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 May 2014 02:30:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dropzone updated to version 3.9.0]]></title>
-            <description><![CDATA[Drag'n'drop file uploads with image previews<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dropzone/3.9.0/dropzone.min.js">//cdnjs.cloudflare.com/ajax/libs/dropzone/3.9.0/dropzone.min.js</a>]]></description>
-            <link>http://www.dropzonejs.com/</link>
-            <guid isPermaLink="false">dropzone3.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 02:11:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[absurd updated to version 0.3.21]]></title>
