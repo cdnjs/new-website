@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 17:25:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 18:59:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[instantclick updated to version 3.0.1]]></title>
+            <description><![CDATA[A Javascript library that preloads pages making use of pjax.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js">//cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js</a>]]></description>
+            <link>instantclick.io</link>
+            <guid isPermaLink="false">instantclick3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 May 2014 18:31:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.2.7]]></title>
             <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.7/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.7/cytoscape.min.js</a>]]></description>
@@ -598,14 +606,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">gsap1.11.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 29 Apr 2014 23:31:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[toastr.js updated to version 2.0.2]]></title>
-            <description><![CDATA[ToastrJS is a JavaScript library for Gnome / Growl type non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.2/js/toastr.min.js">//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.2/js/toastr.min.js</a>]]></description>
-            <link>http://www.toastrjs.com</link>
-            <guid isPermaLink="false">toastr.js2.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 29 Apr 2014 18:17:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
