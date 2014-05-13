@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 07:16:37 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 08:21:44 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -37,6 +37,14 @@
             <guid isPermaLink="false">polymer0.2.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 12 May 2014 22:50:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.13]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.13/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.13/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 12 May 2014 17:28:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[absurd updated to version 0.3.21]]></title>
@@ -237,14 +245,6 @@
             <guid isPermaLink="false">jquery.gray1.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 08 May 2014 09:21:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mithril updated to version 0.1.12]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.12/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.12/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.12</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 08 May 2014 03:18:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-switch updated to version 3.0.0]]></title>
