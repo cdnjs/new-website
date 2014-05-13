@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 19:22:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 19:24:03 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mathjs updated to version 0.21.1]]></title>
+            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/0.21.1/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/0.21.1/math.min.js</a>]]></description>
+            <link>http://mathjs.org</link>
+            <guid isPermaLink="false">mathjs0.21.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 May 2014 19:15:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[pnotify updated to version 2.0.0]]></title>
             <description><![CDATA[PNotify is a JavaScript notification plugin, developed by SciActive. It is designed to provide an unparalleled level of flexibility, while still being very easy to implement and use.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.core.min.js">//cdnjs.cloudflare.com/ajax/libs/pnotify/2.0.0/pnotify.core.min.js</a>]]></description>
