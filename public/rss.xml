@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 20:07:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 20:27:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[kendo-ui-core(2014.1.416) was added]]></title>
+            <description><![CDATA[Kendo UI is everything you need to build sites and apps with HTML5 & JavaScript & Kendo UI Core is the free and open-source version of Kendo UI that provides access to the web's best UI widgets and key framework features essential for developing great experiences for the web and mobile.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.core.min.js">//cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.core.min.js</a>]]></description>
+            <link>http://www.telerik.com/kendo-ui</link>
+            <guid isPermaLink="false">kendo-ui-core2014.1.416</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 May 2014 20:17:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[headroom updated to version 0.5.0]]></title>
             <description><![CDATA[Give your page some headroom. Hide your header until you need it<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/headroom/0.5.0/headroom.min.js">//cdnjs.cloudflare.com/ajax/libs/headroom/0.5.0/headroom.min.js</a>]]></description>
