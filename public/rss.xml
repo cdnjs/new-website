@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 12 May 2014 16:14:32 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2014 02:36:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[seedrandom updated to version 2.3.5]]></title>
+            <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.5/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.5/seedrandom.min.js</a>]]></description>
+            <link>https://github.com/davidbau/seedrandom</link>
+            <guid isPermaLink="false">seedrandom2.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 May 2014 02:30:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[absurd updated to version 0.3.21]]></title>
             <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.21/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.21/absurd.min.js</a>]]></description>
@@ -596,14 +604,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">Base640.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 29 Apr 2014 03:45:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-cookie updated to version 1.4.1]]></title>
-            <description><![CDATA[A simple, lightweight jQuery plugin for reading, writing and deleting cookies.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js</a>]]></description>
-            <link>https://github.com/carhartl/jquery-cookie</link>
-            <guid isPermaLink="false">jquery-cookie1.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 28 Apr 2014 17:27:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
