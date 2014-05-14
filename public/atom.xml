@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 May 2014 08:48:02 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2014 09:03:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[xlsx updated to version 0.6.2]]></title>
+            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js</a>]]></description>
+            <link>https://github.com/SheetJS/js-xlsx</link>
+            <guid isPermaLink="false">xlsx0.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 08:53:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[gsap updated to version 1.11.8]]></title>
             <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.8/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.8/TweenMax.min.js</a>]]></description>
@@ -510,14 +518,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">ocanvas2.7.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 04 May 2014 21:22:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[xlsx updated to version 0.6.2]]></title>
-            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js</a>]]></description>
-            <link>https://github.com/SheetJS/js-xlsx</link>
-            <guid isPermaLink="false">xlsx0.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 May 2014 20:00:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[evil.js(42) was added]]></title>
