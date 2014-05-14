@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 May 2014 13:58:24 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2014 14:09:09 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery-one-page-nav(3.0.0) was added]]></title>
+            <description><![CDATA[A lightweight jQuery plugin for the navigation on one-page sites. Adds smooth scrolling when clicking on the navigation and automatically selects the correct navigation items as you are scrolling through the different sections.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js</a>]]></description>
+            <link>http://davist11.github.io/jQuery-One-Page-Nav/</link>
+            <guid isPermaLink="false">jquery-one-page-nav3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 10:43:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-impromptu(5.2.3) was added]]></title>
+            <description><![CDATA[An extension to help provide a more pleasant way to spontaneously prompt a user for input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-impromptu/5.2.3/jquery-impromptu.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-impromptu/5.2.3/jquery-impromptu.min.js</a>]]></description>
+            <link>http://trentrichardson.com/Impromptu</link>
+            <guid isPermaLink="false">jquery-impromptu5.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 09:44:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[xls updated to version 0.6.17]]></title>
             <description><![CDATA[Javascript XLS (Excel 97-2004) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xls/0.6.17/xls.js">//cdnjs.cloudflare.com/ajax/libs/xls/0.6.17/xls.js</a>]]></description>
