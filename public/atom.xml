@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 May 2014 14:42:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2014 14:59:32 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.2.12]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.12/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.12/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.2.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 14:45:59 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[gl-matrix updated to version 2.1.0]]></title>
             <description><![CDATA[Javascript Matrix and Vector library for High Performance WebGL apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix-min.js">//cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix-min.js</a>]]></description>
@@ -638,14 +646,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">jszip2.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 May 2014 21:15:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.2.11]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.11/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.11/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.2.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 May 2014 20:30:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vega updated to version 1.4.0]]></title>
