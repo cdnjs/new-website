@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 May 2014 09:03:28 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2014 09:10:31 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[seedrandom updated to version 2.3.6]]></title>
+            <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.6/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.6/seedrandom.min.js</a>]]></description>
+            <link>https://github.com/davidbau/seedrandom</link>
+            <guid isPermaLink="false">seedrandom2.3.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 09:01:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[xlsx updated to version 0.6.2]]></title>
             <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.6.2/xlsx.js</a>]]></description>
@@ -125,14 +133,6 @@
             <guid isPermaLink="false">dropzone3.8.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 May 2014 04:00:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[seedrandom updated to version 2.3.5]]></title>
-            <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.5/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.5/seedrandom.min.js</a>]]></description>
-            <link>https://github.com/davidbau/seedrandom</link>
-            <guid isPermaLink="false">seedrandom2.3.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 02:30:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[polymer updated to version 0.2.4]]></title>
