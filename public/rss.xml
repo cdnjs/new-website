@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 May 2014 14:09:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2014 14:42:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[gl-matrix updated to version 2.1.0]]></title>
+            <description><![CDATA[Javascript Matrix and Vector library for High Performance WebGL apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix-min.js">//cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix-min.js</a>]]></description>
+            <link>https://github.com/toji/gl-matrix</link>
+            <guid isPermaLink="false">gl-matrix2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 14:30:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.2.8]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.2.8/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.2.8/jsonld.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.2.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 14:16:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery-one-page-nav(3.0.0) was added]]></title>
             <description><![CDATA[A lightweight jQuery plugin for the navigation on one-page sites. Adds smooth scrolling when clicking on the navigation and automatically selects the correct navigation items as you are scrolling through the different sections.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js</a>]]></description>
@@ -117,14 +133,6 @@
             <guid isPermaLink="false">instantclick3.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 May 2014 18:31:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsonld updated to version 0.2.8]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.2.8/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.2.8/jsonld.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.2.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 17:18:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.2.7]]></title>
