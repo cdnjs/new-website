@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 May 2014 20:27:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2014 08:29:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ouibounce updated to version 0.0.8]]></title>
+            <description><![CDATA[Show some HTML before visitors leave your site.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.8/ouibounce.js">//cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.8/ouibounce.js</a>]]></description>
+            <link>https://github.com/carlsednaoui/ouibounce</link>
+            <guid isPermaLink="false">ouibounce0.0.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 01:06:54 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[kendo-ui-core(2014.1.416) was added]]></title>
             <description><![CDATA[Kendo UI is everything you need to build sites and apps with HTML5 & JavaScript & Kendo UI Core is the free and open-source version of Kendo UI that provides access to the web's best UI widgets and key framework features essential for developing great experiences for the web and mobile.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.core.min.js">//cdnjs.cloudflare.com/ajax/libs/kendo-ui-core/2014.1.416/js/kendo.core.min.js</a>]]></description>
@@ -646,30 +654,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">tinysort1.5.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 30 Apr 2014 23:07:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[phaser updated to version 2.0.4]]></title>
-            <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.4/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.4/phaser.min.js</a>]]></description>
-            <link>http://phaser.io/</link>
-            <guid isPermaLink="false">phaser2.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 30 Apr 2014 06:23:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Cookies.js updated to version 0.4.0]]></title>
-            <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/0.4.0/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/0.4.0/cookies.min.js</a>]]></description>
-            <link>https://github.com/ScottHamper/Cookies</link>
-            <guid isPermaLink="false">Cookies.js0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 29 Apr 2014 23:45:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gsap updated to version 1.11.7]]></title>
-            <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.7/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.7/TweenMax.min.js</a>]]></description>
-            <link>http://www.greensock.com/gsap-js/</link>
-            <guid isPermaLink="false">gsap1.11.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 29 Apr 2014 23:31:31 GMT</pubDate>
         </item>
     </channel>
 </rss>
