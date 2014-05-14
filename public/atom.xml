@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 May 2014 17:37:59 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2014 20:15:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[leapjs updated to version 0.6.0]]></title>
+            <description><![CDATA[A JavaScript client for the LeapMotion.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leapjs/0.6.0/leap.min.js">//cdnjs.cloudflare.com/ajax/libs/leapjs/0.6.0/leap.min.js</a>]]></description>
+            <link>http://github.com/leapmotion/leapjs</link>
+            <guid isPermaLink="false">leapjs0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 18:01:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jsforce updated to version 1.2.0]]></title>
             <description><![CDATA[Salesforce API Library for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.2.0/jsforce.min.js">//cdnjs.cloudflare.com/ajax/libs/jsforce/1.2.0/jsforce.min.js</a>]]></description>
