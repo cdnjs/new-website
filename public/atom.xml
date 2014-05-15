@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 May 2014 20:15:16 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 May 2014 05:20:45 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[kartograph-js updated to version 0.8.7]]></title>
+            <description><![CDATA[JavaScript library for SVG mapping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kartograph-js/0.8.7/kartograph.min.js">//cdnjs.cloudflare.com/ajax/libs/kartograph-js/0.8.7/kartograph.min.js</a>]]></description>
+            <link>http://kartograph.org</link>
+            <guid isPermaLink="false">kartograph-js0.8.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 May 2014 05:15:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[leapjs updated to version 0.6.0]]></title>
             <description><![CDATA[A JavaScript client for the LeapMotion.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leapjs/0.6.0/leap.min.js">//cdnjs.cloudflare.com/ajax/libs/leapjs/0.6.0/leap.min.js</a>]]></description>
@@ -702,22 +710,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">weather-icons0.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 May 2014 09:48:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gillie(0.2.1) was added]]></title>
-            <description><![CDATA[MVC JavaScript MicroFramework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gillie/0.2.1/gillie.min.js">//cdnjs.cloudflare.com/ajax/libs/gillie/0.2.1/gillie.min.js</a>]]></description>
-            <link>http://pablovallejo.github.io/gillie</link>
-            <guid isPermaLink="false">gillie0.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 May 2014 03:04:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tinysort updated to version 1.5.6]]></title>
-            <description><![CDATA[TinySort is a small and simple jQuery plugin that will sort any nodetype by its text- or attribute value, or by that of one of its children.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinysort/1.5.6/jquery.tinysort.min.js">//cdnjs.cloudflare.com/ajax/libs/tinysort/1.5.6/jquery.tinysort.min.js</a>]]></description>
-            <link>http://tinysort.sjeiti.com</link>
-            <guid isPermaLink="false">tinysort1.5.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 30 Apr 2014 23:07:51 GMT</pubDate>
         </item>
     </channel>
 </rss>
