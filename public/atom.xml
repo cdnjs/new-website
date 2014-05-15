@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 May 2014 05:20:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 May 2014 06:05:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[chroma-js updated to version 0.5.7]]></title>
+            <description><![CDATA[JavaScript library for color conversions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.7/chroma.min.js">//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.7/chroma.min.js</a>]]></description>
+            <link>https://github.com/gka/chroma.js</link>
+            <guid isPermaLink="false">chroma-js0.5.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 May 2014 06:01:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[kartograph-js updated to version 0.8.7]]></title>
             <description><![CDATA[JavaScript library for SVG mapping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kartograph-js/0.8.7/kartograph.min.js">//cdnjs.cloudflare.com/ajax/libs/kartograph-js/0.8.7/kartograph.min.js</a>]]></description>
