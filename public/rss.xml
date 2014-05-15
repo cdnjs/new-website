@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 May 2014 08:32:55 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 May 2014 08:35:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -61,6 +61,14 @@
             <guid isPermaLink="false">jsforce1.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 May 2014 17:30:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fixed-header-table updated to version 1.3.0]]></title>
+            <description><![CDATA[The jQuery fixedHeaderTable plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fixed-header-table/1.3.0/jquery.fixedheadertable.min.js">//cdnjs.cloudflare.com/ajax/libs/fixed-header-table/1.3.0/jquery.fixedheadertable.min.js</a>]]></description>
+            <link>http://www.fixedheadertable.com/</link>
+            <guid isPermaLink="false">fixed-header-table1.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 17:02:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.2.12]]></title>
