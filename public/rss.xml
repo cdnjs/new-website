@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 May 2014 08:35:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 May 2014 08:37:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -45,6 +45,14 @@
             <guid isPermaLink="false">angular-route-segment1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 May 2014 22:47:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[select2 updated to version 3.4.8]]></title>
+            <description><![CDATA[Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. Look and feel of Select2 is based on the excellent Chosen library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/select2/3.4.8/select2.min.js">//cdnjs.cloudflare.com/ajax/libs/select2/3.4.8/select2.min.js</a>]]></description>
+            <link>http://ivaynberg.github.com/select2/</link>
+            <guid isPermaLink="false">select23.4.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 18:51:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[leapjs updated to version 0.6.0]]></title>
