@@ -48,7 +48,7 @@ function onLoginSuccessful() {
 function signup() {
   // Show the loader
   showLoader(true);
-
+  Kaka.remove("ua_session_token");
   // This will sign up the user
   UserApp.User.save({
     login: document.getElementById("username").value,

@@ -441,6 +441,7 @@ $('body').on('click', '.remove-favorite', function(e) {
   $('.login-form').on('submit', function (ev) {
   // Login the user
     // Show the loader
+    Kaka.remove("ua_session_token");
     showLoader(true);
 
     // This will authenticate the user
@@ -453,7 +454,7 @@ $('body').on('click', '.remove-favorite', function(e) {
         alert("Error: " + error.message);
         showLoader(false);
       } else {
-        
+
         onLoginSuccessful();
       }
     });
