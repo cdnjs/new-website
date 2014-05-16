@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 May 2014 07:41:08 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 May 2014 10:47:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[chai updated to version 1.9.1]]></title>
+            <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chai/1.9.1/chai.js">//cdnjs.cloudflare.com/ajax/libs/chai/1.9.1/chai.js</a>]]></description>
+            <link>http://chaijs.com</link>
+            <guid isPermaLink="false">chai1.9.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 May 2014 10:41:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[async updated to version 0.9.0]]></title>
+            <description><![CDATA[Higher-order functions and common patterns for asynchronous code<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/async/0.9.0/async.js">//cdnjs.cloudflare.com/ajax/libs/async/0.9.0/async.js</a>]]></description>
+            <guid isPermaLink="false">async0.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 May 2014 10:31:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[pickadate.js updated to version 3.5.1]]></title>
             <description><![CDATA[The mobile-friendly, responsive, and lightweight jQuery date & time input picker.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.1/picker.js">//cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.1/picker.js</a>]]></description>
@@ -37,14 +52,6 @@
             <guid isPermaLink="false">jquery.smartbanner1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 15 May 2014 22:18:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chai updated to version 1.9.0]]></title>
-            <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chai/1.9.0/chai.js">//cdnjs.cloudflare.com/ajax/libs/chai/1.9.0/chai.js</a>]]></description>
-            <link>http://chaijs.com</link>
-            <guid isPermaLink="false">chai1.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 May 2014 11:58:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[slick-carousel(1.3.6) was added]]></title>
