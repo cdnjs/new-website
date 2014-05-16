@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 May 2014 11:06:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 May 2014 13:19:01 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[velocity updated to version 0.0.9]]></title>
+            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/0.0.9/jquery.velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/0.0.9/jquery.velocity.min.js</a>]]></description>
+            <link>http://velocityjs.org</link>
+            <guid isPermaLink="false">velocity0.0.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 May 2014 13:10:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[chai updated to version 1.9.1]]></title>
             <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chai/1.9.1/chai.js">//cdnjs.cloudflare.com/ajax/libs/chai/1.9.1/chai.js</a>]]></description>
