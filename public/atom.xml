@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 May 2014 13:28:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 May 2014 16:53:05 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-moment updated to version 0.7.1]]></title>
+            <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.7.1/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.7.1/angular-moment.min.js</a>]]></description>
+            <link>https://github.com/urish/angular-moment</link>
+            <guid isPermaLink="false">angular-moment0.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 May 2014 16:45:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[velocity updated to version 0.0.9]]></title>
             <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/0.0.9/jquery.velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/0.0.9/jquery.velocity.min.js</a>]]></description>
@@ -716,14 +724,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">jquery-ajaxtransport-xdomainrequest1.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 02 May 2014 19:05:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[i3d3 updated to version 0.9.1]]></title>
-            <description><![CDATA[D3-based plotting and histogramming library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/i3d3/0.9.1/i3d3.js">//cdnjs.cloudflare.com/ajax/libs/i3d3/0.9.1/i3d3.js</a>]]></description>
-            <link>https://github.com/eigenhombre/i3d3</link>
-            <guid isPermaLink="false">i3d30.9.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 02 May 2014 16:06:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
