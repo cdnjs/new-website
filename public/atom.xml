@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 May 2014 16:20:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 May 2014 16:21:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -69,6 +69,14 @@
             <guid isPermaLink="false">angular-moment0.7.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 May 2014 16:45:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jshint updated to version 2.5.1]]></title>
+            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.1/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.1/jshint.js</a>]]></description>
+            <link>http://jshint.com/</link>
+            <guid isPermaLink="false">jshint2.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 May 2014 14:34:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[velocity updated to version 0.0.9]]></title>
