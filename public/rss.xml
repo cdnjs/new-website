@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 May 2014 16:55:53 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 May 2014 05:50:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[absurd updated to version 0.3.22]]></title>
+            <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.22/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.22/absurd.min.js</a>]]></description>
+            <link>http://absurdjs.com/</link>
+            <guid isPermaLink="false">absurd0.3.22</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 17 May 2014 05:45:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-moment updated to version 0.7.1]]></title>
             <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.7.1/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.7.1/angular-moment.min.js</a>]]></description>
@@ -339,14 +347,6 @@
             <guid isPermaLink="false">mithril0.1.13</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 12 May 2014 17:28:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[absurd updated to version 0.3.21]]></title>
-            <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.21/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.21/absurd.min.js</a>]]></description>
-            <link>http://absurdjs.com/</link>
-            <guid isPermaLink="false">absurd0.3.21</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 12 May 2014 16:02:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dragonbones updated to version 2.4.1]]></title>
@@ -716,14 +716,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">prism0.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 May 2014 15:58:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-ajaxtransport-xdomainrequest updated to version 1.0.2]]></title>
-            <description><![CDATA[Implements automatic Cross Origin Resource Sharing support using the XDomainRequest object for IE8 and IE9 when using the ajax function in jQuery 1.5+.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js</a>]]></description>
-            <link>https://github.com/MoonScript/jQuery-ajaxTransport-XDomainRequest</link>
-            <guid isPermaLink="false">jquery-ajaxtransport-xdomainrequest1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 02 May 2014 19:05:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
