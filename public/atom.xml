@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 May 2014 05:50:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 May 2014 06:38:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">absurd0.3.22</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 17 May 2014 05:45:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ink updated to version 3.0.2]]></title>
+            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.0.2/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.0.2/js/ink-all.min.js</a>]]></description>
+            <link>http://ink.sapo.pt/</link>
+            <guid isPermaLink="false">ink3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 May 2014 18:20:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-moment updated to version 0.7.1]]></title>
@@ -52,14 +60,6 @@
             <guid isPermaLink="false">async0.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 May 2014 10:31:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ink updated to version 3.0.1]]></title>
-            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.0.1/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.0.1/js/ink-all.min.js</a>]]></description>
-            <link>http://ink.sapo.pt/</link>
-            <guid isPermaLink="false">ink3.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 May 2014 09:00:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pickadate.js updated to version 3.5.1]]></title>
