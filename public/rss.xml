@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 May 2014 16:35:41 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 May 2014 16:50:43 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -69,6 +69,14 @@
             <guid isPermaLink="false">angular-moment0.7.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 May 2014 16:45:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[canvasjs updated to version 1.4.1]]></title>
+            <description><![CDATA[CanvasJS is an easy to use HTML5 & JavaScript Charting library built on Canvas element.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/canvasjs/1.4.1/canvas.min.js">//cdnjs.cloudflare.com/ajax/libs/canvasjs/1.4.1/canvas.min.js</a>]]></description>
+            <link>http://canvasjs.com/</link>
+            <guid isPermaLink="false">canvasjs1.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 May 2014 16:43:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jshint updated to version 2.5.1]]></title>
