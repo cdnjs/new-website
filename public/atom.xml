@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 May 2014 09:01:58 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 May 2014 11:28:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.textcomplete updated to version 0.2.1]]></title>
+            <description><![CDATA[Introduce autocompleting power to textareas, like GitHub comment forms have.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/0.2.1/jquery.textcomplete.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/0.2.1/jquery.textcomplete.min.js</a>]]></description>
+            <link>http://yuku-t.com/jquery-textcomplete/</link>
+            <guid isPermaLink="false">jquery.textcomplete0.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 17 May 2014 11:23:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[processing.js updated to version 1.4.8]]></title>
+            <description><![CDATA[A port of the Processing visualization language to JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js">//cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.8/processing.min.js</a>]]></description>
+            <link>http://processingjs.org</link>
+            <guid isPermaLink="false">processing.js1.4.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 17 May 2014 11:15:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[absurd updated to version 0.3.22]]></title>
             <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.22/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.22/absurd.min.js</a>]]></description>
@@ -21,14 +37,6 @@
             <guid isPermaLink="false">absurd0.3.22</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 17 May 2014 05:45:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.textcomplete(0.2.1) was added]]></title>
-            <description><![CDATA[Introduce autocompleting power to textareas, like GitHub comment forms have.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/0.2.1/jquery.textcomplete.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/0.2.1/jquery.textcomplete.min.js</a>]]></description>
-            <link>http://yuku-t.com/jquery-textcomplete/</link>
-            <guid isPermaLink="false">jquery.textcomplete0.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 May 2014 19:32:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ink updated to version 3.0.2]]></title>
