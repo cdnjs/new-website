@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 May 2014 12:20:38 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 May 2014 12:22:37 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">piwik2.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 May 2014 12:01:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.simpleWeather updated to version 3.0.0]]></title>
+            <description><![CDATA[A simple jQuery plugin to display current weather data for any location and doesn't get in your way. Now supports HTML5 GeoLocation! Handcrafted with ♥ from Austin, Texas by James Fleeting.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.0/jquery.simpleWeather.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.0/jquery.simpleWeather.min.js</a>]]></description>
+            <link>http://simpleweatherjs.com</link>
+            <guid isPermaLink="false">jquery.simpleWeather3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 18 May 2014 04:39:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mocha updated to version 1.19.0]]></title>
@@ -3019,14 +3027,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[2 Klicks fuer mehr Datenschutz<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.socialshareprivacy/1.6/jquery.socialshareprivacy.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.socialshareprivacy/1.6/jquery.socialshareprivacy.min.js</a>]]></description>
             <link>http://www.heise.de/extras/socialshareprivacy/</link>
             <guid isPermaLink="false">jquery.socialshareprivacy1.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 May 2014 19:17:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.simpleWeather(2.7.0) was added]]></title>
-            <description><![CDATA[A simple jQuery plugin to display current weather data for any location and doesn't get in your way. Now supports HTML5 GeoLocation! Handcrafted with ♥ from Austin, Texas by James Fleeting.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/2.7.0/jquery.simpleWeather.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/2.7.0/jquery.simpleWeather.min.js</a>]]></description>
-            <link>http://simpleweatherjs.com</link>
-            <guid isPermaLink="false">jquery.simpleWeather2.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 May 2014 19:17:00 GMT</pubDate>
         </item>
