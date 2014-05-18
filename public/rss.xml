@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 May 2014 15:56:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 May 2014 15:58:52 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -115,6 +115,14 @@
             <guid isPermaLink="false">ink3.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 May 2014 18:20:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb updated to version 2.2.1]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.1/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.1/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb2.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 May 2014 17:38:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-spinner(0.4.0) was added]]></title>
@@ -786,14 +794,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">breezejs1.4.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 05 May 2014 06:00:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pouchdb(2.2.0) was added]]></title>
-            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.0/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.0/pouchdb.min.js</a>]]></description>
-            <link>http://pouchdb.com/</link>
-            <guid isPermaLink="false">pouchdb2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 05 May 2014 04:05:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ocanvas updated to version 2.7.1]]></title>
