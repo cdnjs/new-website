@@ -10,17 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 May 2014 15:50:52 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 May 2014 15:51:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[webshim updated to version 1.12.7]]></title>
-            <description><![CDATA[modular capability-based polyfill loading libary, which extends jQuery with HTML5 features in legacy browsers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webshim/1.12.7/minified/polyfiller.js">//cdnjs.cloudflare.com/ajax/libs/webshim/1.12.7/minified/polyfiller.js</a>]]></description>
-            <link>http://afarkas.github.com/webshim/demos/index.html</link>
-            <guid isPermaLink="false">webshim1.12.7</guid>
+            <title><![CDATA[knockout updated to version 3.1.0]]></title>
+            <description><![CDATA[Knockout makes it easier to create rich, responsive UIs with JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min.js">//cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min.js</a>]]></description>
+            <link>http://knockoutjs.com/</link>
+            <guid isPermaLink="false">knockout3.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 May 2014 15:44:20 GMT</pubDate>
+            <pubDate>Sun, 18 May 2014 15:46:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[piwik updated to version 2.2.2]]></title>
@@ -139,14 +139,6 @@
             <guid isPermaLink="false">velocity0.0.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 May 2014 13:10:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockout updated to version 3.1.0]]></title>
-            <description><![CDATA[Knockout makes it easier to create rich, responsive UIs with JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min.js">//cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min.js</a>]]></description>
-            <link>http://knockoutjs.com/</link>
-            <guid isPermaLink="false">knockout3.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 May 2014 12:01:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[chai updated to version 1.9.1]]></title>
