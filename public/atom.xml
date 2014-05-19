@@ -10,17 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 May 2014 13:24:48 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 May 2014 13:37:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[font-awesome updated to version 4.1.0]]></title>
-            <description><![CDATA[Font Awesome<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css</a>]]></description>
+            <title><![CDATA[font-awesome updated to version 4.0.3]]></title>
+            <description><![CDATA[Font Awesome<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css</a>]]></description>
             <link>http://fontawesome.io/</link>
-            <guid isPermaLink="false">font-awesome4.1.0</guid>
+            <guid isPermaLink="false">font-awesome4.0.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 19 May 2014 13:05:33 GMT</pubDate>
+            <pubDate>Mon, 19 May 2014 13:31:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[idbwrapper updated to version 1.4.1]]></title>
