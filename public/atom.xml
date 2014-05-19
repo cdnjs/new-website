@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 May 2014 16:29:02 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 May 2014 05:08:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[idbwrapper updated to version 1.4.1]]></title>
+            <description><![CDATA[A cross-browser wrapper for IndexedDB<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/idbwrapper/1.4.1/idbstore.min.js">//cdnjs.cloudflare.com/ajax/libs/idbwrapper/1.4.1/idbstore.min.js</a>]]></description>
+            <link>https://github.com/jensarps/IDBWrapper</link>
+            <guid isPermaLink="false">idbwrapper1.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 May 2014 05:01:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[d3 updated to version 3.4.7]]></title>
+            <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.7/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.4.7/d3.min.js</a>]]></description>
+            <link>http://mbostock.github.com/d3/</link>
+            <guid isPermaLink="false">d33.4.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 May 2014 04:46:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[html5sortable updated to version 0.1.1]]></title>
             <description><![CDATA[Lightweight jQuery plugin to create sortable lists and grids using native HTML5 drag and drop API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/html5sortable/0.1.1/html.sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/html5sortable/0.1.1/html.sortable.min.js</a>]]></description>
@@ -801,14 +817,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">breezejs1.4.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 05 May 2014 06:00:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ocanvas updated to version 2.7.1]]></title>
-            <description><![CDATA[oCanvas is a JavaScript library that makes development with HTML5 canvas easy, by using an object-based approach.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.1/ocanvas.min.js">//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.7.1/ocanvas.min.js</a>]]></description>
-            <link>http://ocanvas.org/</link>
-            <guid isPermaLink="false">ocanvas2.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 04 May 2014 21:22:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[evil.js(42) was added]]></title>
