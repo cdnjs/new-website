@@ -542,7 +542,7 @@ app.get('/news/:id/:slug', news_item);
     res.send({});
   });
 
-  var port = Number(process.env.PORT || 5000);
+  var port = Number(process.env.PORT || 5500);
   app.listen(port, function() {
     console.log("Listening on " + port);
   })
