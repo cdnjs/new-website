@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 May 2014 08:54:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 May 2014 09:52:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[benchmark updated to version 1.0.0]]></title>
+            <description><![CDATA[A benchmarking library that works on nearly all JavaScript platforms, supports high-resolution timers, and returns statistically significant results.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/benchmark/1.0.0/benchmark.js">//cdnjs.cloudflare.com/ajax/libs/benchmark/1.0.0/benchmark.js</a>]]></description>
+            <link>http://benchmarkjs.com/</link>
+            <guid isPermaLink="false">benchmark1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 May 2014 09:47:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[barman updated to version 0.4.0]]></title>
+            <description><![CDATA[A small library to brew JavaScript objects.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/barman/0.4.0/barman.min.js">//cdnjs.cloudflare.com/ajax/libs/barman/0.4.0/barman.min.js</a>]]></description>
+            <link>https://github.com/dfernandez79/barman</link>
+            <guid isPermaLink="false">barman0.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 May 2014 09:47:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.10]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.10/bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.10/bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 May 2014 09:47:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[aws-sdk updated to version 2.0.0-rc9]]></title>
+            <description><![CDATA[The AWS SDK for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.0.0-rc9/aws-sdk.min.js">//cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.0.0-rc9/aws-sdk.min.js</a>]]></description>
+            <link>https://github.com/aws/aws-sdk-js</link>
+            <guid isPermaLink="false">aws-sdk2.0.0-rc9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 May 2014 09:47:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[alertify.js updated to version 0.3.11]]></title>
+            <description><![CDATA[Alertify is an unobtrusive customizable JavaScript notification system.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.11/alertify.min.js">//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.11/alertify.min.js</a>]]></description>
+            <link>http://fabien-d.github.io/alertify.js/</link>
+            <guid isPermaLink="false">alertify.js0.3.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 May 2014 09:47:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[handlebars.js updated to version 2.0.0-alpha.4]]></title>
             <description><![CDATA[Handlebars provides the power necessary to let you build semantic templates effectively with no frustration. Mustache templates are compatible with Handlebars, so you can take a Mustache template, import it into Handlebars, and start taking advantage of the extra Handlebars features.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js">//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js</a>]]></description>
