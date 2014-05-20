@@ -10,10 +10,74 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 May 2014 13:37:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 May 2014 08:54:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[handlebars.js updated to version 2.0.0-alpha.4]]></title>
+            <description><![CDATA[Handlebars provides the power necessary to let you build semantic templates effectively with no frustration. Mustache templates are compatible with Handlebars, so you can take a Mustache template, import it into Handlebars, and start taking advantage of the extra Handlebars features.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js">//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js</a>]]></description>
+            <link>http://www.handlebarsjs.com</link>
+            <guid isPermaLink="false">handlebars.js2.0.0-alpha.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 May 2014 04:21:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[textAngular updated to version 1.2.1]]></title>
+            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.2.1/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.2.1/textAngular.min.js</a>]]></description>
+            <link>http://textAngular.com</link>
+            <guid isPermaLink="false">textAngular1.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 May 2014 22:33:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[codemirror updated to version 4.2.0]]></title>
+            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.2.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.2.0/codemirror.min.js</a>]]></description>
+            <link>http://codemirror.net</link>
+            <guid isPermaLink="false">codemirror4.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 May 2014 22:01:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[elasticsearch updated to version 2.1.6]]></title>
+            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.1.6/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.1.6/elasticsearch.js</a>]]></description>
+            <link>https://github.com/elasticsearch/elasticsearch-js</link>
+            <guid isPermaLink="false">elasticsearch2.1.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 May 2014 19:01:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[d3 updated to version 3.4.8]]></title>
+            <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.8/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.4.8/d3.min.js</a>]]></description>
+            <link>http://mbostock.github.com/d3/</link>
+            <guid isPermaLink="false">d33.4.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 May 2014 18:31:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[zeroclipboard updated to version 2.0.0-beta.6]]></title>
+            <description><![CDATA[The ZeroClipboard library provides an easy way to copy text to the clipboard using an invisible Adobe Flash movie and a JavaScript interface.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.0.0-beta.6/ZeroClipboard.min.js">//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.0.0-beta.6/ZeroClipboard.min.js</a>]]></description>
+            <link>http://zeroclipboard.org/</link>
+            <guid isPermaLink="false">zeroclipboard2.0.0-beta.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 May 2014 17:46:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb updated to version 2.2.2]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.2/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.2/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb2.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 May 2014 17:36:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[validator(3.12.0) was added]]></title>
+            <description><![CDATA[A library of string validators and sanitizers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/validator/3.12.0/validator.min.js">//cdnjs.cloudflare.com/ajax/libs/validator/3.12.0/validator.min.js</a>]]></description>
+            <link>https://github.com/chriso/validator.js</link>
+            <guid isPermaLink="false">validator3.12.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 May 2014 15:31:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[font-awesome updated to version 4.0.3]]></title>
             <description><![CDATA[Font Awesome<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css</a>]]></description>
@@ -29,14 +93,6 @@
             <guid isPermaLink="false">idbwrapper1.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 19 May 2014 05:01:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[d3 updated to version 3.4.7]]></title>
-            <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.7/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.4.7/d3.min.js</a>]]></description>
-            <link>http://mbostock.github.com/d3/</link>
-            <guid isPermaLink="false">d33.4.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 19 May 2014 04:46:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[html5sortable updated to version 0.1.1]]></title>
@@ -146,14 +202,6 @@
             <guid isPermaLink="false">ink3.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 May 2014 18:20:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pouchdb updated to version 2.2.1]]></title>
-            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.1/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.1/pouchdb.min.js</a>]]></description>
-            <link>http://pouchdb.com/</link>
-            <guid isPermaLink="false">pouchdb2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 May 2014 17:38:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-spinner(0.4.0) was added]]></title>
@@ -730,14 +778,6 @@
             <pubDate>Wed, 07 May 2014 08:39:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[elasticsearch updated to version 2.1.4]]></title>
-            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.1.4/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.1.4/elasticsearch.js</a>]]></description>
-            <link>https://github.com/elasticsearch/elasticsearch-js</link>
-            <guid isPermaLink="false">elasticsearch2.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 07 May 2014 00:00:49 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[nanobar updated to version 0.2.0]]></title>
             <description><![CDATA[Very lightweight js progress bars (for browsers)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanobar/0.2.0/nanobar.min.js">//cdnjs.cloudflare.com/ajax/libs/nanobar/0.2.0/nanobar.min.js</a>]]></description>
             <link>http://nanobar.micronube.com</link>
@@ -777,38 +817,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">primish0.3.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 06 May 2014 10:45:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jasny-bootstrap updated to version 3.1.3]]></title>
-            <description><![CDATA[Additional features and components for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css">//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css</a>]]></description>
-            <link>http://jasny.github.com/bootstrap/</link>
-            <guid isPermaLink="false">jasny-bootstrap3.1.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 May 2014 03:00:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[three.js updated to version r67]]></title>
-            <description><![CDATA[three.js is a lightweight 3D library with a very low level of complexity. The library provides <canvas>, <svg> and WebGL renderers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js">//cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js</a>]]></description>
-            <link>http://threejs.org/</link>
-            <guid isPermaLink="false">three.jsr67</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 May 2014 01:58:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[evil.js(42) was added]]></title>
-            <description><![CDATA[A JavaScript library for thwarting hotlinkers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/evil.js/42/evil.min.js">//cdnjs.cloudflare.com/ajax/libs/evil.js/42/evil.min.js</a>]]></description>
-            <link>http://kitcambridge.be/evil.js/</link>
-            <guid isPermaLink="false">evil.js42</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 May 2014 16:28:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[prism(0.0.1) was added]]></title>
-            <description><![CDATA[Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js">//cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js</a>]]></description>
-            <link>http://prismjs.com/</link>
-            <guid isPermaLink="false">prism0.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 May 2014 15:58:16 GMT</pubDate>
         </item>
     </channel>
 </rss>
