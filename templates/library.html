@@ -3,8 +3,8 @@
     <h1 style="margin-top: 00px;">{{library.name}}</h1>
 
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
-      <p>{{library.description}}</p>
-      <em>{{library.keywords}}</em>
+      <p class="translateit">{{library.description}}</p>
+      <em class="translateit">{{library.keywords}}</em>
       <br />
       <br />
       <select class="form-control version-selector" style="float: right;">
@@ -17,7 +17,7 @@
       {{#library.assets}}
       <div data-library-version="{{version}}" class="assets panel panel-primary {{classes}}" style="display: none;">
         <div class="panel-heading">
-          <div class="panel-title">Version {{version}}</div>
+          <div class="panel-title" class="translateit">Version {{version}}</div>
         </div>
 
         <div class="panel-body">
@@ -40,7 +40,7 @@
 
       {{/library.assets}}
       <hr />
-      <h3>Recent Community Updates</h3>
+      <h3 class="translateit">Recent Community Updates</h3>
       <a href="/news">View all</a> or <a href="/news">post your own</a>
       <div style="clear: both;"></div>
       <hr />
@@ -50,8 +50,8 @@
           <div class="row">
             <div class="col-md-1"><img style="float: left; margin-right: 5px;  margin-bottom: 5px; width: 50px;" class="avatar img-circle" src="{{gravatar}}" /></div>
             <div class="col-md-11">
-            <p><a href="/profile/{{login}}"><strong>{{login}}</strong></a><br />{{{status}}}</p>
-            <div style="color: #ccc;" class="pull-right"><a data-disqus-identifier="{{_id}}" href="/news/{{_id}}/{{slug}}">Comments</a> | Posted <span  class="timeago" title="">{{timeago}}</span></div></div>
+            <p><a href="/profile/{{login}}"><strong>{{login}}</strong></a><br /><span  class="translateit">{{{status}}}</span></p>
+            <div style="color: #ccc;" class="pull-right"><a data-disqus-identifier="{{_id}}" href="/news/{{_id}}/{{slug}}" class="translateit">Comments</a> | Posted <span  class="timeago" title="">{{timeago}}</span></div></div>
             <div style="clear: both;"></div></div>
 
             <div style="clear: both;"></div>
