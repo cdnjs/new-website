@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 May 2014 07:50:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 May 2014 07:52:41 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -37,6 +37,14 @@
             <guid isPermaLink="false">blueimp-file-upload9.5.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 May 2014 17:34:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[buzz updated to version 1.1.0]]></title>
+            <description><![CDATA[Buzz, a Javascript HTML5 Audio library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/buzz/1.1.0/buzz.min.js">//cdnjs.cloudflare.com/ajax/libs/buzz/1.1.0/buzz.min.js</a>]]></description>
+            <link>http://buzz.jaysalvat.com</link>
+            <guid isPermaLink="false">buzz1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 May 2014 17:01:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bacon.js updated to version 0.7.12]]></title>
