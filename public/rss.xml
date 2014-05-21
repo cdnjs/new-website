@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 May 2014 07:48:47 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 May 2014 07:50:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -29,6 +29,14 @@
             <guid isPermaLink="false">modernizr2.8.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 May 2014 18:05:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[blueimp-file-upload updated to version 9.5.7]]></title>
+            <description><![CDATA[File Upload widget with multiple file selection, drag&amp;drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.5.7/jquery.fileupload.js">//cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.5.7/jquery.fileupload.js</a>]]></description>
+            <link>https://github.com/blueimp/jQuery-File-Upload</link>
+            <guid isPermaLink="false">blueimp-file-upload9.5.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 May 2014 17:34:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bacon.js updated to version 0.7.12]]></title>
