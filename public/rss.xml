@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 22 May 2014 07:34:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 May 2014 07:35:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -47,20 +47,20 @@
             <pubDate>Wed, 21 May 2014 23:16:31 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[yui updated to version 3.17.1]]></title>
+            <description><![CDATA[The YUI Library is a set of utilities and controls, written with JavaScript and CSS, for building richly interactive web applications using techniques such as DOM scripting, DHTML and AJAX.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yui/3.17.1/yui/yui-min.js">//cdnjs.cloudflare.com/ajax/libs/yui/3.17.1/yui/yui-min.js</a>]]></description>
+            <link>http://yuilibrary.com/</link>
+            <guid isPermaLink="false">yui3.17.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 21 May 2014 23:11:19 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[analytics.js updated to version 1.5.2]]></title>
             <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/analytics.js/1.5.2/analytics.min.js">//cdnjs.cloudflare.com/ajax/libs/analytics.js/1.5.2/analytics.min.js</a>]]></description>
             <link>https://segment.io/docs/libraries/analytics.js/</link>
             <guid isPermaLink="false">analytics.js1.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 21 May 2014 10:46:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yui updated to version 3.17.0]]></title>
-            <description><![CDATA[The YUI Library is a set of utilities and controls, written with JavaScript and CSS, for building richly interactive web applications using techniques such as DOM scripting, DHTML and AJAX.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yui/3.17.0/yui/yui-min.js">//cdnjs.cloudflare.com/ajax/libs/yui/3.17.0/yui/yui-min.js</a>]]></description>
-            <link>http://yuilibrary.com/</link>
-            <guid isPermaLink="false">yui3.17.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 20 May 2014 18:23:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[modernizr updated to version 2.8.2]]></title>
