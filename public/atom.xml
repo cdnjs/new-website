@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 May 2014 08:10:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2014 08:24:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fuelux(2.6.1) was added]]></title>
+            <description><![CDATA[Extends Twitter Bootstrap with additional lightweight JavaScript controls.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuelux/2.6.1/loader.min.js">//cdnjs.cloudflare.com/ajax/libs/fuelux/2.6.1/loader.min.js</a>]]></description>
+            <link>http://exacttarget.github.io/fuelux</link>
+            <guid isPermaLink="false">fuelux2.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 23 May 2014 08:18:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[pym updated to version 0.1.0]]></title>
             <description><![CDATA[Resize an iframe responsively depending on the height of its content and the width of its container.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pym/0.1.0/pym.min.js">//cdnjs.cloudflare.com/ajax/libs/pym/0.1.0/pym.min.js</a>]]></description>
