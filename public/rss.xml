@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 25 May 2014 07:13:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 May 2014 09:51:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[xlsx updated to version 0.7.3]]></title>
+            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.3/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.3/xlsx.js</a>]]></description>
+            <link>https://github.com/SheetJS/js-xlsx</link>
+            <guid isPermaLink="false">xlsx0.7.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 25 May 2014 09:46:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-switch updated to version 3.0.1]]></title>
             <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.1/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.1/js/bootstrap-switch.min.js</a>]]></description>
@@ -213,14 +221,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">emberFire1.0.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 22 May 2014 20:43:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[xlsx updated to version 0.7.2-a]]></title>
-            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.2-a/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.2-a/xlsx.js</a>]]></description>
-            <link>https://github.com/SheetJS/js-xlsx</link>
-            <guid isPermaLink="false">xlsx0.7.2-a</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 22 May 2014 20:16:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[elasticsearch updated to version 2.2.0]]></title>
