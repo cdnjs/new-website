@@ -10,10 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 May 2014 08:51:28 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 May 2014 07:08:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bootstrap-switch updated to version 3.0.1]]></title>
+            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.1/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.1/js/bootstrap-switch.min.js</a>]]></description>
+            <link>http://www.bootstrap-switch.org</link>
+            <guid isPermaLink="false">bootstrap-switch3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 25 May 2014 07:01:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-smart-web-app-banner updated to version 1.4]]></title>
+            <description><![CDATA[Add this small script to your site & invite your visitors to save your site to their home screen alongside the rest of their apps!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-smart-web-app-banner/1.4/jquery.smartwebbanner.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-smart-web-app-banner/1.4/jquery.smartwebbanner.min.js</a>]]></description>
+            <link>http://kzeni.com/p/smart-web-banner/</link>
+            <guid isPermaLink="false">jquery-smart-web-app-banner1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 May 2014 18:13:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[danialfarid-angular-file-upload updated to version 1.4.0]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/1.4.0/angular-file-upload.min.js">//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/1.4.0/angular-file-upload.min.js</a>]]></description>
+            <guid isPermaLink="false">danialfarid-angular-file-upload1.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 May 2014 15:21:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[postal.js updated to version 0.9.1]]></title>
             <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.9.1/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.9.1/postal.min.js</a>]]></description>
@@ -873,22 +896,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">twitter-bootstrap3.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 May 2014 19:26:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[batman.js updated to version 0.16.0]]></title>
-            <description><![CDATA[The best JavaScript framework for Rails developers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/batman.js/0.16.0/batman.min.js">//cdnjs.cloudflare.com/ajax/libs/batman.js/0.16.0/batman.min.js</a>]]></description>
-            <link>http://batmanjs.org</link>
-            <guid isPermaLink="false">batman.js0.16.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 10 May 2014 17:11:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lunr.js updated to version 0.5.3]]></title>
-            <description><![CDATA[Simple full-text search in your browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.3/lunr.min.js">//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.3/lunr.min.js</a>]]></description>
-            <link>http://lunrjs.com</link>
-            <guid isPermaLink="false">lunr.js0.5.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 10 May 2014 14:15:54 GMT</pubDate>
         </item>
     </channel>
 </rss>
