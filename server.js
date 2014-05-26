@@ -197,7 +197,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
   app.get('/libraries/:library', function(req, res) {
     setCache(res, 1);
-    db.collection('updates').find({}, {'limit':3, 'sort':{'posted_at':-1}}).toArray(function(err, docs) {
+    db.collection('updates').find({$contains:{"status":"http"}}, {'limit':3, 'sort':{'posted_at':-1}}).toArray(function(err, docs) {
       console.log('Number of Updates --------------------------------------- ', docs.length);
       _.each(docs, function(doc){
         doc.posted_at = new Date(doc.posted_at);
