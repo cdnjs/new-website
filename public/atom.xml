@@ -10,18 +10,10 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 00:10:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 00:12:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
-        <item>
-            <title><![CDATA[sbt updated to version 1.0.2.20140527-1807]]></title>
-            <description><![CDATA[Social Business Toolkit minified&aggregated files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sbt/1.0.2.20140527-1807/sbt-core-dojo-amd.js">//cdnjs.cloudflare.com/ajax/libs/sbt/1.0.2.20140527-1807/sbt-core-dojo-amd.js</a>]]></description>
-            <link>http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=Social%20Business%20Toolkit%20SDK</link>
-            <guid isPermaLink="false">sbt1.0.2.20140527-1807</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 27 May 2014 23:52:58 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[autosize.js updated to version 1.18.8]]></title>
             <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.8/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.8/jquery.autosize.min.js</a>]]></description>
@@ -776,6 +768,14 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">fixed-header-table1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 May 2014 17:02:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sbt updated to version 1.0.0.20140514-0000]]></title>
+            <description><![CDATA[Social Business Toolkit minified&aggregated files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sbt/1.0.0.20140514-0000/sbt-core-dojo-amd.js">//cdnjs.cloudflare.com/ajax/libs/sbt/1.0.0.20140514-0000/sbt-core-dojo-amd.js</a>]]></description>
+            <link>http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=Social%20Business%20Toolkit%20SDK</link>
+            <guid isPermaLink="false">sbt1.0.0.20140514-0000</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 May 2014 16:05:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.2.12]]></title>
