@@ -10,34 +10,10 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 00:04:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 00:09:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
-        <item>
-            <title><![CDATA[autosize.js updated to version 1.18.4]]></title>
-            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js</a>]]></description>
-            <link>http://www.jacklmoore.com/autosize</link>
-            <guid isPermaLink="false">autosize.js1.18.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 27 May 2014 20:45:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[numeric(1.2.6) was added]]></title>
-            <description><![CDATA[Numerical analysis in javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js">//cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js</a>]]></description>
-            <link>http://numericjs.com</link>
-            <guid isPermaLink="false">numeric1.2.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 27 May 2014 12:37:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.allowed-chars updated to version 1.0.2]]></title>
-            <description><![CDATA[jQuery plugin to restrict users for typing only allowed chars for specified element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.allowed-chars/1.0.2/jquery.allowed-chars.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.allowed-chars/1.0.2/jquery.allowed-chars.min.js</a>]]></description>
-            <link>https://github.com/fosco-maestro/jquery-allowed-chars-simple-plugin</link>
-            <guid isPermaLink="false">jquery.allowed-chars1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 27 May 2014 08:59:24 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.14]]></title>
             <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.14/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.14/mithril.min.js</a>]]></description>
@@ -365,6 +341,14 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">bootstrap-lightbox0.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 22 May 2014 11:54:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[autosize.js updated to version 1.18.4]]></title>
+            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js</a>]]></description>
+            <link>http://www.jacklmoore.com/autosize</link>
+            <guid isPermaLink="false">autosize.js1.18.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 22 May 2014 06:01:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember-auth updated to version 9.0.7]]></title>
