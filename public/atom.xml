@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 19:21:58 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 19:24:39 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">audiosynth1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 May 2014 17:51:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-bindonce updated to version 0.2.2]]></title>
+            <description><![CDATA[Zero watchers binding directives for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-bindonce/0.2.2/angular-bindonce.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-bindonce/0.2.2/angular-bindonce.min.js</a>]]></description>
+            <link>https://github.com/Pasvaz/bindonce</link>
+            <guid isPermaLink="false">angular-bindonce0.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 16:12:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[polymer updated to version 0.3.0]]></title>
@@ -6176,14 +6184,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[Show busy/loading indicators on any $http or $resource request, or on any promise<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-busy/4.0.2/angular-busy.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-busy/4.0.2/angular-busy.min.js</a>]]></description>
             <link>https://github.com/cgross/angular-busy</link>
             <guid isPermaLink="false">angular-busy4.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 20 May 2014 08:32:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-bindonce(0.2.2) was added]]></title>
-            <description><![CDATA[Zero watchers binding directives for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-bindonce/0.2.2/angular-bindonce.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-bindonce/0.2.2/angular-bindonce.min.js</a>]]></description>
-            <link>https://github.com/Pasvaz/bindonce</link>
-            <guid isPermaLink="false">angular-bindonce0.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 May 2014 08:32:03 GMT</pubDate>
         </item>
