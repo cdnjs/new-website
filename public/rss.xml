@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 19:28:43 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 19:30:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,30 @@
             <guid isPermaLink="false">audiosynth1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 May 2014 17:51:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pure updated to version 0.5.0]]></title>
+            <description><![CDATA[A set of small, responsive CSS modules that you can use in every web project.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css</a>]]></description>
+            <link>http://purecss.io/</link>
+            <guid isPermaLink="false">pure0.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 17:24:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[underscore-contrib updated to version 0.1.4]]></title>
+            <description><![CDATA[The brass buckles on Underscore's utility belt.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore-contrib/0.1.4/underscore-contrib.min.js">//cdnjs.cloudflare.com/ajax/libs/underscore-contrib/0.1.4/underscore-contrib.min.js</a>]]></description>
+            <link>https://github.com/documentcloud/underscore-contrib</link>
+            <guid isPermaLink="false">underscore-contrib0.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 17:19:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[autosize.js updated to version 1.18.9]]></title>
+            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.9/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.9/jquery.autosize.min.js</a>]]></description>
+            <link>http://www.jacklmoore.com/autosize</link>
+            <guid isPermaLink="false">autosize.js1.18.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 17:18:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mo updated to version 1.1.0]]></title>
@@ -124,14 +148,6 @@
             <guid isPermaLink="false">midi.js0.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 27 May 2014 21:58:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[autosize.js updated to version 1.18.8]]></title>
-            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.8/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.8/jquery.autosize.min.js</a>]]></description>
-            <link>http://www.jacklmoore.com/autosize</link>
-            <guid isPermaLink="false">autosize.js1.18.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 27 May 2014 20:48:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[numeric(1.2.6) was added]]></title>
@@ -848,14 +864,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js</a>]]></description>
             <link>http://jashkenas.github.io/underscore/</link>
             <guid isPermaLink="false">underscore.js1.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 20 May 2014 08:32:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[underscore-contrib(0.1.4) was added]]></title>
-            <description><![CDATA[The brass buckles on Underscore's utility belt.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore-contrib/0.1.4/underscore-contrib.min.js">//cdnjs.cloudflare.com/ajax/libs/underscore-contrib/0.1.4/underscore-contrib.min.js</a>]]></description>
-            <link>https://github.com/documentcloud/underscore-contrib</link>
-            <guid isPermaLink="false">underscore-contrib0.1.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 May 2014 08:32:03 GMT</pubDate>
         </item>
@@ -1936,14 +1944,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[Pusher Javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pusher/2.1.6/pusher.min.js">//cdnjs.cloudflare.com/ajax/libs/pusher/2.1.6/pusher.min.js</a>]]></description>
             <link>http://pusher.com/</link>
             <guid isPermaLink="false">pusher2.1.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 20 May 2014 08:32:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pure(0.4.2) was added]]></title>
-            <description><![CDATA[A set of small, responsive CSS modules that you can use in every web project.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pure/0.4.2/pure-min.css">//cdnjs.cloudflare.com/ajax/libs/pure/0.4.2/pure-min.css</a>]]></description>
-            <link>http://purecss.io/</link>
-            <guid isPermaLink="false">pure0.4.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 May 2014 08:32:03 GMT</pubDate>
         </item>
