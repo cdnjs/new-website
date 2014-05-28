@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 08:59:37 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 09:00:49 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -29,6 +29,14 @@
             <guid isPermaLink="false">tabletop.js1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 May 2014 04:25:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[camanjs updated to version 4.1.2]]></title>
+            <description><![CDATA[Pure Javascript (Ca)nvas (Man)ipulation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.full.min.js">//cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.full.min.js</a>]]></description>
+            <link>http://camanjs.com/</link>
+            <guid isPermaLink="false">camanjs4.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 04:19:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[twilio.js(1.2.0) was added]]></title>
