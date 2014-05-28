@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 08:58:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 08:59:37 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">machina.js0.3.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 May 2014 04:31:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tabletop.js updated to version 1.1.0]]></title>
+            <description><![CDATA[Tabletop.js takes a Google Spreadsheet and makes it easily accessible through JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.1.0/tabletop.min.js">//cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.1.0/tabletop.min.js</a>]]></description>
+            <link>http://github.com/jsoma/tabletop</link>
+            <guid isPermaLink="false">tabletop.js1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 04:25:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[twilio.js(1.2.0) was added]]></title>
