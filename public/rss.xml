@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 08:54:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 08:58:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[machina.js updated to version 0.3.4]]></title>
+            <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/machina.js/0.3.4/machina.min.js">//cdnjs.cloudflare.com/ajax/libs/machina.js/0.3.4/machina.min.js</a>]]></description>
+            <link>http://machina-js.org/</link>
+            <guid isPermaLink="false">machina.js0.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 04:31:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[twilio.js(1.2.0) was added]]></title>
             <description><![CDATA[Twilio.js allows you to establish audio connections between a web browser and a Twilio Application. This means you can open inbound and outbound audio connections to Twilio for building soft phones, walkie-talkies, conference calls, click-to-talk systems, and more, all from the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twilio.js/1.2.0/twilio.min.js">//cdnjs.cloudflare.com/ajax/libs/twilio.js/1.2.0/twilio.min.js</a>]]></description>
