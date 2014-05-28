@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 19:24:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 19:28:43 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">audiosynth1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 May 2014 17:51:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mo updated to version 1.1.0]]></title>
+            <description><![CDATA[A collection of OzJS core modules that form a library called "Mo"<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mo/1.1.0/lang.js">//cdnjs.cloudflare.com/ajax/libs/mo/1.1.0/lang.js</a>]]></description>
+            <link>http://ozjs.org/mo/</link>
+            <guid isPermaLink="false">mo1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 16:38:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-bindonce updated to version 0.2.2]]></title>
@@ -2571,14 +2579,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[A HTML5 and Javascript framework to transform websites to mobile sites.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mobilizejs/0.9/mobilize.min.js">//cdnjs.cloudflare.com/ajax/libs/mobilizejs/0.9/mobilize.min.js</a>]]></description>
             <link>http://mobilizejs.com</link>
             <guid isPermaLink="false">mobilizejs0.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 20 May 2014 08:32:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mo(1.1.0) was added]]></title>
-            <description><![CDATA[A collection of OzJS core modules that form a library called "Mo"<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mo/1.1.0/lang.js">//cdnjs.cloudflare.com/ajax/libs/mo/1.1.0/lang.js</a>]]></description>
-            <link>http://ozjs.org/mo/</link>
-            <guid isPermaLink="false">mo1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 May 2014 08:32:03 GMT</pubDate>
         </item>
