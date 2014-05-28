@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 16:07:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 16:08:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">polymer0.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 May 2014 10:00:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ICanHaz.js updated to version 0.10.3]]></title>
+            <description><![CDATA[A clean solution for templating with Mustache.js and jQuery or Zepto<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ICanHaz.js/0.10.3/ICanHaz.min.js">//cdnjs.cloudflare.com/ajax/libs/ICanHaz.js/0.10.3/ICanHaz.min.js</a>]]></description>
+            <link>http://icanhazjs.com</link>
+            <guid isPermaLink="false">ICanHaz.js0.10.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 09:17:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[machina.js updated to version 0.3.4]]></title>
@@ -6320,14 +6328,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[Kalendae is an attempt to do something that nobody has yet been able to do: make a date picker that doesn't suck.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Kalendae/0.4.1/kalendae.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/Kalendae/0.4.1/kalendae.standalone.min.js</a>]]></description>
             <link>https://github.com/ChiperSoft/Kalendae</link>
             <guid isPermaLink="false">Kalendae0.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 20 May 2014 08:22:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ICanHaz.js(0.10.3) was added]]></title>
-            <description><![CDATA[A clean solution for templating with Mustache.js and jQuery or Zepto<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ICanHaz.js/0.10.3/ICanHaz.min.js">//cdnjs.cloudflare.com/ajax/libs/ICanHaz.js/0.10.3/ICanHaz.min.js</a>]]></description>
-            <link>http://icanhazjs.com</link>
-            <guid isPermaLink="false">ICanHaz.js0.10.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 May 2014 08:22:57 GMT</pubDate>
         </item>
