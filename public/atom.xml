@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 00:20:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 08:54:34 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[twilio.js(1.2.0) was added]]></title>
+            <description><![CDATA[Twilio.js allows you to establish audio connections between a web browser and a Twilio Application. This means you can open inbound and outbound audio connections to Twilio for building soft phones, walkie-talkies, conference calls, click-to-talk systems, and more, all from the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twilio.js/1.2.0/twilio.min.js">//cdnjs.cloudflare.com/ajax/libs/twilio.js/1.2.0/twilio.min.js</a>]]></description>
+            <link>https://www.twilio.com/docs/client/twilio-js</link>
+            <guid isPermaLink="false">twilio.js1.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 May 2014 00:47:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nanogallery updated to version 4.4.1]]></title>
             <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/4.4.1/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/4.4.1/jquery.nanogallery.min.js</a>]]></description>
@@ -839,22 +847,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">seedrandom2.3.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 May 2014 09:01:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gsap updated to version 1.11.8]]></title>
-            <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.8/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.11.8/TweenMax.min.js</a>]]></description>
-            <link>http://www.greensock.com/gsap-js/</link>
-            <guid isPermaLink="false">gsap1.11.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 14 May 2014 06:07:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ouibounce updated to version 0.0.8]]></title>
-            <description><![CDATA[Show some HTML before visitors leave your site.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.8/ouibounce.js">//cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.8/ouibounce.js</a>]]></description>
-            <link>https://github.com/carlsednaoui/ouibounce</link>
-            <guid isPermaLink="false">ouibounce0.0.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 14 May 2014 01:06:54 GMT</pubDate>
         </item>
     </channel>
 </rss>
