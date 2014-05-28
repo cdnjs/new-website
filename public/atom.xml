@@ -10,17 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 00:03:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 00:04:41 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[autosize.js updated to version 1.18.8]]></title>
-            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.8/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.8/jquery.autosize.min.js</a>]]></description>
+            <title><![CDATA[autosize.js updated to version 1.18.4]]></title>
+            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js</a>]]></description>
             <link>http://www.jacklmoore.com/autosize</link>
-            <guid isPermaLink="false">autosize.js1.18.8</guid>
+            <guid isPermaLink="false">autosize.js1.18.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 27 May 2014 20:48:03 GMT</pubDate>
+            <pubDate>Tue, 27 May 2014 20:45:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[numeric(1.2.6) was added]]></title>
