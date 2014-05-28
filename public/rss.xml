@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 May 2014 00:13:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 May 2014 00:14:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,38 @@
             <guid isPermaLink="false">nanogallery4.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 May 2014 00:07:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sbt updated to version 1.0.2.20140527-1807]]></title>
+            <description><![CDATA[Social Business Toolkit minified&aggregated files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sbt/1.0.2.20140527-1807/sbt-core-dojo-amd.js">//cdnjs.cloudflare.com/ajax/libs/sbt/1.0.2.20140527-1807/sbt-core-dojo-amd.js</a>]]></description>
+            <link>http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=Social%20Business%20Toolkit%20SDK</link>
+            <guid isPermaLink="false">sbt1.0.2.20140527-1807</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 May 2014 23:52:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[autosize.js updated to version 1.18.8]]></title>
+            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.8/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.8/jquery.autosize.min.js</a>]]></description>
+            <link>http://www.jacklmoore.com/autosize</link>
+            <guid isPermaLink="false">autosize.js1.18.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 May 2014 20:48:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[numeric(1.2.6) was added]]></title>
+            <description><![CDATA[Numerical analysis in javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js">//cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js</a>]]></description>
+            <link>http://numericjs.com</link>
+            <guid isPermaLink="false">numeric1.2.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 May 2014 12:37:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.allowed-chars updated to version 1.0.2]]></title>
+            <description><![CDATA[jQuery plugin to restrict users for typing only allowed chars for specified element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.allowed-chars/1.0.2/jquery.allowed-chars.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.allowed-chars/1.0.2/jquery.allowed-chars.min.js</a>]]></description>
+            <link>https://github.com/fosco-maestro/jquery-allowed-chars-simple-plugin</link>
+            <guid isPermaLink="false">jquery.allowed-chars1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 May 2014 08:59:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.14]]></title>
@@ -349,14 +381,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">bootstrap-lightbox0.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 22 May 2014 11:54:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[autosize.js updated to version 1.18.4]]></title>
-            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.4/jquery.autosize.min.js</a>]]></description>
-            <link>http://www.jacklmoore.com/autosize</link>
-            <guid isPermaLink="false">autosize.js1.18.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 22 May 2014 06:01:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember-auth updated to version 9.0.7]]></title>
@@ -760,14 +784,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">fixed-header-table1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 May 2014 17:02:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sbt updated to version 1.0.0.20140514-0000]]></title>
-            <description><![CDATA[Social Business Toolkit minified&aggregated files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sbt/1.0.0.20140514-0000/sbt-core-dojo-amd.js">//cdnjs.cloudflare.com/ajax/libs/sbt/1.0.0.20140514-0000/sbt-core-dojo-amd.js</a>]]></description>
-            <link>http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=Social%20Business%20Toolkit%20SDK</link>
-            <guid isPermaLink="false">sbt1.0.0.20140514-0000</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 14 May 2014 16:05:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.2.12]]></title>
