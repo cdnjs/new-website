@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 30 May 2014 11:58:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 May 2014 12:06:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -243,6 +243,13 @@
             <guid isPermaLink="false">ICanHaz.js0.10.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 30 May 2014 07:37:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[musicmetadata(0.3.11) was added]]></title>
+            <description><![CDATA[Streaming music metadata parser for node and the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/musicmetadata/0.3.11/musicmetadata.js">//cdnjs.cloudflare.com/ajax/libs/musicmetadata/0.3.11/musicmetadata.js</a>]]></description>
+            <guid isPermaLink="false">musicmetadata0.3.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 29 May 2014 18:32:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.tablesorter updated to version 2.17.1]]></title>
