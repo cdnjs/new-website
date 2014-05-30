@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 May 2014 13:33:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 May 2014 07:33:01 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[autosize.js updated to version 1.18.9]]></title>
+            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.9/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.9/jquery.autosize.min.js</a>]]></description>
+            <link>http://www.jacklmoore.com/autosize</link>
+            <guid isPermaLink="false">autosize.js1.18.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 30 May 2014 06:15:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.perfect-scrollbar updated to version 0.4.10]]></title>
             <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.4.10/jquery.perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.4.10/jquery.perfect-scrollbar.min.js</a>]]></description>
@@ -69,14 +77,6 @@
             <guid isPermaLink="false">underscore-contrib0.1.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 May 2014 17:19:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[autosize.js updated to version 1.18.9]]></title>
-            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.9/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.9/jquery.autosize.min.js</a>]]></description>
-            <link>http://www.jacklmoore.com/autosize</link>
-            <guid isPermaLink="false">autosize.js1.18.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 28 May 2014 17:18:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mo updated to version 1.1.0]]></title>
@@ -824,30 +824,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <guid isPermaLink="false">async0.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 May 2014 10:31:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pickadate.js updated to version 3.5.1]]></title>
-            <description><![CDATA[The mobile-friendly, responsive, and lightweight jQuery date & time input picker.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.1/picker.js">//cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.1/picker.js</a>]]></description>
-            <link>http://amsul.github.io/pickadate.js</link>
-            <guid isPermaLink="false">pickadate.js3.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 May 2014 05:30:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.smartbanner(1.0.0) was added]]></title>
-            <description><![CDATA[Smart Banners are feature in iOS 6+ to promote App Store apps on your website. This jQuery plugin brings this feature to older iOS versions and Android devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.smartbanner/1.0.0/jquery.smartbanner.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.smartbanner/1.0.0/jquery.smartbanner.min.js</a>]]></description>
-            <link>http://jasny.github.io/jquery.smartbanner/</link>
-            <guid isPermaLink="false">jquery.smartbanner1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 May 2014 22:18:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-noty updated to version 2.2.2]]></title>
-            <description><![CDATA[jQuery plugin that makes it easy to create alert, success, error, warning, information or confirmation messages as an alternative the standard alert dialog.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.2.2/jquery.noty.js">//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.2.2/jquery.noty.js</a>]]></description>
-            <link>http://needim.github.com/noty/</link>
-            <guid isPermaLink="false">jquery-noty2.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 May 2014 19:19:31 GMT</pubDate>
         </item>
     </channel>
 </rss>
