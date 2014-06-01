@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 01 Jun 2014 09:00:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Jun 2014 09:01:04 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">jsoneditor3.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 01 Jun 2014 08:55:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb updated to version 2.2.3]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.3/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.3/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb2.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 31 May 2014 20:21:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.2.13]]></title>
@@ -2076,14 +2084,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[A script that lets you use only unprefixed CSS properties everywhere. It works behind the scenes, adding the current browser’s prefix to any CSS code, only when it’s needed.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js">//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js</a>]]></description>
             <link>http://leaverou.github.com/prefixfree/</link>
             <guid isPermaLink="false">prefixfree1.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 22 May 2014 07:27:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pouchdb(2.2.2) was added]]></title>
-            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.2/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/2.2.2/pouchdb.min.js</a>]]></description>
-            <link>http://pouchdb.com/</link>
-            <guid isPermaLink="false">pouchdb2.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 22 May 2014 07:27:38 GMT</pubDate>
         </item>
