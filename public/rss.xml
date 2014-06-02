@@ -10,18 +10,10 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 Jun 2014 22:44:58 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Jun 2014 22:45:52 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
-        <item>
-            <title><![CDATA[PullToRefresh updated to version 0.1.1]]></title>
-            <description><![CDATA[a JavaScript implementation of PullToRefresh without jQuery or other Frameworks under MIT-License<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/PullToRefresh/0.1.1/ptr.min.js">//cdnjs.cloudflare.com/ajax/libs/PullToRefresh/0.1.1/ptr.min.js</a>]]></description>
-            <link>https://github.com/SimonWaldherr/PullToRefresh</link>
-            <guid isPermaLink="false">PullToRefresh0.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Jun 2014 20:03:17 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[minitranslate updated to version 0.7.1]]></title>
             <description><![CDATA[A lightweight way to change words into other words.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minitranslate/0.7.1/minitranslate.min.js">//cdnjs.cloudflare.com/ajax/libs/minitranslate/0.7.1/minitranslate.min.js</a>]]></description>
@@ -101,14 +93,6 @@
             <guid isPermaLink="false">retina.js1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 01 Jun 2014 19:33:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim(0.11.0) was added]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.11.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.11.0/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.11.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 01 Jun 2014 17:59:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[es5-shim updated to version 3.4.0]]></title>
