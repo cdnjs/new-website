@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 Jun 2014 19:21:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Jun 2014 20:03:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -37,6 +37,22 @@
             <guid isPermaLink="false">bacon.js0.7.14</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 02 Jun 2014 10:01:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone.marionette updated to version 1.8.6]]></title>
+            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/1.8.6/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/1.8.6/backbone.marionette.min.js</a>]]></description>
+            <link>http://github.com/marionettejs/backbone.marionette</link>
+            <guid isPermaLink="false">backbone.marionette1.8.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 02 Jun 2014 09:54:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fullcalendar updated to version 2.0.0]]></title>
+            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.0.0/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.0.0/fullcalendar.min.js</a>]]></description>
+            <link>http://arshaw.com/fullcalendar/</link>
+            <guid isPermaLink="false">fullcalendar2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 02 Jun 2014 06:52:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[xlsx updated to version 0.7.5]]></title>
@@ -4665,14 +4681,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <pubDate>Fri, 23 May 2014 20:16:30 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[fullcalendar(1.6.4) was added]]></title>
-            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.min.js</a>]]></description>
-            <link>http://arshaw.com/fullcalendar/</link>
-            <guid isPermaLink="false">fullcalendar1.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 23 May 2014 20:16:30 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[fuelux(2.6.1) was added]]></title>
             <description><![CDATA[Extends Twitter Bootstrap with additional lightweight JavaScript controls.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuelux/2.6.1/loader.min.js">//cdnjs.cloudflare.com/ajax/libs/fuelux/2.6.1/loader.min.js</a>]]></description>
             <link>http://exacttarget.github.io/fuelux</link>
@@ -5897,14 +5905,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[Simple, flexible and powerful Model-View binding for Backbone.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.modelbinder/1.0.5/Backbone.ModelBinder.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.modelbinder/1.0.5/Backbone.ModelBinder.min.js</a>]]></description>
             <link>https://github.com/theironcook/Backbone.ModelBinder</link>
             <guid isPermaLink="false">backbone.modelbinder1.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 23 May 2014 20:16:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.marionette(1.8.0) was added]]></title>
-            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/1.8.0/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/1.8.0/backbone.marionette.min.js</a>]]></description>
-            <link>http://github.com/marionettejs/backbone.marionette</link>
-            <guid isPermaLink="false">backbone.marionette1.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 23 May 2014 20:16:30 GMT</pubDate>
         </item>
