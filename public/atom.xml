@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Jun 2014 09:02:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Jun 2014 09:02:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,14 +21,6 @@
             <guid isPermaLink="false">gmaps.js0.4.12</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 03 Jun 2014 01:48:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[crunch(1.0.3) was added]]></title>
-            <description><![CDATA[Fast arbitraty-precision integer arithmetic library. Used for large-number calculations including finding large prime numbers, performing modular exponentiation and other arithmetic operations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crunch/1.0.3/crunch.js">//cdnjs.cloudflare.com/ajax/libs/crunch/1.0.3/crunch.js</a>]]></description>
-            <link>https://github.com/vukicevic/crunch</link>
-            <guid isPermaLink="false">crunch1.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Jun 2014 23:06:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[PullToRefresh updated to version 0.1.1]]></title>
