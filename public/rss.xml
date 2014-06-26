@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Jun 2014 14:13:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Jun 2014 17:19:36 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[twitter-bootstrap updated to version 3.2.0]]></title>
+            <description><![CDATA[The most popular front-end framework for developing responsive, mobile first projects on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js</a>]]></description>
+            <link>http://getbootstrap.com/</link>
+            <guid isPermaLink="false">twitter-bootstrap3.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Jun 2014 17:06:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.2.19]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.19/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.19/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.2.19</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Jun 2014 16:43:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backgrid.js updated to version 0.3.5]]></title>
+            <description><![CDATA[Backgrid.js is a set of components for building semantic and easily stylable data grid widgets. It offers a simple, intuitive programming interface that makes easy things easy, but hard things possible when dealing with tabular data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backgrid.js/0.3.5/backgrid.js">//cdnjs.cloudflare.com/ajax/libs/backgrid.js/0.3.5/backgrid.js</a>]]></description>
+            <link>http://backgridjs.com/</link>
+            <guid isPermaLink="false">backgrid.js0.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Jun 2014 14:33:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jsSHA updated to version 1.5.0]]></title>
             <description><![CDATA[jsSHA is a JavaScript implementation of the entire family of SHA hashes as defined in FIPS 180-2 (SHA-1, SHA-224, SHA-256, SHA-384, and SHA-512) as well as HMAC<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsSHA/1.5.0/sha.js">//cdnjs.cloudflare.com/ajax/libs/jsSHA/1.5.0/sha.js</a>]]></description>
@@ -21,6 +45,13 @@
             <guid isPermaLink="false">jsSHA1.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 26 Jun 2014 13:40:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.tipsy(1.0.2) was added]]></title>
+            <description><![CDATA[Facebook-style tooltip plugin for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tipsy/1.0.2/jquery.tipsy.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tipsy/1.0.2/jquery.tipsy.min.js</a>]]></description>
+            <guid isPermaLink="false">jquery.tipsy1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Jun 2014 13:24:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular.js updated to version 1.2.18]]></title>
@@ -246,28 +277,12 @@
             <pubDate>Mon, 23 Jun 2014 10:34:05 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[twitter-bootstrap updated to version 3.1.1]]></title>
-            <description><![CDATA[The most popular front-end framework for developing responsive, mobile first projects on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js</a>]]></description>
-            <link>http://getbootstrap.com/</link>
-            <guid isPermaLink="false">twitter-bootstrap3.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 23 Jun 2014 10:19:26 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[doony updated to version 1.6]]></title>
             <description><![CDATA[UI improvements for Jenkins<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/doony/1.6/js/doony.min.js">//cdnjs.cloudflare.com/ajax/libs/doony/1.6/js/doony.min.js</a>]]></description>
             <link>http://doony.org</link>
             <guid isPermaLink="false">doony1.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 23 Jun 2014 08:10:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.2.13]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.13/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.2.13/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.2.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Jun 2014 22:37:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[json3 updated to version 3.3.2]]></title>
