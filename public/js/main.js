@@ -134,8 +134,7 @@
               toastr.success('Added a new favorite')
         var rowId = $(e.currentTarget).parents('tr')[0].id;
           favorites.push(rowId);
-          _gaq.push(['_trackEvent', 'favorite', 'added', rowId]);
-
+          ga('send', 'event', 'favorite', 'added', rowId, 4);
           $.ajax({
             url: '/favorites?token=' + token,
             success: function() {
@@ -166,8 +165,8 @@ $('body').on('click', '.remove-favorite', function(e) {
               toastr.error('Removed a favorite')
 
         var rowId = $(e.currentTarget).parents('tr')[0].id;
+          ga('send', 'event', 'favorite', 'removed', rowId, 4);
 
-          _gaq.push(['_trackEvent', 'favorite', 'removed', rowId]);
           favorites = _.without(favorites, rowId);
 
           $.ajax({
@@ -256,7 +255,7 @@ $('body').on('click', '.remove-favorite', function(e) {
       } else if (embed === 'link') {
         url = '<link rel="stylesheet" href="' + url + '">';
       }
-          _gaq.push(['_trackEvent', 'library', 'copied', button.parents('.library-column').attr('data-lib-name')]);
+          ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
 
       toastr.warning('Copied to the clipboard');
 
