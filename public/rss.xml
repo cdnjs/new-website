@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 30 Jun 2014 17:12:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Jun 2014 17:17:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">jquery.hashcash.io0.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 30 Jun 2014 14:39:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[insightjs(0.1.0) was added]]></title>
+            <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/0.1.0/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/0.1.0/insight.min.js</a>]]></description>
+            <link>https://github.com/scottlogic/insight</link>
+            <guid isPermaLink="false">insightjs0.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 30 Jun 2014 12:33:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.cycle2 updated to version 20140415]]></title>
