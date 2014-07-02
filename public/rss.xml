@@ -10,25 +10,10 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 01 Jul 2014 23:44:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Jul 2014 01:26:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
-        <item>
-            <title><![CDATA[sizzle updated to version 2.0.0]]></title>
-            <description><![CDATA[A pure-JavaScript, bottom-up CSS selector engine designed to be easily dropped in to a host library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sizzle/2.0.0/sizzle.min.js">//cdnjs.cloudflare.com/ajax/libs/sizzle/2.0.0/sizzle.min.js</a>]]></description>
-            <link>http://sizzlejs.com/</link>
-            <guid isPermaLink="false">sizzle2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 01 Jul 2014 23:31:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.gridster updated to version 0.5.2]]></title>
-            <description><![CDATA[Gridster is a jQuery plugin that makes building intuitive draggable layouts from elements spanning multiple columns<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.2/jquery.gridster.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.2/jquery.gridster.min.js</a>]]></description>
-            <guid isPermaLink="false">jquery.gridster0.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 01 Jul 2014 23:00:23 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[jquery-mobile updated to version 1.4.1]]></title>
             <description><![CDATA[A unified, HTML5-based user interface system for all popular mobile device platforms, built on the rock-solid jQuery and jQuery UI foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.1/jquery.mobile.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.1/jquery.mobile.min.js</a>]]></description>
@@ -1236,6 +1221,14 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <title><![CDATA[sjcl(1.0.0) was added]]></title>
             <description><![CDATA[Stanford Javascript Crypto Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sjcl/1.0.0/sjcl.min.js">//cdnjs.cloudflare.com/ajax/libs/sjcl/1.0.0/sjcl.min.js</a>]]></description>
             <guid isPermaLink="false">sjcl1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Jun 2014 09:30:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sizzle(1.11.1) was added]]></title>
+            <description><![CDATA[A pure-JavaScript, bottom-up CSS selector engine designed to be easily dropped in to a host library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sizzle/1.11.1/sizzle.min.js">//cdnjs.cloudflare.com/ajax/libs/sizzle/1.11.1/sizzle.min.js</a>]]></description>
+            <link>http://sizzlejs.com/</link>
+            <guid isPermaLink="false">sizzle1.11.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 27 Jun 2014 09:30:53 GMT</pubDate>
         </item>
@@ -3505,6 +3498,13 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[hoverIntent is a plug-in that attempts to determine the user's intent... like a crystal ball, only with mouse movement! It is similar to jQuery's hover method. However, instead of calling the handlerIn function immediately, hoverIntent waits until the user's mouse slows down enough before making the call.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js</a>]]></description>
             <link>http://cherne.net/brian/resources/jquery.hoverIntent.html</link>
             <guid isPermaLink="false">jquery.hoverintent2013.03.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Jun 2014 09:30:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.gridster(0.5.0) was added]]></title>
+            <description><![CDATA[Gridster is a jQuery plugin that makes building intuitive draggable layouts from elements spanning multiple columns<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.0/jquery.gridster.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.0/jquery.gridster.min.js</a>]]></description>
+            <guid isPermaLink="false">jquery.gridster0.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 27 Jun 2014 09:30:53 GMT</pubDate>
         </item>
