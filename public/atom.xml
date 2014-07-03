@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 02 Jul 2014 21:24:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 03 Jul 2014 07:47:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,13 @@
             <guid isPermaLink="false">blueimp-gallery2.15.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 02 Jul 2014 21:16:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[space(0.8.4) was added]]></title>
+            <description><![CDATA[A lightweight language for objects<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/space/0.8.4/space.min.js">//cdnjs.cloudflare.com/ajax/libs/space/0.8.4/space.min.js</a>]]></description>
+            <guid isPermaLink="false">space0.8.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 02 Jul 2014 20:33:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-instagram updated to version 0.3.1]]></title>
