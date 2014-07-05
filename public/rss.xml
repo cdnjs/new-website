@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 05 Jul 2014 00:06:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 05 Jul 2014 05:48:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">gorillascript0.9.10</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 05 Jul 2014 00:01:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[proj4js updated to version 2.1.4]]></title>
+            <description><![CDATA[Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/proj4js/2.1.4/proj4.js">//cdnjs.cloudflare.com/ajax/libs/proj4js/2.1.4/proj4.js</a>]]></description>
+            <link>http://proj4js.org/</link>
+            <guid isPermaLink="false">proj4js2.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 04 Jul 2014 21:28:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[stomp.js updated to version 2.3.3]]></title>
@@ -1908,14 +1916,6 @@ This forked version adds lots of new enhancements including: alphanumeric sortin
             <description><![CDATA[Prototype is a JavaScript Framework that aims to ease development of dynamic web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/prototype/1.7.1.0/prototype.js">//cdnjs.cloudflare.com/ajax/libs/prototype/1.7.1.0/prototype.js</a>]]></description>
             <link>http://prototypejs.org/</link>
             <guid isPermaLink="false">prototype1.7.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 29 Jun 2014 05:33:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[proj4js(2.1.0) was added]]></title>
-            <description><![CDATA[Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/proj4js/2.1.0/proj4.js">//cdnjs.cloudflare.com/ajax/libs/proj4js/2.1.0/proj4.js</a>]]></description>
-            <link>http://trac.osgeo.org/proj4js/</link>
-            <guid isPermaLink="false">proj4js2.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 29 Jun 2014 05:33:49 GMT</pubDate>
         </item>
