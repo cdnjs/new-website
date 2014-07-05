@@ -243,7 +243,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
       var size = size || 80;
 
-      return 'http://www.gravatar.com/avatar/' + MD5(email) + '.jpg?s=' + size;
+      return '//www.gravatar.com/avatar/' + MD5(email) + '.jpg?s=' + size;
   }
 
   // User APP is playing hard ball this is a hack
