@@ -63,7 +63,7 @@
 
         var size = size || 80;
 
-        return 'http://www.gravatar.com/avatar/' + MD5(email) + '.jpg?s=' + size;
+        return '//www.gravatar.com/avatar/' + MD5(email) + '.jpg?s=' + size;
     }
     function onUserLoaded() {
       //$('.sponsors').slideUp(200);
