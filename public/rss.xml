@@ -10,25 +10,16 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 05 Jul 2014 07:44:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 05 Jul 2014 07:45:30 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
             <title><![CDATA[jquery.gridster updated to version 0.5.3]]></title>
-            <description><![CDATA[a drag-and-drop multi-column jQuery grid plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.3/jquery.gridster.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.3/jquery.gridster.min.js</a>]]></description>
-            <link>http://gridster.net/</link>
+            <description><![CDATA[Gridster is a jQuery plugin that makes building intuitive draggable layouts from elements spanning multiple columns<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.3/jquery.gridster.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.3/jquery.gridster.min.js</a>]]></description>
             <guid isPermaLink="false">jquery.gridster0.5.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 05 Jul 2014 07:27:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.tablesorter updated to version 2.17.4]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.4/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.4/js/jquery.tablesorter.min.js</a>]]></description>
-            <link>http://mottie.github.com/tablesorter/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.17.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 05 Jul 2014 07:15:51 GMT</pubDate>
+            <pubDate>Sat, 05 Jul 2014 06:54:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dropzone updated to version 3.8.4]]></title>
@@ -3242,6 +3233,16 @@
             <description><![CDATA[Introduce autocompleting power to textareas, like GitHub comment forms have.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/0.2.2/jquery.textcomplete.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/0.2.2/jquery.textcomplete.min.js</a>]]></description>
             <link>http://yuku-t.com/jquery-textcomplete/</link>
             <guid isPermaLink="false">jquery.textcomplete0.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 30 Jun 2014 18:31:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.tablesorter(2.17.3) was added]]></title>
+            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell.
+
+This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.3/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.3/jquery.tablesorter.min.js</a>]]></description>
+            <link>http://mottie.github.com/tablesorter/</link>
+            <guid isPermaLink="false">jquery.tablesorter2.17.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 30 Jun 2014 18:31:19 GMT</pubDate>
         </item>
