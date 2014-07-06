@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 06 Jul 2014 06:36:59 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Jul 2014 06:56:09 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -20,6 +20,14 @@
             <guid isPermaLink="false">backbone-react-component0.6.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 06 Jul 2014 06:31:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.postcodify(1.8.0) was added]]></title>
+            <description><![CDATA[Postcodify is a jQuery plugin and server-side API for searching South Korean street addresses and postal codes.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/1.8.0/search.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/1.8.0/search.min.js</a>]]></description>
+            <link>http://newaddress.kr/</link>
+            <guid isPermaLink="false">jquery.postcodify1.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 06 Jul 2014 05:18:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-spinner updated to version 0.5.0]]></title>
