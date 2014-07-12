@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 12 Jul 2014 07:28:18 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Jul 2014 08:19:03 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">ramda0.2.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 12 Jul 2014 02:36:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[snap.svg updated to version 0.3.0]]></title>
+            <description><![CDATA[JavaScript Vector Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js">//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js</a>]]></description>
+            <link>http://snapsvg.io</link>
+            <guid isPermaLink="false">snap.svg0.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 11 Jul 2014 21:18:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[phaser updated to version 2.0.6]]></title>
@@ -3105,14 +3113,6 @@
             <description><![CDATA[Browser-side code for Socket.IO. Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js">//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js</a>]]></description>
             <link>http://socket.io</link>
             <guid isPermaLink="false">socket.io0.9.16</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 09 Jul 2014 00:07:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[snap.svg(0.2.0) was added]]></title>
-            <description><![CDATA[JavaScript Vector Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.2.0/snap.svg-min.js">//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.2.0/snap.svg-min.js</a>]]></description>
-            <link>http://snapsvg.io</link>
-            <guid isPermaLink="false">snap.svg0.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 09 Jul 2014 00:07:30 GMT</pubDate>
         </item>
