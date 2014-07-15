@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 15 Jul 2014 09:47:30 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Jul 2014 09:47:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[Chart.js updated to version 0.2.0]]></title>
+            <description><![CDATA[Simple HTML5 Charts using the canvas element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js">//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js</a>]]></description>
+            <link>http://www.chartjs.org</link>
+            <guid isPermaLink="false">Chart.js0.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 15 Jul 2014 09:41:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[twitter-bootstrap-wizard updated to version 1.2]]></title>
             <description><![CDATA[This twitter bootstrap plugin builds a wizard out of a formatter tabbable structure. It allows to build a wizard functionality using buttons to go through the different wizard steps and using events allows to hook into each step individually.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap-wizard/1.2/jquery.bootstrap.wizard.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap-wizard/1.2/jquery.bootstrap.wizard.min.js</a>]]></description>
@@ -2489,14 +2497,6 @@
             <description><![CDATA[Colors is an easy to use color-type manipulation library that is lightweight and very functional.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Colors.js/1.2.4/colors.min.js">//cdnjs.cloudflare.com/ajax/libs/Colors.js/1.2.4/colors.min.js</a>]]></description>
             <link>http://matthewbjordan.me/Colors/</link>
             <guid isPermaLink="false">Colors.js1.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 10 Jul 2014 23:27:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Chart.js updated to version 0.2.0]]></title>
-            <description><![CDATA[Simple HTML5 Charts using the canvas element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js">//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js</a>]]></description>
-            <link>https://github.com/nnnick/Chart.js</link>
-            <guid isPermaLink="false">Chart.js0.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 10 Jul 2014 23:27:43 GMT</pubDate>
         </item>
