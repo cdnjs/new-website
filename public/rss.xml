@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 15 Aug 2014 17:47:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 17 Aug 2014 17:09:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[pouchdb updated to version 3.0.1]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.1/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.1/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 17 Aug 2014 17:05:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[basket.js updated to version 0.5.1]]></title>
+            <description><![CDATA[A script and resource loader for caching & loading scripts with localStorage<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/basket.js/0.5.1/basket.full.min.js">//cdnjs.cloudflare.com/ajax/libs/basket.js/0.5.1/basket.full.min.js</a>]]></description>
+            <link>http://addyosmani.github.com/basket.js</link>
+            <guid isPermaLink="false">basket.js0.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 17 Aug 2014 16:54:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[velocity updated to version 0.11.5]]></title>
+            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.5/jquery.velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.5/jquery.velocity.min.js</a>]]></description>
+            <link>http://velocityjs.org</link>
+            <guid isPermaLink="false">velocity0.11.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 16 Aug 2014 16:30:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.4]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.4/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.4/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 16 Aug 2014 16:29:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fullcalendar updated to version 2.0.3]]></title>
+            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.0.3/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.0.3/fullcalendar.min.js</a>]]></description>
+            <link>http://arshaw.com/fullcalendar/</link>
+            <guid isPermaLink="false">fullcalendar2.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 16 Aug 2014 02:09:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[zxcvbn updated to version 1.0]]></title>
             <description><![CDATA[Realistic password strength estimation, based on common words, patterns, and keyboard adjacency.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/zxcvbn/1.0/zxcvbn-async.js">//cdnjs.cloudflare.com/ajax/libs/zxcvbn/1.0/zxcvbn-async.js</a>]]></description>
@@ -631,14 +671,6 @@
             <pubDate>Thu, 14 Aug 2014 16:51:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[velocity updated to version 0.11.2]]></title>
-            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.2/jquery.velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.2/jquery.velocity.min.js</a>]]></description>
-            <link>http://velocityjs.org</link>
-            <guid isPermaLink="false">velocity0.11.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 14 Aug 2014 16:39:26 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[es5-shim updated to version 4.0.2]]></title>
             <description><![CDATA[ECMAScript 5 compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.2/es5-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.2/es5-shim.min.js</a>]]></description>
             <link>http://github.com/es-shims/es5-shim/</link>
@@ -733,14 +765,6 @@
             <guid isPermaLink="false">speakingurl0.11.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 10 Aug 2014 00:57:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.3.3]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.3/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.3/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 10 Aug 2014 00:57:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[msl-client-browser updated to version 1.0.1]]></title>
@@ -907,30 +931,6 @@
             <guid isPermaLink="false">loglevel1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 03 Aug 2014 17:29:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[colors(0.6.2) was added]]></title>
-            <description><![CDATA[get colors in your node.js console like what<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/colors/0.6.2/undefined">//cdnjs.cloudflare.com/ajax/libs/colors/0.6.2/undefined</a>]]></description>
-            <link>https://github.com/Marak/colors.js</link>
-            <guid isPermaLink="false">colors0.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 03 Aug 2014 06:07:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment-timezone updated to version 0.2.1]]></title>
-            <description><![CDATA[Timezone plugin for Moment.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.1/moment-timezone.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.1/moment-timezone.min.js</a>]]></description>
-            <link>http://momentjs.com/timezone</link>
-            <guid isPermaLink="false">moment-timezone0.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 03 Aug 2014 02:31:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[absurd updated to version 0.3.31]]></title>
-            <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.31/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.31/absurd.min.js</a>]]></description>
-            <link>http://absurdjs.com/</link>
-            <guid isPermaLink="false">absurd0.3.31</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 02 Aug 2014 07:30:16 GMT</pubDate>
         </item>
     </channel>
 </rss>
