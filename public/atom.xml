@@ -10,10 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 Aug 2014 07:26:15 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 Aug 2014 20:29:01 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[codemirror updated to version 4.5.0]]></title>
+            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.5.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.5.0/codemirror.min.js</a>]]></description>
+            <link>http://codemirror.net</link>
+            <guid isPermaLink="false">codemirror4.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 22 Aug 2014 16:20:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mathjs updated to version 0.27.0]]></title>
+            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/0.27.0/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/0.27.0/math.min.js</a>]]></description>
+            <link>http://mathjs.org</link>
+            <guid isPermaLink="false">mathjs0.27.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 22 Aug 2014 16:16:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[loglevel updated to version 1.1.0]]></title>
+            <description><![CDATA[Minimal lightweight logging for JavaScript, adding reliable log level methods to any available console.log methods<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/loglevel/1.1.0/loglevel.min.js">//cdnjs.cloudflare.com/ajax/libs/loglevel/1.1.0/loglevel.min.js</a>]]></description>
+            <link>https://github.com/pimterry/loglevel</link>
+            <guid isPermaLink="false">loglevel1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 22 Aug 2014 16:15:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[moment.js updated to version 2.8.2]]></title>
+            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.min.js</a>]]></description>
+            <link>http://momentjs.com/</link>
+            <guid isPermaLink="false">moment.js2.8.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 22 Aug 2014 16:15:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[primish updated to version 0.3.8]]></title>
+            <description><![CDATA[A portable Class implementation in javascript, forked from MooTools Prime and created for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/primish/0.3.8/primish-min.js">//cdnjs.cloudflare.com/ajax/libs/primish/0.3.8/primish-min.js</a>]]></description>
+            <guid isPermaLink="false">primish0.3.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 22 Aug 2014 16:15:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootcards updated to version 0.1.0]]></title>
             <description><![CDATA[A cards-based UI framework for mobile and desktop apps, built on top of Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootcards/0.1.0/js/bootcards.min.js">//cdnjs.cloudflare.com/ajax/libs/bootcards/0.1.0/js/bootcards.min.js</a>]]></description>
@@ -391,14 +430,6 @@
             <description><![CDATA[A lightweight javascript library to format and manipulate numbers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.5.3/numeral.min.js">//cdnjs.cloudflare.com/ajax/libs/numeral.js/1.5.3/numeral.min.js</a>]]></description>
             <link>http://numeraljs.com/</link>
             <guid isPermaLink="false">numeral.js1.5.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 15 Aug 2014 17:10:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment.js updated to version 2.8.1]]></title>
-            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.1/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.1/moment.min.js</a>]]></description>
-            <link>http://momentjs.com/</link>
-            <guid isPermaLink="false">moment.js2.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 15 Aug 2014 17:10:44 GMT</pubDate>
         </item>
@@ -893,52 +924,12 @@
             <pubDate>Sat, 09 Aug 2014 15:36:58 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jplayer updated to version 2.6.4]]></title>
-            <description><![CDATA[The jQuery HTML5 Audio / Video Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/jquery.jplayer/jquery.jplayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/jquery.jplayer/jquery.jplayer.min.js</a>]]></description>
-            <link>http://www.jplayer.org/</link>
-            <guid isPermaLink="false">jplayer2.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 08 Aug 2014 18:24:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.nanoscroller updated to version 0.8.1]]></title>
-            <description><![CDATA[A jQuery plugin that offers a simplistic way of implementing Lion OS scrollbars<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.1/jquery.nanoscroller.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.1/jquery.nanoscroller.min.js</a>]]></description>
-            <link>http://jamesflorentino.github.com/nanoScrollerJS/</link>
-            <guid isPermaLink="false">jquery.nanoscroller0.8.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 08 Aug 2014 18:17:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[foundation-essential updated to version 5.3.3]]></title>
-            <description><![CDATA[Slimmed-down build of ZURB Foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.3.3/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.3.3/js/foundation.min.js</a>]]></description>
-            <link>http://foundation.zurb.com</link>
-            <guid isPermaLink="false">foundation-essential5.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 08 Aug 2014 18:09:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[foundation updated to version 5.3.3]]></title>
-            <description><![CDATA[The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites and apps that work on any kind of device.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.3.3/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation/5.3.3/js/foundation.min.js</a>]]></description>
-            <link>http://foundation.zurb.com</link>
-            <guid isPermaLink="false">foundation5.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 08 Aug 2014 18:07:13 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bootstrap-select updated to version 1.6.2]]></title>
             <description><![CDATA[A custom <select> for Bootstrap using button dropdown as replacement<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js</a>]]></description>
             <link>http://silviomoreto.github.io/bootstrap-select/</link>
             <guid isPermaLink="false">bootstrap-select1.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 08 Aug 2014 14:51:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[typeahead.js updated to version 0.10.4]]></title>
-            <description><![CDATA[a fast and fully-featured autocomplete library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.4/typeahead.bundle.min.js">//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.4/typeahead.bundle.min.js</a>]]></description>
-            <link>http://twitter.github.com/typeahead.js/</link>
-            <guid isPermaLink="false">typeahead.js0.10.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 08 Aug 2014 08:22:09 GMT</pubDate>
         </item>
     </channel>
 </rss>
