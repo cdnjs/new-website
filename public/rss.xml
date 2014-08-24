@@ -10,10 +10,89 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 22 Aug 2014 20:29:01 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 Aug 2014 17:06:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[velocity updated to version 0.11.8]]></title>
+            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.8/jquery.velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.8/jquery.velocity.min.js</a>]]></description>
+            <link>http://velocityjs.org</link>
+            <guid isPermaLink="false">velocity0.11.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 24 Aug 2014 16:58:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jshint updated to version 2.5.5]]></title>
+            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.5/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.5/jshint.js</a>]]></description>
+            <link>http://jshint.com/</link>
+            <guid isPermaLink="false">jshint2.5.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 24 Aug 2014 16:55:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[knockback updated to version 0.19.3]]></title>
+            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.19.3/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.19.3/knockback.min.js</a>]]></description>
+            <guid isPermaLink="false">knockback0.19.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 24 Aug 2014 16:53:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[uikit updated to version 2.9.0]]></title>
+            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.9.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.9.0/js/uikit.min.js</a>]]></description>
+            <link>http://www.getuikit.com</link>
+            <guid isPermaLink="false">uikit2.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 23 Aug 2014 17:32:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fuse.js updated to version 1.1.7]]></title>
+            <description><![CDATA[Lightweight fuzzy-search, in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.1.7/fuse.min.js">//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.1.7/fuse.min.js</a>]]></description>
+            <link>http://kiro.me/projects/fuse.html</link>
+            <guid isPermaLink="false">fuse.js1.1.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 23 Aug 2014 17:00:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootswatch updated to version 3.2.0+2]]></title>
+            <description><![CDATA[Bootswatch is a collection of themes for Bootstrap.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.2.0+2/custom/bootstrap.min.css">//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.2.0+2/custom/bootstrap.min.css</a>]]></description>
+            <link>http://bootswatch.com/</link>
+            <guid isPermaLink="false">bootswatch3.2.0+2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 23 Aug 2014 16:47:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone.marionette updated to version 2.0.3]]></title>
+            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.0.3/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.0.3/backbone.marionette.min.js</a>]]></description>
+            <link>http://github.com/marionettejs/backbone.marionette</link>
+            <guid isPermaLink="false">backbone.marionette2.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 23 Aug 2014 16:27:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[knockout updated to version 3.2.0]]></title>
+            <description><![CDATA[Knockout makes it easier to create rich, responsive UIs with JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockout/3.2.0/knockout-min.js">//cdnjs.cloudflare.com/ajax/libs/knockout/3.2.0/knockout-min.js</a>]]></description>
+            <link>http://knockoutjs.com/</link>
+            <guid isPermaLink="false">knockout3.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 23 Aug 2014 16:13:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[xlsx updated to version 0.7.9]]></title>
+            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.9/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.9/xlsx.js</a>]]></description>
+            <link>https://github.com/SheetJS/js-xlsx</link>
+            <guid isPermaLink="false">xlsx0.7.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 23 Aug 2014 16:08:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.bootstrapvalidator updated to version 0.5.1]]></title>
+            <description><![CDATA[The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js</a>]]></description>
+            <link>http://bootstrapvalidator.com</link>
+            <guid isPermaLink="false">jquery.bootstrapvalidator0.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 23 Aug 2014 02:15:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[codemirror updated to version 4.5.0]]></title>
             <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.5.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.5.0/codemirror.min.js</a>]]></description>
@@ -134,14 +213,6 @@
             <pubDate>Wed, 20 Aug 2014 22:30:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[velocity updated to version 0.11.7]]></title>
-            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.7/jquery.velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.7/jquery.velocity.min.js</a>]]></description>
-            <link>http://velocityjs.org</link>
-            <guid isPermaLink="false">velocity0.11.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 20 Aug 2014 14:59:35 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[s3colors updated to version 1.0]]></title>
             <description><![CDATA[Easy to use CSS Colors in your project with simple class you can colorize your text or background with the class of color name.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/s3colors/1.0/s3-colors.min.css">//cdnjs.cloudflare.com/ajax/libs/s3colors/1.0/s3-colors.min.css</a>]]></description>
             <link>http://shaz3e.github.io/S3-Colors/</link>
@@ -173,14 +244,6 @@
             <pubDate>Tue, 19 Aug 2014 06:17:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jshint updated to version 2.5.4]]></title>
-            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.4/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.4/jshint.js</a>]]></description>
-            <link>http://jshint.com/</link>
-            <guid isPermaLink="false">jshint2.5.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 19 Aug 2014 05:45:32 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[requirejs-plugins updated to version 1.0.3]]></title>
             <description><![CDATA[Small set of plugins for RequireJS. Some plugins may also work on other AMD loaders.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/requirejs-plugins/1.0.3/async.js">//cdnjs.cloudflare.com/ajax/libs/requirejs-plugins/1.0.3/async.js</a>]]></description>
             <link>https://github.com/millermedeiros/requirejs-plugins</link>
@@ -195,13 +258,6 @@
             <guid isPermaLink="false">humanize-plus1.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 19 Aug 2014 03:37:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockback updated to version 0.19.2]]></title>
-            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.19.2/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.19.2/knockback.min.js</a>]]></description>
-            <guid isPermaLink="false">knockback0.19.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 19 Aug 2014 03:36:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[holder updated to version 2.4.0]]></title>
@@ -898,30 +954,6 @@
             <guid isPermaLink="false">json33.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 11 Aug 2014 05:34:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-spinner updated to version 0.5.1]]></title>
-            <description><![CDATA[Angular directive to show an animated spinner (using spin.js)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.5.1/angular-spinner.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.5.1/angular-spinner.min.js</a>]]></description>
-            <link>https://github.com/urish/angular-spinner</link>
-            <guid isPermaLink="false">angular-spinner0.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 10 Aug 2014 01:02:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[speakingurl updated to version 0.11.0]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.11.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.11.0/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.11.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 10 Aug 2014 00:57:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[msl-client-browser updated to version 1.0.1]]></title>
-            <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.1/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.1/mockapi-browser.min.js</a>]]></description>
-            <link>http://finraos.github.io/MSL</link>
-            <guid isPermaLink="false">msl-client-browser1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 09 Aug 2014 15:36:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-select updated to version 1.6.2]]></title>
