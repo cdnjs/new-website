@@ -10,17 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 24 Aug 2014 17:06:14 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 Aug 2014 22:24:38 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[velocity updated to version 0.11.8]]></title>
-            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.8/jquery.velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.8/jquery.velocity.min.js</a>]]></description>
-            <link>http://velocityjs.org</link>
-            <guid isPermaLink="false">velocity0.11.8</guid>
+            <title><![CDATA[ramda updated to version 0.3.0]]></title>
+            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.3.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.3.0/ramda.min.js</a>]]></description>
+            <link>https://www.github.com/CrossEye/ramda</link>
+            <guid isPermaLink="false">ramda0.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 24 Aug 2014 16:58:45 GMT</pubDate>
+            <pubDate>Sun, 24 Aug 2014 22:22:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[velocity updated to version 0.11.9]]></title>
+            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.9/jquery.velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/0.11.9/jquery.velocity.min.js</a>]]></description>
+            <link>http://velocityjs.org</link>
+            <guid isPermaLink="false">velocity0.11.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 24 Aug 2014 22:11:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jshint updated to version 2.5.5]]></title>
