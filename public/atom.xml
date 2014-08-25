@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 24 Aug 2014 22:24:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 25 Aug 2014 16:54:38 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.tablesorter updated to version 2.17.7]]></title>
+            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.7/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.7/js/jquery.tablesorter.min.js</a>]]></description>
+            <link>http://mottie.github.com/tablesorter/</link>
+            <guid isPermaLink="false">jquery.tablesorter2.17.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 25 Aug 2014 16:33:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone.marionette updated to version 2.1.0]]></title>
+            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.1.0/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.1.0/backbone.marionette.min.js</a>]]></description>
+            <link>http://github.com/marionettejs/backbone.marionette</link>
+            <guid isPermaLink="false">backbone.marionette2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 25 Aug 2014 16:22:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ramda updated to version 0.3.0]]></title>
             <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.3.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.3.0/ramda.min.js</a>]]></description>
@@ -68,14 +84,6 @@
             <guid isPermaLink="false">bootswatch3.2.0+2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 23 Aug 2014 16:47:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.marionette updated to version 2.0.3]]></title>
-            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.0.3/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.0.3/backbone.marionette.min.js</a>]]></description>
-            <link>http://github.com/marionettejs/backbone.marionette</link>
-            <guid isPermaLink="false">backbone.marionette2.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 23 Aug 2014 16:27:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[knockout updated to version 3.2.0]]></title>
@@ -946,22 +954,6 @@
             <guid isPermaLink="false">lunr.js0.5.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 12 Aug 2014 02:45:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[templatebinding updated to version 0.3.4]]></title>
-            <description><![CDATA[Polymer's template binding polyfill. Concatenated and minified.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/templatebinding/0.3.4/TemplateBinding.min.js">//cdnjs.cloudflare.com/ajax/libs/templatebinding/0.3.4/TemplateBinding.min.js</a>]]></description>
-            <link>https://github.com/Polymer/TemplateBinding</link>
-            <guid isPermaLink="false">templatebinding0.3.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 11 Aug 2014 11:20:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[json3 updated to version 3.3.2]]></title>
-            <description><![CDATA[A modern JSON implementation compatible with nearly all JavaScript platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js">//cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js</a>]]></description>
-            <link>http://bestiejs.github.io/json3</link>
-            <guid isPermaLink="false">json33.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 11 Aug 2014 05:34:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-select updated to version 1.6.2]]></title>
