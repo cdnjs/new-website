@@ -440,7 +440,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     })
   });
   app.get('/news', function(req, res) {
-    db.collection('updates').find({}, {"sort": [["posted_at", -1]]).toArray(function(err, docs) {
+    db.collection('updates').find().toArray(function(err, docs) {
       console.log('Number of Updates --------------------------------------- ', docs.length);
       _.each(docs, function(doc){
         doc.posted_at = new Date(doc.posted_at);
