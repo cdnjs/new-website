@@ -442,7 +442,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
   app.get('/news', function(req, res) {
 var options = {
 		    "limit": 200,
-		    "sort": [["posted_at", "desc"]]
+		    "sort": [["posted_at", "asc"]]
 		}
     db.collection('updates').find({}, options).toArray(function(err, docs) {
       console.log('Number of Updates --------------------------------------- ', docs.length);
