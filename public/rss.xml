@@ -10,10 +10,74 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 Aug 2014 18:00:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Aug 2014 17:55:03 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.3.5]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.5/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.5/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 28 Aug 2014 16:36:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[picturefill updated to version 2.1.0]]></title>
+            <description><![CDATA[A responsive image polyfill for <picture>, srcset, sizes, and more<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.1.0/picturefill.min.js">//cdnjs.cloudflare.com/ajax/libs/picturefill/2.1.0/picturefill.min.js</a>]]></description>
+            <link>http://scottjehl.github.com/picturefill/</link>
+            <guid isPermaLink="false">picturefill2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 28 Aug 2014 13:19:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[font-awesome updated to version 4.2.0]]></title>
+            <description><![CDATA[Font Awesome<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css</a>]]></description>
+            <link>http://fontawesome.io/</link>
+            <guid isPermaLink="false">font-awesome4.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 28 Aug 2014 04:19:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.8]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.8/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.8/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 28 Aug 2014 04:12:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[handlebars.js updated to version 2.0.0-beta.1]]></title>
+            <description><![CDATA[Handlebars provides the power necessary to let you build semantic templates effectively with no frustration. Mustache templates are compatible with Handlebars, so you can take a Mustache template, import it into Handlebars, and start taking advantage of the extra Handlebars features.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-beta.1/handlebars.min.js">//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-beta.1/handlebars.min.js</a>]]></description>
+            <link>http://www.handlebarsjs.com</link>
+            <guid isPermaLink="false">handlebars.js2.0.0-beta.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 27 Aug 2014 03:35:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[underscore.js updated to version 1.7.0]]></title>
+            <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js</a>]]></description>
+            <link>http://jashkenas.github.io/underscore/</link>
+            <guid isPermaLink="false">underscore.js1.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 27 Aug 2014 03:34:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[xlsx updated to version 0.7.10]]></title>
+            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.10/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.10/xlsx.js</a>]]></description>
+            <link>https://github.com/SheetJS/js-xlsx</link>
+            <guid isPermaLink="false">xlsx0.7.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 27 Aug 2014 03:32:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[localStorage(2.0.0) was added]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.0/localStorage.min.js">//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.0/localStorage.min.js</a>]]></description>
+            <link>https://github.com/mortzdk/localStorage</link>
+            <guid isPermaLink="false">localStorage2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 26 Aug 2014 16:42:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[fullcalendar updated to version 2.1.0]]></title>
             <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.0/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.0/fullcalendar.min.js</a>]]></description>
@@ -45,14 +109,6 @@
             <guid isPermaLink="false">fotorama4.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 26 Aug 2014 02:44:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.3.5]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.5/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.5/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 Aug 2014 02:44:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.tablesorter updated to version 2.17.7]]></title>
@@ -132,14 +188,6 @@
             <guid isPermaLink="false">knockout3.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 23 Aug 2014 16:13:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[xlsx updated to version 0.7.9]]></title>
-            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.9/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.9/xlsx.js</a>]]></description>
-            <link>https://github.com/SheetJS/js-xlsx</link>
-            <guid isPermaLink="false">xlsx0.7.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 23 Aug 2014 16:08:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.bootstrapvalidator updated to version 0.5.1]]></title>
@@ -269,6 +317,13 @@
             <pubDate>Wed, 20 Aug 2014 22:30:33 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[leaflet-providers(1.0.7) was added]]></title>
+            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.7/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.7/leaflet-providers.js</a>]]></description>
+            <guid isPermaLink="false">leaflet-providers1.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 20 Aug 2014 10:04:20 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[s3colors updated to version 1.0]]></title>
             <description><![CDATA[Easy to use CSS Colors in your project with simple class you can colorize your text or background with the class of color name.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/s3colors/1.0/s3-colors.min.css">//cdnjs.cloudflare.com/ajax/libs/s3colors/1.0/s3-colors.min.css</a>]]></description>
             <link>http://shaz3e.github.io/S3-Colors/</link>
@@ -290,14 +345,6 @@
             <guid isPermaLink="false">bacon.js0.7.22</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 19 Aug 2014 17:24:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.3.3]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.3/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.3/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 19 Aug 2014 06:17:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[requirejs-plugins updated to version 1.0.3]]></title>
@@ -922,38 +969,6 @@
             <guid isPermaLink="false">jsonfile2.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 15 Aug 2014 16:06:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vis updated to version 3.2.0]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.2.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.2.0/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis3.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 14 Aug 2014 16:51:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cytoscape updated to version 2.2.12]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.12/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.12/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.2.12</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 14 Aug 2014 16:19:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[crossfilter updated to version 1.3.9]]></title>
-            <description><![CDATA[Fast multidimensional filtering for coordinated views.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.9/crossfilter.min.js">//cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.9/crossfilter.min.js</a>]]></description>
-            <link>http://square.github.com/crossfilter/</link>
-            <guid isPermaLink="false">crossfilter1.3.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 14 Aug 2014 16:19:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nanogallery updated to version 5.0.2]]></title>
-            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.0.2/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.0.2/jquery.nanogallery.min.js</a>]]></description>
-            <link>http://nanogallery.brisbois.fr/</link>
-            <guid isPermaLink="false">nanogallery5.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 13 Aug 2014 14:42:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-select updated to version 1.6.2]]></title>
