@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 26 Aug 2014 10:05:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Aug 2014 18:00:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fullcalendar updated to version 2.1.0]]></title>
+            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.0/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.0/fullcalendar.min.js</a>]]></description>
+            <link>http://arshaw.com/fullcalendar/</link>
+            <guid isPermaLink="false">fullcalendar2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 26 Aug 2014 16:32:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[gsap updated to version 1.13.2]]></title>
+            <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/TweenMax.min.js</a>]]></description>
+            <link>http://www.greensock.com/gsap-js/</link>
+            <guid isPermaLink="false">gsap1.13.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 26 Aug 2014 16:24:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-dialog updated to version 0.2.13]]></title>
+            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.2.13/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.2.13/js/ngDialog.min.js</a>]]></description>
+            <link>http://likeastore.github.io/ngDialog/</link>
+            <guid isPermaLink="false">ng-dialog0.2.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 26 Aug 2014 16:06:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[fotorama updated to version 4.6.2]]></title>
             <description><![CDATA[A simple, stunning, powerful jQuery gallery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.js">//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.js</a>]]></description>
@@ -314,14 +338,6 @@
             <guid isPermaLink="false">css3finalize4.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 16 Aug 2014 17:37:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fullcalendar updated to version 2.0.3]]></title>
-            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.0.3/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.0.3/fullcalendar.min.js</a>]]></description>
-            <link>http://arshaw.com/fullcalendar/</link>
-            <guid isPermaLink="false">fullcalendar2.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 16 Aug 2014 02:09:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[device.js updated to version 0.1.59]]></title>
