@@ -7,7 +7,7 @@ var http = require('http');
 
 var packagesurl = 'https://s3.amazonaws.com/cdnjs-artifacts/packages.json?' + new Date().getTime();
 superagent.get(packagesurl, function(res, textStatus, xhr){
-  fs.writeFileSync('public/packages.json', JSON.stringify(res.body, null, 4), 'utf8');
+  fs.writeFileSync('public/packages.json', JSON.stringify(res.body, null, 2), 'utf8');
   fs.writeFileSync('public/packages.min.json', JSON.stringify(res.body), 'utf8');
 
 
