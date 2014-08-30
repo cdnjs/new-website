@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 Aug 2014 09:05:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 30 Aug 2014 16:37:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fluidbox updated to version 1.3.4]]></title>
+            <description><![CDATA[Replicating Medium's beautiful, minimalist lightbox module<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.4/jquery.fluidbox.min.js">//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.4/jquery.fluidbox.min.js</a>]]></description>
+            <link>https://github.com/terrymun/Fluidbox</link>
+            <guid isPermaLink="false">fluidbox1.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 30 Aug 2014 16:32:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[list.pagination.js updated to version 0.1.1]]></title>
+            <description><![CDATA[A pagination plugin for List.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.min.js">//cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.min.js</a>]]></description>
+            <link>http://listjs.com/docs/plugins/fuzzysearch</link>
+            <guid isPermaLink="false">list.pagination.js0.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 30 Aug 2014 16:17:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb updated to version 3.0.3]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.3/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.3/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb3.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 30 Aug 2014 16:10:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[parsley.js updated to version 2.0.5]]></title>
+            <description><![CDATA[Validate your forms without writing a single line of javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.5/parsley.min.js">//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.5/parsley.min.js</a>]]></description>
+            <link>http://parsleyjs.org/</link>
+            <guid isPermaLink="false">parsley.js2.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 30 Aug 2014 16:09:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[fullcalendar updated to version 2.1.1]]></title>
             <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.1/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.1.1/fullcalendar.min.js</a>]]></description>
@@ -376,22 +408,6 @@
             <guid isPermaLink="false">mithril0.1.21</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 21 Aug 2014 18:09:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[parsley.js updated to version 2.0.4]]></title>
-            <description><![CDATA[Validate your forms without writing a single line of javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.4/parsley.min.js">//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.4/parsley.min.js</a>]]></description>
-            <link>http://parsleyjs.org/</link>
-            <guid isPermaLink="false">parsley.js2.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 21 Aug 2014 18:09:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pouchdb updated to version 3.0.2]]></title>
-            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.2/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.2/pouchdb.min.js</a>]]></description>
-            <link>http://pouchdb.com/</link>
-            <guid isPermaLink="false">pouchdb3.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 21 Aug 2014 18:08:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[tinymce updated to version 4.1.4]]></title>
