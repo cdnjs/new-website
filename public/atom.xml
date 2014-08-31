@@ -10,17 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 30 Aug 2014 16:37:13 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 Aug 2014 17:05:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[fluidbox updated to version 1.3.4]]></title>
-            <description><![CDATA[Replicating Medium's beautiful, minimalist lightbox module<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.4/jquery.fluidbox.min.js">//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.4/jquery.fluidbox.min.js</a>]]></description>
-            <link>https://github.com/terrymun/Fluidbox</link>
-            <guid isPermaLink="false">fluidbox1.3.4</guid>
+            <title><![CDATA[basics updated to version 1.2.0]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/basics/1.2.0/basics.css">//cdnjs.cloudflare.com/ajax/libs/basics/1.2.0/basics.css</a>]]></description>
+            <link>https://github.com/haydenbleasel/basics</link>
+            <guid isPermaLink="false">basics1.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 30 Aug 2014 16:32:53 GMT</pubDate>
+            <pubDate>Sun, 31 Aug 2014 17:03:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[trianglify updated to version 0.1.4]]></title>
+            <description><![CDATA[Trianglify is a javascript library for generating colorful triangle meshes that can be used as SVG images and CSS backgrounds.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.4/trianglify.min.js">//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.4/trianglify.min.js</a>]]></description>
+            <link>https://github.com/qrohlf/trianglify</link>
+            <guid isPermaLink="false">trianglify0.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 31 Aug 2014 17:00:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fluidbox updated to version 1.3.5]]></title>
+            <description><![CDATA[Replicating Medium's beautiful, minimalist lightbox module<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.5/jquery.fluidbox.min.js">//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.3.5/jquery.fluidbox.min.js</a>]]></description>
+            <link>https://github.com/terrymun/Fluidbox</link>
+            <guid isPermaLink="false">fluidbox1.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 31 Aug 2014 16:59:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.nanoscroller updated to version 0.8.2]]></title>
+            <description><![CDATA[A jQuery plugin that offers a simplistic way of implementing Lion OS scrollbars<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.2/javascripts/jquery.nanoscroller.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.2/javascripts/jquery.nanoscroller.min.js</a>]]></description>
+            <link>http://jamesflorentino.github.com/nanoScrollerJS/</link>
+            <guid isPermaLink="false">jquery.nanoscroller0.8.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 31 Aug 2014 08:57:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[galleria updated to version 1.4.2]]></title>
+            <description><![CDATA[The JavaScript Image Gallery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/galleria/1.4.2/galleria.min.js">//cdnjs.cloudflare.com/ajax/libs/galleria/1.4.2/galleria.min.js</a>]]></description>
+            <link>http://galleria.io/</link>
+            <guid isPermaLink="false">galleria1.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 31 Aug 2014 08:40:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[list.pagination.js updated to version 0.1.1]]></title>
@@ -478,22 +510,6 @@
             <guid isPermaLink="false">holder2.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 18 Aug 2014 22:24:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[basket.js updated to version 0.5.1]]></title>
-            <description><![CDATA[A script and resource loader for caching & loading scripts with localStorage<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/basket.js/0.5.1/basket.full.min.js">//cdnjs.cloudflare.com/ajax/libs/basket.js/0.5.1/basket.full.min.js</a>]]></description>
-            <link>http://addyosmani.github.com/basket.js</link>
-            <guid isPermaLink="false">basket.js0.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 17 Aug 2014 16:54:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[css3finalize updated to version 4.0.1]]></title>
-            <description><![CDATA[Automatically add vendor prefixes<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/css3finalize/4.0.1/jquery.css3finalize.min.js">//cdnjs.cloudflare.com/ajax/libs/css3finalize/4.0.1/jquery.css3finalize.min.js</a>]]></description>
-            <link>https://github.com/codler/jQuery-Css3-Finalize</link>
-            <guid isPermaLink="false">css3finalize4.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 16 Aug 2014 17:37:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-select updated to version 1.6.2]]></title>
