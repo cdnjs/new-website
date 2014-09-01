@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 31 Aug 2014 17:05:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Sep 2014 13:10:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[pace updated to version 0.5.6]]></title>
+            <description><![CDATA[Automatic web page progress bar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pace/0.5.6/pace.js">//cdnjs.cloudflare.com/ajax/libs/pace/0.5.6/pace.js</a>]]></description>
+            <link>http://github.hubspot.com/pace/</link>
+            <guid isPermaLink="false">pace0.5.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Sep 2014 13:01:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-sortable updated to version 0.12.10]]></title>
+            <description><![CDATA[This directive allows you to jQueryUI Sortable.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.12.10/sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.12.10/sortable.min.js</a>]]></description>
+            <link>http://angular-ui.github.com</link>
+            <guid isPermaLink="false">angular-ui-sortable0.12.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Sep 2014 06:22:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.17.0]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.17.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.17.0/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.17.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Sep 2014 06:02:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ramda updated to version 0.4.1]]></title>
+            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.1/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.1/ramda.min.js</a>]]></description>
+            <link>https://www.github.com/CrossEye/ramda</link>
+            <guid isPermaLink="false">ramda0.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Sep 2014 01:13:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tablesort updated to version 1.7.0]]></title>
+            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/1.7.0/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/1.7.0/tablesort.min.js</a>]]></description>
+            <link>http://tristen.ca/tablesort/demo/</link>
+            <guid isPermaLink="false">tablesort1.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 31 Aug 2014 19:31:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[basics updated to version 1.2.0]]></title>
             <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/basics/1.2.0/basics.css">//cdnjs.cloudflare.com/ajax/libs/basics/1.2.0/basics.css</a>]]></description>
@@ -164,14 +204,6 @@
             <guid isPermaLink="false">cldrjs0.3.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 29 Aug 2014 06:20:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ramda updated to version 0.4.0]]></title>
-            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.0/ramda.min.js</a>]]></description>
-            <link>https://www.github.com/CrossEye/ramda</link>
-            <guid isPermaLink="false">ramda0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 29 Aug 2014 06:04:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[knockback updated to version 0.19.4]]></title>
@@ -416,14 +448,6 @@
             <guid isPermaLink="false">annyang1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 22 Aug 2014 01:44:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.16.0]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.16.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.16.0/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.16.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 21 Aug 2014 18:18:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[es5-shim updated to version 4.0.3]]></title>
