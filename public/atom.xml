@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Sep 2014 05:28:06 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Sep 2014 09:47:44 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ramda updated to version 0.4.3]]></title>
+            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.3/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.3/ramda.min.js</a>]]></description>
+            <link>https://www.github.com/CrossEye/ramda</link>
+            <guid isPermaLink="false">ramda0.4.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Sep 2014 09:45:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[github-fork-ribbon-css(0.1.1) was added]]></title>
+            <description><![CDATA[A CSS-only, resolution-independent 'Fork me on GitHub' ribbon.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.css">//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.css</a>]]></description>
+            <link>https://simonwhitaker.github.io/github-fork-ribbon-css/</link>
+            <guid isPermaLink="false">github-fork-ribbon-css0.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Sep 2014 09:37:35 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nanogallery updated to version 5.0.3]]></title>
             <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.0.3/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.0.3/jquery.nanogallery.min.js</a>]]></description>
@@ -92,14 +108,6 @@
             <guid isPermaLink="false">es6-shim0.17.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 01 Sep 2014 06:02:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ramda updated to version 0.4.1]]></title>
-            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.1/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.1/ramda.min.js</a>]]></description>
-            <link>https://www.github.com/CrossEye/ramda</link>
-            <guid isPermaLink="false">ramda0.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Sep 2014 01:13:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[tablesort updated to version 1.7.0]]></title>
@@ -541,22 +549,6 @@
             <guid isPermaLink="false">bacon.js0.7.22</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 19 Aug 2014 17:24:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[requirejs-plugins updated to version 1.0.3]]></title>
-            <description><![CDATA[Small set of plugins for RequireJS. Some plugins may also work on other AMD loaders.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/requirejs-plugins/1.0.3/async.js">//cdnjs.cloudflare.com/ajax/libs/requirejs-plugins/1.0.3/async.js</a>]]></description>
-            <link>https://github.com/millermedeiros/requirejs-plugins</link>
-            <guid isPermaLink="false">requirejs-plugins1.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 19 Aug 2014 05:39:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[humanize-plus updated to version 1.5.0]]></title>
-            <description><![CDATA[A simple utility library for making the web more humane.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/humanize-plus/1.5.0/humanize.min.js">//cdnjs.cloudflare.com/ajax/libs/humanize-plus/1.5.0/humanize.min.js</a>]]></description>
-            <link>https://github.com/HubSpot/humanize</link>
-            <guid isPermaLink="false">humanize-plus1.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 19 Aug 2014 03:37:33 GMT</pubDate>
         </item>
     </channel>
 </rss>
