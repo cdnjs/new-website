@@ -10,10 +10,58 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Sep 2014 09:47:44 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Sep 2014 06:00:39 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[highstock updated to version 2.0.4]]></title>
+            <description><![CDATA[Highstock lets you create stock or general timeline charts in pure JavaScript, including sophisticated navigation options like a small navigator series, preset date ranges, date picker, scrolling and panning. Highstock is NOT free for commercial use.  See the license here: http://shop.highsoft.com/highstock.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.4/highstock.js">//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.4/highstock.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highstock2.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 03 Sep 2014 05:44:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highmaps updated to version 1.0.4]]></title>
+            <description><![CDATA[Highmaps is Highcharts for geo maps. Mainly choropleth maps where the color intensity relates to some value of a geographic area, but Highmaps also supports different features like lines (roads, rivers etc.) and points (cities, points of interest) and more. Highmaps comes in two flavors, either as a standalone JavaScript file, or as a plugin for Highcharts. Highmaps is NOT free for commercial use.  See the license and pricing here: http://shop.highsoft.com/highmaps.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highmaps/1.0.4/highmaps.js">//cdnjs.cloudflare.com/ajax/libs/highmaps/1.0.4/highmaps.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highmaps1.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 03 Sep 2014 05:43:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highcharts updated to version 4.0.4]]></title>
+            <description><![CDATA[Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie and scatter chart types. Highcharts is NOT free for commercial use.  See the license here: http://highcharts.com/license<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.4/highcharts.js">//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.4/highcharts.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highcharts4.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 03 Sep 2014 05:29:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[libil updated to version 0.1.2]]></title>
+            <description><![CDATA[Libil is a JavaScript library to process string for Bahasa Walikan. It supports Yogyakarta and Malang Style<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/libil/0.1.2/libil.min.js">//cdnjs.cloudflare.com/ajax/libs/libil/0.1.2/libil.min.js</a>]]></description>
+            <link>https://github.com/lynxluna/libil.js</link>
+            <guid isPermaLink="false">libil0.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Sep 2014 18:52:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[string.js updated to version 2.0.0]]></title>
+            <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/2.0.0/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/2.0.0/string.min.js</a>]]></description>
+            <link>http://stringjs.com</link>
+            <guid isPermaLink="false">string.js2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Sep 2014 16:41:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.nanoscroller updated to version 0.8.4]]></title>
+            <description><![CDATA[A jQuery plugin that offers a simplistic way of implementing Lion OS scrollbars<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.4/javascripts/jquery.nanoscroller.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.4/javascripts/jquery.nanoscroller.min.js</a>]]></description>
+            <link>http://jamesflorentino.github.com/nanoScrollerJS/</link>
+            <guid isPermaLink="false">jquery.nanoscroller0.8.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Sep 2014 16:40:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ramda updated to version 0.4.3]]></title>
             <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.3/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.3/ramda.min.js</a>]]></description>
@@ -140,14 +188,6 @@
             <guid isPermaLink="false">fluidbox1.3.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 31 Aug 2014 16:59:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.nanoscroller updated to version 0.8.2]]></title>
-            <description><![CDATA[A jQuery plugin that offers a simplistic way of implementing Lion OS scrollbars<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.2/javascripts/jquery.nanoscroller.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.2/javascripts/jquery.nanoscroller.min.js</a>]]></description>
-            <link>http://jamesflorentino.github.com/nanoScrollerJS/</link>
-            <guid isPermaLink="false">jquery.nanoscroller0.8.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 31 Aug 2014 08:57:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[galleria updated to version 1.4.2]]></title>
@@ -526,29 +566,6 @@
             <guid isPermaLink="false">leaflet-providers1.0.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 20 Aug 2014 10:04:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[s3colors updated to version 1.0]]></title>
-            <description><![CDATA[Easy to use CSS Colors in your project with simple class you can colorize your text or background with the class of color name.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/s3colors/1.0/s3-colors.min.css">//cdnjs.cloudflare.com/ajax/libs/s3colors/1.0/s3-colors.min.css</a>]]></description>
-            <link>http://shaz3e.github.io/S3-Colors/</link>
-            <guid isPermaLink="false">s3colors1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 19 Aug 2014 22:08:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.collectionView updated to version 0.11.1]]></title>
-            <description><![CDATA[Easily render backbone.js collections with support for automatic selection of models in response to clicks, reordering models via drag and drop, and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.collectionView/0.11.1/backbone.collectionView.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.collectionView/0.11.1/backbone.collectionView.min.js</a>]]></description>
-            <guid isPermaLink="false">backbone.collectionView0.11.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 19 Aug 2014 17:25:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.22]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.22/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.22/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.22</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 19 Aug 2014 17:24:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
