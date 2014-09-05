@@ -10,10 +10,41 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Sep 2014 19:14:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Sep 2014 06:50:40 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.2.13]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.13/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.13/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.2.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 05 Sep 2014 06:46:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mathjs updated to version 1.0.0]]></title>
+            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/1.0.0/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/1.0.0/math.min.js</a>]]></description>
+            <link>http://mathjs.org</link>
+            <guid isPermaLink="false">mathjs1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 05 Sep 2014 06:44:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[knockback updated to version 0.20.0]]></title>
+            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.0/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.0/knockback.min.js</a>]]></description>
+            <guid isPermaLink="false">knockback0.20.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 05 Sep 2014 06:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb updated to version 3.0.4]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.4/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.4/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb3.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 05 Sep 2014 06:40:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[moment-timezone updated to version 0.2.2]]></title>
             <description><![CDATA[Timezone plugin for Moment.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.2/moment-timezone.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.2/moment-timezone.min.js</a>]]></description>
@@ -286,14 +317,6 @@
             <pubDate>Sat, 30 Aug 2014 16:17:30 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[pouchdb updated to version 3.0.3]]></title>
-            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.3/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.3/pouchdb.min.js</a>]]></description>
-            <link>http://pouchdb.com/</link>
-            <guid isPermaLink="false">pouchdb3.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 30 Aug 2014 16:10:24 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[parsley.js updated to version 2.0.5]]></title>
             <description><![CDATA[Validate your forms without writing a single line of javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.5/parsley.min.js">//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.5/parsley.min.js</a>]]></description>
             <link>http://parsleyjs.org/</link>
@@ -379,13 +402,6 @@
             <guid isPermaLink="false">cldrjs0.3.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 29 Aug 2014 06:20:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockback updated to version 0.19.4]]></title>
-            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.19.4/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.19.4/knockback.min.js</a>]]></description>
-            <guid isPermaLink="false">knockback0.19.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 29 Aug 2014 06:04:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[shepherd updated to version 0.5.1]]></title>
@@ -568,14 +584,6 @@
             <guid isPermaLink="false">codemirror4.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 22 Aug 2014 16:20:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mathjs updated to version 0.27.0]]></title>
-            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/0.27.0/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/0.27.0/math.min.js</a>]]></description>
-            <link>http://mathjs.org</link>
-            <guid isPermaLink="false">mathjs0.27.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 22 Aug 2014 16:16:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[loglevel updated to version 1.1.0]]></title>
