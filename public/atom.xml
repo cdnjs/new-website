@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 05 Sep 2014 06:50:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Sep 2014 14:21:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[c3 updated to version 0.3.0]]></title>
+            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.3.0/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.3.0/c3.min.js</a>]]></description>
+            <link>http://c3js.org</link>
+            <guid isPermaLink="false">c30.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Sep 2014 10:01:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.9]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.9/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.9/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Sep 2014 06:06:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[moment.js updated to version 2.8.3]]></title>
+            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js</a>]]></description>
+            <link>http://momentjs.com/</link>
+            <guid isPermaLink="false">moment.js2.8.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 05 Sep 2014 13:41:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.2.13]]></title>
             <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.13/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.13/cytoscape.min.js</a>]]></description>
@@ -458,14 +482,6 @@
             <pubDate>Thu, 28 Aug 2014 04:19:06 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[rxjs updated to version 2.3.8]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.8/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.8/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 28 Aug 2014 04:12:40 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[underscore.js updated to version 1.7.0]]></title>
             <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js</a>]]></description>
             <link>http://jashkenas.github.io/underscore/</link>
@@ -568,53 +584,6 @@
             <guid isPermaLink="false">knockout3.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 23 Aug 2014 16:13:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.bootstrapvalidator updated to version 0.5.1]]></title>
-            <description><![CDATA[The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js</a>]]></description>
-            <link>http://bootstrapvalidator.com</link>
-            <guid isPermaLink="false">jquery.bootstrapvalidator0.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 23 Aug 2014 02:15:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[codemirror updated to version 4.5.0]]></title>
-            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.5.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.5.0/codemirror.min.js</a>]]></description>
-            <link>http://codemirror.net</link>
-            <guid isPermaLink="false">codemirror4.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 22 Aug 2014 16:20:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[loglevel updated to version 1.1.0]]></title>
-            <description><![CDATA[Minimal lightweight logging for JavaScript, adding reliable log level methods to any available console.log methods<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/loglevel/1.1.0/loglevel.min.js">//cdnjs.cloudflare.com/ajax/libs/loglevel/1.1.0/loglevel.min.js</a>]]></description>
-            <link>https://github.com/pimterry/loglevel</link>
-            <guid isPermaLink="false">loglevel1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 22 Aug 2014 16:15:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment.js updated to version 2.8.2]]></title>
-            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.2/moment.min.js</a>]]></description>
-            <link>http://momentjs.com/</link>
-            <guid isPermaLink="false">moment.js2.8.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 22 Aug 2014 16:15:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[primish updated to version 0.3.8]]></title>
-            <description><![CDATA[A portable Class implementation in javascript, forked from MooTools Prime and created for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/primish/0.3.8/primish-min.js">//cdnjs.cloudflare.com/ajax/libs/primish/0.3.8/primish-min.js</a>]]></description>
-            <guid isPermaLink="false">primish0.3.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 22 Aug 2014 16:15:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[localforage updated to version 0.9.2]]></title>
-            <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/0.9.2/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/0.9.2/localforage.min.js</a>]]></description>
-            <link>https://github.com/mozilla/localForage</link>
-            <guid isPermaLink="false">localforage0.9.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 22 Aug 2014 07:14:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[leaflet-providers(1.0.7) was added]]></title>
