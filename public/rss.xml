@@ -10,17 +10,57 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 Sep 2014 14:21:25 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Sep 2014 06:36:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bootstrap-select updated to version 1.6.2]]></title>
+            <description><![CDATA[A custom <select> for Bootstrap using button dropdown as replacement<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js</a>]]></description>
+            <link>http://silviomoreto.github.io/bootstrap-select/</link>
+            <guid isPermaLink="false">bootstrap-select1.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 07 Sep 2014 06:32:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.bootstrapvalidator updated to version 0.5.1]]></title>
+            <description><![CDATA[The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js</a>]]></description>
+            <link>http://bootstrapvalidator.com</link>
+            <guid isPermaLink="false">jquery.bootstrapvalidator0.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 07 Sep 2014 06:28:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootcards updated to version 0.2.0]]></title>
+            <description><![CDATA[A cards-based UI framework for mobile and desktop apps, built on top of Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootcards/0.2.0/js/bootcards.min.js">//cdnjs.cloudflare.com/ajax/libs/bootcards/0.2.0/js/bootcards.min.js</a>]]></description>
+            <link>http://bootcards.org</link>
+            <guid isPermaLink="false">bootcards0.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 07 Sep 2014 06:12:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[c3 updated to version 0.3.0]]></title>
             <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.3.0/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.3.0/c3.min.js</a>]]></description>
             <link>http://c3js.org</link>
             <guid isPermaLink="false">c30.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Sep 2014 10:01:38 GMT</pubDate>
+            <pubDate>Sun, 07 Sep 2014 06:03:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.18.0]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.18.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.18.0/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.18.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 07 Sep 2014 05:31:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[minitranslate updated to version 1.1.3]]></title>
+            <description><![CDATA[A lightweight way to change words into other words.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minitranslate/1.1.3/minitranslate.min.js">//cdnjs.cloudflare.com/ajax/libs/minitranslate/1.1.3/minitranslate.min.js</a>]]></description>
+            <link>http://bryce.io/minitranslate</link>
+            <guid isPermaLink="false">minitranslate1.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 07 Sep 2014 05:29:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rxjs updated to version 2.3.9]]></title>
@@ -285,14 +325,6 @@
             <pubDate>Mon, 01 Sep 2014 06:22:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[es6-shim updated to version 0.17.0]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.17.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.17.0/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.17.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Sep 2014 06:02:35 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[tablesort updated to version 1.7.0]]></title>
             <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/1.7.0/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/1.7.0/tablesort.min.js</a>]]></description>
             <link>http://tristen.ca/tablesort/demo/</link>
@@ -363,14 +395,6 @@
             <guid isPermaLink="false">phaser2.0.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 30 Aug 2014 08:34:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootcards updated to version 0.2.0]]></title>
-            <description><![CDATA[A cards-based UI framework for mobile and desktop apps, built on top of Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootcards/0.2.0/js/bootcards.min.js">//cdnjs.cloudflare.com/ajax/libs/bootcards/0.2.0/js/bootcards.min.js</a>]]></description>
-            <link>http://bootcards.org</link>
-            <guid isPermaLink="false">bootcards0.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 29 Aug 2014 17:00:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[peerjs updated to version 0.3.10]]></title>
@@ -552,38 +576,6 @@
             <guid isPermaLink="false">jshint2.5.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 24 Aug 2014 16:55:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uikit updated to version 2.9.0]]></title>
-            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.9.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.9.0/js/uikit.min.js</a>]]></description>
-            <link>http://www.getuikit.com</link>
-            <guid isPermaLink="false">uikit2.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 23 Aug 2014 17:32:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fuse.js updated to version 1.1.7]]></title>
-            <description><![CDATA[Lightweight fuzzy-search, in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.1.7/fuse.min.js">//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.1.7/fuse.min.js</a>]]></description>
-            <link>http://kiro.me/projects/fuse.html</link>
-            <guid isPermaLink="false">fuse.js1.1.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 23 Aug 2014 17:00:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootswatch updated to version 3.2.0+2]]></title>
-            <description><![CDATA[Bootswatch is a collection of themes for Bootstrap.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.2.0+2/custom/bootstrap.min.css">//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.2.0+2/custom/bootstrap.min.css</a>]]></description>
-            <link>http://bootswatch.com/</link>
-            <guid isPermaLink="false">bootswatch3.2.0+2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 23 Aug 2014 16:47:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockout updated to version 3.2.0]]></title>
-            <description><![CDATA[Knockout makes it easier to create rich, responsive UIs with JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockout/3.2.0/knockout-min.js">//cdnjs.cloudflare.com/ajax/libs/knockout/3.2.0/knockout-min.js</a>]]></description>
-            <link>http://knockoutjs.com/</link>
-            <guid isPermaLink="false">knockout3.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 23 Aug 2014 16:13:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[leaflet-providers(1.0.7) was added]]></title>
