@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 08 Sep 2014 07:37:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Sep 2014 17:15:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[underscore.js updated to version 1.7.0]]></title>
+            <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js</a>]]></description>
+            <link>http://jashkenas.github.io/underscore/</link>
+            <guid isPermaLink="false">underscore.js1.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Sep 2014 17:13:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AniJS updated to version 0.7.1]]></title>
+            <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.1/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.1/anijs-min.js</a>]]></description>
+            <link>http://anijs.github.io/</link>
+            <guid isPermaLink="false">AniJS0.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Sep 2014 16:30:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chroma-js updated to version 0.5.9]]></title>
+            <description><![CDATA[JavaScript library for color conversions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.9/chroma.min.js">//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.9/chroma.min.js</a>]]></description>
+            <link>https://github.com/gka/chroma.js</link>
+            <guid isPermaLink="false">chroma-js0.5.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Sep 2014 16:26:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb updated to version 3.0.5]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.5/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.5/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb3.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Sep 2014 16:25:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[froala-editor(1.2.0) was added]]></title>
+            <description><![CDATA[A beautiful jQuery WYSIWYG text editor based on HTML5 technology. Cross browser, with mobile support, high performance and Retina Ready flat design.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.0/js/froala_editor.min.js">//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.0/js/froala_editor.min.js</a>]]></description>
+            <link>http://editor.froala.com/</link>
+            <guid isPermaLink="false">froala-editor1.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Sep 2014 10:11:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[pace updated to version 0.5.7]]></title>
             <description><![CDATA[Automatic web page progress bar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pace/0.5.7/pace.js">//cdnjs.cloudflare.com/ajax/libs/pace/0.5.7/pace.js</a>]]></description>
@@ -134,14 +174,6 @@
             <pubDate>Fri, 05 Sep 2014 06:44:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[pouchdb updated to version 3.0.4]]></title>
-            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.4/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.4/pouchdb.min.js</a>]]></description>
-            <link>http://pouchdb.com/</link>
-            <guid isPermaLink="false">pouchdb3.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Sep 2014 06:40:13 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[moment-timezone updated to version 0.2.2]]></title>
             <description><![CDATA[Timezone plugin for Moment.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.2/moment-timezone.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.2/moment-timezone.min.js</a>]]></description>
             <link>http://momentjs.com/timezone</link>
@@ -164,14 +196,6 @@
             <guid isPermaLink="false">jplayer2.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 04 Sep 2014 12:48:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AniJS updated to version 0.7.0]]></title>
-            <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.0/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.0/anijs-min.js</a>]]></description>
-            <link>http://anijs.github.io/</link>
-            <guid isPermaLink="false">AniJS0.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Sep 2014 12:33:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ng-tags-input updated to version 2.1.1]]></title>
@@ -522,14 +546,6 @@
             <pubDate>Thu, 28 Aug 2014 04:19:06 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[underscore.js updated to version 1.7.0]]></title>
-            <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js</a>]]></description>
-            <link>http://jashkenas.github.io/underscore/</link>
-            <guid isPermaLink="false">underscore.js1.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 27 Aug 2014 03:34:35 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[xlsx updated to version 0.7.10]]></title>
             <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.10/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.10/xlsx.js</a>]]></description>
             <link>https://github.com/SheetJS/js-xlsx</link>
@@ -568,22 +584,6 @@
             <guid isPermaLink="false">fotorama4.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 26 Aug 2014 02:44:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.tablesorter updated to version 2.17.7]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.7/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.17.7/js/jquery.tablesorter.min.js</a>]]></description>
-            <link>http://mottie.github.com/tablesorter/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.17.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 25 Aug 2014 16:33:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.marionette updated to version 2.1.0]]></title>
-            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.1.0/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.1.0/backbone.marionette.min.js</a>]]></description>
-            <link>http://github.com/marionettejs/backbone.marionette</link>
-            <guid isPermaLink="false">backbone.marionette2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 25 Aug 2014 16:22:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[leaflet-providers(1.0.7) was added]]></title>
