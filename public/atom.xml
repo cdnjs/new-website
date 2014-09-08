@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 07 Sep 2014 06:36:42 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Sep 2014 07:37:49 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[pace updated to version 0.5.7]]></title>
+            <description><![CDATA[Automatic web page progress bar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pace/0.5.7/pace.js">//cdnjs.cloudflare.com/ajax/libs/pace/0.5.7/pace.js</a>]]></description>
+            <link>http://github.hubspot.com/pace/</link>
+            <guid isPermaLink="false">pace0.5.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Sep 2014 07:28:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-moment updated to version 0.8.2]]></title>
+            <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.8.2/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.8.2/angular-moment.min.js</a>]]></description>
+            <link>https://github.com/urish/angular-moment</link>
+            <guid isPermaLink="false">angular-moment0.8.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Sep 2014 07:23:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[6px updated to version 1.0.1]]></title>
+            <description><![CDATA[Javascript client for 6px<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/6px/1.0.1/6px.min.js">//cdnjs.cloudflare.com/ajax/libs/6px/1.0.1/6px.min.js</a>]]></description>
+            <link>https://github.com/6px-io/6px-js</link>
+            <guid isPermaLink="false">6px1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Sep 2014 07:23:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-select updated to version 1.6.2]]></title>
             <description><![CDATA[A custom <select> for Bootstrap using button dropdown as replacement<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js</a>]]></description>
@@ -69,6 +93,14 @@
             <guid isPermaLink="false">rxjs2.3.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 06 Sep 2014 06:06:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cc-icons(1.0.1) was added]]></title>
+            <description><![CDATA[Creative Commons Web Font.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.0.1/css/cc-icons.min.css">//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.0.1/css/cc-icons.min.css</a>]]></description>
+            <link>http://cc-icons.github.io/</link>
+            <guid isPermaLink="false">cc-icons1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 05 Sep 2014 19:53:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[moment.js updated to version 2.8.3]]></title>
@@ -299,22 +331,6 @@
             <guid isPermaLink="false">annyang1.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 01 Sep 2014 18:47:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-moment updated to version 0.8.1]]></title>
-            <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.8.1/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.8.1/angular-moment.min.js</a>]]></description>
-            <link>https://github.com/urish/angular-moment</link>
-            <guid isPermaLink="false">angular-moment0.8.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Sep 2014 16:23:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pace updated to version 0.5.6]]></title>
-            <description><![CDATA[Automatic web page progress bar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pace/0.5.6/pace.js">//cdnjs.cloudflare.com/ajax/libs/pace/0.5.6/pace.js</a>]]></description>
-            <link>http://github.hubspot.com/pace/</link>
-            <guid isPermaLink="false">pace0.5.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Sep 2014 13:01:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-ui-sortable updated to version 0.12.10]]></title>
@@ -568,14 +584,6 @@
             <guid isPermaLink="false">backbone.marionette2.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 25 Aug 2014 16:22:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jshint updated to version 2.5.5]]></title>
-            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.5/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.5/jshint.js</a>]]></description>
-            <link>http://jshint.com/</link>
-            <guid isPermaLink="false">jshint2.5.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 24 Aug 2014 16:55:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[leaflet-providers(1.0.7) was added]]></title>
