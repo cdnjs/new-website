@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 08 Sep 2014 17:15:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Sep 2014 16:53:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[phaser updated to version 2.1.0]]></title>
+            <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.1.0/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.1.0/phaser.min.js</a>]]></description>
+            <link>http://phaser.io/</link>
+            <guid isPermaLink="false">phaser2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Sep 2014 16:24:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[elasticsearch updated to version 2.4.2]]></title>
+            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.4.2/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.4.2/elasticsearch.js</a>]]></description>
+            <link>https://github.com/elasticsearch/elasticsearch-js</link>
+            <guid isPermaLink="false">elasticsearch2.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Sep 2014 16:06:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[string.js updated to version 2.0.1]]></title>
+            <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/2.0.1/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/2.0.1/string.min.js</a>]]></description>
+            <link>http://stringjs.com</link>
+            <guid isPermaLink="false">string.js2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Sep 2014 16:06:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tinymce updated to version 4.1.5]]></title>
+            <description><![CDATA[TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.5/tinymce.min.js">//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.5/tinymce.min.js</a>]]></description>
+            <link>http://www.tinymce.com</link>
+            <guid isPermaLink="false">tinymce4.1.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Sep 2014 16:05:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-table(1.2.2) was added]]></title>
+            <description><![CDATA[Bootstrap table displays data in a tabular format and offers rich support to radio, checkbox, sort, pagination and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.2.2/bootstrap-table.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.2.2/bootstrap-table.js</a>]]></description>
+            <link>http://wenzhixin.net.cn/p/bootstrap-table/</link>
+            <guid isPermaLink="false">bootstrap-table1.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Sep 2014 07:25:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[underscore.js updated to version 1.7.0]]></title>
             <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js</a>]]></description>
@@ -206,14 +246,6 @@
             <pubDate>Thu, 04 Sep 2014 12:15:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[elasticsearch updated to version 2.4.1]]></title>
-            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.4.1/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.4.1/elasticsearch.js</a>]]></description>
-            <link>https://github.com/elasticsearch/elasticsearch-js</link>
-            <guid isPermaLink="false">elasticsearch2.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Sep 2014 01:56:09 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[vega updated to version 1.4.2]]></title>
             <description><![CDATA[Vega is a visualization grammar, a declarative format for creating, saving and sharing visualization designs. <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vega/1.4.2/vega.min.js">//cdnjs.cloudflare.com/ajax/libs/vega/1.4.2/vega.min.js</a>]]></description>
             <link>http://trifacta.github.io/vega/</link>
@@ -276,14 +308,6 @@
             <guid isPermaLink="false">libil0.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 02 Sep 2014 18:52:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[string.js updated to version 2.0.0]]></title>
-            <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/2.0.0/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/2.0.0/string.min.js</a>]]></description>
-            <link>http://stringjs.com</link>
-            <guid isPermaLink="false">string.js2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Sep 2014 16:41:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.nanoscroller updated to version 0.8.4]]></title>
@@ -429,14 +453,6 @@
             <pubDate>Sat, 30 Aug 2014 09:01:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[phaser updated to version 2.0.7]]></title>
-            <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.7/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.0.7/phaser.min.js</a>]]></description>
-            <link>http://phaser.io/</link>
-            <guid isPermaLink="false">phaser2.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 30 Aug 2014 08:34:08 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[peerjs updated to version 0.3.10]]></title>
             <description><![CDATA[Peer-to-peer data in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.10/peer.min.js">//cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.10/peer.min.js</a>]]></description>
             <link>http://peerjs.com/</link>
@@ -552,38 +568,6 @@
             <guid isPermaLink="false">xlsx0.7.10</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 27 Aug 2014 03:32:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[localStorage(2.0.0) was added]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.0/localStorage.min.js">//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.0/localStorage.min.js</a>]]></description>
-            <link>https://github.com/mortzdk/localStorage</link>
-            <guid isPermaLink="false">localStorage2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 Aug 2014 16:42:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gsap updated to version 1.13.2]]></title>
-            <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/TweenMax.min.js</a>]]></description>
-            <link>http://www.greensock.com/gsap-js/</link>
-            <guid isPermaLink="false">gsap1.13.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 Aug 2014 16:24:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-dialog updated to version 0.2.13]]></title>
-            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.2.13/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.2.13/js/ngDialog.min.js</a>]]></description>
-            <link>http://likeastore.github.io/ngDialog/</link>
-            <guid isPermaLink="false">ng-dialog0.2.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 Aug 2014 16:06:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fotorama updated to version 4.6.2]]></title>
-            <description><![CDATA[A simple, stunning, powerful jQuery gallery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.js">//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.2/fotorama.js</a>]]></description>
-            <link>http://fotorama.io/</link>
-            <guid isPermaLink="false">fotorama4.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 Aug 2014 02:44:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[leaflet-providers(1.0.7) was added]]></title>
