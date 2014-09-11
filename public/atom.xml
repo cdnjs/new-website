@@ -10,10 +10,65 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Sep 2014 17:34:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Sep 2014 02:29:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[backbone.collectionView updated to version 0.11.2]]></title>
+            <description><![CDATA[Easily render backbone.js collections with support for automatic selection of models in response to clicks, reordering models via drag and drop, and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.collectionView/0.11.2/backbone.collectionView.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.collectionView/0.11.2/backbone.collectionView.min.js</a>]]></description>
+            <guid isPermaLink="false">backbone.collectionView0.11.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Sep 2014 02:23:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone.marionette updated to version 2.2.0]]></title>
+            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.2.0/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.2.0/backbone.marionette.min.js</a>]]></description>
+            <link>http://github.com/marionettejs/backbone.marionette</link>
+            <guid isPermaLink="false">backbone.marionette2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Sep 2014 02:22:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[autosize.js updated to version 1.18.12]]></title>
+            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.12/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.12/jquery.autosize.min.js</a>]]></description>
+            <link>http://www.jacklmoore.com/autosize</link>
+            <guid isPermaLink="false">autosize.js1.18.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Sep 2014 02:20:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-dialog updated to version 0.2.14]]></title>
+            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.2.14/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.2.14/js/ngDialog.min.js</a>]]></description>
+            <link>http://likeastore.github.io/ngDialog/</link>
+            <guid isPermaLink="false">ng-dialog0.2.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Sep 2014 02:10:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jstree updated to version 3.0.4]]></title>
+            <description><![CDATA[jQuery tree plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.4/jstree.min.js">//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.4/jstree.min.js</a>]]></description>
+            <link>http://jstree.com</link>
+            <guid isPermaLink="false">jstree3.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Sep 2014 02:09:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jszip updated to version 2.4.0]]></title>
+            <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js</a>]]></description>
+            <link>http://stuk.github.io/jszip/</link>
+            <guid isPermaLink="false">jszip2.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Sep 2014 02:08:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vis updated to version 3.4.0]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.4.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.4.0/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis3.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Sep 2014 02:08:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[globalize updated to version 0.1.1]]></title>
             <description><![CDATA[New age globalization and localization. Formats and parses strings, dates and numbers in over 350 cultures.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/globalize/0.1.1/globalize.min.js">//cdnjs.cloudflare.com/ajax/libs/globalize/0.1.1/globalize.min.js</a>]]></description>
@@ -261,14 +316,6 @@
             <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[backbone.marionette updated to version 2.1.0]]></title>
-            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.1.0/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.1.0/backbone.marionette.min.js</a>]]></description>
-            <link>http://github.com/marionettejs/backbone.marionette</link>
-            <guid isPermaLink="false">backbone.marionette2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[annyang updated to version 1.4.0]]></title>
             <description><![CDATA[A javascript library for adding voice commands to your site, using speech recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/annyang/1.4.0/annyang.min.js">//cdnjs.cloudflare.com/ajax/libs/annyang/1.4.0/annyang.min.js</a>]]></description>
             <link>https://www.talater.com/annyang/</link>
@@ -307,6 +354,14 @@
             <guid isPermaLink="false">bootstrap-table1.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 10 Sep 2014 07:08:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ie8(0.2.0) was added]]></title>
+            <description><![CDATA[some damn DOM fix for this damned browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.0/ie8.js">//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.0/ie8.js</a>]]></description>
+            <link>https://github.com/WebReflection/ie8</link>
+            <guid isPermaLink="false">ie80.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Sep 2014 21:34:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[elasticsearch updated to version 2.4.2]]></title>
@@ -603,14 +658,6 @@
             <pubDate>Fri, 29 Aug 2014 16:48:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[vis updated to version 3.3.0]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.3.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.3.0/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis3.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 29 Aug 2014 16:46:08 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[foundation-essential updated to version 5.4.1]]></title>
             <description><![CDATA[Slimmed-down build of ZURB Foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.4.1/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.4.1/js/foundation.min.js</a>]]></description>
             <link>http://foundation.zurb.com</link>
@@ -648,21 +695,6 @@
             <guid isPermaLink="false">font-awesome4.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 28 Aug 2014 04:19:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[xlsx updated to version 0.7.10]]></title>
-            <description><![CDATA[Javascript XLSX / XLSM / XLSB (Excel 2007+) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.10/xlsx.js">//cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.10/xlsx.js</a>]]></description>
-            <link>https://github.com/SheetJS/js-xlsx</link>
-            <guid isPermaLink="false">xlsx0.7.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 27 Aug 2014 03:32:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[leaflet-providers(1.0.7) was added]]></title>
-            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.7/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.7/leaflet-providers.js</a>]]></description>
-            <guid isPermaLink="false">leaflet-providers1.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 20 Aug 2014 10:04:20 GMT</pubDate>
         </item>
     </channel>
 </rss>
