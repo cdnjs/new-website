@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 Sep 2014 16:17:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Sep 2014 16:32:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[uikit updated to version 2.10.0]]></title>
+            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.10.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.10.0/js/uikit.min.js</a>]]></description>
+            <link>http://www.getuikit.com</link>
+            <guid isPermaLink="false">uikit2.10.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 15 Sep 2014 16:17:41 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ie8 updated to version 0.2.1]]></title>
             <description><![CDATA[some damn DOM fix for this damned browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.1/ie8.js">//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.1/ie8.js</a>]]></description>
@@ -311,14 +319,6 @@
             <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/1.0.0/velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/1.0.0/velocity.min.js</a>]]></description>
             <link>http://velocityjs.org</link>
             <guid isPermaLink="false">velocity1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uikit updated to version 2.9.0]]></title>
-            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.9.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.9.0/js/uikit.min.js</a>]]></description>
-            <link>http://www.getuikit.com</link>
-            <guid isPermaLink="false">uikit2.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
         </item>
