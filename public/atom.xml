@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 Sep 2014 12:36:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Sep 2014 12:47:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ie8 updated to version 0.2.1]]></title>
+            <description><![CDATA[some damn DOM fix for this damned browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.1/ie8.js">//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.1/ie8.js</a>]]></description>
+            <link>https://github.com/WebReflection/ie8</link>
+            <guid isPermaLink="false">ie80.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 15 Sep 2014 12:37:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ember.js updated to version 1.7.0]]></title>
+            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.7.0/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.7.0/ember.min.js</a>]]></description>
+            <link>http://emberjs.com/</link>
+            <guid isPermaLink="false">ember.js1.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 15 Sep 2014 12:34:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-markdown updated to version 2.7.0]]></title>
             <description><![CDATA[A bootstrap plugin for markdown editing<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.7.0/js/bootstrap-markdown.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.7.0/js/bootstrap-markdown.js</a>]]></description>
@@ -241,14 +257,6 @@
             <guid isPermaLink="false">froala-editor1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Sep 2014 16:38:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ie8 updated to version 0.2.0]]></title>
-            <description><![CDATA[some damn DOM fix for this damned browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.0/ie8.js">//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.0/ie8.js</a>]]></description>
-            <link>https://github.com/WebReflection/ie8</link>
-            <guid isPermaLink="false">ie80.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Sep 2014 16:36:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone.marionette updated to version 2.2.0]]></title>
