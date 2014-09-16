@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Sep 2014 01:02:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Sep 2014 01:17:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.2]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.2/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.2/jsonld.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Sep 2014 01:03:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ie8 updated to version 0.2.2]]></title>
+            <description><![CDATA[some damn DOM fix for this damned browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.2/ie8.js">//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.2/ie8.js</a>]]></description>
+            <link>https://github.com/WebReflection/ie8</link>
+            <guid isPermaLink="false">ie80.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Sep 2014 01:02:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[uikit updated to version 2.10.0]]></title>
             <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.10.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.10.0/js/uikit.min.js</a>]]></description>
@@ -21,14 +37,6 @@
             <guid isPermaLink="false">uikit2.10.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 15 Sep 2014 16:17:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ie8 updated to version 0.2.1]]></title>
-            <description><![CDATA[some damn DOM fix for this damned browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.1/ie8.js">//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.1/ie8.js</a>]]></description>
-            <link>https://github.com/WebReflection/ie8</link>
-            <guid isPermaLink="false">ie80.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 15 Sep 2014 12:37:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember.js updated to version 1.7.0]]></title>
