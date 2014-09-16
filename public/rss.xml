@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Sep 2014 16:47:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Sep 2014 17:02:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[vis updated to version 3.5.0]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.5.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.5.0/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis3.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Sep 2014 16:37:48 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[textAngular updated to version 1.2.2]]></title>
             <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.2.2/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.2.2/textAngular.min.js</a>]]></description>
@@ -242,14 +250,6 @@
             <guid isPermaLink="false">AniJS0.7.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 13 Sep 2014 04:20:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vis updated to version 3.4.2]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.4.2/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.4.2/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis3.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Sep 2014 04:17:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cc-icons updated to version 1.2.0]]></title>
