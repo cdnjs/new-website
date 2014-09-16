@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Sep 2014 09:32:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Sep 2014 09:47:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -726,14 +726,6 @@
             <guid isPermaLink="false">libil0.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 02 Sep 2014 18:52:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ramda updated to version 0.4.3]]></title>
-            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.3/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.4.3/ramda.min.js</a>]]></description>
-            <link>https://www.github.com/CrossEye/ramda</link>
-            <guid isPermaLink="false">ramda0.4.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Sep 2014 09:45:06 GMT</pubDate>
         </item>
     </channel>
 </rss>
