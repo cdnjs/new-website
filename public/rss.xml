@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Sep 2014 05:32:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Sep 2014 05:47:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -717,22 +717,6 @@
             <guid isPermaLink="false">less.js1.7.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 03 Sep 2014 07:12:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highstock updated to version 2.0.4]]></title>
-            <description><![CDATA[Highstock lets you create stock or general timeline charts in pure JavaScript, including sophisticated navigation options like a small navigator series, preset date ranges, date picker, scrolling and panning. Highstock is NOT free for commercial use.  See the license here: http://shop.highsoft.com/highstock.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.4/highstock.js">//cdnjs.cloudflare.com/ajax/libs/highstock/2.0.4/highstock.js</a>]]></description>
-            <link>http://highcharts.com/</link>
-            <guid isPermaLink="false">highstock2.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Sep 2014 05:44:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highmaps updated to version 1.0.4]]></title>
-            <description><![CDATA[Highmaps is Highcharts for geo maps. Mainly choropleth maps where the color intensity relates to some value of a geographic area, but Highmaps also supports different features like lines (roads, rivers etc.) and points (cities, points of interest) and more. Highmaps comes in two flavors, either as a standalone JavaScript file, or as a plugin for Highcharts. Highmaps is NOT free for commercial use.  See the license and pricing here: http://shop.highsoft.com/highmaps.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highmaps/1.0.4/highmaps.js">//cdnjs.cloudflare.com/ajax/libs/highmaps/1.0.4/highmaps.js</a>]]></description>
-            <link>http://highcharts.com/</link>
-            <guid isPermaLink="false">highmaps1.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Sep 2014 05:43:22 GMT</pubDate>
         </item>
     </channel>
 </rss>
