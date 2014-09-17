@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Sep 2014 12:32:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Sep 2014 12:47:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -709,22 +709,6 @@
             <guid isPermaLink="false">insightjs1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 04 Sep 2014 19:08:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vega updated to version 1.4.2]]></title>
-            <description><![CDATA[Vega is a visualization grammar, a declarative format for creating, saving and sharing visualization designs. <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vega/1.4.2/vega.min.js">//cdnjs.cloudflare.com/ajax/libs/vega/1.4.2/vega.min.js</a>]]></description>
-            <link>http://trifacta.github.io/vega/</link>
-            <guid isPermaLink="false">vega1.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Sep 2014 12:31:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsoneditor updated to version 3.1.2]]></title>
-            <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/3.1.2/jsoneditor.min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/3.1.2/jsoneditor.min.js</a>]]></description>
-            <link>http://jsoneditoronline.org</link>
-            <guid isPermaLink="false">jsoneditor3.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Sep 2014 12:30:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
