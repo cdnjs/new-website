@@ -10,17 +10,41 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Sep 2014 07:16:05 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Sep 2014 07:32:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ramda updated to version 0.5.0]]></title>
+            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.5.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.5.0/ramda.min.js</a>]]></description>
+            <link>https://www.github.com/CrossEye/ramda</link>
+            <guid isPermaLink="false">ramda0.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Sep 2014 07:22:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ember-data.js updated to version 1.0.0-beta.8]]></title>
             <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.8/ember-data.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.8/ember-data.min.js</a>]]></description>
             <link>https://github.com/emberjs/data</link>
             <guid isPermaLink="false">ember-data.js1.0.0-beta.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 16 Sep 2014 20:39:19 GMT</pubDate>
+            <pubDate>Wed, 17 Sep 2014 07:19:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.2.14]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.14/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.14/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.2.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Sep 2014 07:18:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react updated to version 0.11.2]]></title>
+            <description><![CDATA[React is a JavaScript library for building user interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react/0.11.2/react.min.js">//cdnjs.cloudflare.com/ajax/libs/react/0.11.2/react.min.js</a>]]></description>
+            <link>http://facebook.github.io/react</link>
+            <guid isPermaLink="false">react0.11.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Sep 2014 07:18:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vis updated to version 3.5.0]]></title>
@@ -662,14 +686,6 @@
             <guid isPermaLink="false">moment.js2.8.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 05 Sep 2014 13:41:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cytoscape updated to version 2.2.13]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.13/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.13/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.2.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Sep 2014 06:46:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[knockback updated to version 0.20.0]]></title>
