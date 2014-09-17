@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Sep 2014 05:17:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Sep 2014 05:32:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -733,14 +733,6 @@
             <guid isPermaLink="false">highmaps1.0.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 03 Sep 2014 05:43:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highcharts updated to version 4.0.4]]></title>
-            <description><![CDATA[Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie and scatter chart types. Highcharts is NOT free for commercial use.  See the license here: http://highcharts.com/license<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.4/highcharts.js">//cdnjs.cloudflare.com/ajax/libs/highcharts/4.0.4/highcharts.js</a>]]></description>
-            <link>http://highcharts.com/</link>
-            <guid isPermaLink="false">highcharts4.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Sep 2014 05:29:30 GMT</pubDate>
         </item>
     </channel>
 </rss>
