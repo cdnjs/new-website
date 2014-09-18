@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 18 Sep 2014 19:02:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Sep 2014 19:17:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -701,22 +701,6 @@
             <guid isPermaLink="false">knockback0.20.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 05 Sep 2014 06:44:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment-timezone updated to version 0.2.2]]></title>
-            <description><![CDATA[Timezone plugin for Moment.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.2/moment-timezone.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.2/moment-timezone.min.js</a>]]></description>
-            <link>http://momentjs.com/timezone</link>
-            <guid isPermaLink="false">moment-timezone0.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Sep 2014 19:12:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[insightjs updated to version 1.1.0]]></title>
-            <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.1.0/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.1.0/insight.min.js</a>]]></description>
-            <link>https://github.com/scottlogic/insight</link>
-            <guid isPermaLink="false">insightjs1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Sep 2014 19:08:32 GMT</pubDate>
         </item>
     </channel>
 </rss>
