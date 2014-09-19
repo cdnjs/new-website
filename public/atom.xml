@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 19 Sep 2014 07:32:22 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Sep 2014 07:47:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[seedrandom updated to version 2.3.9]]></title>
+            <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.9/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.9/seedrandom.min.js</a>]]></description>
+            <link>https://github.com/davidbau/seedrandom</link>
+            <guid isPermaLink="false">seedrandom2.3.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 19 Sep 2014 07:05:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[document-register-element updated to version 0.1.2]]></title>
             <description><![CDATA[A stand-alone working lightweight version of the W3C Custom Elements specification<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.2/document-register-element.js">//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.2/document-register-element.js</a>]]></description>
