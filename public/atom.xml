@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 19 Sep 2014 06:32:15 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Sep 2014 06:47:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -694,13 +694,6 @@
             <guid isPermaLink="false">moment.js2.8.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 05 Sep 2014 13:41:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockback updated to version 0.20.0]]></title>
-            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.0/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.0/knockback.min.js</a>]]></description>
-            <guid isPermaLink="false">knockback0.20.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Sep 2014 06:44:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
