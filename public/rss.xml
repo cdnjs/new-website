@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 19 Sep 2014 11:47:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Sep 2014 12:02:30 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[primish updated to version 0.3.9]]></title>
+            <description><![CDATA[A portable Class implementation in javascript, forked from MooTools Prime and created for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/primish/0.3.9/primish-min.js">//cdnjs.cloudflare.com/ajax/libs/primish/0.3.9/primish-min.js</a>]]></description>
+            <guid isPermaLink="false">primish0.3.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 19 Sep 2014 11:58:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[velocity updated to version 1.1.0]]></title>
+            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js</a>]]></description>
+            <link>http://velocityjs.org</link>
+            <guid isPermaLink="false">velocity1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 19 Sep 2014 11:56:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[seedrandom updated to version 2.3.9]]></title>
             <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.9/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.9/seedrandom.min.js</a>]]></description>
@@ -414,14 +429,6 @@
             <description><![CDATA[Reveal CSS animation as you scroll down a page<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/wow/1.0.1/wow.min.js">//cdnjs.cloudflare.com/ajax/libs/wow/1.0.1/wow.min.js</a>]]></description>
             <link>http://mynameismatthieu.com/WOW/</link>
             <guid isPermaLink="false">wow1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[velocity updated to version 1.0.0]]></title>
-            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/1.0.0/velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/1.0.0/velocity.min.js</a>]]></description>
-            <link>http://velocityjs.org</link>
-            <guid isPermaLink="false">velocity1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
         </item>
