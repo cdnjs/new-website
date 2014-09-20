@@ -10,10 +10,74 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 20 Sep 2014 03:17:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Sep 2014 03:32:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[codemirror updated to version 4.6.0]]></title>
+            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.6.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.6.0/codemirror.min.js</a>]]></description>
+            <link>http://codemirror.net</link>
+            <guid isPermaLink="false">codemirror4.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Sep 2014 03:18:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jplayer updated to version 2.7.1]]></title>
+            <description><![CDATA[The jQuery HTML5 Audio / Video Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.7.1/jquery.jplayer/jquery.jplayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jplayer/2.7.1/jquery.jplayer/jquery.jplayer.min.js</a>]]></description>
+            <link>http://www.jplayer.org/</link>
+            <guid isPermaLink="false">jplayer2.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Sep 2014 03:14:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nanogallery updated to version 5.1.1]]></title>
+            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.1.1/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.1.1/jquery.nanogallery.min.js</a>]]></description>
+            <link>http://nanogallery.brisbois.fr/</link>
+            <guid isPermaLink="false">nanogallery5.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Sep 2014 03:13:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[localStorage updated to version 2.0.1]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.1/localStorage.min.js">//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.1/localStorage.min.js</a>]]></description>
+            <link>https://github.com/mortzdk/localStorage</link>
+            <guid isPermaLink="false">localStorage2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Sep 2014 03:12:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.3.7]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.7/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.7/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.3.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Sep 2014 03:12:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[insightjs updated to version 1.1.1]]></title>
+            <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.1.1/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.1.1/insight.min.js</a>]]></description>
+            <link>https://github.com/scottlogic/insight</link>
+            <guid isPermaLink="false">insightjs1.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Sep 2014 03:10:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[speakingurl updated to version 0.12.1]]></title>
+            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.1/speakingurl.min.js</a>]]></description>
+            <link>http://pid.github.io/speakingurl/</link>
+            <guid isPermaLink="false">speakingurl0.12.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Sep 2014 03:10:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.3.1]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.1/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.1/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Sep 2014 03:09:44 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[primish updated to version 0.3.9]]></title>
             <description><![CDATA[A portable Class implementation in javascript, forked from MooTools Prime and created for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/primish/0.3.9/primish-min.js">//cdnjs.cloudflare.com/ajax/libs/primish/0.3.9/primish-min.js</a>]]></description>
@@ -54,28 +118,12 @@
             <pubDate>Wed, 17 Sep 2014 14:48:45 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[nanogallery updated to version 5.1.0]]></title>
-            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.1.0/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.1.0/jquery.nanogallery.min.js</a>]]></description>
-            <link>http://nanogallery.brisbois.fr/</link>
-            <guid isPermaLink="false">nanogallery5.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 17 Sep 2014 13:33:45 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ramda updated to version 0.5.0]]></title>
             <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.5.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.5.0/ramda.min.js</a>]]></description>
             <link>https://www.github.com/CrossEye/ramda</link>
             <guid isPermaLink="false">ramda0.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 17 Sep 2014 07:22:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cytoscape updated to version 2.2.14]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.14/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.2.14/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.2.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 17 Sep 2014 07:18:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[react updated to version 0.11.2]]></title>
@@ -315,14 +363,6 @@
             <pubDate>Sat, 13 Sep 2014 04:27:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[speakingurl updated to version 0.12.0]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.0/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.12.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Sep 2014 04:21:29 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[AniJS updated to version 0.7.2]]></title>
             <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.2/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.2/anijs-min.js</a>]]></description>
             <link>http://anijs.github.io/</link>
@@ -360,14 +400,6 @@
             <guid isPermaLink="false">mathjs1.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 12 Sep 2014 09:45:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.3.6]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.6/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.6/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.3.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Sep 2014 09:45:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone.collectionView updated to version 0.11.3]]></title>
@@ -472,14 +504,6 @@
             <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[localStorage updated to version 2.0.0]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.0/localStorage.min.js">//cdnjs.cloudflare.com/ajax/libs/localStorage/2.0.0/localStorage.min.js</a>]]></description>
-            <link>https://github.com/mortzdk/localStorage</link>
-            <guid isPermaLink="false">localStorage2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[list.pagination.js updated to version 0.1.1]]></title>
             <description><![CDATA[A pagination plugin for List.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.min.js">//cdnjs.cloudflare.com/ajax/libs/list.pagination.js/0.1.1/list.pagination.min.js</a>]]></description>
             <link>http://listjs.com/docs/plugins/fuzzysearch</link>
@@ -500,14 +524,6 @@
             <description><![CDATA[The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js</a>]]></description>
             <link>http://bootstrapvalidator.com</link>
             <guid isPermaLink="false">jquery.bootstrapvalidator0.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jplayer updated to version 2.7.0]]></title>
-            <description><![CDATA[The jQuery HTML5 Audio / Video Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.7.0/jquery.jplayer/jquery.jplayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jplayer/2.7.0/jquery.jplayer/jquery.jplayer.min.js</a>]]></description>
-            <link>http://www.jplayer.org/</link>
-            <guid isPermaLink="false">jplayer2.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 10 Sep 2014 07:11:29 GMT</pubDate>
         </item>
