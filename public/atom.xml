@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 21 Sep 2014 07:47:15 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Sep 2014 08:02:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -345,6 +345,14 @@
             <guid isPermaLink="false">blueimp-md51.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 13 Sep 2014 16:23:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[stacktrace.js updated to version 0.6.2]]></title>
+            <description><![CDATA[Framework-agnostic, micro-library for getting stack traces in all environments<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/stacktrace.js/0.6.2/stacktrace.min.js">//cdnjs.cloudflare.com/ajax/libs/stacktrace.js/0.6.2/stacktrace.min.js</a>]]></description>
+            <link>http://stacktracejs.com</link>
+            <guid isPermaLink="false">stacktrace.js0.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Sep 2014 11:50:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-ui-sortable updated to version 0.12.11]]></title>
