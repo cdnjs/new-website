@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 21 Sep 2014 10:17:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Sep 2014 10:32:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[highlight.js updated to version 8.2]]></title>
+            <description><![CDATA[Easy-to-use, Javascript-based syntax highlighter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js">//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js</a>]]></description>
+            <link>http://highlightjs.org</link>
+            <guid isPermaLink="false">highlight.js8.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 21 Sep 2014 09:59:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[backbone.babysitter updated to version 0.1.4]]></title>
             <description><![CDATA[Manage child views in a Backbone.View<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.4/backbone.babysitter.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.4/backbone.babysitter.min.js</a>]]></description>
