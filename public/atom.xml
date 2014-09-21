@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 21 Sep 2014 06:17:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Sep 2014 06:32:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[backbone.babysitter updated to version 0.1.4]]></title>
+            <description><![CDATA[Manage child views in a Backbone.View<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.4/backbone.babysitter.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.4/backbone.babysitter.min.js</a>]]></description>
+            <link>https://github.com/marionettejs/backbone.babysitter</link>
+            <guid isPermaLink="false">backbone.babysitter0.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 21 Sep 2014 06:14:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[seedrandom updated to version 2.3.10]]></title>
+            <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.10/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.10/seedrandom.min.js</a>]]></description>
+            <link>https://github.com/davidbau/seedrandom</link>
+            <guid isPermaLink="false">seedrandom2.3.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 21 Sep 2014 06:12:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ng-dialog updated to version 0.3.0]]></title>
             <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.0/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.0/js/ngDialog.min.js</a>]]></description>
@@ -100,14 +116,6 @@
             <guid isPermaLink="false">velocity1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 19 Sep 2014 11:56:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[seedrandom updated to version 2.3.9]]></title>
-            <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.9/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.9/seedrandom.min.js</a>]]></description>
-            <link>https://github.com/davidbau/seedrandom</link>
-            <guid isPermaLink="false">seedrandom2.3.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 19 Sep 2014 07:05:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[document-register-element updated to version 0.1.2]]></title>
