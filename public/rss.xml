@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 Sep 2014 16:47:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Sep 2014 17:02:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -740,22 +740,6 @@
             <guid isPermaLink="false">underscore.js1.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 08 Sep 2014 17:13:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chroma-js updated to version 0.5.9]]></title>
-            <description><![CDATA[JavaScript library for color conversions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.9/chroma.min.js">//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.9/chroma.min.js</a>]]></description>
-            <link>https://github.com/gka/chroma.js</link>
-            <guid isPermaLink="false">chroma-js0.5.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 08 Sep 2014 16:26:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pouchdb updated to version 3.0.5]]></title>
-            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.5/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.0.5/pouchdb.min.js</a>]]></description>
-            <link>http://pouchdb.com/</link>
-            <guid isPermaLink="false">pouchdb3.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 08 Sep 2014 16:25:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
