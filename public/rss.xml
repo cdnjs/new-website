@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 Sep 2014 10:47:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Sep 2014 11:02:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[eddy updated to version 0.6.1]]></title>
+            <description><![CDATA[Event Driven JS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/eddy/0.6.1/eddy.dom.js">//cdnjs.cloudflare.com/ajax/libs/eddy/0.6.1/eddy.dom.js</a>]]></description>
+            <link>https://github.com/WebReflection/eddy</link>
+            <guid isPermaLink="false">eddy0.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 22 Sep 2014 10:57:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[backbone.collectionView updated to version 0.11.4]]></title>
             <description><![CDATA[Easily render backbone.js collections with support for automatic selection of models in response to clicks, reordering models via drag and drop, and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.collectionView/0.11.4/backbone.collectionView.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.collectionView/0.11.4/backbone.collectionView.min.js</a>]]></description>
