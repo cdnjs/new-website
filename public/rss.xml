@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 22 Sep 2014 10:32:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Sep 2014 10:47:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -257,6 +257,14 @@
             <guid isPermaLink="false">ie80.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 16 Sep 2014 01:02:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[KaTeX(0.1.0) was added]]></title>
+            <description><![CDATA[KaTeX is a fast, easy-to-use JavaScript library for TeX math rendering on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.0/katex.min.js">//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.0/katex.min.js</a>]]></description>
+            <link>https://khan.github.io/KaTeX/</link>
+            <guid isPermaLink="false">KaTeX0.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 15 Sep 2014 23:17:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[uikit updated to version 2.10.0]]></title>
