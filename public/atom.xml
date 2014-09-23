@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Sep 2014 17:32:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Sep 2014 17:47:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -574,14 +574,6 @@
             <guid isPermaLink="false">jszip2.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Sep 2014 02:08:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[globalize updated to version 0.1.1]]></title>
-            <description><![CDATA[New age globalization and localization. Formats and parses strings, dates and numbers in over 350 cultures.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/globalize/0.1.1/globalize.min.js">//cdnjs.cloudflare.com/ajax/libs/globalize/0.1.1/globalize.min.js</a>]]></description>
-            <link>https://github.com/jquery/globalize</link>
-            <guid isPermaLink="false">globalize0.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Sep 2014 07:18:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
