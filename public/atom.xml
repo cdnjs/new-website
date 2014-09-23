@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 23 Sep 2014 01:17:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Sep 2014 01:32:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[speakingurl updated to version 0.12.3]]></title>
+            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.3/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.3/speakingurl.min.js</a>]]></description>
+            <link>http://pid.github.io/speakingurl/</link>
+            <guid isPermaLink="false">speakingurl0.12.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 23 Sep 2014 01:17:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[string.js updated to version 2.1.0]]></title>
+            <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/2.1.0/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/2.1.0/string.min.js</a>]]></description>
+            <link>http://stringjs.com</link>
+            <guid isPermaLink="false">string.js2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 23 Sep 2014 01:16:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[eddy updated to version 0.6.1]]></title>
             <description><![CDATA[Event Driven JS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/eddy/0.6.1/eddy.dom.js">//cdnjs.cloudflare.com/ajax/libs/eddy/0.6.1/eddy.dom.js</a>]]></description>
@@ -131,14 +147,6 @@
             <guid isPermaLink="false">insightjs1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 20 Sep 2014 03:10:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[speakingurl updated to version 0.12.1]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.1/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.12.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Sep 2014 03:10:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.3.1]]></title>
@@ -716,14 +724,6 @@
             <guid isPermaLink="false">elasticsearch2.4.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 09 Sep 2014 16:06:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[string.js updated to version 2.0.1]]></title>
-            <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/2.0.1/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/2.0.1/string.min.js</a>]]></description>
-            <link>http://stringjs.com</link>
-            <guid isPermaLink="false">string.js2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 09 Sep 2014 16:06:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[tinymce updated to version 4.1.5]]></title>
