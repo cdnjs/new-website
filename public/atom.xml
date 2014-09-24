@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Sep 2014 14:02:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2014 14:17:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[modernizr updated to version 2.8.3]]></title>
+            <description><![CDATA[Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user's browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js</a>]]></description>
+            <link>http://www.modernizr.com/</link>
+            <guid isPermaLink="false">modernizr2.8.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 14:00:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[list.js updated to version 1.1.1]]></title>
             <description><![CDATA[The perfect library for adding search, sort, filters & flexibility to tables, lists, or anything<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js">//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js</a>]]></description>
