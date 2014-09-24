@@ -10,10 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Sep 2014 05:02:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2014 05:17:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[backbone.babysitter updated to version 0.1.5]]></title>
+            <description><![CDATA[Manage child views in a Backbone.View<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.5/backbone.babysitter.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.5/backbone.babysitter.min.js</a>]]></description>
+            <link>https://github.com/marionettejs/backbone.babysitter</link>
+            <guid isPermaLink="false">backbone.babysitter0.1.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 05:02:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.10]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.10/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.10/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 05:01:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[crel updated to version 2.1.5]]></title>
+            <description><![CDATA[A small, simple, and fast DOM creation utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crel/2.1.5/crel.min.js">//cdnjs.cloudflare.com/ajax/libs/crel/2.1.5/crel.min.js</a>]]></description>
+            <guid isPermaLink="false">crel2.1.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 05:01:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[insightjs updated to version 1.1.1-Hotfix]]></title>
             <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.1.1-Hotfix/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.1.1-Hotfix/insight.min.js</a>]]></description>
@@ -131,14 +154,6 @@
             <guid isPermaLink="false">highlight.js8.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 21 Sep 2014 09:59:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.babysitter updated to version 0.1.4]]></title>
-            <description><![CDATA[Manage child views in a Backbone.View<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.4/backbone.babysitter.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.4/backbone.babysitter.min.js</a>]]></description>
-            <link>https://github.com/marionettejs/backbone.babysitter</link>
-            <guid isPermaLink="false">backbone.babysitter0.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 21 Sep 2014 06:14:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[seedrandom updated to version 2.3.10]]></title>
@@ -519,13 +534,6 @@
             <guid isPermaLink="false">cc-icons1.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 13 Sep 2014 04:16:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[crel updated to version 2.1.1]]></title>
-            <description><![CDATA[A small, simple, and fast DOM creation utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crel/2.1.1/crel.min.js">//cdnjs.cloudflare.com/ajax/libs/crel/2.1.1/crel.min.js</a>]]></description>
-            <guid isPermaLink="false">crel2.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Sep 2014 09:47:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[fuse.js updated to version 1.2.0]]></title>
