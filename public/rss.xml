@@ -10,10 +10,54 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Sep 2014 13:32:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2014 13:47:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fs-extra updated to version 0.12.0]]></title>
+            <description><![CDATA[fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fs-extra/0.12.0/undefined">//cdnjs.cloudflare.com/ajax/libs/fs-extra/0.12.0/undefined</a>]]></description>
+            <link>https://github.com/jprichardson/node-fs-extra</link>
+            <guid isPermaLink="false">fs-extra0.12.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:00:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rimraf updated to version 2.2.8]]></title>
+            <description><![CDATA[A deep deletion module for node (like `rm -rf`)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rimraf/2.2.8/undefined">//cdnjs.cloudflare.com/ajax/libs/rimraf/2.2.8/undefined</a>]]></description>
+            <guid isPermaLink="false">rimraf2.2.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:00:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ncp updated to version 0.6.0]]></title>
+            <description><![CDATA[Asynchronous recursive file copy utility.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ncp/0.6.0/undefined">//cdnjs.cloudflare.com/ajax/libs/ncp/0.6.0/undefined</a>]]></description>
+            <guid isPermaLink="false">ncp0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:00:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mkdirp updated to version 0.5.0]]></title>
+            <description><![CDATA[Recursively mkdir, like `mkdir -p`<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mkdirp/0.5.0/undefined">//cdnjs.cloudflare.com/ajax/libs/mkdirp/0.5.0/undefined</a>]]></description>
+            <guid isPermaLink="false">mkdirp0.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:00:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[minimist updated to version 0.0.8]]></title>
+            <description><![CDATA[parse argument options<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minimist/0.0.8/undefined">//cdnjs.cloudflare.com/ajax/libs/minimist/0.0.8/undefined</a>]]></description>
+            <link>https://github.com/substack/minimist</link>
+            <guid isPermaLink="false">minimist0.0.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:00:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonfile updated to version 2.0.0]]></title>
+            <description><![CDATA[Easily read/write JSON files.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonfile/2.0.0/undefined">//cdnjs.cloudflare.com/ajax/libs/jsonfile/2.0.0/undefined</a>]]></description>
+            <guid isPermaLink="false">jsonfile2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:00:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[backbone.babysitter updated to version 0.1.5]]></title>
             <description><![CDATA[Manage child views in a Backbone.View<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.5/backbone.babysitter.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.5/backbone.babysitter.min.js</a>]]></description>
