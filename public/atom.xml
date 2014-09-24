@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Sep 2014 13:47:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Sep 2014 14:02:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[list.js updated to version 1.1.1]]></title>
+            <description><![CDATA[The perfect library for adding search, sort, filters & flexibility to tables, lists, or anything<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js">//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js</a>]]></description>
+            <link>http://listjs.com</link>
+            <guid isPermaLink="false">list.js1.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:53:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jszip updated to version 2.4.0]]></title>
+            <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js</a>]]></description>
+            <link>http://stuk.github.io/jszip/</link>
+            <guid isPermaLink="false">jszip2.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:53:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-table updated to version 1.2.3]]></title>
+            <description><![CDATA[Bootstrap table displays data in a tabular format and offers rich support to radio, checkbox, sort, pagination and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.2.3/bootstrap-table.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.2.3/bootstrap-table.min.js</a>]]></description>
+            <link>http://wenzhixin.net.cn/p/bootstrap-table/</link>
+            <guid isPermaLink="false">bootstrap-table1.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:52:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[beepjs(0.0.1) was added]]></title>
+            <description><![CDATA[Makes browser beep.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/beepjs/0.0.1/beep.min.js">//cdnjs.cloudflare.com/ajax/libs/beepjs/0.0.1/beep.min.js</a>]]></description>
+            <link>https://github.com/luciferous/beepjs</link>
+            <guid isPermaLink="false">beepjs0.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 13:50:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[fs-extra updated to version 0.12.0]]></title>
             <description><![CDATA[fs-extra contains methods that aren't included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fs-extra/0.12.0/undefined">//cdnjs.cloudflare.com/ajax/libs/fs-extra/0.12.0/undefined</a>]]></description>
@@ -556,14 +588,6 @@
             <pubDate>Sat, 13 Sep 2014 07:35:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bootstrap-table updated to version 1.2.3]]></title>
-            <description><![CDATA[Bootstrap table displays data in a tabular format and offers rich support to radio, checkbox, sort, pagination and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.2.3/bootstrap-table.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.2.3/bootstrap-table.min.js</a>]]></description>
-            <link>http://wenzhixin.net.cn/p/bootstrap-table/</link>
-            <guid isPermaLink="false">bootstrap-table1.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Sep 2014 04:27:31 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[AniJS updated to version 0.7.2]]></title>
             <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.2/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.2/anijs-min.js</a>]]></description>
             <link>http://anijs.github.io/</link>
@@ -618,14 +642,6 @@
             <guid isPermaLink="false">jstree3.0.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Sep 2014 02:09:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jszip updated to version 2.4.0]]></title>
-            <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js</a>]]></description>
-            <link>http://stuk.github.io/jszip/</link>
-            <guid isPermaLink="false">jszip2.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Sep 2014 02:08:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
