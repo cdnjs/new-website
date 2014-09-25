@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Sep 2014 10:02:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Sep 2014 10:17:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.bootstrapvalidator updated to version 0.5.2]]></title>
+            <description><![CDATA[The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js</a>]]></description>
+            <link>http://bootstrapvalidator.com</link>
+            <guid isPermaLink="false">jquery.bootstrapvalidator0.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 25 Sep 2014 10:01:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[wow updated to version 1.0.2]]></title>
+            <description><![CDATA[Reveal CSS animation as you scroll down a page<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/wow/1.0.2/wow.min.js">//cdnjs.cloudflare.com/ajax/libs/wow/1.0.2/wow.min.js</a>]]></description>
+            <link>http://mynameismatthieu.com/WOW/</link>
+            <guid isPermaLink="false">wow1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 25 Sep 2014 10:01:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[elasticsearch updated to version 2.4.3]]></title>
+            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.4.3/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.4.3/elasticsearch.js</a>]]></description>
+            <link>https://github.com/elasticsearch/elasticsearch-js</link>
+            <guid isPermaLink="false">elasticsearch2.4.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 25 Sep 2014 09:31:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[crossfilter updated to version 1.3.10]]></title>
+            <description><![CDATA[Fast multidimensional filtering for coordinated views.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.10/crossfilter.min.js">//cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.10/crossfilter.min.js</a>]]></description>
+            <link>http://square.github.com/crossfilter/</link>
+            <guid isPermaLink="false">crossfilter1.3.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 25 Sep 2014 09:30:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.11]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.11/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.11/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 25 Sep 2014 09:26:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery-searcher(0.2.0) was added]]></title>
             <description><![CDATA[Connects any list-like data with an input for searching.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-searcher/0.2.0/jquery.searcher.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-searcher/0.2.0/jquery.searcher.min.js</a>]]></description>
@@ -121,14 +161,6 @@
             <guid isPermaLink="false">backbone.babysitter0.1.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 24 Sep 2014 05:02:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.3.10]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.10/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.10/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Sep 2014 05:01:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[crel updated to version 2.1.5]]></title>
