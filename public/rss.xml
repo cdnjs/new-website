@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Sep 2014 02:17:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Sep 2014 02:32:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -642,14 +642,6 @@
             <guid isPermaLink="false">froala-editor1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Sep 2014 16:38:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jstree updated to version 3.0.4]]></title>
-            <description><![CDATA[jQuery tree plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.4/jstree.min.js">//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.4/jstree.min.js</a>]]></description>
-            <link>http://jstree.com</link>
-            <guid isPermaLink="false">jstree3.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Sep 2014 02:09:30 GMT</pubDate>
         </item>
     </channel>
 </rss>
