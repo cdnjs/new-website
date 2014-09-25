@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Sep 2014 12:17:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Sep 2014 12:32:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[dom4 updated to version 1.0.1]]></title>
+            <description><![CDATA[a fully tested and covered polyfill for new DOM Level 4 entries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dom4/1.0.1/dom4.js">//cdnjs.cloudflare.com/ajax/libs/dom4/1.0.1/dom4.js</a>]]></description>
+            <link>https://github.com/WebReflection/dom4</link>
+            <guid isPermaLink="false">dom41.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 25 Sep 2014 12:25:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.bootstrapvalidator updated to version 0.5.2]]></title>
             <description><![CDATA[The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js</a>]]></description>
@@ -61,14 +69,6 @@
             <guid isPermaLink="false">jquery-searcher0.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 24 Sep 2014 21:53:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dom4(1.0.1) was added]]></title>
-            <description><![CDATA[a fully tested and covered polyfill for new DOM Level 4 entries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dom4/1.0.1/dom4.js">//cdnjs.cloudflare.com/ajax/libs/dom4/1.0.1/dom4.js</a>]]></description>
-            <link>https://github.com/WebReflection/dom4</link>
-            <guid isPermaLink="false">dom41.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Sep 2014 19:47:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[modernizr updated to version 2.8.3]]></title>
