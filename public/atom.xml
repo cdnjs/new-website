@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Sep 2014 09:17:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Sep 2014 09:32:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.3.8]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.8/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.8/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.3.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 26 Sep 2014 07:21:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[speakingurl updated to version 0.12.4]]></title>
             <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.4/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.4/speakingurl.min.js</a>]]></description>
@@ -176,6 +184,14 @@
             <guid isPermaLink="false">crel2.1.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 24 Sep 2014 05:01:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[userinfo(1.0.0) was added]]></title>
+            <description><![CDATA[Userinfo is a wrapper for the userinfo.io API which helps you get the IP address and geolocation information on your users.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/userinfo/1.0.0/userinfo.min.js">//cdnjs.cloudflare.com/ajax/libs/userinfo/1.0.0/userinfo.min.js</a>]]></description>
+            <link>https://github.com/vdurmont/userinfo-js</link>
+            <guid isPermaLink="false">userinfo1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Sep 2014 03:43:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[kibo(1.1.0) was added]]></title>
@@ -350,14 +366,6 @@
             <guid isPermaLink="false">localStorage2.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 20 Sep 2014 03:12:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.3.7]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.7/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.7/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.3.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Sep 2014 03:12:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.3.1]]></title>
