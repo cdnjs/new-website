@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Sep 2014 16:32:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Sep 2014 16:47:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fatcow-icons updated to version 20130425]]></title>
+            <description><![CDATA[3500 Free "Farm-Fresh Web Icons" by FatCow Web Hosting<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fatcow-icons/20130425/FatCow.com_3500.png">//cdnjs.cloudflare.com/ajax/libs/fatcow-icons/20130425/FatCow.com_3500.png</a>]]></description>
+            <link>http://www.fatcow.com/free-icons</link>
+            <guid isPermaLink="false">fatcow-icons20130425</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 26 Sep 2014 16:43:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[foundation-essential updated to version 5.4.5]]></title>
+            <description><![CDATA[Slimmed-down build of ZURB Foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.4.5/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.4.5/js/foundation.min.js</a>]]></description>
+            <link>http://foundation.zurb.com</link>
+            <guid isPermaLink="false">foundation-essential5.4.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 26 Sep 2014 16:42:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[foundation updated to version 5.4.5]]></title>
+            <description><![CDATA[The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites and apps that work on any kind of device.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.5/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.5/js/foundation.min.js</a>]]></description>
+            <link>http://foundation.zurb.com</link>
+            <guid isPermaLink="false">foundation5.4.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 26 Sep 2014 16:40:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cutjs updated to version 0.2.1]]></title>
+            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.2.1/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.2.1/cut.web.min.js</a>]]></description>
+            <link>http://cutjs.org/</link>
+            <guid isPermaLink="false">cutjs0.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 26 Sep 2014 16:35:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.3.8]]></title>
             <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.8/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.8/p5.min.js</a>]]></description>
