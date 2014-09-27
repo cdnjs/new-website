@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Sep 2014 04:17:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Sep 2014 04:32:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -698,22 +698,6 @@
             <guid isPermaLink="false">autosize.js1.18.12</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 13 Sep 2014 07:35:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AniJS updated to version 0.7.2]]></title>
-            <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.2/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.7.2/anijs-min.js</a>]]></description>
-            <link>http://anijs.github.io/</link>
-            <guid isPermaLink="false">AniJS0.7.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Sep 2014 04:20:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cc-icons updated to version 1.2.0]]></title>
-            <description><![CDATA[Creative Commons Web Font.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.0/css/cc-icons.min.css">//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.0/css/cc-icons.min.css</a>]]></description>
-            <link>http://cc-icons.github.io/</link>
-            <guid isPermaLink="false">cc-icons1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Sep 2014 04:16:08 GMT</pubDate>
         </item>
     </channel>
 </rss>
