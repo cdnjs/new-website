@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Sep 2014 16:17:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Sep 2014 16:32:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -666,14 +666,6 @@
             <guid isPermaLink="false">jxon1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 14 Sep 2014 08:24:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[blueimp-md5 updated to version 1.0.1]]></title>
-            <description><![CDATA[JavaScript MD5 implementation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/blueimp-md5/1.0.1/js/md5.min.js">//cdnjs.cloudflare.com/ajax/libs/blueimp-md5/1.0.1/js/md5.min.js</a>]]></description>
-            <link>https://github.com/blueimp/JavaScript-MD5</link>
-            <guid isPermaLink="false">blueimp-md51.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Sep 2014 16:23:07 GMT</pubDate>
         </item>
     </channel>
 </rss>
