@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Sep 2014 17:02:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Sep 2014 17:17:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.gridster updated to version 0.5.6]]></title>
+            <description><![CDATA[a drag-and-drop multi-column jQuery grid plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.min.js</a>]]></description>
+            <link>http://gridster.net/</link>
+            <guid isPermaLink="false">jquery.gridster0.5.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Sep 2014 17:06:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[speakingurl updated to version 0.13.0]]></title>
+            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.13.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.13.0/speakingurl.min.js</a>]]></description>
+            <link>http://pid.github.io/speakingurl/</link>
+            <guid isPermaLink="false">speakingurl0.13.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Sep 2014 17:00:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[skrollr updated to version 0.6.27]]></title>
+            <description><![CDATA[Stand-alone parallax scrolling library for mobile (Android + iOS) and desktop. No jQuery. Just plain JavaScript (and some love).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.27/skrollr.min.js">//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.27/skrollr.min.js</a>]]></description>
+            <link>http://prinzhorn.github.io/skrollr/</link>
+            <guid isPermaLink="false">skrollr0.6.27</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Sep 2014 16:56:15 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ink updated to version 3.1.0]]></title>
             <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.1.0/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.1.0/js/ink-all.min.js</a>]]></description>
@@ -117,14 +141,6 @@
             <guid isPermaLink="false">p5.js0.3.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 26 Sep 2014 07:21:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[speakingurl updated to version 0.12.4]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.4/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.12.4/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.12.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 25 Sep 2014 16:47:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dom4 updated to version 1.0.1]]></title>
@@ -628,14 +644,6 @@
             <guid isPermaLink="false">ng-tags-input2.1.1-1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 15 Sep 2014 07:30:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.tocify updated to version 1.9.0]]></title>
-            <description><![CDATA[A jQuery plugin that dynamically generates a table of contents<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js</a>]]></description>
-            <link>http://gregfranko.com/jquery.tocify.js/</link>
-            <guid isPermaLink="false">jquery.tocify1.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Sep 2014 16:49:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[aurora.js-aac(0.1.0) was added]]></title>
