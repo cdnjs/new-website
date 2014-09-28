@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Sep 2014 05:32:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Sep 2014 05:47:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[analytics.js updated to version 2.3.27]]></title>
+            <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.3.27/analytics.min.js">//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.3.27/analytics.min.js</a>]]></description>
+            <link>https://segment.io/docs/libraries/analytics.js/</link>
+            <guid isPermaLink="false">analytics.js2.3.27</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Sep 2014 05:30:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.22]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.22/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.22/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.22</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Sep 2014 05:27:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.2]]></title>
+            <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.2/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.2/perfect-scrollbar.min.js</a>]]></description>
+            <link>http://www.yuiazu.net/perfect-scrollbar/</link>
+            <guid isPermaLink="false">jquery.perfect-scrollbar0.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Sep 2014 05:27:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[rivets(0.6.10) was added]]></title>
             <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.6.10/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.6.10/rivets.min.js</a>]]></description>
@@ -288,14 +312,6 @@
             <guid isPermaLink="false">16pixels0.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 23 Sep 2014 03:06:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.1]]></title>
-            <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.1/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.1/perfect-scrollbar.min.js</a>]]></description>
-            <link>http://www.yuiazu.net/perfect-scrollbar/</link>
-            <guid isPermaLink="false">jquery.perfect-scrollbar0.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 23 Sep 2014 03:01:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-scrolldepth updated to version 0.6]]></title>
