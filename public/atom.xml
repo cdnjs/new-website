@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Sep 2014 05:02:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Sep 2014 05:17:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[rivets(0.6.10) was added]]></title>
+            <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.6.10/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.6.10/rivets.min.js</a>]]></description>
+            <link>http://rivetsjs.com</link>
+            <guid isPermaLink="false">rivets0.6.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Sep 2014 03:37:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jsforce updated to version 1.3.1]]></title>
             <description><![CDATA[Salesforce API Library for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.3.1/jsforce.min.js">//cdnjs.cloudflare.com/ajax/libs/jsforce/1.3.1/jsforce.min.js</a>]]></description>
