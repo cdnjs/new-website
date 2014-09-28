@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Sep 2014 09:02:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Sep 2014 09:17:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -675,14 +675,6 @@
             <guid isPermaLink="false">selectize.js0.11.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 14 Sep 2014 09:27:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fastclick updated to version 1.0.3]]></title>
-            <description><![CDATA[Polyfill to remove click delays on browsers with touch UIs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js">//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js</a>]]></description>
-            <link>https://github.com/ftlabs/fastclick</link>
-            <guid isPermaLink="false">fastclick1.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Sep 2014 09:12:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
