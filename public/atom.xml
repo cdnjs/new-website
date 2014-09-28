@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Sep 2014 18:47:17 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Sep 2014 19:02:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -644,45 +644,6 @@
             <guid isPermaLink="false">ng-tags-input2.1.1-1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 15 Sep 2014 07:30:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[aurora.js-aac(0.1.0) was added]]></title>
-            <description><![CDATA[An AAC decoder for Aurora.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/aurora.js-aac/0.1.0/aac.min.js">//cdnjs.cloudflare.com/ajax/libs/aurora.js-aac/0.1.0/aac.min.js</a>]]></description>
-            <link>https://github.com/audiocogs/aac.js</link>
-            <guid isPermaLink="false">aurora.js-aac0.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Sep 2014 15:39:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[aurora.js-alac(0.1.0) was added]]></title>
-            <description><![CDATA[An Apple Lossless decoder for Aurora.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/aurora.js-alac/0.1.0/alac.min.js">//cdnjs.cloudflare.com/ajax/libs/aurora.js-alac/0.1.0/alac.min.js</a>]]></description>
-            <link>https://github.com/audiocogs/alac.js</link>
-            <guid isPermaLink="false">aurora.js-alac0.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Sep 2014 15:39:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[aurora.js-flac(0.2.1) was added]]></title>
-            <description><![CDATA[A FLAC decoder for Aurora.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/aurora.js-flac/0.2.1/flac.min.js">//cdnjs.cloudflare.com/ajax/libs/aurora.js-flac/0.2.1/flac.min.js</a>]]></description>
-            <link>https://github.com/audiocogs/flac.js</link>
-            <guid isPermaLink="false">aurora.js-flac0.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Sep 2014 15:38:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[aurora.js-mp3(0.1.0) was added]]></title>
-            <description><![CDATA[An MP3 decoder for Aurora.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/aurora.js-mp3/0.1.0/mp3.min.js">//cdnjs.cloudflare.com/ajax/libs/aurora.js-mp3/0.1.0/mp3.min.js</a>]]></description>
-            <link>https://github.com/audiocogs/mp3.js</link>
-            <guid isPermaLink="false">aurora.js-mp30.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Sep 2014 15:38:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[aurora.js(0.4.2) was added]]></title>
-            <description><![CDATA[Audio decoding framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/aurora.js/0.4.2/aurora.min.js">//cdnjs.cloudflare.com/ajax/libs/aurora.js/0.4.2/aurora.min.js</a>]]></description>
-            <guid isPermaLink="false">aurora.js0.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Sep 2014 15:38:08 GMT</pubDate>
         </item>
     </channel>
 </rss>
