@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Sep 2014 01:47:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Sep 2014 02:02:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[yui updated to version 3.18.0]]></title>
+            <description><![CDATA[The YUI Library is a set of utilities and controls, written with JavaScript and CSS, for building richly interactive web applications using techniques such as DOM scripting, DHTML and AJAX.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yui/3.18.0/yui/yui-min.js">//cdnjs.cloudflare.com/ajax/libs/yui/3.18.0/yui/yui-min.js</a>]]></description>
+            <link>http://yuilibrary.com/</link>
+            <guid isPermaLink="false">yui3.18.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 30 Sep 2014 01:55:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chai updated to version 1.9.2]]></title>
+            <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chai/1.9.2/chai.js">//cdnjs.cloudflare.com/ajax/libs/chai/1.9.2/chai.js</a>]]></description>
+            <link>http://chaijs.com</link>
+            <guid isPermaLink="false">chai1.9.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 30 Sep 2014 01:26:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[speakingurl updated to version 0.13.1]]></title>
             <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.13.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.13.1/speakingurl.min.js</a>]]></description>
