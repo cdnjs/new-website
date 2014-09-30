@@ -10,10 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Sep 2014 08:02:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Sep 2014 08:17:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[knockback updated to version 0.20.3]]></title>
+            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.3/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.3/knockback.min.js</a>]]></description>
+            <guid isPermaLink="false">knockback0.20.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 30 Sep 2014 08:01:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[yui updated to version 3.18.0]]></title>
             <description><![CDATA[The YUI Library is a set of utilities and controls, written with JavaScript and CSS, for building richly interactive web applications using techniques such as DOM scripting, DHTML and AJAX.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yui/3.18.0/yui/yui-min.js">//cdnjs.cloudflare.com/ajax/libs/yui/3.18.0/yui/yui-min.js</a>]]></description>
@@ -415,13 +422,6 @@
             <guid isPermaLink="false">cannon.js0.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 22 Sep 2014 03:15:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockback updated to version 0.20.2]]></title>
-            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.2/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.2/knockback.min.js</a>]]></description>
-            <guid isPermaLink="false">knockback0.20.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 22 Sep 2014 03:14:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jshint updated to version 2.5.6]]></title>
