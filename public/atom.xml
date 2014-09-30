@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Sep 2014 10:17:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Sep 2014 10:32:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -604,6 +604,14 @@
             <guid isPermaLink="false">KaTeX0.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 15 Sep 2014 23:17:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-csv(0.2.4) was added]]></title>
+            <description><![CDATA[Simple directive that turns arrays and objects into downloadable CSV files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.4/ng-csv.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.4/ng-csv.min.js</a>]]></description>
+            <link>https://github.com/asafdav/ng-csv</link>
+            <guid isPermaLink="false">ng-csv0.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 19 Aug 2014 22:14:17 GMT</pubDate>
         </item>
     </channel>
 </rss>
