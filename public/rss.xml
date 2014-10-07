@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Oct 2014 16:15:47 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Oct 2014 16:32:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[device.js updated to version 0.1.61]]></title>
+            <description><![CDATA[Device.js makes it easy to write conditional CSS _and/or_ JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/device.js/0.1.61/device.min.js">//cdnjs.cloudflare.com/ajax/libs/device.js/0.1.61/device.min.js</a>]]></description>
+            <link>https://github.com/matthewhudson/device.js</link>
+            <guid isPermaLink="false">device.js0.1.61</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 07 Oct 2014 16:10:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[insightjs updated to version 1.2.0]]></title>
+            <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.2.0/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.2.0/insight.min.js</a>]]></description>
+            <link>https://github.com/scottlogic/insight</link>
+            <guid isPermaLink="false">insightjs1.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 07 Oct 2014 16:06:10 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.3.3]]></title>
             <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.3/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.3/cytoscape.min.js</a>]]></description>
@@ -666,14 +682,6 @@
             <guid isPermaLink="false">moment-range1.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 23 Sep 2014 20:32:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[insightjs updated to version 1.1.1-Hotfix]]></title>
-            <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.1.1-Hotfix/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.1.1-Hotfix/insight.min.js</a>]]></description>
-            <link>https://github.com/scottlogic/insight</link>
-            <guid isPermaLink="false">insightjs1.1.1-Hotfix</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 23 Sep 2014 16:51:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pouchdb updated to version 3.0.6]]></title>
