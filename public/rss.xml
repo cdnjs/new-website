@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Oct 2014 06:32:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Oct 2014 06:47:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -682,14 +682,6 @@
             <guid isPermaLink="false">pouchdb3.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 23 Sep 2014 16:50:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[FileSaver.js(1.0.0) was added]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.0.0/FileSaver.min.js">//cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.0.0/FileSaver.min.js</a>]]></description>
-            <link>https://github.com/eligrey/FileSaver.js</link>
-            <guid isPermaLink="false">FileSaver.js1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 16 Sep 2014 06:13:07 GMT</pubDate>
         </item>
     </channel>
 </rss>
