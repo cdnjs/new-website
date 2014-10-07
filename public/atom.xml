@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Oct 2014 05:02:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Oct 2014 05:17:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[highlight.js updated to version 8.2]]></title>
+            <description><![CDATA[Easy-to-use, Javascript-based syntax highlighter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js">//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js</a>]]></description>
+            <link>http://highlightjs.org</link>
+            <guid isPermaLink="false">highlight.js8.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 07 Oct 2014 03:22:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[morris.js updated to version 0.5.1]]></title>
             <description><![CDATA[Pretty time-series line graphs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js">//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js</a>]]></description>
