@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Oct 2014 20:17:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Oct 2014 20:32:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -101,6 +101,13 @@
             <guid isPermaLink="false">document-register-element0.1.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 06 Oct 2014 10:42:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[slick-carousel updated to version 1.3.6]]></title>
+            <description><![CDATA[the last carousel you'll ever need<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.6/slick.min.js">//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.6/slick.min.js</a>]]></description>
+            <guid isPermaLink="false">slick-carousel1.3.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 06 Oct 2014 10:09:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pace updated to version 1.0.1]]></title>
