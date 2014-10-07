@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Oct 2014 16:32:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Oct 2014 16:47:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.liveurl(1.2.2) was added]]></title>
+            <description><![CDATA[jQuery plugin to get an url preview like the facebook attachment<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.liveurl/1.2.2/jquery.liveurl.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.liveurl/1.2.2/jquery.liveurl.min.js</a>]]></description>
+            <link>https://github.com/stephan-fischer/jQuery-LiveUrl</link>
+            <guid isPermaLink="false">jquery.liveurl1.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 07 Oct 2014 16:37:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[device.js updated to version 0.1.61]]></title>
             <description><![CDATA[Device.js makes it easy to write conditional CSS _and/or_ JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/device.js/0.1.61/device.min.js">//cdnjs.cloudflare.com/ajax/libs/device.js/0.1.61/device.min.js</a>]]></description>
