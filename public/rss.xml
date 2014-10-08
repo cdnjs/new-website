@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Oct 2014 02:17:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Oct 2014 02:32:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[hydna updated to version 1.0.1]]></title>
+            <description><![CDATA[A multi-transport Hydna client library with support for WebSockets, Flash and Comet<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hydna/1.0.1/hydna.min.js">//cdnjs.cloudflare.com/ajax/libs/hydna/1.0.1/hydna.min.js</a>]]></description>
+            <link>https://www.hydna.com</link>
+            <guid isPermaLink="false">hydna1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 08 Oct 2014 02:21:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.liveurl(1.2.2) was added]]></title>
             <description><![CDATA[jQuery plugin to get an url preview like the facebook attachment<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.liveurl/1.2.2/jquery.liveurl.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.liveurl/1.2.2/jquery.liveurl.min.js</a>]]></description>
