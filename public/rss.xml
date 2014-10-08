@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 08 Oct 2014 13:47:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Oct 2014 14:01:09 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -582,46 +582,6 @@
             <guid isPermaLink="false">jquery-searcher0.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 24 Sep 2014 21:53:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[modernizr updated to version 2.8.3]]></title>
-            <description><![CDATA[Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user's browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js">//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js</a>]]></description>
-            <link>http://www.modernizr.com/</link>
-            <guid isPermaLink="false">modernizr2.8.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Sep 2014 14:00:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[list.js updated to version 1.1.1]]></title>
-            <description><![CDATA[The perfect library for adding search, sort, filters & flexibility to tables, lists, or anything<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js">//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js</a>]]></description>
-            <link>http://listjs.com</link>
-            <guid isPermaLink="false">list.js1.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Sep 2014 13:53:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jszip updated to version 2.4.0]]></title>
-            <description><![CDATA[Create, read and edit .zip files with Javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js">//cdnjs.cloudflare.com/ajax/libs/jszip/2.4.0/jszip.min.js</a>]]></description>
-            <link>http://stuk.github.io/jszip/</link>
-            <guid isPermaLink="false">jszip2.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Sep 2014 13:53:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-table updated to version 1.2.3]]></title>
-            <description><![CDATA[Bootstrap table displays data in a tabular format and offers rich support to radio, checkbox, sort, pagination and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.2.3/bootstrap-table.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.2.3/bootstrap-table.min.js</a>]]></description>
-            <link>http://wenzhixin.net.cn/p/bootstrap-table/</link>
-            <guid isPermaLink="false">bootstrap-table1.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Sep 2014 13:52:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[beepjs(0.0.1) was added]]></title>
-            <description><![CDATA[Makes browser beep.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/beepjs/0.0.1/beep.min.js">//cdnjs.cloudflare.com/ajax/libs/beepjs/0.0.1/beep.min.js</a>]]></description>
-            <link>https://github.com/luciferous/beepjs</link>
-            <guid isPermaLink="false">beepjs0.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Sep 2014 13:50:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[userinfo(1.0.0) was added]]></title>
