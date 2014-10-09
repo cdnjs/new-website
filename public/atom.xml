@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 09 Oct 2014 10:02:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Oct 2014 10:17:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -614,30 +614,6 @@
             <guid isPermaLink="false">dom41.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 25 Sep 2014 12:25:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.bootstrapvalidator updated to version 0.5.2]]></title>
-            <description><![CDATA[The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js</a>]]></description>
-            <link>http://bootstrapvalidator.com</link>
-            <guid isPermaLink="false">jquery.bootstrapvalidator0.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 25 Sep 2014 10:01:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[wow updated to version 1.0.2]]></title>
-            <description><![CDATA[Reveal CSS animation as you scroll down a page<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/wow/1.0.2/wow.min.js">//cdnjs.cloudflare.com/ajax/libs/wow/1.0.2/wow.min.js</a>]]></description>
-            <link>http://mynameismatthieu.com/WOW/</link>
-            <guid isPermaLink="false">wow1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 25 Sep 2014 10:01:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[elasticsearch updated to version 2.4.3]]></title>
-            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.4.3/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/2.4.3/elasticsearch.js</a>]]></description>
-            <link>https://github.com/elasticsearch/elasticsearch-js</link>
-            <guid isPermaLink="false">elasticsearch2.4.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 25 Sep 2014 09:31:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[userinfo(1.0.0) was added]]></title>
