@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 10 Oct 2014 16:32:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Oct 2014 16:47:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -622,22 +622,6 @@
             <guid isPermaLink="false">octicons2.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 27 Sep 2014 06:29:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fatcow-icons updated to version 20130425]]></title>
-            <description><![CDATA[3500 Free "Farm-Fresh Web Icons" by FatCow Web Hosting<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fatcow-icons/20130425/FatCow.com_3500.png">//cdnjs.cloudflare.com/ajax/libs/fatcow-icons/20130425/FatCow.com_3500.png</a>]]></description>
-            <link>http://www.fatcow.com/free-icons</link>
-            <guid isPermaLink="false">fatcow-icons20130425</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 26 Sep 2014 16:43:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cutjs updated to version 0.2.1]]></title>
-            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.2.1/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.2.1/cut.web.min.js</a>]]></description>
-            <link>http://cutjs.org/</link>
-            <guid isPermaLink="false">cutjs0.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 26 Sep 2014 16:35:38 GMT</pubDate>
         </item>
     </channel>
 </rss>
