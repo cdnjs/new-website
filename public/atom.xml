@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 11 Oct 2014 06:17:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Oct 2014 06:32:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -606,22 +606,6 @@
             <guid isPermaLink="false">rivets0.6.10</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 28 Sep 2014 03:37:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsforce updated to version 1.3.1]]></title>
-            <description><![CDATA[Salesforce API Library for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.3.1/jsforce.min.js">//cdnjs.cloudflare.com/ajax/libs/jsforce/1.3.1/jsforce.min.js</a>]]></description>
-            <link>http://jsforce.github.io</link>
-            <guid isPermaLink="false">jsforce1.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Sep 2014 06:30:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[octicons updated to version 2.1.2]]></title>
-            <description><![CDATA[GitHub's icon font<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.1.2/octicons.min.css">//cdnjs.cloudflare.com/ajax/libs/octicons/2.1.2/octicons.min.css</a>]]></description>
-            <link>http://octicons.github.com/</link>
-            <guid isPermaLink="false">octicons2.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Sep 2014 06:29:15 GMT</pubDate>
         </item>
     </channel>
 </rss>
