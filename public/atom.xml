@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Oct 2014 19:47:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Oct 2014 20:02:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -605,14 +605,6 @@
             <guid isPermaLink="false">speakingurl0.13.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 29 Sep 2014 11:27:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-clip(0.2.4) was added]]></title>
-            <description><![CDATA[Copy to clipboard using AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.4/ng-clip.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.4/ng-clip.min.js</a>]]></description>
-            <link>https://github.com/asafdav/ng-clip</link>
-            <guid isPermaLink="false">ng-clip0.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Sep 2014 19:57:21 GMT</pubDate>
         </item>
     </channel>
 </rss>
