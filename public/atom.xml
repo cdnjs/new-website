@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Oct 2014 15:17:19 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Oct 2014 15:32:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -613,22 +613,6 @@
             <guid isPermaLink="false">skrollr0.6.27</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 28 Sep 2014 16:56:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ink updated to version 3.1.0]]></title>
-            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.1.0/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.1.0/js/ink-all.min.js</a>]]></description>
-            <link>http://ink.sapo.pt/</link>
-            <guid isPermaLink="false">ink3.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Sep 2014 15:29:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.23]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.23/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.23/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.23</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Sep 2014 15:25:23 GMT</pubDate>
         </item>
     </channel>
 </rss>
