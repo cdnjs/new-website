@@ -10,10 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Oct 2014 01:02:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Oct 2014 01:17:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[msl-client-browser updated to version 1.0.2]]></title>
+            <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.2/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.2/mockapi-browser.min.js</a>]]></description>
+            <link>http://finraos.github.io/MSL</link>
+            <guid isPermaLink="false">msl-client-browser1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 12 Oct 2014 01:09:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mocha updated to version 1.21.5]]></title>
+            <description><![CDATA[simple, flexible, fun test framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mocha/1.21.5/mocha.js">//cdnjs.cloudflare.com/ajax/libs/mocha/1.21.5/mocha.js</a>]]></description>
+            <guid isPermaLink="false">mocha1.21.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 12 Oct 2014 00:54:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.13]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.13/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.13/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 12 Oct 2014 00:53:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[peerjs updated to version 0.3.14]]></title>
             <description><![CDATA[Peer-to-peer data in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.14/peer.min.js">//cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.14/peer.min.js</a>]]></description>
@@ -69,14 +92,6 @@
             <guid isPermaLink="false">foundation5.4.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 10 Oct 2014 16:01:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[msl-client-browser updated to version 1.0.2]]></title>
-            <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.2/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.2/mockapi-browser.min.js</a>]]></description>
-            <link>http://finraos.github.io/MSL</link>
-            <guid isPermaLink="false">msl-client-browser1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 10 Oct 2014 14:43:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[xlsx updated to version 0.7.11]]></title>
@@ -511,14 +526,6 @@
             <guid isPermaLink="false">AniJS0.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 01 Oct 2014 16:31:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.3.12]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.12/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.12/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.12</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 01 Oct 2014 03:15:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[knockback updated to version 0.20.3]]></title>
