@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Oct 2014 17:02:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Oct 2014 17:17:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -597,22 +597,6 @@
             <guid isPermaLink="false">ng-clip0.2.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 28 Sep 2014 19:57:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.gridster updated to version 0.5.6]]></title>
-            <description><![CDATA[a drag-and-drop multi-column jQuery grid plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.gridster/0.5.6/jquery.gridster.min.js</a>]]></description>
-            <link>http://gridster.net/</link>
-            <guid isPermaLink="false">jquery.gridster0.5.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Sep 2014 17:06:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[skrollr updated to version 0.6.27]]></title>
-            <description><![CDATA[Stand-alone parallax scrolling library for mobile (Android + iOS) and desktop. No jQuery. Just plain JavaScript (and some love).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.27/skrollr.min.js">//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.27/skrollr.min.js</a>]]></description>
-            <link>http://prinzhorn.github.io/skrollr/</link>
-            <guid isPermaLink="false">skrollr0.6.27</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Sep 2014 16:56:15 GMT</pubDate>
         </item>
     </channel>
 </rss>
