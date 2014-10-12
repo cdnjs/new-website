@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Oct 2014 05:32:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Oct 2014 05:47:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -605,22 +605,6 @@
             <guid isPermaLink="false">bacon.js0.7.23</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 28 Sep 2014 15:25:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[analytics.js updated to version 2.3.27]]></title>
-            <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.3.27/analytics.min.js">//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.3.27/analytics.min.js</a>]]></description>
-            <link>https://segment.io/docs/libraries/analytics.js/</link>
-            <guid isPermaLink="false">analytics.js2.3.27</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Sep 2014 05:30:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.2]]></title>
-            <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.2/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.2/perfect-scrollbar.min.js</a>]]></description>
-            <link>http://www.yuiazu.net/perfect-scrollbar/</link>
-            <guid isPermaLink="false">jquery.perfect-scrollbar0.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Sep 2014 05:27:01 GMT</pubDate>
         </item>
     </channel>
 </rss>
