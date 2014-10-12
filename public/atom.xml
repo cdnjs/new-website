@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Oct 2014 06:47:19 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Oct 2014 07:02:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[uikit updated to version 2.11.0]]></title>
+            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.0/js/uikit.min.js</a>]]></description>
+            <link>http://www.getuikit.com</link>
+            <guid isPermaLink="false">uikit2.11.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 12 Oct 2014 06:44:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[trianglify updated to version 0.1.5]]></title>
+            <description><![CDATA[Trianglify is a javascript library for generating colorful triangle meshes that can be used as SVG images and CSS backgrounds.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js">//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js</a>]]></description>
+            <link>https://github.com/qrohlf/trianglify</link>
+            <guid isPermaLink="false">trianglify0.1.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 12 Oct 2014 06:42:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.postcodify updated to version 2.0.0]]></title>
+            <description><![CDATA[Postcodify is a jQuery plugin and server-side API for searching South Korean street addresses and postal codes.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.0.0/search.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.0.0/search.min.js</a>]]></description>
+            <link>http://postcodify.poesis.kr/</link>
+            <guid isPermaLink="false">jquery.postcodify2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 12 Oct 2014 04:44:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[require-css updated to version 0.1.5]]></title>
             <description><![CDATA[A RequireJS CSS loader plugin to allow CSS requires and optimization<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/require-css/0.1.5/css.js">//cdnjs.cloudflare.com/ajax/libs/require-css/0.1.5/css.js</a>]]></description>
