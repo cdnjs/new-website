@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Oct 2014 03:32:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Oct 2014 03:47:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -621,14 +621,6 @@
             <guid isPermaLink="false">jquery.perfect-scrollbar0.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 28 Sep 2014 05:27:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rivets(0.6.10) was added]]></title>
-            <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.6.10/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.6.10/rivets.min.js</a>]]></description>
-            <link>http://rivetsjs.com</link>
-            <guid isPermaLink="false">rivets0.6.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Sep 2014 03:37:23 GMT</pubDate>
         </item>
     </channel>
 </rss>
