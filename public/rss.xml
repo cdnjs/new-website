@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Oct 2014 13:17:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Oct 2014 13:32:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-filter updated to version 0.4.8]]></title>
+            <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.8/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.8/angular-filter.min.js</a>]]></description>
+            <link>https://github.com/a8m/angular-filter</link>
+            <guid isPermaLink="false">angular-filter0.4.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 13 Oct 2014 13:13:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[subkit updated to version 1.0.23]]></title>
+            <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.23/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.23/subkit.min.js</a>]]></description>
+            <link>https://github.com/subkit/subkit.js</link>
+            <guid isPermaLink="false">subkit1.0.23</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 13 Oct 2014 13:13:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[pubnub updated to version 3.6.7]]></title>
             <description><![CDATA[PubNub, a new kind of Cloud-Hosted Broadcasting Service for Mass Communication.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.7/pubnub.min.js">//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.7/pubnub.min.js</a>]]></description>
@@ -166,28 +182,12 @@
             <pubDate>Fri, 10 Oct 2014 06:01:52 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[subkit updated to version 1.0.9]]></title>
-            <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.9/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.9/subkit.min.js</a>]]></description>
-            <link>https://github.com/subkit/subkit.js</link>
-            <guid isPermaLink="false">subkit1.0.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 10 Oct 2014 00:34:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[highlight.js updated to version 8.3]]></title>
             <description><![CDATA[Easy-to-use, Javascript-based syntax highlighter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js">//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js</a>]]></description>
             <link>http://highlightjs.org</link>
             <guid isPermaLink="false">highlight.js8.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 10 Oct 2014 00:34:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-filter updated to version 0.4.7]]></title>
-            <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.7/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.7/angular-filter.min.js</a>]]></description>
-            <link>https://github.com/a8m/angular-filter</link>
-            <guid isPermaLink="false">angular-filter0.4.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 09 Oct 2014 16:20:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angularSubkit updated to version 1.0.1]]></title>
