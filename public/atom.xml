@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 13 Oct 2014 11:17:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Oct 2014 11:32:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -613,14 +613,6 @@
             <guid isPermaLink="false">chai1.9.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Sep 2014 01:26:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[speakingurl updated to version 0.13.1]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.13.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.13.1/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.13.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 29 Sep 2014 11:27:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
