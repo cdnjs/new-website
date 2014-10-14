@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Oct 2014 08:02:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Oct 2014 08:17:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -622,13 +622,6 @@
             <guid isPermaLink="false">AniJS0.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 01 Oct 2014 16:31:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockback updated to version 0.20.3]]></title>
-            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.3/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.3/knockback.min.js</a>]]></description>
-            <guid isPermaLink="false">knockback0.20.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Sep 2014 08:01:21 GMT</pubDate>
         </item>
     </channel>
 </rss>
