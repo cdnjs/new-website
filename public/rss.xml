@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 14 Oct 2014 17:17:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Oct 2014 17:32:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-filter updated to version 0.4.9]]></title>
+            <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.9/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.9/angular-filter.min.js</a>]]></description>
+            <link>https://github.com/a8m/angular-filter</link>
+            <guid isPermaLink="false">angular-filter0.4.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 14 Oct 2014 17:13:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.3]]></title>
             <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.3/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.3/perfect-scrollbar.min.js</a>]]></description>
@@ -45,14 +53,6 @@
             <guid isPermaLink="false">ember-data.js1.0.0-beta.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 13 Oct 2014 16:38:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-filter updated to version 0.4.8]]></title>
-            <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.8/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.8/angular-filter.min.js</a>]]></description>
-            <link>https://github.com/a8m/angular-filter</link>
-            <guid isPermaLink="false">angular-filter0.4.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 13 Oct 2014 13:13:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[subkit updated to version 1.0.23]]></title>
