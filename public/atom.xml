@@ -10,10 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Oct 2014 05:17:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Oct 2014 05:32:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[cldrjs updated to version 0.3.9]]></title>
+            <description><![CDATA[Simple CLDR API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.3.9/cldr.min.js">//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.3.9/cldr.min.js</a>]]></description>
+            <guid isPermaLink="false">cldrjs0.3.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 05:26:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[qtip2 updated to version 2.2.1]]></title>
+            <description><![CDATA[Pretty powerful tooltips. The second generation of the advanced qTip plugin for the ever popular jQuery framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.js">//cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.js</a>]]></description>
+            <link>http://craigsworks.com/projects/qtip2/</link>
+            <guid isPermaLink="false">qtip22.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 05:19:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-sortable updated to version 0.13.0]]></title>
+            <description><![CDATA[This directive allows you to jQueryUI Sortable.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.0/sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.0/sortable.min.js</a>]]></description>
+            <link>http://angular-ui.github.com</link>
+            <guid isPermaLink="false">angular-ui-sortable0.13.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 05:04:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-filter updated to version 0.4.9]]></title>
             <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.9/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.4.9/angular-filter.min.js</a>]]></description>
