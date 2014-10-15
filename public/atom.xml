@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Oct 2014 05:47:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Oct 2014 06:02:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[select2 updated to version 3.5.1]]></title>
+            <description><![CDATA[Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. Look and feel of Select2 is based on the excellent Chosen library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.1/select2.min.js">//cdnjs.cloudflare.com/ajax/libs/select2/3.5.1/select2.min.js</a>]]></description>
+            <link>http://ivaynberg.github.com/select2/</link>
+            <guid isPermaLink="false">select23.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 05:49:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-smooth-scroll updated to version 1.5.2]]></title>
+            <description><![CDATA[Automatically make same-page links scroll smoothly<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.2/jquery.smooth-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.2/jquery.smooth-scroll.min.js</a>]]></description>
+            <guid isPermaLink="false">jquery-smooth-scroll1.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 05:41:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cldrjs updated to version 0.3.9]]></title>
             <description><![CDATA[Simple CLDR API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.3.9/cldr.min.js">//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.3.9/cldr.min.js</a>]]></description>
