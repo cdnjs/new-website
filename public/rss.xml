@@ -10,10 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Oct 2014 17:47:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Oct 2014 18:02:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.3.10]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.10/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.10/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.3.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 17:45:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-smooth-scroll updated to version 1.5.3]]></title>
+            <description><![CDATA[Automatically make same-page links scroll smoothly<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.3/jquery.smooth-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.3/jquery.smooth-scroll.min.js</a>]]></description>
+            <guid isPermaLink="false">jquery-smooth-scroll1.5.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 17:44:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jstree updated to version 3.0.6]]></title>
+            <description><![CDATA[jQuery tree plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.6/jstree.min.js">//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.6/jstree.min.js</a>]]></description>
+            <link>http://jstree.com</link>
+            <guid isPermaLink="false">jstree3.0.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 17:44:24 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[msl-client-browser updated to version 1.0.3]]></title>
             <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.3/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.3/mockapi-browser.min.js</a>]]></description>
@@ -37,13 +60,6 @@
             <guid isPermaLink="false">select23.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 15 Oct 2014 05:49:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-smooth-scroll updated to version 1.5.2]]></title>
-            <description><![CDATA[Automatically make same-page links scroll smoothly<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.2/jquery.smooth-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.2/jquery.smooth-scroll.min.js</a>]]></description>
-            <guid isPermaLink="false">jquery-smooth-scroll1.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 15 Oct 2014 05:41:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cldrjs updated to version 0.3.9]]></title>
@@ -210,14 +226,6 @@
             <guid isPermaLink="false">require.js2.1.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 11 Oct 2014 12:18:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.3.9]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.9/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.9/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.3.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 10 Oct 2014 16:30:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[foundation-essential updated to version 5.4.6]]></title>
