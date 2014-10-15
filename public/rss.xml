@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Oct 2014 16:32:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Oct 2014 16:47:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -636,30 +636,6 @@
             <guid isPermaLink="false">bootstrap-select1.6.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 02 Oct 2014 07:50:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-router updated to version 0.2.11]]></title>
-            <description><![CDATA[State-based routing for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.11/angular-ui-router.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.11/angular-ui-router.min.js</a>]]></description>
-            <link>http://angular-ui.github.com/</link>
-            <guid isPermaLink="false">angular-ui-router0.2.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 01 Oct 2014 16:36:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[froala-editor updated to version 1.2.2]]></title>
-            <description><![CDATA[A beautiful jQuery WYSIWYG text editor based on HTML5 technology. Cross browser, with mobile support, high performance and Retina Ready flat design.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.2/js/froala_editor.min.js">//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.2/js/froala_editor.min.js</a>]]></description>
-            <link>http://editor.froala.com/</link>
-            <guid isPermaLink="false">froala-editor1.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 01 Oct 2014 16:32:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AniJS updated to version 0.8.0]]></title>
-            <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.8.0/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.8.0/anijs-min.js</a>]]></description>
-            <link>http://anijs.github.io/</link>
-            <guid isPermaLink="false">AniJS0.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 01 Oct 2014 16:31:46 GMT</pubDate>
         </item>
     </channel>
 </rss>
