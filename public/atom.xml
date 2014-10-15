@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Oct 2014 08:32:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Oct 2014 08:47:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[uikit updated to version 2.11.1]]></title>
+            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.1/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.1/js/uikit.min.js</a>]]></description>
+            <link>http://www.getuikit.com</link>
+            <guid isPermaLink="false">uikit2.11.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 08:42:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[select2 updated to version 3.5.1]]></title>
             <description><![CDATA[Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. Look and feel of Select2 is based on the excellent Chosen library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.1/select2.min.js">//cdnjs.cloudflare.com/ajax/libs/select2/3.5.1/select2.min.js</a>]]></description>
@@ -123,14 +131,6 @@
             <guid isPermaLink="false">basis.js1.3.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 12 Oct 2014 18:12:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uikit updated to version 2.11.0]]></title>
-            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.0/js/uikit.min.js</a>]]></description>
-            <link>http://www.getuikit.com</link>
-            <guid isPermaLink="false">uikit2.11.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 12 Oct 2014 06:44:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[trianglify updated to version 0.1.5]]></title>
