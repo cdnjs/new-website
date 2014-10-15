@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 15 Oct 2014 17:32:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Oct 2014 17:47:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[msl-client-browser updated to version 1.0.3]]></title>
+            <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.3/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.3/mockapi-browser.min.js</a>]]></description>
+            <link>http://finraos.github.io/MSL</link>
+            <guid isPermaLink="false">msl-client-browser1.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 15 Oct 2014 17:40:35 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[uikit updated to version 2.11.1]]></title>
             <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.1/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.1/js/uikit.min.js</a>]]></description>
@@ -155,14 +163,6 @@
             <guid isPermaLink="false">require-css0.1.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 12 Oct 2014 03:40:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[msl-client-browser updated to version 1.0.2]]></title>
-            <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.2/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.2/mockapi-browser.min.js</a>]]></description>
-            <link>http://finraos.github.io/MSL</link>
-            <guid isPermaLink="false">msl-client-browser1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 12 Oct 2014 01:09:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mocha updated to version 1.21.5]]></title>
