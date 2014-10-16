@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Oct 2014 11:32:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Oct 2014 11:47:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -512,138 +512,6 @@
             <guid isPermaLink="false">mime1.2.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 02 Oct 2014 11:49:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[superagent updated to version 0.19.1]]></title>
-            <description><![CDATA[elegant & feature rich browser / node HTTP with a fluent API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/superagent/0.19.1/undefined">//cdnjs.cloudflare.com/ajax/libs/superagent/0.19.1/undefined</a>]]></description>
-            <guid isPermaLink="false">superagent0.19.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[reduce-component updated to version 1.0.1]]></title>
-            <description><![CDATA[Array reduce component<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reduce-component/1.0.1/undefined">//cdnjs.cloudflare.com/ajax/libs/reduce-component/1.0.1/undefined</a>]]></description>
-            <guid isPermaLink="false">reduce-component1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[readable-stream updated to version 1.0.27-1]]></title>
-            <description><![CDATA[Streams2, a user-land copy of the stream library from Node.js v0.10.x<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/readable-stream/1.0.27-1/undefined">//cdnjs.cloudflare.com/ajax/libs/readable-stream/1.0.27-1/undefined</a>]]></description>
-            <guid isPermaLink="false">readable-stream1.0.27-1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[string_decoder updated to version 0.10.31]]></title>
-            <description><![CDATA[The string_decoder module from Node core<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string_decoder/0.10.31/undefined">//cdnjs.cloudflare.com/ajax/libs/string_decoder/0.10.31/undefined</a>]]></description>
-            <link>https://github.com/rvagg/string_decoder</link>
-            <guid isPermaLink="false">string_decoder0.10.31</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[isarray updated to version 0.0.1]]></title>
-            <description><![CDATA[Array#isArray for older browsers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/isarray/0.0.1/undefined">//cdnjs.cloudflare.com/ajax/libs/isarray/0.0.1/undefined</a>]]></description>
-            <link>https://github.com/juliangruber/isarray</link>
-            <guid isPermaLink="false">isarray0.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[core-util-is updated to version 1.0.1]]></title>
-            <description><![CDATA[The `util.is*` functions introduced in Node v0.12.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/core-util-is/1.0.1/undefined">//cdnjs.cloudflare.com/ajax/libs/core-util-is/1.0.1/undefined</a>]]></description>
-            <guid isPermaLink="false">core-util-is1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[qs updated to version 1.2.0]]></title>
-            <description><![CDATA[A querystring parser that supports nesting and arrays, with a depth limit<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/qs/1.2.0/undefined">//cdnjs.cloudflare.com/ajax/libs/qs/1.2.0/undefined</a>]]></description>
-            <link>https://github.com/hapijs/qs</link>
-            <guid isPermaLink="false">qs1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mime updated to version 1.2.11]]></title>
-            <description><![CDATA[A comprehensive library for mime-type mapping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mime/1.2.11/undefined">//cdnjs.cloudflare.com/ajax/libs/mime/1.2.11/undefined</a>]]></description>
-            <guid isPermaLink="false">mime1.2.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[methods updated to version 1.0.1]]></title>
-            <description><![CDATA[HTTP methods that node supports<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/methods/1.0.1/undefined">//cdnjs.cloudflare.com/ajax/libs/methods/1.0.1/undefined</a>]]></description>
-            <guid isPermaLink="false">methods1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[formidable updated to version 1.0.14]]></title>
-            <description><![CDATA[A node.js module for parsing form data, especially file uploads.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/formidable/1.0.14/undefined">//cdnjs.cloudflare.com/ajax/libs/formidable/1.0.14/undefined</a>]]></description>
-            <link>https://github.com/felixge/node-formidable</link>
-            <guid isPermaLink="false">formidable1.0.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[form-data updated to version 0.1.3]]></title>
-            <description><![CDATA[A module to create readable "multipart/form-data" streams.  Can be used to submit forms and file uploads to other web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/form-data/0.1.3/undefined">//cdnjs.cloudflare.com/ajax/libs/form-data/0.1.3/undefined</a>]]></description>
-            <guid isPermaLink="false">form-data0.1.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[combined-stream updated to version 0.0.5]]></title>
-            <description><![CDATA[A stream that emits multiple other streams one after another.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/combined-stream/0.0.5/undefined">//cdnjs.cloudflare.com/ajax/libs/combined-stream/0.0.5/undefined</a>]]></description>
-            <link>https://github.com/felixge/node-combined-stream</link>
-            <guid isPermaLink="false">combined-stream0.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[delayed-stream updated to version 0.0.5]]></title>
-            <description><![CDATA[Buffers events from a stream until you are ready to handle them.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/delayed-stream/0.0.5/undefined">//cdnjs.cloudflare.com/ajax/libs/delayed-stream/0.0.5/undefined</a>]]></description>
-            <link>https://github.com/felixge/node-delayed-stream</link>
-            <guid isPermaLink="false">delayed-stream0.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[extend updated to version 1.2.1]]></title>
-            <description><![CDATA[Port of jQuery.extend for Node.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/extend/1.2.1/undefined">//cdnjs.cloudflare.com/ajax/libs/extend/1.2.1/undefined</a>]]></description>
-            <guid isPermaLink="false">extend1.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[debug updated to version 1.0.4]]></title>
-            <description><![CDATA[small debugging utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/debug/1.0.4/undefined">//cdnjs.cloudflare.com/ajax/libs/debug/1.0.4/undefined</a>]]></description>
-            <guid isPermaLink="false">debug1.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ms updated to version 0.6.2]]></title>
-            <description><![CDATA[Tiny ms conversion utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ms/0.6.2/undefined">//cdnjs.cloudflare.com/ajax/libs/ms/0.6.2/undefined</a>]]></description>
-            <guid isPermaLink="false">ms0.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cookiejar updated to version 2.0.1]]></title>
-            <description><![CDATA[simple persistent cookiejar system<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cookiejar/2.0.1/undefined">//cdnjs.cloudflare.com/ajax/libs/cookiejar/2.0.1/undefined</a>]]></description>
-            <guid isPermaLink="false">cookiejar2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[component-emitter updated to version 1.1.2]]></title>
-            <description><![CDATA[Event emitter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/component-emitter/1.1.2/undefined">//cdnjs.cloudflare.com/ajax/libs/component-emitter/1.1.2/undefined</a>]]></description>
-            <guid isPermaLink="false">component-emitter1.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Oct 2014 11:38:14 GMT</pubDate>
         </item>
     </channel>
 </rss>
