@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Oct 2014 03:47:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Oct 2014 04:02:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[msl-client-browser updated to version 1.0.4]]></title>
+            <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.4/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.4/mockapi-browser.min.js</a>]]></description>
+            <link>http://finraos.github.io/MSL</link>
+            <guid isPermaLink="false">msl-client-browser1.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 16 Oct 2014 03:55:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.postcodify updated to version 2.0.1]]></title>
+            <description><![CDATA[Postcodify is a jQuery plugin and server-side API for searching South Korean street addresses and postal codes.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.0.1/search.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.0.1/search.min.js</a>]]></description>
+            <link>http://postcodify.poesis.kr/</link>
+            <guid isPermaLink="false">jquery.postcodify2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 16 Oct 2014 03:55:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ink updated to version 3.1.1]]></title>
+            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.1.1/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.1.1/js/ink-all.min.js</a>]]></description>
+            <link>http://ink.sapo.pt/</link>
+            <guid isPermaLink="false">ink3.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 16 Oct 2014 03:54:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.3.10]]></title>
             <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.10/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.10/p5.min.js</a>]]></description>
@@ -36,14 +60,6 @@
             <guid isPermaLink="false">jstree3.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 15 Oct 2014 17:44:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[msl-client-browser updated to version 1.0.3]]></title>
-            <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.3/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.3/mockapi-browser.min.js</a>]]></description>
-            <link>http://finraos.github.io/MSL</link>
-            <guid isPermaLink="false">msl-client-browser1.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 15 Oct 2014 17:40:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[uikit updated to version 2.11.1]]></title>
@@ -163,14 +179,6 @@
             <guid isPermaLink="false">trianglify0.1.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 12 Oct 2014 06:42:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.postcodify updated to version 2.0.0]]></title>
-            <description><![CDATA[Postcodify is a jQuery plugin and server-side API for searching South Korean street addresses and postal codes.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.0.0/search.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.0.0/search.min.js</a>]]></description>
-            <link>http://postcodify.poesis.kr/</link>
-            <guid isPermaLink="false">jquery.postcodify2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 12 Oct 2014 04:44:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[require-css updated to version 0.1.5]]></title>
