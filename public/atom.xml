@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Oct 2014 15:47:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Oct 2014 16:02:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[localforage updated to version 1.0.3]]></title>
+            <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/1.0.3/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/1.0.3/localforage.min.js</a>]]></description>
+            <link>https://github.com/mozilla/localForage</link>
+            <guid isPermaLink="false">localforage1.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 16 Oct 2014 15:52:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 0.16.1]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/javascript/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.16.1/javascript/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui0.16.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 16 Oct 2014 13:25:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[polymer updated to version 0.4.2]]></title>
             <description><![CDATA[Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/polymer/0.4.2/polymer.js">//cdnjs.cloudflare.com/ajax/libs/polymer/0.4.2/polymer.js</a>]]></description>
@@ -282,14 +298,6 @@
             <guid isPermaLink="false">xlsx0.7.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 10 Oct 2014 06:02:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[localforage updated to version 1.0.2]]></title>
-            <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/1.0.2/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/1.0.2/localforage.min.js</a>]]></description>
-            <link>https://github.com/mozilla/localForage</link>
-            <guid isPermaLink="false">localforage1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 10 Oct 2014 06:01:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[highlight.js updated to version 8.3]]></title>
