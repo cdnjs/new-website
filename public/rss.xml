@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 16 Oct 2014 12:32:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Oct 2014 12:47:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[hogan.js updated to version 3.0.2]]></title>
+            <description><![CDATA[A mustache compiler.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.js">//cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.js</a>]]></description>
+            <link>http://twitter.github.com/hogan.js/</link>
+            <guid isPermaLink="false">hogan.js3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 16 Oct 2014 06:03:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[msl-client-browser updated to version 1.0.4]]></title>
             <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.4/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.4/mockapi-browser.min.js</a>]]></description>
