@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Oct 2014 07:32:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Oct 2014 07:47:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[gist-embed updated to version 2.0]]></title>
+            <description><![CDATA[Ultra powered gist embedding for your website<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gist-embed/2.0/gist-embed.min.js">//cdnjs.cloudflare.com/ajax/libs/gist-embed/2.0/gist-embed.min.js</a>]]></description>
+            <link>http://blairvanderhoof.com/gist-embed/</link>
+            <guid isPermaLink="false">gist-embed2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 17 Oct 2014 07:42:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tether-tooltip(0.2.6) was added]]></title>
+            <description><![CDATA[CSS tooltips built on Tether<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tether-tooltip/0.2.6/tooltip.min.js">//cdnjs.cloudflare.com/ajax/libs/tether-tooltip/0.2.6/tooltip.min.js</a>]]></description>
+            <guid isPermaLink="false">tether-tooltip0.2.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 17 Oct 2014 07:31:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[chartist(0.2.3) was added]]></title>
             <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.2.3/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.2.3/chartist.min.js</a>]]></description>
