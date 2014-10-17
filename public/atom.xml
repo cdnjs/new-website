@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 17 Oct 2014 21:32:23 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Oct 2014 21:47:40 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -568,14 +568,6 @@
             <guid isPermaLink="false">autosize.js1.18.13</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 04 Oct 2014 17:21:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[crossfilter updated to version 1.3.11]]></title>
-            <description><![CDATA[Fast multidimensional filtering for coordinated views.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.11/crossfilter.min.js">//cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.11/crossfilter.min.js</a>]]></description>
-            <link>http://square.github.com/crossfilter/</link>
-            <guid isPermaLink="false">crossfilter1.3.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 03 Oct 2014 21:35:28 GMT</pubDate>
         </item>
     </channel>
 </rss>
