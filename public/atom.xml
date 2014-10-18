@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 18 Oct 2014 02:32:22 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Oct 2014 02:47:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[minitranslate updated to version 1.2.0]]></title>
+            <description><![CDATA[A lightweight way to change words into other words.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minitranslate/1.2.0/minitranslate.min.js">//cdnjs.cloudflare.com/ajax/libs/minitranslate/1.2.0/minitranslate.min.js</a>]]></description>
+            <link>http://bryce.io/minitranslate</link>
+            <guid isPermaLink="false">minitranslate1.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 18 Oct 2014 02:38:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[absurd updated to version 0.3.32]]></title>
+            <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.32/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.32/absurd.min.js</a>]]></description>
+            <link>http://absurdjs.com/</link>
+            <guid isPermaLink="false">absurd0.3.32</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 18 Oct 2014 02:37:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-csv updated to version 0.2.5]]></title>
+            <description><![CDATA[Simple directive that turns arrays and objects into downloadable CSV files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.5/ng-csv.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.5/ng-csv.min.js</a>]]></description>
+            <link>https://github.com/asafdav/ng-csv</link>
+            <guid isPermaLink="false">ng-csv0.2.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 18 Oct 2014 02:37:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[chroma-js updated to version 0.6.0]]></title>
             <description><![CDATA[JavaScript library for color conversions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.6.0/chroma.min.js">//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.6.0/chroma.min.js</a>]]></description>
