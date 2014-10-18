@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 18 Oct 2014 16:32:25 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Oct 2014 16:47:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[chartist updated to version 0.2.4]]></title>
+            <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.2.4/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.2.4/chartist.min.js</a>]]></description>
+            <link>https://gionkunz.github.io/chartist-js</link>
+            <guid isPermaLink="false">chartist0.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 18 Oct 2014 16:35:10 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[draggabilly updated to version 1.1.1]]></title>
             <description><![CDATA[Draggabilly is Javascript library to make elements draggable. When dragging, Draggabillly will add the class .is-dragging to the element. The minified source draggabilly.pkgd.min.js is on http://draggabilly.desandro.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.1/draggabilly.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.1/draggabilly.pkgd.min.js</a>]]></description>
@@ -100,14 +108,6 @@
             <guid isPermaLink="false">tether-tooltip0.2.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 17 Oct 2014 07:31:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chartist(0.2.3) was added]]></title>
-            <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.2.3/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.2.3/chartist.min.js</a>]]></description>
-            <link>https://gionkunz.github.io/chartist-js</link>
-            <guid isPermaLink="false">chartist0.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 17 Oct 2014 07:18:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[piwik updated to version 2.8.0]]></title>
