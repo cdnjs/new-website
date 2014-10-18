@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 18 Oct 2014 04:47:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Oct 2014 05:02:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[draggabilly updated to version 1.1.1]]></title>
+            <description><![CDATA[Draggabilly is Javascript library to make elements draggable. When dragging, Draggabillly will add the class .is-dragging to the element. The minified source draggabilly.pkgd.min.js is on http://draggabilly.desandro.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.1/draggabilly.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.1/draggabilly.pkgd.min.js</a>]]></description>
+            <link>http://draggabilly.desandro.com/</link>
+            <guid isPermaLink="false">draggabilly1.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 18 Oct 2014 04:55:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[minitranslate updated to version 1.2.0]]></title>
             <description><![CDATA[A lightweight way to change words into other words.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minitranslate/1.2.0/minitranslate.min.js">//cdnjs.cloudflare.com/ajax/libs/minitranslate/1.2.0/minitranslate.min.js</a>]]></description>
@@ -108,14 +116,6 @@
             <guid isPermaLink="false">piwik2.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 17 Oct 2014 06:24:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[draggabilly updated to version 1.1.0]]></title>
-            <description><![CDATA[Draggabilly is Javascript library to make elements draggable. When dragging, Draggabillly will add the class .is-dragging to the element. The minified source draggabilly.pkgd.min.js is on http://draggabilly.desandro.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.0/draggabilly.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.0/draggabilly.pkgd.min.js</a>]]></description>
-            <link>http://draggabilly.desandro.com/</link>
-            <guid isPermaLink="false">draggabilly1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 17 Oct 2014 04:34:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.transit updated to version 0.9.12]]></title>
