@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Oct 2014 16:17:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Oct 2014 16:32:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-strap updated to version 2.1.2]]></title>
+            <description><![CDATA[AngularStrap - Twitter Bootstrap directives for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js</a>]]></description>
+            <link>http://mgcrea.github.com/angular-strap</link>
+            <guid isPermaLink="false">angular-strap2.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 19 Oct 2014 16:27:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-tour updated to version 0.10.1]]></title>
             <description><![CDATA[Quick and easy way to build your product tours with Twitter Bootstrap Popovers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.10.1/js/bootstrap-tour.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-tour/0.10.1/js/bootstrap-tour.min.js</a>]]></description>
@@ -568,14 +576,6 @@
             <guid isPermaLink="false">tinycolor1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 07 Oct 2014 01:50:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-strap updated to version 2.1.1]]></title>
-            <description><![CDATA[AngularStrap - Twitter Bootstrap directives for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.1/angular-strap.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.1/angular-strap.min.js</a>]]></description>
-            <link>http://mgcrea.github.com/angular-strap</link>
-            <guid isPermaLink="false">angular-strap2.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 06 Oct 2014 19:27:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[SlickNav(1.0.1) was added]]></title>
