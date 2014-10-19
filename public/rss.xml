@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 19 Oct 2014 06:32:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 19 Oct 2014 06:47:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -584,30 +584,6 @@
             <guid isPermaLink="false">SlickNav1.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 06 Oct 2014 12:21:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pace updated to version 1.0.1]]></title>
-            <description><![CDATA[Automatic web page progress bar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.1/pace.js">//cdnjs.cloudflare.com/ajax/libs/pace/1.0.1/pace.js</a>]]></description>
-            <link>http://github.hubspot.com/pace/</link>
-            <guid isPermaLink="false">pace1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 05 Oct 2014 06:33:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ouibounce updated to version 0.0.10]]></title>
-            <description><![CDATA[Show some HTML before visitors leave your site.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.10/ouibounce.js">//cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.10/ouibounce.js</a>]]></description>
-            <link>https://github.com/carlsednaoui/ouibounce</link>
-            <guid isPermaLink="false">ouibounce0.0.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 05 Oct 2014 06:33:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ramda updated to version 0.6.0]]></title>
-            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.6.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.6.0/ramda.min.js</a>]]></description>
-            <link>https://www.github.com/CrossEye/ramda</link>
-            <guid isPermaLink="false">ramda0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 05 Oct 2014 06:31:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
