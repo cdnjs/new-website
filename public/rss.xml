@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Oct 2014 03:02:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Oct 2014 03:17:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[speakingurl updated to version 0.15.0]]></title>
+            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.15.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.15.0/speakingurl.min.js</a>]]></description>
+            <link>http://pid.github.io/speakingurl/</link>
+            <guid isPermaLink="false">speakingurl0.15.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 20 Oct 2014 03:08:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[localforage updated to version 1.1.0]]></title>
+            <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/1.1.0/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/1.1.0/localforage.min.js</a>]]></description>
+            <link>https://github.com/mozilla/localForage</link>
+            <guid isPermaLink="false">localforage1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 20 Oct 2014 03:08:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lunr.js updated to version 0.5.6]]></title>
+            <description><![CDATA[Simple full-text search in your browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.6/lunr.min.js">//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.6/lunr.min.js</a>]]></description>
+            <link>http://lunrjs.com</link>
+            <guid isPermaLink="false">lunr.js0.5.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 20 Oct 2014 03:07:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-strap updated to version 2.1.2]]></title>
             <description><![CDATA[AngularStrap - Twitter Bootstrap directives for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js</a>]]></description>
@@ -29,14 +53,6 @@
             <guid isPermaLink="false">bootstrap-tour0.10.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 19 Oct 2014 06:11:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[speakingurl updated to version 0.14.0]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.14.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.14.0/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.14.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 19 Oct 2014 06:10:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[fluidbox updated to version 1.4.0]]></title>
@@ -172,14 +188,6 @@
             <guid isPermaLink="false">bootstrap-table1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 16 Oct 2014 16:20:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[localforage updated to version 1.0.3]]></title>
-            <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/1.0.3/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/1.0.3/localforage.min.js</a>]]></description>
-            <link>https://github.com/mozilla/localForage</link>
-            <guid isPermaLink="false">localforage1.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 16 Oct 2014 15:52:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[polymer updated to version 0.4.2]]></title>
