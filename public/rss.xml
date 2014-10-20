@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 20 Oct 2014 12:17:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Oct 2014 12:32:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -584,14 +584,6 @@
             <guid isPermaLink="false">tinycolor1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 07 Oct 2014 01:50:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[SlickNav(1.0.1) was added]]></title>
-            <description><![CDATA[Responsive Mobile Menu Plugin for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.1/jquery.slicknav.min.js">//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.1/jquery.slicknav.min.js</a>]]></description>
-            <link>http://slicknav.com/</link>
-            <guid isPermaLink="false">SlickNav1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 06 Oct 2014 12:21:29 GMT</pubDate>
         </item>
     </channel>
 </rss>
