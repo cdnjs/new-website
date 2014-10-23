@@ -10,10 +10,81 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 23 Oct 2014 04:49:45 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Oct 2014 16:23:09 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[AniJS updated to version 0.8.1]]></title>
+            <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.8.1/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.8.1/anijs-min.js</a>]]></description>
+            <link>http://anijs.github.io/</link>
+            <guid isPermaLink="false">AniJS0.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 16:11:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ramda updated to version 0.7.1]]></title>
+            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.1/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.1/ramda.min.js</a>]]></description>
+            <link>https://www.github.com/ramda/ramda</link>
+            <guid isPermaLink="false">ramda0.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 16:10:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 1.5.2]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/1.5.2/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/1.5.2/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe1.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 15:40:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pixi.js updated to version 2.0.0]]></title>
+            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.0.0/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.0.0/pixi.js</a>]]></description>
+            <link>http://goodboydigital.com/</link>
+            <guid isPermaLink="false">pixi.js2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 15:37:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.14]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.14/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.14/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 15:37:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mocha updated to version 2.0.1]]></title>
+            <description><![CDATA[simple, flexible, fun test framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mocha/2.0.1/mocha.js">//cdnjs.cloudflare.com/ajax/libs/mocha/2.0.1/mocha.js</a>]]></description>
+            <guid isPermaLink="false">mocha2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 15:36:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[froala-editor updated to version 1.2.3]]></title>
+            <description><![CDATA[A beautiful jQuery WYSIWYG text editor based on HTML5 technology. Cross browser, with mobile support, high performance and Retina Ready flat design.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.3/js/froala_editor.min.js">//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.3/js/froala_editor.min.js</a>]]></description>
+            <link>http://editor.froala.com/</link>
+            <guid isPermaLink="false">froala-editor1.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 15:36:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ladda updated to version 0.9.3]]></title>
+            <description><![CDATA[Buttons with built-in loading indicators<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.3/ladda.min.js">//cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.3/ladda.min.js</a>]]></description>
+            <link>http://lab.hakim.se/ladda</link>
+            <guid isPermaLink="false">Ladda0.9.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 15:19:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[noti.js(0.9-beta.5) was added]]></title>
+            <description><![CDATA[easy create cross-browser web notifications, with fallback for non-supporting browsers and other features<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/noti.js/0.9-beta.5/noti.min.js">//cdnjs.cloudflare.com/ajax/libs/noti.js/0.9-beta.5/noti.min.js</a>]]></description>
+            <link>https://github.com/j-l-n/noti.js/</link>
+            <guid isPermaLink="false">noti.js0.9-beta.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 14:59:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[backbone.marionette updated to version 2.2.2]]></title>
             <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.2.2/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.2.2/backbone.marionette.min.js</a>]]></description>
@@ -77,13 +148,6 @@
             <guid isPermaLink="false">punycode1.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 22 Oct 2014 15:25:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mocha updated to version 2.0.0]]></title>
-            <description><![CDATA[simple, flexible, fun test framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mocha/2.0.0/mocha.js">//cdnjs.cloudflare.com/ajax/libs/mocha/2.0.0/mocha.js</a>]]></description>
-            <guid isPermaLink="false">mocha2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 22 Oct 2014 15:24:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-material-design(0.1.1) was added]]></title>
@@ -539,14 +603,6 @@
             <pubDate>Sun, 12 Oct 2014 03:40:09 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[rxjs updated to version 2.3.13]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.13/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.13/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 12 Oct 2014 00:53:39 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[peerjs updated to version 0.3.14]]></title>
             <description><![CDATA[Peer-to-peer data in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.14/peer.min.js">//cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.14/peer.min.js</a>]]></description>
             <link>http://peerjs.com/</link>
@@ -609,53 +665,6 @@
             <guid isPermaLink="false">highlight.js8.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 10 Oct 2014 00:34:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angularSubkit updated to version 1.0.1]]></title>
-            <description><![CDATA[AngularSubkit is a set of browser Subkit bindings for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularSubkit/1.0.1/angularsubkit.min.js">//cdnjs.cloudflare.com/ajax/libs/angularSubkit/1.0.1/angularsubkit.min.js</a>]]></description>
-            <link>https://github.com/subkit/angularsubkit.js</link>
-            <guid isPermaLink="false">angularSubkit1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 09 Oct 2014 16:16:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[phaser updated to version 2.1.2]]></title>
-            <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.1.2/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.1.2/phaser.min.js</a>]]></description>
-            <link>http://phaser.io/</link>
-            <guid isPermaLink="false">phaser2.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 09 Oct 2014 16:15:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[slick-carousel updated to version 1.3.11]]></title>
-            <description><![CDATA[the last carousel you'll ever need<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.11/slick.min.js">//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.11/slick.min.js</a>]]></description>
-            <guid isPermaLink="false">slick-carousel1.3.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 09 Oct 2014 07:25:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tinymce updated to version 4.1.6]]></title>
-            <description><![CDATA[TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.6/tinymce.min.js">//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.6/tinymce.min.js</a>]]></description>
-            <link>http://www.tinymce.com</link>
-            <guid isPermaLink="false">tinymce4.1.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 09 Oct 2014 06:33:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[proj4js updated to version 2.3.3]]></title>
-            <description><![CDATA[Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.3/proj4.js">//cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.3/proj4.js</a>]]></description>
-            <link>http://proj4js.org/</link>
-            <guid isPermaLink="false">proj4js2.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 09 Oct 2014 06:33:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[eddy updated to version 0.6.3]]></title>
-            <description><![CDATA[Event Driven JS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/eddy/0.6.3/eddy.dom.js">//cdnjs.cloudflare.com/ajax/libs/eddy/0.6.3/eddy.dom.js</a>]]></description>
-            <link>https://github.com/WebReflection/eddy</link>
-            <guid isPermaLink="false">eddy0.6.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 09 Oct 2014 06:32:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
