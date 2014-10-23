@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 23 Oct 2014 17:02:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Oct 2014 17:17:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -212,6 +212,14 @@
             <guid isPermaLink="false">chroma-js0.6.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 21 Oct 2014 15:42:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-bootstrap updated to version 0.11.2]]></title>
+            <description><![CDATA[Native AngularJS (Angular) directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.min.js</a>]]></description>
+            <link>http://angular-ui.github.io/bootstrap/</link>
+            <guid isPermaLink="false">angular-ui-bootstrap0.11.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 21 Oct 2014 03:31:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[codemirror updated to version 4.7.0]]></title>
