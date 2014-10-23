@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 23 Oct 2014 02:12:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Oct 2014 04:49:45 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[backbone.marionette updated to version 2.2.2]]></title>
+            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.2.2/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.2.2/backbone.marionette.min.js</a>]]></description>
+            <link>http://github.com/marionettejs/backbone.marionette</link>
+            <guid isPermaLink="false">backbone.marionette2.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 04:47:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-select(0.8.3) was added]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.8.3/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.8.3/select.min.js</a>]]></description>
+            <link>http://github.com/angular-ui/ui-select</link>
+            <guid isPermaLink="false">angular-ui-select0.8.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 23 Oct 2014 04:46:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[localforage updated to version 1.1.1]]></title>
             <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/1.1.1/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/1.1.1/localforage.min.js</a>]]></description>
