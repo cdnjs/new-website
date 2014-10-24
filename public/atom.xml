@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Oct 2014 11:17:23 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Oct 2014 11:32:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[playlyfe-js-sdk(0.9.0) was added]]></title>
+            <description><![CDATA[Playlyfe Javascript SDK for browser-based apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/playlyfe-js-sdk/0.9.0/playlyfe-js-sdk.min.js">//cdnjs.cloudflare.com/ajax/libs/playlyfe-js-sdk/0.9.0/playlyfe-js-sdk.min.js</a>]]></description>
+            <link>https://dev.playlyfe.com/docs/sdk.html</link>
+            <guid isPermaLink="false">playlyfe-js-sdk0.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 24 Oct 2014 11:05:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[allow-me(0.1.1) was added]]></title>
+            <description><![CDATA[Visual aid for your users in giving you browser's permission such as cam or mic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.js">//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.js</a>]]></description>
+            <guid isPermaLink="false">allow-me0.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 24 Oct 2014 09:28:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[three.js updated to version r69]]></title>
             <description><![CDATA[three.js is a lightweight 3D library with a very low level of complexity. The library provides <canvas>, <svg> and WebGL renderers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.min.js">//cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.min.js</a>]]></description>
