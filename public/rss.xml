@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Oct 2014 08:32:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Oct 2014 08:47:34 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[three.js updated to version r69]]></title>
+            <description><![CDATA[three.js is a lightweight 3D library with a very low level of complexity. The library provides <canvas>, <svg> and WebGL renderers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.min.js">//cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.min.js</a>]]></description>
+            <link>http://threejs.org/</link>
+            <guid isPermaLink="false">three.jsr69</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 24 Oct 2014 08:21:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[svg.js updated to version 1.0.1]]></title>
             <description><![CDATA[A lightweight JavaScript library for manipulating and animating svg using an uncluttered syntax.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/svg.js/1.0.1/svg.min.js">//cdnjs.cloudflare.com/ajax/libs/svg.js/1.0.1/svg.min.js</a>]]></description>
