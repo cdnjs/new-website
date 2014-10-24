@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Oct 2014 01:47:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Oct 2014 02:02:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[phaser updated to version 2.1.3]]></title>
+            <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.1.3/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.1.3/phaser.min.js</a>]]></description>
+            <link>http://phaser.io/</link>
+            <guid isPermaLink="false">phaser2.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 24 Oct 2014 01:44:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[AniJS updated to version 0.8.1]]></title>
             <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.8.1/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.8.1/anijs-min.js</a>]]></description>
