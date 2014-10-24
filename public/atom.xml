@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Oct 2014 03:17:22 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Oct 2014 03:32:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jstree updated to version 3.0.8]]></title>
+            <description><![CDATA[jQuery tree plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.8/jstree.min.js">//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.8/jstree.min.js</a>]]></description>
+            <link>http://jstree.com</link>
+            <guid isPermaLink="false">jstree3.0.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 24 Oct 2014 03:25:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 2.6.0]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.0/Immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.0/Immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable2.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 24 Oct 2014 03:24:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.25]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.25/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.25/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.25</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 24 Oct 2014 03:21:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[phaser updated to version 2.1.3]]></title>
             <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.1.3/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.1.3/phaser.min.js</a>]]></description>
@@ -182,28 +206,12 @@
             <pubDate>Wed, 22 Oct 2014 05:05:53 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[immutable updated to version 2.5.1]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/2.5.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/2.5.1/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable2.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 22 Oct 2014 04:19:56 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[mobile-detect updated to version 0.4.2]]></title>
             <description><![CDATA[Device detection (phone, tablet, desktop, mobile grade, os, versions)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mobile-detect/0.4.2/mobile-detect.min.js">//cdnjs.cloudflare.com/ajax/libs/mobile-detect/0.4.2/mobile-detect.min.js</a>]]></description>
             <link>http://hgoebl.github.io/mobile-detect.js/</link>
             <guid isPermaLink="false">mobile-detect0.4.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 22 Oct 2014 04:14:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.24]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.24/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.24/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.24</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 22 Oct 2014 04:14:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ng-dialog updated to version 0.3.2]]></title>
@@ -498,14 +506,6 @@
             <guid isPermaLink="false">jquery-smooth-scroll1.5.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 15 Oct 2014 17:44:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jstree updated to version 3.0.6]]></title>
-            <description><![CDATA[jQuery tree plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.6/jstree.min.js">//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.6/jstree.min.js</a>]]></description>
-            <link>http://jstree.com</link>
-            <guid isPermaLink="false">jstree3.0.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 15 Oct 2014 17:44:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[uikit updated to version 2.11.1]]></title>
