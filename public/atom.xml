@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 24 Oct 2014 00:32:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Oct 2014 00:47:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -665,14 +665,6 @@
             <guid isPermaLink="false">xlsx0.7.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 10 Oct 2014 06:02:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highlight.js updated to version 8.3]]></title>
-            <description><![CDATA[Easy-to-use, Javascript-based syntax highlighter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js">//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js</a>]]></description>
-            <link>http://highlightjs.org</link>
-            <guid isPermaLink="false">highlight.js8.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 10 Oct 2014 00:34:25 GMT</pubDate>
         </item>
     </channel>
 </rss>
