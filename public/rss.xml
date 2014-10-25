@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 Oct 2014 01:17:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Oct 2014 01:32:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[immutable updated to version 2.6.1]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.1/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable2.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 25 Oct 2014 01:25:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ramda updated to version 0.7.2]]></title>
+            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.2/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.2/ramda.min.js</a>]]></description>
+            <link>https://www.github.com/ramda/ramda</link>
+            <guid isPermaLink="false">ramda0.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 25 Oct 2014 01:20:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.5]]></title>
             <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.5/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.5/perfect-scrollbar.min.js</a>]]></description>
@@ -86,14 +102,6 @@
             <pubDate>Fri, 24 Oct 2014 03:25:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[immutable updated to version 2.6.0]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.0/Immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.0/Immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable2.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 24 Oct 2014 03:24:05 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bacon.js updated to version 0.7.25]]></title>
             <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.25/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.25/Bacon.min.js</a>]]></description>
             <link>http://baconjs.blogspot.com</link>
@@ -116,14 +124,6 @@
             <guid isPermaLink="false">AniJS0.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 23 Oct 2014 16:11:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ramda updated to version 0.7.1]]></title>
-            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.1/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.1/ramda.min.js</a>]]></description>
-            <link>https://www.github.com/ramda/ramda</link>
-            <guid isPermaLink="false">ramda0.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 23 Oct 2014 16:10:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yasqe updated to version 1.5.2]]></title>
