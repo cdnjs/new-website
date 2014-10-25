@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 Oct 2014 14:32:25 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Oct 2014 14:47:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -663,30 +663,6 @@
             <guid isPermaLink="false">require-css0.1.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 12 Oct 2014 03:40:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[peerjs updated to version 0.3.14]]></title>
-            <description><![CDATA[Peer-to-peer data in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.14/peer.min.js">//cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.14/peer.min.js</a>]]></description>
-            <link>http://peerjs.com/</link>
-            <guid isPermaLink="false">peerjs0.3.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 11 Oct 2014 14:39:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[reqwest updated to version 1.1.4]]></title>
-            <description><![CDATA[A wrapper for asynchronous http requests<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.4/reqwest.js">//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.4/reqwest.js</a>]]></description>
-            <link>https://github.com/ded/reqwest</link>
-            <guid isPermaLink="false">reqwest1.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 11 Oct 2014 14:38:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[document-register-element updated to version 0.1.6]]></title>
-            <description><![CDATA[A stand-alone working lightweight version of the W3C Custom Elements specification<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.6/document-register-element.js">//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.6/document-register-element.js</a>]]></description>
-            <link>https://github.com/WebReflection/document-register-element</link>
-            <guid isPermaLink="false">document-register-element0.1.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 11 Oct 2014 14:37:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[require.js updated to version 2.1.15]]></title>
