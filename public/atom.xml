@@ -10,10 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 Oct 2014 17:17:22 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Oct 2014 17:32:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-poller updated to version 0.3.0]]></title>
+            <description><![CDATA[Angular Poller service uses a timer and sends requests every few seconds to keep the client synced with the server.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-poller/0.3.0/angular-poller.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-poller/0.3.0/angular-poller.min.js</a>]]></description>
+            <link>https://github.com/emmaguo/angular-poller.git</link>
+            <guid isPermaLink="false">angular-poller0.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 25 Oct 2014 17:18:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-switch updated to version 3.1.0]]></title>
+            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.1.0/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.1.0/js/bootstrap-switch.min.js</a>]]></description>
+            <link>http://www.bootstrap-switch.org</link>
+            <guid isPermaLink="false">bootstrap-switch3.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 25 Oct 2014 17:16:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sprintf updated to version 1.0.1]]></title>
+            <description><![CDATA[JavaScript sprintf implementation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sprintf/1.0.1/sprintf.min.js">//cdnjs.cloudflare.com/ajax/libs/sprintf/1.0.1/sprintf.min.js</a>]]></description>
+            <guid isPermaLink="false">sprintf1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 25 Oct 2014 13:25:48 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[playlyfe-odysseus(0.5.6) was added]]></title>
             <description><![CDATA[Parse and build stories out of Playlyfe Events.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/playlyfe-odysseus/0.5.6/odysseus.min.js">//cdnjs.cloudflare.com/ajax/libs/playlyfe-odysseus/0.5.6/odysseus.min.js</a>]]></description>
