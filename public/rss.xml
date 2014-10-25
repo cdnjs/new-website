@@ -10,10 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 Oct 2014 13:02:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 25 Oct 2014 13:17:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[playlyfe-odysseus(0.5.6) was added]]></title>
+            <description><![CDATA[Parse and build stories out of Playlyfe Events.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/playlyfe-odysseus/0.5.6/odysseus.min.js">//cdnjs.cloudflare.com/ajax/libs/playlyfe-odysseus/0.5.6/odysseus.min.js</a>]]></description>
+            <guid isPermaLink="false">playlyfe-odysseus0.5.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 25 Oct 2014 05:57:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[immutable updated to version 2.6.1]]></title>
             <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.1/immutable.min.js</a>]]></description>
