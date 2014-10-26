@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 26 Oct 2014 03:32:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Oct 2014 03:47:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -678,14 +678,6 @@
             <guid isPermaLink="false">trianglify0.1.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 12 Oct 2014 06:42:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[require-css updated to version 0.1.5]]></title>
-            <description><![CDATA[A RequireJS CSS loader plugin to allow CSS requires and optimization<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/require-css/0.1.5/css.js">//cdnjs.cloudflare.com/ajax/libs/require-css/0.1.5/css.js</a>]]></description>
-            <link>https://github.com/guybedford/require-css</link>
-            <guid isPermaLink="false">require-css0.1.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 12 Oct 2014 03:40:09 GMT</pubDate>
         </item>
     </channel>
 </rss>
