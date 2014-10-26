@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 26 Oct 2014 06:32:24 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Oct 2014 06:47:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -670,14 +670,6 @@
             <guid isPermaLink="false">basis.js1.3.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 12 Oct 2014 18:12:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[trianglify updated to version 0.1.5]]></title>
-            <description><![CDATA[Trianglify is a javascript library for generating colorful triangle meshes that can be used as SVG images and CSS backgrounds.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js">//cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js</a>]]></description>
-            <link>https://github.com/qrohlf/trianglify</link>
-            <guid isPermaLink="false">trianglify0.1.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 12 Oct 2014 06:42:44 GMT</pubDate>
         </item>
     </channel>
 </rss>
