@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Oct 2014 04:47:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Oct 2014 05:02:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -29,6 +29,14 @@
             <guid isPermaLink="false">loglevel1.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 27 Oct 2014 01:29:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr(1.2.3) was added]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/1.2.3/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/1.2.3/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr1.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 26 Oct 2014 22:50:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[slick-carousel updated to version 1.3.12]]></title>
