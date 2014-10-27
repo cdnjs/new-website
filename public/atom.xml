@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Oct 2014 13:02:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Oct 2014 13:17:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -708,14 +708,6 @@
             <guid isPermaLink="false">ember-data.js1.0.0-beta.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 13 Oct 2014 16:38:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[subkit updated to version 1.0.23]]></title>
-            <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.23/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.23/subkit.min.js</a>]]></description>
-            <link>https://github.com/subkit/subkit.js</link>
-            <guid isPermaLink="false">subkit1.0.23</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 13 Oct 2014 13:13:22 GMT</pubDate>
         </item>
     </channel>
 </rss>
