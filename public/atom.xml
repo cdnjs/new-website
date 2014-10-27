@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 27 Oct 2014 05:02:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Oct 2014 05:17:31 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[tinycolor updated to version 1.0.0]]></title>
+            <description><![CDATA[Fast, small color manipulation and conversion for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.0.0/tinycolor.min.js">//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.0.0/tinycolor.min.js</a>]]></description>
+            <link>http://bgrins.github.io/TinyColor/</link>
+            <guid isPermaLink="false">tinycolor1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 27 Oct 2014 05:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 1.2.3]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/1.2.3/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/1.2.3/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr1.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 27 Oct 2014 04:57:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.20.0]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.0/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.20.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 27 Oct 2014 04:57:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Cookies.js updated to version 1.0.0]]></title>
             <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.0.0/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.0.0/cookies.min.js</a>]]></description>
@@ -29,14 +53,6 @@
             <guid isPermaLink="false">loglevel1.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 27 Oct 2014 01:29:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasr(1.2.3) was added]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/1.2.3/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/1.2.3/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr1.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 26 Oct 2014 22:50:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[slick-carousel updated to version 1.3.12]]></title>
@@ -83,14 +99,6 @@
             <guid isPermaLink="false">chartist0.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 26 Oct 2014 16:05:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.19.2]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.19.2/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.19.2/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.19.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 26 Oct 2014 04:08:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-poller updated to version 0.3.0]]></title>
