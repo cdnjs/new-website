@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Oct 2014 18:32:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Oct 2014 18:47:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bootstrap-material-design updated to version 0.1.3]]></title>
+            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.3/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.3/js/material.min.js</a>]]></description>
+            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
+            <guid isPermaLink="false">bootstrap-material-design0.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 28 Oct 2014 18:40:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chartist updated to version 0.3.1]]></title>
+            <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.3.1/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.3.1/chartist.min.js</a>]]></description>
+            <link>https://gionkunz.github.io/chartist-js</link>
+            <guid isPermaLink="false">chartist0.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 28 Oct 2014 18:40:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[speakingurl updated to version 0.16.0]]></title>
             <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.16.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.16.0/speakingurl.min.js</a>]]></description>
@@ -149,14 +165,6 @@
             <pubDate>Sun, 26 Oct 2014 16:05:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[chartist updated to version 0.3.0]]></title>
-            <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.3.0/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.3.0/chartist.min.js</a>]]></description>
-            <link>https://gionkunz.github.io/chartist-js</link>
-            <guid isPermaLink="false">chartist0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 26 Oct 2014 16:05:39 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-poller updated to version 0.3.0]]></title>
             <description><![CDATA[Angular Poller service uses a timer and sends requests every few seconds to keep the client synced with the server.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-poller/0.3.0/angular-poller.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-poller/0.3.0/angular-poller.min.js</a>]]></description>
             <link>https://github.com/emmaguo/angular-poller.git</link>
@@ -209,14 +217,6 @@
             <guid isPermaLink="false">jquery.perfect-scrollbar0.5.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 24 Oct 2014 16:21:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-material-design updated to version 0.1.2]]></title>
-            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.2/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.2/js/material.min.js</a>]]></description>
-            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
-            <guid isPermaLink="false">bootstrap-material-design0.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 24 Oct 2014 16:13:33 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[allow-me updated to version 0.1.1]]></title>
