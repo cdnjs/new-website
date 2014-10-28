@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Oct 2014 00:02:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Oct 2014 00:17:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -700,14 +700,6 @@
             <guid isPermaLink="false">devicons1.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 14 Oct 2014 03:21:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[json2 updated to version 20140204]]></title>
-            <description><![CDATA[This file creates a global JSON object containing two methods: stringify and parse.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/json2/20140204/json2.min.js">//cdnjs.cloudflare.com/ajax/libs/json2/20140204/json2.min.js</a>]]></description>
-            <link>https://github.com/douglascrockford/JSON-js</link>
-            <guid isPermaLink="false">json220140204</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 14 Oct 2014 00:15:56 GMT</pubDate>
         </item>
     </channel>
 </rss>
