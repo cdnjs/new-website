@@ -10,10 +10,97 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 29 Oct 2014 14:02:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Oct 2014 14:17:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.6]]></title>
+            <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.6/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.6/perfect-scrollbar.min.js</a>]]></description>
+            <link>http://www.yuiazu.net/perfect-scrollbar/</link>
+            <guid isPermaLink="false">jquery.perfect-scrollbar0.5.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:11:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[noti.js updated to version 1.0.1]]></title>
+            <description><![CDATA[easy create cross-browser web notifications, with fallback for non-supporting browsers and other features<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/noti.js/1.0.1/noti.min.js">//cdnjs.cloudflare.com/ajax/libs/noti.js/1.0.1/noti.min.js</a>]]></description>
+            <link>https://github.com/j-l-n/noti.js/</link>
+            <guid isPermaLink="false">noti.js1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:10:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootcards updated to version 1.0.0]]></title>
+            <description><![CDATA[A cards-based UI framework for mobile and desktop apps, built on top of Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js">//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js</a>]]></description>
+            <link>http://bootcards.org</link>
+            <guid isPermaLink="false">bootcards1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:09:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 1.5.4]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/1.5.4/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/1.5.4/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe1.5.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:07:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jshint updated to version 2.5.7]]></title>
+            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.7/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.7/jshint.js</a>]]></description>
+            <link>http://jshint.com/</link>
+            <guid isPermaLink="false">jshint2.5.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:06:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.0.0]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.0/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:06:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.20.2]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.2/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.2/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.20.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:05:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.3.4]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.4/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.4/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:05:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone-react-component updated to version 0.7.1]]></title>
+            <description><![CDATA[Backbone.React.Component is a wrapper for React.Component and brings all the power of Facebook's React to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.1/backbone-react-component.js">//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.1/backbone-react-component.js</a>]]></description>
+            <guid isPermaLink="false">backbone-react-component0.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:04:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react updated to version 0.12.0]]></title>
+            <description><![CDATA[React is a JavaScript library for building user interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react.min.js">//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react.min.js</a>]]></description>
+            <link>http://facebook.github.io/react</link>
+            <guid isPermaLink="false">react0.12.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:01:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vis updated to version 3.6.3]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.6.3/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.6.3/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis3.6.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 29 Oct 2014 14:00:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-material-design updated to version 0.1.3]]></title>
             <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.3/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.3/js/material.min.js</a>]]></description>
@@ -39,14 +126,6 @@
             <pubDate>Tue, 28 Oct 2014 14:50:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[es6-shim updated to version 0.20.1]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.1/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.1/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.20.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 28 Oct 2014 14:50:39 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[nanogallery updated to version 5.2.2]]></title>
             <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.2.2/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.2.2/jquery.nanogallery.min.js</a>]]></description>
             <link>http://nanogallery.brisbois.fr/</link>
@@ -68,14 +147,6 @@
             <guid isPermaLink="false">slick-carousel1.3.13</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 28 Oct 2014 01:55:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 1.5.3]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/1.5.3/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/1.5.3/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe1.5.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 28 Oct 2014 01:55:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[masonry updated to version 3.1.5]]></title>
@@ -195,14 +266,6 @@
             <pubDate>Sat, 25 Oct 2014 05:57:17 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[immutable updated to version 2.6.1]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/2.6.1/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable2.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 25 Oct 2014 01:25:13 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ramda updated to version 0.7.2]]></title>
             <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.2/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.2/ramda.min.js</a>]]></description>
             <link>https://www.github.com/ramda/ramda</link>
@@ -211,27 +274,11 @@
             <pubDate>Sat, 25 Oct 2014 01:20:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.5]]></title>
-            <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.5/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.5/perfect-scrollbar.min.js</a>]]></description>
-            <link>http://www.yuiazu.net/perfect-scrollbar/</link>
-            <guid isPermaLink="false">jquery.perfect-scrollbar0.5.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 24 Oct 2014 16:21:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[allow-me updated to version 0.1.1]]></title>
             <description><![CDATA[Visual aid for your users in giving you browser's permission such as cam or mic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.js">//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.js</a>]]></description>
             <guid isPermaLink="false">allow-me0.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 24 Oct 2014 11:26:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vis updated to version 3.6.2]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.6.2/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.6.2/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis3.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 24 Oct 2014 11:26:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[playlyfe-js-sdk(0.9.0) was added]]></title>
@@ -327,14 +374,6 @@
             <guid isPermaLink="false">Ladda0.9.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 23 Oct 2014 15:19:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[noti.js(0.9-beta.5) was added]]></title>
-            <description><![CDATA[easy create cross-browser web notifications, with fallback for non-supporting browsers and other features<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/noti.js/0.9-beta.5/noti.min.js">//cdnjs.cloudflare.com/ajax/libs/noti.js/0.9-beta.5/noti.min.js</a>]]></description>
-            <link>https://github.com/j-l-n/noti.js/</link>
-            <guid isPermaLink="false">noti.js0.9-beta.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 23 Oct 2014 14:59:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone.marionette updated to version 2.2.2]]></title>
