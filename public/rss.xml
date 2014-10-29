@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 29 Oct 2014 08:32:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Oct 2014 08:47:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -653,14 +653,6 @@
             <guid isPermaLink="false">jquery-smooth-scroll1.5.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 15 Oct 2014 17:44:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uikit updated to version 2.11.1]]></title>
-            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.1/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.11.1/js/uikit.min.js</a>]]></description>
-            <link>http://www.getuikit.com</link>
-            <guid isPermaLink="false">uikit2.11.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 15 Oct 2014 08:42:37 GMT</pubDate>
         </item>
     </channel>
 </rss>
