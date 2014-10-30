@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Oct 2014 03:47:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Oct 2014 04:02:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -669,14 +669,6 @@
             <guid isPermaLink="false">hogan.js3.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 16 Oct 2014 06:03:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ink updated to version 3.1.1]]></title>
-            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.1.1/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.1.1/js/ink-all.min.js</a>]]></description>
-            <link>http://ink.sapo.pt/</link>
-            <guid isPermaLink="false">ink3.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 16 Oct 2014 03:54:47 GMT</pubDate>
         </item>
     </channel>
 </rss>
