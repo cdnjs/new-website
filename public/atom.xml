@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Oct 2014 06:05:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Oct 2014 06:17:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -677,14 +677,6 @@
             <guid isPermaLink="false">polymer0.4.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 16 Oct 2014 13:16:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[hogan.js updated to version 3.0.2]]></title>
-            <description><![CDATA[A mustache compiler.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.js">//cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.js</a>]]></description>
-            <link>http://twitter.github.com/hogan.js/</link>
-            <guid isPermaLink="false">hogan.js3.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 16 Oct 2014 06:03:56 GMT</pubDate>
         </item>
     </channel>
 </rss>
