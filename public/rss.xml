@@ -10,10 +10,58 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 30 Oct 2014 05:17:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Oct 2014 05:32:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[twitter-bootstrap updated to version 3.3.0]]></title>
+            <description><![CDATA[The most popular front-end framework for developing responsive, mobile first projects on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/js/bootstrap.min.js</a>]]></description>
+            <link>http://getbootstrap.com/</link>
+            <guid isPermaLink="false">twitter-bootstrap3.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 30 Oct 2014 05:22:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[blueimp-gallery updated to version 2.15.2]]></title>
+            <description><![CDATA[blueimp Gallery is a touch-enabled, responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers. It features swipe, mouse and keyboard navigation, transition effects, slideshow functionality, fullscreen support and on-demand content loading and can be extended to display additional content types.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.15.2/js/blueimp-gallery.js">//cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.15.2/js/blueimp-gallery.js</a>]]></description>
+            <link>https://github.com/blueimp/Gallery</link>
+            <guid isPermaLink="false">blueimp-gallery2.15.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 30 Oct 2014 05:18:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.0.1]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.1/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 30 Oct 2014 05:17:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jshint updated to version 2.5.8]]></title>
+            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.8/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.8/jshint.js</a>]]></description>
+            <link>http://jshint.com/</link>
+            <guid isPermaLink="false">jshint2.5.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 30 Oct 2014 05:17:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-material-design updated to version 0.1.4]]></title>
+            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.4/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.4/js/material.min.js</a>]]></description>
+            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
+            <guid isPermaLink="false">bootstrap-material-design0.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 30 Oct 2014 05:09:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[gsap updated to version 1.14.2]]></title>
+            <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js</a>]]></description>
+            <link>http://www.greensock.com/gsap-js/</link>
+            <guid isPermaLink="false">gsap1.14.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 30 Oct 2014 05:08:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[trunk8 updated to version 1.3.3]]></title>
             <description><![CDATA[trunk8 is an intelligent text truncation plugin to jQuery. When applied to a large block of text, trunk8 will cut off just enough text to prevent it from spilling over. Unlike conventional truncation that just limits the character length of text, trunk8 measures the content area for spill-over and intelligently chooses the text that best fits in the given space.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/trunk8/1.3.3/trunk8.min.js">//cdnjs.cloudflare.com/ajax/libs/trunk8/1.3.3/trunk8.min.js</a>]]></description>
@@ -55,22 +103,6 @@
             <pubDate>Wed, 29 Oct 2014 14:07:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jshint updated to version 2.5.7]]></title>
-            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.7/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.7/jshint.js</a>]]></description>
-            <link>http://jshint.com/</link>
-            <guid isPermaLink="false">jshint2.5.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:06:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[immutable updated to version 3.0.0]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.0/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:06:09 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[es6-shim updated to version 0.20.2]]></title>
             <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.2/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.2/es6-shim.min.js</a>]]></description>
             <link>https://github.com/es-shims/es6-shim/</link>
@@ -108,14 +140,6 @@
             <guid isPermaLink="false">vis3.6.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 29 Oct 2014 14:00:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-material-design updated to version 0.1.3]]></title>
-            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.3/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.3/js/material.min.js</a>]]></description>
-            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
-            <guid isPermaLink="false">bootstrap-material-design0.1.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 28 Oct 2014 18:40:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[chartist updated to version 0.3.1]]></title>
@@ -590,14 +614,6 @@
             <guid isPermaLink="false">d33.4.13</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 17 Oct 2014 16:42:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gsap updated to version 1.14.1]]></title>
-            <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.1/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.1/TweenMax.min.js</a>]]></description>
-            <link>http://www.greensock.com/gsap-js/</link>
-            <guid isPermaLink="false">gsap1.14.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 17 Oct 2014 16:33:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[swagger-ui(2.0.24) was added]]></title>
