@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 31 Oct 2014 06:02:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Oct 2014 06:17:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular.js updated to version 1.3.0]]></title>
+            <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js</a>]]></description>
+            <link>http://angularjs.org</link>
+            <guid isPermaLink="false">angular.js1.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 06:08:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.age updated to version 1.2.4]]></title>
             <description><![CDATA[Age is a jQuery plugin that formats and tracks dates and times as human readable text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.age/1.2.4/jquery.age.js">//cdnjs.cloudflare.com/ajax/libs/jquery.age/1.2.4/jquery.age.js</a>]]></description>
