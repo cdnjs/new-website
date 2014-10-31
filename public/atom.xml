@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 31 Oct 2014 12:32:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Oct 2014 12:47:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bootstrap-material-design updated to version 0.1.5]]></title>
+            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.5/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.5/js/material.min.js</a>]]></description>
+            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
+            <guid isPermaLink="false">bootstrap-material-design0.1.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 12:31:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.0.1]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.0.1/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.0.1/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 12:30:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cannon.js updated to version 0.6.1]]></title>
+            <description><![CDATA[A lightweight 3D physics engine written in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.1/cannon.min.js">//cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.1/cannon.min.js</a>]]></description>
+            <link>http://schteppe.github.com/cannon.js</link>
+            <guid isPermaLink="false">cannon.js0.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 12:27:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[autosize.js updated to version 1.18.14]]></title>
+            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.14/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.14/jquery.autosize.min.js</a>]]></description>
+            <link>http://www.jacklmoore.com/autosize</link>
+            <guid isPermaLink="false">autosize.js1.18.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 12:27:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular.js updated to version 1.3.0]]></title>
             <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js</a>]]></description>
@@ -37,14 +69,6 @@
             <guid isPermaLink="false">backbone-localstorage.js1.1.14</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 31 Oct 2014 03:43:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 2.0.0]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.0.0/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.0.0/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 31 Oct 2014 03:43:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[probtn updated to version 1.0.1]]></title>
@@ -117,14 +141,6 @@
             <guid isPermaLink="false">jshint2.5.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 30 Oct 2014 05:17:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-material-design updated to version 0.1.4]]></title>
-            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.4/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.4/js/material.min.js</a>]]></description>
-            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
-            <guid isPermaLink="false">bootstrap-material-design0.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 30 Oct 2014 05:09:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[gsap updated to version 1.14.2]]></title>
