@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 31 Oct 2014 03:47:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 Oct 2014 04:02:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.age updated to version 1.2.4]]></title>
+            <description><![CDATA[Age is a jQuery plugin that formats and tracks dates and times as human readable text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.age/1.2.4/jquery.age.js">//cdnjs.cloudflare.com/ajax/libs/jquery.age/1.2.4/jquery.age.js</a>]]></description>
+            <link>https://ksylvest.github.com/jquery-age</link>
+            <guid isPermaLink="false">jquery.age1.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 03:57:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone-localstorage.js updated to version 1.1.14]]></title>
+            <description><![CDATA[A simple module to replace Backbone.sync with localStorage-based persistence. Models are given GUIDS, and saved into a JSON object. Simple as that.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.14/backbone.localStorage-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.14/backbone.localStorage-min.js</a>]]></description>
+            <link>https://github.com/jeromegn/Backbone.localStorage</link>
+            <guid isPermaLink="false">backbone-localstorage.js1.1.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 03:43:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.0.0]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.0.0/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.0.0/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 03:43:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[probtn updated to version 1.0.1]]></title>
+            <description><![CDATA[Profit Button is an interactive element - floating button - that can be integrated to any mobile app or a web site. Include surveys and apps to your existing applications easily.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/probtn/1.0.1/includepb.min.js">//cdnjs.cloudflare.com/ajax/libs/probtn/1.0.1/includepb.min.js</a>]]></description>
+            <link>http://probtn.com/en</link>
+            <guid isPermaLink="false">probtn1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 03:42:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[noti.js updated to version 1.0.2]]></title>
+            <description><![CDATA[easy create cross-browser web notifications, with fallback for non-supporting browsers and other features<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/noti.js/1.0.2/noti.min.js">//cdnjs.cloudflare.com/ajax/libs/noti.js/1.0.2/noti.min.js</a>]]></description>
+            <link>https://github.com/j-l-n/noti.js/</link>
+            <guid isPermaLink="false">noti.js1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 31 Oct 2014 03:40:46 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[foundation-essential updated to version 5.4.7]]></title>
             <description><![CDATA[Slimmed-down build of ZURB Foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.4.7/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.4.7/js/foundation.min.js</a>]]></description>
@@ -103,28 +143,12 @@
             <pubDate>Wed, 29 Oct 2014 14:11:06 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[noti.js updated to version 1.0.1]]></title>
-            <description><![CDATA[easy create cross-browser web notifications, with fallback for non-supporting browsers and other features<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/noti.js/1.0.1/noti.min.js">//cdnjs.cloudflare.com/ajax/libs/noti.js/1.0.1/noti.min.js</a>]]></description>
-            <link>https://github.com/j-l-n/noti.js/</link>
-            <guid isPermaLink="false">noti.js1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:10:37 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bootcards updated to version 1.0.0]]></title>
             <description><![CDATA[A cards-based UI framework for mobile and desktop apps, built on top of Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js">//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js</a>]]></description>
             <link>http://bootcards.org</link>
             <guid isPermaLink="false">bootcards1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 29 Oct 2014 14:09:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 1.5.4]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/1.5.4/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/1.5.4/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe1.5.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:07:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[es6-shim updated to version 0.20.2]]></title>
@@ -526,14 +550,6 @@
             <guid isPermaLink="false">codemirror4.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 21 Oct 2014 02:21:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[probtn(1.0.0) was added]]></title>
-            <description><![CDATA[Profit Button is an interactive element - floating button - that can be integrated to any mobile app or a web site. Include surveys and apps to your existing applications easily.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/probtn/1.0.0/includepb.min.js">//cdnjs.cloudflare.com/ajax/libs/probtn/1.0.0/includepb.min.js</a>]]></description>
-            <link>http://probtn.com/en</link>
-            <guid isPermaLink="false">probtn1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 20 Oct 2014 22:21:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[holder updated to version 2.4.1]]></title>
