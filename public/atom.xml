@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 01 Nov 2014 08:32:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Nov 2014 08:47:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[immutable updated to version 3.0.2]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.2/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.2/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 01 Nov 2014 08:32:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-material-design updated to version 0.1.5]]></title>
             <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.5/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.5/js/material.min.js</a>]]></description>
@@ -125,14 +133,6 @@
             <guid isPermaLink="false">blueimp-gallery2.15.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 30 Oct 2014 05:18:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[immutable updated to version 3.0.1]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.1/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 30 Oct 2014 05:17:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jshint updated to version 2.5.8]]></title>
