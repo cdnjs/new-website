@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 02 Nov 2014 03:47:26 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Nov 2014 04:02:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.26]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.26/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.26/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.26</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 02 Nov 2014 03:45:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery-jgrowl updated to version 1.4.0]]></title>
             <description><![CDATA[jGrowl is a jQuery plugin that raises unobtrusive messages within the browser, similar to the way that OS X's Growl Framework works. The idea is simple, deliver notifications to the end user in a noticeable way that doesn't obstruct the work flow and yet keeps the user informed.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.0/jquery.jgrowl.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.0/jquery.jgrowl.min.js</a>]]></description>
@@ -423,14 +431,6 @@
             <guid isPermaLink="false">jstree3.0.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 24 Oct 2014 03:25:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.25]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.25/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.25/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.25</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 24 Oct 2014 03:21:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[phaser updated to version 2.1.3]]></title>
