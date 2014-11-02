@@ -10,17 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 02 Nov 2014 04:32:27 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Nov 2014 04:47:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[bacon.js updated to version 0.7.26]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.26/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.26/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.26</guid>
+            <title><![CDATA[select2 updated to version 3.5.2]]></title>
+            <description><![CDATA[Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. Look and feel of Select2 is based on the excellent Chosen library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js">//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js</a>]]></description>
+            <link>http://ivaynberg.github.com/select2/</link>
+            <guid isPermaLink="false">select23.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 02 Nov 2014 03:45:53 GMT</pubDate>
+            <pubDate>Sun, 02 Nov 2014 04:39:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.27]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.27/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.27/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.27</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 02 Nov 2014 04:38:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-jgrowl updated to version 1.4.0]]></title>
