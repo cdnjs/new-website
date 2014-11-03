@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Nov 2014 14:02:27 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Nov 2014 14:17:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery-timeago updated to version 1.4.1]]></title>
+            <description><![CDATA[Timeago is a jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. '4 minutes ago' or 'about 1 day ago') from ISO 8601 formatted dates and times embedded in your HTML (à la microformats).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.1/jquery.timeago.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.1/jquery.timeago.min.js</a>]]></description>
+            <link>http://timeago.yarp.com/</link>
+            <guid isPermaLink="false">jquery-timeago1.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 03 Nov 2014 14:11:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.form updated to version 3.51]]></title>
+            <description><![CDATA[A simple way to AJAX-ify any form on your page; with file upload and progress support.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js</a>]]></description>
+            <link>http://jquery.malsup.com/form/</link>
+            <guid isPermaLink="false">jquery.form3.51</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 03 Nov 2014 14:06:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[backbone-relational updated to version 0.9.0]]></title>
             <description><![CDATA[Get and set relations (one-to-one, one-to-many, many-to-one) for Backbone models<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-relational/0.9.0/backbone-relational.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-relational/0.9.0/backbone-relational.min.js</a>]]></description>
