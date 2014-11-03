@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Nov 2014 12:47:24 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Nov 2014 13:02:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[backbone-relational updated to version 0.9.0]]></title>
+            <description><![CDATA[Get and set relations (one-to-one, one-to-many, many-to-one) for Backbone models<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-relational/0.9.0/backbone-relational.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-relational/0.9.0/backbone-relational.min.js</a>]]></description>
+            <link>https://github.com/PaulUithol/Backbone-relational</link>
+            <guid isPermaLink="false">backbone-relational0.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 03 Nov 2014 12:52:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rivets updated to version 0.7.0]]></title>
+            <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.0/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.0/rivets.min.js</a>]]></description>
+            <link>http://rivetsjs.com</link>
+            <guid isPermaLink="false">rivets0.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 03 Nov 2014 12:46:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-poller updated to version 0.3.1]]></title>
+            <description><![CDATA[Angular Poller service uses a timer and sends requests every few seconds to keep the client synced with the server.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-poller/0.3.1/angular-poller.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-poller/0.3.1/angular-poller.min.js</a>]]></description>
+            <link>https://github.com/emmaguo/angular-poller.git</link>
+            <guid isPermaLink="false">angular-poller0.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 03 Nov 2014 04:25:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-datetimepicker updated to version 3.1.3]]></title>
             <description><![CDATA[Date/time picker widget for Twitter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js</a>]]></description>
@@ -404,14 +428,6 @@
             <pubDate>Sun, 26 Oct 2014 16:05:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-poller updated to version 0.3.0]]></title>
-            <description><![CDATA[Angular Poller service uses a timer and sends requests every few seconds to keep the client synced with the server.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-poller/0.3.0/angular-poller.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-poller/0.3.0/angular-poller.min.js</a>]]></description>
-            <link>https://github.com/emmaguo/angular-poller.git</link>
-            <guid isPermaLink="false">angular-poller0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 25 Oct 2014 17:18:17 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bootstrap-switch updated to version 3.1.0]]></title>
             <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.1.0/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.1.0/js/bootstrap-switch.min.js</a>]]></description>
             <link>http://www.bootstrap-switch.org</link>
@@ -638,22 +654,6 @@
             <guid isPermaLink="false">basics1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 20 Oct 2014 16:28:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[UAParser.js(0.6.2) was added]]></title>
-            <description><![CDATA[Lightweight JavaScript-based user-agent string parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.6.2/ua-parser.min.js">//cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.6.2/ua-parser.min.js</a>]]></description>
-            <link>http://github.com/faisalman/ua-parser-js</link>
-            <guid isPermaLink="false">UAParser.js0.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 20 Oct 2014 12:57:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[string.js updated to version 2.2.0]]></title>
-            <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/2.2.0/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/2.2.0/string.min.js</a>]]></description>
-            <link>http://stringjs.com</link>
-            <guid isPermaLink="false">string.js2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 20 Oct 2014 12:56:53 GMT</pubDate>
         </item>
     </channel>
 </rss>
