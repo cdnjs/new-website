@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Nov 2014 00:47:23 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Nov 2014 01:02:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bootstrap-datetimepicker updated to version 3.1.3]]></title>
+            <description><![CDATA[Date/time picker widget for Twitter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js</a>]]></description>
+            <link>http://eonasdan.github.io/bootstrap-datetimepicker/</link>
+            <guid isPermaLink="false">bootstrap-datetimepicker3.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 03 Nov 2014 00:54:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.28]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.28/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.28/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.28</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 03 Nov 2014 00:40:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[reqwest updated to version 1.1.5]]></title>
+            <description><![CDATA[A wrapper for asynchronous http requests<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.js">//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.js</a>]]></description>
+            <link>https://github.com/ded/reqwest</link>
+            <guid isPermaLink="false">reqwest1.1.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 03 Nov 2014 00:40:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[coordinates-picker(1.0.0) was added]]></title>
+            <description><![CDATA[This module allows you to show location of the address on map, and store it’s coordinates it in distinct field with custom format.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/coordinates-picker/1.0.0/coordinates-picker.min.js">//cdnjs.cloudflare.com/ajax/libs/coordinates-picker/1.0.0/coordinates-picker.min.js</a>]]></description>
+            <link>https://github.com/barinbritva/coordinates-picker</link>
+            <guid isPermaLink="false">coordinates-picker1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 02 Nov 2014 23:58:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[animate.css updated to version 3.2.0]]></title>
+            <description><![CDATA[Plug and play, app-like animations for your websites and web apps.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css</a>]]></description>
+            <link>http://daneden.github.io/animate.css</link>
+            <guid isPermaLink="false">animate.css3.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 02 Nov 2014 12:19:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[select2 updated to version 3.5.2]]></title>
             <description><![CDATA[Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. Look and feel of Select2 is based on the excellent Chosen library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js">//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js</a>]]></description>
@@ -21,14 +61,6 @@
             <guid isPermaLink="false">select23.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 02 Nov 2014 04:39:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.27]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.27/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.27/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.27</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 02 Nov 2014 04:38:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Ladda updated to version 0.9.4]]></title>
