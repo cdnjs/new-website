@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 03 Nov 2014 03:02:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Nov 2014 03:17:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -654,14 +654,6 @@
             <guid isPermaLink="false">string.js2.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 20 Oct 2014 12:56:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lunr.js updated to version 0.5.6]]></title>
-            <description><![CDATA[Simple full-text search in your browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.6/lunr.min.js">//cdnjs.cloudflare.com/ajax/libs/lunr.js/0.5.6/lunr.min.js</a>]]></description>
-            <link>http://lunrjs.com</link>
-            <guid isPermaLink="false">lunr.js0.5.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 20 Oct 2014 03:07:57 GMT</pubDate>
         </item>
     </channel>
 </rss>
