@@ -10,16 +10,16 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 04 Nov 2014 17:17:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Nov 2014 17:32:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[emojify.js(0.9.3) was added]]></title>
-            <description><![CDATA[A Javascript module to convert emoji keywords to images.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emojify.js/0.9.3/emojify.min.js">//cdnjs.cloudflare.com/ajax/libs/emojify.js/0.9.3/emojify.min.js</a>]]></description>
-            <guid isPermaLink="false">emojify.js0.9.3</guid>
+            <title><![CDATA[emojify.js updated to version 0.9.5]]></title>
+            <description><![CDATA[A Javascript module to convert emoji keywords to images.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emojify.js/0.9.5/emojify.min.js">//cdnjs.cloudflare.com/ajax/libs/emojify.js/0.9.5/emojify.min.js</a>]]></description>
+            <guid isPermaLink="false">emojify.js0.9.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 04 Nov 2014 15:14:08 GMT</pubDate>
+            <pubDate>Tue, 04 Nov 2014 17:21:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone-react-component updated to version 0.7.2]]></title>
