@@ -10,10 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 04 Nov 2014 14:32:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Nov 2014 14:47:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[backbone-react-component updated to version 0.7.2]]></title>
+            <description><![CDATA[Backbone.React.Component is a wrapper for React.Component and brings all the power of Facebook's React to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.2/backbone-react-component.js">//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.2/backbone-react-component.js</a>]]></description>
+            <guid isPermaLink="false">backbone-react-component0.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 04 Nov 2014 14:42:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[insightjs updated to version 1.2.1]]></title>
+            <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.2.1/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.2.1/insight.min.js</a>]]></description>
+            <link>https://github.com/scottlogic/insight</link>
+            <guid isPermaLink="false">insightjs1.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 04 Nov 2014 14:41:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.tablesorter updated to version 2.18.2]]></title>
+            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.2/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.2/js/jquery.tablesorter.min.js</a>]]></description>
+            <link>http://mottie.github.com/tablesorter/</link>
+            <guid isPermaLink="false">jquery.tablesorter2.18.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 04 Nov 2014 14:41:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.30]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.30/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.30/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.30</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 04 Nov 2014 14:41:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[css3finalize updated to version 4.1.0]]></title>
+            <description><![CDATA[Automatically add vendor prefixes<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/css3finalize/4.1.0/jquery.css3finalize.min.js">//cdnjs.cloudflare.com/ajax/libs/css3finalize/4.1.0/jquery.css3finalize.min.js</a>]]></description>
+            <link>https://github.com/codler/jQuery-Css3-Finalize</link>
+            <guid isPermaLink="false">css3finalize4.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 04 Nov 2014 14:40:44 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nprogress updated to version 0.1.6]]></title>
             <description><![CDATA[Slim progress bars for Ajax'y applications. Inspired by Google, YouTube, and Medium.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.1.6/nprogress.min.js">//cdnjs.cloudflare.com/ajax/libs/nprogress/0.1.6/nprogress.min.js</a>]]></description>
@@ -85,14 +124,6 @@
             <guid isPermaLink="false">bootstrap-datetimepicker3.1.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 03 Nov 2014 00:54:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.28]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.28/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.28/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.28</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 03 Nov 2014 00:40:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[reqwest updated to version 1.1.5]]></title>
@@ -319,13 +350,6 @@
             <pubDate>Wed, 29 Oct 2014 14:05:24 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[backbone-react-component updated to version 0.7.1]]></title>
-            <description><![CDATA[Backbone.React.Component is a wrapper for React.Component and brings all the power of Facebook's React to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.1/backbone-react-component.js">//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.1/backbone-react-component.js</a>]]></description>
-            <guid isPermaLink="false">backbone-react-component0.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:04:59 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[react updated to version 0.12.0]]></title>
             <description><![CDATA[React is a JavaScript library for building user interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react.min.js">//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react.min.js</a>]]></description>
             <link>http://facebook.github.io/react</link>
@@ -395,14 +419,6 @@
             <guid isPermaLink="false">moment-timezone0.2.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 27 Oct 2014 19:05:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.tablesorter updated to version 2.18.0]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.0/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.0/js/jquery.tablesorter.min.js</a>]]></description>
-            <link>http://mottie.github.com/tablesorter/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.18.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 27 Oct 2014 16:10:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[tinycolor updated to version 1.0.0]]></title>
