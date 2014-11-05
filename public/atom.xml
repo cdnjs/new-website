@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 05 Nov 2014 05:02:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2014 05:17:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -669,14 +669,6 @@
             <guid isPermaLink="false">punycode1.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 22 Oct 2014 15:25:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[livescript updated to version 1.3.1]]></title>
-            <description><![CDATA[LiveScript is a language which compiles to JavaScript. It has a straightforward mapping to JavaScript and allows you to write expressive code devoid of repetitive boilerplate. While LiveScript adds many features to assist in functional style programming, it also has many improvements for object oriented and imperative programming.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/livescript/1.3.1/livescript-min.js">//cdnjs.cloudflare.com/ajax/libs/livescript/1.3.1/livescript-min.js</a>]]></description>
-            <link>http://livescript.net</link>
-            <guid isPermaLink="false">livescript1.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 22 Oct 2014 05:05:53 GMT</pubDate>
         </item>
     </channel>
 </rss>
