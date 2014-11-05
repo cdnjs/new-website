@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 05 Nov 2014 01:02:25 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2014 01:17:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[dustjs-helpers updated to version 1.4.0]]></title>
+            <description><![CDATA[Additional functionality for dustjs-linkedin package<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.4.0/dust-helpers.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.4.0/dust-helpers.min.js</a>]]></description>
+            <link>Additional functionality for dustjs-linkedin package</link>
+            <guid isPermaLink="false">dustjs-helpers1.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 05 Nov 2014 01:01:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[metisMenu updated to version 1.1.0]]></title>
             <description><![CDATA[Easy menu jQuery plugin for Twitter Bootstrap 3<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/metisMenu/1.1.0/metisMenu.min.js">//cdnjs.cloudflare.com/ajax/libs/metisMenu/1.1.0/metisMenu.min.js</a>]]></description>
