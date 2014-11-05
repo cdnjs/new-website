@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 05 Nov 2014 04:02:24 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2014 04:17:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -677,14 +677,6 @@
             <guid isPermaLink="false">livescript1.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 22 Oct 2014 05:05:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mobile-detect updated to version 0.4.2]]></title>
-            <description><![CDATA[Device detection (phone, tablet, desktop, mobile grade, os, versions)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mobile-detect/0.4.2/mobile-detect.min.js">//cdnjs.cloudflare.com/ajax/libs/mobile-detect/0.4.2/mobile-detect.min.js</a>]]></description>
-            <link>http://hgoebl.github.io/mobile-detect.js/</link>
-            <guid isPermaLink="false">mobile-detect0.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 22 Oct 2014 04:14:29 GMT</pubDate>
         </item>
     </channel>
 </rss>
