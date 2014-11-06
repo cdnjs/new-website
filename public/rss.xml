@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Nov 2014 14:17:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Nov 2014 14:32:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jshint updated to version 2.5.9]]></title>
+            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.9/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.9/jshint.js</a>]]></description>
+            <link>http://jshint.com/</link>
+            <guid isPermaLink="false">jshint2.5.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 06 Nov 2014 14:16:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[yasr updated to version 2.0.0]]></title>
             <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.0/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.0/yasr.bundled.min.js</a>]]></description>
@@ -387,14 +395,6 @@
             <guid isPermaLink="false">blueimp-gallery2.15.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 30 Oct 2014 05:18:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jshint updated to version 2.5.8]]></title>
-            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.8/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.8/jshint.js</a>]]></description>
-            <link>http://jshint.com/</link>
-            <guid isPermaLink="false">jshint2.5.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 30 Oct 2014 05:17:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[gsap updated to version 1.14.2]]></title>
