@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Nov 2014 15:32:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Nov 2014 15:47:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -638,37 +638,6 @@
             <guid isPermaLink="false">AniJS0.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 23 Oct 2014 16:11:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pixi.js updated to version 2.0.0]]></title>
-            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.0.0/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.0.0/pixi.js</a>]]></description>
-            <link>http://goodboydigital.com/</link>
-            <guid isPermaLink="false">pixi.js2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 23 Oct 2014 15:37:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.3.14]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.14/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.14/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 23 Oct 2014 15:37:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mocha updated to version 2.0.1]]></title>
-            <description><![CDATA[simple, flexible, fun test framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mocha/2.0.1/mocha.js">//cdnjs.cloudflare.com/ajax/libs/mocha/2.0.1/mocha.js</a>]]></description>
-            <guid isPermaLink="false">mocha2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 23 Oct 2014 15:36:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[froala-editor updated to version 1.2.3]]></title>
-            <description><![CDATA[A beautiful jQuery WYSIWYG text editor based on HTML5 technology. Cross browser, with mobile support, high performance and Retina Ready flat design.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.3/js/froala_editor.min.js">//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.3/js/froala_editor.min.js</a>]]></description>
-            <link>http://editor.froala.com/</link>
-            <guid isPermaLink="false">froala-editor1.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 23 Oct 2014 15:36:20 GMT</pubDate>
         </item>
     </channel>
 </rss>
