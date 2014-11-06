@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Nov 2014 04:47:28 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Nov 2014 05:02:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -653,22 +653,6 @@
             <guid isPermaLink="false">froala-editor1.2.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 23 Oct 2014 15:36:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.marionette updated to version 2.2.2]]></title>
-            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.2.2/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.2.2/backbone.marionette.min.js</a>]]></description>
-            <link>http://github.com/marionettejs/backbone.marionette</link>
-            <guid isPermaLink="false">backbone.marionette2.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 23 Oct 2014 04:47:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-select(0.8.3) was added]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.8.3/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.8.3/select.min.js</a>]]></description>
-            <link>http://github.com/angular-ui/ui-select</link>
-            <guid isPermaLink="false">angular-ui-select0.8.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 23 Oct 2014 04:46:29 GMT</pubDate>
         </item>
     </channel>
 </rss>
