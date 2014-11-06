@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Nov 2014 11:17:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Nov 2014 11:32:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[yasr updated to version 2.0.0]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.0/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.0/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 06 Nov 2014 11:21:02 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[moment-range updated to version 1.0.5]]></title>
             <description><![CDATA[Fancy date ranges for Moment.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.5/moment-range.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.5/moment-range.min.js</a>]]></description>
@@ -506,14 +514,6 @@
             <guid isPermaLink="false">tinycolor1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 27 Oct 2014 05:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasr updated to version 1.2.3]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/1.2.3/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/1.2.3/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr1.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 27 Oct 2014 04:57:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Cookies.js updated to version 1.0.0]]></title>
