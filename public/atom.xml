@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Nov 2014 16:02:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Nov 2014 16:17:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -630,14 +630,6 @@
             <guid isPermaLink="false">phaser2.1.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 24 Oct 2014 01:44:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AniJS updated to version 0.8.1]]></title>
-            <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.8.1/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.8.1/anijs-min.js</a>]]></description>
-            <link>http://anijs.github.io/</link>
-            <guid isPermaLink="false">AniJS0.8.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 23 Oct 2014 16:11:23 GMT</pubDate>
         </item>
     </channel>
 </rss>
