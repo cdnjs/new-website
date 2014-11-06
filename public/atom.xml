@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Nov 2014 02:02:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Nov 2014 02:17:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[immutable updated to version 3.0.3]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.3/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.3/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 06 Nov 2014 02:09:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ie8 updated to version 0.2.3]]></title>
+            <description><![CDATA[some damn DOM fix for this damned browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.3/ie8.js">//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.3/ie8.js</a>]]></description>
+            <link>https://github.com/WebReflection/ie8</link>
+            <guid isPermaLink="false">ie80.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 06 Nov 2014 02:09:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-switch updated to version 3.2.0]]></title>
+            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.0/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.0/js/bootstrap-switch.min.js</a>]]></description>
+            <link>http://www.bootstrap-switch.org</link>
+            <guid isPermaLink="false">bootstrap-switch3.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 06 Nov 2014 02:09:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.bootstrapvalidator updated to version 0.5.3]]></title>
             <description><![CDATA[The best jQuery plugin to validate form fields. Designed to use with Bootstrap 3<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js</a>]]></description>
@@ -219,14 +243,6 @@
             <guid isPermaLink="false">jquery-jgrowl1.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 01 Nov 2014 13:54:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[immutable updated to version 3.0.2]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.2/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.2/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 01 Nov 2014 08:32:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-material-design updated to version 0.1.5]]></title>
@@ -521,14 +537,6 @@
             <guid isPermaLink="false">fuse.js1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 26 Oct 2014 16:05:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-switch updated to version 3.1.0]]></title>
-            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.1.0/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.1.0/js/bootstrap-switch.min.js</a>]]></description>
-            <link>http://www.bootstrap-switch.org</link>
-            <guid isPermaLink="false">bootstrap-switch3.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 25 Oct 2014 17:16:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[sprintf updated to version 1.0.1]]></title>
