@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 06 Nov 2014 06:02:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Nov 2014 06:17:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[moment-range updated to version 1.0.5]]></title>
+            <description><![CDATA[Fancy date ranges for Moment.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.5/moment-range.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.5/moment-range.min.js</a>]]></description>
+            <link>https://github.com/gf3/moment-range</link>
+            <guid isPermaLink="false">moment-range1.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 06 Nov 2014 05:55:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery-mousewheel updated to version 3.1.12]]></title>
             <description><![CDATA[A jQuery plugin that adds cross-browser mouse wheel support.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js</a>]]></description>
