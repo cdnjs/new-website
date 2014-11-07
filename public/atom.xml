@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 07 Nov 2014 03:17:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Nov 2014 03:32:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -630,14 +630,6 @@
             <guid isPermaLink="false">svg.js1.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 24 Oct 2014 08:14:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jstree updated to version 3.0.8]]></title>
-            <description><![CDATA[jQuery tree plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.8/jstree.min.js">//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.8/jstree.min.js</a>]]></description>
-            <link>http://jstree.com</link>
-            <guid isPermaLink="false">jstree3.0.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 24 Oct 2014 03:25:04 GMT</pubDate>
         </item>
     </channel>
 </rss>
