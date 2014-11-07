@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 07 Nov 2014 11:17:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Nov 2014 11:32:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[Cookies.js updated to version 1.0.1]]></title>
+            <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.0.1/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.0.1/cookies.min.js</a>]]></description>
+            <link>https://github.com/ScottHamper/Cookies</link>
+            <guid isPermaLink="false">Cookies.js1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 07 Nov 2014 11:21:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vue updated to version 0.11.0]]></title>
+            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.11.0/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.11.0/vue.min.js</a>]]></description>
+            <link>http://vuejs.org</link>
+            <guid isPermaLink="false">vue0.11.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 07 Nov 2014 11:20:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jshint updated to version 2.5.10]]></title>
+            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.10/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.10/jshint.js</a>]]></description>
+            <link>http://jshint.com/</link>
+            <guid isPermaLink="false">jshint2.5.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 07 Nov 2014 11:20:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[pace updated to version 1.0.2]]></title>
             <description><![CDATA[Automatic web page progress bar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.js">//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.js</a>]]></description>
@@ -37,14 +61,6 @@
             <guid isPermaLink="false">angular-strap2.1.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 06 Nov 2014 16:52:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jshint updated to version 2.5.9]]></title>
-            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.9/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.9/jshint.js</a>]]></description>
-            <link>http://jshint.com/</link>
-            <guid isPermaLink="false">jshint2.5.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 14:16:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yasr updated to version 2.0.0]]></title>
@@ -532,14 +548,6 @@
             <pubDate>Mon, 27 Oct 2014 05:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Cookies.js updated to version 1.0.0]]></title>
-            <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.0.0/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.0.0/cookies.min.js</a>]]></description>
-            <link>https://github.com/ScottHamper/Cookies</link>
-            <guid isPermaLink="false">Cookies.js1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 27 Oct 2014 01:30:49 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[loglevel updated to version 1.2.0]]></title>
             <description><![CDATA[Minimal lightweight logging for JavaScript, adding reliable log level methods to any available console.log methods<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/loglevel/1.2.0/loglevel.min.js">//cdnjs.cloudflare.com/ajax/libs/loglevel/1.2.0/loglevel.min.js</a>]]></description>
             <link>https://github.com/pimterry/loglevel</link>
@@ -599,13 +607,6 @@
             <guid isPermaLink="false">ramda0.7.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 25 Oct 2014 01:20:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[allow-me updated to version 0.1.1]]></title>
-            <description><![CDATA[Visual aid for your users in giving you browser's permission such as cam or mic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.js">//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.js</a>]]></description>
-            <guid isPermaLink="false">allow-me0.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 24 Oct 2014 11:26:42 GMT</pubDate>
         </item>
     </channel>
 </rss>
