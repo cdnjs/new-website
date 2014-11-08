@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 Nov 2014 01:17:22 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2014 01:32:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -606,14 +606,6 @@
             <guid isPermaLink="false">playlyfe-odysseus0.5.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 25 Oct 2014 05:57:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ramda updated to version 0.7.2]]></title>
-            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.2/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.7.2/ramda.min.js</a>]]></description>
-            <link>https://www.github.com/ramda/ramda</link>
-            <guid isPermaLink="false">ramda0.7.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 25 Oct 2014 01:20:13 GMT</pubDate>
         </item>
     </channel>
 </rss>
