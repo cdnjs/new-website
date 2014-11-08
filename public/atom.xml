@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 Nov 2014 07:32:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2014 07:46:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jplist updated to version 5.1.38]]></title>
+            <description><![CDATA[jPList - jQuery Data Grid Controls is a flexible jQuery plugin for sorting, pagination and filtering of any HTML structure (DIVs, UL/LI, tables, etc)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplist/5.1.38/jplist.min.js">//cdnjs.cloudflare.com/ajax/libs/jplist/5.1.38/jplist.min.js</a>]]></description>
+            <link>http://jplist.com</link>
+            <guid isPermaLink="false">jplist5.1.38</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 08 Nov 2014 07:42:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.downCount(1.0.0) was added]]></title>
+            <description><![CDATA[Simple countdown plugin that accounts for timezone<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.downCount/1.0.0/jquery.downCount.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.downCount/1.0.0/jquery.downCount.min.js</a>]]></description>
+            <link>http://sonnyt.com/downCount-plugin/</link>
+            <guid isPermaLink="false">jquery.downCount1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 08 Nov 2014 07:40:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.mb.YTPlayer(2.7.2) was added]]></title>
+            <description><![CDATA[This plugin let you play any public YouTube video as background of your page. It can also be used as a customized player in page.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.2/jquery.mb.YTPlayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.2/jquery.mb.YTPlayer.min.js</a>]]></description>
+            <link>http://pupunzi.open-lab.com/mb-jquery-components/jquery-mb-ytplayer/</link>
+            <guid isPermaLink="false">jquery.mb.YTPlayer2.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 08 Nov 2014 07:37:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.tablesorter updated to version 2.18.3]]></title>
             <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.3/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.3/js/jquery.tablesorter.min.js</a>]]></description>
