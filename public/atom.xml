@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 Nov 2014 17:17:23 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2014 17:30:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -624,13 +624,6 @@
             <guid isPermaLink="false">fuse.js1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 26 Oct 2014 16:05:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sprintf updated to version 1.0.1]]></title>
-            <description><![CDATA[JavaScript sprintf implementation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sprintf/1.0.1/sprintf.min.js">//cdnjs.cloudflare.com/ajax/libs/sprintf/1.0.1/sprintf.min.js</a>]]></description>
-            <guid isPermaLink="false">sprintf1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 25 Oct 2014 13:25:48 GMT</pubDate>
         </item>
     </channel>
 </rss>
