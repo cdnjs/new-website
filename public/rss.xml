@@ -10,17 +10,48 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 Nov 2014 00:02:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2014 00:17:40 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[Cookies.js updated to version 1.0.1]]></title>
-            <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.0.1/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.0.1/cookies.min.js</a>]]></description>
-            <link>https://github.com/ScottHamper/Cookies</link>
-            <guid isPermaLink="false">Cookies.js1.0.1</guid>
+            <title><![CDATA[rivets updated to version 0.7.1]]></title>
+            <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.1/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.1/rivets.min.js</a>]]></description>
+            <link>http://rivetsjs.com</link>
+            <guid isPermaLink="false">rivets0.7.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 07 Nov 2014 11:21:07 GMT</pubDate>
+            <pubDate>Sat, 08 Nov 2014 00:05:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vis updated to version 3.6.4]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.6.4/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.6.4/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis3.6.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 08 Nov 2014 00:05:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-switch updated to version 3.2.1]]></title>
+            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.1/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.1/js/bootstrap-switch.min.js</a>]]></description>
+            <link>http://www.bootstrap-switch.org</link>
+            <guid isPermaLink="false">bootstrap-switch3.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 08 Nov 2014 00:05:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cookies.js updated to version 1.1.0]]></title>
+            <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.1.0/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.1.0/cookies.min.js</a>]]></description>
+            <link>https://github.com/ScottHamper/Cookies</link>
+            <guid isPermaLink="false">Cookies.js1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 08 Nov 2014 00:04:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chainloading(0.2.1) was added]]></title>
+            <description><![CDATA[Allows you to chain together jQuery deferreds or functions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chainloading/0.2.1/chainloading.min.js">//cdnjs.cloudflare.com/ajax/libs/chainloading/0.2.1/chainloading.min.js</a>]]></description>
+            <guid isPermaLink="false">chainloading0.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 07 Nov 2014 20:13:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vue updated to version 0.11.0]]></title>
@@ -117,14 +148,6 @@
             <guid isPermaLink="false">ie80.2.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 06 Nov 2014 02:09:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-switch updated to version 3.2.0]]></title>
-            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.0/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.0/js/bootstrap-switch.min.js</a>]]></description>
-            <link>http://www.bootstrap-switch.org</link>
-            <guid isPermaLink="false">bootstrap-switch3.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 02:09:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.bootstrapvalidator updated to version 0.5.3]]></title>
@@ -251,14 +274,6 @@
             <guid isPermaLink="false">backbone-relational0.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 03 Nov 2014 12:52:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rivets updated to version 0.7.0]]></title>
-            <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.0/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.0/rivets.min.js</a>]]></description>
-            <link>http://rivetsjs.com</link>
-            <guid isPermaLink="false">rivets0.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 03 Nov 2014 12:46:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-poller updated to version 0.3.1]]></title>
@@ -483,14 +498,6 @@
             <guid isPermaLink="false">react0.12.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 29 Oct 2014 14:01:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vis updated to version 3.6.3]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.6.3/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.6.3/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis3.6.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:00:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[chartist updated to version 0.3.1]]></title>
