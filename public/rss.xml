@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 Nov 2014 04:17:22 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2014 04:32:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.tablesorter updated to version 2.18.3]]></title>
+            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.3/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.3/js/jquery.tablesorter.min.js</a>]]></description>
+            <link>http://mottie.github.com/tablesorter/</link>
+            <guid isPermaLink="false">jquery.tablesorter2.18.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 08 Nov 2014 04:20:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[elasticsearch updated to version 3.0.0]]></title>
+            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.0.0/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.0.0/elasticsearch.js</a>]]></description>
+            <link>https://github.com/elasticsearch/elasticsearch-js</link>
+            <guid isPermaLink="false">elasticsearch3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 08 Nov 2014 04:19:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[rivets updated to version 0.7.1]]></title>
             <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.1/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.1/rivets.min.js</a>]]></description>
@@ -210,14 +226,6 @@
             <guid isPermaLink="false">insightjs1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 04 Nov 2014 14:41:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.tablesorter updated to version 2.18.2]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.2/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.2/js/jquery.tablesorter.min.js</a>]]></description>
-            <link>http://mottie.github.com/tablesorter/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.18.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 04 Nov 2014 14:41:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bacon.js updated to version 0.7.30]]></title>
