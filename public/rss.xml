@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 09 Nov 2014 01:45:52 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Nov 2014 02:00:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fluidbox updated to version 1.4.1]]></title>
+            <description><![CDATA[Replicating Medium's beautiful, minimalist lightbox module<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.1/jquery.fluidbox.min.js">//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.1/jquery.fluidbox.min.js</a>]]></description>
+            <link>https://github.com/terrymun/Fluidbox</link>
+            <guid isPermaLink="false">fluidbox1.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 09 Nov 2014 01:58:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jplist updated to version 5.1.38]]></title>
             <description><![CDATA[jPList - jQuery Data Grid Controls is a flexible jQuery plugin for sorting, pagination and filtering of any HTML structure (DIVs, UL/LI, tables, etc)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplist/5.1.38/jplist.min.js">//cdnjs.cloudflare.com/ajax/libs/jplist/5.1.38/jplist.min.js</a>]]></description>
