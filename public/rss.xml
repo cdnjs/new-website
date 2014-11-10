@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 10 Nov 2014 12:00:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Nov 2014 12:15:53 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[q.js updated to version 1.1.0]]></title>
+            <description><![CDATA[A library for promises (CommonJS/Promises/A,B,D)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.0/q.js">//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.0/q.js</a>]]></description>
+            <link>https://github.com/kriskowal/q</link>
+            <guid isPermaLink="false">q.js1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 10 Nov 2014 12:07:59 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[yasr updated to version 2.0.1]]></title>
             <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.1/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.1/yasr.bundled.min.js</a>]]></description>
