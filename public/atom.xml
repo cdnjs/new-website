@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 10 Nov 2014 01:17:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Nov 2014 01:30:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -609,14 +609,6 @@
             <guid isPermaLink="false">tinycolor1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 27 Oct 2014 05:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[loglevel updated to version 1.2.0]]></title>
-            <description><![CDATA[Minimal lightweight logging for JavaScript, adding reliable log level methods to any available console.log methods<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/loglevel/1.2.0/loglevel.min.js">//cdnjs.cloudflare.com/ajax/libs/loglevel/1.2.0/loglevel.min.js</a>]]></description>
-            <link>https://github.com/pimterry/loglevel</link>
-            <guid isPermaLink="false">loglevel1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 27 Oct 2014 01:29:32 GMT</pubDate>
         </item>
     </channel>
 </rss>
