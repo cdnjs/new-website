@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Nov 2014 02:00:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Nov 2014 02:17:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[polymer updated to version 0.5.0]]></title>
+            <description><![CDATA[Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.0/polymer.js">//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.0/polymer.js</a>]]></description>
+            <link>http://polymer-project.org/</link>
+            <guid isPermaLink="false">polymer0.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 11 Nov 2014 01:57:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb updated to version 3.1.0]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.1.0/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.1.0/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb3.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 11 Nov 2014 01:57:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chai updated to version 1.10.0]]></title>
+            <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chai/1.10.0/chai.js">//cdnjs.cloudflare.com/ajax/libs/chai/1.10.0/chai.js</a>]]></description>
+            <link>http://chaijs.com</link>
+            <guid isPermaLink="false">chai1.10.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 11 Nov 2014 01:56:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[q.js updated to version 1.1.1]]></title>
+            <description><![CDATA[A library for promises (CommonJS/Promises/A,B,D)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.1/q.js">//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.1/q.js</a>]]></description>
+            <link>https://github.com/kriskowal/q</link>
+            <guid isPermaLink="false">q.js1.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 11 Nov 2014 01:43:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[vue updated to version 0.11.0]]></title>
             <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.11.0/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.11.0/vue.min.js</a>]]></description>
@@ -21,14 +53,6 @@
             <guid isPermaLink="false">vue0.11.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 10 Nov 2014 16:30:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[q.js updated to version 1.1.0]]></title>
-            <description><![CDATA[A library for promises (CommonJS/Promises/A,B,D)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.0/q.js">//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.0/q.js</a>]]></description>
-            <link>https://github.com/kriskowal/q</link>
-            <guid isPermaLink="false">q.js1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 10 Nov 2014 12:07:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yasr updated to version 2.0.1]]></title>
