@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Nov 2014 18:32:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Nov 2014 18:45:52 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -624,14 +624,6 @@
             <guid isPermaLink="false">react0.12.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 29 Oct 2014 14:01:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chartist updated to version 0.3.1]]></title>
-            <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.3.1/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.3.1/chartist.min.js</a>]]></description>
-            <link>https://gionkunz.github.io/chartist-js</link>
-            <guid isPermaLink="false">chartist0.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 28 Oct 2014 18:40:09 GMT</pubDate>
         </item>
     </channel>
 </rss>
