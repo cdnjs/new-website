@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 11 Nov 2014 04:47:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Nov 2014 05:02:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[xls updated to version 0.7.2]]></title>
+            <description><![CDATA[Javascript XLS (Excel 97-2004) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xls/0.7.2/xls.js">//cdnjs.cloudflare.com/ajax/libs/xls/0.7.2/xls.js</a>]]></description>
+            <link>https://github.com/SheetJS/js-xls</link>
+            <guid isPermaLink="false">xls0.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 11 Nov 2014 04:52:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[emblem updated to version 0.3.16]]></title>
+            <description><![CDATA[Ember-friendly, indented syntax alternative for Handlebars.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emblem/0.3.16/emblem.min.js">//cdnjs.cloudflare.com/ajax/libs/emblem/0.3.16/emblem.min.js</a>]]></description>
+            <link>http://emblemjs.com/</link>
+            <guid isPermaLink="false">emblem0.3.16</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 11 Nov 2014 04:52:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[polymer updated to version 0.5.0]]></title>
             <description><![CDATA[Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.0/polymer.js">//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.0/polymer.js</a>]]></description>
