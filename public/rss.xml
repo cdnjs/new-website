@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Nov 2014 14:02:24 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Nov 2014 14:18:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -624,38 +624,6 @@
             <guid isPermaLink="false">trunk81.3.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 29 Oct 2014 16:08:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootcards updated to version 1.0.0]]></title>
-            <description><![CDATA[A cards-based UI framework for mobile and desktop apps, built on top of Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js">//cdnjs.cloudflare.com/ajax/libs/bootcards/1.0.0/js/bootcards.min.js</a>]]></description>
-            <link>http://bootcards.org</link>
-            <guid isPermaLink="false">bootcards1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:09:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.20.2]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.2/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.2/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.20.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:05:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cytoscape updated to version 2.3.4]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.4/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.4/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.3.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:05:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react updated to version 0.12.0]]></title>
-            <description><![CDATA[React is a JavaScript library for building user interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react.min.js">//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react.min.js</a>]]></description>
-            <link>http://facebook.github.io/react</link>
-            <guid isPermaLink="false">react0.12.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 29 Oct 2014 14:01:04 GMT</pubDate>
         </item>
     </channel>
 </rss>
