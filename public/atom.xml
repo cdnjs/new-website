@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 12 Nov 2014 16:32:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Nov 2014 16:47:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[Han updated to version 2.3.0]]></title>
+            <description><![CDATA[The CSS typography framework optimised for Hanzi<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Han/2.3.0/han.min.css">//cdnjs.cloudflare.com/ajax/libs/Han/2.3.0/han.min.css</a>]]></description>
+            <link>http://css.hanzi.co/</link>
+            <guid isPermaLink="false">Han2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 12 Nov 2014 16:18:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[pixi.js updated to version 2.1.0]]></title>
             <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.1.0/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.1.0/pixi.js</a>]]></description>
