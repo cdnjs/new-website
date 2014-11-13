@@ -10,17 +10,81 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Nov 2014 03:02:29 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Nov 2014 03:17:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[Han updated to version 2.3.0]]></title>
-            <description><![CDATA[The CSS typography framework optimised for Hanzi<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Han/2.3.0/han.min.css">//cdnjs.cloudflare.com/ajax/libs/Han/2.3.0/han.min.css</a>]]></description>
-            <link>http://css.hanzi.co/</link>
-            <guid isPermaLink="false">Han2.3.0</guid>
+            <title><![CDATA[coffee-script updated to version 1.8.0]]></title>
+            <description><![CDATA[CoffeeScript is a little language that compiles into JavaScript. Underneath all of those embarrassing braces and semicolons, JavaScript has always had a gorgeous object model at its heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.8.0/coffee-script.min.js">//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.8.0/coffee-script.min.js</a>]]></description>
+            <link>http://jashkenas.github.com/coffee-script/</link>
+            <guid isPermaLink="false">coffee-script1.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 12 Nov 2014 16:18:31 GMT</pubDate>
+            <pubDate>Thu, 13 Nov 2014 03:13:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.23]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.23/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.23/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.23</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 13 Nov 2014 03:12:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Han updated to version 3.0.0]]></title>
+            <description><![CDATA[The CSS typography framework optimised for Hanzi<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Han/3.0.0/han.min.css">//cdnjs.cloudflare.com/ajax/libs/Han/3.0.0/han.min.css</a>]]></description>
+            <link>http://css.hanzi.co/</link>
+            <guid isPermaLink="false">Han3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 13 Nov 2014 03:11:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-filter updated to version 0.5.1]]></title>
+            <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.1/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.1/angular-filter.min.js</a>]]></description>
+            <link>https://github.com/a8m/angular-filter</link>
+            <guid isPermaLink="false">angular-filter0.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 13 Nov 2014 03:05:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.32]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.32/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.32/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.32</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 13 Nov 2014 03:03:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.1.0]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.1.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.1.0/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 13 Nov 2014 03:03:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[moment-timezone updated to version 0.2.5]]></title>
+            <description><![CDATA[Timezone plugin for Moment.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.5/moment-timezone.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.5/moment-timezone.min.js</a>]]></description>
+            <link>http://momentjs.com/timezone</link>
+            <guid isPermaLink="false">moment-timezone0.2.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 13 Nov 2014 03:02:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[twitter-bootstrap updated to version 3.3.1]]></title>
+            <description><![CDATA[The most popular front-end framework for developing responsive, mobile first projects on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js</a>]]></description>
+            <link>http://getbootstrap.com/</link>
+            <guid isPermaLink="false">twitter-bootstrap3.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 13 Nov 2014 03:01:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[polymer updated to version 0.5.1]]></title>
+            <description><![CDATA[Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.1/polymer.js">//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.1/polymer.js</a>]]></description>
+            <link>http://polymer-project.org/</link>
+            <guid isPermaLink="false">polymer0.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 13 Nov 2014 03:00:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pixi.js updated to version 2.1.0]]></title>
@@ -52,14 +116,6 @@
             <guid isPermaLink="false">slick-carousel1.3.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 12 Nov 2014 01:51:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-filter updated to version 0.5.0]]></title>
-            <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.0/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.0/angular-filter.min.js</a>]]></description>
-            <link>https://github.com/a8m/angular-filter</link>
-            <guid isPermaLink="false">angular-filter0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 12 Nov 2014 01:51:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[speakingurl updated to version 0.17.0]]></title>
@@ -115,14 +171,6 @@
             <guid isPermaLink="false">xls0.7.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 11 Nov 2014 04:52:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[polymer updated to version 0.5.0]]></title>
-            <description><![CDATA[Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.0/polymer.js">//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.0/polymer.js</a>]]></description>
-            <link>http://polymer-project.org/</link>
-            <guid isPermaLink="false">polymer0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 11 Nov 2014 01:57:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pouchdb updated to version 3.1.0]]></title>
@@ -340,14 +388,6 @@
             <pubDate>Thu, 06 Nov 2014 04:58:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[immutable updated to version 3.0.3]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.3/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.0.3/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 02:09:52 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ie8 updated to version 0.2.3]]></title>
             <description><![CDATA[some damn DOM fix for this damned browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.3/ie8.js">//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.3/ie8.js</a>]]></description>
             <link>https://github.com/WebReflection/ie8</link>
@@ -416,14 +456,6 @@
             <guid isPermaLink="false">insightjs1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 04 Nov 2014 14:41:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.30]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.30/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.30/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.30</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 04 Nov 2014 14:41:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[css3finalize updated to version 4.1.0]]></title>
@@ -624,14 +656,6 @@
             <guid isPermaLink="false">jqueryui1.11.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 30 Oct 2014 06:59:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[twitter-bootstrap updated to version 3.3.0]]></title>
-            <description><![CDATA[The most popular front-end framework for developing responsive, mobile first projects on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/js/bootstrap.min.js</a>]]></description>
-            <link>http://getbootstrap.com/</link>
-            <guid isPermaLink="false">twitter-bootstrap3.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 30 Oct 2014 05:22:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[blueimp-gallery updated to version 2.15.2]]></title>
