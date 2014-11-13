@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Nov 2014 03:17:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Nov 2014 03:32:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -85,6 +85,14 @@
             <guid isPermaLink="false">polymer0.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 13 Nov 2014 03:00:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sbt updated to version 1.1.0.20140717-1200]]></title>
+            <description><![CDATA[Social Business Toolkit minified&aggregated files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sbt/1.1.0.20140717-1200/sbt-core-dojo-amd.js">//cdnjs.cloudflare.com/ajax/libs/sbt/1.1.0.20140717-1200/sbt-core-dojo-amd.js</a>]]></description>
+            <link>http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=Social%20Business%20Toolkit%20SDK</link>
+            <guid isPermaLink="false">sbt1.1.0.20140717-1200</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 12 Nov 2014 16:44:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pixi.js updated to version 2.1.0]]></title>
