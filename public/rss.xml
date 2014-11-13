@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 13 Nov 2014 05:17:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Nov 2014 05:32:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -664,14 +664,6 @@
             <guid isPermaLink="false">jqueryui1.11.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 30 Oct 2014 06:59:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[blueimp-gallery updated to version 2.15.2]]></title>
-            <description><![CDATA[blueimp Gallery is a touch-enabled, responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers. It features swipe, mouse and keyboard navigation, transition effects, slideshow functionality, fullscreen support and on-demand content loading and can be extended to display additional content types.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.15.2/js/blueimp-gallery.js">//cdnjs.cloudflare.com/ajax/libs/blueimp-gallery/2.15.2/js/blueimp-gallery.js</a>]]></description>
-            <link>https://github.com/blueimp/Gallery</link>
-            <guid isPermaLink="false">blueimp-gallery2.15.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 30 Oct 2014 05:18:34 GMT</pubDate>
         </item>
     </channel>
 </rss>
