@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 14 Nov 2014 03:47:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Nov 2014 04:02:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -760,30 +760,6 @@
             <guid isPermaLink="false">cannon.js0.6.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 31 Oct 2014 12:27:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.age updated to version 1.2.4]]></title>
-            <description><![CDATA[Age is a jQuery plugin that formats and tracks dates and times as human readable text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.age/1.2.4/jquery.age.js">//cdnjs.cloudflare.com/ajax/libs/jquery.age/1.2.4/jquery.age.js</a>]]></description>
-            <link>https://ksylvest.github.com/jquery-age</link>
-            <guid isPermaLink="false">jquery.age1.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 31 Oct 2014 03:57:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-localstorage.js updated to version 1.1.14]]></title>
-            <description><![CDATA[A simple module to replace Backbone.sync with localStorage-based persistence. Models are given GUIDS, and saved into a JSON object. Simple as that.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.14/backbone.localStorage-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.14/backbone.localStorage-min.js</a>]]></description>
-            <link>https://github.com/jeromegn/Backbone.localStorage</link>
-            <guid isPermaLink="false">backbone-localstorage.js1.1.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 31 Oct 2014 03:43:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[probtn updated to version 1.0.1]]></title>
-            <description><![CDATA[Profit Button is an interactive element - floating button - that can be integrated to any mobile app or a web site. Include surveys and apps to your existing applications easily.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/probtn/1.0.1/includepb.min.js">//cdnjs.cloudflare.com/ajax/libs/probtn/1.0.1/includepb.min.js</a>]]></description>
-            <link>http://probtn.com/en</link>
-            <guid isPermaLink="false">probtn1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 31 Oct 2014 03:42:32 GMT</pubDate>
         </item>
     </channel>
 </rss>
