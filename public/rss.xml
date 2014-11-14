@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 14 Nov 2014 04:02:27 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Nov 2014 04:17:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.24]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.24/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.24/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.24</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 14 Nov 2014 04:08:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bignumber.js updated to version 1.5.0]]></title>
+            <description><![CDATA[A library for arbitrary-precision decimal and non-decimal arithmetic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bignumber.js/1.5.0/bignumber.min.js">//cdnjs.cloudflare.com/ajax/libs/bignumber.js/1.5.0/bignumber.min.js</a>]]></description>
+            <link>http://mikemcl.github.io/bignumber.js/</link>
+            <guid isPermaLink="false">bignumber.js1.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 14 Nov 2014 04:08:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.33]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.33/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.33/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.33</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 14 Nov 2014 04:08:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[pixi.js updated to version 2.1.1]]></title>
             <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.1.1/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.1.1/pixi.js</a>]]></description>
@@ -199,14 +223,6 @@
             <pubDate>Thu, 13 Nov 2014 03:13:38 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[mithril updated to version 0.1.23]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.23/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.23/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.23</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 13 Nov 2014 03:12:06 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Han updated to version 3.0.0]]></title>
             <description><![CDATA[The CSS typography framework optimised for Hanzi<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Han/3.0.0/han.min.css">//cdnjs.cloudflare.com/ajax/libs/Han/3.0.0/han.min.css</a>]]></description>
             <link>http://css.hanzi.co/</link>
@@ -221,14 +237,6 @@
             <guid isPermaLink="false">angular-filter0.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 13 Nov 2014 03:05:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.32]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.32/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.32/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.32</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 13 Nov 2014 03:03:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[immutable updated to version 3.1.0]]></title>
