@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 14 Nov 2014 10:47:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Nov 2014 11:02:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[yasr updated to version 2.0.2]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.2/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.2/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 14 Nov 2014 10:47:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.1.0]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.1.0/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.1.0/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 14 Nov 2014 10:47:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.24]]></title>
             <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.24/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.24/mithril.min.js</a>]]></description>
@@ -389,14 +405,6 @@
             <pubDate>Mon, 10 Nov 2014 16:30:11 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[yasr updated to version 2.0.1]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.1/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.1/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 10 Nov 2014 00:49:15 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[UAParser.js updated to version 0.7.3]]></title>
             <description><![CDATA[Lightweight JavaScript-based user-agent string parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.3/ua-parser.min.js">//cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.3/ua-parser.min.js</a>]]></description>
             <link>http://github.com/faisalman/ua-parser-js</link>
@@ -752,14 +760,6 @@
             <guid isPermaLink="false">bootstrap-material-design0.1.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 31 Oct 2014 12:31:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 2.0.1]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.0.1/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.0.1/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 31 Oct 2014 12:30:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cannon.js updated to version 0.6.1]]></title>
