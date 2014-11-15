@@ -14,5 +14,6 @@ echo Re-generating website...
 echo Uploading website...
 git add .
 git commit -am "Updated packages."
+git pull --rebase
 git push
 git push heroku master
