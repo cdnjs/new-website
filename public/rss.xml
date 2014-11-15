@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Nov 2014 17:47:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Nov 2014 18:02:32 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[malihu-custom-scrollbar-plugin(3.0.5) was added]]></title>
+            <description><![CDATA[Highly customizable custom scrollbar jQuery plugin, featuring vertical/horizontal scrollbars, scrolling momentum, mouse-wheel, keyboard and touch support user defined callbacks etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.5/jquery.mCustomScrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.5/jquery.mCustomScrollbar.min.js</a>]]></description>
+            <link>http://manos.malihu.gr/jquery-custom-content-scroller</link>
+            <guid isPermaLink="false">malihu-custom-scrollbar-plugin3.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 17:49:33 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mojio-js(2.2.0) was added]]></title>
             <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.0/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.0/mojio-js.min.js</a>]]></description>
