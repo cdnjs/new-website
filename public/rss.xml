@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Nov 2014 17:32:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Nov 2014 17:47:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mojio-js(2.2.0) was added]]></title>
+            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.0/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.0/mojio-js.min.js</a>]]></description>
+            <link>https://github.com/mojio/mojio-js</link>
+            <guid isPermaLink="false">mojio-js2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 17:41:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[FileSaver.js(2014-08-29) was added]]></title>
+            <description><![CDATA[An HTML5 saveAs() FileSaver implementation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-08-29/FileSaver.min.js">//cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-08-29/FileSaver.min.js</a>]]></description>
+            <link>https://github.com/eligrey/FileSaver.js/</link>
+            <guid isPermaLink="false">FileSaver.js2014-08-29</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 17:34:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[viewer.js(0.10.2) was added]]></title>
             <description><![CDATA[A viewer for documents converted with the Box View API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.2/crocodoc.viewer.min.js">//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.2/crocodoc.viewer.min.js</a>]]></description>
