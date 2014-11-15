@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Nov 2014 16:32:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Nov 2014 16:47:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[timelinejs updated to version 2.34.1]]></title>
+            <description><![CDATA[TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.34.1/js/timeline-min.js">//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.34.1/js/timeline-min.js</a>]]></description>
+            <link>http://timeline.knightlab.com/</link>
+            <guid isPermaLink="false">timelinejs2.34.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 16:37:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[rxjs updated to version 2.3.18]]></title>
             <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.18/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.18/rx.min.js</a>]]></description>
