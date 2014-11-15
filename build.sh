@@ -3,7 +3,7 @@
 set -e
 cd /root/new-website
 echo Getting latest website changes...
-git pull
+git pull --rebase
 
 echo npm install for good mesure
 /usr/local/bin/npm install
