@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Nov 2014 02:47:25 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Nov 2014 03:02:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[vis updated to version 3.7.0]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.7.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.7.0/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis3.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 02:54:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.16]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.16/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.16/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.16</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 02:51:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.2.0]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.0/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 02:47:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[yasr updated to version 2.0.2]]></title>
             <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.2/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.0.2/yasr.bundled.min.js</a>]]></description>
@@ -255,14 +279,6 @@
             <pubDate>Thu, 13 Nov 2014 03:05:01 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[immutable updated to version 3.1.0]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.1.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.1.0/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 13 Nov 2014 03:03:06 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[moment-timezone updated to version 0.2.5]]></title>
             <description><![CDATA[Timezone plugin for Moment.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.5/moment-timezone.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.2.5/moment-timezone.min.js</a>]]></description>
             <link>http://momentjs.com/timezone</link>
@@ -475,14 +491,6 @@
             <guid isPermaLink="false">rivets0.7.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 08 Nov 2014 00:05:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vis updated to version 3.6.4]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.6.4/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.6.4/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis3.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 08 Nov 2014 00:05:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-switch updated to version 3.2.1]]></title>
