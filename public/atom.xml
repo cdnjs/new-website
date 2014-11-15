@@ -10,10 +10,119 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Nov 2014 08:47:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Nov 2014 09:02:32 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[immutable updated to version 3.2.1]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.1/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:47:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[packery updated to version 1.2.4]]></title>
+            <description><![CDATA[The bin-packing layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/packery/1.2.4/packery.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/packery/1.2.4/packery.pkgd.min.js</a>]]></description>
+            <link>http://packery.metafizzy.co/</link>
+            <guid isPermaLink="false">packery1.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:47:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ionic updated to version 1.0.0-beta.13]]></title>
+            <description><![CDATA[Advanced HTML5 Mobile App Framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-beta.13/js/ionic.min.js">//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-beta.13/js/ionic.min.js</a>]]></description>
+            <guid isPermaLink="false">ionic1.0.0-beta.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:43:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-validate updated to version 1.13.1]]></title>
+            <description><![CDATA[Form Validation plugin for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js</a>]]></description>
+            <link>http://jqueryvalidation.org/</link>
+            <guid isPermaLink="false">jquery-validate1.13.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:40:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[require.js updated to version 2.1.15]]></title>
+            <description><![CDATA[RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js">//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js</a>]]></description>
+            <link>http://requirejs.org/</link>
+            <guid isPermaLink="false">require.js2.1.15</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:36:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[selectize.js updated to version 0.11.2]]></title>
+            <description><![CDATA[A jQuery-based select UI control with autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.11.2/js/selectize.min.js">//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.11.2/js/selectize.min.js</a>]]></description>
+            <link>http://brianreavis.github.io/selectize.js/</link>
+            <guid isPermaLink="false">selectize.js0.11.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:32:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[html5sortable updated to version 0.1.6]]></title>
+            <description><![CDATA[Lightweight jQuery plugin to create sortable lists and grids using native HTML5 drag and drop API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/html5sortable/0.1.6/html.sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/html5sortable/0.1.6/html.sortable.min.js</a>]]></description>
+            <guid isPermaLink="false">html5sortable0.1.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:29:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[summernote updated to version 0.5.10]]></title>
+            <description><![CDATA[Meet the world's best WYSIWYG editor on bootstrap. Summernote support both bootstrap 3.0.x and 2.x.x.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/summernote/0.5.10/summernote.min.js">//cdnjs.cloudflare.com/ajax/libs/summernote/0.5.10/summernote.min.js</a>]]></description>
+            <link>http://hackerwins.github.io/summernote/</link>
+            <guid isPermaLink="false">summernote0.5.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:25:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webcomponentsjs(0.5.1) was added]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.1/webcomponents.min.js">//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.1/webcomponents.min.js</a>]]></description>
+            <link>http://webcomponents.org</link>
+            <guid isPermaLink="false">webcomponentsjs0.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:21:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps(2.0.7) was added]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.7/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.7/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:19:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Flowtype.js(1.1.0) was added]]></title>
+            <description><![CDATA[Web typography at its finest: font-size and line-height based on element width.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Flowtype.js/1.1.0/flowtype.min.js">//cdnjs.cloudflare.com/ajax/libs/Flowtype.js/1.1.0/flowtype.min.js</a>]]></description>
+            <link>http://simplefocus.com/flowtype/</link>
+            <guid isPermaLink="false">Flowtype.js1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:17:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ladda-bootstrap updated to version 0.9.4]]></title>
+            <description><![CDATA[Buttons with built-in loading indicators, effectively bridging the gap between action and feedback.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ladda-bootstrap/0.9.4/ladda.min.js">//cdnjs.cloudflare.com/ajax/libs/ladda-bootstrap/0.9.4/ladda.min.js</a>]]></description>
+            <link>http://msurguy.github.io/ladda-bootstrap/</link>
+            <guid isPermaLink="false">ladda-bootstrap0.9.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:12:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ckeditor updated to version 4.4.5]]></title>
+            <description><![CDATA[Ckeditor is the best web text editor for everyone.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ckeditor/4.4.5/ckeditor.js">//cdnjs.cloudflare.com/ajax/libs/ckeditor/4.4.5/ckeditor.js</a>]]></description>
+            <link>http://ckeditor.com/</link>
+            <guid isPermaLink="false">ckeditor4.4.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 08:07:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[slidebars updated to version 0.10.2]]></title>
+            <description><![CDATA[Slidebars is a jQuery plugin for quickly and easily implementing app-style revealing menus and sidebars into your website.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/slidebars/0.10.2/slidebars.min.js">//cdnjs.cloudflare.com/ajax/libs/slidebars/0.10.2/slidebars.min.js</a>]]></description>
+            <link>http://plugins.adchsm.me/slidebars/</link>
+            <guid isPermaLink="false">slidebars0.10.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 07:57:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[fullcalendar updated to version 2.2.0]]></title>
             <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.0/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.0/fullcalendar.min.js</a>]]></description>
@@ -53,14 +162,6 @@
             <guid isPermaLink="false">rxjs2.3.16</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 02:51:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[immutable updated to version 3.2.0]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.0/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 02:47:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yasr updated to version 2.0.2]]></title>
@@ -155,14 +256,6 @@
             <description><![CDATA[A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more). Please note: cdnjs does not serve the respond-proxy.html file.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js">//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js</a>]]></description>
             <link>https://github.com/scottjehl/Respond</link>
             <guid isPermaLink="false">respond.js1.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 13 Nov 2014 14:26:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[require.js updated to version 2.1.15]]></title>
-            <description><![CDATA[RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js">//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js</a>]]></description>
-            <link>http://requirejs.org/</link>
-            <guid isPermaLink="false">require.js2.1.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 13 Nov 2014 14:26:49 GMT</pubDate>
         </item>
