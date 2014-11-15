@@ -10,10 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Nov 2014 16:47:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Nov 2014 17:02:31 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery-contextify(1.0.1) was added]]></title>
+            <description><![CDATA[A lightweight jQuery plugin for creating Bootstrap powered context menus.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-contextify/1.0.1/jquery.contextify.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-contextify/1.0.1/jquery.contextify.min.js</a>]]></description>
+            <link>http://contextify.donlabs.com</link>
+            <guid isPermaLink="false">jquery-contextify1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 16:47:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap3-dialog(1.33.5) was added]]></title>
+            <description><![CDATA[Make use of Bootstrap Modal more monkey-friendly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.33.5/js/bootstrap-dialog.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.33.5/js/bootstrap-dialog.min.js</a>]]></description>
+            <link>http://nakupanda.github.io/bootstrap3-dialog</link>
+            <guid isPermaLink="false">bootstrap3-dialog1.33.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 16:45:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-token-auth(0.0.23) was added]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-token-auth/0.0.23/ng-token-auth.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-token-auth/0.0.23/ng-token-auth.min.js</a>]]></description>
+            <guid isPermaLink="false">ng-token-auth0.0.23</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 16:41:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[timelinejs updated to version 2.34.1]]></title>
             <description><![CDATA[TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.34.1/js/timeline-min.js">//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.34.1/js/timeline-min.js</a>]]></description>
@@ -885,14 +908,6 @@
             <guid isPermaLink="false">animate.css3.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 02 Nov 2014 12:19:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ladda updated to version 0.9.4]]></title>
-            <description><![CDATA[Buttons with built-in loading indicators<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.4/ladda.min.js">//cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.4/ladda.min.js</a>]]></description>
-            <link>http://lab.hakim.se/ladda</link>
-            <guid isPermaLink="false">Ladda0.9.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 01 Nov 2014 16:47:05 GMT</pubDate>
         </item>
     </channel>
 </rss>
