@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Nov 2014 16:17:26 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Nov 2014 16:32:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.18]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.18/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.18/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.18</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 16:15:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mathjs updated to version 1.1.0]]></title>
+            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/1.1.0/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/1.1.0/math.min.js</a>]]></description>
+            <link>http://mathjs.org</link>
+            <guid isPermaLink="false">mathjs1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 16:14:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[c3 updated to version 0.4.0]]></title>
+            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.0/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.0/c3.min.js</a>]]></description>
+            <link>http://c3js.org</link>
+            <guid isPermaLink="false">c30.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 16:14:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[immutable updated to version 3.2.1]]></title>
             <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.1/immutable.min.js</a>]]></description>
@@ -154,14 +178,6 @@
             <guid isPermaLink="false">vis3.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 02:54:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.3.16]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.16/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.16/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.16</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 02:51:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yasr updated to version 2.0.2]]></title>
