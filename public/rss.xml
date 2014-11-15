@@ -10,10 +10,31 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 15 Nov 2014 17:02:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Nov 2014 17:17:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[foggy(1.1.1) was added]]></title>
+            <description><![CDATA[jQuery plugin for blurring page elements<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foggy/1.1.1/jquery.foggy.min.js">//cdnjs.cloudflare.com/ajax/libs/foggy/1.1.1/jquery.foggy.min.js</a>]]></description>
+            <guid isPermaLink="false">foggy1.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 17:12:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery_lazyload(1.9.3) was added]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.3/jquery.lazyload.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.3/jquery.lazyload.min.js</a>]]></description>
+            <guid isPermaLink="false">jquery_lazyload1.9.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 17:09:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tether(0.6.5) was added]]></title>
+            <description><![CDATA[A client-side library to make absolutely positioned elements attach to elements in the page efficiently.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tether/0.6.5/tether.min.js">//cdnjs.cloudflare.com/ajax/libs/tether/0.6.5/tether.min.js</a>]]></description>
+            <guid isPermaLink="false">tether0.6.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 15 Nov 2014 17:04:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery-contextify(1.0.1) was added]]></title>
             <description><![CDATA[A lightweight jQuery plugin for creating Bootstrap powered context menus.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-contextify/1.0.1/jquery.contextify.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-contextify/1.0.1/jquery.contextify.min.js</a>]]></description>
