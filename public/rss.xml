@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 16 Nov 2014 17:47:24 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 16 Nov 2014 18:02:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -976,14 +976,6 @@
             <guid isPermaLink="false">coordinates-picker1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 02 Nov 2014 23:58:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[noti.js updated to version 1.0.2]]></title>
-            <description><![CDATA[NOTE: there won't be updates on CDNJS any longer. Please download it from Github instead!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/noti.js/1.0.2/noti.min.js">//cdnjs.cloudflare.com/ajax/libs/noti.js/1.0.2/noti.min.js</a>]]></description>
-            <link>https://github.com/j-l-n/noti.js</link>
-            <guid isPermaLink="false">noti.js1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 02 Nov 2014 17:55:45 GMT</pubDate>
         </item>
     </channel>
 </rss>
