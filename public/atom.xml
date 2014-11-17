@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Nov 2014 04:02:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Nov 2014 04:17:30 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jinplace updated to version 1.0.0]]></title>
+            <description><![CDATA[A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jinplace/1.0.0/jinplace.js">//cdnjs.cloudflare.com/ajax/libs/jinplace/1.0.0/jinplace.js</a>]]></description>
+            <link>https://bitbucket.org/itinken/jinplace</link>
+            <guid isPermaLink="false">jinplace1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 16 Nov 2014 22:31:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[skrollr updated to version 0.6.28]]></title>
             <description><![CDATA[Stand-alone parallax scrolling library for mobile (Android + iOS) and desktop. No jQuery. Just plain JavaScript (and some love).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.28/skrollr.min.js">//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.28/skrollr.min.js</a>]]></description>
