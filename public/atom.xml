@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Nov 2014 12:47:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Nov 2014 13:02:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -968,14 +968,6 @@
             <guid isPermaLink="false">jquery.form3.51</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 03 Nov 2014 14:06:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-relational updated to version 0.9.0]]></title>
-            <description><![CDATA[Get and set relations (one-to-one, one-to-many, many-to-one) for Backbone models<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-relational/0.9.0/backbone-relational.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-relational/0.9.0/backbone-relational.min.js</a>]]></description>
-            <link>https://github.com/PaulUithol/Backbone-relational</link>
-            <guid isPermaLink="false">backbone-relational0.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 03 Nov 2014 12:52:51 GMT</pubDate>
         </item>
     </channel>
 </rss>
