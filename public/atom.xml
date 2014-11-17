@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 17 Nov 2014 00:47:25 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Nov 2014 01:02:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -952,22 +952,6 @@
             <guid isPermaLink="false">backbone-relational0.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 03 Nov 2014 12:52:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-datetimepicker updated to version 3.1.3]]></title>
-            <description><![CDATA[Date/time picker widget for Twitter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js</a>]]></description>
-            <link>http://eonasdan.github.io/bootstrap-datetimepicker/</link>
-            <guid isPermaLink="false">bootstrap-datetimepicker3.1.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 03 Nov 2014 00:54:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[reqwest updated to version 1.1.5]]></title>
-            <description><![CDATA[A wrapper for asynchronous http requests<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.js">//cdnjs.cloudflare.com/ajax/libs/reqwest/1.1.5/reqwest.js</a>]]></description>
-            <link>https://github.com/ded/reqwest</link>
-            <guid isPermaLink="false">reqwest1.1.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 03 Nov 2014 00:40:20 GMT</pubDate>
         </item>
     </channel>
 </rss>
