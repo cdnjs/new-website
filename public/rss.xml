@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Nov 2014 02:47:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Nov 2014 03:02:36 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jplayer updated to version 2.7.1]]></title>
+            <description><![CDATA[The jQuery HTML5 Audio / Video Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.7.1/jquery.jplayer/jquery.jplayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jplayer/2.7.1/jquery.jplayer/jquery.jplayer.min.js</a>]]></description>
+            <link>http://www.jplayer.org/</link>
+            <guid isPermaLink="false">jplayer2.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 18 Nov 2014 02:48:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.mb.YTPlayer updated to version 2.7.5]]></title>
             <description><![CDATA[This plugin let you play any public YouTube video as background of your page. It can also be used as a customized player in page.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.5/jquery.mb.YTPlayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.5/jquery.mb.YTPlayer.min.js</a>]]></description>
