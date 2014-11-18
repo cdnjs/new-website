@@ -10,10 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Nov 2014 01:32:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Nov 2014 01:47:33 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.mb.YTPlayer updated to version 2.7.5]]></title>
+            <description><![CDATA[This plugin let you play any public YouTube video as background of your page. It can also be used as a customized player in page.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.5/jquery.mb.YTPlayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.5/jquery.mb.YTPlayer.min.js</a>]]></description>
+            <link>http://pupunzi.open-lab.com/mb-jquery-components/jquery-mb-ytplayer/</link>
+            <guid isPermaLink="false">jquery.mb.YTPlayer2.7.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 18 Nov 2014 01:32:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.2.0]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.0/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.0/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 18 Nov 2014 01:31:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.5]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.5/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.5/jsonld.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 18 Nov 2014 01:31:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-smooth-scroll updated to version 1.5.4]]></title>
+            <description><![CDATA[Automatically make same-page links scroll smoothly<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.4/jquery.smooth-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.4/jquery.smooth-scroll.min.js</a>]]></description>
+            <guid isPermaLink="false">jquery-smooth-scroll1.5.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 18 Nov 2014 01:29:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-material-design updated to version 0.1.6]]></title>
+            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.6/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.6/js/material.min.js</a>]]></description>
+            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
+            <guid isPermaLink="false">bootstrap-material-design0.1.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 18 Nov 2014 01:29:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[stacktrace.js updated to version 0.6.4]]></title>
             <description><![CDATA[Framework-agnostic, micro-library for getting stack traces in all environments<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/stacktrace.js/0.6.4/stacktrace.min.js">//cdnjs.cloudflare.com/ajax/libs/stacktrace.js/0.6.4/stacktrace.min.js</a>]]></description>
@@ -333,14 +372,6 @@
             <guid isPermaLink="false">yasr2.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 14 Nov 2014 10:47:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 2.1.0]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.1.0/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.1.0/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 14 Nov 2014 10:47:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.24]]></title>
@@ -733,14 +764,6 @@
             <pubDate>Sat, 08 Nov 2014 07:40:40 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.mb.YTPlayer(2.7.2) was added]]></title>
-            <description><![CDATA[This plugin let you play any public YouTube video as background of your page. It can also be used as a customized player in page.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.2/jquery.mb.YTPlayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.2/jquery.mb.YTPlayer.min.js</a>]]></description>
-            <link>http://pupunzi.open-lab.com/mb-jquery-components/jquery-mb-ytplayer/</link>
-            <guid isPermaLink="false">jquery.mb.YTPlayer2.7.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 08 Nov 2014 07:37:47 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery.tablesorter updated to version 2.18.3]]></title>
             <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.3/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.3/js/jquery.tablesorter.min.js</a>]]></description>
             <link>http://mottie.github.com/tablesorter/</link>
@@ -936,22 +959,6 @@
             <guid isPermaLink="false">css3finalize4.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 04 Nov 2014 14:40:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nprogress updated to version 0.1.6]]></title>
-            <description><![CDATA[Slim progress bars for Ajax'y applications. Inspired by Google, YouTube, and Medium.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.1.6/nprogress.min.js">//cdnjs.cloudflare.com/ajax/libs/nprogress/0.1.6/nprogress.min.js</a>]]></description>
-            <link>http://ricostacruz.com/nprogress/</link>
-            <guid isPermaLink="false">nprogress0.1.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 04 Nov 2014 01:45:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.3.11]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.11/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.11/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.3.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 04 Nov 2014 01:30:30 GMT</pubDate>
         </item>
     </channel>
 </rss>
