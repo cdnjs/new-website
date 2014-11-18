@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Nov 2014 14:32:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Nov 2014 14:47:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -968,29 +968,6 @@
             <guid isPermaLink="false">emojify.js0.9.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 04 Nov 2014 17:21:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-react-component updated to version 0.7.2]]></title>
-            <description><![CDATA[Backbone.React.Component is a wrapper for React.Component and brings all the power of Facebook's React to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.2/backbone-react-component.js">//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.2/backbone-react-component.js</a>]]></description>
-            <guid isPermaLink="false">backbone-react-component0.7.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 04 Nov 2014 14:42:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[insightjs updated to version 1.2.1]]></title>
-            <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.2.1/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.2.1/insight.min.js</a>]]></description>
-            <link>https://github.com/scottlogic/insight</link>
-            <guid isPermaLink="false">insightjs1.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 04 Nov 2014 14:41:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[css3finalize updated to version 4.1.0]]></title>
-            <description><![CDATA[Automatically add vendor prefixes<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/css3finalize/4.1.0/jquery.css3finalize.min.js">//cdnjs.cloudflare.com/ajax/libs/css3finalize/4.1.0/jquery.css3finalize.min.js</a>]]></description>
-            <link>https://github.com/codler/jQuery-Css3-Finalize</link>
-            <guid isPermaLink="false">css3finalize4.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 04 Nov 2014 14:40:44 GMT</pubDate>
         </item>
     </channel>
 </rss>
