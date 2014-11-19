@@ -10,10 +10,72 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 19 Nov 2014 13:17:31 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Nov 2014 13:32:34 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.2.2]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.2/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.2/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 19 Nov 2014 13:25:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps updated to version 2.0.9]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.9/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.9/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.0.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 19 Nov 2014 13:24:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-token-auth updated to version 0.0.24]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-token-auth/0.0.24/ng-token-auth.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-token-auth/0.0.24/ng-token-auth.min.js</a>]]></description>
+            <guid isPermaLink="false">ng-token-auth0.0.24</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 19 Nov 2014 13:24:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fluidbox updated to version 1.4.2]]></title>
+            <description><![CDATA[Replicating Medium's beautiful, minimalist lightbox module<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.2/jquery.fluidbox.min.js">//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.2/jquery.fluidbox.min.js</a>]]></description>
+            <link>https://github.com/terrymun/Fluidbox</link>
+            <guid isPermaLink="false">fluidbox1.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 19 Nov 2014 13:24:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[moment.js updated to version 2.8.4]]></title>
+            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js</a>]]></description>
+            <link>http://momentjs.com/</link>
+            <guid isPermaLink="false">moment.js2.8.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 19 Nov 2014 13:23:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.20.3]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.3/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.3/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.20.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 19 Nov 2014 13:23:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highlight.js updated to version 8.4]]></title>
+            <description><![CDATA[Easy-to-use, Javascript-based syntax highlighter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js">//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js</a>]]></description>
+            <link>http://highlightjs.org</link>
+            <guid isPermaLink="false">highlight.js8.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 19 Nov 2014 13:22:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.6]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.6/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.6/jsonld.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 19 Nov 2014 13:21:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[insightjs updated to version 1.3.0]]></title>
             <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.3.0/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.3.0/insight.min.js</a>]]></description>
@@ -45,14 +107,6 @@
             <guid isPermaLink="false">c30.4.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 18 Nov 2014 16:09:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 2.2.1]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.1/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.1/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 18 Nov 2014 13:45:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[react updated to version 0.12.1]]></title>
@@ -103,14 +157,6 @@
             <pubDate>Tue, 18 Nov 2014 01:32:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jsonld updated to version 0.3.5]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.5/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.5/jsonld.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 18 Nov 2014 01:31:15 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery-smooth-scroll updated to version 1.5.4]]></title>
             <description><![CDATA[Automatically make same-page links scroll smoothly<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.4/jquery.smooth-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.4/jquery.smooth-scroll.min.js</a>]]></description>
             <guid isPermaLink="false">jquery-smooth-scroll1.5.4</guid>
@@ -156,13 +202,6 @@
             <guid isPermaLink="false">chartist0.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 17 Nov 2014 06:13:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-google-maps updated to version 2.0.8]]></title>
-            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.8/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.8/angular-google-maps.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-google-maps2.0.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 17 Nov 2014 05:59:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jinplace updated to version 1.0.0]]></title>
@@ -263,13 +302,6 @@
             <guid isPermaLink="false">bootstrap3-dialog1.33.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 16:45:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-token-auth(0.0.23) was added]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-token-auth/0.0.23/ng-token-auth.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-token-auth/0.0.23/ng-token-auth.min.js</a>]]></description>
-            <guid isPermaLink="false">ng-token-auth0.0.23</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 16:41:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[timelinejs updated to version 2.34.1]]></title>
@@ -506,14 +538,6 @@
             <description><![CDATA[A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more). Please note: cdnjs does not serve the respond-proxy.html file.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js">//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js</a>]]></description>
             <link>https://github.com/scottjehl/Respond</link>
             <guid isPermaLink="false">respond.js1.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 13 Nov 2014 14:26:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment.js updated to version 2.8.3]]></title>
-            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.min.js</a>]]></description>
-            <link>http://momentjs.com/</link>
-            <guid isPermaLink="false">moment.js2.8.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 13 Nov 2014 14:26:49 GMT</pubDate>
         </item>
@@ -794,14 +818,6 @@
             <guid isPermaLink="false">less.js2.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 09 Nov 2014 16:10:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fluidbox updated to version 1.4.1]]></title>
-            <description><![CDATA[Replicating Medium's beautiful, minimalist lightbox module<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.1/jquery.fluidbox.min.js">//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.1/jquery.fluidbox.min.js</a>]]></description>
-            <link>https://github.com/terrymun/Fluidbox</link>
-            <guid isPermaLink="false">fluidbox1.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 09 Nov 2014 01:58:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jplist updated to version 5.1.38]]></title>
