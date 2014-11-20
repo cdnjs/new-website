@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Nov 2014 05:17:43 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2014 05:32:44 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -969,22 +969,6 @@
             <guid isPermaLink="false">moment-range1.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 06 Nov 2014 05:55:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-mousewheel updated to version 3.1.12]]></title>
-            <description><![CDATA[A jQuery plugin that adds cross-browser mouse wheel support.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js</a>]]></description>
-            <link>https://github.com/brandonaaron/jquery-mousewheel</link>
-            <guid isPermaLink="false">jquery-mousewheel3.1.12</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 05:21:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootswatch updated to version 3.3.0]]></title>
-            <description><![CDATA[Bootswatch is a collection of themes for Bootstrap.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.0/custom/bootstrap.min.css">//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.0/custom/bootstrap.min.css</a>]]></description>
-            <link>http://bootswatch.com/</link>
-            <guid isPermaLink="false">bootswatch3.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 05:18:52 GMT</pubDate>
         </item>
     </channel>
 </rss>
