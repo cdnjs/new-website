@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Nov 2014 05:02:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2014 05:17:43 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[picturefill updated to version 2.2.0]]></title>
+            <description><![CDATA[A responsive image polyfill for <picture>, srcset, sizes, and more<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.2.0/picturefill.min.js">//cdnjs.cloudflare.com/ajax/libs/picturefill/2.2.0/picturefill.min.js</a>]]></description>
+            <link>http://scottjehl.github.com/picturefill/</link>
+            <guid isPermaLink="false">picturefill2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 20 Nov 2014 05:07:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fullcalendar updated to version 2.2.2]]></title>
+            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.2/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.2/fullcalendar.min.js</a>]]></description>
+            <link>http://arshaw.com/fullcalendar/</link>
+            <guid isPermaLink="false">fullcalendar2.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 20 Nov 2014 05:07:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dustjs-helpers updated to version 1.5.0]]></title>
+            <description><![CDATA[Additional functionality for dustjs-linkedin package<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.5.0/dust-helpers.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.5.0/dust-helpers.min.js</a>]]></description>
+            <link>Additional functionality for dustjs-linkedin package</link>
+            <guid isPermaLink="false">dustjs-helpers1.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 20 Nov 2014 05:06:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mojio-js updated to version 2.2.1]]></title>
+            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.1/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.1/mojio-js.min.js</a>]]></description>
+            <link>https://github.com/mojio/mojio-js</link>
+            <guid isPermaLink="false">mojio-js2.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 20 Nov 2014 05:05:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.3.5]]></title>
             <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.5/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.5/cytoscape.min.js</a>]]></description>
@@ -275,14 +307,6 @@
             <pubDate>Sat, 15 Nov 2014 17:49:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[mojio-js(2.2.0) was added]]></title>
-            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.0/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.0/mojio-js.min.js</a>]]></description>
-            <link>https://github.com/mojio/mojio-js</link>
-            <guid isPermaLink="false">mojio-js2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 17:41:21 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[FileSaver.js(2014-08-29) was added]]></title>
             <description><![CDATA[An HTML5 saveAs() FileSaver implementation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-08-29/FileSaver.min.js">//cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-08-29/FileSaver.min.js</a>]]></description>
             <link>https://github.com/eligrey/FileSaver.js/</link>
@@ -460,14 +484,6 @@
             <guid isPermaLink="false">slidebars0.10.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 07:57:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fullcalendar updated to version 2.2.0]]></title>
-            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.0/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.0/fullcalendar.min.js</a>]]></description>
-            <link>http://arshaw.com/fullcalendar/</link>
-            <guid isPermaLink="false">fullcalendar2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 05:56:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[fuse.js updated to version 1.2.2]]></title>
@@ -969,14 +985,6 @@
             <guid isPermaLink="false">bootswatch3.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 06 Nov 2014 05:18:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ember.js updated to version 1.9.0-beta.1]]></title>
-            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0-beta.1/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0-beta.1/ember.min.js</a>]]></description>
-            <link>http://emberjs.com/</link>
-            <guid isPermaLink="false">ember.js1.9.0-beta.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 04:58:59 GMT</pubDate>
         </item>
     </channel>
 </rss>
