@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Nov 2014 02:02:43 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2014 02:17:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -961,14 +961,6 @@
             <guid isPermaLink="false">ember.js1.9.0-beta.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 06 Nov 2014 04:58:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ie8 updated to version 0.2.3]]></title>
-            <description><![CDATA[some damn DOM fix for this damned browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.3/ie8.js">//cdnjs.cloudflare.com/ajax/libs/ie8/0.2.3/ie8.js</a>]]></description>
-            <link>https://github.com/WebReflection/ie8</link>
-            <guid isPermaLink="false">ie80.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 02:09:35 GMT</pubDate>
         </item>
     </channel>
 </rss>
