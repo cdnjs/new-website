@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Nov 2014 04:17:40 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2014 04:32:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.3.5]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.5/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.5/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 20 Nov 2014 04:28:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ramda updated to version 0.8.0]]></title>
+            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.8.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.8.0/ramda.min.js</a>]]></description>
+            <link>https://www.github.com/ramda/ramda</link>
+            <guid isPermaLink="false">ramda0.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 20 Nov 2014 04:27:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[yasr updated to version 2.1.0]]></title>
             <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.1.0/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.1.0/yasr.bundled.min.js</a>]]></description>
