@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Nov 2014 16:47:40 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2014 17:02:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -937,30 +937,6 @@
             <guid isPermaLink="false">onsen1.2.0-beta</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 07 Nov 2014 08:15:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pace updated to version 1.0.2]]></title>
-            <description><![CDATA[Automatic web page progress bar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.js">//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.js</a>]]></description>
-            <link>http://github.hubspot.com/pace/</link>
-            <guid isPermaLink="false">pace1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 16:53:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.7]]></title>
-            <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.7/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.7/perfect-scrollbar.min.js</a>]]></description>
-            <link>http://www.yuiazu.net/perfect-scrollbar/</link>
-            <guid isPermaLink="false">jquery.perfect-scrollbar0.5.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 16:53:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-strap updated to version 2.1.3]]></title>
-            <description><![CDATA[AngularStrap - Twitter Bootstrap directives for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.3/angular-strap.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.3/angular-strap.min.js</a>]]></description>
-            <link>http://mgcrea.github.com/angular-strap</link>
-            <guid isPermaLink="false">angular-strap2.1.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 06 Nov 2014 16:52:51 GMT</pubDate>
         </item>
     </channel>
 </rss>
