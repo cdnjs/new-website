@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 20 Nov 2014 15:02:46 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2014 15:17:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.20.4]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.4/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.4/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.20.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 20 Nov 2014 15:09:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 2.2.0]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.0/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.0/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 20 Nov 2014 15:09:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[webcomponentsjs updated to version 0.5.1-1]]></title>
             <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.1-1/webcomponents.min.js">//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.1-1/webcomponents.min.js</a>]]></description>
@@ -79,14 +95,6 @@
             <pubDate>Thu, 20 Nov 2014 04:27:25 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[yasr updated to version 2.1.0]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.1.0/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.1.0/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 17:39:24 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[emojione updated to version 1.3.0]]></title>
             <description><![CDATA[Emoji One is a complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. PNG and SVG formats provided for the emoji images.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emojione/1.3.0/lib/js/emojione.min.js">//cdnjs.cloudflare.com/ajax/libs/emojione/1.3.0/lib/js/emojione.min.js</a>]]></description>
             <link>http://www.emojione.com</link>
@@ -131,14 +139,6 @@
             <guid isPermaLink="false">moment.js2.8.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 19 Nov 2014 13:23:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.20.3]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.3/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.3/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.20.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 13:23:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[highlight.js updated to version 8.4]]></title>
