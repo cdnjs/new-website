@@ -10,17 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 21 Nov 2014 13:02:49 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Nov 2014 13:17:52 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[twemoji(1.1.1) was added]]></title>
+            <title><![CDATA[twemoji updated to version 1.1.1]]></title>
             <description><![CDATA[A Unicode standard based way to implement emoji across all platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twemoji/1.1.1/twemoji.min.js">//cdnjs.cloudflare.com/ajax/libs/twemoji/1.1.1/twemoji.min.js</a>]]></description>
             <link>https://github.com/twitter/twemoji</link>
             <guid isPermaLink="false">twemoji1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 21 Nov 2014 08:08:15 GMT</pubDate>
+            <pubDate>Fri, 21 Nov 2014 13:09:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.21.0]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.21.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.21.0/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.21.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 21 Nov 2014 12:52:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[chartist updated to version 0.4.1]]></title>
@@ -77,14 +85,6 @@
             <guid isPermaLink="false">angular-ui-bootstrap0.12.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 20 Nov 2014 20:29:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.20.4]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.4/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.20.4/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.20.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 20 Nov 2014 15:09:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[webcomponentsjs updated to version 0.5.1-1]]></title>
