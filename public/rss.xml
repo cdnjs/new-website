@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 21 Nov 2014 08:02:47 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Nov 2014 08:17:39 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -961,14 +961,6 @@
             <guid isPermaLink="false">jshint2.5.10</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 07 Nov 2014 11:20:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[onsen(1.2.0-beta) was added]]></title>
-            <description><![CDATA[HTML5 UI Framework for building Cordova, PhoneGap hybrid mobile apps.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/onsen/1.2.0-beta/js/onsenui.js">//cdnjs.cloudflare.com/ajax/libs/onsen/1.2.0-beta/js/onsenui.js</a>]]></description>
-            <link>http://onsen.io/</link>
-            <guid isPermaLink="false">onsen1.2.0-beta</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 07 Nov 2014 08:15:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
