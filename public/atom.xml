@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 22 Nov 2014 07:32:48 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Nov 2014 07:47:45 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -898,22 +898,6 @@
             <guid isPermaLink="false">less.js2.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 09 Nov 2014 16:10:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jplist updated to version 5.1.38]]></title>
-            <description><![CDATA[jPList - jQuery Data Grid Controls is a flexible jQuery plugin for sorting, pagination and filtering of any HTML structure (DIVs, UL/LI, tables, etc)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplist/5.1.38/jplist.min.js">//cdnjs.cloudflare.com/ajax/libs/jplist/5.1.38/jplist.min.js</a>]]></description>
-            <link>http://jplist.com</link>
-            <guid isPermaLink="false">jplist5.1.38</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 08 Nov 2014 07:42:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.downCount(1.0.0) was added]]></title>
-            <description><![CDATA[Simple countdown plugin that accounts for timezone<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.downCount/1.0.0/jquery.downCount.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.downCount/1.0.0/jquery.downCount.min.js</a>]]></description>
-            <link>http://sonnyt.com/downCount-plugin/</link>
-            <guid isPermaLink="false">jquery.downCount1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 08 Nov 2014 07:40:40 GMT</pubDate>
         </item>
     </channel>
 </rss>
