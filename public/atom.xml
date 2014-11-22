@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 22 Nov 2014 00:02:46 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Nov 2014 00:17:47 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -930,30 +930,6 @@
             <guid isPermaLink="false">elasticsearch3.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 08 Nov 2014 04:19:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rivets updated to version 0.7.1]]></title>
-            <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.1/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.1/rivets.min.js</a>]]></description>
-            <link>http://rivetsjs.com</link>
-            <guid isPermaLink="false">rivets0.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 08 Nov 2014 00:05:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-switch updated to version 3.2.1]]></title>
-            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.1/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.1/js/bootstrap-switch.min.js</a>]]></description>
-            <link>http://www.bootstrap-switch.org</link>
-            <guid isPermaLink="false">bootstrap-switch3.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 08 Nov 2014 00:05:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Cookies.js updated to version 1.1.0]]></title>
-            <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.1.0/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.1.0/cookies.min.js</a>]]></description>
-            <link>https://github.com/ScottHamper/Cookies</link>
-            <guid isPermaLink="false">Cookies.js1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 08 Nov 2014 00:04:35 GMT</pubDate>
         </item>
     </channel>
 </rss>
