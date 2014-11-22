@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 22 Nov 2014 05:17:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Nov 2014 05:32:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mojio-js updated to version 2.2.3]]></title>
+            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.3/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.3/mojio-js.min.js</a>]]></description>
+            <link>https://github.com/mojio/mojio-js</link>
+            <guid isPermaLink="false">mojio-js2.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 22 Nov 2014 05:26:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[masonry updated to version 3.2.1]]></title>
+            <description><![CDATA[Cascading grid layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.1/masonry.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.1/masonry.pkgd.min.js</a>]]></description>
+            <link>http://masonry.desandro.com/</link>
+            <guid isPermaLink="false">masonry3.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 22 Nov 2014 05:24:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.7]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.7/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.7/jsonld.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 22 Nov 2014 05:24:15 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[twemoji updated to version 1.1.1]]></title>
             <description><![CDATA[A Unicode standard based way to implement emoji across all platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twemoji/1.1.1/twemoji.min.js">//cdnjs.cloudflare.com/ajax/libs/twemoji/1.1.1/twemoji.min.js</a>]]></description>
@@ -37,14 +61,6 @@
             <guid isPermaLink="false">chartist0.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 21 Nov 2014 05:02:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[masonry updated to version 3.2.0]]></title>
-            <description><![CDATA[Cascading grid layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.0/masonry.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.0/masonry.pkgd.min.js</a>]]></description>
-            <link>http://masonry.desandro.com/</link>
-            <guid isPermaLink="false">masonry3.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 21 Nov 2014 05:02:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-table updated to version 1.4.0]]></title>
@@ -127,14 +143,6 @@
             <pubDate>Thu, 20 Nov 2014 05:06:18 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[mojio-js updated to version 2.2.1]]></title>
-            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.1/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.1/mojio-js.min.js</a>]]></description>
-            <link>https://github.com/mojio/mojio-js</link>
-            <guid isPermaLink="false">mojio-js2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 20 Nov 2014 05:05:28 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[cytoscape updated to version 2.3.5]]></title>
             <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.5/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.5/cytoscape.min.js</a>]]></description>
             <link>http://cytoscape.github.io/cytoscape.js</link>
@@ -203,14 +211,6 @@
             <guid isPermaLink="false">highlight.js8.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 19 Nov 2014 13:22:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsonld updated to version 0.3.6]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.6/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.6/jsonld.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 13:21:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[gridstack.js(0.1.0) was added]]></title>
