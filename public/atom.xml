@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 23 Nov 2014 19:17:51 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Nov 2014 19:32:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jinplace updated to version 1.1.0]]></title>
+            <description><![CDATA[A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js">//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js</a>]]></description>
+            <link>https://bitbucket.org/itinken/jinplace</link>
+            <guid isPermaLink="false">jinplace1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 23 Nov 2014 19:14:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[less.js updated to version 2.1.0]]></title>
+            <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js</a>]]></description>
+            <link>http://lesscss.org/</link>
+            <guid isPermaLink="false">less.js2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 23 Nov 2014 19:13:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[swagger-ui updated to version 2.1.0-alpha.6]]></title>
             <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.0-alpha.6/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.0-alpha.6/swagger-ui.min.js</a>]]></description>
@@ -53,6 +69,14 @@
             <guid isPermaLink="false">mathjs1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 22 Nov 2014 18:38:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intro.js updated to version 1.0.0]]></title>
+            <description><![CDATA[A better way for new feature introduction and step-by-step users guide for your website and project.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/intro.js/1.0.0/intro.min.js">//cdnjs.cloudflare.com/ajax/libs/intro.js/1.0.0/intro.min.js</a>]]></description>
+            <link>http://usablica.github.com/intro.js/</link>
+            <guid isPermaLink="false">intro.js1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 22 Nov 2014 18:33:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mojio-js updated to version 2.2.3]]></title>
@@ -370,14 +394,6 @@
             <guid isPermaLink="false">bacon.js0.7.35</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 17 Nov 2014 18:39:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jinplace updated to version 1.0.0]]></title>
-            <description><![CDATA[A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jinplace/1.0.0/jinplace.min.js">//cdnjs.cloudflare.com/ajax/libs/jinplace/1.0.0/jinplace.min.js</a>]]></description>
-            <link>https://bitbucket.org/itinken/jinplace</link>
-            <guid isPermaLink="false">jinplace1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 17 Nov 2014 05:49:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-ui-sortable updated to version 0.13.1]]></title>
