@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 23 Nov 2014 08:17:51 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Nov 2014 08:32:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[swagger-ui updated to version 2.1.0-alpha.6]]></title>
+            <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.0-alpha.6/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.0-alpha.6/swagger-ui.min.js</a>]]></description>
+            <link>http://swagger.io/</link>
+            <guid isPermaLink="false">swagger-ui2.1.0-alpha.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 23 Nov 2014 08:21:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[packery updated to version 1.3.0]]></title>
+            <description><![CDATA[The bin-packing layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/packery/1.3.0/packery.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/packery/1.3.0/packery.pkgd.min.js</a>]]></description>
+            <link>http://packery.metafizzy.co/</link>
+            <guid isPermaLink="false">packery1.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 23 Nov 2014 08:20:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[q.js updated to version 1.1.2]]></title>
+            <description><![CDATA[A library for promises (CommonJS/Promises/A,B,D)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.2/q.js">//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.2/q.js</a>]]></description>
+            <link>https://github.com/kriskowal/q</link>
+            <guid isPermaLink="false">q.js1.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 23 Nov 2014 08:20:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[codemirror updated to version 4.8.0]]></title>
             <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.8.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.8.0/codemirror.min.js</a>]]></description>
@@ -456,14 +480,6 @@
             <pubDate>Sat, 15 Nov 2014 08:47:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[packery updated to version 1.2.4]]></title>
-            <description><![CDATA[The bin-packing layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/packery/1.2.4/packery.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/packery/1.2.4/packery.pkgd.min.js</a>]]></description>
-            <link>http://packery.metafizzy.co/</link>
-            <guid isPermaLink="false">packery1.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 08:47:20 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ionic updated to version 1.0.0-beta.13]]></title>
             <description><![CDATA[Advanced HTML5 Mobile App Framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-beta.13/js/ionic.min.js">//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-beta.13/js/ionic.min.js</a>]]></description>
             <guid isPermaLink="false">ionic1.0.0-beta.13</guid>
@@ -874,14 +890,6 @@
             <guid isPermaLink="false">chai1.10.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 11 Nov 2014 01:56:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[q.js updated to version 1.1.1]]></title>
-            <description><![CDATA[A library for promises (CommonJS/Promises/A,B,D)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.1/q.js">//cdnjs.cloudflare.com/ajax/libs/q.js/1.1.1/q.js</a>]]></description>
-            <link>https://github.com/kriskowal/q</link>
-            <guid isPermaLink="false">q.js1.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 11 Nov 2014 01:43:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vue updated to version 0.11.0]]></title>
