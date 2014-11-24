@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Nov 2014 14:47:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Nov 2014 15:02:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jinplace updated to version 1.1.0]]></title>
+            <description><![CDATA[A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js">//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js</a>]]></description>
+            <link>https://bitbucket.org/itinken/jinplace</link>
+            <guid isPermaLink="false">jinplace1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 24 Nov 2014 09:21:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[immutable updated to version 3.3.0]]></title>
             <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.3.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.3.0/immutable.min.js</a>]]></description>
@@ -29,14 +37,6 @@
             <guid isPermaLink="false">p5.js0.3.12</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 24 Nov 2014 04:21:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jinplace updated to version 1.1.0]]></title>
-            <description><![CDATA[A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js">//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js</a>]]></description>
-            <link>https://bitbucket.org/itinken/jinplace</link>
-            <guid isPermaLink="false">jinplace1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 23 Nov 2014 19:14:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[less.js updated to version 2.1.0]]></title>
