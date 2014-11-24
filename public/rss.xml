@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Nov 2014 16:17:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Nov 2014 16:32:53 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -922,14 +922,6 @@
             <guid isPermaLink="false">chai1.10.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 11 Nov 2014 01:56:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vue updated to version 0.11.0]]></title>
-            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.11.0/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.11.0/vue.min.js</a>]]></description>
-            <link>http://vuejs.org</link>
-            <guid isPermaLink="false">vue0.11.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 10 Nov 2014 16:30:11 GMT</pubDate>
         </item>
     </channel>
 </rss>
