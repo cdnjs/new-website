@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Nov 2014 04:17:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Nov 2014 04:32:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[immutable updated to version 3.3.0]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.3.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.3.0/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 24 Nov 2014 04:21:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.3.12]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.12/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.12/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.3.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 24 Nov 2014 04:21:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jinplace updated to version 1.1.0]]></title>
             <description><![CDATA[A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js">//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js</a>]]></description>
@@ -494,14 +510,6 @@
             <guid isPermaLink="false">rxjs2.3.18</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 16:15:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[immutable updated to version 3.2.1]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.2.1/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 08:47:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ionic updated to version 1.0.0-beta.13]]></title>
