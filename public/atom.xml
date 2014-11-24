@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 24 Nov 2014 17:02:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Nov 2014 17:17:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[yasr updated to version 2.2.2]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.2/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.2/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 24 Nov 2014 17:01:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.2.3]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.3/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.3/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 24 Nov 2014 17:01:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[intro.js updated to version 0.6.0]]></title>
+            <description><![CDATA[A better way for new feature introduction and step-by-step users guide for your website and project.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/intro.js/0.6.0/intro.min.js">//cdnjs.cloudflare.com/ajax/libs/intro.js/0.6.0/intro.min.js</a>]]></description>
+            <link>http://usablica.github.com/intro.js/</link>
+            <guid isPermaLink="false">intro.js0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 24 Nov 2014 17:00:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jinplace updated to version 1.1.0]]></title>
             <description><![CDATA[A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js">//cdnjs.cloudflare.com/ajax/libs/jinplace/1.1.0/jinplace.min.js</a>]]></description>
@@ -95,14 +119,6 @@
             <pubDate>Sat, 22 Nov 2014 18:38:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[intro.js updated to version 1.0.0]]></title>
-            <description><![CDATA[A better way for new feature introduction and step-by-step users guide for your website and project.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/intro.js/1.0.0/intro.min.js">//cdnjs.cloudflare.com/ajax/libs/intro.js/1.0.0/intro.min.js</a>]]></description>
-            <link>http://usablica.github.com/intro.js/</link>
-            <guid isPermaLink="false">intro.js1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 22 Nov 2014 18:33:49 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[mojio-js updated to version 2.2.3]]></title>
             <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.3/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.3/mojio-js.min.js</a>]]></description>
             <link>https://github.com/mojio/mojio-js</link>
@@ -157,14 +173,6 @@
             <guid isPermaLink="false">bootstrap-table1.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 21 Nov 2014 05:01:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasr updated to version 2.2.1]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.1/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.1/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 21 Nov 2014 05:01:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[c3 updated to version 0.4.4]]></title>
@@ -253,14 +261,6 @@
             <guid isPermaLink="false">emojione1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 19 Nov 2014 13:47:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 2.2.2]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.2/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.2/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 13:25:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-google-maps updated to version 2.0.9]]></title>
