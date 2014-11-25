@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Nov 2014 05:32:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Nov 2014 05:47:48 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -891,13 +891,6 @@
             <guid isPermaLink="false">uikit2.12.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 11 Nov 2014 17:37:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[hopscotch updated to version 0.2.2]]></title>
-            <description><![CDATA[A framework to make it easy for developers to add product tours to their pages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hopscotch/0.2.2/js/hopscotch.min.js">//cdnjs.cloudflare.com/ajax/libs/hopscotch/0.2.2/js/hopscotch.min.js</a>]]></description>
-            <guid isPermaLink="false">hopscotch0.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 11 Nov 2014 05:38:31 GMT</pubDate>
         </item>
     </channel>
 </rss>
