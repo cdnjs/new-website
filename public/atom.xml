@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Nov 2014 15:32:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Nov 2014 15:47:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.36]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.36/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.36/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.36</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 25 Nov 2014 15:34:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.0.0]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.0.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.0.0/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 25 Nov 2014 15:32:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[timelinejs updated to version 2.35.2]]></title>
             <description><![CDATA[TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.2/js/timeline-min.js">//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.2/js/timeline-min.js</a>]]></description>
@@ -441,14 +457,6 @@
             <guid isPermaLink="false">skrollr0.6.29</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 17 Nov 2014 18:42:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.35]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.35/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.35/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.35</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 17 Nov 2014 18:39:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-ui-sortable updated to version 0.13.1]]></title>
