@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Nov 2014 18:32:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Nov 2014 18:47:48 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -899,22 +899,6 @@
             <guid isPermaLink="false">autosize.js1.18.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 12 Nov 2014 01:49:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mootools updated to version 1.5.1]]></title>
-            <description><![CDATA[MooTools is a compact, modular, Object-Oriented JavaScript framework designed for the intermediate to advanced JavaScript developer.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mootools/1.5.1/mootools-core-full-compat.min.js">//cdnjs.cloudflare.com/ajax/libs/mootools/1.5.1/mootools-core-full-compat.min.js</a>]]></description>
-            <link>http://mootools.net</link>
-            <guid isPermaLink="false">mootools1.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 11 Nov 2014 18:19:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mootools-more updated to version 1.5.1]]></title>
-            <description><![CDATA[MooTools is a compact, modular, Object-Oriented JavaScript framework designed for the intermediate to advanced JavaScript developer. It allows you to write powerful, flexible, and cross-browser code with its elegant, well documented, and coherent API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mootools-more/1.5.1/mootools-more-full-compat.min.js">//cdnjs.cloudflare.com/ajax/libs/mootools-more/1.5.1/mootools-more-full-compat.min.js</a>]]></description>
-            <link>http://mootools.net/</link>
-            <guid isPermaLink="false">mootools-more1.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 11 Nov 2014 18:19:27 GMT</pubDate>
         </item>
     </channel>
 </rss>
