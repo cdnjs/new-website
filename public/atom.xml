@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Nov 2014 08:02:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Nov 2014 08:17:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[timelinejs updated to version 2.35.2]]></title>
+            <description><![CDATA[TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.2/js/timeline-min.js">//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.2/js/timeline-min.js</a>]]></description>
+            <link>http://timeline.knightlab.com/</link>
+            <guid isPermaLink="false">timelinejs2.35.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 25 Nov 2014 08:08:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[signature_pad updated to version 1.3.4]]></title>
+            <description><![CDATA[Library for drawing smooth signatures.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/signature_pad/1.3.4/signature_pad.min.js">//cdnjs.cloudflare.com/ajax/libs/signature_pad/1.3.4/signature_pad.min.js</a>]]></description>
+            <link>https://github.com/szimek/signature_pad</link>
+            <guid isPermaLink="false">signature_pad1.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 25 Nov 2014 08:08:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.8]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.8/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.8/jsonld.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 25 Nov 2014 08:06:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[froala-editor updated to version 1.2.4]]></title>
+            <description><![CDATA[A beautiful jQuery WYSIWYG text editor based on HTML5 technology. Cross browser, with mobile support, high performance and Retina Ready flat design.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.4/js/froala_editor.min.js">//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.4/js/froala_editor.min.js</a>]]></description>
+            <link>http://editor.froala.com/</link>
+            <guid isPermaLink="false">froala-editor1.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 25 Nov 2014 08:06:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[annyang updated to version 1.5.0]]></title>
+            <description><![CDATA[A javascript library for adding voice commands to your site, using speech recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/annyang/1.5.0/annyang.min.js">//cdnjs.cloudflare.com/ajax/libs/annyang/1.5.0/annyang.min.js</a>]]></description>
+            <link>https://www.talater.com/annyang/</link>
+            <guid isPermaLink="false">annyang1.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 25 Nov 2014 08:05:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[slick-carousel updated to version 1.3.15]]></title>
             <description><![CDATA[the last carousel you'll ever need<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.min.js">//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.min.js</a>]]></description>
@@ -142,14 +182,6 @@
             <pubDate>Sat, 22 Nov 2014 05:24:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jsonld updated to version 0.3.7]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.7/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.7/jsonld.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 22 Nov 2014 05:24:15 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[twemoji updated to version 1.1.1]]></title>
             <description><![CDATA[A Unicode standard based way to implement emoji across all platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twemoji/1.1.1/twemoji.min.js">//cdnjs.cloudflare.com/ajax/libs/twemoji/1.1.1/twemoji.min.js</a>]]></description>
             <link>https://github.com/twitter/twemoji</link>
@@ -212,14 +244,6 @@
             <guid isPermaLink="false">webcomponentsjs0.5.1-1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 20 Nov 2014 13:40:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[timelinejs updated to version 2.35.1]]></title>
-            <description><![CDATA[TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.1/js/timeline-min.js">//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.1/js/timeline-min.js</a>]]></description>
-            <link>http://timeline.knightlab.com/</link>
-            <guid isPermaLink="false">timelinejs2.35.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 20 Nov 2014 13:40:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[picturefill updated to version 2.2.0]]></title>
