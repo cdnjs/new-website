@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Nov 2014 18:02:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2014 18:17:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.37]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.37/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.37/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.37</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 26 Nov 2014 18:03:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ng-csv updated to version 0.2.6]]></title>
             <description><![CDATA[Simple directive that turns arrays and objects into downloadable CSV files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.6/ng-csv.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.6/ng-csv.min.js</a>]]></description>
@@ -52,14 +60,6 @@
             <guid isPermaLink="false">absurd0.3.33</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 26 Nov 2014 06:22:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.36]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.36/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.36/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.36</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 25 Nov 2014 15:34:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.0.0]]></title>
