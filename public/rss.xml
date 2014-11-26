@@ -10,10 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Nov 2014 06:17:50 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2014 06:33:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ng-csv updated to version 0.2.6]]></title>
+            <description><![CDATA[Simple directive that turns arrays and objects into downloadable CSV files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.6/ng-csv.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.6/ng-csv.min.js</a>]]></description>
+            <link>https://github.com/asafdav/ng-csv</link>
+            <guid isPermaLink="false">ng-csv0.2.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 26 Nov 2014 06:24:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mojio-js updated to version 2.2.4]]></title>
+            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.4/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.4/mojio-js.min.js</a>]]></description>
+            <link>https://github.com/mojio/mojio-js</link>
+            <guid isPermaLink="false">mojio-js2.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 26 Nov 2014 06:24:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-select updated to version 0.9.0]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.0/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.0/select.min.js</a>]]></description>
+            <link>http://github.com/angular-ui/ui-select</link>
+            <guid isPermaLink="false">angular-ui-select0.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 26 Nov 2014 06:23:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps updated to version 2.0.10]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.10/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.10/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.0.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 26 Nov 2014 06:22:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[absurd updated to version 0.3.33]]></title>
+            <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.33/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.33/absurd.min.js</a>]]></description>
+            <link>http://absurdjs.com/</link>
+            <guid isPermaLink="false">absurd0.3.33</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 26 Nov 2014 06:22:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bacon.js updated to version 0.7.36]]></title>
             <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.36/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.36/Bacon.min.js</a>]]></description>
@@ -29,6 +68,14 @@
             <guid isPermaLink="false">semantic-ui1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 25 Nov 2014 15:32:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-gantt(1.0.0-rc4) was added]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc4/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc4/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.0.0-rc4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 25 Nov 2014 14:38:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[timelinejs updated to version 2.35.2]]></title>
@@ -182,14 +229,6 @@
             <pubDate>Sat, 22 Nov 2014 18:38:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[mojio-js updated to version 2.2.3]]></title>
-            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.3/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.3/mojio-js.min.js</a>]]></description>
-            <link>https://github.com/mojio/mojio-js</link>
-            <guid isPermaLink="false">mojio-js2.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 22 Nov 2014 05:26:36 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[masonry updated to version 3.2.1]]></title>
             <description><![CDATA[Cascading grid layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.1/masonry.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.1/masonry.pkgd.min.js</a>]]></description>
             <link>http://masonry.desandro.com/</link>
@@ -308,13 +347,6 @@
             <guid isPermaLink="false">emojione1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 19 Nov 2014 13:47:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-google-maps updated to version 2.0.9]]></title>
-            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.9/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.9/angular-google-maps.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-google-maps2.0.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 13:24:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ng-token-auth updated to version 0.0.24]]></title>
