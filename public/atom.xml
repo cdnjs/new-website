@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 26 Nov 2014 01:47:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Nov 2014 02:02:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -875,30 +875,6 @@
             <guid isPermaLink="false">sigma.js1.0.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 12 Nov 2014 14:54:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[emblem updated to version 0.3.18]]></title>
-            <description><![CDATA[Ember-friendly, indented syntax alternative for Handlebars.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emblem/0.3.18/emblem.min.js">//cdnjs.cloudflare.com/ajax/libs/emblem/0.3.18/emblem.min.js</a>]]></description>
-            <link>http://emblemjs.com/</link>
-            <guid isPermaLink="false">emblem0.3.18</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 12 Nov 2014 01:54:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[speakingurl updated to version 0.17.0]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.17.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.17.0/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.17.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 12 Nov 2014 01:50:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[autosize.js updated to version 1.18.15]]></title>
-            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.15/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.15/jquery.autosize.min.js</a>]]></description>
-            <link>http://www.jacklmoore.com/autosize</link>
-            <guid isPermaLink="false">autosize.js1.18.15</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 12 Nov 2014 01:49:55 GMT</pubDate>
         </item>
     </channel>
 </rss>
