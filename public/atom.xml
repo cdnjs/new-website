@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 27 Nov 2014 17:17:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Nov 2014 17:32:53 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[tinymce updated to version 4.1.7]]></title>
+            <description><![CDATA[TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.7/tinymce.min.js">//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.7/tinymce.min.js</a>]]></description>
+            <link>http://www.tinymce.com</link>
+            <guid isPermaLink="false">tinymce4.1.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 17:20:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[less.js updated to version 2.1.1]]></title>
+            <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.1/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.1/less.min.js</a>]]></description>
+            <link>http://lesscss.org/</link>
+            <guid isPermaLink="false">less.js2.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 17:20:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.12]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.12/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.12/jsonld.min.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 17:19:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[viewer.js updated to version 0.10.3]]></title>
             <description><![CDATA[A viewer for documents converted with the Box View API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.3/crocodoc.viewer.min.js">//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.3/crocodoc.viewer.min.js</a>]]></description>
@@ -75,14 +99,6 @@
             <guid isPermaLink="false">html5sortable0.1.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 27 Nov 2014 04:41:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsonld updated to version 0.3.10]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.10/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.10/jsonld.min.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 27 Nov 2014 04:39:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bacon.js updated to version 0.7.37]]></title>
@@ -226,14 +242,6 @@
             <guid isPermaLink="false">p5.js0.3.12</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 24 Nov 2014 04:21:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[less.js updated to version 2.1.0]]></title>
-            <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js</a>]]></description>
-            <link>http://lesscss.org/</link>
-            <guid isPermaLink="false">less.js2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 23 Nov 2014 19:13:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-bootgrid(1.1.4) was added]]></title>
