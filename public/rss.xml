@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 27 Nov 2014 04:32:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Nov 2014 04:47:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">bacon.js0.7.37</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 26 Nov 2014 18:03:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[omniscient(2.1.0) was added]]></title>
+            <description><![CDATA[A simple abstraction and architecture providing unidirectional flow and immutable data structures to React.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/omniscient/2.1.0/omniscient.min.js">//cdnjs.cloudflare.com/ajax/libs/omniscient/2.1.0/omniscient.min.js</a>]]></description>
+            <link>https://github.com/omniscientjs/omniscient</link>
+            <guid isPermaLink="false">omniscient2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 26 Nov 2014 08:10:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ng-csv updated to version 0.2.6]]></title>
