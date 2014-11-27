@@ -10,10 +10,72 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 27 Nov 2014 04:47:59 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Nov 2014 05:02:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ember-data.js updated to version 1.0.0-beta.12]]></title>
+            <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.12/ember-data.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.12/ember-data.min.js</a>]]></description>
+            <link>https://github.com/emberjs/data</link>
+            <guid isPermaLink="false">ember-data.js1.0.0-beta.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 04:44:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-strap updated to version 2.1.4]]></title>
+            <description><![CDATA[AngularStrap - Twitter Bootstrap directives for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.4/angular-strap.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.4/angular-strap.min.js</a>]]></description>
+            <link>http://mgcrea.github.com/angular-strap</link>
+            <guid isPermaLink="false">angular-strap2.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 04:44:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps updated to version 2.0.11]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.11/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.11/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.0.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 04:44:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-gantt updated to version 1.0.0-rc5]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc5/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc5/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.0.0-rc5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 04:43:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap3-dialog updated to version 1.34.0]]></title>
+            <description><![CDATA[Make use of Bootstrap Modal more monkey-friendly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.0/js/bootstrap-dialog.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.0/js/bootstrap-dialog.min.js</a>]]></description>
+            <link>http://nakupanda.github.io/bootstrap3-dialog</link>
+            <guid isPermaLink="false">bootstrap3-dialog1.34.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 04:43:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fullcalendar updated to version 2.2.3]]></title>
+            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.min.js</a>]]></description>
+            <link>http://arshaw.com/fullcalendar/</link>
+            <guid isPermaLink="false">fullcalendar2.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 04:42:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[html5sortable updated to version 0.1.8]]></title>
+            <description><![CDATA[Lightweight jQuery plugin to create sortable lists and grids using native HTML5 drag and drop API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/html5sortable/0.1.8/html.sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/html5sortable/0.1.8/html.sortable.min.js</a>]]></description>
+            <guid isPermaLink="false">html5sortable0.1.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 04:41:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.10]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.10/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.10/jsonld.min.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 27 Nov 2014 04:39:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bacon.js updated to version 0.7.37]]></title>
             <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.37/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.37/Bacon.min.js</a>]]></description>
@@ -55,13 +117,6 @@
             <pubDate>Wed, 26 Nov 2014 06:23:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-google-maps updated to version 2.0.10]]></title>
-            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.10/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.10/angular-google-maps.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-google-maps2.0.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 26 Nov 2014 06:22:40 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[absurd updated to version 0.3.33]]></title>
             <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.33/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.33/absurd.min.js</a>]]></description>
             <link>http://absurdjs.com/</link>
@@ -78,14 +133,6 @@
             <pubDate>Tue, 25 Nov 2014 15:32:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-gantt(1.0.0-rc4) was added]]></title>
-            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc4/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc4/angular-gantt.min.js</a>]]></description>
-            <link>http://www.angular-gantt.com</link>
-            <guid isPermaLink="false">angular-gantt1.0.0-rc4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 25 Nov 2014 14:38:27 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[timelinejs updated to version 2.35.2]]></title>
             <description><![CDATA[TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.2/js/timeline-min.js">//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.2/js/timeline-min.js</a>]]></description>
             <link>http://timeline.knightlab.com/</link>
@@ -100,14 +147,6 @@
             <guid isPermaLink="false">signature_pad1.3.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 25 Nov 2014 08:08:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsonld updated to version 0.3.8]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.8/jsonld.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.8/jsonld.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 25 Nov 2014 08:06:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[froala-editor updated to version 1.2.4]]></title>
@@ -313,14 +352,6 @@
             <description><![CDATA[A responsive image polyfill for <picture>, srcset, sizes, and more<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.2.0/picturefill.min.js">//cdnjs.cloudflare.com/ajax/libs/picturefill/2.2.0/picturefill.min.js</a>]]></description>
             <link>http://scottjehl.github.com/picturefill/</link>
             <guid isPermaLink="false">picturefill2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 20 Nov 2014 05:07:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fullcalendar updated to version 2.2.2]]></title>
-            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.2/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.2/fullcalendar.min.js</a>]]></description>
-            <link>http://arshaw.com/fullcalendar/</link>
-            <guid isPermaLink="false">fullcalendar2.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 20 Nov 2014 05:07:08 GMT</pubDate>
         </item>
@@ -575,14 +606,6 @@
             <pubDate>Sat, 15 Nov 2014 16:47:48 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bootstrap3-dialog(1.33.5) was added]]></title>
-            <description><![CDATA[Make use of Bootstrap Modal more monkey-friendly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.33.5/js/bootstrap-dialog.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.33.5/js/bootstrap-dialog.min.js</a>]]></description>
-            <link>http://nakupanda.github.io/bootstrap3-dialog</link>
-            <guid isPermaLink="false">bootstrap3-dialog1.33.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 16:45:16 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[rxjs updated to version 2.3.18]]></title>
             <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.18/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.18/rx.min.js</a>]]></description>
             <link>https://github.com/Reactive-Extensions/RxJS</link>
@@ -620,13 +643,6 @@
             <guid isPermaLink="false">selectize.js0.11.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 08:32:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[html5sortable updated to version 0.1.6]]></title>
-            <description><![CDATA[Lightweight jQuery plugin to create sortable lists and grids using native HTML5 drag and drop API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/html5sortable/0.1.6/html.sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/html5sortable/0.1.6/html.sortable.min.js</a>]]></description>
-            <guid isPermaLink="false">html5sortable0.1.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 08:29:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[summernote updated to version 0.5.10]]></title>
