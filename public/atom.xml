@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 28 Nov 2014 18:32:47 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Nov 2014 18:47:49 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.2.4]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.4/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.4/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 28 Nov 2014 17:34:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vis updated to version 3.7.1]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.7.1/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.7.1/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis3.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 28 Nov 2014 17:33:44 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-gantt updated to version 1.0.0-rc6]]></title>
             <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc6/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc6/angular-gantt.min.js</a>]]></description>
@@ -202,14 +218,6 @@
             <guid isPermaLink="false">yasr2.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 24 Nov 2014 17:01:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 2.2.3]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.3/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.3/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 24 Nov 2014 17:01:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[intro.js updated to version 0.6.0]]></title>
@@ -707,14 +715,6 @@
             <guid isPermaLink="false">jquery.postcodify2.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 05:55:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vis updated to version 3.7.0]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.7.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.7.0/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis3.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 02:54:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
