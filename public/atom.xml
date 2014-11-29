@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 29 Nov 2014 05:47:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Nov 2014 06:02:49 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -699,22 +699,6 @@
             <guid isPermaLink="false">slidebars0.10.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 07:57:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fuse.js updated to version 1.2.2]]></title>
-            <description><![CDATA[Lightweight fuzzy-search, in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.2.2/fuse.min.js">//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.2.2/fuse.min.js</a>]]></description>
-            <link>http://kiro.me/projects/fuse.html</link>
-            <guid isPermaLink="false">fuse.js1.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 05:55:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.postcodify updated to version 2.2.0]]></title>
-            <description><![CDATA[Postcodify is a jQuery plugin and server-side API for searching South Korean street addresses and postal codes.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.2.0/search.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.2.0/search.min.js</a>]]></description>
-            <link>http://postcodify.poesis.kr/</link>
-            <guid isPermaLink="false">jquery.postcodify2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 05:55:23 GMT</pubDate>
         </item>
     </channel>
 </rss>
