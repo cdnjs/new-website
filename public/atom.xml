@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 29 Nov 2014 07:47:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Nov 2014 08:02:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -691,14 +691,6 @@
             <guid isPermaLink="false">ckeditor4.4.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 08:07:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[slidebars updated to version 0.10.2]]></title>
-            <description><![CDATA[Slidebars is a jQuery plugin for quickly and easily implementing app-style revealing menus and sidebars into your website.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/slidebars/0.10.2/slidebars.min.js">//cdnjs.cloudflare.com/ajax/libs/slidebars/0.10.2/slidebars.min.js</a>]]></description>
-            <link>http://plugins.adchsm.me/slidebars/</link>
-            <guid isPermaLink="false">slidebars0.10.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 07:57:39 GMT</pubDate>
         </item>
     </channel>
 </rss>
