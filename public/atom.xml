@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 29 Nov 2014 08:47:43 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 29 Nov 2014 09:02:49 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -644,45 +644,6 @@
             <guid isPermaLink="false">rxjs2.3.18</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 15 Nov 2014 16:15:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ionic updated to version 1.0.0-beta.13]]></title>
-            <description><![CDATA[Advanced HTML5 Mobile App Framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-beta.13/js/ionic.min.js">//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-beta.13/js/ionic.min.js</a>]]></description>
-            <guid isPermaLink="false">ionic1.0.0-beta.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 08:43:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-validate updated to version 1.13.1]]></title>
-            <description><![CDATA[Form Validation plugin for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js</a>]]></description>
-            <link>http://jqueryvalidation.org/</link>
-            <guid isPermaLink="false">jquery-validate1.13.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 08:40:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[require.js updated to version 2.1.15]]></title>
-            <description><![CDATA[RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js">//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js</a>]]></description>
-            <link>http://requirejs.org/</link>
-            <guid isPermaLink="false">require.js2.1.15</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 08:36:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[selectize.js updated to version 0.11.2]]></title>
-            <description><![CDATA[A jQuery-based select UI control with autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.11.2/js/selectize.min.js">//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.11.2/js/selectize.min.js</a>]]></description>
-            <link>http://brianreavis.github.io/selectize.js/</link>
-            <guid isPermaLink="false">selectize.js0.11.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 08:32:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[summernote updated to version 0.5.10]]></title>
-            <description><![CDATA[Meet the world's best WYSIWYG editor on bootstrap. Summernote support both bootstrap 3.0.x and 2.x.x.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/summernote/0.5.10/summernote.min.js">//cdnjs.cloudflare.com/ajax/libs/summernote/0.5.10/summernote.min.js</a>]]></description>
-            <link>http://hackerwins.github.io/summernote/</link>
-            <guid isPermaLink="false">summernote0.5.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 15 Nov 2014 08:25:31 GMT</pubDate>
         </item>
     </channel>
 </rss>
