@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 30 Nov 2014 10:32:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 30 Nov 2014 10:47:47 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -616,29 +616,6 @@
             <guid isPermaLink="false">skrollr0.6.29</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 17 Nov 2014 18:42:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-sortable updated to version 0.13.1]]></title>
-            <description><![CDATA[This directive allows you to jQueryUI Sortable.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.1/sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.1/sortable.min.js</a>]]></description>
-            <link>http://angular-ui.github.com</link>
-            <guid isPermaLink="false">angular-ui-sortable0.13.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 16 Nov 2014 10:35:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockback updated to version 0.20.5]]></title>
-            <description><![CDATA[Knockback brings Knockout.js magic to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.5/knockback.min.js">//cdnjs.cloudflare.com/ajax/libs/knockback/0.20.5/knockback.min.js</a>]]></description>
-            <guid isPermaLink="false">knockback0.20.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 16 Nov 2014 10:35:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[6px updated to version 1.0.3]]></title>
-            <description><![CDATA[Javascript client for 6px<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/6px/1.0.3/6px.min.js">//cdnjs.cloudflare.com/ajax/libs/6px/1.0.3/6px.min.js</a>]]></description>
-            <link>https://github.com/6px-io/6px-js</link>
-            <guid isPermaLink="false">6px1.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 16 Nov 2014 10:34:49 GMT</pubDate>
         </item>
     </channel>
 </rss>
