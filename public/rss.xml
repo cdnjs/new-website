@@ -10,25 +10,41 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 30 Nov 2014 06:02:47 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 30 Nov 2014 06:17:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[angular-local-storage(0.1.5) was added]]></title>
+            <title><![CDATA[angular-local-storage updated to version 0.1.5]]></title>
             <description><![CDATA[An Angular module that gives you access to the browsers local storage<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.1.5/angular-local-storage.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.1.5/angular-local-storage.min.js</a>]]></description>
             <link>https://github.com/grevory/angular-local-storage</link>
             <guid isPermaLink="false">angular-local-storage0.1.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 29 Nov 2014 20:20:08 GMT</pubDate>
+            <pubDate>Sun, 30 Nov 2014 06:03:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-data updated to version 1.4.2]]></title>
-            <description><![CDATA[Data store for Angular.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-data/1.4.2/angular-data.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-data/1.4.2/angular-data.min.js</a>]]></description>
-            <link>http://angular-data.pseudobry.com</link>
-            <guid isPermaLink="false">angular-data1.4.2</guid>
+            <title><![CDATA[basics updated to version 1.2.2]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/basics/1.2.2/basics.css">//cdnjs.cloudflare.com/ajax/libs/basics/1.2.2/basics.css</a>]]></description>
+            <link>https://github.com/haydenbleasel/basics</link>
+            <guid isPermaLink="false">basics1.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 29 Nov 2014 18:21:37 GMT</pubDate>
+            <pubDate>Sun, 30 Nov 2014 05:48:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[summernote updated to version 0.6.0]]></title>
+            <description><![CDATA[Meet the world's best WYSIWYG editor on bootstrap. Summernote support both bootstrap 3.0.x and 2.x.x.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/summernote/0.6.0/summernote.min.js">//cdnjs.cloudflare.com/ajax/libs/summernote/0.6.0/summernote.min.js</a>]]></description>
+            <link>http://hackerwins.github.io/summernote/</link>
+            <guid isPermaLink="false">summernote0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 30 Nov 2014 05:47:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-gantt updated to version 1.0.0-rc8]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc8/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc8/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.0.0-rc8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 30 Nov 2014 05:46:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-cache updated to version 3.2.2]]></title>
@@ -36,7 +52,15 @@
             <link>http://jmdobry.github.io/angular-cache</link>
             <guid isPermaLink="false">angular-cache3.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 29 Nov 2014 18:21:37 GMT</pubDate>
+            <pubDate>Sun, 30 Nov 2014 05:44:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-data updated to version 1.4.2]]></title>
+            <description><![CDATA[Data store for Angular.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-data/1.4.2/angular-data.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-data/1.4.2/angular-data.min.js</a>]]></description>
+            <link>http://angular-data.pseudobry.com</link>
+            <guid isPermaLink="false">angular-data1.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 30 Nov 2014 05:44:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dropzone updated to version 3.12.0]]></title>
@@ -69,14 +93,6 @@
             <guid isPermaLink="false">es5-shim4.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 29 Nov 2014 08:20:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-gantt updated to version 1.0.0-rc7]]></title>
-            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc7/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc7/angular-gantt.min.js</a>]]></description>
-            <link>http://www.angular-gantt.com</link>
-            <guid isPermaLink="false">angular-gantt1.0.0-rc7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 29 Nov 2014 08:18:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yasqe updated to version 2.2.4]]></title>
