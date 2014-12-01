@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 01 Dec 2014 18:32:47 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Dec 2014 18:47:44 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -648,22 +648,6 @@
             <guid isPermaLink="false">bootstrap-material-design0.1.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 18 Nov 2014 01:29:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[stacktrace.js updated to version 0.6.4]]></title>
-            <description><![CDATA[Framework-agnostic, micro-library for getting stack traces in all environments<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/stacktrace.js/0.6.4/stacktrace.min.js">//cdnjs.cloudflare.com/ajax/libs/stacktrace.js/0.6.4/stacktrace.min.js</a>]]></description>
-            <link>http://stacktracejs.com</link>
-            <guid isPermaLink="false">stacktrace.js0.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 17 Nov 2014 18:43:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[skrollr updated to version 0.6.29]]></title>
-            <description><![CDATA[Stand-alone parallax scrolling library for mobile (Android + iOS) and desktop. No jQuery. Just plain JavaScript (and some love).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.29/skrollr.min.js">//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.29/skrollr.min.js</a>]]></description>
-            <link>http://prinzhorn.github.io/skrollr/</link>
-            <guid isPermaLink="false">skrollr0.6.29</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 17 Nov 2014 18:42:06 GMT</pubDate>
         </item>
     </channel>
 </rss>
