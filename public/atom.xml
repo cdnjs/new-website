@@ -10,10 +10,66 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 01 Dec 2014 05:02:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Dec 2014 05:17:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[gridstack.js updated to version 0.2.0]]></title>
+            <description><![CDATA[gridstack.js is a jQuery plugin for widget layout. This is drag-and-drop multi-column grid.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.0/gridstack.min.js">//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.0/gridstack.min.js</a>]]></description>
+            <link>https://github.com/troolee/gridstack.js</link>
+            <guid isPermaLink="false">gridstack.js0.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Dec 2014 05:08:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.2.5]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.5/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.5/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.2.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Dec 2014 05:08:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tinycolor updated to version 1.1.0]]></title>
+            <description><![CDATA[Fast, small color manipulation and conversion for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.0/tinycolor.min.js">//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.0/tinycolor.min.js</a>]]></description>
+            <link>http://bgrins.github.io/TinyColor/</link>
+            <guid isPermaLink="false">tinycolor1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Dec 2014 05:07:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 2.2.4]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.4/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.4/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Dec 2014 05:07:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ember.js updated to version 1.9.0-beta.4]]></title>
+            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0-beta.4/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0-beta.4/ember.min.js</a>]]></description>
+            <link>http://emberjs.com/</link>
+            <guid isPermaLink="false">ember.js1.9.0-beta.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Dec 2014 05:06:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vue updated to version 0.11.1]]></title>
+            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.11.1/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.11.1/vue.min.js</a>]]></description>
+            <link>http://vuejs.org</link>
+            <guid isPermaLink="false">vue0.11.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Dec 2014 05:06:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[c3 updated to version 0.4.5]]></title>
+            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.5/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.5/c3.min.js</a>]]></description>
+            <link>http://c3js.org</link>
+            <guid isPermaLink="false">c30.4.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 01 Dec 2014 05:06:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-local-storage updated to version 0.1.5]]></title>
             <description><![CDATA[An Angular module that gives you access to the browsers local storage<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.1.5/angular-local-storage.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.1.5/angular-local-storage.min.js</a>]]></description>
@@ -93,14 +149,6 @@
             <guid isPermaLink="false">es5-shim4.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 29 Nov 2014 08:20:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 2.2.4]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.4/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.4/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 28 Nov 2014 17:34:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vis updated to version 3.7.1]]></title>
@@ -284,14 +332,6 @@
             <pubDate>Tue, 25 Nov 2014 01:55:48 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[yasr updated to version 2.2.2]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.2/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.2/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 24 Nov 2014 17:01:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[intro.js updated to version 0.6.0]]></title>
             <description><![CDATA[A better way for new feature introduction and step-by-step users guide for your website and project.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/intro.js/0.6.0/intro.min.js">//cdnjs.cloudflare.com/ajax/libs/intro.js/0.6.0/intro.min.js</a>]]></description>
             <link>http://usablica.github.com/intro.js/</link>
@@ -412,14 +452,6 @@
             <pubDate>Fri, 21 Nov 2014 05:01:53 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[c3 updated to version 0.4.4]]></title>
-            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.4/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.4/c3.min.js</a>]]></description>
-            <link>http://c3js.org</link>
-            <guid isPermaLink="false">c30.4.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 21 Nov 2014 04:59:55 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular.js updated to version 1.3.3]]></title>
             <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js</a>]]></description>
             <link>http://angularjs.org</link>
@@ -513,14 +545,6 @@
             <guid isPermaLink="false">highlight.js8.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 19 Nov 2014 13:22:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gridstack.js(0.1.0) was added]]></title>
-            <description><![CDATA[gridstack.js is a jQuery plugin for widget layout. This is drag-and-drop multi-column grid.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.1.0/gridstack.min.js">//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.1.0/gridstack.min.js</a>]]></description>
-            <link>https://github.com/troolee/gridstack.js</link>
-            <guid isPermaLink="false">gridstack.js0.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 02:46:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[insightjs updated to version 1.3.0]]></title>
