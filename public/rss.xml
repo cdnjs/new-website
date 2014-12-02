@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Dec 2014 13:47:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Dec 2014 14:02:48 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -609,30 +609,6 @@
             <guid isPermaLink="false">nanogallery5.2.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 18 Nov 2014 16:11:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react updated to version 0.12.1]]></title>
-            <description><![CDATA[React is a JavaScript library for building user interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react/0.12.1/react.min.js">//cdnjs.cloudflare.com/ajax/libs/react/0.12.1/react.min.js</a>]]></description>
-            <link>http://facebook.github.io/react</link>
-            <guid isPermaLink="false">react0.12.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 18 Nov 2014 13:44:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[eddy updated to version 0.7.0]]></title>
-            <description><![CDATA[Event Driven JS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/eddy/0.7.0/eddy.dom.js">//cdnjs.cloudflare.com/ajax/libs/eddy/0.7.0/eddy.dom.js</a>]]></description>
-            <link>https://github.com/WebReflection/eddy</link>
-            <guid isPermaLink="false">eddy0.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 18 Nov 2014 13:44:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AniJS updated to version 0.9.0]]></title>
-            <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.0/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.0/anijs-min.js</a>]]></description>
-            <link>http://anijs.github.io/</link>
-            <guid isPermaLink="false">AniJS0.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 18 Nov 2014 13:44:17 GMT</pubDate>
         </item>
     </channel>
 </rss>
