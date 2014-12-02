@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Dec 2014 06:47:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Dec 2014 07:02:48 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bootstrap-material-design updated to version 0.2.0]]></title>
+            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.0/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.0/js/material.min.js</a>]]></description>
+            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
+            <guid isPermaLink="false">bootstrap-material-design0.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Dec 2014 06:54:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[c3 updated to version 0.4.6]]></title>
+            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.6/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.6/c3.min.js</a>]]></description>
+            <link>http://c3js.org</link>
+            <guid isPermaLink="false">c30.4.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Dec 2014 06:54:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[vue updated to version 0.11.2]]></title>
             <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.11.2/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.11.2/vue.min.js</a>]]></description>
@@ -117,14 +133,6 @@
             <guid isPermaLink="false">ember.js1.9.0-beta.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 01 Dec 2014 05:06:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[c3 updated to version 0.4.5]]></title>
-            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.5/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.5/c3.min.js</a>]]></description>
-            <link>http://c3js.org</link>
-            <guid isPermaLink="false">c30.4.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Dec 2014 05:06:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-local-storage updated to version 0.1.5]]></title>
