@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 02 Dec 2014 04:02:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Dec 2014 04:17:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[vue updated to version 0.11.2]]></title>
+            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.11.2/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.11.2/vue.min.js</a>]]></description>
+            <link>http://vuejs.org</link>
+            <guid isPermaLink="false">vue0.11.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Dec 2014 04:07:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[postal.js updated to version 0.11.0]]></title>
+            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.0/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.0/postal.min.js</a>]]></description>
+            <link>http://github.com/postaljs/postal.js</link>
+            <guid isPermaLink="false">postal.js0.11.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Dec 2014 04:07:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-gantt updated to version 1.0.0-rc.9]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc.9/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc.9/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.0.0-rc.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Dec 2014 04:06:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-data updated to version 1.4.3]]></title>
             <description><![CDATA[Data store for Angular.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-data/1.4.3/angular-data.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-data/1.4.3/angular-data.min.js</a>]]></description>
@@ -95,14 +119,6 @@
             <pubDate>Mon, 01 Dec 2014 05:06:49 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[vue updated to version 0.11.1]]></title>
-            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.11.1/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.11.1/vue.min.js</a>]]></description>
-            <link>http://vuejs.org</link>
-            <guid isPermaLink="false">vue0.11.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Dec 2014 05:06:24 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[c3 updated to version 0.4.5]]></title>
             <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.5/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.5/c3.min.js</a>]]></description>
             <link>http://c3js.org</link>
@@ -133,14 +149,6 @@
             <guid isPermaLink="false">summernote0.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 30 Nov 2014 05:47:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-gantt updated to version 1.0.0-rc8]]></title>
-            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc8/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.0-rc8/angular-gantt.min.js</a>]]></description>
-            <link>http://www.angular-gantt.com</link>
-            <guid isPermaLink="false">angular-gantt1.0.0-rc8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 30 Nov 2014 05:46:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-cache updated to version 3.2.2]]></title>
