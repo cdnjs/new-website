@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Dec 2014 11:47:49 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Dec 2014 12:02:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fast-json-patch(0.5.0) was added]]></title>
+            <description><![CDATA[Fast implementation of JSON-Patch (RFC-6902) with duplex (observe changes) capabilities<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.0/json-patch-duplex.min.js">//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.0/json-patch-duplex.min.js</a>]]></description>
+            <link>https://github.com/Starcounter-Jack/Fast-JSON-Patch</link>
+            <guid isPermaLink="false">fast-json-patch0.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 03 Dec 2014 10:03:02 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[parsley.js updated to version 2.0.6]]></title>
             <description><![CDATA[Validate your forms without writing a single line of javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.6/parsley.min.js">//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.6/parsley.min.js</a>]]></description>
@@ -61,6 +69,14 @@
             <guid isPermaLink="false">twemoji1.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 02 Dec 2014 21:19:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[handsontable(0.12.0) was added]]></title>
+            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.0/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.0/handsontable.full.min.js</a>]]></description>
+            <link>http://handsontable.com/</link>
+            <guid isPermaLink="false">handsontable0.12.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 02 Dec 2014 09:50:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-material-design updated to version 0.2.0]]></title>
