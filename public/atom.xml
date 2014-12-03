@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Dec 2014 13:17:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Dec 2014 13:32:53 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -602,37 +602,6 @@
             <guid isPermaLink="false">emojione1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 19 Nov 2014 13:47:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-token-auth updated to version 0.0.24]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-token-auth/0.0.24/ng-token-auth.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-token-auth/0.0.24/ng-token-auth.min.js</a>]]></description>
-            <guid isPermaLink="false">ng-token-auth0.0.24</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 13:24:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fluidbox updated to version 1.4.2]]></title>
-            <description><![CDATA[Replicating Medium's beautiful, minimalist lightbox module<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.2/jquery.fluidbox.min.js">//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.2/jquery.fluidbox.min.js</a>]]></description>
-            <link>https://github.com/terrymun/Fluidbox</link>
-            <guid isPermaLink="false">fluidbox1.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 13:24:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment.js updated to version 2.8.4]]></title>
-            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js</a>]]></description>
-            <link>http://momentjs.com/</link>
-            <guid isPermaLink="false">moment.js2.8.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 13:23:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highlight.js updated to version 8.4]]></title>
-            <description><![CDATA[Easy-to-use, Javascript-based syntax highlighter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js">//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js</a>]]></description>
-            <link>http://highlightjs.org</link>
-            <guid isPermaLink="false">highlight.js8.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 19 Nov 2014 13:22:46 GMT</pubDate>
         </item>
     </channel>
 </rss>
