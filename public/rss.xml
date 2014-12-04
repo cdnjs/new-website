@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Dec 2014 05:02:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Dec 2014 05:17:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -593,22 +593,6 @@
             <guid isPermaLink="false">webcomponentsjs0.5.1-1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 20 Nov 2014 13:40:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[picturefill updated to version 2.2.0]]></title>
-            <description><![CDATA[A responsive image polyfill for <picture>, srcset, sizes, and more<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.2.0/picturefill.min.js">//cdnjs.cloudflare.com/ajax/libs/picturefill/2.2.0/picturefill.min.js</a>]]></description>
-            <link>http://scottjehl.github.com/picturefill/</link>
-            <guid isPermaLink="false">picturefill2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 20 Nov 2014 05:07:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dustjs-helpers updated to version 1.5.0]]></title>
-            <description><![CDATA[Additional functionality for dustjs-linkedin package<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.5.0/dust-helpers.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.5.0/dust-helpers.min.js</a>]]></description>
-            <link>Additional functionality for dustjs-linkedin package</link>
-            <guid isPermaLink="false">dustjs-helpers1.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 20 Nov 2014 05:06:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
