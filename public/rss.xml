@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Dec 2014 16:17:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Dec 2014 16:32:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[crel updated to version 2.1.6]]></title>
+            <description><![CDATA[A small, simple, and fast DOM creation utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crel/2.1.6/crel.min.js">//cdnjs.cloudflare.com/ajax/libs/crel/2.1.6/crel.min.js</a>]]></description>
+            <guid isPermaLink="false">crel2.1.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 16:21:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.3.13]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.13/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.13/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.3.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 16:21:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-data updated to version 1.5.2]]></title>
             <description><![CDATA[Data store for Angular.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.2/angular-data.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.2/angular-data.min.js</a>]]></description>
@@ -489,14 +504,6 @@
             <guid isPermaLink="false">immutable3.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 24 Nov 2014 04:21:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.3.12]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.12/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.12/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.3.12</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 24 Nov 2014 04:21:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[swagger-ui updated to version 2.1.0-alpha.6]]></title>
