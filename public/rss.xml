@@ -10,10 +10,73 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 04 Dec 2014 04:47:49 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 04 Dec 2014 05:02:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-data updated to version 1.5.2]]></title>
+            <description><![CDATA[Data store for Angular.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.2/angular-data.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.2/angular-data.min.js</a>]]></description>
+            <link>http://angular-data.pseudobry.com</link>
+            <guid isPermaLink="false">angular-data1.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 04:37:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[postal.js updated to version 0.11.1]]></title>
+            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.1/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.1/postal.min.js</a>]]></description>
+            <link>http://github.com/postaljs/postal.js</link>
+            <guid isPermaLink="false">postal.js0.11.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 04:37:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[gsap updated to version 1.15.0]]></title>
+            <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js</a>]]></description>
+            <link>http://www.greensock.com/gsap-js/</link>
+            <guid isPermaLink="false">gsap1.15.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 04:36:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[spf updated to version 2.0.1]]></title>
+            <description><![CDATA[A lightweight JS framework for fast navigation and page updates from YouTube<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/spf/2.0.1/spf.js">//cdnjs.cloudflare.com/ajax/libs/spf/2.0.1/spf.js</a>]]></description>
+            <link>https://github.com/youtube/spfjs</link>
+            <guid isPermaLink="false">spf2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 04:35:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-select updated to version 0.9.1]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.1/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.1/select.min.js</a>]]></description>
+            <link>http://github.com/angular-ui/ui-select</link>
+            <guid isPermaLink="false">angular-ui-select0.9.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 04:35:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cldrjs updated to version 0.3.11]]></title>
+            <description><![CDATA[Simple CLDR API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.3.11/cldr.min.js">//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.3.11/cldr.min.js</a>]]></description>
+            <guid isPermaLink="false">cldrjs0.3.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 04:28:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.19]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.19/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.19/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.19</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 04:27:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[c3 updated to version 0.4.7]]></title>
+            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.7/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.7/c3.min.js</a>]]></description>
+            <link>http://c3js.org</link>
+            <guid isPermaLink="false">c30.4.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 04 Dec 2014 04:25:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[elasticsearch updated to version 3.0.1]]></title>
             <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.0.1/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.0.1/elasticsearch.js</a>]]></description>
@@ -87,14 +150,6 @@
             <pubDate>Tue, 02 Dec 2014 21:37:38 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-data updated to version 1.5.1]]></title>
-            <description><![CDATA[Data store for Angular.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.1/angular-data.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.1/angular-data.min.js</a>]]></description>
-            <link>http://angular-data.pseudobry.com</link>
-            <guid isPermaLink="false">angular-data1.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 21:35:44 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[twemoji updated to version 1.2.0]]></title>
             <description><![CDATA[A Unicode standard based way to implement emoji across all platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twemoji/1.2.0/twemoji.min.js">//cdnjs.cloudflare.com/ajax/libs/twemoji/1.2.0/twemoji.min.js</a>]]></description>
             <link>https://github.com/twitter/twemoji</link>
@@ -117,30 +172,6 @@
             <guid isPermaLink="false">bootstrap-material-design0.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 02 Dec 2014 06:54:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[c3 updated to version 0.4.6]]></title>
-            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.6/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.6/c3.min.js</a>]]></description>
-            <link>http://c3js.org</link>
-            <guid isPermaLink="false">c30.4.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 06:54:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[spf(2.0.0) was added]]></title>
-            <description><![CDATA[A lightweight JS framework for fast navigation and page updates from YouTube<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/spf/2.0.0/spf.js">//cdnjs.cloudflare.com/ajax/libs/spf/2.0.0/spf.js</a>]]></description>
-            <link>https://github.com/youtube/spfjs</link>
-            <guid isPermaLink="false">spf2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 06:11:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[postal.js updated to version 0.11.0]]></title>
-            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.0/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.0/postal.min.js</a>]]></description>
-            <link>http://github.com/postaljs/postal.js</link>
-            <guid isPermaLink="false">postal.js0.11.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 04:07:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[platform updated to version 1.3.0]]></title>
@@ -387,14 +418,6 @@
             <guid isPermaLink="false">mojio-js2.2.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 26 Nov 2014 06:24:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-select updated to version 0.9.0]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.0/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.0/select.min.js</a>]]></description>
-            <link>http://github.com/angular-ui/ui-select</link>
-            <guid isPermaLink="false">angular-ui-select0.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 26 Nov 2014 06:23:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[absurd updated to version 0.3.33]]></title>
