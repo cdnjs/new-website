@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 Dec 2014 19:32:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Dec 2014 19:47:49 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -624,14 +624,6 @@
             <guid isPermaLink="false">q.js1.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 23 Nov 2014 08:20:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[codemirror updated to version 4.8.0]]></title>
-            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.8.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.8.0/codemirror.min.js</a>]]></description>
-            <link>http://codemirror.net</link>
-            <guid isPermaLink="false">codemirror4.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 22 Nov 2014 19:33:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
