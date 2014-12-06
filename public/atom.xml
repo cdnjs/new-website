@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 Dec 2014 16:47:52 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Dec 2014 17:02:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ng-dialog updated to version 0.3.6]]></title>
+            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.6/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.6/js/ngDialog.min.js</a>]]></description>
+            <link>http://likeastore.github.io/ngDialog/</link>
+            <guid isPermaLink="false">ng-dialog0.3.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Dec 2014 16:47:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mindb(0.0.4) was added]]></title>
+            <description><![CDATA[Database on JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mindb/0.0.4/min.js">//cdnjs.cloudflare.com/ajax/libs/mindb/0.0.4/min.js</a>]]></description>
+            <link>https://github.com/iwillwen/mindb</link>
+            <guid isPermaLink="false">mindb0.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Dec 2014 16:46:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[kronos.js updated to version 0.7.1]]></title>
             <description><![CDATA[JavaScript client for Kronos<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.1/kronos.min.js">//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.1/kronos.min.js</a>]]></description>
@@ -37,14 +53,6 @@
             <guid isPermaLink="false">postal.js0.11.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 06 Dec 2014 05:11:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-dialog updated to version 0.3.5]]></title>
-            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.5/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.5/js/ngDialog.min.js</a>]]></description>
-            <link>http://likeastore.github.io/ngDialog/</link>
-            <guid isPermaLink="false">ng-dialog0.3.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Dec 2014 05:08:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.1.2]]></title>
