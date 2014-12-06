@@ -10,25 +10,89 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 Dec 2014 05:17:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 06 Dec 2014 05:32:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[kronos.js updated to version 0.7.0]]></title>
-            <description><![CDATA[JavaScript client for Kronos<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.0/kronos.min.js">//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.0/kronos.min.js</a>]]></description>
+            <title><![CDATA[kronos.js updated to version 0.7.1]]></title>
+            <description><![CDATA[JavaScript client for Kronos<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.1/kronos.min.js">//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.1/kronos.min.js</a>]]></description>
             <link>https://chronology.github.io</link>
-            <guid isPermaLink="false">kronos.js0.7.0</guid>
+            <guid isPermaLink="false">kronos.js0.7.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Dec 2014 10:50:45 GMT</pubDate>
+            <pubDate>Sat, 06 Dec 2014 05:12:40 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[uikit updated to version 2.13.0]]></title>
-            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.13.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.13.0/js/uikit.min.js</a>]]></description>
-            <link>http://www.getuikit.com</link>
-            <guid isPermaLink="false">uikit2.13.0</guid>
+            <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.8]]></title>
+            <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.8/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.8/perfect-scrollbar.min.js</a>]]></description>
+            <link>http://www.yuiazu.net/perfect-scrollbar/</link>
+            <guid isPermaLink="false">jquery.perfect-scrollbar0.5.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Dec 2014 10:50:26 GMT</pubDate>
+            <pubDate>Sat, 06 Dec 2014 05:12:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[postal.js updated to version 0.11.2]]></title>
+            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.2/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.2/postal.min.js</a>]]></description>
+            <link>http://github.com/postaljs/postal.js</link>
+            <guid isPermaLink="false">postal.js0.11.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Dec 2014 05:11:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-dialog updated to version 0.3.5]]></title>
+            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.5/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.5/js/ngDialog.min.js</a>]]></description>
+            <link>http://likeastore.github.io/ngDialog/</link>
+            <guid isPermaLink="false">ng-dialog0.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Dec 2014 05:08:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.1.2]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.1.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.1.2/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Dec 2014 05:08:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[phaser updated to version 2.2.1]]></title>
+            <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.2.1/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.2.1/phaser.min.js</a>]]></description>
+            <link>http://phaser.io/</link>
+            <guid isPermaLink="false">phaser2.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Dec 2014 05:07:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap3-dialog updated to version 1.34.1]]></title>
+            <description><![CDATA[Make use of Bootstrap Modal more monkey-friendly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.1/js/bootstrap-dialog.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.1/js/bootstrap-dialog.min.js</a>]]></description>
+            <link>http://nakupanda.github.io/bootstrap3-dialog</link>
+            <guid isPermaLink="false">bootstrap3-dialog1.34.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Dec 2014 05:06:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[handsontable updated to version 0.12.1]]></title>
+            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.1/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.1/handsontable.full.min.js</a>]]></description>
+            <link>http://handsontable.com/</link>
+            <guid isPermaLink="false">handsontable0.12.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Dec 2014 05:06:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[uikit updated to version 2.13.1]]></title>
+            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.13.1/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.13.1/js/uikit.min.js</a>]]></description>
+            <link>http://www.getuikit.com</link>
+            <guid isPermaLink="false">uikit2.13.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 06 Dec 2014 05:05:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[algoliasearch(2.8.0) was added]]></title>
+            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.0/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.0/algoliasearch.min.js</a>]]></description>
+            <link>https://github.com/algolia/algoliasearch-client-js</link>
+            <guid isPermaLink="false">algoliasearch2.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 05 Dec 2014 23:28:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pouchdb updated to version 3.2.0]]></title>
@@ -100,14 +164,6 @@
             <guid isPermaLink="false">angular-data1.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 04 Dec 2014 04:37:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[postal.js updated to version 0.11.1]]></title>
-            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.1/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.1/postal.min.js</a>]]></description>
-            <link>http://github.com/postaljs/postal.js</link>
-            <guid isPermaLink="false">postal.js0.11.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Dec 2014 04:37:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[gsap updated to version 1.15.0]]></title>
@@ -227,14 +283,6 @@
             <guid isPermaLink="false">twemoji1.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 02 Dec 2014 21:19:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[handsontable(0.12.0) was added]]></title>
-            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.0/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.0/handsontable.full.min.js</a>]]></description>
-            <link>http://handsontable.com/</link>
-            <guid isPermaLink="false">handsontable0.12.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 09:50:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-material-design updated to version 0.2.0]]></title>
@@ -381,14 +429,6 @@
             <pubDate>Fri, 28 Nov 2014 17:33:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[semantic-ui updated to version 1.0.1]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.0.1/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.0.1/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 28 Nov 2014 07:13:12 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[tinymce updated to version 4.1.7]]></title>
             <description><![CDATA[TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.7/tinymce.min.js">//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.7/tinymce.min.js</a>]]></description>
             <link>http://www.tinymce.com</link>
@@ -434,14 +474,6 @@
             <guid isPermaLink="false">angular-google-maps2.0.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 27 Nov 2014 04:44:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap3-dialog updated to version 1.34.0]]></title>
-            <description><![CDATA[Make use of Bootstrap Modal more monkey-friendly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.0/js/bootstrap-dialog.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.0/js/bootstrap-dialog.min.js</a>]]></description>
-            <link>http://nakupanda.github.io/bootstrap3-dialog</link>
-            <guid isPermaLink="false">bootstrap3-dialog1.34.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 27 Nov 2014 04:43:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[fullcalendar updated to version 2.2.3]]></title>
@@ -600,14 +632,6 @@
             <guid isPermaLink="false">mathjs1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 22 Nov 2014 18:38:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[masonry updated to version 3.2.1]]></title>
-            <description><![CDATA[Cascading grid layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.1/masonry.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.1/masonry.pkgd.min.js</a>]]></description>
-            <link>http://masonry.desandro.com/</link>
-            <guid isPermaLink="false">masonry3.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 22 Nov 2014 05:24:46 GMT</pubDate>
         </item>
     </channel>
 </rss>
