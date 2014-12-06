@@ -114,3 +114,8 @@ p#date{
   color: #919191;
 }
 
+.packages-table-container tbody em {
+  font-weight: bold;
+  font-style: normal;
+  background: #ffdead;
+}
