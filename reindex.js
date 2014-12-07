@@ -17,7 +17,7 @@ var LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.json', 'utf8')
 });
 
 // init algolia API client
-var client = new AlgoliaSearch('DLTKH38S7L', process.env.ALGOLIA_API_KEY);
+var client = new AlgoliaSearch('2QWLVLXZB6', process.env.ALGOLIA_API_KEY);
 
 console.log('Initializing the index');
 var index = client.initIndex('libraries.tmp');
