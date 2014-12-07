@@ -7,6 +7,11 @@ var LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.json', 'utf8')
   library.originalName = library.name;
   library.name = library.name.toLowerCase();
   library.objectID = library.name.replace(/\./g, '');
+  // add some alternative name forms to improve the search relevance
+  library.alternativeNames = [
+    library.name.split(/[^a-zA-Z]/).join(''),         // font-awesome <=> fontawesome
+    library.name.replace(/([a-z](?=[A-Z]))/g, '$1 ')  // camelCase <=> camel case
+  ];
   if(library.filename && library.filename.substr(library.filename.length-3, library.filename.length) === 'css') {
     library.fileType = 'css';
   } else {
@@ -22,10 +27,11 @@ var client = new AlgoliaSearch('2QWLVLXZB6', process.env.ALGOLIA_API_KEY);
 console.log('Initializing the index');
 var index = client.initIndex('libraries.tmp');
 index.setSettings({
-  attributesToIndex: ['name', 'unordered(description)', 'keywords', 'filename'],
+  attributesToIndex: ['name', 'unordered(alternativeNames)', 'unordered(description)', 'keywords', 'filename'],
   customRanking: ['asc(name)'], // FIXME: having the number of downloads or something
                                 //        reflecting the popularity could be cool
-  attributesForFaceting: ['fileType', 'keywords']
+  attributesForFaceting: ['fileType', 'keywords'],
+  optionalWords: ['js', 'css'] // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
 });
 
 console.log('Indexing ' + LIBRARIES.length + ' libraries');
