@@ -320,74 +320,49 @@ $('body').on('click', '.remove-favorite', function(e) {
   rowSelector = '#example > tbody > tr';
   matchedRowSelector = '#example tr.search-result';
   libraryNameCache = _.pluck($(rowSelector), 'id');
-  //$rowCache = null;
 
-  function filterLibraries(searchVal) {
-    //$rowCache = $rowCache || $(rowSelector);
-    $(rowSelector).removeClass('search-result');
-    if (searchVal.length > 0) {
-      var libraryRanking = [];
-      //var favorites = getFavorites();
+  var $hits = $('.packages-table-container tbody');
+  var $allRows = $hits.html();
+  function displayMatchingLibraries(success, content) {
+    if (!success || content.query !== $('#search-box').val()) {
+      return;
+    }
+    var html = '';
+    for (var i = 0; i < content.hits.length; ++i) {
+      var hit = content.hits[i];
+      var row = '<tr id="' + hit.objectID + '">' +
+        '<td>' +
+          '<p><a itemprop="name" href="libraries/">' +
+            hit._highlightResult.name.value +
+          '</a></p>' +
+          '<p class="text-muted">' + hit._highlightResult.description.value + '</p>' +
+          '<ul class="list-inline">' +
+            $.map(hit._highlightResult.keywords || [], function(e) { return '<li class="label label-default">' + e.value + '</li>'; }).join(' ') +
+          '</ul>' +
+        '</td>' +
+        '<td style="white-space: nowrap;">' +
+          '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
+            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">//cdnjs.cloudflare.com/ajax/libs/' + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
+          '</div>' +
+        '</td>' +
+      '</tr>';
+      html += row;
+    }
+    $hits.html(html);
+  }
 
-      cleanSearchVal = searchVal.replace(/\./g, '').toLowerCase();
-
-      for (var i = 0; i < libraryNameCache.length; i++) {
-        var libraryName = libraryNameCache[i];
-        var elem = $('#' + libraryName);
-        var levDistVal = levDist(libraryName, searchVal);
-        var subStringMatch = libraryName.toLowerCase().indexOf(cleanSearchVal) !== -1;
-        var favorite = _.contains(favorites, libraryName);
-        if(libraryName === 'jquery') {
-          console.log(levDistVal);
-        }
-        if (subStringMatch || levDistVal < 2) {
-
-        if(libraryName === 'jquery') {
-          console.log('made it');
-        }
-          libraryRanking.push({
-            name: libraryName,
-            levDist: levDistVal,
-            favorite: favorite
-          });
-        }
-      }
-
-      libraryRanking = _.sortBy(libraryRanking, function(libraryMetaData) {
-        // Push favorites to the top
-        var modifier = libraryMetaData.favorite ? -1000 : 0;
-        return modifier + libraryMetaData.levDist;
-      });
-
-     // $(matchedRowSelector).empty();
-      //$rowCache.hide();
-      $(rowSelector).hide();
-      // reverse loop prepend to top
-      for (var j = libraryRanking.length; j > 0; j--) {
-        var libraryMetaData = libraryRanking[j-1];
-        var element = _.findWhere($(rowSelector), {
-          id: libraryMetaData.name
-        });
-        $(element).addClass('search-result');
-        $(element).prependTo('#example > tbody');
-      }
-      $(matchedRowSelector).show();
-
+  var algolia = new AlgoliaSearch('DLTKH38S7L', '46da590bbd9bec41e50c58c6214760fa'); // public/search-only credentials
+  var index = algolia.initIndex('libraries');
+  function searchHandler(ev) {
+    var val = $(ev.currentTarget).val();
+    if (val === '') {
+      $hits.html($allRows);
     } else {
-      //$(matchedRowSelector).empty();
-      //$rowCache.show();
-      $(rowSelector).show();
-      putClassOnFavorites(favorites);
-
+      index.search(val, displayMatchingLibraries, { hitsPerPage: 20 });
     }
   }
 
-  function searchHandler(ev) {
-    var val = $(ev.currentTarget).val();
-    filterLibraries(val);
-  }
-
-  $('#search-box').on('keyup', _.debounce(searchHandler, 300));
+  $('#search-box').on('keyup change', searchHandler);
 
   // Put favorite libraries at the top of the list
   //putClassOnFavorites(getFavorites());
