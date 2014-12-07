@@ -332,7 +332,7 @@ $('body').on('click', '.remove-favorite', function(e) {
       var hit = content.hits[i];
       var row = '<tr id="' + hit.objectID + '">' +
         '<td>' +
-          '<p><a itemprop="name" href="libraries/">' +
+          '<p><a itemprop="name" href="libraries/'+ hit.name + '">' +
             hit._highlightResult.name.value +
           '</a></p>' +
           '<p class="text-muted">' + hit._highlightResult.description.value + '</p>' +
