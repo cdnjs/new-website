@@ -351,7 +351,7 @@ $('body').on('click', '.remove-favorite', function(e) {
     $hits.html(html);
   }
 
-  var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'); // public/search-only credentials
+  var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010', { dsn: true }); // public/search-only credentials
   var index = algolia.initIndex('libraries');
   function searchHandler(ev) {
     var val = $(ev.currentTarget).val();
