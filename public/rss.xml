@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 08 Dec 2014 04:47:52 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Dec 2014 05:02:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.2.6]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.6/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.6/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.2.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Dec 2014 04:46:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 2.3.1]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.3.1/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.3.1/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Dec 2014 04:44:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vue updated to version 0.11.4]]></title>
+            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.11.4/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.11.4/vue.min.js</a>]]></description>
+            <link>http://vuejs.org</link>
+            <guid isPermaLink="false">vue0.11.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Dec 2014 04:43:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[speakingurl updated to version 0.18.0]]></title>
             <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.18.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.18.0/speakingurl.min.js</a>]]></description>
@@ -317,14 +341,6 @@
             <pubDate>Tue, 02 Dec 2014 21:38:17 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[vue updated to version 0.11.3]]></title>
-            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vue/0.11.3/vue.min.js">//cdnjs.cloudflare.com/ajax/libs/vue/0.11.3/vue.min.js</a>]]></description>
-            <link>http://vuejs.org</link>
-            <guid isPermaLink="false">vue0.11.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 21:37:58 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[mithril updated to version 0.1.26]]></title>
             <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.26/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.26/mithril.min.js</a>]]></description>
             <link>http://lhorie.github.io/mithril</link>
@@ -389,28 +405,12 @@
             <pubDate>Mon, 01 Dec 2014 05:08:53 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[yasqe updated to version 2.2.5]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.5/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.5/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.2.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Dec 2014 05:08:10 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[tinycolor updated to version 1.1.0]]></title>
             <description><![CDATA[Fast, small color manipulation and conversion for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.0/tinycolor.min.js">//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.0/tinycolor.min.js</a>]]></description>
             <link>http://bgrins.github.io/TinyColor/</link>
             <guid isPermaLink="false">tinycolor1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 01 Dec 2014 05:07:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasr updated to version 2.2.4]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.4/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.2.4/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Dec 2014 05:07:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember.js updated to version 1.9.0-beta.4]]></title>
