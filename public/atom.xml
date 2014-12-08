@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 08 Dec 2014 16:02:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Dec 2014 16:17:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[string.js updated to version 3.0.0]]></title>
+            <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/3.0.0/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/3.0.0/string.min.js</a>]]></description>
+            <link>http://stringjs.com</link>
+            <guid isPermaLink="false">string.js3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Dec 2014 16:09:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[machina.js updated to version 0.4.0-2]]></title>
+            <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.0-2/machina.min.js">//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.0-2/machina.min.js</a>]]></description>
+            <link>http://machina-js.org/</link>
+            <guid isPermaLink="false">machina.js0.4.0-2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Dec 2014 16:08:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[d3 updated to version 3.5.0]]></title>
+            <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js</a>]]></description>
+            <link>http://mbostock.github.com/d3/</link>
+            <guid isPermaLink="false">d33.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Dec 2014 16:08:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-pusher(0.0.13) was added]]></title>
             <description><![CDATA[AngularJS provider and service for Pusher<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-pusher/0.0.13/angular-pusher.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-pusher/0.0.13/angular-pusher.min.js</a>]]></description>
