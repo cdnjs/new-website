@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 08 Dec 2014 07:47:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Dec 2014 08:02:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-pusher(0.0.13) was added]]></title>
+            <description><![CDATA[AngularJS provider and service for Pusher<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-pusher/0.0.13/angular-pusher.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-pusher/0.0.13/angular-pusher.min.js</a>]]></description>
+            <link>http://angular-pusher-example.herokuapp.com/</link>
+            <guid isPermaLink="false">angular-pusher0.0.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 08 Dec 2014 07:46:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[yasqe updated to version 2.2.6]]></title>
             <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.6/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.2.6/yasqe.bundled.min.js</a>]]></description>
