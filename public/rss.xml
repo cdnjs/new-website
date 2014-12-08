@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 08 Dec 2014 17:02:53 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Dec 2014 17:17:52 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -656,14 +656,6 @@
             <guid isPermaLink="false">slick-carousel1.3.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 25 Nov 2014 01:55:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[intro.js updated to version 0.6.0]]></title>
-            <description><![CDATA[A better way for new feature introduction and step-by-step users guide for your website and project.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/intro.js/0.6.0/intro.min.js">//cdnjs.cloudflare.com/ajax/libs/intro.js/0.6.0/intro.min.js</a>]]></description>
-            <link>http://usablica.github.com/intro.js/</link>
-            <guid isPermaLink="false">intro.js0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 24 Nov 2014 17:00:43 GMT</pubDate>
         </item>
     </channel>
 </rss>
