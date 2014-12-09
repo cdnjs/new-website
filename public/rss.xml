@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Dec 2014 09:02:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Dec 2014 09:17:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[video.js updated to version 4.11.1]]></title>
+            <description><![CDATA[Open source HTML5 & Flash video player<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.1/video.js">//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.1/video.js</a>]]></description>
+            <link>http://videojs.com/</link>
+            <guid isPermaLink="false">video.js4.11.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 07:00:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[handsontable updated to version 0.12.2]]></title>
             <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.2/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.2/handsontable.full.min.js</a>]]></description>
