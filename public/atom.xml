@@ -10,10 +10,90 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Dec 2014 05:02:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Dec 2014 05:17:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[handsontable updated to version 0.12.2]]></title>
+            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.2/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.2/handsontable.full.min.js</a>]]></description>
+            <link>http://handsontable.com/</link>
+            <guid isPermaLink="false">handsontable0.12.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:11:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-material-design updated to version 0.2.1]]></title>
+            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/js/material.min.js</a>]]></description>
+            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
+            <guid isPermaLink="false">bootstrap-material-design0.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:10:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-select updated to version 0.9.3]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.3/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.3/select.min.js</a>]]></description>
+            <link>http://github.com/angular-ui/ui-select</link>
+            <guid isPermaLink="false">angular-ui-select0.9.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:10:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-moment updated to version 0.8.3]]></title>
+            <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.8.3/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.8.3/angular-moment.min.js</a>]]></description>
+            <link>https://github.com/urish/angular-moment</link>
+            <guid isPermaLink="false">angular-moment0.8.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:09:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mobile-detect updated to version 0.4.3]]></title>
+            <description><![CDATA[Device detection (phone, tablet, desktop, mobile grade, os, versions)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mobile-detect/0.4.3/mobile-detect.min.js">//cdnjs.cloudflare.com/ajax/libs/mobile-detect/0.4.3/mobile-detect.min.js</a>]]></description>
+            <link>http://hgoebl.github.io/mobile-detect.js/</link>
+            <guid isPermaLink="false">mobile-detect0.4.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:07:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-data updated to version 1.5.3]]></title>
+            <description><![CDATA[Data store for Angular.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.3/angular-data.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.3/angular-data.min.js</a>]]></description>
+            <link>http://angular-data.pseudobry.com</link>
+            <guid isPermaLink="false">angular-data1.5.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:07:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tinycolor updated to version 1.1.1]]></title>
+            <description><![CDATA[Fast, small color manipulation and conversion for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.1/tinycolor.min.js">//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.1/tinycolor.min.js</a>]]></description>
+            <link>http://bgrins.github.io/TinyColor/</link>
+            <guid isPermaLink="false">tinycolor1.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:06:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[d3 updated to version 3.5.1]]></title>
+            <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.1/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.5.1/d3.min.js</a>]]></description>
+            <link>http://mbostock.github.com/d3/</link>
+            <guid isPermaLink="false">d33.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:04:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 2.3.2]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.3.2/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.3.2/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:04:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Han updated to version 3.0.2]]></title>
+            <description><![CDATA[The CSS typography framework optimised for Hanzi<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Han/3.0.2/han.min.css">//cdnjs.cloudflare.com/ajax/libs/Han/3.0.2/han.min.css</a>]]></description>
+            <link>http://css.hanzi.co/</link>
+            <guid isPermaLink="false">Han3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Dec 2014 05:04:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[social-likes updated to version 3.0.9]]></title>
             <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.9/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.9/social-likes.min.js</a>]]></description>
@@ -39,14 +119,6 @@
             <pubDate>Mon, 08 Dec 2014 16:08:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[d3 updated to version 3.5.0]]></title>
-            <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js</a>]]></description>
-            <link>http://mbostock.github.com/d3/</link>
-            <guid isPermaLink="false">d33.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 08 Dec 2014 16:08:32 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-pusher(0.0.13) was added]]></title>
             <description><![CDATA[AngularJS provider and service for Pusher<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-pusher/0.0.13/angular-pusher.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-pusher/0.0.13/angular-pusher.min.js</a>]]></description>
             <link>http://angular-pusher-example.herokuapp.com/</link>
@@ -61,14 +133,6 @@
             <guid isPermaLink="false">yasqe2.2.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 08 Dec 2014 04:46:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasr updated to version 2.3.1]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.3.1/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.3.1/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 08 Dec 2014 04:44:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vue updated to version 0.11.4]]></title>
@@ -109,14 +173,6 @@
             <guid isPermaLink="false">jquery.mb.YTPlayer2.7.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 07 Dec 2014 05:39:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Han updated to version 3.0.1]]></title>
-            <description><![CDATA[The CSS typography framework optimised for Hanzi<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Han/3.0.1/han.min.css">//cdnjs.cloudflare.com/ajax/libs/Han/3.0.1/han.min.css</a>]]></description>
-            <link>http://css.hanzi.co/</link>
-            <guid isPermaLink="false">Han3.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 07 Dec 2014 05:37:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ng-dialog updated to version 0.3.6]]></title>
@@ -189,14 +245,6 @@
             <guid isPermaLink="false">bootstrap3-dialog1.34.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 06 Dec 2014 05:06:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[handsontable updated to version 0.12.1]]></title>
-            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.1/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.1/handsontable.full.min.js</a>]]></description>
-            <link>http://handsontable.com/</link>
-            <guid isPermaLink="false">handsontable0.12.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Dec 2014 05:06:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[uikit updated to version 2.13.1]]></title>
@@ -278,14 +326,6 @@
             <pubDate>Thu, 04 Dec 2014 04:59:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-data updated to version 1.5.2]]></title>
-            <description><![CDATA[Data store for Angular.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.2/angular-data.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-data/1.5.2/angular-data.min.js</a>]]></description>
-            <link>http://angular-data.pseudobry.com</link>
-            <guid isPermaLink="false">angular-data1.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Dec 2014 04:37:45 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[gsap updated to version 1.15.0]]></title>
             <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js</a>]]></description>
             <link>http://www.greensock.com/gsap-js/</link>
@@ -300,14 +340,6 @@
             <guid isPermaLink="false">spf2.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 04 Dec 2014 04:35:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-select updated to version 0.9.1]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.1/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.1/select.min.js</a>]]></description>
-            <link>http://github.com/angular-ui/ui-select</link>
-            <guid isPermaLink="false">angular-ui-select0.9.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Dec 2014 04:35:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cldrjs updated to version 0.3.11]]></title>
@@ -397,14 +429,6 @@
             <pubDate>Tue, 02 Dec 2014 21:19:05 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bootstrap-material-design updated to version 0.2.0]]></title>
-            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.0/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.0/js/material.min.js</a>]]></description>
-            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
-            <guid isPermaLink="false">bootstrap-material-design0.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 06:54:45 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[platform updated to version 1.3.0]]></title>
             <description><![CDATA[A platform detection library that works on nearly all JavaScript platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/platform/1.3.0/platform.min.js">//cdnjs.cloudflare.com/ajax/libs/platform/1.3.0/platform.min.js</a>]]></description>
             <link>https://github.com/bestiejs/platform.js</link>
@@ -443,14 +467,6 @@
             <guid isPermaLink="false">gridstack.js0.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 01 Dec 2014 05:08:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tinycolor updated to version 1.1.0]]></title>
-            <description><![CDATA[Fast, small color manipulation and conversion for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.0/tinycolor.min.js">//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.0/tinycolor.min.js</a>]]></description>
-            <link>http://bgrins.github.io/TinyColor/</link>
-            <guid isPermaLink="false">tinycolor1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Dec 2014 05:07:50 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember.js updated to version 1.9.0-beta.4]]></title>
