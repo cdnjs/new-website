@@ -10,10 +10,66 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 Dec 2014 05:02:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Dec 2014 05:17:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.38]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.38/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.38/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.38</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Dec 2014 05:05:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-select updated to version 0.9.4]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.4/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.4/select.min.js</a>]]></description>
+            <link>http://github.com/angular-ui/ui-select</link>
+            <guid isPermaLink="false">angular-ui-select0.9.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Dec 2014 05:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ember.js updated to version 1.9.0]]></title>
+            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0/ember.min.js</a>]]></description>
+            <link>http://emberjs.com/</link>
+            <guid isPermaLink="false">ember.js1.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Dec 2014 05:05:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[autosize.js updated to version 1.18.16]]></title>
+            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.16/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.16/jquery.autosize.min.js</a>]]></description>
+            <link>http://www.jacklmoore.com/autosize</link>
+            <guid isPermaLink="false">autosize.js1.18.16</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Dec 2014 05:03:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[d3 updated to version 3.5.2]]></title>
+            <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js</a>]]></description>
+            <link>http://mbostock.github.com/d3/</link>
+            <guid isPermaLink="false">d33.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Dec 2014 05:03:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[gridstack.js updated to version 0.2.1]]></title>
+            <description><![CDATA[gridstack.js is a jQuery plugin for widget layout. This is drag-and-drop multi-column grid.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.1/gridstack.min.js">//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.1/gridstack.min.js</a>]]></description>
+            <link>https://github.com/troolee/gridstack.js</link>
+            <guid isPermaLink="false">gridstack.js0.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Dec 2014 05:02:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[algoliasearch updated to version 2.8.1]]></title>
+            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.1/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.1/algoliasearch.min.js</a>]]></description>
+            <link>https://github.com/algolia/algoliasearch-client-js</link>
+            <guid isPermaLink="false">algoliasearch2.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Dec 2014 05:02:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[vis updated to version 3.7.2]]></title>
             <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.7.2/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.7.2/vis.min.js</a>]]></description>
@@ -63,14 +119,6 @@
             <pubDate>Tue, 09 Dec 2014 05:10:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-ui-select updated to version 0.9.3]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.3/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.3/select.min.js</a>]]></description>
-            <link>http://github.com/angular-ui/ui-select</link>
-            <guid isPermaLink="false">angular-ui-select0.9.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 09 Dec 2014 05:10:20 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-moment updated to version 0.8.3]]></title>
             <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.8.3/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.8.3/angular-moment.min.js</a>]]></description>
             <link>https://github.com/urish/angular-moment</link>
@@ -101,14 +149,6 @@
             <guid isPermaLink="false">tinycolor1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 09 Dec 2014 05:06:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[d3 updated to version 3.5.1]]></title>
-            <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.1/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.5.1/d3.min.js</a>]]></description>
-            <link>http://mbostock.github.com/d3/</link>
-            <guid isPermaLink="false">d33.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 09 Dec 2014 05:04:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yasr updated to version 2.3.2]]></title>
@@ -269,14 +309,6 @@
             <guid isPermaLink="false">uikit2.13.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 06 Dec 2014 05:05:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[algoliasearch(2.8.0) was added]]></title>
-            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.0/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.0/algoliasearch.min.js</a>]]></description>
-            <link>https://github.com/algolia/algoliasearch-client-js</link>
-            <guid isPermaLink="false">algoliasearch2.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Dec 2014 23:28:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pouchdb updated to version 3.2.0]]></title>
@@ -477,22 +509,6 @@
             <pubDate>Mon, 01 Dec 2014 09:27:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[gridstack.js updated to version 0.2.0]]></title>
-            <description><![CDATA[gridstack.js is a jQuery plugin for widget layout. This is drag-and-drop multi-column grid.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.0/gridstack.min.js">//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.0/gridstack.min.js</a>]]></description>
-            <link>https://github.com/troolee/gridstack.js</link>
-            <guid isPermaLink="false">gridstack.js0.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Dec 2014 05:08:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ember.js updated to version 1.9.0-beta.4]]></title>
-            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0-beta.4/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0-beta.4/ember.min.js</a>]]></description>
-            <link>http://emberjs.com/</link>
-            <guid isPermaLink="false">ember.js1.9.0-beta.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Dec 2014 05:06:49 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-local-storage updated to version 0.1.5]]></title>
             <description><![CDATA[An Angular module that gives you access to the browsers local storage<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.1.5/angular-local-storage.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.1.5/angular-local-storage.min.js</a>]]></description>
             <link>https://github.com/grevory/angular-local-storage</link>
@@ -609,14 +625,6 @@
             <guid isPermaLink="false">html5sortable0.1.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 27 Nov 2014 04:41:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.37]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.37/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.37/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.37</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 26 Nov 2014 18:03:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[omniscient(2.1.0) was added]]></title>
