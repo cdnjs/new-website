@@ -335,7 +335,7 @@ $('body').on('click', '.remove-favorite', function(e) {
           '<p><a itemprop="name" href="libraries/'+ hit.name + '">' +
             hit._highlightResult.name.value +
           '</a></p>' +
-          '<p class="text-muted">' + hit._highlightResult.description.value + '</p>' +
+          '<p class="text-muted">' + (hit._highlightResult.description && hit._highlightResult.description.value) + '</p>' +
           '<ul class="list-inline">' +
             $.map(hit._highlightResult.keywords || [], function(e) { return '<li class="label label-default">' + e.value + '</li>'; }).join(' ') +
           '</ul>' +
