@@ -12,8 +12,7 @@ var async = require("async");
  * Here is how it works:
  *  - fetch the libraries from public/packages.json
  *  - retrieve various infos from GitHub (number of stars, etc..)
- *    - create an oauth token
- *    - authenticate with the generated token
+ *    - authenticate with a public token
  *    - for each library
  *      - try to find a github.com URL in the library's configuration
  *      - fetch the associated repository stats
