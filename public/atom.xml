@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 Dec 2014 06:17:52 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Dec 2014 06:32:49 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -633,30 +633,6 @@
             <guid isPermaLink="false">omniscient2.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 26 Nov 2014 08:10:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-csv updated to version 0.2.6]]></title>
-            <description><![CDATA[Simple directive that turns arrays and objects into downloadable CSV files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.6/ng-csv.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.2.6/ng-csv.min.js</a>]]></description>
-            <link>https://github.com/asafdav/ng-csv</link>
-            <guid isPermaLink="false">ng-csv0.2.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 26 Nov 2014 06:24:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mojio-js updated to version 2.2.4]]></title>
-            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.4/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.4/mojio-js.min.js</a>]]></description>
-            <link>https://github.com/mojio/mojio-js</link>
-            <guid isPermaLink="false">mojio-js2.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 26 Nov 2014 06:24:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[absurd updated to version 0.3.33]]></title>
-            <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.33/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.33/absurd.min.js</a>]]></description>
-            <link>http://absurdjs.com/</link>
-            <guid isPermaLink="false">absurd0.3.33</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 26 Nov 2014 06:22:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
