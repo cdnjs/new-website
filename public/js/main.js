@@ -330,6 +330,14 @@ $('body').on('click', '.remove-favorite', function(e) {
     var html = '';
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
+      var githubDetails = '';
+      if (hit.github) {
+        githubDetails = '<ul class="list-inline">' +
+          '<li><i class="fa fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '">' + hit.github.user + '/' + hit.github.repo + '</a></li>' +
+          '<li><i class="fa fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
+          '<li><i class="fa fa-code-fork"></i> ' + hit.github.forks + '</li>' +
+        '</ul>';
+      }
       var row = '<tr id="' + hit.objectID + '">' +
         '<td>' +
           '<p><a itemprop="name" href="libraries/'+ hit.name + '">' +
@@ -339,6 +347,7 @@ $('body').on('click', '.remove-favorite', function(e) {
           '<ul class="list-inline">' +
             $.map(hit._highlightResult.keywords || [], function(e) { return '<li class="label label-default">' + e.value + '</li>'; }).join(' ') +
           '</ul>' +
+          githubDetails +
         '</td>' +
         '<td style="white-space: nowrap;">' +
           '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
