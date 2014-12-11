@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Dec 2014 15:17:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2014 15:33:02 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">uikit2.14.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Dec 2014 09:00:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dustjs-linkedin updated to version 2.4.0]]></title>
+            <description><![CDATA[Asynchronous templates for the browser and node.js ( LinkedIn fork )<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.4.0/dust-core.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.4.0/dust-core.min.js</a>]]></description>
+            <link>http://linkedin.github.com/dustjs/</link>
+            <guid isPermaLink="false">dustjs-linkedin2.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Dec 2014 08:34:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.mb.YTPlayer updated to version 2.7.8]]></title>
