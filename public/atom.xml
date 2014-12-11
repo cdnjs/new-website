@@ -10,10 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Dec 2014 04:17:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2014 04:32:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[autosize.js updated to version 1.18.17]]></title>
+            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.17/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.17/jquery.autosize.min.js</a>]]></description>
+            <link>http://www.jacklmoore.com/autosize</link>
+            <guid isPermaLink="false">autosize.js1.18.17</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Dec 2014 04:17:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.3.14]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.14/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.14/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.3.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Dec 2014 04:15:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.21]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.21/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.21/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.21</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Dec 2014 04:15:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[crel updated to version 2.1.7]]></title>
+            <description><![CDATA[A small, simple, and fast DOM creation utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crel/2.1.7/crel.min.js">//cdnjs.cloudflare.com/ajax/libs/crel/2.1.7/crel.min.js</a>]]></description>
+            <guid isPermaLink="false">crel2.1.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Dec 2014 04:15:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pivottable(1.3.0) was added]]></title>
+            <description><![CDATA[Javascript Pivot Table (aka Pivot Grid, Pivot Chart, Cross-Tab) implementation with drag'n'drop<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pivottable/1.3.0/pivot.min.js">//cdnjs.cloudflare.com/ajax/libs/pivottable/1.3.0/pivot.min.js</a>]]></description>
+            <link>https://github.com/nicolaskruchten/pivottable</link>
+            <guid isPermaLink="false">pivottable1.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Dec 2014 22:45:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[chainloading updated to version 1.0.0]]></title>
             <description><![CDATA[Allows you to chain together jQuery deferreds or functions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.0/chainloading.min.js">//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.0/chainloading.min.js</a>]]></description>
@@ -52,14 +91,6 @@
             <guid isPermaLink="false">ember.js1.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 10 Dec 2014 05:05:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[autosize.js updated to version 1.18.16]]></title>
-            <description><![CDATA[Automatically adjust textarea height based on user input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.16/jquery.autosize.min.js">//cdnjs.cloudflare.com/ajax/libs/autosize.js/1.18.16/jquery.autosize.min.js</a>]]></description>
-            <link>http://www.jacklmoore.com/autosize</link>
-            <guid isPermaLink="false">autosize.js1.18.16</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Dec 2014 05:03:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[d3 updated to version 3.5.2]]></title>
@@ -350,35 +381,12 @@
             <pubDate>Fri, 05 Dec 2014 08:36:41 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[rxjs updated to version 2.3.20]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.20/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.20/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.20</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Dec 2014 08:36:16 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[weather-icons updated to version 1.3.2]]></title>
             <description><![CDATA[Weather Icons<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css">//cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css</a>]]></description>
             <link>http://erikflowers.github.io/weather-icons/</link>
             <guid isPermaLink="false">weather-icons1.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 05 Dec 2014 08:35:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[crel updated to version 2.1.6]]></title>
-            <description><![CDATA[A small, simple, and fast DOM creation utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crel/2.1.6/crel.min.js">//cdnjs.cloudflare.com/ajax/libs/crel/2.1.6/crel.min.js</a>]]></description>
-            <guid isPermaLink="false">crel2.1.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Dec 2014 16:21:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.3.13]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.13/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.13/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.3.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Dec 2014 16:21:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dygraph updated to version 1.1.0]]></title>
