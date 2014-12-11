@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Dec 2014 21:47:50 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2014 22:02:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[sammy.js updated to version 0.7.6]]></title>
+            <description><![CDATA[Sammy is a RESTful Evented JavaScript framework built on top of jQuery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min.js">//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min.js</a>]]></description>
+            <link>http://sammyjs.org/</link>
+            <guid isPermaLink="false">sammy.js0.7.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Dec 2014 17:33:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.27]]></title>
             <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.27/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.27/mithril.min.js</a>]]></description>
