@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Dec 2014 15:47:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2014 16:03:05 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.22]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.22/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.22/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.22</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Dec 2014 15:41:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dustjs-linkedin updated to version 2.5.1]]></title>
+            <description><![CDATA[Asynchronous templates for the browser and node.js ( LinkedIn fork )<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.5.1/dust-core.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.5.1/dust-core.min.js</a>]]></description>
+            <link>http://linkedin.github.com/dustjs/</link>
+            <guid isPermaLink="false">dustjs-linkedin2.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Dec 2014 15:33:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.39]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.39/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.39/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.39</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Dec 2014 15:31:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[uikit updated to version 2.14.0]]></title>
             <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.14.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.14.0/js/uikit.min.js</a>]]></description>
@@ -21,14 +45,6 @@
             <guid isPermaLink="false">uikit2.14.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Dec 2014 09:00:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dustjs-linkedin updated to version 2.4.0]]></title>
-            <description><![CDATA[Asynchronous templates for the browser and node.js ( LinkedIn fork )<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.4.0/dust-core.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.4.0/dust-core.min.js</a>]]></description>
-            <link>http://linkedin.github.com/dustjs/</link>
-            <guid isPermaLink="false">dustjs-linkedin2.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Dec 2014 08:34:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.mb.YTPlayer updated to version 2.7.8]]></title>
@@ -62,14 +78,6 @@
             <pubDate>Thu, 11 Dec 2014 04:15:53 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[rxjs updated to version 2.3.21]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.21/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.21/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.21</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Dec 2014 04:15:30 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[crel updated to version 2.1.7]]></title>
             <description><![CDATA[A small, simple, and fast DOM creation utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crel/2.1.7/crel.min.js">//cdnjs.cloudflare.com/ajax/libs/crel/2.1.7/crel.min.js</a>]]></description>
             <guid isPermaLink="false">crel2.1.7</guid>
@@ -98,14 +106,6 @@
             <guid isPermaLink="false">dom41.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 10 Dec 2014 11:11:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.38]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.38/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.38/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.38</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Dec 2014 05:05:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-ui-select updated to version 0.9.4]]></title>
