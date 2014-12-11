@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Dec 2014 17:17:51 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2014 17:32:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -601,22 +601,6 @@
             <guid isPermaLink="false">es5-shim4.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 29 Nov 2014 08:20:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tinymce updated to version 4.1.7]]></title>
-            <description><![CDATA[TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.7/tinymce.min.js">//cdnjs.cloudflare.com/ajax/libs/tinymce/4.1.7/tinymce.min.js</a>]]></description>
-            <link>http://www.tinymce.com</link>
-            <guid isPermaLink="false">tinymce4.1.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 27 Nov 2014 17:20:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[less.js updated to version 2.1.1]]></title>
-            <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.1/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.1/less.min.js</a>]]></description>
-            <link>http://lesscss.org/</link>
-            <guid isPermaLink="false">less.js2.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 27 Nov 2014 17:20:25 GMT</pubDate>
         </item>
     </channel>
 </rss>
