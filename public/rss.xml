@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 12 Dec 2014 16:17:54 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Dec 2014 16:32:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[webcomponentsjs updated to version 0.5.2]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.2/webcomponents.min.js">//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.2/webcomponents.min.js</a>]]></description>
+            <link>http://webcomponents.org</link>
+            <guid isPermaLink="false">webcomponentsjs0.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Dec 2014 16:14:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[social-likes updated to version 3.0.10]]></title>
+            <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.10/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.10/social-likes.min.js</a>]]></description>
+            <link>http://sapegin.github.io/social-likes/</link>
+            <guid isPermaLink="false">social-likes3.0.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Dec 2014 16:14:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sizzle updated to version 2.1.0]]></title>
+            <description><![CDATA[A pure-JavaScript, bottom-up CSS selector engine designed to be easily dropped in to a host library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sizzle/2.1.0/sizzle.min.js">//cdnjs.cloudflare.com/ajax/libs/sizzle/2.1.0/sizzle.min.js</a>]]></description>
+            <link>http://sizzlejs.com/</link>
+            <guid isPermaLink="false">sizzle2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Dec 2014 16:11:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[polymer updated to version 0.5.2]]></title>
+            <description><![CDATA[Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.2/polymer.js">//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.2/polymer.js</a>]]></description>
+            <link>http://polymer-project.org/</link>
+            <guid isPermaLink="false">polymer0.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Dec 2014 16:11:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.22.0]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.22.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.22.0/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.22.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Dec 2014 16:09:46 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[seedrandom updated to version 2.3.11]]></title>
             <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.11/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.11/seedrandom.min.js</a>]]></description>
@@ -276,14 +316,6 @@
             <pubDate>Tue, 09 Dec 2014 05:04:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[social-likes updated to version 3.0.9]]></title>
-            <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.9/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.9/social-likes.min.js</a>]]></description>
-            <link>http://sapegin.github.io/social-likes/</link>
-            <guid isPermaLink="false">social-likes3.0.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 09 Dec 2014 01:13:44 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[string.js updated to version 3.0.0]]></title>
             <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/3.0.0/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/3.0.0/string.min.js</a>]]></description>
             <link>http://stringjs.com</link>
@@ -402,14 +434,6 @@
             <guid isPermaLink="false">pouchdb3.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 05 Dec 2014 10:43:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.21.1]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.21.1/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.21.1/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.21.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Dec 2014 08:37:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootswatch updated to version 3.3.1]]></title>
