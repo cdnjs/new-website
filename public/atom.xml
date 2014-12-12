@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 12 Dec 2014 04:32:52 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Dec 2014 04:48:01 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[seedrandom updated to version 2.3.11]]></title>
+            <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.11/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.11/seedrandom.min.js</a>]]></description>
+            <link>https://github.com/davidbau/seedrandom</link>
+            <guid isPermaLink="false">seedrandom2.3.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Dec 2014 04:33:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 2.4.0]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.0/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.0/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Dec 2014 04:32:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[postal.js updated to version 0.12.0]]></title>
+            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.0/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.0/postal.min.js</a>]]></description>
+            <link>http://github.com/postaljs/postal.js</link>
+            <guid isPermaLink="false">postal.js0.12.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Dec 2014 04:32:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[sammy.js updated to version 0.7.6]]></title>
             <description><![CDATA[Sammy is a RESTful Evented JavaScript framework built on top of jQuery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min.js">//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.6/sammy.min.js</a>]]></description>
@@ -244,14 +268,6 @@
             <pubDate>Tue, 09 Dec 2014 05:06:34 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[yasr updated to version 2.3.2]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.3.2/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.3.2/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 09 Dec 2014 05:04:41 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Han updated to version 3.0.2]]></title>
             <description><![CDATA[The CSS typography framework optimised for Hanzi<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Han/3.0.2/han.min.css">//cdnjs.cloudflare.com/ajax/libs/Han/3.0.2/han.min.css</a>]]></description>
             <link>http://css.hanzi.co/</link>
@@ -362,14 +378,6 @@
             <guid isPermaLink="false">jquery.perfect-scrollbar0.5.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 06 Dec 2014 05:12:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[postal.js updated to version 0.11.2]]></title>
-            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.2/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.11.2/postal.min.js</a>]]></description>
-            <link>http://github.com/postaljs/postal.js</link>
-            <guid isPermaLink="false">postal.js0.11.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Dec 2014 05:11:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[phaser updated to version 2.2.1]]></title>
