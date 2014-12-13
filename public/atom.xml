@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 Dec 2014 08:17:48 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Dec 2014 08:33:01 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -689,22 +689,6 @@
             <guid isPermaLink="false">dropzone3.12.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 29 Nov 2014 17:11:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[malihu-custom-scrollbar-plugin updated to version 3.0.6]]></title>
-            <description><![CDATA[Highly customizable custom scrollbar jQuery plugin, featuring vertical/horizontal scrollbars, scrolling momentum, mouse-wheel, keyboard and touch support user defined callbacks etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.6/jquery.mCustomScrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.6/jquery.mCustomScrollbar.min.js</a>]]></description>
-            <link>http://manos.malihu.gr/jquery-custom-content-scroller</link>
-            <guid isPermaLink="false">malihu-custom-scrollbar-plugin3.0.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 29 Nov 2014 08:21:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es5-shim updated to version 4.0.5]]></title>
-            <description><![CDATA[ECMAScript 5 compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.5/es5-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.5/es5-shim.min.js</a>]]></description>
-            <link>http://github.com/es-shims/es5-shim/</link>
-            <guid isPermaLink="false">es5-shim4.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 29 Nov 2014 08:20:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
