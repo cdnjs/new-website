@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 Dec 2014 16:02:58 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Dec 2014 16:18:00 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.fancytree(2.6.0) was added]]></title>
+            <description><![CDATA[Fancytree is a JavaScript tree view plugin for jQuery with support for persistence, keyboard, checkboxes, drag'n'drop, and lazy loading.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.fancytree/2.6.0/jquery.fancytree-all.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.fancytree/2.6.0/jquery.fancytree-all.min.js</a>]]></description>
+            <link>https://github.com/mar10/fancytree</link>
+            <guid isPermaLink="false">jquery.fancytree2.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 15:20:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[foundation-essential updated to version 5.5.0]]></title>
             <description><![CDATA[Slimmed-down build of ZURB Foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.5.0/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.5.0/js/foundation.min.js</a>]]></description>
