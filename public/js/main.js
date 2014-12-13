@@ -231,17 +231,20 @@ $('body').on('click', '.remove-favorite', function(e) {
 
   var copyContainer = $('<div/>');
   copyEl.attr('style', 'display: none;');
-    copyEl.appendTo('body');
-  $('.library-column').on( "mouseenter", function(ev) {
-    var cont = $(ev.currentTarget);
-    copyEl.show();
-    copyEl.appendTo(cont);
-  })
-  .on( "mouseleave", function(ev) {
-    var cont = $(ev.currentTarget);
-    //copyEl.appendTo('body');
-  });
+  copyEl.appendTo('body');
 
+  function setupMouseEvents() {
+    $('.library-column').on( "mouseenter", function(ev) {
+      var cont = $(ev.currentTarget);
+      copyEl.show();
+      copyEl.appendTo(cont);
+    })
+    .on( "mouseleave", function(ev) {
+      var cont = $(ev.currentTarget);
+      //copyEl.appendTo('body');
+    });
+  }
+  setupMouseEvents();
 
   var client = new ZeroClipboard($(".copy-button"));
   client.on( "ready", function( readyEvent ) {
@@ -358,6 +361,7 @@ $('body').on('click', '.remove-favorite', function(e) {
       html += row;
     }
     $hits.html(html);
+    setupMouseEvents();
   }
 
   var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010', { dsn: true }); // public/search-only credentials
