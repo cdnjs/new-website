@@ -10,17 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 Dec 2014 17:32:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Dec 2014 17:47:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[jquery.fancytree(2.6.0) was added]]></title>
+            <title><![CDATA[jquery.ui-contextmenu updated to version 1.8.1-0]]></title>
+            <description><![CDATA[Turn a jQuery UI Menu widget into a contextmenu.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.ui-contextmenu/1.8.1-0/jquery.ui-contextmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.ui-contextmenu/1.8.1-0/jquery.ui-contextmenu.min.js</a>]]></description>
+            <link>https://github.com/mar10/jquery-ui-contextmenu</link>
+            <guid isPermaLink="false">jquery.ui-contextmenu1.8.1-0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 17:37:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.fancytree updated to version 2.6.0]]></title>
             <description><![CDATA[Fancytree is a JavaScript tree view plugin for jQuery with support for persistence, keyboard, checkboxes, drag'n'drop, and lazy loading.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.fancytree/2.6.0/jquery.fancytree-all.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.fancytree/2.6.0/jquery.fancytree-all.min.js</a>]]></description>
             <link>https://github.com/mar10/fancytree</link>
             <guid isPermaLink="false">jquery.fancytree2.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Dec 2014 15:20:09 GMT</pubDate>
+            <pubDate>Sat, 13 Dec 2014 17:35:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[detect_swipe(2.1.1) was added]]></title>
+            <description><![CDATA[A jQuery plugin to detect swipes on touch devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.1/jquery.detect_swipe.min.js">//cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.1/jquery.detect_swipe.min.js</a>]]></description>
+            <link>https://github.com/marcandre/detect_swipe</link>
+            <guid isPermaLink="false">detect_swipe2.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 17:32:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[foundation-essential updated to version 5.5.0]]></title>
@@ -554,14 +570,6 @@
             <guid isPermaLink="false">weather-icons1.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 05 Dec 2014 08:35:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.ui-contextmenu(1.8.0) was added]]></title>
-            <description><![CDATA[Turn a jQuery UI Menu widget into a contextmenu.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.ui-contextmenu/1.8.0/jquery.ui-contextmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.ui-contextmenu/1.8.0/jquery.ui-contextmenu.min.js</a>]]></description>
-            <link>https://github.com/mar10/jquery-ui-contextmenu</link>
-            <guid isPermaLink="false">jquery.ui-contextmenu1.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Dec 2014 07:34:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dygraph updated to version 1.1.0]]></title>
