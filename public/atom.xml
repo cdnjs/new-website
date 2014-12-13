@@ -10,10 +10,74 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 13 Dec 2014 07:32:54 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Dec 2014 07:48:01 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[localforage updated to version 1.2.0]]></title>
+            <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/1.2.0/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/1.2.0/localforage.min.js</a>]]></description>
+            <link>https://github.com/mozilla/localForage</link>
+            <guid isPermaLink="false">localforage1.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 07:34:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[elasticsearch updated to version 3.0.2]]></title>
+            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.0.2/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.0.2/elasticsearch.js</a>]]></description>
+            <link>https://github.com/elasticsearch/elasticsearch-js</link>
+            <guid isPermaLink="false">elasticsearch3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 07:32:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-select updated to version 0.9.5]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.5/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.5/select.min.js</a>]]></description>
+            <link>http://github.com/angular-ui/ui-select</link>
+            <guid isPermaLink="false">angular-ui-select0.9.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 07:32:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-table updated to version 1.5.0]]></title>
+            <description><![CDATA[Bootstrap table displays data in a tabular format and offers rich support to radio, checkbox, sort, pagination and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.5.0/bootstrap-table.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.5.0/bootstrap-table.min.js</a>]]></description>
+            <link>http://wenzhixin.net.cn/p/bootstrap-table/</link>
+            <guid isPermaLink="false">bootstrap-table1.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 07:29:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-spinner updated to version 0.6.0]]></title>
+            <description><![CDATA[Angular directive to show an animated spinner (using spin.js)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.0/angular-spinner.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.0/angular-spinner.min.js</a>]]></description>
+            <link>https://github.com/urish/angular-spinner</link>
+            <guid isPermaLink="false">angular-spinner0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 07:29:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pixi.js updated to version 2.2.0]]></title>
+            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.0/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.0/pixi.js</a>]]></description>
+            <link>http://goodboydigital.com/</link>
+            <guid isPermaLink="false">pixi.js2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 07:29:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.41]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.41/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.41/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.41</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 07:28:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[spf updated to version 2.1.1]]></title>
+            <description><![CDATA[A lightweight JS framework for fast navigation and page updates from YouTube<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/spf/2.1.1/spf.js">//cdnjs.cloudflare.com/ajax/libs/spf/2.1.1/spf.js</a>]]></description>
+            <link>https://github.com/youtube/spfjs</link>
+            <guid isPermaLink="false">spf2.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 13 Dec 2014 07:26:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[tweenjs updated to version 0.6.0]]></title>
             <description><![CDATA[TweenJS is a Javascript library for tweening and animating HTML5 and Javascript properties.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tweenjs/0.6.0/tweenjs.min.js">//cdnjs.cloudflare.com/ajax/libs/tweenjs/0.6.0/tweenjs.min.js</a>]]></description>
@@ -143,14 +207,6 @@
             <pubDate>Thu, 11 Dec 2014 15:33:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bacon.js updated to version 0.7.39]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.39/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.39/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.39</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Dec 2014 15:31:04 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[uikit updated to version 2.14.0]]></title>
             <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.14.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.14.0/js/uikit.min.js</a>]]></description>
             <link>http://www.getuikit.com</link>
@@ -218,14 +274,6 @@
             <guid isPermaLink="false">dom41.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 10 Dec 2014 11:11:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-select updated to version 0.9.4]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.4/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.4/select.min.js</a>]]></description>
-            <link>http://github.com/angular-ui/ui-select</link>
-            <guid isPermaLink="false">angular-ui-select0.9.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Dec 2014 05:05:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember.js updated to version 1.9.0]]></title>
@@ -500,14 +548,6 @@
             <pubDate>Thu, 04 Dec 2014 04:36:52 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[spf updated to version 2.0.1]]></title>
-            <description><![CDATA[A lightweight JS framework for fast navigation and page updates from YouTube<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/spf/2.0.1/spf.js">//cdnjs.cloudflare.com/ajax/libs/spf/2.0.1/spf.js</a>]]></description>
-            <link>https://github.com/youtube/spfjs</link>
-            <guid isPermaLink="false">spf2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 04 Dec 2014 04:35:40 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[cldrjs updated to version 0.3.11]]></title>
             <description><![CDATA[Simple CLDR API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.3.11/cldr.min.js">//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.3.11/cldr.min.js</a>]]></description>
             <guid isPermaLink="false">cldrjs0.3.11</guid>
@@ -521,14 +561,6 @@
             <guid isPermaLink="false">c30.4.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 04 Dec 2014 04:25:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[elasticsearch updated to version 3.0.1]]></title>
-            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.0.1/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.0.1/elasticsearch.js</a>]]></description>
-            <link>https://github.com/elasticsearch/elasticsearch-js</link>
-            <guid isPermaLink="false">elasticsearch3.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Dec 2014 12:38:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-jgrowl updated to version 1.4.1]]></title>
