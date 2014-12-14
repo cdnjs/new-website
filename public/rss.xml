@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Dec 2014 06:03:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Dec 2014 06:18:01 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mermaid(0.2.9) was added]]></title>
+            <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.9/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.9/mermaid.full.min.js</a>]]></description>
+            <link>https://github.com/knsv/mermaid</link>
+            <guid isPermaLink="false">mermaid0.2.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 14 Dec 2014 06:02:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.22.1]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.22.1/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.22.1/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.22.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 14 Dec 2014 04:16:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-cache updated to version 3.2.3]]></title>
+            <description><![CDATA[angular-cache is a very useful replacement for Angular's $cacheFactory.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-cache/3.2.3/angular-cache.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-cache/3.2.3/angular-cache.min.js</a>]]></description>
+            <link>http://jmdobry.github.io/angular-cache</link>
+            <guid isPermaLink="false">angular-cache3.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 14 Dec 2014 04:16:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.ui-contextmenu updated to version 1.8.1-0]]></title>
             <description><![CDATA[Turn a jQuery UI Menu widget into a contextmenu.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.ui-contextmenu/1.8.1-0/jquery.ui-contextmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.ui-contextmenu/1.8.1-0/jquery.ui-contextmenu.min.js</a>]]></description>
@@ -181,14 +205,6 @@
             <guid isPermaLink="false">polymer0.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 12 Dec 2014 16:11:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.22.0]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.22.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.22.0/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.22.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 16:09:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[seedrandom updated to version 2.3.11]]></title>
@@ -689,14 +705,6 @@
             <guid isPermaLink="false">FileSaver.js2014-11-29</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 01 Dec 2014 09:27:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-local-storage updated to version 0.1.5]]></title>
-            <description><![CDATA[An Angular module that gives you access to the browsers local storage<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.1.5/angular-local-storage.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.1.5/angular-local-storage.min.js</a>]]></description>
-            <link>https://github.com/grevory/angular-local-storage</link>
-            <guid isPermaLink="false">angular-local-storage0.1.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 30 Nov 2014 06:03:44 GMT</pubDate>
         </item>
     </channel>
 </rss>
