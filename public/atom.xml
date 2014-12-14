@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Dec 2014 08:03:02 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Dec 2014 08:17:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[Tocca.js(0.1.0) was added]]></title>
+            <description><![CDATA[Super lightweight script (~1kb) to detect via Javascript events like 'tap' 'dbltap' 'swipeup' 'swipedown' 'swipeleft' 'swiperight' on any kind of device.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Tocca.js/0.1.0/Tocca.min.js">//cdnjs.cloudflare.com/ajax/libs/Tocca.js/0.1.0/Tocca.min.js</a>]]></description>
+            <link>https://gianlucaguarini.github.io/Tocca.js/</link>
+            <guid isPermaLink="false">Tocca.js0.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 14 Dec 2014 08:06:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vague.js(0.0.5) was added]]></title>
+            <description><![CDATA[Vague.js is an experimental script that allows you to blur any kind of html element thanks to the SVG filters<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Vague.js/0.0.5/Vague.min.js">//cdnjs.cloudflare.com/ajax/libs/Vague.js/0.0.5/Vague.min.js</a>]]></description>
+            <link>https://gianlucaguarini.github.io/Vague.js/</link>
+            <guid isPermaLink="false">Vague.js0.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 14 Dec 2014 08:01:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jQuery.BlackAndWhite(0.3.4) was added]]></title>
             <description><![CDATA[This plug-in can easily convert any colored image (in an html page) into a B&W greyscale image.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.BlackAndWhite/0.3.4/jquery.BlackAndWhite.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.BlackAndWhite/0.3.4/jquery.BlackAndWhite.min.js</a>]]></description>
