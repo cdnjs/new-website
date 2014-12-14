@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Dec 2014 17:17:57 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Dec 2014 17:32:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[rickshaw updated to version 1.5.1]]></title>
+            <description><![CDATA[JavaScript toolkit for creating interactive real-time graphs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rickshaw/1.5.1/rickshaw.min.js">//cdnjs.cloudflare.com/ajax/libs/rickshaw/1.5.1/rickshaw.min.js</a>]]></description>
+            <link>http://code.shutterstock.com/rickshaw/</link>
+            <guid isPermaLink="false">rickshaw1.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 14 Dec 2014 17:25:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[postal.js updated to version 0.12.2]]></title>
+            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.2/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.2/postal.min.js</a>]]></description>
+            <link>http://github.com/postaljs/postal.js</link>
+            <guid isPermaLink="false">postal.js0.12.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 14 Dec 2014 17:24:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hoverizr(1.0) was added]]></title>
+            <description><![CDATA[An image manipulation and overlay plugin for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Hoverizr/1.0/jquery.hoverizr.min.js">//cdnjs.cloudflare.com/ajax/libs/Hoverizr/1.0/jquery.hoverizr.min.js</a>]]></description>
+            <link>http://www.iliasiovis.com/hoverizr</link>
+            <guid isPermaLink="false">Hoverizr1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 14 Dec 2014 16:08:10 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Tocca.js(0.1.0) was added]]></title>
             <description><![CDATA[Super lightweight script (~1kb) to detect via Javascript events like 'tap' 'dbltap' 'swipeup' 'swipedown' 'swipeleft' 'swiperight' on any kind of device.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Tocca.js/0.1.0/Tocca.min.js">//cdnjs.cloudflare.com/ajax/libs/Tocca.js/0.1.0/Tocca.min.js</a>]]></description>
@@ -245,14 +269,6 @@
             <guid isPermaLink="false">yasr2.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 12 Dec 2014 04:32:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[postal.js updated to version 0.12.0]]></title>
-            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.0/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.0/postal.min.js</a>]]></description>
-            <link>http://github.com/postaljs/postal.js</link>
-            <guid isPermaLink="false">postal.js0.12.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 04:32:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[sammy.js updated to version 0.7.6]]></title>
