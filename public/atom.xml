@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 14 Dec 2014 07:32:48 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 14 Dec 2014 07:48:00 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jQuery.BlackAndWhite(0.3.4) was added]]></title>
+            <description><![CDATA[This plug-in can easily convert any colored image (in an html page) into a B&W greyscale image.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.BlackAndWhite/0.3.4/jquery.BlackAndWhite.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.BlackAndWhite/0.3.4/jquery.BlackAndWhite.min.js</a>]]></description>
+            <link>https://github.com/GianlucaGuarini/jQuery.BlackAndWhite</link>
+            <guid isPermaLink="false">jQuery.BlackAndWhite0.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 14 Dec 2014 07:30:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mermaid(0.2.9) was added]]></title>
             <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.9/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.9/mermaid.full.min.js</a>]]></description>
