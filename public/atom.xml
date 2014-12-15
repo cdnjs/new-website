@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 Dec 2014 08:47:58 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Dec 2014 09:03:04 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jplayer updated to version 2.9.2]]></title>
+            <description><![CDATA[The jQuery HTML5 Audio / Video Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jplayer/2.9.2/jplayer/jquery.jplayer.min.js</a>]]></description>
+            <link>http://www.jplayer.org/</link>
+            <guid isPermaLink="false">jplayer2.9.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 15 Dec 2014 08:43:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[c3 updated to version 0.4.8]]></title>
             <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.js</a>]]></description>
@@ -29,14 +37,6 @@
             <guid isPermaLink="false">jquery-browser0.0.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 15 Dec 2014 04:11:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jplayer updated to version 2.7.1]]></title>
-            <description><![CDATA[The jQuery HTML5 Audio / Video Library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jplayer/2.7.1/jquery.jplayer/jquery.jplayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jplayer/2.7.1/jquery.jplayer/jquery.jplayer.min.js</a>]]></description>
-            <link>http://www.jplayer.org/</link>
-            <guid isPermaLink="false">jplayer2.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 15 Dec 2014 01:29:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[qunit updated to version 1.16.0]]></title>
