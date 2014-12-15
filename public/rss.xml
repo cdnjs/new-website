@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 15 Dec 2014 09:17:51 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Dec 2014 09:32:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -768,14 +768,6 @@
             <guid isPermaLink="false">jquery-bootgrid1.1.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 01 Dec 2014 10:53:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[FileSaver.js updated to version 2014-11-29]]></title>
-            <description><![CDATA[An HTML5 saveAs() FileSaver implementation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js">//cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js</a>]]></description>
-            <link>https://github.com/eligrey/FileSaver.js/</link>
-            <guid isPermaLink="false">FileSaver.js2014-11-29</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 01 Dec 2014 09:27:32 GMT</pubDate>
         </item>
     </channel>
 </rss>
