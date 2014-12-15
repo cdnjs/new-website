@@ -30,11 +30,11 @@
     "mongodb": "^1.4",
     "mustache": "^0.8.2",
     "node-hipchat": "^0.4.5",
-    "superagent": "^0.18",
-    "timeago": "^0.1.0",
+    "superagent": "^0.21",
+    "timeago": "^0.2",
     "twit": "^1.1",
-    "urlize": "^0.1.2",
-    "userapp": "^0.2.3"
+    "urlize": "^0.2",
+    "userapp": "^2.0"
   },
   "devDependencies": {
     "algolia-search": "^1.7.0"
