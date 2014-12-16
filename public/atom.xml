@@ -10,10 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Dec 2014 07:17:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Dec 2014 07:33:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mermaid updated to version 0.2.16]]></title>
+            <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.16/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.16/mermaid.full.min.js</a>]]></description>
+            <link>https://github.com/knsv/mermaid</link>
+            <guid isPermaLink="false">mermaid0.2.16</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Dec 2014 07:21:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[masonry updated to version 3.2.2]]></title>
+            <description><![CDATA[Cascading grid layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js</a>]]></description>
+            <link>http://masonry.desandro.com/</link>
+            <guid isPermaLink="false">masonry3.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Dec 2014 07:20:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ionic updated to version 1.0.0-beta.14]]></title>
+            <description><![CDATA[Advanced HTML5 Mobile App Framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-beta.14/js/ionic.min.js">//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-beta.14/js/ionic.min.js</a>]]></description>
+            <guid isPermaLink="false">ionic1.0.0-beta.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Dec 2014 07:18:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[dc updated to version 1.7.2]]></title>
             <description><![CDATA[A multi-dimensional charting library built to work natively with crossfilter and rendered using d3.js <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dc/1.7.2/dc.min.js">//cdnjs.cloudflare.com/ajax/libs/dc/1.7.2/dc.min.js</a>]]></description>
@@ -147,14 +170,6 @@
             <guid isPermaLink="false">jQuery.BlackAndWhite0.3.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 14 Dec 2014 07:30:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mermaid(0.2.9) was added]]></title>
-            <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.9/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.9/mermaid.full.min.js</a>]]></description>
-            <link>https://github.com/knsv/mermaid</link>
-            <guid isPermaLink="false">mermaid0.2.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Dec 2014 06:02:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[es6-shim updated to version 0.22.1]]></title>
