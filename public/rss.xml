@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Dec 2014 21:32:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Dec 2014 21:47:52 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -790,22 +790,6 @@
             <guid isPermaLink="false">sweetalert0.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 02 Dec 2014 22:16:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[parsley.js updated to version 2.0.6]]></title>
-            <description><![CDATA[Validate your forms without writing a single line of javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.6/parsley.min.js">//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.6/parsley.min.js</a>]]></description>
-            <link>http://parsleyjs.org/</link>
-            <guid isPermaLink="false">parsley.js2.0.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 21:38:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[twemoji updated to version 1.2.0]]></title>
-            <description><![CDATA[A Unicode standard based way to implement emoji across all platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twemoji/1.2.0/twemoji.min.js">//cdnjs.cloudflare.com/ajax/libs/twemoji/1.2.0/twemoji.min.js</a>]]></description>
-            <link>https://github.com/twitter/twemoji</link>
-            <guid isPermaLink="false">twemoji1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 21:19:05 GMT</pubDate>
         </item>
     </channel>
 </rss>
