@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Dec 2014 04:17:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Dec 2014 04:33:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[dc updated to version 1.7.2]]></title>
+            <description><![CDATA[A multi-dimensional charting library built to work natively with crossfilter and rendered using d3.js <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dc/1.7.2/dc.min.js">//cdnjs.cloudflare.com/ajax/libs/dc/1.7.2/dc.min.js</a>]]></description>
+            <link>http://dc-js.github.io/dc.js/</link>
+            <guid isPermaLink="false">dc1.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Dec 2014 04:12:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps updated to version 2.0.12]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.12/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.0.12/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.0.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Dec 2014 04:12:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-ui-date(0.0.6) was added]]></title>
             <description><![CDATA[This directive allows you to add a date-picker to your form elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.6/date.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.6/date.min.js</a>]]></description>
