@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Dec 2014 09:03:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Dec 2014 09:17:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[textAngular updated to version 1.3.0-17]]></title>
+            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.0-17/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.0-17/dist/textAngular.min.js</a>]]></description>
+            <link>http://textAngular.com</link>
+            <guid isPermaLink="false">textAngular1.3.0-17</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Dec 2014 09:00:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mermaid updated to version 0.2.16]]></title>
             <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.16/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.2.16/mermaid.full.min.js</a>]]></description>
