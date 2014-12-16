@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Dec 2014 02:03:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Dec 2014 02:18:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-ui-date(0.0.6) was added]]></title>
+            <description><![CDATA[This directive allows you to add a date-picker to your form elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.6/date.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.6/date.min.js</a>]]></description>
+            <link>http://angular-ui.github.com/ui-date</link>
+            <guid isPermaLink="false">angular-ui-date0.0.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Dec 2014 02:11:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-noty updated to version 2.3.2]]></title>
+            <description><![CDATA[jQuery plugin that makes it easy to create alert, success, error, warning, information or confirmation messages as an alternative the standard alert dialog.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.2/jquery.noty.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.2/jquery.noty.min.js</a>]]></description>
+            <link>http://needim.github.com/noty/</link>
+            <guid isPermaLink="false">jquery-noty2.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Dec 2014 02:03:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[sizzle updated to version 2.1.1]]></title>
             <description><![CDATA[A pure-JavaScript, bottom-up CSS selector engine designed to be easily dropped in to a host library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sizzle/2.1.1/sizzle.min.js">//cdnjs.cloudflare.com/ajax/libs/sizzle/2.1.1/sizzle.min.js</a>]]></description>
