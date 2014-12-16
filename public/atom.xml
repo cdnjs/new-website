@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 16 Dec 2014 22:17:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Dec 2014 23:47:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -790,14 +790,6 @@
             <guid isPermaLink="false">fast-json-patch0.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 03 Dec 2014 10:03:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sweetalert(0.3.2) was added]]></title>
-            <description><![CDATA[A beautiful replacement for JavaScript's alert.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.3.2/sweet-alert.min.js">//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.3.2/sweet-alert.min.js</a>]]></description>
-            <link>http://tristanedwards.me/sweetalert</link>
-            <guid isPermaLink="false">sweetalert0.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Dec 2014 22:16:13 GMT</pubDate>
         </item>
     </channel>
 </rss>
