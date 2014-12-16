@@ -7,6 +7,9 @@
       <em class="translateit">{{library.keywords}}</em>
       <br />
       <a href="https://gratipay.com/{{library.gratipay}}/"><img src="https://img.shields.io/gratipay/{{library.gratipay}}.svg" /></a>
+      {{#library.namespace}}
+      <a href="http://libscore.com#{{library.namespace}}/"><img src="http://api.libscore.com/badge/{{library.namespace}}.svg" /></a>
+      {{/library.namespace}}
       <br />
       <br />
       <select class="form-control version-selector" style="float: right;">
