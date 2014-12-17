@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Dec 2014 10:02:56 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Dec 2014 10:17:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -838,14 +838,6 @@
             <guid isPermaLink="false">jsonld0.3.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 03 Dec 2014 12:11:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fast-json-patch(0.5.0) was added]]></title>
-            <description><![CDATA[Fast implementation of JSON-Patch (RFC-6902) with duplex (observe changes) capabilities<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.0/json-patch-duplex.min.js">//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.0/json-patch-duplex.min.js</a>]]></description>
-            <link>https://github.com/Starcounter-Jack/Fast-JSON-Patch</link>
-            <guid isPermaLink="false">fast-json-patch0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Dec 2014 10:03:02 GMT</pubDate>
         </item>
     </channel>
 </rss>
