@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Dec 2014 19:03:02 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Dec 2014 19:17:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -108,6 +108,14 @@
             <guid isPermaLink="false">chroma-js0.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 17 Dec 2014 00:59:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-colorpicker(2.0.1) was added]]></title>
+            <description><![CDATA[A colorpicker for Twitter Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.0.1/js/bootstrap-colorpicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.0.1/js/bootstrap-colorpicker.min.js</a>]]></description>
+            <link>https://github.com/mjolnic/bootstrap-colorpicker</link>
+            <guid isPermaLink="false">bootstrap-colorpicker2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 16 Dec 2014 14:50:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[qooxdoo updated to version 4.1]]></title>
