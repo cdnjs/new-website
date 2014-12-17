@@ -10,10 +10,58 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Dec 2014 04:47:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Dec 2014 05:03:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[onsen updated to version 1.2.0-beta]]></title>
+            <description><![CDATA[HTML5 UI Framework for building Cordova, PhoneGap hybrid mobile apps.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/onsen/1.2.0-beta/js/onsenui.js">//cdnjs.cloudflare.com/ajax/libs/onsen/1.2.0-beta/js/onsenui.js</a>]]></description>
+            <link>http://onsen.io/</link>
+            <guid isPermaLink="false">onsen1.2.0-beta</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Dec 2014 04:50:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 2.4.1]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.1/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.1/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Dec 2014 04:21:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-switch updated to version 3.2.2]]></title>
+            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.2/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.2/js/bootstrap-switch.min.js</a>]]></description>
+            <link>http://www.bootstrap-switch.org</link>
+            <guid isPermaLink="false">bootstrap-switch3.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Dec 2014 04:21:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mo updated to version 1.7.3]]></title>
+            <description><![CDATA[A collection of OzJS core modules that form a library called "Mo"<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mo/1.7.3/lang.js">//cdnjs.cloudflare.com/ajax/libs/mo/1.7.3/lang.js</a>]]></description>
+            <link>http://ozjs.org/mo/</link>
+            <guid isPermaLink="false">mo1.7.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Dec 2014 04:21:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.4.0]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.4.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.4.0/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Dec 2014 04:20:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bower-angular-translate updated to version 2.5.2]]></title>
+            <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.5.2/angular-translate.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.5.2/angular-translate.min.js</a>]]></description>
+            <link>http://angular-translate.github.io</link>
+            <guid isPermaLink="false">bower-angular-translate2.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Dec 2014 04:19:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ng-csv updated to version 0.3.1]]></title>
             <description><![CDATA[Simple directive that turns arrays and objects into downloadable CSV files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.3.1/ng-csv.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.3.1/ng-csv.min.js</a>]]></description>
@@ -37,14 +85,6 @@
             <guid isPermaLink="false">chroma-js0.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 17 Dec 2014 00:59:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bower-angular-translate updated to version 2.0.1]]></title>
-            <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.0.1/angular-translate.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.0.1/angular-translate.min.js</a>]]></description>
-            <link>http://angular-translate.github.io</link>
-            <guid isPermaLink="false">bower-angular-translate2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 16 Dec 2014 20:06:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[textAngular updated to version 1.3.0-17]]></title>
@@ -394,14 +434,6 @@
             <guid isPermaLink="false">seedrandom2.3.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 12 Dec 2014 04:33:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasr updated to version 2.4.0]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.0/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.0/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 04:32:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[sammy.js updated to version 0.7.6]]></title>
