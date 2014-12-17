@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 17 Dec 2014 01:03:02 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Dec 2014 01:17:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ng-csv updated to version 0.3.1]]></title>
+            <description><![CDATA[Simple directive that turns arrays and objects into downloadable CSV files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.3.1/ng-csv.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.3.1/ng-csv.min.js</a>]]></description>
+            <link>https://github.com/asafdav/ng-csv</link>
+            <guid isPermaLink="false">ng-csv0.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Dec 2014 01:01:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-clip updated to version 0.2.5]]></title>
+            <description><![CDATA[Copy to clipboard using AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.5/ng-clip.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.5/ng-clip.min.js</a>]]></description>
+            <link>https://github.com/asafdav/ng-clip</link>
+            <guid isPermaLink="false">ng-clip0.2.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Dec 2014 01:00:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chroma-js updated to version 0.6.2]]></title>
+            <description><![CDATA[JavaScript library for color conversions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.6.2/chroma.min.js">//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.6.2/chroma.min.js</a>]]></description>
+            <link>https://github.com/gka/chroma.js</link>
+            <guid isPermaLink="false">chroma-js0.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 17 Dec 2014 00:59:49 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bower-angular-translate updated to version 2.0.1]]></title>
             <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.0.1/angular-translate.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.0.1/angular-translate.min.js</a>]]></description>
