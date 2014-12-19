@@ -218,12 +218,9 @@ $('body').on('click', '.remove-favorite', function(e) {
   copyElButton.appendTo(copyEl);
   toggleButton.appendTo(copyEl);
   copyEl.append('<ul class="dropdown-menu copy-options">' +
-                    '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="#">Copy HTTPS Url</a></li>' +
-                    '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy HTTPS Script Tag</a></li>' +
-                    '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy HTTPS Link Tag</a></li>' +
-                    '<li><a data-copy-type="http:" class="copy-http-url copy-button" href="#">Copy HTTP Url</a></li>' +
-                    '<li class="js"><a data-copy-embed="script" data-copy-type="http:" class=" copy-http-script copy-button" href="#">Copy HTTP Script Tag</a></li>' +
-                    '<li class="css"><a data-copy-embed="link" data-copy-type="http:" class="copy-http-link copy-button" href="#">Copy HTTP Link Tag</a></li>' +
+                    '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="#">Copy Url</a></li>' +
+                    '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy Script Tag</a></li>' +
+                    '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy Link Tag</a></li>' +
                     '<li class="divider"></li>' +
                     '<li><a class="add-favorite" href="#">Add to favorites</a></li>' +
                     '<li><a class="remove-favorite" href="#">Remove from favorites</a></li>' +
@@ -251,7 +248,7 @@ $('body').on('click', '.remove-favorite', function(e) {
     client.on( "copy", function (event) {
       var button = $(event.target);
       var embed = button.attr('data-copy-embed');
-      var url = button.attr('data-copy-type') + $('.library-url', button.parents('.library-column')).text();
+      var url = $('.library-url', button.parents('.library-column')).text();
       var oldurl = url;
       if(embed === 'script') {
         url = '<script type="text/javascript" src="' + url + '"></script>';
