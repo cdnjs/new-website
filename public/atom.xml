@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 20 Dec 2014 05:03:03 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Dec 2014 05:18:02 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -838,38 +838,6 @@
             <guid isPermaLink="false">angular-busy4.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 06 Dec 2014 16:16:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[kronos.js updated to version 0.7.1]]></title>
-            <description><![CDATA[JavaScript client for Kronos<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.1/kronos.min.js">//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.1/kronos.min.js</a>]]></description>
-            <link>https://chronology.github.io</link>
-            <guid isPermaLink="false">kronos.js0.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Dec 2014 05:12:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.8]]></title>
-            <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.8/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.8/perfect-scrollbar.min.js</a>]]></description>
-            <link>http://www.yuiazu.net/perfect-scrollbar/</link>
-            <guid isPermaLink="false">jquery.perfect-scrollbar0.5.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Dec 2014 05:12:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[phaser updated to version 2.2.1]]></title>
-            <description><![CDATA[Phaser is a fast, free and fun open source game framework for making desktop and mobile browser HTML5 games. It uses Pixi.js internally for fast 2D Canvas and WebGL rendering.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/phaser/2.2.1/phaser.min.js">//cdnjs.cloudflare.com/ajax/libs/phaser/2.2.1/phaser.min.js</a>]]></description>
-            <link>http://phaser.io/</link>
-            <guid isPermaLink="false">phaser2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Dec 2014 05:07:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap3-dialog updated to version 1.34.1]]></title>
-            <description><![CDATA[Make use of Bootstrap Modal more monkey-friendly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.1/js/bootstrap-dialog.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.1/js/bootstrap-dialog.min.js</a>]]></description>
-            <link>http://nakupanda.github.io/bootstrap3-dialog</link>
-            <guid isPermaLink="false">bootstrap3-dialog1.34.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Dec 2014 05:06:47 GMT</pubDate>
         </item>
     </channel>
 </rss>
