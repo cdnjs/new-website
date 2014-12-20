@@ -10,10 +10,74 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 20 Dec 2014 05:48:10 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Dec 2014 06:03:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[rangeslider.js(0.3.7) was added]]></title>
+            <description><![CDATA[Simple, small and fast JavaScript/jQuery polyfill for the HTML5 <input type="range"> slider element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/0.3.7/rangeslider.min.css">//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/0.3.7/rangeslider.min.css</a>]]></description>
+            <link>https://github.com/andreruffert/rangeslider.js</link>
+            <guid isPermaLink="false">rangeslider.js0.3.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Dec 2014 05:48:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-router updated to version 0.2.13]]></title>
+            <description><![CDATA[State-based routing for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js</a>]]></description>
+            <link>http://angular-ui.github.com/</link>
+            <guid isPermaLink="false">angular-ui-router0.2.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Dec 2014 05:43:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.4.1]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.4.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.4.1/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Dec 2014 05:42:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-gantt updated to version 1.0.1]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.1/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.1/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Dec 2014 05:41:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ink updated to version 3.1.2]]></title>
+            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.1.2/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.1.2/js/ink-all.min.js</a>]]></description>
+            <link>http://ink.sapo.pt/</link>
+            <guid isPermaLink="false">ink3.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Dec 2014 05:41:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jshint updated to version 2.5.11]]></title>
+            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.11/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.11/jshint.js</a>]]></description>
+            <link>http://jshint.com/</link>
+            <guid isPermaLink="false">jshint2.5.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Dec 2014 05:39:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[video.js updated to version 4.11.3]]></title>
+            <description><![CDATA[Open source HTML5 & Flash video player<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.3/video.js">//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.3/video.js</a>]]></description>
+            <link>http://videojs.com/</link>
+            <guid isPermaLink="false">video.js4.11.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Dec 2014 05:37:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react updated to version 0.12.2]]></title>
+            <description><![CDATA[React is a JavaScript library for building user interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.min.js">//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.min.js</a>]]></description>
+            <link>http://facebook.github.io/react</link>
+            <guid isPermaLink="false">react0.12.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 20 Dec 2014 05:37:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-formly(1.0.0) was added]]></title>
             <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/1.0.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/1.0.0/formly.min.js</a>]]></description>
@@ -126,14 +190,6 @@
             <pubDate>Thu, 18 Dec 2014 05:36:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[video.js updated to version 4.11.2]]></title>
-            <description><![CDATA[Open source HTML5 & Flash video player<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.2/video.js">//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.2/video.js</a>]]></description>
-            <link>http://videojs.com/</link>
-            <guid isPermaLink="false">video.js4.11.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 05:36:06 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bootstrap-colorpicker updated to version 2.0.1]]></title>
             <description><![CDATA[A colorpicker for Twitter Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.0.1/js/bootstrap-colorpicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.0.1/js/bootstrap-colorpicker.min.js</a>]]></description>
             <link>https://github.com/mjolnic/bootstrap-colorpicker</link>
@@ -188,14 +244,6 @@
             <guid isPermaLink="false">mo1.7.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 17 Dec 2014 04:21:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[immutable updated to version 3.4.0]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.4.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.4.0/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 17 Dec 2014 04:20:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bower-angular-translate updated to version 2.5.2]]></title>
