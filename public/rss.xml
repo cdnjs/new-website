@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 21 Dec 2014 16:33:11 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Dec 2014 16:48:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -958,14 +958,6 @@
             <guid isPermaLink="false">speakingurl0.18.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 07 Dec 2014 17:48:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[move.js(0.4.0) was added]]></title>
-            <description><![CDATA[CSS3 backed JavaScript animation framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/move.js/0.4.0/move.min.js">//cdnjs.cloudflare.com/ajax/libs/move.js/0.4.0/move.min.js</a>]]></description>
-            <link>http://visionmedia.github.io/move.js/</link>
-            <guid isPermaLink="false">move.js0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 07 Dec 2014 16:40:59 GMT</pubDate>
         </item>
     </channel>
 </rss>
