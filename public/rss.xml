@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 21 Dec 2014 06:18:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Dec 2014 06:33:02 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[instantclick updated to version 3.0.1]]></title>
+            <description><![CDATA[A Javascript library that preloads pages making use of pjax.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js">//cdnjs.cloudflare.com/ajax/libs/instantclick/3.0.1/instantclick.min.js</a>]]></description>
+            <link>instantclick.io</link>
+            <guid isPermaLink="false">instantclick3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 21 Dec 2014 04:26:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[datatables updated to version 1.10.4]]></title>
             <description><![CDATA[DataTables enhances HTML tables with the ability to sort, filter and page the data in the table very easily. It provides a comprehensive API and set of configuration options, allowing you to consume data from virtually any data source.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.4/js/jquery.dataTables.min.js">//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.4/js/jquery.dataTables.min.js</a>]]></description>
