@@ -10,10 +10,57 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Dec 2014 04:32:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Dec 2014 04:48:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.3.15]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.15/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.15/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.3.15</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 04:35:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lazysizes updated to version 0.6.1]]></title>
+            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.6.1/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.6.1/lazysizes.min.js</a>]]></description>
+            <guid isPermaLink="false">lazysizes0.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 04:35:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ember.js updated to version 1.9.1]]></title>
+            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.1/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.1/ember.min.js</a>]]></description>
+            <link>http://emberjs.com/</link>
+            <guid isPermaLink="false">ember.js1.9.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 04:34:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[codemirror updated to version 4.9.0]]></title>
+            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.9.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.9.0/codemirror.min.js</a>]]></description>
+            <link>http://codemirror.net</link>
+            <guid isPermaLink="false">codemirror4.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 04:34:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-strap updated to version 2.1.5]]></title>
+            <description><![CDATA[AngularStrap - Twitter Bootstrap directives for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.5/angular-strap.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.5/angular-strap.min.js</a>]]></description>
+            <link>http://mgcrea.github.com/angular-strap</link>
+            <guid isPermaLink="false">angular-strap2.1.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 04:25:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-gantt updated to version 1.1.0]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.0/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.0/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 04:22:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mocha updated to version 2.1.0]]></title>
             <description><![CDATA[simple, flexible, fun test framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.min.js">//cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.min.js</a>]]></description>
@@ -76,13 +123,6 @@
             <guid isPermaLink="false">jquery.tablesorter2.18.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 23 Dec 2014 12:24:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lazysizes updated to version 0.6.0]]></title>
-            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.6.0/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.6.0/lazysizes.min.js</a>]]></description>
-            <guid isPermaLink="false">lazysizes0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 23 Dec 2014 04:10:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[uikit updated to version 2.15.0]]></title>
@@ -266,14 +306,6 @@
             <guid isPermaLink="false">immutable3.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 20 Dec 2014 05:42:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-gantt updated to version 1.0.1]]></title>
-            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.1/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.0.1/angular-gantt.min.js</a>]]></description>
-            <link>http://www.angular-gantt.com</link>
-            <guid isPermaLink="false">angular-gantt1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Dec 2014 05:41:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ink updated to version 3.1.2]]></title>
@@ -840,14 +872,6 @@
             <pubDate>Thu, 11 Dec 2014 04:17:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[p5.js updated to version 0.3.14]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.14/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.14/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.3.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Dec 2014 04:15:53 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[crel updated to version 2.1.7]]></title>
             <description><![CDATA[A small, simple, and fast DOM creation utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crel/2.1.7/crel.min.js">//cdnjs.cloudflare.com/ajax/libs/crel/2.1.7/crel.min.js</a>]]></description>
             <guid isPermaLink="false">crel2.1.7</guid>
@@ -869,14 +893,6 @@
             <guid isPermaLink="false">dom41.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 10 Dec 2014 11:11:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ember.js updated to version 1.9.0]]></title>
-            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.9.0/ember.min.js</a>]]></description>
-            <link>http://emberjs.com/</link>
-            <guid isPermaLink="false">ember.js1.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Dec 2014 05:05:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[d3 updated to version 3.5.2]]></title>
