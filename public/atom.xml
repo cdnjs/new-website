@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Dec 2014 22:33:07 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Dec 2014 22:48:03 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -907,14 +907,6 @@
             <guid isPermaLink="false">crel2.1.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Dec 2014 04:15:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pivottable(1.3.0) was added]]></title>
-            <description><![CDATA[Javascript Pivot Table (aka Pivot Grid, Pivot Chart, Cross-Tab) implementation with drag'n'drop<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pivottable/1.3.0/pivot.min.js">//cdnjs.cloudflare.com/ajax/libs/pivottable/1.3.0/pivot.min.js</a>]]></description>
-            <link>https://github.com/nicolaskruchten/pivottable</link>
-            <guid isPermaLink="false">pivottable1.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Dec 2014 22:45:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
