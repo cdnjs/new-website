@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Dec 2014 10:18:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Dec 2014 10:33:08 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -29,6 +29,13 @@
             <guid isPermaLink="false">quill0.19.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 24 Dec 2014 06:37:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ember-i18n(3.0.0-beta.2) was added]]></title>
+            <description><![CDATA[Internationalization for Ember<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-i18n/3.0.0-beta.2/i18n.js">//cdnjs.cloudflare.com/ajax/libs/ember-i18n/3.0.0-beta.2/i18n.js</a>]]></description>
+            <guid isPermaLink="false">ember-i18n3.0.0-beta.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 05:30:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.3.15]]></title>
