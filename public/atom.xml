@@ -10,10 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Dec 2014 11:03:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Dec 2014 11:18:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[topojson updated to version 1.6.9]]></title>
+            <description><![CDATA[An extension to GeoJSON that encodes topology.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js">//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js</a>]]></description>
+            <guid isPermaLink="false">topojson1.6.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 11:00:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[sevenSeg.js(0.2.0) was added]]></title>
             <description><![CDATA[sevenSeg.js is a jQueryUI plugin for creating vector-based (SVG) seven-segment displays.  Bindings for Knockout included!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sevenSeg.js/0.2.0/sevenSeg.min.js">//cdnjs.cloudflare.com/ajax/libs/sevenSeg.js/0.2.0/sevenSeg.min.js</a>]]></description>
@@ -908,14 +915,6 @@
             <guid isPermaLink="false">pivottable1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 10 Dec 2014 22:45:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dom4 updated to version 1.1.0]]></title>
-            <description><![CDATA[a fully tested and covered polyfill for new DOM Level 4 entries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dom4/1.1.0/dom4.js">//cdnjs.cloudflare.com/ajax/libs/dom4/1.1.0/dom4.js</a>]]></description>
-            <link>https://github.com/WebReflection/dom4</link>
-            <guid isPermaLink="false">dom41.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 10 Dec 2014 11:11:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
