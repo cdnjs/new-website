@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Dec 2014 06:48:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Dec 2014 07:03:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[sevenSeg.js(0.2.0) was added]]></title>
+            <description><![CDATA[sevenSeg.js is a jQueryUI plugin for creating vector-based (SVG) seven-segment displays.  Bindings for Knockout included!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sevenSeg.js/0.2.0/sevenSeg.min.js">//cdnjs.cloudflare.com/ajax/libs/sevenSeg.js/0.2.0/sevenSeg.min.js</a>]]></description>
+            <link>http://brandonlwhite.github.io/sevenSeg.js</link>
+            <guid isPermaLink="false">sevenSeg.js0.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 06:51:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[quill(0.19.8) was added]]></title>
+            <description><![CDATA[Cross browser rich text editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/quill/0.19.8/quill.base.min.css">//cdnjs.cloudflare.com/ajax/libs/quill/0.19.8/quill.base.min.css</a>]]></description>
+            <link>http://quilljs.com</link>
+            <guid isPermaLink="false">quill0.19.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 06:37:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.3.15]]></title>
             <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.15/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.15/p5.min.js</a>]]></description>
