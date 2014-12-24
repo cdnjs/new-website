@@ -10,10 +10,41 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 24 Dec 2014 00:48:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Dec 2014 01:03:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mocha updated to version 2.1.0]]></title>
+            <description><![CDATA[simple, flexible, fun test framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.min.js">//cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.min.js</a>]]></description>
+            <guid isPermaLink="false">mocha2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 00:54:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sass.js updated to version 0.6.0]]></title>
+            <description><![CDATA[Sass parser in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.0/sass.min.js">//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.0/sass.min.js</a>]]></description>
+            <link>https://github.com/medialize/sass.js</link>
+            <guid isPermaLink="false">sass.js0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 00:52:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.3.7]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.7/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.7/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.3.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 00:50:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[epoch updated to version 0.6.0]]></title>
+            <description><![CDATA[A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/epoch/0.6.0/epoch.min.js">//cdnjs.cloudflare.com/ajax/libs/epoch/0.6.0/epoch.min.js</a>]]></description>
+            <link>http://fastly.github.io/epoch/</link>
+            <guid isPermaLink="false">epoch0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 23 Dec 2014 15:04:35 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.4.0]]></title>
             <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.0/semantic.min.js</a>]]></description>
@@ -52,14 +83,6 @@
             <guid isPermaLink="false">lazysizes0.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 23 Dec 2014 04:10:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cytoscape updated to version 2.3.6]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.6/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.6/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.3.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 23 Dec 2014 04:10:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[uikit updated to version 2.15.0]]></title>
