@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Dec 2014 02:03:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Dec 2014 02:18:04 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[whereyat(0.1.0) was added]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/whereyat/0.1.0/jquery.whereyat.js">//cdnjs.cloudflare.com/ajax/libs/whereyat/0.1.0/jquery.whereyat.js</a>]]></description>
+            <link>http://www.wherey.at/</link>
+            <guid isPermaLink="false">whereyat0.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 24 Dec 2014 20:16:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[topojson updated to version 1.6.9]]></title>
             <description><![CDATA[An extension to GeoJSON that encodes topology.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js">//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js</a>]]></description>
