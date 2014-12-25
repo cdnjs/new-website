@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 25 Dec 2014 07:18:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Dec 2014 07:32:58 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -893,21 +893,6 @@
             <guid isPermaLink="false">dustjs-linkedin2.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Dec 2014 15:33:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.mb.YTPlayer updated to version 2.7.8]]></title>
-            <description><![CDATA[This plugin let you play any public YouTube video as background of your page. It can also be used as a customized player in page.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.8/jquery.mb.YTPlayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.8/jquery.mb.YTPlayer.min.js</a>]]></description>
-            <link>http://pupunzi.open-lab.com/mb-jquery-components/jquery-mb-ytplayer/</link>
-            <guid isPermaLink="false">jquery.mb.YTPlayer2.7.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Dec 2014 07:27:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[hopscotch updated to version 0.2.3]]></title>
-            <description><![CDATA[A framework to make it easy for developers to add product tours to their pages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hopscotch/0.2.3/js/hopscotch.min.js">//cdnjs.cloudflare.com/ajax/libs/hopscotch/0.2.3/js/hopscotch.min.js</a>]]></description>
-            <guid isPermaLink="false">hopscotch0.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Dec 2014 07:25:59 GMT</pubDate>
         </item>
     </channel>
 </rss>
