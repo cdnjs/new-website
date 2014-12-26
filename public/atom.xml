@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Dec 2014 16:03:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Dec 2014 16:18:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -868,30 +868,6 @@
             <guid isPermaLink="false">EaselJS0.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 12 Dec 2014 21:04:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webcomponentsjs updated to version 0.5.2]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.2/webcomponents.min.js">//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.2/webcomponents.min.js</a>]]></description>
-            <link>http://webcomponents.org</link>
-            <guid isPermaLink="false">webcomponentsjs0.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 16:14:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[social-likes updated to version 3.0.10]]></title>
-            <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.10/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.10/social-likes.min.js</a>]]></description>
-            <link>http://sapegin.github.io/social-likes/</link>
-            <guid isPermaLink="false">social-likes3.0.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 16:14:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[polymer updated to version 0.5.2]]></title>
-            <description><![CDATA[Polymer is a new type of library for the web, built on top of Web Components, and designed to leverage the evolving web platform on modern browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.2/polymer.js">//cdnjs.cloudflare.com/ajax/libs/polymer/0.5.2/polymer.js</a>]]></description>
-            <link>http://polymer-project.org/</link>
-            <guid isPermaLink="false">polymer0.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 16:11:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
