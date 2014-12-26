@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Dec 2014 21:18:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Dec 2014 21:33:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -844,14 +844,6 @@
             <guid isPermaLink="false">spf2.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 13 Dec 2014 07:26:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tweenjs updated to version 0.6.0]]></title>
-            <description><![CDATA[TweenJS is a Javascript library for tweening and animating HTML5 and Javascript properties.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tweenjs/0.6.0/tweenjs.min.js">//cdnjs.cloudflare.com/ajax/libs/tweenjs/0.6.0/tweenjs.min.js</a>]]></description>
-            <link>http://www.createjs.com/#!/TweenJS</link>
-            <guid isPermaLink="false">tweenjs0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 21:17:25 GMT</pubDate>
         </item>
     </channel>
 </rss>
