@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Dec 2014 07:03:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Dec 2014 07:18:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ember-data.js updated to version 1.0.0-beta.14]]></title>
+            <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.14/ember-data.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.14/ember-data.min.js</a>]]></description>
+            <link>https://github.com/emberjs/data</link>
+            <guid isPermaLink="false">ember-data.js1.0.0-beta.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 26 Dec 2014 07:11:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[github-fork-ribbon-css updated to version 0.1.1]]></title>
+            <description><![CDATA[A CSS-only, resolution-independent 'Fork me on GitHub' ribbon.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css">//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css</a>]]></description>
+            <link>https://simonwhitaker.github.io/github-fork-ribbon-css/</link>
+            <guid isPermaLink="false">github-fork-ribbon-css0.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 26 Dec 2014 07:10:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[orb updated to version 1.0.1]]></title>
             <description><![CDATA[Pivot grid javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/orb/1.0.1/orb.min.js">//cdnjs.cloudflare.com/ajax/libs/orb/1.0.1/orb.min.js</a>]]></description>
