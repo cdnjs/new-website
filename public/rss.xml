@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Dec 2014 01:47:54 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Dec 2014 02:03:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.4.1]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.1/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.1/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 26 Dec 2014 01:50:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[gridstack.js updated to version 0.2.2]]></title>
             <description><![CDATA[gridstack.js is a jQuery plugin for widget layout. This is drag-and-drop multi-column grid.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.2/gridstack.min.js">//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.2/gridstack.min.js</a>]]></description>
@@ -137,14 +145,6 @@
             <guid isPermaLink="false">epoch0.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 23 Dec 2014 15:04:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.4.0]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.0/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 23 Dec 2014 12:27:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[sweetalert updated to version 0.3.3]]></title>
