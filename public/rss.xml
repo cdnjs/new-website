@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Dec 2014 04:33:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Dec 2014 04:48:00 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -876,14 +876,6 @@
             <guid isPermaLink="false">polymer0.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 12 Dec 2014 16:11:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[seedrandom updated to version 2.3.11]]></title>
-            <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.11/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.11/seedrandom.min.js</a>]]></description>
-            <link>https://github.com/davidbau/seedrandom</link>
-            <guid isPermaLink="false">seedrandom2.3.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 04:33:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
