@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 26 Dec 2014 21:03:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Dec 2014 21:18:00 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -852,30 +852,6 @@
             <guid isPermaLink="false">tweenjs0.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 12 Dec 2014 21:17:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[SoundJS updated to version 0.6.0]]></title>
-            <description><![CDATA[A Javascript library that provides a simple API, and powerful features to make working with audio a breeze.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/SoundJS/0.6.0/soundjs.min.js">//cdnjs.cloudflare.com/ajax/libs/SoundJS/0.6.0/soundjs.min.js</a>]]></description>
-            <link>http://www.createjs.com/#!/SoundJS</link>
-            <guid isPermaLink="false">SoundJS0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 21:12:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[PreloadJS updated to version 0.6.0]]></title>
-            <description><![CDATA[A Javascript library that lets you manage and co-ordinate the loading of assets.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/PreloadJS/0.6.0/preloadjs.min.js">//cdnjs.cloudflare.com/ajax/libs/PreloadJS/0.6.0/preloadjs.min.js</a>]]></description>
-            <link>http://www.createjs.com/#!/PreloadJS</link>
-            <guid isPermaLink="false">PreloadJS0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 21:08:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[EaselJS updated to version 0.8.0]]></title>
-            <description><![CDATA[A Javascript library that makes working with the HTML5 Canvas element easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/EaselJS/0.8.0/easeljs.min.js">//cdnjs.cloudflare.com/ajax/libs/EaselJS/0.8.0/easeljs.min.js</a>]]></description>
-            <link>http://www.createjs.com/#!/EaselJS</link>
-            <guid isPermaLink="false">EaselJS0.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 12 Dec 2014 21:04:45 GMT</pubDate>
         </item>
     </channel>
 </rss>
