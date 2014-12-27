@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Dec 2014 08:03:08 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Dec 2014 08:18:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[echarts(2.1.9) was added]]></title>
+            <description><![CDATA[Enterprise Charts，基于Canvas，纯Javascript图表库，提供直观，生动，可交互，可个性化定制的数据可视化表。<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/echarts/2.1.9/echarts.js">//cdnjs.cloudflare.com/ajax/libs/echarts/2.1.9/echarts.js</a>]]></description>
+            <link>http://echarts.baidu.com</link>
+            <guid isPermaLink="false">echarts2.1.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 27 Dec 2014 08:09:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[uvCharts(1.0.0) was added]]></title>
+            <description><![CDATA[Simple yet powerful JavaScript Charting library built using d3.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uvCharts/1.0.0/uvcharts.min.js">//cdnjs.cloudflare.com/ajax/libs/uvCharts/1.0.0/uvcharts.min.js</a>]]></description>
+            <guid isPermaLink="false">uvCharts1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 27 Dec 2014 07:39:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ember-charts(0.3.0) was added]]></title>
             <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-charts/0.3.0/ember-charts.min.css">//cdnjs.cloudflare.com/ajax/libs/ember-charts/0.3.0/ember-charts.min.css</a>]]></description>
