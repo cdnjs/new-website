@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Dec 2014 13:48:06 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Dec 2014 14:03:04 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -857,22 +857,6 @@
             <guid isPermaLink="false">detect_swipe2.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 13 Dec 2014 17:32:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[foundation-essential updated to version 5.5.0]]></title>
-            <description><![CDATA[Slimmed-down build of ZURB Foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.5.0/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.5.0/js/foundation.min.js</a>]]></description>
-            <link>http://foundation.zurb.com</link>
-            <guid isPermaLink="false">foundation-essential5.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Dec 2014 13:43:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[foundation updated to version 5.5.0]]></title>
-            <description><![CDATA[The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites and apps that work on any kind of device.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js">//cdnjs.cloudflare.com/ajax/libs/foundation/5.5.0/js/foundation.min.js</a>]]></description>
-            <link>http://foundation.zurb.com</link>
-            <guid isPermaLink="false">foundation5.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Dec 2014 13:41:22 GMT</pubDate>
         </item>
     </channel>
 </rss>
