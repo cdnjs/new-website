@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Dec 2014 06:48:02 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Dec 2014 07:03:09 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[Chart.js updated to version 0.2.0]]></title>
+            <description><![CDATA[Simple HTML5 Charts using the canvas element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js">//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js</a>]]></description>
+            <link>http://www.chartjs.org</link>
+            <guid isPermaLink="false">Chart.js0.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 27 Dec 2014 06:48:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[backbone-react-component updated to version 0.7.3]]></title>
             <description><![CDATA[Backbone.React.Component is a wrapper for React.Component and brings all the power of Facebook's React to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.3/backbone-react-component.js">//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.3/backbone-react-component.js</a>]]></description>
