@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 27 Dec 2014 17:32:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Dec 2014 17:48:02 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -849,14 +849,6 @@
             <guid isPermaLink="false">es6-shim0.22.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 14 Dec 2014 04:16:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[detect_swipe(2.1.1) was added]]></title>
-            <description><![CDATA[A jQuery plugin to detect swipes on touch devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.1/jquery.detect_swipe.min.js">//cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.1/jquery.detect_swipe.min.js</a>]]></description>
-            <link>https://github.com/marcandre/detect_swipe</link>
-            <guid isPermaLink="false">detect_swipe2.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 13 Dec 2014 17:32:04 GMT</pubDate>
         </item>
     </channel>
 </rss>
