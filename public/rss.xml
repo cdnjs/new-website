@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Dec 2014 22:03:05 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2014 22:17:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -839,14 +839,6 @@
             <guid isPermaLink="false">jquery-browser0.0.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 15 Dec 2014 04:11:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[qunit updated to version 1.16.0]]></title>
-            <description><![CDATA[An easy-to-use JavaScript Unit Testing framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/qunit/1.16.0/qunit.min.js">//cdnjs.cloudflare.com/ajax/libs/qunit/1.16.0/qunit.min.js</a>]]></description>
-            <link>http://qunitjs.com/</link>
-            <guid isPermaLink="false">qunit1.16.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Dec 2014 22:09:28 GMT</pubDate>
         </item>
     </channel>
 </rss>
