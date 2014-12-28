@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Dec 2014 17:33:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2014 17:48:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -818,13 +818,6 @@
             <guid isPermaLink="false">qunit1.16.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 14 Dec 2014 22:09:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.html5loader(1.8.0) was added]]></title>
-            <description><![CDATA[jQuery.html5Loader can preload <b>images</b>, html5 <b>video</b> and <b>audio</b> sources, <b>css</b>, <b>scripts</b> and <b>text</b> files. This plugin needs a <b>JSON</b> file to get the files that must be preloaded (you can use also use a javascript object as well), and it provides an easy API to give you the the amount of file loaded in percentage.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.html5loader/1.8.0/jquery.html5Loader.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.html5loader/1.8.0/jquery.html5Loader.min.js</a>]]></description>
-            <guid isPermaLink="false">jquery.html5loader1.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Dec 2014 17:33:27 GMT</pubDate>
         </item>
     </channel>
 </rss>
