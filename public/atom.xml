@@ -10,17 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Dec 2014 14:48:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2014 15:03:08 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[react-router(0.11.6) was added]]></title>
+            <title><![CDATA[react-router updated to version 0.11.6]]></title>
             <description><![CDATA[A complete routing solution for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-router/0.11.6/react-router.min.js">//cdnjs.cloudflare.com/ajax/libs/react-router/0.11.6/react-router.min.js</a>]]></description>
             <link>https://github.com/rackt/react-router</link>
             <guid isPermaLink="false">react-router0.11.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Dec 2014 10:54:43 GMT</pubDate>
+            <pubDate>Sun, 28 Dec 2014 14:44:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ng-dialog updated to version 0.3.8]]></title>
