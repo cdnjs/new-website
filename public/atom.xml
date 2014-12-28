@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 28 Dec 2014 08:03:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2014 08:18:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ng-dialog updated to version 0.3.8]]></title>
+            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.8/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.8/js/ngDialog.min.js</a>]]></description>
+            <link>http://likeastore.github.io/ngDialog/</link>
+            <guid isPermaLink="false">ng-dialog0.3.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Dec 2014 07:44:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tablesort updated to version 2.0.1]]></title>
+            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/2.0.1/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/2.0.1/tablesort.min.js</a>]]></description>
+            <link>http://tristen.ca/tablesort/demo/</link>
+            <guid isPermaLink="false">tablesort2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Dec 2014 07:43:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[subkit updated to version 1.0.28]]></title>
+            <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.28/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.28/subkit.min.js</a>]]></description>
+            <link>https://github.com/subkit/subkit.js</link>
+            <guid isPermaLink="false">subkit1.0.28</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 28 Dec 2014 07:42:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular.js updated to version 1.3.8]]></title>
             <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular.min.js</a>]]></description>
@@ -106,14 +130,6 @@
             <guid isPermaLink="false">dom41.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 27 Dec 2014 06:40:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[subkit updated to version 1.0.26]]></title>
-            <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.26/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.26/subkit.min.js</a>]]></description>
-            <link>https://github.com/subkit/subkit.js</link>
-            <guid isPermaLink="false">subkit1.0.26</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Dec 2014 06:39:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[whereyat updated to version 0.1.2]]></title>
@@ -817,22 +833,6 @@
             <guid isPermaLink="false">Hoverizr1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 14 Dec 2014 16:08:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Tocca.js(0.1.0) was added]]></title>
-            <description><![CDATA[Super lightweight script (~1kb) to detect via Javascript events like 'tap' 'dbltap' 'swipeup' 'swipedown' 'swipeleft' 'swiperight' on any kind of device.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Tocca.js/0.1.0/Tocca.min.js">//cdnjs.cloudflare.com/ajax/libs/Tocca.js/0.1.0/Tocca.min.js</a>]]></description>
-            <link>https://gianlucaguarini.github.io/Tocca.js/</link>
-            <guid isPermaLink="false">Tocca.js0.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Dec 2014 08:06:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Vague.js(0.0.5) was added]]></title>
-            <description><![CDATA[Vague.js is an experimental script that allows you to blur any kind of html element thanks to the SVG filters<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Vague.js/0.0.5/Vague.min.js">//cdnjs.cloudflare.com/ajax/libs/Vague.js/0.0.5/Vague.min.js</a>]]></description>
-            <link>https://gianlucaguarini.github.io/Vague.js/</link>
-            <guid isPermaLink="false">Vague.js0.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 14 Dec 2014 08:01:50 GMT</pubDate>
         </item>
     </channel>
 </rss>
