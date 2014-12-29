@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 29 Dec 2014 04:18:01 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Dec 2014 04:33:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bignumber.js updated to version 2.0.0]]></title>
+            <description><![CDATA[A library for arbitrary-precision decimal and non-decimal arithmetic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bignumber.js/2.0.0/bignumber.min.js">//cdnjs.cloudflare.com/ajax/libs/bignumber.js/2.0.0/bignumber.min.js</a>]]></description>
+            <link>http://mikemcl.github.io/bignumber.js/</link>
+            <guid isPermaLink="false">bignumber.js2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 29 Dec 2014 04:19:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[progress.js(0.1.0) was added]]></title>
             <description><![CDATA[Themeable HTML5 progress bar library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/progress.js/0.1.0/progress.min.js">//cdnjs.cloudflare.com/ajax/libs/progress.js/0.1.0/progress.min.js</a>]]></description>
@@ -823,22 +831,6 @@
             <guid isPermaLink="false">jplayer2.9.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 15 Dec 2014 08:43:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[c3 updated to version 0.4.8]]></title>
-            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.js</a>]]></description>
-            <link>http://c3js.org</link>
-            <guid isPermaLink="false">c30.4.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 15 Dec 2014 04:24:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-browser updated to version 0.0.7]]></title>
-            <description><![CDATA[A jQuery plugin for browser detection.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.0.7/jquery.browser.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.0.7/jquery.browser.min.js</a>]]></description>
-            <link>https://github.com/gabceb/jquery-browser-plugin</link>
-            <guid isPermaLink="false">jquery-browser0.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 15 Dec 2014 04:11:23 GMT</pubDate>
         </item>
     </channel>
 </rss>
