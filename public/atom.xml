@@ -10,10 +10,33 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Dec 2014 05:48:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Dec 2014 06:03:08 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery-noty updated to version 2.3.4]]></title>
+            <description><![CDATA[jQuery plugin that makes it easy to create alert, success, error, warning, information or confirmation messages as an alternative the standard alert dialog.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.4/jquery.noty.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.4/jquery.noty.min.js</a>]]></description>
+            <link>http://needim.github.com/noty/</link>
+            <guid isPermaLink="false">jquery-noty2.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 30 Dec 2014 05:44:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[normalize updated to version 3.0.2]]></title>
+            <description><![CDATA[Normalize.css makes browsers render all elements consistently and in line with modern standards.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css</a>]]></description>
+            <link>http://necolas.github.com/normalize.css/</link>
+            <guid isPermaLink="false">normalize3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 30 Dec 2014 05:32:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[crel updated to version 2.1.8]]></title>
+            <description><![CDATA[A small, simple, and fast DOM creation utility<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/crel/2.1.8/crel.min.js">//cdnjs.cloudflare.com/ajax/libs/crel/2.1.8/crel.min.js</a>]]></description>
+            <guid isPermaLink="false">crel2.1.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 30 Dec 2014 04:56:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[codemirror updated to version 4.10.0]]></title>
             <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.10.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.10.0/codemirror.min.js</a>]]></description>
@@ -418,14 +441,6 @@
             <guid isPermaLink="false">uikit2.15.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 22 Dec 2014 12:22:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-noty updated to version 2.3.3]]></title>
-            <description><![CDATA[jQuery plugin that makes it easy to create alert, success, error, warning, information or confirmation messages as an alternative the standard alert dialog.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.3/jquery.noty.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.3/jquery.noty.min.js</a>]]></description>
-            <link>http://needim.github.com/noty/</link>
-            <guid isPermaLink="false">jquery-noty2.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 22 Dec 2014 08:34:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[chainloading updated to version 1.0.2]]></title>
