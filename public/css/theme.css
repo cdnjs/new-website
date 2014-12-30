@@ -119,3 +119,7 @@ p#date{
   font-style: normal;
   background: #ffdead;
 }
+
+.packages-table-container tbody tr td:last-child {
+  width: 60% !important;
+}
