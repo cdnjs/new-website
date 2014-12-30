@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 30 Dec 2014 10:18:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Dec 2014 10:33:04 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[webtorrent(0.19.0) was added]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.19.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.19.0/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.19.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 30 Dec 2014 08:25:48 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery-noty updated to version 2.3.4]]></title>
             <description><![CDATA[jQuery plugin that makes it easy to create alert, success, error, warning, information or confirmation messages as an alternative the standard alert dialog.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.4/jquery.noty.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.4/jquery.noty.min.js</a>]]></description>
