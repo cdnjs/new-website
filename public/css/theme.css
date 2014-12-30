@@ -119,3 +119,16 @@ p#date{
   font-style: normal;
   background: #ffdead;
 }
+
+.packages-table-container tbody tr td:last-child {
+  width: 60% !important;
+}
+
+.packages-table-container tbody tr .label-default.highlight {
+  background-color: #575552;
+}
+
+  .packages-table-container tbody tr .label-default.highlight em {
+    color: #ffdead;
+    background: none;
+  }

@@ -345,7 +345,11 @@ $('body').on('click', '.remove-favorite', function(e) {
           '</a></p>' +
           '<p class="text-muted">' + (hit._highlightResult.description && hit._highlightResult.description.value) + '</p>' +
           '<ul class="list-inline">' +
-            $.map(hit._highlightResult.keywords || [], function(e) { return '<li class="label label-default">' + e.value + '</li>'; }).join(' ') +
+            $.map(hit._highlightResult.keywords || [], function(e) { 
+              console.log(e);
+              var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
+              return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>'; 
+            }).join(' ') +
           '</ul>' +
           githubDetails +
         '</td>' +
