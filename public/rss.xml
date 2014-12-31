@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 31 Dec 2014 00:48:13 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Dec 2014 01:03:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4791,22 +4791,6 @@
             <guid isPermaLink="false">bower-angular-translate2.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 17 Dec 2014 04:19:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-csv updated to version 0.3.1]]></title>
-            <description><![CDATA[Simple directive that turns arrays and objects into downloadable CSV files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.3.1/ng-csv.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-csv/0.3.1/ng-csv.min.js</a>]]></description>
-            <link>https://github.com/asafdav/ng-csv</link>
-            <guid isPermaLink="false">ng-csv0.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 17 Dec 2014 01:01:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-clip updated to version 0.2.5]]></title>
-            <description><![CDATA[Copy to clipboard using AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.5/ng-clip.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.5/ng-clip.min.js</a>]]></description>
-            <link>https://github.com/asafdav/ng-clip</link>
-            <guid isPermaLink="false">ng-clip0.2.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 17 Dec 2014 01:00:55 GMT</pubDate>
         </item>
     </channel>
 </rss>
