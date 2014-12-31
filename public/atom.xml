@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 31 Dec 2014 04:18:01 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Dec 2014 04:33:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4783,30 +4783,6 @@
             <guid isPermaLink="false">onsen1.2.0-beta</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 17 Dec 2014 04:50:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasr updated to version 2.4.1]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.1/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.1/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 17 Dec 2014 04:21:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mo updated to version 1.7.3]]></title>
-            <description><![CDATA[A collection of OzJS core modules that form a library called "Mo"<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mo/1.7.3/lang.js">//cdnjs.cloudflare.com/ajax/libs/mo/1.7.3/lang.js</a>]]></description>
-            <link>http://ozjs.org/mo/</link>
-            <guid isPermaLink="false">mo1.7.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 17 Dec 2014 04:21:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bower-angular-translate updated to version 2.5.2]]></title>
-            <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.5.2/angular-translate.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.5.2/angular-translate.min.js</a>]]></description>
-            <link>http://angular-translate.github.io</link>
-            <guid isPermaLink="false">bower-angular-translate2.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 17 Dec 2014 04:19:52 GMT</pubDate>
         </item>
     </channel>
 </rss>
