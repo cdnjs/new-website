@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 31 Dec 2014 02:03:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Dec 2014 02:18:08 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[zeroclipboard updated to version 2.2.0]]></title>
+            <description><![CDATA[The ZeroClipboard library provides an easy way to copy text to the clipboard using an invisible Adobe Flash movie and a JavaScript interface.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.min.js">//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.min.js</a>]]></description>
+            <link>http://zeroclipboard.org/</link>
+            <guid isPermaLink="false">zeroclipboard2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 31 Dec 2014 02:07:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fullcalendar updated to version 2.2.5]]></title>
+            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.5/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.5/fullcalendar.min.js</a>]]></description>
+            <link>http://arshaw.com/fullcalendar/</link>
+            <guid isPermaLink="false">fullcalendar2.2.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 31 Dec 2014 02:03:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sbt updated to version 1.1.2.20141211-1200]]></title>
+            <description><![CDATA[Social Business Toolkit minified&aggregated files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sbt/1.1.2.20141211-1200/sbt-core-dojo-amd.js">//cdnjs.cloudflare.com/ajax/libs/sbt/1.1.2.20141211-1200/sbt-core-dojo-amd.js</a>]]></description>
+            <link>http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=Social%20Business%20Toolkit%20SDK</link>
+            <guid isPermaLink="false">sbt1.1.2.20141211-1200</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 31 Dec 2014 02:02:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[algoliasearch updated to version 2.8.3]]></title>
+            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.3/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.3/algoliasearch.min.js</a>]]></description>
+            <link>https://github.com/algolia/algoliasearch-client-js</link>
+            <guid isPermaLink="false">algoliasearch2.8.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 30 Dec 2014 16:08:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[zxcvbn updated to version 1.0]]></title>
             <description><![CDATA[Realistic password strength estimation, based on common words, patterns, and keyboard adjacency.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/zxcvbn/1.0/zxcvbn-async.js">//cdnjs.cloudflare.com/ajax/libs/zxcvbn/1.0/zxcvbn-async.js</a>]]></description>
@@ -632,14 +664,6 @@
             <description><![CDATA[scaleApp is a JavaScript framework for scalable and maintainable One-Page-Applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/scaleapp/0.4.3/scaleapp.min.js">//cdnjs.cloudflare.com/ajax/libs/scaleapp/0.4.3/scaleapp.min.js</a>]]></description>
             <link>http://www.scaleapp.org</link>
             <guid isPermaLink="false">scaleapp0.4.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sbt updated to version 1.1.0.20140717-1200]]></title>
-            <description><![CDATA[Social Business Toolkit minified&aggregated files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sbt/1.1.0.20140717-1200/sbt-core-dojo-amd.js">//cdnjs.cloudflare.com/ajax/libs/sbt/1.1.0.20140717-1200/sbt-core-dojo-amd.js</a>]]></description>
-            <link>http://www.openntf.org/internal/home.nsf/project.xsp?action=openDocument&amp;name=Social%20Business%20Toolkit%20SDK</link>
-            <guid isPermaLink="false">sbt1.1.0.20140717-1200</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
@@ -4107,14 +4131,6 @@
             <guid isPermaLink="false">malihu-custom-scrollbar-plugin3.0.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 02:24:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[algoliasearch updated to version 2.8.2]]></title>
-            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.2/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.2/algoliasearch.min.js</a>]]></description>
-            <link>https://github.com/algolia/algoliasearch-client-js</link>
-            <guid isPermaLink="false">algoliasearch2.8.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 02:24:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bignumber.js updated to version 2.0.0]]></title>
