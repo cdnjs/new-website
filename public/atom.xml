@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 31 Dec 2014 06:03:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Dec 2014 06:18:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.18]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.18/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.18/jsonld.min.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.18</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 31 Dec 2014 05:59:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[d3 updated to version 3.5.3]]></title>
+            <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js</a>]]></description>
+            <link>http://mbostock.github.com/d3/</link>
+            <guid isPermaLink="false">d33.5.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 31 Dec 2014 05:57:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[orb updated to version 1.0.5]]></title>
+            <description><![CDATA[Pivot grid javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/orb/1.0.5/orb.min.js">//cdnjs.cloudflare.com/ajax/libs/orb/1.0.5/orb.min.js</a>]]></description>
+            <link>http://nnajm.github.io/orb/</link>
+            <guid isPermaLink="false">orb1.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 31 Dec 2014 05:57:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.19.1]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.19.1/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.19.1/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.19.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 31 Dec 2014 05:56:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[zeroclipboard updated to version 2.2.0]]></title>
             <description><![CDATA[The ZeroClipboard library provides an easy way to copy text to the clipboard using an invisible Adobe Flash movie and a JavaScript interface.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.min.js">//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.min.js</a>]]></description>
@@ -4086,14 +4118,6 @@
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[webtorrent(0.19.0) was added]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.19.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.19.0/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.19.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 08:25:48 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery-noty updated to version 2.3.4]]></title>
             <description><![CDATA[jQuery plugin that makes it easy to create alert, success, error, warning, information or confirmation messages as an alternative the standard alert dialog.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.4/jquery.noty.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.4/jquery.noty.min.js</a>]]></description>
             <link>http://needim.github.com/noty/</link>
@@ -4293,22 +4317,6 @@
             <guid isPermaLink="false">whereyat0.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 26 Dec 2014 17:17:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[orb updated to version 1.0.3]]></title>
-            <description><![CDATA[Pivot grid javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/orb/1.0.3/orb.min.js">//cdnjs.cloudflare.com/ajax/libs/orb/1.0.3/orb.min.js</a>]]></description>
-            <link>http://nnajm.github.io/orb/</link>
-            <guid isPermaLink="false">orb1.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 26 Dec 2014 17:17:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsonld updated to version 0.3.17]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.17/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.17/jsonld.min.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.17</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 26 Dec 2014 17:11:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[chroma-js updated to version 0.6.3]]></title>
