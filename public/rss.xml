@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 31 Dec 2014 16:18:16 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Dec 2014 16:33:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[algoliasearch updated to version 2.8.4]]></title>
+            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.4/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.4/algoliasearch.min.js</a>]]></description>
+            <link>https://github.com/algolia/algoliasearch-client-js</link>
+            <guid isPermaLink="false">algoliasearch2.8.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 31 Dec 2014 16:09:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fotorama updated to version 4.6.3]]></title>
+            <description><![CDATA[A simple, stunning, powerful jQuery gallery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.min.js">//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.min.js</a>]]></description>
+            <link>http://fotorama.io/</link>
+            <guid isPermaLink="false">fotorama4.6.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 31 Dec 2014 16:09:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jsonld updated to version 0.3.18]]></title>
             <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.18/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.18/jsonld.min.js</a>]]></description>
@@ -77,14 +93,6 @@
             <guid isPermaLink="false">domplotter1.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 20:36:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[algoliasearch updated to version 2.8.3]]></title>
-            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.3/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.3/algoliasearch.min.js</a>]]></description>
-            <link>https://github.com/algolia/algoliasearch-client-js</link>
-            <guid isPermaLink="false">algoliasearch2.8.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 16:08:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[zxcvbn updated to version 1.0]]></title>
