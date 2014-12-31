@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 31 Dec 2014 16:48:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Dec 2014 17:03:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -20,7 +20,7 @@
             <link>http://door3.github.io/angular-css</link>
             <guid isPermaLink="false">angular-css1.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 31 Dec 2014 16:25:02 GMT</pubDate>
+            <pubDate>Wed, 31 Dec 2014 16:46:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[algoliasearch updated to version 2.8.4]]></title>
