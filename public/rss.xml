@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 Jan 2015 09:03:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jan 2015 09:18:03 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4743,62 +4743,6 @@
             <guid isPermaLink="false">jStorage0.4.12</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 18 Dec 2014 09:16:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[headroom updated to version 0.7.0]]></title>
-            <description><![CDATA[Give your page some headroom. Hide your header until you need it<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js">//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js</a>]]></description>
-            <link>http://wicky.nillia.ms/headroom.js</link>
-            <guid isPermaLink="false">headroom0.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 08:30:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.radio(0.8.3) was added]]></title>
-            <description><![CDATA[The semantic messaging system for Backbone applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.3/backbone.radio.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.3/backbone.radio.min.js</a>]]></description>
-            <link>https://github.com/jmeas/backbone.radio</link>
-            <guid isPermaLink="false">backbone.radio0.8.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 05:38:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-cache updated to version 3.2.4]]></title>
-            <description><![CDATA[angular-cache is a very useful replacement for Angular's $cacheFactory.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-cache/3.2.4/angular-cache.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-cache/3.2.4/angular-cache.min.js</a>]]></description>
-            <link>http://jmdobry.github.io/angular-cache</link>
-            <guid isPermaLink="false">angular-cache3.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 05:37:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.marionette updated to version 2.3.0]]></title>
-            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.3.0/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.3.0/backbone.marionette.min.js</a>]]></description>
-            <link>http://github.com/marionettejs/backbone.marionette</link>
-            <guid isPermaLink="false">backbone.marionette2.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 05:37:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vega updated to version 1.4.3]]></title>
-            <description><![CDATA[Vega is a visualization grammar, a declarative format for creating, saving and sharing visualization designs. <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vega/1.4.3/vega.min.js">//cdnjs.cloudflare.com/ajax/libs/vega/1.4.3/vega.min.js</a>]]></description>
-            <link>http://trifacta.github.io/vega/</link>
-            <guid isPermaLink="false">vega1.4.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 05:36:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[postal.js updated to version 0.12.3]]></title>
-            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.3/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.3/postal.min.js</a>]]></description>
-            <link>http://github.com/postaljs/postal.js</link>
-            <guid isPermaLink="false">postal.js0.12.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 05:36:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-colorpicker updated to version 2.0.1]]></title>
-            <description><![CDATA[A colorpicker for Twitter Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.0.1/js/bootstrap-colorpicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.0.1/js/bootstrap-colorpicker.min.js</a>]]></description>
-            <link>https://github.com/mjolnic/bootstrap-colorpicker</link>
-            <guid isPermaLink="false">bootstrap-colorpicker2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 05:32:47 GMT</pubDate>
         </item>
     </channel>
 </rss>
