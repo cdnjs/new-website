@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 Jan 2015 18:03:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jan 2015 18:18:01 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4703,30 +4703,6 @@
             <guid isPermaLink="false">nanobar0.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 19 Dec 2014 03:34:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[interpolate.js(1.1.0) was added]]></title>
-            <description><![CDATA[Map an Object against a template String<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/interpolate.js/1.1.0/interpolate.min.js">//cdnjs.cloudflare.com/ajax/libs/interpolate.js/1.1.0/interpolate.min.js</a>]]></description>
-            <link>https://github.com/toddmotto/interpolate</link>
-            <guid isPermaLink="false">interpolate.js1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 18:09:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[spectrum updated to version 1.6.0]]></title>
-            <description><![CDATA[The No Hassle jQuery Colorpicker<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/spectrum/1.6.0/spectrum.min.js">//cdnjs.cloudflare.com/ajax/libs/spectrum/1.6.0/spectrum.min.js</a>]]></description>
-            <link>http://bgrins.github.com/spectrum</link>
-            <guid isPermaLink="false">spectrum1.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 18:09:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[enquire.js updated to version 2.1.2]]></title>
-            <description><![CDATA[Awesome Media Queries in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.2/enquire.min.js">//cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.2/enquire.min.js</a>]]></description>
-            <link>http://wicky.nillia.ms/enquire.js</link>
-            <guid isPermaLink="false">enquire.js2.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 18 Dec 2014 18:03:48 GMT</pubDate>
         </item>
     </channel>
 </rss>
