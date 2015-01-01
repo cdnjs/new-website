@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 Jan 2015 05:18:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jan 2015 05:33:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.20.0]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.20.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.20.0/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.20.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 Jan 2015 05:16:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.5.0]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.5.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.5.0/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 Jan 2015 05:15:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.28]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.28/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.28/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.28</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 Jan 2015 05:13:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-css updated to version 1.0.5]]></title>
             <description><![CDATA[CSS on-demand for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.5/angular-css.js">//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.5/angular-css.js</a>]]></description>
@@ -61,14 +85,6 @@
             <guid isPermaLink="false">orb1.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 31 Dec 2014 05:57:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webtorrent updated to version 0.19.1]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.19.1/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.19.1/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.19.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 31 Dec 2014 05:56:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[zeroclipboard updated to version 2.2.0]]></title>
@@ -4372,14 +4388,6 @@
             <guid isPermaLink="false">jxon1.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 26 Dec 2014 04:08:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.4.1]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.1/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.4.1/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 26 Dec 2014 01:50:39 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[gridstack.js updated to version 0.2.2]]></title>
