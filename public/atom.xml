@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 Jan 2015 22:48:06 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jan 2015 23:03:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[breezejs updated to version 1.4.11]]></title>
+            <description><![CDATA[BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/breezejs/1.4.11/breeze.min.js">//cdnjs.cloudflare.com/ajax/libs/breezejs/1.4.11/breeze.min.js</a>]]></description>
+            <link>http://www.getbreezenow.com/</link>
+            <guid isPermaLink="false">breezejs1.4.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 Jan 2015 22:25:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ember-data.js updated to version 1.0.0-beta.14.1]]></title>
             <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.14.1/ember-data.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.14.1/ember-data.min.js</a>]]></description>
@@ -3651,14 +3659,6 @@
             <description><![CDATA[bsJS is a fast and concise declarative type JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bsjs/0.3.0/bsjs.min.js">//cdnjs.cloudflare.com/ajax/libs/bsjs/0.3.0/bsjs.min.js</a>]]></description>
             <link>https://github.com/projectBS/bsJS</link>
             <guid isPermaLink="false">bsjs0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[breezejs updated to version 1.4.11]]></title>
-            <description><![CDATA[BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/breezejs/1.4.11/breeze.min.js">//cdnjs.cloudflare.com/ajax/libs/breezejs/1.4.11/breeze.min.js</a>]]></description>
-            <link>http://www.breezejs.com</link>
-            <guid isPermaLink="false">breezejs1.4.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
