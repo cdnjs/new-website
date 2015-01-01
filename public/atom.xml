@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 01 Jan 2015 16:48:05 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jan 2015 17:03:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ember-data.js updated to version 1.0.0-beta.14.1]]></title>
+            <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.14.1/ember-data.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.14.1/ember-data.min.js</a>]]></description>
+            <link>https://github.com/emberjs/data</link>
+            <guid isPermaLink="false">ember-data.js1.0.0-beta.14.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 01 Jan 2015 16:35:41 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[webtorrent updated to version 0.20.0]]></title>
             <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.20.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.20.0/webtorrent.min.js</a>]]></description>
@@ -4357,14 +4365,6 @@
             <guid isPermaLink="false">chroma-js0.6.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 26 Dec 2014 16:58:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ember-data.js updated to version 1.0.0-beta.14]]></title>
-            <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.14/ember-data.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.14/ember-data.min.js</a>]]></description>
-            <link>https://github.com/emberjs/data</link>
-            <guid isPermaLink="false">ember-data.js1.0.0-beta.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 26 Dec 2014 07:11:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[github-fork-ribbon-css updated to version 0.1.1]]></title>
