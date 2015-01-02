@@ -10,10 +10,41 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 02 Jan 2015 05:33:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jan 2015 05:48:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[breezejs updated to version 1.5.1]]></title>
+            <description><![CDATA[BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.1/breeze.min.js">//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.1/breeze.min.js</a>]]></description>
+            <link>http://www.getbreezenow.com/</link>
+            <guid isPermaLink="false">breezejs1.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 Jan 2015 05:39:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lazysizes updated to version 0.7.1]]></title>
+            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.7.1/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.7.1/lazysizes.min.js</a>]]></description>
+            <guid isPermaLink="false">lazysizes0.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 Jan 2015 05:30:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[speakingurl updated to version 0.18.1]]></title>
+            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.18.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.18.1/speakingurl.min.js</a>]]></description>
+            <link>http://pid.github.io/speakingurl/</link>
+            <guid isPermaLink="false">speakingurl0.18.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 Jan 2015 05:29:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bean updated to version 1.0.15]]></title>
+            <description><![CDATA[A small, fast, framework-agnostic event manager<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bean/1.0.15/bean.min.js">//cdnjs.cloudflare.com/ajax/libs/bean/1.0.15/bean.min.js</a>]]></description>
+            <link>https://github.com/fat/bean</link>
+            <guid isPermaLink="false">bean1.0.15</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 02 Jan 2015 05:29:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[dinqyjs(1.1.0) was added]]></title>
             <description><![CDATA[A tiny but powerful Javascript library for working with collections. No bells and whistles and unwanted bloat, just the things you really need.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dinqyjs/1.1.0/dinqyjs.min.js">//cdnjs.cloudflare.com/ajax/libs/dinqyjs/1.1.0/dinqyjs.min.js</a>]]></description>
@@ -21,14 +52,6 @@
             <guid isPermaLink="false">dinqyjs1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 Jan 2015 22:38:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[breezejs updated to version 1.4.11]]></title>
-            <description><![CDATA[BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/breezejs/1.4.11/breeze.min.js">//cdnjs.cloudflare.com/ajax/libs/breezejs/1.4.11/breeze.min.js</a>]]></description>
-            <link>http://www.getbreezenow.com/</link>
-            <guid isPermaLink="false">breezejs1.4.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 Jan 2015 22:25:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember-data.js updated to version 1.0.0-beta.14.1]]></title>
@@ -4450,13 +4473,6 @@
             <guid isPermaLink="false">p5.js0.3.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 24 Dec 2014 04:35:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lazysizes updated to version 0.6.1]]></title>
-            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.6.1/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.6.1/lazysizes.min.js</a>]]></description>
-            <guid isPermaLink="false">lazysizes0.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Dec 2014 04:35:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember.js updated to version 1.9.1]]></title>
