@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 03 Jan 2015 18:03:13 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Jan 2015 18:18:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[backbone.radio updated to version 0.8.4]]></title>
+            <description><![CDATA[The semantic messaging system for Backbone applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.4/backbone.radio.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.4/backbone.radio.min.js</a>]]></description>
+            <link>https://github.com/jmeas/backbone.radio</link>
+            <guid isPermaLink="false">backbone.radio0.8.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 Jan 2015 17:03:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-azure-mobile-service(1.3.2) was added]]></title>
             <description><![CDATA[Angular Azure Mobile Service<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js</a>]]></description>
@@ -4719,14 +4727,6 @@
             <guid isPermaLink="false">dc1.7.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 21 Dec 2014 06:12:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[datatables updated to version 1.10.4]]></title>
-            <description><![CDATA[DataTables enhances HTML tables with the ability to sort, filter and page the data in the table very easily. It provides a comprehensive API and set of configuration options, allowing you to consume data from virtually any data source.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.4/js/jquery.dataTables.min.js">//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.4/js/jquery.dataTables.min.js</a>]]></description>
-            <link>http://datatables.net</link>
-            <guid isPermaLink="false">datatables1.10.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Dec 2014 18:11:44 GMT</pubDate>
         </item>
     </channel>
 </rss>
