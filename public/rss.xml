@@ -10,17 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 03 Jan 2015 04:33:06 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Jan 2015 04:48:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[breezejs updated to version 1.5.1]]></title>
-            <description><![CDATA[BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.1/breeze.min.js">//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.1/breeze.min.js</a>]]></description>
-            <link>http://www.getbreezenow.com/</link>
-            <guid isPermaLink="false">breezejs1.5.1</guid>
+            <title><![CDATA[orb updated to version 1.0.6]]></title>
+            <description><![CDATA[Pivot grid javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/orb/1.0.6/orb.min.js">//cdnjs.cloudflare.com/ajax/libs/orb/1.0.6/orb.min.js</a>]]></description>
+            <link>http://nnajm.github.io/orb/</link>
+            <guid isPermaLink="false">orb1.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 02 Jan 2015 05:39:56 GMT</pubDate>
+            <pubDate>Sat, 03 Jan 2015 04:34:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.19]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.19/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.19/jsonld.min.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.19</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 Jan 2015 04:34:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[devicons updated to version 1.7.0]]></title>
+            <description><![CDATA[An iconic font made for developers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/devicons/1.7.0/css/devicons.min.css">//cdnjs.cloudflare.com/ajax/libs/devicons/1.7.0/css/devicons.min.css</a>]]></description>
+            <link>http://vorillaz.github.io/devicons/</link>
+            <guid isPermaLink="false">devicons1.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 Jan 2015 04:32:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[breezejs updated to version 1.5.2]]></title>
+            <description><![CDATA[BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.2/breeze.min.js">//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.2/breeze.min.js</a>]]></description>
+            <link>http://www.getbreezenow.com/</link>
+            <guid isPermaLink="false">breezejs1.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 Jan 2015 04:31:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.5.2]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.5.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.5.2/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 Jan 2015 04:31:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[lazysizes updated to version 0.7.1]]></title>
@@ -70,14 +102,6 @@
             <pubDate>Thu, 01 Jan 2015 05:16:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[semantic-ui updated to version 1.5.0]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.5.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.5.0/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 Jan 2015 05:15:17 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[mithril updated to version 0.1.28]]></title>
             <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.28/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.28/mithril.min.js</a>]]></description>
             <link>http://lhorie.github.io/mithril</link>
@@ -110,28 +134,12 @@
             <pubDate>Wed, 31 Dec 2014 16:09:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jsonld updated to version 0.3.18]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.18/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.18/jsonld.min.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.18</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 31 Dec 2014 05:59:13 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[d3 updated to version 3.5.3]]></title>
             <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js</a>]]></description>
             <link>http://mbostock.github.com/d3/</link>
             <guid isPermaLink="false">d33.5.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 31 Dec 2014 05:57:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[orb updated to version 1.0.5]]></title>
-            <description><![CDATA[Pivot grid javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/orb/1.0.5/orb.min.js">//cdnjs.cloudflare.com/ajax/libs/orb/1.0.5/orb.min.js</a>]]></description>
-            <link>http://nnajm.github.io/orb/</link>
-            <guid isPermaLink="false">orb1.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 31 Dec 2014 05:57:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[zeroclipboard updated to version 2.2.0]]></title>
