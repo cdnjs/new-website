@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 03 Jan 2015 05:33:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Jan 2015 05:48:04 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4679,54 +4679,6 @@
             <guid isPermaLink="false">less.js2.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 20 Dec 2014 16:23:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-router updated to version 0.2.13]]></title>
-            <description><![CDATA[State-based routing for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js</a>]]></description>
-            <link>http://angular-ui.github.com/</link>
-            <guid isPermaLink="false">angular-ui-router0.2.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Dec 2014 05:43:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[immutable updated to version 3.4.1]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.4.1/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.4.1/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Dec 2014 05:42:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ink updated to version 3.1.2]]></title>
-            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.1.2/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.1.2/js/ink-all.min.js</a>]]></description>
-            <link>http://ink.sapo.pt/</link>
-            <guid isPermaLink="false">ink3.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Dec 2014 05:41:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jshint updated to version 2.5.11]]></title>
-            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.11/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.5.11/jshint.js</a>]]></description>
-            <link>http://jshint.com/</link>
-            <guid isPermaLink="false">jshint2.5.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Dec 2014 05:39:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[video.js updated to version 4.11.3]]></title>
-            <description><![CDATA[Open source HTML5 & Flash video player<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.3/video.js">//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.3/video.js</a>]]></description>
-            <link>http://videojs.com/</link>
-            <guid isPermaLink="false">video.js4.11.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Dec 2014 05:37:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react updated to version 0.12.2]]></title>
-            <description><![CDATA[React is a JavaScript library for building user interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.min.js">//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.min.js</a>]]></description>
-            <link>http://facebook.github.io/react</link>
-            <guid isPermaLink="false">react0.12.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 20 Dec 2014 05:37:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
