@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 03 Jan 2015 05:03:09 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Jan 2015 05:18:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[helium-css(1.1) was added]]></title>
+            <description><![CDATA[javascript tool to scan your site and show unused CSS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/helium-css/1.1/helium.min.js">//cdnjs.cloudflare.com/ajax/libs/helium-css/1.1/helium.min.js</a>]]></description>
+            <link>https://github.com/geuis/helium-css</link>
+            <guid isPermaLink="false">helium-css1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 03 Jan 2015 05:08:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[orb updated to version 1.0.6]]></title>
             <description><![CDATA[Pivot grid javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/orb/1.0.6/orb.min.js">//cdnjs.cloudflare.com/ajax/libs/orb/1.0.6/orb.min.js</a>]]></description>
