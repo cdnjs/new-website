@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 04 Jan 2015 12:03:15 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Jan 2015 12:18:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.scregal updated to version 1.0]]></title>
+            <description><![CDATA[Full Screen Gallery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.scregal/1.0/jquery.scregal.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.scregal/1.0/jquery.scregal.min.js</a>]]></description>
+            <link>http://scregal.blue-world.pl</link>
+            <guid isPermaLink="false">jquery.scregal1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 04 Jan 2015 12:12:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[backbone.radio updated to version 0.8.4]]></title>
             <description><![CDATA[The semantic messaging system for Backbone applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.4/backbone.radio.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.4/backbone.radio.min.js</a>]]></description>
