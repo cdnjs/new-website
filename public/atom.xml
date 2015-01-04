@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 04 Jan 2015 07:18:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Jan 2015 07:33:08 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4663,30 +4663,6 @@
             <guid isPermaLink="false">jquery.ui-contextmenu1.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 22 Dec 2014 08:18:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[SVG-Morpheus(0.1.8) was added]]></title>
-            <description><![CDATA[JavaScript library enabling SVG icons to morph from one to the other. It implements Material Design's Delightful Details transitions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/SVG-Morpheus/0.1.8/svg-morpheus.js">//cdnjs.cloudflare.com/ajax/libs/SVG-Morpheus/0.1.8/svg-morpheus.js</a>]]></description>
-            <link>https://github.com/alexk111/SVG-Morpheus</link>
-            <guid isPermaLink="false">SVG-Morpheus0.1.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 21 Dec 2014 07:25:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-timepicker(1.4.13) was added]]></title>
-            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.4.13/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.4.13/jquery.timepicker.min.css</a>]]></description>
-            <link>http://jonthornton.github.com/jquery-timepicker/</link>
-            <guid isPermaLink="false">jquery-timepicker1.4.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 21 Dec 2014 07:15:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-datepicker updated to version 1.3.1]]></title>
-            <description><![CDATA[A datepicker for Twitter Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.1/js/bootstrap-datepicker.min.js</a>]]></description>
-            <link>https://github.com/eternicode/bootstrap-datepicker</link>
-            <guid isPermaLink="false">bootstrap-datepicker1.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 21 Dec 2014 07:03:04 GMT</pubDate>
         </item>
     </channel>
 </rss>
