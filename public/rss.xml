@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 Jan 2015 12:18:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2015 12:33:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4672,14 +4672,6 @@
             <guid isPermaLink="false">jquery.tablesorter2.18.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 23 Dec 2014 12:24:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uikit updated to version 2.15.0]]></title>
-            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.15.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.15.0/js/uikit.min.js</a>]]></description>
-            <link>http://www.getuikit.com</link>
-            <guid isPermaLink="false">uikit2.15.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 22 Dec 2014 12:22:45 GMT</pubDate>
         </item>
     </channel>
 </rss>
