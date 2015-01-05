@@ -10,10 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 Jan 2015 16:18:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2015 16:33:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[tinysort updated to version 2.1.1]]></title>
+            <description><![CDATA[TinySort<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinysort/2.1.1/tinysort.min.js">//cdnjs.cloudflare.com/ajax/libs/tinysort/2.1.1/tinysort.min.js</a>]]></description>
+            <guid isPermaLink="false">tinysort2.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 05 Jan 2015 16:27:55 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[valjs(0.7.3) was added]]></title>
             <description><![CDATA[Another jQuery Form Validation plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/valjs/0.7.3/jquery.valjs.min.js">//cdnjs.cloudflare.com/ajax/libs/valjs/0.7.3/jquery.valjs.min.js</a>]]></description>
@@ -570,14 +577,6 @@
             <description><![CDATA[ToastrJS is a JavaScript library for Gnome / Growl type non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.0/js/toastr.min.js">//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.0/js/toastr.min.js</a>]]></description>
             <link>http://www.toastrjs.com</link>
             <guid isPermaLink="false">toastr.js2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tinysort updated to version 1.5.6]]></title>
-            <description><![CDATA[TinySort is a small and simple jQuery plugin that will sort any nodetype by its text- or attribute value, or by that of one of its children.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinysort/1.5.6/jquery.tinysort.min.js">//cdnjs.cloudflare.com/ajax/libs/tinysort/1.5.6/jquery.tinysort.min.js</a>]]></description>
-            <link>http://tinysort.sjeiti.com</link>
-            <guid isPermaLink="false">tinysort1.5.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
