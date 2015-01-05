@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 Jan 2015 04:48:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2015 05:03:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-azure-mobile-service updated to version 1.3.2]]></title>
+            <description><![CDATA[Angular Azure Mobile Service<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js</a>]]></description>
+            <link>https://github.com/TerryMooreII/angular-azure-mobile-service</link>
+            <guid isPermaLink="false">angular-azure-mobile-service1.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 05 Jan 2015 04:38:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-clip updated to version 0.2.6]]></title>
+            <description><![CDATA[Copy to clipboard using AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.6/ng-clip.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.6/ng-clip.min.js</a>]]></description>
+            <link>https://github.com/asafdav/ng-clip</link>
+            <guid isPermaLink="false">ng-clip0.2.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 05 Jan 2015 04:38:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[less.js updated to version 2.2.0]]></title>
+            <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.2.0/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.2.0/less.min.js</a>]]></description>
+            <link>http://lesscss.org/</link>
+            <guid isPermaLink="false">less.js2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 05 Jan 2015 04:37:40 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-spinner updated to version 0.6.0]]></title>
             <description><![CDATA[Angular directive to show an animated spinner (using spin.js)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.0/angular-spinner.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.0/angular-spinner.min.js</a>]]></description>
@@ -45,14 +69,6 @@
             <guid isPermaLink="false">backbone.radio0.8.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 Jan 2015 17:03:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-azure-mobile-service(1.3.2) was added]]></title>
-            <description><![CDATA[Angular Azure Mobile Service<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js</a>]]></description>
-            <link>https://github.com/TerryMooreII/angular-azure-mobile-service</link>
-            <guid isPermaLink="false">angular-azure-mobile-service1.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 16:07:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[markdown-it(2.2.1) was added]]></title>
