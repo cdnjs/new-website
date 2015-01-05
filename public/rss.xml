@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 Jan 2015 08:33:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2015 08:48:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4680,29 +4680,6 @@
             <guid isPermaLink="false">uikit2.15.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 22 Dec 2014 12:22:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chainloading updated to version 1.0.2]]></title>
-            <description><![CDATA[Allows you to chain together jQuery deferreds or functions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.2/chainloading.min.js">//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.2/chainloading.min.js</a>]]></description>
-            <guid isPermaLink="false">chainloading1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 22 Dec 2014 08:32:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.fancytree updated to version 2.7.0]]></title>
-            <description><![CDATA[Fancytree is a JavaScript tree view plugin for jQuery with support for persistence, keyboard, checkboxes, drag'n'drop, and lazy loading.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.fancytree/2.7.0/jquery.fancytree-all.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.fancytree/2.7.0/jquery.fancytree-all.min.js</a>]]></description>
-            <link>https://github.com/mar10/fancytree</link>
-            <guid isPermaLink="false">jquery.fancytree2.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 22 Dec 2014 08:32:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.ui-contextmenu updated to version 1.8.1]]></title>
-            <description><![CDATA[Turn a jQuery UI Menu widget into a contextmenu.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.ui-contextmenu/1.8.1/jquery.ui-contextmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.ui-contextmenu/1.8.1/jquery.ui-contextmenu.min.js</a>]]></description>
-            <link>https://github.com/mar10/jquery-ui-contextmenu</link>
-            <guid isPermaLink="false">jquery.ui-contextmenu1.8.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 22 Dec 2014 08:18:16 GMT</pubDate>
         </item>
     </channel>
 </rss>
