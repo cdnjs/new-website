@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 05 Jan 2015 04:33:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jan 2015 04:48:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">angular-spinner0.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 04 Jan 2015 17:52:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rome(1.2.1) was added]]></title>
+            <description><![CDATA[Customizable date (and time) picker. Opt-in UI, no jQuery!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rome/1.2.1/rome.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/rome/1.2.1/rome.standalone.min.js</a>]]></description>
+            <link>https://github.com/bevacqua/rome</link>
+            <guid isPermaLink="false">rome1.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 04 Jan 2015 17:44:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.scregal updated to version 1.0]]></title>
