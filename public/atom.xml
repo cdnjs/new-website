@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Jan 2015 12:16:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jan 2015 12:33:09 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4695,30 +4695,6 @@
             <guid isPermaLink="false">cytoscape2.3.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 24 Dec 2014 00:50:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sweetalert updated to version 0.3.3]]></title>
-            <description><![CDATA[A beautiful replacement for JavaScript's alert.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.3.3/sweet-alert.min.js">//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.3.3/sweet-alert.min.js</a>]]></description>
-            <link>http://tristanedwards.me/sweetalert</link>
-            <guid isPermaLink="false">sweetalert0.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 23 Dec 2014 12:26:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mermaid updated to version 0.3.0]]></title>
-            <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.0/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.0/mermaid.full.min.js</a>]]></description>
-            <link>https://github.com/knsv/mermaid</link>
-            <guid isPermaLink="false">mermaid0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 23 Dec 2014 12:24:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.tablesorter updated to version 2.18.4]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.4/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.18.4/js/jquery.tablesorter.min.js</a>]]></description>
-            <link>http://mottie.github.com/tablesorter/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.18.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 23 Dec 2014 12:24:14 GMT</pubDate>
         </item>
     </channel>
 </rss>
