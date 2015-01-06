@@ -10,10 +10,58 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Jan 2015 08:18:05 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jan 2015 08:32:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.6.0]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.0/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 Jan 2015 08:21:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pixi.js updated to version 2.2.1]]></title>
+            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.1/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.1/pixi.js</a>]]></description>
+            <link>http://goodboydigital.com/</link>
+            <guid isPermaLink="false">pixi.js2.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 Jan 2015 08:18:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[floatthead updated to version 1.2.10]]></title>
+            <description><![CDATA[locking table headers without special css<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.10/jquery.floatThead.min.js">//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.10/jquery.floatThead.min.js</a>]]></description>
+            <link>https://github.com/mkoryak/floatThead</link>
+            <guid isPermaLink="false">floatthead1.2.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 Jan 2015 08:18:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.6.0]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.0/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.0/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 Jan 2015 08:18:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sass.js updated to version 0.6.1]]></title>
+            <description><![CDATA[Sass parser in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.1/sass.min.js">//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.1/sass.min.js</a>]]></description>
+            <link>https://github.com/medialize/sass.js</link>
+            <guid isPermaLink="false">sass.js0.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 Jan 2015 08:16:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jstree updated to version 3.0.9]]></title>
+            <description><![CDATA[jQuery tree plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.9/jstree.min.js">//cdnjs.cloudflare.com/ajax/libs/jstree/3.0.9/jstree.min.js</a>]]></description>
+            <link>http://jstree.com</link>
+            <guid isPermaLink="false">jstree3.0.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 Jan 2015 08:15:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[tinysort updated to version 2.1.1]]></title>
             <description><![CDATA[TinySort<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinysort/2.1.1/tinysort.min.js">//cdnjs.cloudflare.com/ajax/libs/tinysort/2.1.1/tinysort.min.js</a>]]></description>
@@ -110,14 +158,6 @@
             <pubDate>Sat, 03 Jan 2015 06:34:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bluebird updated to version 2.3.11]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.3.11/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.3.11/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.3.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 06:29:41 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[JQuery-Snowfall(1.7.4) was added]]></title>
             <description><![CDATA[Make it snow on you page or elements<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/JQuery-Snowfall/1.7.4/snowfall.jquery.min.js">//cdnjs.cloudflare.com/ajax/libs/JQuery-Snowfall/1.7.4/snowfall.jquery.min.js</a>]]></description>
             <link>https://github.com/loktar00/JQuery-Snowfall</link>
@@ -188,14 +228,6 @@
             <guid isPermaLink="false">breezejs1.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 Jan 2015 04:31:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.5.2]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.5.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.5.2/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 04:31:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[lazysizes updated to version 0.7.1]]></title>
@@ -4647,14 +4679,6 @@
             <guid isPermaLink="false">mocha2.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 24 Dec 2014 00:54:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sass.js updated to version 0.6.0]]></title>
-            <description><![CDATA[Sass parser in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.0/sass.min.js">//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.0/sass.min.js</a>]]></description>
-            <link>https://github.com/medialize/sass.js</link>
-            <guid isPermaLink="false">sass.js0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Dec 2014 00:52:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cytoscape updated to version 2.3.7]]></title>
