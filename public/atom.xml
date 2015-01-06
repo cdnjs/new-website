@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 06 Jan 2015 13:16:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Jan 2015 13:31:40 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[masonry updated to version 3.2.2]]></title>
+            <description><![CDATA[Cascading grid layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js</a>]]></description>
+            <link>http://masonry.desandro.com/</link>
+            <guid isPermaLink="false">masonry3.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 Jan 2015 13:27:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[EventEmitter(4.2.11) was added]]></title>
+            <description><![CDATA[Event based JavaScript for the browser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/EventEmitter/4.2.11/EventEmitter.min.js">//cdnjs.cloudflare.com/ajax/libs/EventEmitter/4.2.11/EventEmitter.min.js</a>]]></description>
+            <guid isPermaLink="false">EventEmitter4.2.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 Jan 2015 13:19:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-material-design updated to version 0.2.1]]></title>
             <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.1/js/material.min.js</a>]]></description>
