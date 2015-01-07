@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jan 2015 22:16:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2015 22:33:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">hammer.js2.0.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 07 Jan 2015 21:57:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.scregal updated to version 1.1]]></title>
+            <description><![CDATA[Full Screen Gallery to make Your gallery better.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.scregal/1.1/jquery.scregal.js">//cdnjs.cloudflare.com/ajax/libs/jquery.scregal/1.1/jquery.scregal.js</a>]]></description>
+            <link>http://scregal.blue-world.pl</link>
+            <guid isPermaLink="false">jquery.scregal1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 19:38:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[screenfull.js updated to version 2.0.0]]></title>
@@ -217,14 +225,6 @@
             <guid isPermaLink="false">rome1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 04 Jan 2015 17:44:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.scregal updated to version 1.0]]></title>
-            <description><![CDATA[Full Screen Gallery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.scregal/1.0/jquery.scregal.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.scregal/1.0/jquery.scregal.min.js</a>]]></description>
-            <link>http://scregal.blue-world.pl</link>
-            <guid isPermaLink="false">jquery.scregal1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 04 Jan 2015 12:12:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone.radio updated to version 0.8.4]]></title>
