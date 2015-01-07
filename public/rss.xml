@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jan 2015 01:46:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2015 02:01:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[d3plus(1.6.7) was added]]></title>
+            <description><![CDATA[Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js">//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js</a>]]></description>
+            <link>http://www.d3plus.org</link>
+            <guid isPermaLink="false">d3plus1.6.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 06 Jan 2015 16:29:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[masonry updated to version 3.2.2]]></title>
             <description><![CDATA[Cascading grid layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js</a>]]></description>
