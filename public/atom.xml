@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jan 2015 21:46:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2015 22:01:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[hammer.js updated to version 2.0.4]]></title>
+            <description><![CDATA[A javascript library for multi-touch gestures :// You can touch this <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js">//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js</a>]]></description>
+            <link>http://eightmedia.github.com/hammer.js/</link>
+            <guid isPermaLink="false">hammer.js2.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 21:57:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[screenfull.js updated to version 2.0.0]]></title>
             <description><![CDATA[Simple wrapper for cross-browser usage of the JavaScript Fullscreen API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.min.js">//cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.min.js</a>]]></description>
@@ -3210,14 +3218,6 @@
             <description><![CDATA[A little tool that inserts a layout grid in web pages, allows you to hold it in place, and toggle between displaying it in the foreground or background.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hashgrid/6/hashgrid.js">//cdnjs.cloudflare.com/ajax/libs/hashgrid/6/hashgrid.js</a>]]></description>
             <link>http://hashgrid.com/</link>
             <guid isPermaLink="false">hashgrid6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[hammer.js updated to version 1.1.3]]></title>
-            <description><![CDATA[A javascript library for multi-touch gestures :// You can touch this <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hammer.js/1.1.3/hammer.min.js">//cdnjs.cloudflare.com/ajax/libs/hammer.js/1.1.3/hammer.min.js</a>]]></description>
-            <link>http://eightmedia.github.com/hammer.js/</link>
-            <guid isPermaLink="false">hammer.js1.1.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
