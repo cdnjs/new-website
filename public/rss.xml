@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jan 2015 10:31:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2015 10:48:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[c3 updated to version 0.4.8]]></title>
+            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.js</a>]]></description>
+            <link>http://c3js.org</link>
+            <guid isPermaLink="false">c30.4.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 10:33:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-scroll(0.6.4) was added]]></title>
             <description><![CDATA[Scrollspy, animated scrollTo and scroll events<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.4/angular-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.4/angular-scroll.min.js</a>]]></description>
