@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jan 2015 04:16:12 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2015 04:31:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-spinner updated to version 0.6.1]]></title>
+            <description><![CDATA[Angular directive to show an animated spinner (using spin.js)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.1/angular-spinner.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.1/angular-spinner.min.js</a>]]></description>
+            <link>https://github.com/urish/angular-spinner</link>
+            <guid isPermaLink="false">angular-spinner0.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 04:17:54 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[d3plus(1.6.7) was added]]></title>
             <description><![CDATA[Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js">//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js</a>]]></description>
@@ -139,14 +147,6 @@
             <guid isPermaLink="false">less.js2.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 05 Jan 2015 04:37:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-spinner updated to version 0.6.0]]></title>
-            <description><![CDATA[Angular directive to show an animated spinner (using spin.js)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.0/angular-spinner.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.0/angular-spinner.min.js</a>]]></description>
-            <link>https://github.com/urish/angular-spinner</link>
-            <guid isPermaLink="false">angular-spinner0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 04 Jan 2015 17:52:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rome(1.2.1) was added]]></title>
@@ -4687,22 +4687,6 @@
             <guid isPermaLink="false">ember.js1.9.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 24 Dec 2014 04:34:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-strap updated to version 2.1.5]]></title>
-            <description><![CDATA[AngularStrap - Twitter Bootstrap directives for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.5/angular-strap.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.5/angular-strap.min.js</a>]]></description>
-            <link>http://mgcrea.github.com/angular-strap</link>
-            <guid isPermaLink="false">angular-strap2.1.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Dec 2014 04:25:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-gantt updated to version 1.1.0]]></title>
-            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.0/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.0/angular-gantt.min.js</a>]]></description>
-            <link>http://www.angular-gantt.com</link>
-            <guid isPermaLink="false">angular-gantt1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 24 Dec 2014 04:22:04 GMT</pubDate>
         </item>
     </channel>
 </rss>
