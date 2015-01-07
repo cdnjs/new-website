@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jan 2015 18:01:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2015 18:16:40 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[screenfull.js updated to version 2.0.0]]></title>
+            <description><![CDATA[Simple wrapper for cross-browser usage of the JavaScript Fullscreen API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.min.js">//cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.min.js</a>]]></description>
+            <link>https://github.com/sindresorhus/screenfull.js</link>
+            <guid isPermaLink="false">screenfull.js2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 18:10:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[veinjs(0.3) was added]]></title>
+            <description><![CDATA[Injects CSS into the document (it's a perfectly legal procedure)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/veinjs/0.3/vein.min.js">//cdnjs.cloudflare.com/ajax/libs/veinjs/0.3/vein.min.js</a>]]></description>
+            <guid isPermaLink="false">veinjs0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 18:05:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[d3plus updated to version 1.6.7]]></title>
             <description><![CDATA[Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js">//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js</a>]]></description>
@@ -997,14 +1012,6 @@
             <description><![CDATA[script.aculo.us provides you with easy-to-use, cross-browser user interface JavaScript libraries to make your web sites and web applications fly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js">//cdnjs.cloudflare.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js</a>]]></description>
             <link>http://script.aculo.us/</link>
             <guid isPermaLink="false">scriptaculous1.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[screenfull.js updated to version 1.0.4]]></title>
-            <description><![CDATA[Simple wrapper for cross-browser usage of the JavaScript Fullscreen API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/screenfull.js/1.0.4/screenfull.min.js">//cdnjs.cloudflare.com/ajax/libs/screenfull.js/1.0.4/screenfull.min.js</a>]]></description>
-            <link>https://github.com/sindresorhus/screenfull.js</link>
-            <guid isPermaLink="false">screenfull.js1.0.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
