@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jan 2015 05:46:34 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2015 06:01:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-scroll(0.6.4) was added]]></title>
+            <description><![CDATA[Scrollspy, animated scrollTo and scroll events<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.4/angular-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.4/angular-scroll.min.js</a>]]></description>
+            <link>https://github.com/oblador/angular-scroll</link>
+            <guid isPermaLink="false">angular-scroll0.6.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 05:53:10 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-spinner updated to version 0.6.1]]></title>
             <description><![CDATA[Angular directive to show an animated spinner (using spin.js)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.1/angular-spinner.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-spinner/0.6.1/angular-spinner.min.js</a>]]></description>
