@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 07 Jan 2015 16:46:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Jan 2015 17:01:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[d3plus updated to version 1.6.7]]></title>
+            <description><![CDATA[Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js">//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js</a>]]></description>
+            <link>http://www.d3plus.org</link>
+            <guid isPermaLink="false">d3plus1.6.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 16:44:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-switch updated to version 3.3.1]]></title>
+            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.1/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.1/js/bootstrap-switch.min.js</a>]]></description>
+            <link>http://www.bootstrap-switch.org</link>
+            <guid isPermaLink="false">bootstrap-switch3.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 16:43:21 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ng-table(0.3.3) was added]]></title>
             <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-table/0.3.3/ng-table.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-table/0.3.3/ng-table.min.js</a>]]></description>
@@ -52,14 +68,6 @@
             <guid isPermaLink="false">angular-spinner0.6.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 07 Jan 2015 04:17:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[d3plus(1.6.7) was added]]></title>
-            <description><![CDATA[Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js">//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js</a>]]></description>
-            <link>http://www.d3plus.org</link>
-            <guid isPermaLink="false">d3plus1.6.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 Jan 2015 16:29:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[masonry updated to version 3.2.2]]></title>
