@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 08 Jan 2015 08:31:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Jan 2015 08:46:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[subkit updated to version 1.1.1]]></title>
+            <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.1/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.1/subkit.min.js</a>]]></description>
+            <link>https://github.com/subkit/subkit.js</link>
+            <guid isPermaLink="false">subkit1.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 08 Jan 2015 08:41:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[hammer.js updated to version 2.0.4]]></title>
             <description><![CDATA[A javascript library for multi-touch gestures :// You can touch this <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js">//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js</a>]]></description>
@@ -4547,14 +4555,6 @@
             <guid isPermaLink="false">tablesort2.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 28 Dec 2014 07:43:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[subkit updated to version 1.0.28]]></title>
-            <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.28/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.0.28/subkit.min.js</a>]]></description>
-            <link>https://github.com/subkit/subkit.js</link>
-            <guid isPermaLink="false">subkit1.0.28</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Dec 2014 07:42:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[echarts(2.1.9) was added]]></title>
