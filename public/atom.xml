@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 09 Jan 2015 04:01:15 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Jan 2015 04:18:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[algoliasearch updated to version 2.8.5]]></title>
+            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.5/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.5/algoliasearch.min.js</a>]]></description>
+            <link>https://github.com/algolia/algoliasearch-client-js</link>
+            <guid isPermaLink="false">algoliasearch2.8.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 09 Jan 2015 04:04:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.imagesloaded updated to version 3.0.4]]></title>
             <description><![CDATA[jQuery plugin that triggers a callback after all images have been loaded<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js</a>]]></description>
@@ -400,14 +408,6 @@
             <guid isPermaLink="false">angular-css1.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 31 Dec 2014 16:46:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[algoliasearch updated to version 2.8.4]]></title>
-            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.4/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.4/algoliasearch.min.js</a>]]></description>
-            <link>https://github.com/algolia/algoliasearch-client-js</link>
-            <guid isPermaLink="false">algoliasearch2.8.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 31 Dec 2014 16:09:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[fotorama updated to version 4.6.3]]></title>
@@ -4656,21 +4656,6 @@
             <guid isPermaLink="false">github-fork-ribbon-css0.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 26 Dec 2014 07:10:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mathjs updated to version 1.2.0]]></title>
-            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/1.2.0/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/1.2.0/math.min.js</a>]]></description>
-            <link>http://mathjs.org</link>
-            <guid isPermaLink="false">mathjs1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 26 Dec 2014 04:09:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jxon updated to version 1.2.0]]></title>
-            <description><![CDATA[A complete, bidirectional, JXON library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jxon/1.2.0/index.js">//cdnjs.cloudflare.com/ajax/libs/jxon/1.2.0/index.js</a>]]></description>
-            <guid isPermaLink="false">jxon1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 26 Dec 2014 04:08:35 GMT</pubDate>
         </item>
     </channel>
 </rss>
