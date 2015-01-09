@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 09 Jan 2015 03:01:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Jan 2015 03:16:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.imagesloaded updated to version 3.0.4]]></title>
+            <description><![CDATA[jQuery plugin that triggers a callback after all images have been loaded<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js</a>]]></description>
+            <link>http://desandro.github.com/imagesloaded/</link>
+            <guid isPermaLink="false">jquery.imagesloaded3.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 08 Jan 2015 22:02:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[subkit updated to version 1.1.1]]></title>
             <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.1/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.1/subkit.min.js</a>]]></description>
@@ -2395,14 +2403,6 @@
             <description><![CDATA[An exquisite jQuery plugin for magical layouts. Enables filtering, sorting, and dynamic layouts.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.0.0/isotope.pkgd.min.js</a>]]></description>
             <link>https://github.com/desandro/isotope</link>
             <guid isPermaLink="false">jquery.isotope2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.imagesloaded updated to version 3.0.4]]></title>
-            <description><![CDATA[jQuery plugin that triggers a callback after all images have been loaded<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js</a>]]></description>
-            <link>http://desandro.github.com/imagesloaded/</link>
-            <guid isPermaLink="false">jquery.imagesloaded3.0.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
