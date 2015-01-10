@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 Jan 2015 06:31:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2015 06:46:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4656,29 +4656,6 @@
             <guid isPermaLink="false">Chart.js0.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 27 Dec 2014 06:48:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-react-component updated to version 0.7.3]]></title>
-            <description><![CDATA[Backbone.React.Component is a wrapper for React.Component and brings all the power of Facebook's React to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.3/backbone-react-component.js">//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.7.3/backbone-react-component.js</a>]]></description>
-            <guid isPermaLink="false">backbone-react-component0.7.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Dec 2014 06:43:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[machina.js updated to version 0.4.0]]></title>
-            <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.0/machina.min.js">//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.0/machina.min.js</a>]]></description>
-            <link>http://machina-js.org/</link>
-            <guid isPermaLink="false">machina.js0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Dec 2014 06:41:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dom4 updated to version 1.1.1]]></title>
-            <description><![CDATA[a fully tested and covered polyfill for new DOM Level 4 entries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dom4/1.1.1/dom4.js">//cdnjs.cloudflare.com/ajax/libs/dom4/1.1.1/dom4.js</a>]]></description>
-            <link>https://github.com/WebReflection/dom4</link>
-            <guid isPermaLink="false">dom41.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Dec 2014 06:40:06 GMT</pubDate>
         </item>
     </channel>
 </rss>
