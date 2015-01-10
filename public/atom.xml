@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 Jan 2015 07:01:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2015 07:18:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4632,22 +4632,6 @@
             <guid isPermaLink="false">line-chart1.1.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 27 Dec 2014 07:22:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chartist updated to version 0.5.0]]></title>
-            <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.5.0/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.5.0/chartist.min.js</a>]]></description>
-            <link>https://gionkunz.github.io/chartist-js</link>
-            <guid isPermaLink="false">chartist0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Dec 2014 07:11:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[flot updated to version 0.8.3]]></title>
-            <description><![CDATA[Attractive Javascript plotting for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js">//cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.min.js</a>]]></description>
-            <link>http://flotcharts.org/</link>
-            <guid isPermaLink="false">flot0.8.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Dec 2014 07:03:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
