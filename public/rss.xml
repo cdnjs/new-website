@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 Jan 2015 02:46:12 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2015 03:03:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[skeleton updated to version 2.0.4]]></title>
+            <description><![CDATA[Skeleton is a small collection of CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17 inch laptop screen or an iPhone.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css</a>]]></description>
+            <link>http://getskeleton.com/</link>
+            <guid isPermaLink="false">skeleton2.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 Jan 2015 02:53:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[m8tro-bootstrap(3.3.1) was added]]></title>
             <description><![CDATA[Modern UI-inspired Bootstrap theme<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.1/m8tro.min.css">//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.1/m8tro.min.css</a>]]></description>
@@ -957,14 +965,6 @@
             <description><![CDATA[sketch.js is a tiny (~5k) boilerplate for creating JavaScript based creative coding experiments.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sketch.js/1.0.0/sketch.min.js">//cdnjs.cloudflare.com/ajax/libs/sketch.js/1.0.0/sketch.min.js</a>]]></description>
             <link>https://github.com/soulwire/sketch.js/</link>
             <guid isPermaLink="false">sketch.js1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[skeleton updated to version 1.2]]></title>
-            <description><![CDATA[Skeleton is a small collection of CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17 inch laptop screen or an iPhone.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/skeleton.min.css">//cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/skeleton.min.css</a>]]></description>
-            <link>http://getskeleton.com/</link>
-            <guid isPermaLink="false">skeleton1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
