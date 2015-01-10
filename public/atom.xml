@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 Jan 2015 06:46:15 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2015 07:01:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4648,14 +4648,6 @@
             <guid isPermaLink="false">flot0.8.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 27 Dec 2014 07:03:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Chart.js updated to version 0.2.0]]></title>
-            <description><![CDATA[Simple HTML5 Charts using the canvas element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js">//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js</a>]]></description>
-            <link>http://www.chartjs.org</link>
-            <guid isPermaLink="false">Chart.js0.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Dec 2014 06:48:29 GMT</pubDate>
         </item>
     </channel>
 </rss>
