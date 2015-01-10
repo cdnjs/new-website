@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 Jan 2015 03:03:12 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2015 03:18:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fpsmeter(0.3.1) was added]]></title>
+            <description><![CDATA[Sexy, fast, and themable FPS meter.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fpsmeter/0.3.1/fpsmeter.min.js">//cdnjs.cloudflare.com/ajax/libs/fpsmeter/0.3.1/fpsmeter.min.js</a>]]></description>
+            <link>https://github.com/darsain/fpsmeter</link>
+            <guid isPermaLink="false">fpsmeter0.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 Jan 2015 03:01:26 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[skeleton updated to version 2.0.4]]></title>
             <description><![CDATA[Skeleton is a small collection of CSS files that can help you rapidly develop sites that look beautiful at any size, be it a 17 inch laptop screen or an iPhone.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">//cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css</a>]]></description>
