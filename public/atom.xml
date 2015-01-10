@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 Jan 2015 08:03:10 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2015 08:18:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4602,14 +4602,6 @@
             <guid isPermaLink="false">tablesort2.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 28 Dec 2014 07:43:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[echarts(2.1.9) was added]]></title>
-            <description><![CDATA[Enterprise Charts，基于Canvas，纯Javascript图表库，提供直观，生动，可交互，可个性化定制的数据可视化表。<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/echarts/2.1.9/echarts.js">//cdnjs.cloudflare.com/ajax/libs/echarts/2.1.9/echarts.js</a>]]></description>
-            <link>http://echarts.baidu.com</link>
-            <guid isPermaLink="false">echarts2.1.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 27 Dec 2014 08:09:16 GMT</pubDate>
         </item>
     </channel>
 </rss>
