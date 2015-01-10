@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 Jan 2015 02:16:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2015 02:31:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[m8tro-bootstrap(3.3.1) was added]]></title>
+            <description><![CDATA[Modern UI-inspired Bootstrap theme<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.1/m8tro.min.css">//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.1/m8tro.min.css</a>]]></description>
+            <link>http://idleberg.github.io/m8tro-bootstrap/</link>
+            <guid isPermaLink="false">m8tro-bootstrap3.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 09 Jan 2015 14:29:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[fabric.js updated to version 1.4.13]]></title>
             <description><![CDATA[A powerful and simple Javascript canvas library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fabric.js/1.4.13/fabric.min.js">//cdnjs.cloudflare.com/ajax/libs/fabric.js/1.4.13/fabric.min.js</a>]]></description>
