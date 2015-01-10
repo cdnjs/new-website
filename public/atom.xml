@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 10 Jan 2015 04:48:07 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2015 05:03:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[reveal.js updated to version 3.0.0]]></title>
+            <description><![CDATA[A framework for easily creating beautiful presentations using HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/js/reveal.min.js">//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/js/reveal.min.js</a>]]></description>
+            <link>http://lab.hakim.se/reveal-js/</link>
+            <guid isPermaLink="false">reveal.js3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 Jan 2015 04:43:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[socket.io updated to version 1.2.1]]></title>
+            <description><![CDATA[Browser-side code for Socket.IO. Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.2.1/socket.io.min.js">//cdnjs.cloudflare.com/ajax/libs/socket.io/1.2.1/socket.io.min.js</a>]]></description>
+            <link>http://socket.io</link>
+            <guid isPermaLink="false">socket.io1.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 Jan 2015 04:27:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jQuery.mmenu updated to version 4.7.5]]></title>
             <description><![CDATA[A jQuery plugin that creates slick app look-alike sliding menus for your (mobile) website with horizontal or vertical submenus. It's easy to customize and has options for headers, labels, counters, a searchfield and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/4.7.5/js/jquery.mmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/4.7.5/js/jquery.mmenu.min.js</a>]]></description>
@@ -925,14 +941,6 @@
             <description><![CDATA[SockJS is a browser JavaScript library that provides a WebSocket-like object. SockJS gives you a coherent, cross-browser, Javascript API which creates a low latency, full duplex, cross-domain communication channel between the browser and the web server.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sockjs-client/0.3.4/sockjs.min.js">//cdnjs.cloudflare.com/ajax/libs/sockjs-client/0.3.4/sockjs.min.js</a>]]></description>
             <link>https://github.com/sockjs/sockjs-client</link>
             <guid isPermaLink="false">sockjs-client0.3.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[socket.io updated to version 0.9.16]]></title>
-            <description><![CDATA[Browser-side code for Socket.IO. Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js">//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js</a>]]></description>
-            <link>http://socket.io</link>
-            <guid isPermaLink="false">socket.io0.9.16</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
