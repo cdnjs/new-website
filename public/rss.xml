@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jan 2015 20:18:13 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Jan 2015 20:33:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.6.2]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.2/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 20:26:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.swipebox updated to version 1.3.0.2]]></title>
+            <description><![CDATA[A touchable jQuery lightbox.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.min.js</a>]]></description>
+            <link>https://brutaldesign.github.io/swipebox/</link>
+            <guid isPermaLink="false">jquery.swipebox1.3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 20:24:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.3.0]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.0/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.0/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 20:20:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[buzz updated to version 1.1.7]]></title>
             <description><![CDATA[Buzz, a Javascript HTML5 Audio library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/buzz/1.1.7/buzz.min.js">//cdnjs.cloudflare.com/ajax/libs/buzz/1.1.7/buzz.min.js</a>]]></description>
@@ -123,14 +147,6 @@
             <guid isPermaLink="false">jquery.imagesloaded3.1.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 16:40:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.6.1]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.1/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.1/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:39:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[immutable updated to version 3.5.0]]></title>
@@ -2448,14 +2464,6 @@
             <description><![CDATA[A jQuery plugin that supports touch events on mobile devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js</a>]]></description>
             <link>http://labs.skinkers.com/touchSwipe</link>
             <guid isPermaLink="false">jquery.touchswipe1.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.swipebox updated to version 1.2.9]]></title>
-            <description><![CDATA[A touchable jQuery lightbox.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.2.9/jquery.swipebox.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.2.9/jquery.swipebox.min.js</a>]]></description>
-            <link>https://brutaldesign.github.io/swipebox/</link>
-            <guid isPermaLink="false">jquery.swipebox1.2.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
