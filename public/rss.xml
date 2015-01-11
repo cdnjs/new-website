@@ -10,10 +10,58 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jan 2015 18:48:11 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Jan 2015 19:01:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[buzz updated to version 1.1.7]]></title>
+            <description><![CDATA[Buzz, a Javascript HTML5 Audio library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/buzz/1.1.7/buzz.min.js">//cdnjs.cloudflare.com/ajax/libs/buzz/1.1.7/buzz.min.js</a>]]></description>
+            <link>http://buzz.jaysalvat.com</link>
+            <guid isPermaLink="false">buzz1.1.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 18:54:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.24.0]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.24.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.24.0/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.24.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 18:50:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb updated to version 3.2.1]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.2.1/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.2.1/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb3.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 18:48:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pixi.js updated to version 2.2.3]]></title>
+            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.3/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.3/pixi.js</a>]]></description>
+            <link>http://goodboydigital.com/</link>
+            <guid isPermaLink="false">pixi.js2.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 18:48:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[speakingurl updated to version 0.20.0]]></title>
+            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.20.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.20.0/speakingurl.min.js</a>]]></description>
+            <link>http://pid.github.io/speakingurl/</link>
+            <guid isPermaLink="false">speakingurl0.20.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 18:48:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vis updated to version 3.8.0]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.8.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.8.0/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis3.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 18:47:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[codemirror updated to version 4.11.0]]></title>
             <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.11.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.11.0/codemirror.min.js</a>]]></description>
@@ -368,14 +416,6 @@
             <pubDate>Tue, 06 Jan 2015 10:31:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[pixi.js updated to version 2.2.1]]></title>
-            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.1/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.1/pixi.js</a>]]></description>
-            <link>http://goodboydigital.com/</link>
-            <guid isPermaLink="false">pixi.js2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 Jan 2015 08:18:51 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[floatthead updated to version 1.2.10]]></title>
             <description><![CDATA[locking table headers without special css<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.10/jquery.floatThead.min.js">//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.10/jquery.floatThead.min.js</a>]]></description>
             <link>https://github.com/mkoryak/floatThead</link>
@@ -551,14 +591,6 @@
             <pubDate>Sat, 03 Jan 2015 04:31:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[speakingurl updated to version 0.18.1]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.18.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.18.1/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.18.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 02 Jan 2015 05:29:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bean updated to version 1.0.15]]></title>
             <description><![CDATA[A small, fast, framework-agnostic event manager<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bean/1.0.15/bean.min.js">//cdnjs.cloudflare.com/ajax/libs/bean/1.0.15/bean.min.js</a>]]></description>
             <link>https://github.com/fat/bean</link>
@@ -581,14 +613,6 @@
             <guid isPermaLink="false">ember-data.js1.0.0-beta.14.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 Jan 2015 16:35:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webtorrent updated to version 0.20.0]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.20.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.20.0/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.20.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 Jan 2015 05:16:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.28]]></title>
@@ -4675,35 +4699,6 @@
             <guid isPermaLink="false">bignumber.js2.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 29 Dec 2014 04:19:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[progress.js(0.1.0) was added]]></title>
-            <description><![CDATA[Themeable HTML5 progress bar library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/progress.js/0.1.0/progress.min.js">//cdnjs.cloudflare.com/ajax/libs/progress.js/0.1.0/progress.min.js</a>]]></description>
-            <guid isPermaLink="false">progress.js0.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Dec 2014 18:48:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[persian.js(0.3.0) was added]]></title>
-            <description><![CDATA[Persian language localization.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/persian.js/0.3.0/persian.min.js">//cdnjs.cloudflare.com/ajax/libs/persian.js/0.3.0/persian.min.js</a>]]></description>
-            <link>https://github.com/usablica/persian.js</link>
-            <guid isPermaLink="false">persian.js0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Dec 2014 18:48:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[motion.js(0.3.0) was added]]></title>
-            <description><![CDATA[MotionJs is an easy to use, cross-browser CSS3 library for creating animations in web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motion.js/0.3.0/motion.min.js">//cdnjs.cloudflare.com/ajax/libs/motion.js/0.3.0/motion.min.js</a>]]></description>
-            <guid isPermaLink="false">motion.js0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Dec 2014 18:48:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[label.css(0.1.1) was added]]></title>
-            <description><![CDATA[Just a simply easy way to label each element you want!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/label.css/0.1.1/label.min.css">//cdnjs.cloudflare.com/ajax/libs/label.css/0.1.1/label.min.css</a>]]></description>
-            <guid isPermaLink="false">label.css0.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 28 Dec 2014 18:48:12 GMT</pubDate>
         </item>
     </channel>
 </rss>
