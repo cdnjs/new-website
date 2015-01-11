@@ -10,10 +10,143 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jan 2015 16:48:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Jan 2015 17:01:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[codemirror updated to version 4.11.0]]></title>
+            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.11.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.11.0/codemirror.min.js</a>]]></description>
+            <link>http://codemirror.net</link>
+            <guid isPermaLink="false">codemirror4.11.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:49:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[maquette updated to version 1.4.2]]></title>
+            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.2/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.2/maquette.min.js</a>]]></description>
+            <link>http://johan-gorter.github.io/maquette/</link>
+            <guid isPermaLink="false">maquette1.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:42:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lazysizes updated to version 0.7.2]]></title>
+            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.7.2/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.7.2/lazysizes.min.js</a>]]></description>
+            <guid isPermaLink="false">lazysizes0.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:42:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[localforage updated to version 1.2.1]]></title>
+            <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/1.2.1/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/1.2.1/localforage.min.js</a>]]></description>
+            <link>https://github.com/mozilla/localForage</link>
+            <guid isPermaLink="false">localforage1.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:41:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[moment.js updated to version 2.9.0]]></title>
+            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js</a>]]></description>
+            <link>http://momentjs.com/</link>
+            <guid isPermaLink="false">moment.js2.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:41:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[kineticjs updated to version 5.1.9]]></title>
+            <description><![CDATA[KineticJS is an HTML5 Canvas JavaScript framework that enables high performance animations, transitions, node nesting, layering, filtering, caching, event handling for desktop and mobile applications, and much more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kineticjs/5.1.9/kinetic.min.js">//cdnjs.cloudflare.com/ajax/libs/kineticjs/5.1.9/kinetic.min.js</a>]]></description>
+            <link>http://kineticjs.com/</link>
+            <guid isPermaLink="false">kineticjs5.1.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:41:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jxon updated to version 1.2.1]]></title>
+            <description><![CDATA[A complete, bidirectional, JXON library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jxon/1.2.1/index.js">//cdnjs.cloudflare.com/ajax/libs/jxon/1.2.1/index.js</a>]]></description>
+            <guid isPermaLink="false">jxon1.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:40:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.imagesloaded updated to version 3.1.8]]></title>
+            <description><![CDATA[jQuery plugin that triggers a callback after all images have been loaded<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js</a>]]></description>
+            <link>http://desandro.github.com/imagesloaded/</link>
+            <guid isPermaLink="false">jquery.imagesloaded3.1.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:40:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.6.1]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.1/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.1/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:39:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.5.0]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.5.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.5.0/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:38:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[packery updated to version 1.3.2]]></title>
+            <description><![CDATA[The bin-packing layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/packery/1.3.2/packery.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/packery/1.3.2/packery.pkgd.min.js</a>]]></description>
+            <link>http://packery.metafizzy.co/</link>
+            <guid isPermaLink="false">packery1.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:37:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[insightjs updated to version 1.4.0]]></title>
+            <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.4.0/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.4.0/insight.min.js</a>]]></description>
+            <link>https://github.com/scottlogic/insight</link>
+            <guid isPermaLink="false">insightjs1.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:37:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[elasticsearch updated to version 3.1.1]]></title>
+            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.1/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.1/elasticsearch.js</a>]]></description>
+            <link>https://github.com/elasticsearch/elasticsearch-js</link>
+            <guid isPermaLink="false">elasticsearch3.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:36:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.3.16]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.16/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.16/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.3.16</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:35:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.6.1]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.1/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.1/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:34:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[d3plus updated to version 1.6.8]]></title>
+            <description><![CDATA[Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.8/d3plus.min.js">//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.8/d3plus.min.js</a>]]></description>
+            <link>http://www.d3plus.org</link>
+            <guid isPermaLink="false">d3plus1.6.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 16:34:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[materialize(0.94.2) was added]]></title>
+            <description><![CDATA[Builds Materialize distribution packages<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.94.2/css/materialize.min.css">//cdnjs.cloudflare.com/ajax/libs/materialize/0.94.2/css/materialize.min.css</a>]]></description>
+            <guid isPermaLink="false">materialize0.94.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 07:22:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-ui-date updated to version 0.0.7]]></title>
             <description><![CDATA[This directive allows you to add a date-picker to your form elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.7/date.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.7/date.min.js</a>]]></description>
@@ -53,14 +186,6 @@
             <guid isPermaLink="false">Chart.js1.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 06:42:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[maquette(1.4.2) was added]]></title>
-            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.2/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.2/maquette.min.js</a>]]></description>
-            <link>http://johan-gorter.github.io/maquette/</link>
-            <guid isPermaLink="false">maquette1.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 10 Jan 2015 22:44:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[reveal.js updated to version 3.0.0]]></title>
@@ -134,14 +259,6 @@
             <pubDate>Fri, 09 Jan 2015 04:04:09 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.imagesloaded updated to version 3.0.4]]></title>
-            <description><![CDATA[jQuery plugin that triggers a callback after all images have been loaded<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js</a>]]></description>
-            <link>http://desandro.github.com/imagesloaded/</link>
-            <guid isPermaLink="false">jquery.imagesloaded3.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 08 Jan 2015 22:02:23 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[subkit updated to version 1.1.1]]></title>
             <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.1/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.1/subkit.min.js</a>]]></description>
             <link>https://github.com/subkit/subkit.js</link>
@@ -179,14 +296,6 @@
             <guid isPermaLink="false">veinjs0.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 07 Jan 2015 18:05:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[d3plus updated to version 1.6.7]]></title>
-            <description><![CDATA[Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js">//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.7/d3plus.min.js</a>]]></description>
-            <link>http://www.d3plus.org</link>
-            <guid isPermaLink="false">d3plus1.6.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 07 Jan 2015 16:44:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-switch updated to version 3.3.1]]></title>
@@ -259,14 +368,6 @@
             <pubDate>Tue, 06 Jan 2015 10:31:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[semantic-ui updated to version 1.6.0]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.0/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 Jan 2015 08:21:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[pixi.js updated to version 2.2.1]]></title>
             <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.1/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.1/pixi.js</a>]]></description>
             <link>http://goodboydigital.com/</link>
@@ -281,14 +382,6 @@
             <guid isPermaLink="false">floatthead1.2.10</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 06 Jan 2015 08:18:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bluebird updated to version 2.6.0]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.0/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.0/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 Jan 2015 08:18:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[sass.js updated to version 0.6.1]]></title>
@@ -456,13 +549,6 @@
             <guid isPermaLink="false">breezejs1.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 Jan 2015 04:31:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lazysizes updated to version 0.7.1]]></title>
-            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.7.1/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.7.1/lazysizes.min.js</a>]]></description>
-            <guid isPermaLink="false">lazysizes0.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 02 Jan 2015 05:30:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[speakingurl updated to version 0.18.1]]></title>
@@ -4573,14 +4659,6 @@
             <guid isPermaLink="false">crel2.1.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 04:56:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[codemirror updated to version 4.10.0]]></title>
-            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.10.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.10.0/codemirror.min.js</a>]]></description>
-            <link>http://codemirror.net</link>
-            <guid isPermaLink="false">codemirror4.10.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 02:42:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[malihu-custom-scrollbar-plugin updated to version 3.0.7]]></title>
