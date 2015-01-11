@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jan 2015 07:01:18 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Jan 2015 07:16:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-ui-date updated to version 0.0.7]]></title>
+            <description><![CDATA[This directive allows you to add a date-picker to your form elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.7/date.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.7/date.min.js</a>]]></description>
+            <link>http://angular-ui.github.com/ui-date</link>
+            <guid isPermaLink="false">angular-ui-date0.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 06:56:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vague.js updated to version 0.0.6]]></title>
+            <description><![CDATA[Vague.js is an experimental script that allows you to blur any kind of html element thanks to the SVG filters<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Vague.js/0.0.6/Vague.min.js">//cdnjs.cloudflare.com/ajax/libs/Vague.js/0.0.6/Vague.min.js</a>]]></description>
+            <link>https://gianlucaguarini.github.io/Vague.js/</link>
+            <guid isPermaLink="false">Vague.js0.0.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 06:45:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-markdown updated to version 2.8.0]]></title>
+            <description><![CDATA[A bootstrap plugin for markdown editing<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.8.0/js/bootstrap-markdown.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.8.0/js/bootstrap-markdown.js</a>]]></description>
+            <link>https://github.com/toopay/bootstrap-markdown</link>
+            <guid isPermaLink="false">bootstrap-markdown2.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 06:45:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone-localstorage.js updated to version 1.1.15]]></title>
+            <description><![CDATA[A simple module to replace Backbone.sync with localStorage-based persistence. Models are given GUIDS, and saved into a JSON object. Simple as that.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.15/backbone.localStorage-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.15/backbone.localStorage-min.js</a>]]></description>
+            <link>https://github.com/jeromegn/Backbone.localStorage</link>
+            <guid isPermaLink="false">backbone-localstorage.js1.1.15</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 06:43:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chart.js updated to version 1.0.1]]></title>
+            <description><![CDATA[Simple HTML5 Charts using the canvas element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js">//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js</a>]]></description>
+            <link>http://www.chartjs.org</link>
+            <guid isPermaLink="false">Chart.js1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 06:42:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[reveal.js updated to version 3.0.0]]></title>
             <description><![CDATA[A framework for easily creating beautiful presentations using HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/js/reveal.min.js">//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/js/reveal.min.js</a>]]></description>
