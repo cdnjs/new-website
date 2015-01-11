@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jan 2015 21:33:13 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Jan 2015 21:46:38 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[valjs updated to version 0.8]]></title>
+            <description><![CDATA[Another jQuery Form Validation plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/valjs/0.8/jquery.valjs.min.js">//cdnjs.cloudflare.com/ajax/libs/valjs/0.8/jquery.valjs.min.js</a>]]></description>
+            <link>http://valjs.io</link>
+            <guid isPermaLink="false">valjs0.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 11 Jan 2015 21:33:45 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.6.2]]></title>
             <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.2/semantic.min.js</a>]]></description>
@@ -461,14 +469,6 @@
             <guid isPermaLink="false">tinysort2.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 05 Jan 2015 16:27:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[valjs(0.7.3) was added]]></title>
-            <description><![CDATA[Another jQuery Form Validation plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/valjs/0.7.3/jquery.valjs.min.js">//cdnjs.cloudflare.com/ajax/libs/valjs/0.7.3/jquery.valjs.min.js</a>]]></description>
-            <link>http://valjs.io</link>
-            <guid isPermaLink="false">valjs0.7.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 05 Jan 2015 12:53:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[es6-shim updated to version 0.22.2]]></title>
