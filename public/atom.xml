@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 11 Jan 2015 16:01:18 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Jan 2015 16:18:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -53,6 +53,14 @@
             <guid isPermaLink="false">Chart.js1.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 06:42:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[maquette(1.4.2) was added]]></title>
+            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.2/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.2/maquette.min.js</a>]]></description>
+            <link>http://johan-gorter.github.io/maquette/</link>
+            <guid isPermaLink="false">maquette1.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 10 Jan 2015 22:44:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[reveal.js updated to version 3.0.0]]></title>
