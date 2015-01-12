@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 12 Jan 2015 04:33:17 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Jan 2015 04:48:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-moment updated to version 0.9.0]]></title>
+            <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.9.0/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.9.0/angular-moment.min.js</a>]]></description>
+            <link>https://github.com/urish/angular-moment</link>
+            <guid isPermaLink="false">angular-moment0.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 12 Jan 2015 04:22:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.25.0]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.25.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.25.0/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.25.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 12 Jan 2015 04:22:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ol3 updated to version 3.1.1]]></title>
             <description><![CDATA[OpenLayers is a JavaScript library for building map applications on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.1.1/ol.js">//cdnjs.cloudflare.com/ajax/libs/ol3/3.1.1/ol.js</a>]]></description>
@@ -61,14 +77,6 @@
             <guid isPermaLink="false">buzz1.1.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 18:54:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webtorrent updated to version 0.24.0]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.24.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.24.0/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.24.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 18:50:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pouchdb updated to version 3.2.1]]></title>
