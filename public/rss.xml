@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 12 Jan 2015 22:18:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Jan 2015 22:33:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -353,6 +353,14 @@
             <guid isPermaLink="false">subkit1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 08 Jan 2015 08:41:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pubnub updated to version 3.7.7]]></title>
+            <description><![CDATA[PubNub, a new kind of Cloud-Hosted Broadcasting Service for Mass Communication.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pubnub/3.7.7/pubnub.min.js">//cdnjs.cloudflare.com/ajax/libs/pubnub/3.7.7/pubnub.min.js</a>]]></description>
+            <link>http://www.pubnub.com/</link>
+            <guid isPermaLink="false">pubnub3.7.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 07 Jan 2015 22:31:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[hammer.js updated to version 2.0.4]]></title>
@@ -1624,14 +1632,6 @@
             <description><![CDATA[A set of small, responsive CSS modules that you can use in every web project.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css</a>]]></description>
             <link>http://purecss.io/</link>
             <guid isPermaLink="false">pure0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pubnub updated to version 3.6.7]]></title>
-            <description><![CDATA[PubNub, a new kind of Cloud-Hosted Broadcasting Service for Mass Communication.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.7/pubnub.min.js">//cdnjs.cloudflare.com/ajax/libs/pubnub/3.6.7/pubnub.min.js</a>]]></description>
-            <link>http://www.pubnub.com/</link>
-            <guid isPermaLink="false">pubnub3.6.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
         </item>
