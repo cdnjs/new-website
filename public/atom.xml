@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Jan 2015 07:33:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jan 2015 07:48:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -37,13 +37,6 @@
             <guid isPermaLink="false">angular-loading-bar0.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 04:59:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[aegis updated to version 1.3.3]]></title>
-            <description><![CDATA[Aegis CSS Framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/aegis/1.3.3/aegis.min.css">//cdnjs.cloudflare.com/ajax/libs/aegis/1.3.3/aegis.min.css</a>]]></description>
-            <guid isPermaLink="false">aegis1.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 02:45:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[toastr.js updated to version 2.1.0]]></title>
