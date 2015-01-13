@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Jan 2015 13:31:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jan 2015 13:48:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[algoliasearch updated to version 2.8.6]]></title>
+            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.6/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.6/algoliasearch.min.js</a>]]></description>
+            <link>https://github.com/algolia/algoliasearch-client-js</link>
+            <guid isPermaLink="false">algoliasearch2.8.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 13:43:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[maquette updated to version 1.4.3]]></title>
             <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.3/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.3/maquette.min.js</a>]]></description>
@@ -369,14 +377,6 @@
             <guid isPermaLink="false">fabric.js1.4.13</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 09 Jan 2015 04:31:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[algoliasearch updated to version 2.8.5]]></title>
-            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.5/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.5/algoliasearch.min.js</a>]]></description>
-            <link>https://github.com/algolia/algoliasearch-client-js</link>
-            <guid isPermaLink="false">algoliasearch2.8.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 09 Jan 2015 04:04:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[subkit updated to version 1.1.1]]></title>
