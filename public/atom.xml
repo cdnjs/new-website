@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Jan 2015 18:18:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jan 2015 18:31:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angulartics(googleanalytics) was added]]></title>
+            <description><![CDATA[Vendor-agnostic web analytics for AngularJS applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angulartics/googleanalytics/angulartics.min.js">//cdnjs.cloudflare.com/ajax/libs/angulartics/googleanalytics/angulartics.min.js</a>]]></description>
+            <link>http://luisfarzati.github.io/angulartics</link>
+            <guid isPermaLink="false">angularticsgoogleanalytics</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 18:11:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[algoliasearch updated to version 2.8.6]]></title>
             <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.6/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.6/algoliasearch.min.js</a>]]></description>
