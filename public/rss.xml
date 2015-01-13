@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Jan 2015 05:18:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jan 2015 05:33:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angularjs-toaster updated to version 0.4.9]]></title>
+            <description><![CDATA[AngularJS Toaster is a customized version of 'toastr' non-blocking notification javascript library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.js">//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.js</a>]]></description>
+            <link>https://github.com/jirikavi/AngularJS-Toaster</link>
+            <guid isPermaLink="false">angularjs-toaster0.4.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 05:13:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-hotkeys(1.4.5) was added]]></title>
             <description><![CDATA[Automatic keyboard shortcuts for your Angular Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-hotkeys/1.4.5/hotkeys.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-hotkeys/1.4.5/hotkeys.min.js</a>]]></description>
@@ -68,14 +76,6 @@
             <guid isPermaLink="false">bluebird2.6.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 01:43:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angularjs-toaster updated to version 0.4.9]]></title>
-            <description><![CDATA[AngularJS Toaster is a customized version of 'toastr' non-blocking notification javascript library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.js">//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.js</a>]]></description>
-            <link>https://github.com/jirikavi/AngularJS-Toaster</link>
-            <guid isPermaLink="false">angularjs-toaster0.4.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 12 Jan 2015 23:28:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-moment updated to version 0.9.0]]></title>
