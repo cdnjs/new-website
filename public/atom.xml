@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Jan 2015 09:33:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jan 2015 09:48:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[maquette updated to version 1.4.3]]></title>
+            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.3/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.3/maquette.min.js</a>]]></description>
+            <link>http://johan-gorter.github.io/maquette/</link>
+            <guid isPermaLink="false">maquette1.4.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 09:31:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.6.4]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.4/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.4/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.6.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 09:29:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.6.4]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.4/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.4/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.6.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 09:28:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.6.2]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.2/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.2/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 09:28:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angularjs-toaster updated to version 0.4.9]]></title>
             <description><![CDATA[AngularJS Toaster is a customized version of 'toastr' non-blocking notification javascript library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.min.js">//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.min.js</a>]]></description>
@@ -55,22 +87,6 @@
             <pubDate>Tue, 13 Jan 2015 01:44:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[immutable updated to version 3.6.0]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.0/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 01:44:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bluebird updated to version 2.6.3]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.3/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.3/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.6.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 01:43:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-moment updated to version 0.9.0]]></title>
             <description><![CDATA[Angular.JS directives for Moment.JS (timeago alternative)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.9.0/angular-moment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-moment/0.9.0/angular-moment.min.js</a>]]></description>
             <link>https://github.com/urish/angular-moment</link>
@@ -93,14 +109,6 @@
             <guid isPermaLink="false">valjs0.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 21:33:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.6.2]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.2/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 20:26:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.swipebox updated to version 1.3.0.2]]></title>
@@ -165,14 +173,6 @@
             <guid isPermaLink="false">codemirror4.11.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 16:49:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[maquette updated to version 1.4.2]]></title>
-            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.2/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.2/maquette.min.js</a>]]></description>
-            <link>http://johan-gorter.github.io/maquette/</link>
-            <guid isPermaLink="false">maquette1.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:42:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[lazysizes updated to version 0.7.2]]></title>
