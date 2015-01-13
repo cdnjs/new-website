@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Jan 2015 05:48:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jan 2015 06:03:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -4707,14 +4707,6 @@
             <guid isPermaLink="false">11402.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 30 Dec 2014 12:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-noty updated to version 2.3.4]]></title>
-            <description><![CDATA[jQuery plugin that makes it easy to create alert, success, error, warning, information or confirmation messages as an alternative the standard alert dialog.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.4/jquery.noty.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-noty/2.3.4/jquery.noty.min.js</a>]]></description>
-            <link>http://needim.github.com/noty/</link>
-            <guid isPermaLink="false">jquery-noty2.3.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 05:44:48 GMT</pubDate>
         </item>
     </channel>
 </rss>
