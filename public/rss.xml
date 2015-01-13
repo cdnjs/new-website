@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 13 Jan 2015 01:48:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Jan 2015 02:01:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ol3 updated to version 3.1.1]]></title>
+            <description><![CDATA[OpenLayers is a JavaScript library for building map applications on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.1.1/ol.min.js">//cdnjs.cloudflare.com/ajax/libs/ol3/3.1.1/ol.min.js</a>]]></description>
+            <link>http://openlayers.org/</link>
+            <guid isPermaLink="false">ol33.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 01:44:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.6.0]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.0/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 01:44:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.6.3]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.3/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.3/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.6.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 13 Jan 2015 01:43:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angularjs-toaster updated to version 0.4.9]]></title>
             <description><![CDATA[AngularJS Toaster is a customized version of 'toastr' non-blocking notification javascript library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.js">//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.9/toaster.js</a>]]></description>
@@ -44,14 +68,6 @@
             <guid isPermaLink="false">webtorrent0.25.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 12 Jan 2015 04:22:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ol3 updated to version 3.1.1]]></title>
-            <description><![CDATA[OpenLayers is a JavaScript library for building map applications on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.1.1/ol.js">//cdnjs.cloudflare.com/ajax/libs/ol3/3.1.1/ol.js</a>]]></description>
-            <link>http://openlayers.org/</link>
-            <guid isPermaLink="false">ol33.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 21:56:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[valjs updated to version 0.8]]></title>
@@ -188,14 +204,6 @@
             <pubDate>Sun, 11 Jan 2015 16:40:15 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[immutable updated to version 3.5.0]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.5.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.5.0/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:38:07 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[packery updated to version 1.3.2]]></title>
             <description><![CDATA[The bin-packing layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/packery/1.3.2/packery.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/packery/1.3.2/packery.pkgd.min.js</a>]]></description>
             <link>http://packery.metafizzy.co/</link>
@@ -226,14 +234,6 @@
             <guid isPermaLink="false">p5.js0.3.16</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 16:35:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bluebird updated to version 2.6.1]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.1/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.1/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:34:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[d3plus updated to version 1.6.8]]></title>
