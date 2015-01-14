@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 Jan 2015 16:46:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jan 2015 17:03:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[maquette updated to version 1.4.4]]></title>
+            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.4/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.4/maquette.min.js</a>]]></description>
+            <link>http://johan-gorter.github.io/maquette/</link>
+            <guid isPermaLink="false">maquette1.4.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 Jan 2015 16:52:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[machina.js updated to version 0.4.1]]></title>
+            <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.1/machina.min.js">//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.1/machina.min.js</a>]]></description>
+            <link>http://machina-js.org/</link>
+            <guid isPermaLink="false">machina.js0.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 Jan 2015 16:52:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.42]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.42/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.42/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.42</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 Jan 2015 16:52:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Leaflet.awesome-markers updated to version 2.0.0]]></title>
+            <description><![CDATA[Colorful iconic & retina-proof markers for Leaflet, based on the Glyphicons / Font-Awesome icons<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.0/leaflet.awesome-markers.min.js">//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.0/leaflet.awesome-markers.min.js</a>]]></description>
+            <link>https://github.com/lvoogdt/Leaflet.awesome-markers</link>
+            <guid isPermaLink="false">Leaflet.awesome-markers2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 Jan 2015 04:53:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[amplifyjs updated to version 1.1.2]]></title>
             <description><![CDATA[AmplifyJS is a set of components designed to solve common web application problems with a simplistic API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js">//cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js</a>]]></description>
@@ -53,14 +85,6 @@
             <guid isPermaLink="false">algoliasearch2.8.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 13:43:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[maquette updated to version 1.4.3]]></title>
-            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.3/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.3/maquette.min.js</a>]]></description>
-            <link>http://johan-gorter.github.io/maquette/</link>
-            <guid isPermaLink="false">maquette1.4.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 09:31:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bluebird updated to version 2.6.4]]></title>
@@ -732,14 +756,6 @@
             <guid isPermaLink="false">mithril0.1.28</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 Jan 2015 05:13:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-css updated to version 1.0.5]]></title>
-            <description><![CDATA[CSS on-demand for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.5/angular-css.js">//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.5/angular-css.js</a>]]></description>
-            <link>http://door3.github.io/angular-css</link>
-            <guid isPermaLink="false">angular-css1.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 31 Dec 2014 16:46:23 GMT</pubDate>
         </item>
     </channel>
 </rss>
