@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 Jan 2015 16:16:35 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jan 2015 16:33:12 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -740,14 +740,6 @@
             <guid isPermaLink="false">angular-css1.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 31 Dec 2014 16:46:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fotorama updated to version 4.6.3]]></title>
-            <description><![CDATA[A simple, stunning, powerful jQuery gallery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.min.js">//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.min.js</a>]]></description>
-            <link>http://fotorama.io/</link>
-            <guid isPermaLink="false">fotorama4.6.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 31 Dec 2014 16:09:26 GMT</pubDate>
         </item>
     </channel>
 </rss>
