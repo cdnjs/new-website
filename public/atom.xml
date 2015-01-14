@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 Jan 2015 14:03:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jan 2015 14:18:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -748,14 +748,6 @@
             <guid isPermaLink="false">fotorama4.6.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 31 Dec 2014 16:09:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[domplotter(1.3.1) was added]]></title>
-            <description><![CDATA[Minimalistic Virtual DOM implementation which supports animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/domplotter/1.3.1/domplotter.min.js">//cdnjs.cloudflare.com/ajax/libs/domplotter/1.3.1/domplotter.min.js</a>]]></description>
-            <link>http://johan-gorter.github.io/domplotter/</link>
-            <guid isPermaLink="false">domplotter1.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 30 Dec 2014 20:36:09 GMT</pubDate>
         </item>
     </channel>
 </rss>
