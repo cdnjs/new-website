@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 14 Jan 2015 19:03:09 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jan 2015 19:18:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jasmine updated to version 2.0.0]]></title>
+            <description><![CDATA[DOM-less simple JavaScript testing framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine/2.0.0/jasmine.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine/2.0.0/jasmine.min.js</a>]]></description>
+            <link>http://jasmine.github.io/</link>
+            <guid isPermaLink="false">jasmine2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 Jan 2015 19:07:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jasmine-ajax updated to version 2.0.0]]></title>
+            <description><![CDATA[A library for faking Ajax responses in your Jasmine suite.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/2.0.0/mock-ajax.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/2.0.0/mock-ajax.min.js</a>]]></description>
+            <link>https://github.com/pivotal/jasmine-ajax/</link>
+            <guid isPermaLink="false">jasmine-ajax2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 14 Jan 2015 19:05:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[maquette updated to version 1.4.4]]></title>
             <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.4/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.4/maquette.min.js</a>]]></description>
