@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Jan 2015 22:33:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2015 22:48:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -827,14 +827,6 @@
             <guid isPermaLink="false">bean1.0.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 02 Jan 2015 05:29:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dinqyjs(1.1.0) was added]]></title>
-            <description><![CDATA[A tiny but powerful Javascript library for working with collections. No bells and whistles and unwanted bloat, just the things you really need.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dinqyjs/1.1.0/dinqyjs.min.js">//cdnjs.cloudflare.com/ajax/libs/dinqyjs/1.1.0/dinqyjs.min.js</a>]]></description>
-            <link>http://dinqyjs.com</link>
-            <guid isPermaLink="false">dinqyjs1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 Jan 2015 22:38:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
