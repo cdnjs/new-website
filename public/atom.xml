@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Jan 2015 19:18:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2015 19:33:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[uikit updated to version 2.16.2]]></title>
+            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.16.2/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.16.2/js/uikit.min.js</a>]]></description>
+            <link>http://www.getuikit.com</link>
+            <guid isPermaLink="false">uikit2.16.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 19:26:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[chartist updated to version 0.5.0]]></title>
             <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.5.0/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.5.0/chartist.min.js</a>]]></description>
@@ -164,14 +172,6 @@
             <guid isPermaLink="false">angulartics0.17.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 20:34:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uikit updated to version 2.16.0]]></title>
-            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.16.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.16.0/js/uikit.min.js</a>]]></description>
-            <link>http://www.getuikit.com</link>
-            <guid isPermaLink="false">uikit2.16.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 19:54:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[algoliasearch updated to version 2.8.6]]></title>
