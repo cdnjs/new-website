@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Jan 2015 21:03:16 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2015 21:18:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.7.1]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.1/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.1/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 20:59:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.3.23]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.23/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.23/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.3.23</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 20:58:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone.babysitter updated to version 0.1.6]]></title>
+            <description><![CDATA[Manage child views in a Backbone.View<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.6/backbone.babysitter.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.babysitter/0.1.6/backbone.babysitter.min.js</a>]]></description>
+            <link>https://github.com/marionettejs/backbone.babysitter</link>
+            <guid isPermaLink="false">backbone.babysitter0.1.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 20:58:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[uikit updated to version 2.16.2]]></title>
             <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.16.2/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.16.2/js/uikit.min.js</a>]]></description>
@@ -92,14 +116,6 @@
             <guid isPermaLink="false">angular-material0.7.0-rc3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 15 Jan 2015 06:38:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.7.0]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.0/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 Jan 2015 04:57:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-css updated to version 1.0.6]]></title>
