@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Jan 2015 04:48:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2015 05:03:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -29,14 +29,6 @@
             <guid isPermaLink="false">Leaflet.awesome-markers2.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 Jan 2015 19:25:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jasmine updated to version 2.0.0]]></title>
-            <description><![CDATA[DOM-less simple JavaScript testing framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine/2.0.0/jasmine.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine/2.0.0/jasmine.min.js</a>]]></description>
-            <link>http://jasmine.github.io/</link>
-            <guid isPermaLink="false">jasmine2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 14 Jan 2015 19:07:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[maquette updated to version 1.4.4]]></title>
