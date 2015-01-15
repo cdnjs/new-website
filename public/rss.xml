@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Jan 2015 05:03:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2015 05:18:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.7.0]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.0/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 04:57:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-css updated to version 1.0.6]]></title>
+            <description><![CDATA[CSS on-demand for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.6/angular-css.js">//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.6/angular-css.js</a>]]></description>
+            <link>http://door3.github.io/angular-css</link>
+            <guid isPermaLink="false">angular-css1.0.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 04:56:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jasmine-ajax updated to version 2.99.0]]></title>
             <description><![CDATA[A library for faking Ajax responses in your Jasmine suite.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/2.99.0/mock-ajax.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/2.99.0/mock-ajax.min.js</a>]]></description>
@@ -101,14 +117,6 @@
             <guid isPermaLink="false">bluebird2.6.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 09:29:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.6.4]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.4/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.6.4/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 09:28:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[immutable updated to version 3.6.2]]></title>
@@ -756,14 +764,6 @@
             <guid isPermaLink="false">ember-data.js1.0.0-beta.14.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 01 Jan 2015 16:35:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mithril updated to version 0.1.28]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.28/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.28/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.28</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 01 Jan 2015 05:13:58 GMT</pubDate>
         </item>
     </channel>
 </rss>
