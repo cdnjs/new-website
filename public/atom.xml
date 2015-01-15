@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Jan 2015 06:48:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2015 07:03:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jasmine updated to version 2.1.3]]></title>
+            <description><![CDATA[DOM-less simple JavaScript testing framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine/2.1.3/jasmine.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine/2.1.3/jasmine.min.js</a>]]></description>
+            <link>http://jasmine.github.io/</link>
+            <guid isPermaLink="false">jasmine2.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 06:44:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[deck.js(1.1.0) was added]]></title>
+            <description><![CDATA[Modern HTML Presentations<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/deck.js/1.1.0/core/deck.core.min.js">//cdnjs.cloudflare.com/ajax/libs/deck.js/1.1.0/core/deck.core.min.js</a>]]></description>
+            <link>https://github.com/imakewebthings/deck.js</link>
+            <guid isPermaLink="false">deck.js1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 06:42:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-material updated to version 0.7.0-rc3]]></title>
+            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0-rc3/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0-rc3/angular-material.min.css</a>]]></description>
+            <link>https://material.angularjs.org/</link>
+            <guid isPermaLink="false">angular-material0.7.0-rc3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 06:38:15 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.7.0]]></title>
             <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.0/semantic.min.js</a>]]></description>
@@ -69,14 +93,6 @@
             <guid isPermaLink="false">bacon.js0.7.42</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 Jan 2015 16:52:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-material(0.7.0-rc2-master-f71eb32) was added]]></title>
-            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0-rc2-master-f71eb32/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0-rc2-master-f71eb32/angular-material.min.css</a>]]></description>
-            <link>https://material.angularjs.org/</link>
-            <guid isPermaLink="false">angular-material0.7.0-rc2-master-f71eb32</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 14 Jan 2015 05:27:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[amplifyjs updated to version 1.1.2]]></title>
