@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Jan 2015 13:18:16 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2015 13:33:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[nanogallery updated to version 5.3.0]]></title>
+            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.3.0/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.3.0/jquery.nanogallery.min.js</a>]]></description>
+            <link>http://nanogallery.brisbois.fr/</link>
+            <guid isPermaLink="false">nanogallery5.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 13:18:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jasmine updated to version 2.1.3]]></title>
             <description><![CDATA[DOM-less simple JavaScript testing framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine/2.1.3/jasmine.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine/2.1.3/jasmine.min.js</a>]]></description>
