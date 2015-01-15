@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 15 Jan 2015 18:03:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jan 2015 18:18:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[chartist updated to version 0.5.0]]></title>
+            <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.5.0/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.5.0/chartist.min.js</a>]]></description>
+            <link>https://gionkunz.github.io/chartist-js</link>
+            <guid isPermaLink="false">chartist0.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 16:29:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-bootstrap updated to version 0.12.0]]></title>
+            <description><![CDATA[Native AngularJS (Angular) directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.0/ui-bootstrap-tpls.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.0/ui-bootstrap-tpls.min.js</a>]]></description>
+            <link>http://angular-ui.github.io/bootstrap/</link>
+            <guid isPermaLink="false">angular-ui-bootstrap0.12.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 16:28:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-azure-mobile-service updated to version 1.3.2]]></title>
+            <description><![CDATA[Angular Azure Mobile Service<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js</a>]]></description>
+            <link>https://github.com/TerryMooreII/angular-azure-mobile-service</link>
+            <guid isPermaLink="false">angular-azure-mobile-service1.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 15 Jan 2015 16:27:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[geojson2svg updated to version 0.1.2]]></title>
             <description><![CDATA[Converts geojson to svg/path string given svg viewport size and maps extent.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/geojson2svg/0.1.2/geojson2svg.min.js">//cdnjs.cloudflare.com/ajax/libs/geojson2svg/0.1.2/geojson2svg.min.js</a>]]></description>
@@ -659,14 +683,6 @@
             <guid isPermaLink="false">es6-shim0.22.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 05 Jan 2015 12:47:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-azure-mobile-service updated to version 1.3.2]]></title>
-            <description><![CDATA[Angular Azure Mobile Service<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-azure-mobile-service/1.3.2/angular-azure-mobile-service.min.js</a>]]></description>
-            <link>https://github.com/TerryMooreII/angular-azure-mobile-service</link>
-            <guid isPermaLink="false">angular-azure-mobile-service1.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 05 Jan 2015 04:38:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ng-clip updated to version 0.2.6]]></title>
