@@ -10,25 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 Jan 2015 02:48:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Jan 2015 03:03:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[semantic-ui updated to version 1.7.1]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.1/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.1/semantic.min.js</a>]]></description>
+            <title><![CDATA[semantic-ui updated to version 1.7.2]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.2/semantic.min.js</a>]]></description>
             <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.7.1</guid>
+            <guid isPermaLink="false">semantic-ui1.7.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 Jan 2015 20:59:04 GMT</pubDate>
+            <pubDate>Fri, 16 Jan 2015 02:48:40 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[rxjs updated to version 2.3.23]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.23/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.23/rx.min.js</a>]]></description>
+            <title><![CDATA[rxjs updated to version 2.3.24]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.24/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.3.24/rx.min.js</a>]]></description>
             <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.3.23</guid>
+            <guid isPermaLink="false">rxjs2.3.24</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 Jan 2015 20:58:29 GMT</pubDate>
+            <pubDate>Fri, 16 Jan 2015 02:48:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone.babysitter updated to version 0.1.6]]></title>
