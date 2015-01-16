@@ -10,10 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 16 Jan 2015 10:18:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Jan 2015 10:33:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[geojson2svg updated to version 0.1.3]]></title>
+            <description><![CDATA[Converts geojson to svg/path string given svg viewport size and maps extent.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/geojson2svg/0.1.3/geojson2svg.min.js">//cdnjs.cloudflare.com/ajax/libs/geojson2svg/0.1.3/geojson2svg.min.js</a>]]></description>
+            <guid isPermaLink="false">geojson2svg0.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 Jan 2015 10:22:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.3.8]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.8/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.8/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.3.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 Jan 2015 10:21:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.26.0]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.26.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.26.0/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.26.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 Jan 2015 10:20:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.7.1]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.7.1/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.7.1/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 Jan 2015 10:19:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mori updated to version 0.3.2]]></title>
+            <description><![CDATA[ClojureScript's persistent data structures and supporting API from the comfort of vanilla JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mori/0.3.2/mori.js">//cdnjs.cloudflare.com/ajax/libs/mori/0.3.2/mori.js</a>]]></description>
+            <link>http://swannodette.github.io/mori/</link>
+            <guid isPermaLink="false">mori0.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 16 Jan 2015 10:18:24 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.7.2]]></title>
             <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.2/semantic.min.js</a>]]></description>
@@ -69,13 +108,6 @@
             <guid isPermaLink="false">angular-azure-mobile-service1.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 15 Jan 2015 16:27:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[geojson2svg updated to version 0.1.2]]></title>
-            <description><![CDATA[Converts geojson to svg/path string given svg viewport size and maps extent.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/geojson2svg/0.1.2/geojson2svg.min.js">//cdnjs.cloudflare.com/ajax/libs/geojson2svg/0.1.2/geojson2svg.min.js</a>]]></description>
-            <guid isPermaLink="false">geojson2svg0.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 Jan 2015 16:09:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dom4 updated to version 1.2.1]]></title>
@@ -198,14 +230,6 @@
             <pubDate>Tue, 13 Jan 2015 13:43:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bluebird updated to version 2.6.4]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.4/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.6.4/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 09:29:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[immutable updated to version 3.6.2]]></title>
             <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.2/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.2/immutable.min.js</a>]]></description>
             <link>https://github.com/facebook/immutable-js</link>
@@ -267,14 +291,6 @@
             <guid isPermaLink="false">angular-moment0.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 12 Jan 2015 04:22:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webtorrent updated to version 0.25.0]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.25.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.25.0/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.25.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 12 Jan 2015 04:22:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[valjs updated to version 0.8]]></title>
