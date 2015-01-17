@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 Jan 2015 05:48:13 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2015 06:03:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -818,14 +818,6 @@
             <guid isPermaLink="false">webshim1.15.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 Jan 2015 06:13:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[interact.js(1.2.1) was added]]></title>
-            <description><![CDATA[Drag and drop, resizing and multi-touch gestures with inertia and snapping for modern browsers (and also IE8+)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.1/interact.min.js">//cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.1/interact.min.js</a>]]></description>
-            <link>http://interactjs.io</link>
-            <guid isPermaLink="false">interact.js1.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 05:54:24 GMT</pubDate>
         </item>
     </channel>
 </rss>
