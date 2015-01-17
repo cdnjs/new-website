@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 Jan 2015 06:18:11 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2015 06:33:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -794,22 +794,6 @@
             <guid isPermaLink="false">jsface2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 Jan 2015 06:34:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[JQuery-Snowfall(1.7.4) was added]]></title>
-            <description><![CDATA[Make it snow on you page or elements<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/JQuery-Snowfall/1.7.4/snowfall.jquery.min.js">//cdnjs.cloudflare.com/ajax/libs/JQuery-Snowfall/1.7.4/snowfall.jquery.min.js</a>]]></description>
-            <link>https://github.com/loktar00/JQuery-Snowfall</link>
-            <guid isPermaLink="false">JQuery-Snowfall1.7.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 06:23:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[drawer(2.2.2) was added]]></title>
-            <description><![CDATA[A small CSS3 and jQuery plugin for app style drawer menu.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/drawer/2.2.2/js/jquery.drawer.min.js">//cdnjs.cloudflare.com/ajax/libs/drawer/2.2.2/js/jquery.drawer.min.js</a>]]></description>
-            <link>http://git.blivesta.com/drawer</link>
-            <guid isPermaLink="false">drawer2.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 06:15:47 GMT</pubDate>
         </item>
     </channel>
 </rss>
