@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 Jan 2015 04:33:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2015 04:48:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -834,38 +834,6 @@
             <guid isPermaLink="false">helium-css1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 Jan 2015 05:08:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[orb updated to version 1.0.6]]></title>
-            <description><![CDATA[Pivot grid javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/orb/1.0.6/orb.min.js">//cdnjs.cloudflare.com/ajax/libs/orb/1.0.6/orb.min.js</a>]]></description>
-            <link>http://nnajm.github.io/orb/</link>
-            <guid isPermaLink="false">orb1.0.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 04:34:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsonld updated to version 0.3.19]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.19/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.19/jsonld.min.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.19</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 04:34:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[devicons updated to version 1.7.0]]></title>
-            <description><![CDATA[An iconic font made for developers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/devicons/1.7.0/css/devicons.min.css">//cdnjs.cloudflare.com/ajax/libs/devicons/1.7.0/css/devicons.min.css</a>]]></description>
-            <link>http://vorillaz.github.io/devicons/</link>
-            <guid isPermaLink="false">devicons1.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 04:32:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[breezejs updated to version 1.5.2]]></title>
-            <description><![CDATA[BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.2/breeze.min.js">//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.2/breeze.min.js</a>]]></description>
-            <link>http://www.getbreezenow.com/</link>
-            <guid isPermaLink="false">breezejs1.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 04:31:56 GMT</pubDate>
         </item>
     </channel>
 </rss>
