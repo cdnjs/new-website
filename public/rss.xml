@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 Jan 2015 18:03:10 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2015 18:18:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -786,14 +786,6 @@
             <guid isPermaLink="false">rome1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 04 Jan 2015 17:44:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.radio updated to version 0.8.4]]></title>
-            <description><![CDATA[The semantic messaging system for Backbone applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.4/backbone.radio.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.4/backbone.radio.min.js</a>]]></description>
-            <link>https://github.com/jmeas/backbone.radio</link>
-            <guid isPermaLink="false">backbone.radio0.8.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 17:03:06 GMT</pubDate>
         </item>
     </channel>
 </rss>
