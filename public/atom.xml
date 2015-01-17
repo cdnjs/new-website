@@ -10,10 +10,41 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 Jan 2015 07:03:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2015 07:18:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[awesome-bootstrap-checkbox updated to version 0.2.3]]></title>
+            <description><![CDATA[Font Awesome Bootstrap Checkboxes & Radios. Pure css way to make inputs look prettier.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.2.3/awesome-bootstrap-checkbox.min.css">//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.2.3/awesome-bootstrap-checkbox.min.css</a>]]></description>
+            <link>http://awesome-bootstrap-checkbox.okendoken.com/demo/index.html</link>
+            <guid isPermaLink="false">awesome-bootstrap-checkbox0.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 17 Jan 2015 06:58:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-context-menu updated to version 1.0.1]]></title>
+            <description><![CDATA[An AngularJS directive to display a context menu when a right-click event is triggered<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-context-menu/1.0.1/ng-context-menu.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-context-menu/1.0.1/ng-context-menu.min.js</a>]]></description>
+            <guid isPermaLink="false">ng-context-menu1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 17 Jan 2015 06:55:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-sortable updated to version 0.13.2]]></title>
+            <description><![CDATA[This directive allows you to jQueryUI Sortable.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.2/sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.2/sortable.min.js</a>]]></description>
+            <link>http://angular-ui.github.com</link>
+            <guid isPermaLink="false">angular-ui-sortable0.13.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 17 Jan 2015 06:53:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[msl-client-browser updated to version 1.0.6]]></title>
+            <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.6/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.6/mockapi-browser.min.js</a>]]></description>
+            <link>http://finraos.github.io/MSL</link>
+            <guid isPermaLink="false">msl-client-browser1.0.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 17 Jan 2015 06:49:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[three.js updated to version r70]]></title>
             <description><![CDATA[three.js is a lightweight 3D library with a very low level of complexity. The library provides <canvas>, <svg> and WebGL renderers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js">//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js</a>]]></description>
@@ -68,21 +99,6 @@
             <guid isPermaLink="false">mori0.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 Jan 2015 10:18:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-context-menu(v1.0.1) was added]]></title>
-            <description><![CDATA[An AngularJS directive to display a context menu when a right-click event is triggered<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-context-menu/v1.0.1/ng-context-menu.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-context-menu/v1.0.1/ng-context-menu.min.js</a>]]></description>
-            <guid isPermaLink="false">ng-context-menuv1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 08:46:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[awesome-bootstrap-checkbox(v0.2.3) was added]]></title>
-            <description><![CDATA[Font Awesome Bootstrap Checkboxes & Radios. Pure css way to make inputs look prettier.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/v0.2.3/awesome-bootstrap-checkbox.min.css">//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/v0.2.3/awesome-bootstrap-checkbox.min.css</a>]]></description>
-            <link>http://awesome-bootstrap-checkbox.okendoken.com/demo/index.html</link>
-            <guid isPermaLink="false">awesome-bootstrap-checkboxv0.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 03:02:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.7.2]]></title>
