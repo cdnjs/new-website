@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 Jan 2015 09:33:15 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2015 09:48:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.7.3]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.3/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.3/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.7.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 17 Jan 2015 09:35:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[awesome-bootstrap-checkbox updated to version 0.2.3]]></title>
             <description><![CDATA[Font Awesome Bootstrap Checkboxes & Radios. Pure css way to make inputs look prettier.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.2.3/awesome-bootstrap-checkbox.min.css">//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.2.3/awesome-bootstrap-checkbox.min.css</a>]]></description>
@@ -99,14 +107,6 @@
             <guid isPermaLink="false">mori0.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 Jan 2015 10:18:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.7.2]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.2/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.7.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 02:48:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rxjs updated to version 2.3.24]]></title>
