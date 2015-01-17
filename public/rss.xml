@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 17 Jan 2015 06:33:13 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Jan 2015 06:48:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -778,22 +778,6 @@
             <guid isPermaLink="false">backbone.radio0.8.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 03 Jan 2015 17:03:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[markdown-it(2.2.1) was added]]></title>
-            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/2.2.1/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/2.2.1/markdown-it.min.js</a>]]></description>
-            <link>https://github.com/markdown-it/markdown-it</link>
-            <guid isPermaLink="false">markdown-it2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 06:42:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsface(2.3.0) was added]]></title>
-            <description><![CDATA[Small, fast, elegant, powerful, and cross platform JavaScript OOP library. Support main, singleton, super call, private, mixins, plugins, AOP and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsface/2.3.0/jsface.min.js">//cdnjs.cloudflare.com/ajax/libs/jsface/2.3.0/jsface.min.js</a>]]></description>
-            <link>https://github.com/tnhu/jsface</link>
-            <guid isPermaLink="false">jsface2.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 03 Jan 2015 06:34:04 GMT</pubDate>
         </item>
     </channel>
 </rss>
