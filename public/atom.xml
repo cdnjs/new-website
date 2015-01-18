@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 Jan 2015 10:03:14 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jan 2015 10:18:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[Ladda updated to version 0.9.7]]></title>
+            <description><![CDATA[Buttons with built-in loading indicators<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.7/ladda.min.js">//cdnjs.cloudflare.com/ajax/libs/Ladda/0.9.7/ladda.min.js</a>]]></description>
+            <link>http://lab.hakim.se/ladda</link>
+            <guid isPermaLink="false">Ladda0.9.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 18 Jan 2015 10:05:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[markdown-it updated to version 3.0.4]]></title>
+            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.4/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.4/markdown-it.min.js</a>]]></description>
+            <link>https://github.com/markdown-it/markdown-it</link>
+            <guid isPermaLink="false">markdown-it3.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 18 Jan 2015 10:04:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rome updated to version 2.0.3]]></title>
+            <description><![CDATA[Customizable date (and time) picker. Opt-in UI, no jQuery!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rome/2.0.3/rome.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/rome/2.0.3/rome.standalone.min.js</a>]]></description>
+            <link>https://github.com/bevacqua/rome</link>
+            <guid isPermaLink="false">rome2.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 18 Jan 2015 09:58:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[motajs(0.3.9) was added]]></title>
             <description><![CDATA[JavaScript library that aims to allow the developer to easily build web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motajs/0.3.9/mota.min.js">//cdnjs.cloudflare.com/ajax/libs/motajs/0.3.9/mota.min.js</a>]]></description>
@@ -889,14 +913,6 @@
             <guid isPermaLink="false">less.js2.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 05 Jan 2015 04:37:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rome(1.2.1) was added]]></title>
-            <description><![CDATA[Customizable date (and time) picker. Opt-in UI, no jQuery!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rome/1.2.1/rome.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/rome/1.2.1/rome.standalone.min.js</a>]]></description>
-            <link>https://github.com/bevacqua/rome</link>
-            <guid isPermaLink="false">rome1.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 04 Jan 2015 17:44:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
