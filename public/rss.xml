@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 Jan 2015 01:03:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jan 2015 01:18:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[vis updated to version 3.9.0]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.9.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.9.0/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis3.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 18 Jan 2015 01:03:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.7.3]]></title>
             <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.3/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.3/semantic.min.js</a>]]></description>
@@ -394,14 +402,6 @@
             <guid isPermaLink="false">speakingurl0.20.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 18:48:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vis updated to version 3.8.0]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.8.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.8.0/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis3.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 18:47:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[codemirror updated to version 4.11.0]]></title>
