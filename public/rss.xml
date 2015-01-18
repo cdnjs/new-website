@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 Jan 2015 08:18:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jan 2015 08:33:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[motajs(0.3.9) was added]]></title>
+            <description><![CDATA[JavaScript library that aims to allow the developer to easily build web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motajs/0.3.9/mota.min.js">//cdnjs.cloudflare.com/ajax/libs/motajs/0.3.9/mota.min.js</a>]]></description>
+            <link>http://motapc97.github.io/motajs/</link>
+            <guid isPermaLink="false">motajs0.3.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 18 Jan 2015 08:16:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[fuelux updated to version 3.5.0]]></title>
             <description><![CDATA[Extends Twitter Bootstrap with additional lightweight JavaScript controls.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuelux/3.5.0/js/fuelux.min.js">//cdnjs.cloudflare.com/ajax/libs/fuelux/3.5.0/js/fuelux.min.js</a>]]></description>
