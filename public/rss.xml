@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 18 Jan 2015 17:33:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jan 2015 17:48:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[select2 updated to version 3.5.2]]></title>
+            <description><![CDATA[Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. Look and feel of Select2 is based on the excellent Chosen library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js">//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js</a>]]></description>
+            <link>http://ivaynberg.github.com/select2/</link>
+            <guid isPermaLink="false">select23.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 18 Jan 2015 17:09:59 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[social-likes updated to version 3.0.11]]></title>
             <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.11/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.11/social-likes.min.js</a>]]></description>
