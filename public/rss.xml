@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Jan 2015 12:48:12 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2015 13:03:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1073,14 +1073,6 @@
             <guid isPermaLink="false">jstree3.0.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 06 Jan 2015 08:15:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.22.2]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.22.2/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.22.2/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.22.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 05 Jan 2015 12:47:44 GMT</pubDate>
         </item>
     </channel>
 </rss>
