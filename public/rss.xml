@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Jan 2015 04:48:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2015 05:03:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[d3plus updated to version 1.6.9]]></title>
+            <description><![CDATA[Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.9/d3plus.min.js">//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.9/d3plus.min.js</a>]]></description>
+            <link>http://www.d3plus.org</link>
+            <guid isPermaLink="false">d3plus1.6.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 Jan 2015 04:44:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.8.0]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.8.0/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.8.0/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 Jan 2015 04:44:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[select2 updated to version 3.5.2]]></title>
             <description><![CDATA[Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. Look and feel of Select2 is based on the excellent Chosen library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js">//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js</a>]]></description>
@@ -466,14 +482,6 @@
             <pubDate>Fri, 16 Jan 2015 10:20:40 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bluebird updated to version 2.7.1]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.7.1/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.7.1/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 10:19:49 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[mori updated to version 0.3.2]]></title>
             <description><![CDATA[ClojureScript's persistent data structures and supporting API from the comfort of vanilla JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mori/0.3.2/mori.js">//cdnjs.cloudflare.com/ajax/libs/mori/0.3.2/mori.js</a>]]></description>
             <link>http://swannodette.github.io/mori/</link>
@@ -831,14 +839,6 @@
             <pubDate>Sun, 11 Jan 2015 16:35:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[d3plus updated to version 1.6.8]]></title>
-            <description><![CDATA[Data visualization made easy. A javascript library that extends the popular D3.js to enable fast and beautiful visualizations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.8/d3plus.min.js">//cdnjs.cloudflare.com/ajax/libs/d3plus/1.6.8/d3plus.min.js</a>]]></description>
-            <link>http://www.d3plus.org</link>
-            <guid isPermaLink="false">d3plus1.6.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:34:17 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-ui-date updated to version 0.0.7]]></title>
             <description><![CDATA[This directive allows you to add a date-picker to your form elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.7/date.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.7/date.min.js</a>]]></description>
             <link>http://angular-ui.github.com/ui-date</link>
@@ -1081,22 +1081,6 @@
             <guid isPermaLink="false">es6-shim0.22.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 05 Jan 2015 12:47:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-clip updated to version 0.2.6]]></title>
-            <description><![CDATA[Copy to clipboard using AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.6/ng-clip.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-clip/0.2.6/ng-clip.min.js</a>]]></description>
-            <link>https://github.com/asafdav/ng-clip</link>
-            <guid isPermaLink="false">ng-clip0.2.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 05 Jan 2015 04:38:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[less.js updated to version 2.2.0]]></title>
-            <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.2.0/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.2.0/less.min.js</a>]]></description>
-            <link>http://lesscss.org/</link>
-            <guid isPermaLink="false">less.js2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 05 Jan 2015 04:37:40 GMT</pubDate>
         </item>
     </channel>
 </rss>
