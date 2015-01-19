@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Jan 2015 18:03:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Jan 2015 18:18:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[webfont updated to version 1.5.12]]></title>
+            <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.12/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.12/webfontloader.js</a>]]></description>
+            <link>http://code.google.com/apis/webfonts/docs/webfont_loader.html</link>
+            <guid isPermaLink="false">webfont1.5.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 Jan 2015 18:06:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[twitter-bootstrap updated to version 3.3.2]]></title>
+            <description><![CDATA[The most popular front-end framework for developing responsive, mobile first projects on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js</a>]]></description>
+            <link>http://getbootstrap.com/</link>
+            <guid isPermaLink="false">twitter-bootstrap3.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 Jan 2015 18:02:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.googlemap(1.4.2) was added]]></title>
             <description><![CDATA[A jQuery Plugin allows you to easely manipulate the Google Map API. You are now able to create maps, add some markers and create routes.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.googlemap/1.4.2/jquery.googlemap.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.googlemap/1.4.2/jquery.googlemap.min.js</a>]]></description>
@@ -400,14 +416,6 @@
             <guid isPermaLink="false">angular.js1.3.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 Jan 2015 06:07:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webfont updated to version 1.5.11]]></title>
-            <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.11/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.11/webfontloader.js</a>]]></description>
-            <link>http://code.google.com/apis/webfonts/docs/webfont_loader.html</link>
-            <guid isPermaLink="false">webfont1.5.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 06:00:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[wow updated to version 1.0.3]]></title>
