@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Jan 2015 02:03:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2015 02:18:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[Swiper(2.7.5) was added]]></title>
+            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/2.7.5/idangerous.swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/2.7.5/idangerous.swiper.min.js</a>]]></description>
+            <link>http://www.idangero.us/sliders/swiper</link>
+            <guid isPermaLink="false">Swiper2.7.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 19 Jan 2015 21:48:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[webfont updated to version 1.5.12]]></title>
             <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.12/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.12/webfontloader.js</a>]]></description>
