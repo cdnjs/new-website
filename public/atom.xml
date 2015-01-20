@@ -10,10 +10,98 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Jan 2015 04:18:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2015 04:33:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[chartist updated to version 0.6.0]]></title>
+            <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.6.0/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.6.0/chartist.min.js</a>]]></description>
+            <link>https://gionkunz.github.io/chartist-js</link>
+            <guid isPermaLink="false">chartist0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:14:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-datetimepicker updated to version 4.0.0]]></title>
+            <description><![CDATA[Date/time picker widget for Twitter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.0.0/js/bootstrap-datetimepicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.0.0/js/bootstrap-datetimepicker.min.js</a>]]></description>
+            <link>http://eonasdan.github.io/bootstrap-datetimepicker/</link>
+            <guid isPermaLink="false">bootstrap-datetimepicker4.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:13:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Swiper updated to version 2.7.5]]></title>
+            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/2.7.5/idangerous.swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/2.7.5/idangerous.swiper.min.js</a>]]></description>
+            <link>http://www.idangero.us/sliders/swiper</link>
+            <guid isPermaLink="false">Swiper2.7.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:12:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[social-likes updated to version 3.0.12]]></title>
+            <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.12/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.12/social-likes.min.js</a>]]></description>
+            <link>http://sapegin.github.io/social-likes/</link>
+            <guid isPermaLink="false">social-likes3.0.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:11:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tablesort updated to version 2.2.0]]></title>
+            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/2.2.0/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/2.2.0/tablesort.min.js</a>]]></description>
+            <link>http://tristen.ca/tablesort/demo/</link>
+            <guid isPermaLink="false">tablesort2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:11:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[textAngular updated to version 1.3.0-23]]></title>
+            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.0-23/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.0-23/dist/textAngular.min.js</a>]]></description>
+            <link>http://textAngular.com</link>
+            <guid isPermaLink="false">textAngular1.3.0-23</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:10:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[c3 updated to version 0.4.9]]></title>
+            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.9/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.9/c3.min.js</a>]]></description>
+            <link>http://c3js.org</link>
+            <guid isPermaLink="false">c30.4.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:10:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[valjs updated to version 1.0]]></title>
+            <description><![CDATA[Another jQuery Form Validation plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/valjs/1.0/jquery.valjs.min.js">//cdnjs.cloudflare.com/ajax/libs/valjs/1.0/jquery.valjs.min.js</a>]]></description>
+            <link>http://valjs.io</link>
+            <guid isPermaLink="false">valjs1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:09:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webshim updated to version 1.15.6]]></title>
+            <description><![CDATA[modular capability-based polyfill loading libary, which extends jQuery with HTML5 features in legacy browsers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.6/minified/polyfiller.js">//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.6/minified/polyfiller.js</a>]]></description>
+            <link>http://afarkas.github.com/webshim/demos/index.html</link>
+            <guid isPermaLink="false">webshim1.15.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:09:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sweetalert updated to version 0.4.0]]></title>
+            <description><![CDATA[A beautiful replacement for JavaScript's alert.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.4.0/sweet-alert.min.js">//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.4.0/sweet-alert.min.js</a>]]></description>
+            <link>http://tristanedwards.me/sweetalert</link>
+            <guid isPermaLink="false">sweetalert0.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:08:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[subkit updated to version 1.1.13]]></title>
+            <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.13/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.13/subkit.min.js</a>]]></description>
+            <link>https://github.com/subkit/subkit.js</link>
+            <guid isPermaLink="false">subkit1.1.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:08:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[gridstack.js updated to version 0.2.2]]></title>
             <description><![CDATA[gridstack.js is a jQuery plugin for widget layout. This is drag-and-drop multi-column grid.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.2/gridstack.min.js">//cdnjs.cloudflare.com/ajax/libs/gridstack.js/0.2.2/gridstack.min.js</a>]]></description>
@@ -21,14 +109,6 @@
             <guid isPermaLink="false">gridstack.js0.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 Jan 2015 03:29:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Swiper(2.7.5) was added]]></title>
-            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/2.7.5/idangerous.swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/2.7.5/idangerous.swiper.min.js</a>]]></description>
-            <link>http://www.idangero.us/sliders/swiper</link>
-            <guid isPermaLink="false">Swiper2.7.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 19 Jan 2015 21:48:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[webfont updated to version 1.5.12]]></title>
@@ -109,27 +189,11 @@
             <pubDate>Sun, 18 Jan 2015 17:09:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[social-likes updated to version 3.0.11]]></title>
-            <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.11/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.11/social-likes.min.js</a>]]></description>
-            <link>http://sapegin.github.io/social-likes/</link>
-            <guid isPermaLink="false">social-likes3.0.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 16:57:39 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[tinysort updated to version 2.1.1]]></title>
             <description><![CDATA[TinySort<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinysort/2.1.1/tinysort.min.js">//cdnjs.cloudflare.com/ajax/libs/tinysort/2.1.1/tinysort.min.js</a>]]></description>
             <guid isPermaLink="false">tinysort2.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 Jan 2015 16:55:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tablesort updated to version 2.1.0]]></title>
-            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/2.1.0/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/2.1.0/tablesort.min.js</a>]]></description>
-            <link>http://tristen.ca/tablesort/demo/</link>
-            <guid isPermaLink="false">tablesort2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 16:53:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.postcodify updated to version 2.3.0]]></title>
@@ -146,14 +210,6 @@
             <guid isPermaLink="false">jquery.mb.YTPlayer2.7.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 Jan 2015 16:53:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[textAngular updated to version 1.3.0-22]]></title>
-            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.0-22/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.0-22/dist/textAngular.min.js</a>]]></description>
-            <link>http://textAngular.com</link>
-            <guid isPermaLink="false">textAngular1.3.0-22</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 16:52:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mojio-js updated to version 2.2.5]]></title>
@@ -576,14 +632,6 @@
             <pubDate>Thu, 15 Jan 2015 17:46:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[chartist updated to version 0.5.0]]></title>
-            <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.5.0/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.5.0/chartist.min.js</a>]]></description>
-            <link>https://gionkunz.github.io/chartist-js</link>
-            <guid isPermaLink="false">chartist0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 Jan 2015 16:29:01 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-ui-bootstrap updated to version 0.12.0]]></title>
             <description><![CDATA[Native AngularJS (Angular) directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.0/ui-bootstrap-tpls.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.0/ui-bootstrap-tpls.min.js</a>]]></description>
             <link>http://angular-ui.github.io/bootstrap/</link>
@@ -757,14 +805,6 @@
             <guid isPermaLink="false">angular-moment0.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 12 Jan 2015 04:22:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[valjs updated to version 0.8]]></title>
-            <description><![CDATA[Another jQuery Form Validation plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/valjs/0.8/jquery.valjs.min.js">//cdnjs.cloudflare.com/ajax/libs/valjs/0.8/jquery.valjs.min.js</a>]]></description>
-            <link>http://valjs.io</link>
-            <guid isPermaLink="false">valjs0.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 21:33:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.swipebox updated to version 1.3.0.2]]></title>
@@ -981,14 +1021,6 @@
             <pubDate>Fri, 09 Jan 2015 04:31:10 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[subkit updated to version 1.1.1]]></title>
-            <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.1/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.1/subkit.min.js</a>]]></description>
-            <link>https://github.com/subkit/subkit.js</link>
-            <guid isPermaLink="false">subkit1.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 08 Jan 2015 08:41:11 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[pubnub updated to version 3.7.7]]></title>
             <description><![CDATA[PubNub, a new kind of Cloud-Hosted Broadcasting Service for Mass Communication.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pubnub/3.7.7/pubnub.min.js">//cdnjs.cloudflare.com/ajax/libs/pubnub/3.7.7/pubnub.min.js</a>]]></description>
             <link>http://www.pubnub.com/</link>
@@ -1041,14 +1073,6 @@
             <guid isPermaLink="false">angular-carousel0.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 07 Jan 2015 10:50:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[c3 updated to version 0.4.8]]></title>
-            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.js</a>]]></description>
-            <link>http://c3js.org</link>
-            <guid isPermaLink="false">c30.4.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 07 Jan 2015 10:33:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-scroll(0.6.4) was added]]></title>
