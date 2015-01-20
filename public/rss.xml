@@ -10,10 +10,41 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Jan 2015 07:18:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2015 07:33:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[machina.js updated to version 0.4.3]]></title>
+            <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.3/machina.min.js">//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.3/machina.min.js</a>]]></description>
+            <link>http://machina-js.org/</link>
+            <guid isPermaLink="false">machina.js0.4.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 07:27:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lazysizes updated to version 0.8.1]]></title>
+            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.8.1/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.8.1/lazysizes.min.js</a>]]></description>
+            <guid isPermaLink="false">lazysizes0.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 07:26:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.8.1]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.8.1/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.8.1/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 07:26:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-sortable updated to version 0.13.3]]></title>
+            <description><![CDATA[This directive allows you to jQueryUI Sortable.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.3/sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.3/sortable.min.js</a>]]></description>
+            <link>http://angular-ui.github.com</link>
+            <guid isPermaLink="false">angular-ui-sortable0.13.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 07:26:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[chartist updated to version 0.6.0]]></title>
             <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.6.0/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.6.0/chartist.min.js</a>]]></description>
@@ -143,13 +174,6 @@
             <pubDate>Mon, 19 Jan 2015 16:18:43 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[lazysizes updated to version 0.8.0]]></title>
-            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.8.0/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.8.0/lazysizes.min.js</a>]]></description>
-            <guid isPermaLink="false">lazysizes0.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 19 Jan 2015 16:18:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[socket.io updated to version 1.3.2]]></title>
             <description><![CDATA[Browser-side code for Socket.IO. Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.2/socket.io.min.js">//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.2/socket.io.min.js</a>]]></description>
             <link>http://socket.io</link>
@@ -171,14 +195,6 @@
             <guid isPermaLink="false">d3plus1.6.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 19 Jan 2015 04:44:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bluebird updated to version 2.8.0]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.8.0/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.8.0/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 19 Jan 2015 04:44:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[select2 updated to version 3.5.2]]></title>
@@ -537,14 +553,6 @@
             <pubDate>Sat, 17 Jan 2015 06:55:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-ui-sortable updated to version 0.13.2]]></title>
-            <description><![CDATA[This directive allows you to jQueryUI Sortable.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.2/sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.2/sortable.min.js</a>]]></description>
-            <link>http://angular-ui.github.com</link>
-            <guid isPermaLink="false">angular-ui-sortable0.13.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 17 Jan 2015 06:53:19 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[msl-client-browser updated to version 1.0.6]]></title>
             <description><![CDATA[Browser Client for MSL (Mock Service Layer)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.6/mockapi-browser.min.js">//cdnjs.cloudflare.com/ajax/libs/msl-client-browser/1.0.6/mockapi-browser.min.js</a>]]></description>
             <link>http://finraos.github.io/MSL</link>
@@ -710,14 +718,6 @@
             <guid isPermaLink="false">maquette1.4.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 Jan 2015 16:52:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[machina.js updated to version 0.4.1]]></title>
-            <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.1/machina.min.js">//cdnjs.cloudflare.com/ajax/libs/machina.js/0.4.1/machina.min.js</a>]]></description>
-            <link>http://machina-js.org/</link>
-            <guid isPermaLink="false">machina.js0.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 14 Jan 2015 16:52:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bacon.js updated to version 0.7.42]]></title>
