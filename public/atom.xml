@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Jan 2015 08:18:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Jan 2015 08:33:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1112,22 +1112,6 @@
             <guid isPermaLink="false">bootstrap-material-design0.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 06 Jan 2015 10:31:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[floatthead updated to version 1.2.10]]></title>
-            <description><![CDATA[locking table headers without special css<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.10/jquery.floatThead.min.js">//cdnjs.cloudflare.com/ajax/libs/floatthead/1.2.10/jquery.floatThead.min.js</a>]]></description>
-            <link>https://github.com/mkoryak/floatThead</link>
-            <guid isPermaLink="false">floatthead1.2.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 Jan 2015 08:18:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sass.js updated to version 0.6.1]]></title>
-            <description><![CDATA[Sass parser in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.1/sass.min.js">//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.1/sass.min.js</a>]]></description>
-            <link>https://github.com/medialize/sass.js</link>
-            <guid isPermaLink="false">sass.js0.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 06 Jan 2015 08:16:24 GMT</pubDate>
         </item>
     </channel>
 </rss>
