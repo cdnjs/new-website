@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Jan 2015 05:48:15 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2015 06:03:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1081,14 +1081,6 @@
             <guid isPermaLink="false">angular-carousel0.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 07 Jan 2015 10:50:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-scroll(0.6.4) was added]]></title>
-            <description><![CDATA[Scrollspy, animated scrollTo and scroll events<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.4/angular-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.4/angular-scroll.min.js</a>]]></description>
-            <link>https://github.com/oblador/angular-scroll</link>
-            <guid isPermaLink="false">angular-scroll0.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 07 Jan 2015 05:53:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
