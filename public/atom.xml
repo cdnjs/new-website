@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Jan 2015 16:18:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2015 16:33:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[underscore.string updated to version 3.0.1]]></title>
+            <description><![CDATA[Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.1/underscore.string.min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.1/underscore.string.min.js</a>]]></description>
+            <link>http://epeli.github.com/underscore.string/</link>
+            <guid isPermaLink="false">underscore.string3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 21 Jan 2015 16:11:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.matchHeight(0.5.2) was added]]></title>
             <description><![CDATA[A more robust equal heights plugin for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.5.2/jquery.matchHeight-min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.5.2/jquery.matchHeight-min.js</a>]]></description>
@@ -535,14 +543,6 @@
             <guid isPermaLink="false">underscore.js1.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 Jan 2015 07:03:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[underscore.string updated to version 3.0.0]]></title>
-            <description><![CDATA[Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.0/underscore.string.min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.0/underscore.string.min.js</a>]]></description>
-            <link>http://epeli.github.com/underscore.string/</link>
-            <guid isPermaLink="false">underscore.string3.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 06:57:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[clappr(0.0.91) was added]]></title>
