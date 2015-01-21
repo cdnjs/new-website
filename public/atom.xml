@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Jan 2015 10:48:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2015 11:03:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1129,21 +1129,6 @@
             <guid isPermaLink="false">bootstrap-switch3.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 07 Jan 2015 16:43:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-table(0.3.3) was added]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-table/0.3.3/ng-table.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-table/0.3.3/ng-table.min.js</a>]]></description>
-            <guid isPermaLink="false">ng-table0.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 07 Jan 2015 10:55:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-carousel(0.1.0) was added]]></title>
-            <description><![CDATA[Angular Carousel - Mobile friendly touch carousel for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.1.0/angular-carousel.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.1.0/angular-carousel.min.js</a>]]></description>
-            <link>http://revolunet.github.com/angular-carousel</link>
-            <guid isPermaLink="false">angular-carousel0.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 07 Jan 2015 10:50:27 GMT</pubDate>
         </item>
     </channel>
 </rss>
