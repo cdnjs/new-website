@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Jan 2015 18:03:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2015 18:18:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1106,21 +1106,6 @@
             <guid isPermaLink="false">pubnub3.7.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 07 Jan 2015 22:31:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[screenfull.js updated to version 2.0.0]]></title>
-            <description><![CDATA[Simple wrapper for cross-browser usage of the JavaScript Fullscreen API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.min.js">//cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.min.js</a>]]></description>
-            <link>https://github.com/sindresorhus/screenfull.js</link>
-            <guid isPermaLink="false">screenfull.js2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 07 Jan 2015 18:10:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[veinjs(0.3) was added]]></title>
-            <description><![CDATA[Injects CSS into the document (it's a perfectly legal procedure)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/veinjs/0.3/vein.min.js">//cdnjs.cloudflare.com/ajax/libs/veinjs/0.3/vein.min.js</a>]]></description>
-            <guid isPermaLink="false">veinjs0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 07 Jan 2015 18:05:20 GMT</pubDate>
         </item>
     </channel>
 </rss>
