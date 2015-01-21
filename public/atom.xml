@@ -10,10 +10,57 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Jan 2015 07:18:19 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2015 07:33:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[meny(1.4.0) was added]]></title>
+            <description><![CDATA[A three dimensional and space effecient menu<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/meny/1.4.0/meny.min.js">//cdnjs.cloudflare.com/ajax/libs/meny/1.4.0/meny.min.js</a>]]></description>
+            <link>http://lab.hakim.se/meny/</link>
+            <guid isPermaLink="false">meny1.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 21 Jan 2015 07:12:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[hammer.js updated to version 2.0.4]]></title>
+            <description><![CDATA[A javascript library for multi-touch gestures :// You can touch this <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js">//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js</a>]]></description>
+            <link>http://eightmedia.github.com/hammer.js/</link>
+            <guid isPermaLink="false">hammer.js2.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 21 Jan 2015 06:55:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.businessHours(0.0.1) was added]]></title>
+            <description><![CDATA[jQuery plugin allows you to easy show & manage business hours<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.businessHours/0.0.1/jquery.businessHours.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.businessHours/0.0.1/jquery.businessHours.min.js</a>]]></description>
+            <link>http://gendelf.github.io/jquery.businessHours/</link>
+            <guid isPermaLink="false">jquery.businessHours0.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 21 Jan 2015 06:44:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[buckets(1.81) was added]]></title>
+            <description><![CDATA[Buckets is a complete, fully tested and documented data structure library written in pure JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/buckets/1.81/buckets-minified.js">//cdnjs.cloudflare.com/ajax/libs/buckets/1.81/buckets-minified.js</a>]]></description>
+            <guid isPermaLink="false">buckets1.81</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 21 Jan 2015 06:39:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nicescroll updated to version 3.6.0]]></title>
+            <description><![CDATA[Nicescroll is a jquery plugin, for nice customizabled scrollbars with a very similar ios/mobile style. It supports DIVs, IFrames and document page (body) scrollbars. Compatible with Firefox 4+, Chrome 5+, Safari 4+ (win/mac), Opera 10+, IE 6+ (all A-grade browsers). Compatible with iOS devices as iPad, Android, Blackberry, Windows Phone, and many many mobile and touch devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nicescroll/3.6.0/jquery.nicescroll.min.js">//cdnjs.cloudflare.com/ajax/libs/nicescroll/3.6.0/jquery.nicescroll.min.js</a>]]></description>
+            <link>https://github.com/inuyaksa/jquery.nicescroll</link>
+            <guid isPermaLink="false">nicescroll3.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 21 Jan 2015 06:31:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.nicescroll updated to version 3.6.0]]></title>
+            <description><![CDATA[Nicescroll is a jquery plugin, for nice customizabled scrollbars with a very similar ios/mobile style. It supports DIVs, IFrames and document page (body) scrollbars. Compatible with Firefox 4+, Chrome 5+, Safari 4+ (win/mac), Opera 10+, IE 6+ (all A-grade browsers). Compatible with iOS devices as iPad, Android, Blackberry, Windows Phone, and many many mobile and touch devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.0/jquery.nicescroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.0/jquery.nicescroll.min.js</a>]]></description>
+            <link>https://github.com/inuyaksa/jquery.nicescroll</link>
+            <guid isPermaLink="false">jquery.nicescroll3.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 21 Jan 2015 06:31:16 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular.js updated to version 1.3.10]]></title>
             <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.10/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.10/angular.min.js</a>]]></description>
@@ -1035,14 +1082,6 @@
             <guid isPermaLink="false">pubnub3.7.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 07 Jan 2015 22:31:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[hammer.js updated to version 2.0.4]]></title>
-            <description><![CDATA[A javascript library for multi-touch gestures :// You can touch this <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js">//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js</a>]]></description>
-            <link>http://eightmedia.github.com/hammer.js/</link>
-            <guid isPermaLink="false">hammer.js2.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 07 Jan 2015 21:57:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[screenfull.js updated to version 2.0.0]]></title>
