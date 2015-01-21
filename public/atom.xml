@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 21 Jan 2015 07:33:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2015 07:48:24 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery-json(2.5.1) was added]]></title>
+            <description><![CDATA[jQuery plugin for serialising to and parsing from JSON.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-json/2.5.1/jquery.json.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-json/2.5.1/jquery.json.min.js</a>]]></description>
+            <link>https://github.com/Krinkle/jquery-json</link>
+            <guid isPermaLink="false">jquery-json2.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 21 Jan 2015 07:21:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[meny(1.4.0) was added]]></title>
             <description><![CDATA[A three dimensional and space effecient menu<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/meny/1.4.0/meny.min.js">//cdnjs.cloudflare.com/ajax/libs/meny/1.4.0/meny.min.js</a>]]></description>
