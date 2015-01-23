@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 Jan 2015 00:03:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Jan 2015 00:18:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[m8tro-bootstrap updated to version 3.3.2]]></title>
+            <description><![CDATA[Bootstrap theme inspired by Windows Modern UI (aka Metro)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.2/m8tro.min.css">//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.2/m8tro.min.css</a>]]></description>
+            <link>http://idleberg.github.io/m8tro-bootstrap/</link>
+            <guid isPermaLink="false">m8tro-bootstrap3.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 22 Jan 2015 22:32:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.payment updated to version 1.2.1]]></title>
             <description><![CDATA[A general purpose library for building credit card forms, validating inputs and formatting numbers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.1/jquery.payment.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.1/jquery.payment.min.js</a>]]></description>
@@ -1082,14 +1090,6 @@
             <guid isPermaLink="false">skeleton2.0.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 10 Jan 2015 02:53:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[m8tro-bootstrap(3.3.1) was added]]></title>
-            <description><![CDATA[Modern UI-inspired Bootstrap theme<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.1/m8tro.min.css">//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.1/m8tro.min.css</a>]]></description>
-            <link>http://idleberg.github.io/m8tro-bootstrap/</link>
-            <guid isPermaLink="false">m8tro-bootstrap3.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 09 Jan 2015 14:29:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[fabric.js updated to version 1.4.13]]></title>
