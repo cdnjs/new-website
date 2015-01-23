@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 Jan 2015 04:33:24 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Jan 2015 04:48:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1090,14 +1090,6 @@
             <guid isPermaLink="false">skeleton2.0.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 10 Jan 2015 02:53:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fabric.js updated to version 1.4.13]]></title>
-            <description><![CDATA[A powerful and simple Javascript canvas library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fabric.js/1.4.13/fabric.min.js">//cdnjs.cloudflare.com/ajax/libs/fabric.js/1.4.13/fabric.min.js</a>]]></description>
-            <link>http://fabricjs.com/</link>
-            <guid isPermaLink="false">fabric.js1.4.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 09 Jan 2015 04:31:10 GMT</pubDate>
         </item>
     </channel>
 </rss>
