@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 23 Jan 2015 08:03:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Jan 2015 08:18:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-md5(0.1.7) was added]]></title>
+            <description><![CDATA[A md5 crypto component for Angular.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-md5/0.1.7/angular-md5.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-md5/0.1.7/angular-md5.min.js</a>]]></description>
+            <link>https://github.com/gdi2290/angular-md5</link>
+            <guid isPermaLink="false">angular-md50.1.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 23 Jan 2015 08:03:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[textAngular updated to version 1.3.1]]></title>
             <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.1/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.1/dist/textAngular.min.js</a>]]></description>
