@@ -82,3 +82,8 @@ register:
   create-button: アカウント作成
   already-have-an-account: 既にアカウントを持っていますか？ <a href="login">ここからログイン</a>
   userapp-description: *userapp-description
+
+profile:
+  favorites: お気に入り
+  library: ライブラリ
+  link: リンク

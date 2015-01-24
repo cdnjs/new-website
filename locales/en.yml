@@ -82,3 +82,8 @@ register:
   create-button: Create my account
   already-have-an-account: Already have an account? <a href="login">Log in</a>
   userapp-description: *userapp-description
+
+profile:
+  favorites: Favorites
+  library: Library
+  link: Link

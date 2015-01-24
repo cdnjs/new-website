@@ -321,7 +321,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
             page: {
               template: templates.profile,
               data: data
-            }
+            },
+            language: parseLanguage(req.headers.host)
           }));
 
         });
