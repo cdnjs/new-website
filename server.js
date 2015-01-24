@@ -186,10 +186,20 @@ var generatePage = function (options) {
   return fullContent;
 
 }
+
 var setCache = function (res, hours) {
   res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours); // 4 days
   res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
 }
+
+var parseLanguage = function (host) {
+  var splitHost = host.split('.');
+  for(var lang in locales) {
+    if(splitHost[0] === lang) return lang;
+  }
+  return 'en';
+}
+
 MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
   /*
@@ -207,7 +217,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       page: {
         template: templates.home,
         data: {packages: LIBRARIES}
-      }
+      },
+      language: parseLanguage(req.headers.host)
     }));
   });
 
