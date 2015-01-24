@@ -484,11 +484,12 @@ var options = {
         doc.timeago = timeago(new Date(doc.posted_at));
       });
       res.send(generatePage({
-        title: 'news feed - community status updates from cdnjs.com',
+        title: 'news feed - ',
         page: {
           template: templates.newsfeed,
           data: {updates: docs.reverse()}
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     });
   });
@@ -512,12 +513,13 @@ var options = {
         doc.user = disqusSignon(disqusUser);
       }
       res.send(generatePage({
-        title: description + ' - cdnjs.com',
+        title: description,
         page: {
           description: description,
           template: templates.newsfeed_item,
           data: doc
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     });
   }

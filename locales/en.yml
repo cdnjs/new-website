@@ -48,3 +48,18 @@ librarypage:
 news:
   title: news
   latest-tweets: Latest Tweets
+
+newsfeed:
+  post-an-update: Post an update
+  login-or-register: <a href="/login">Login</a> or <a href="/register">register</a> to post a status update
+  rules: Rules
+  rule1: Feel free to promote your own projects, ask for feedback or say anything you feel like
+  rule2: Keep your updates relevant to the web development industry
+  rule3: You may only post <strong>one</strong> news item a day
+  rule4: Limited to 200 characters, use url shorteners!
+  chat: *chat
+  join-the-cdnjs: Join the cdnjs
+  community-chat: community chat
+  latest-updates: Latest updates
+  comments: Comments
+  posted: Posted

@@ -48,3 +48,18 @@ librarypage:
 news:
   title: ニュース
   latest-tweets: 最近のツイート
+
+newsfeed:
+  post-an-update: アップデートを投稿する
+  login-or-register: ステータスを投稿するために <a href="/login">ログインする</a> もしくは <a href="/register">登録する</a>
+  rules: ルール
+  rule1: 気軽に自分のプロジェクトを宣伝したり、フィードバックをもらったりなんでも好きなことを言う
+  rule2: ウェブ開発業界に関連するあなたの更新を保ち続ける
+  rule3: あなたは1日 <strong>1つだけ</strong> ニュースを投稿できる
+  rule4: 上限は200文字で URL は短縮される
+  chat: *chat
+  join-the-cdnjs: cdnjs に参加しよう
+  community-chat: コミュニティチャット
+  latest-updates: 最近のアップデート
+  comments: コメント
+  posted: '投稿時:'
