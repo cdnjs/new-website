@@ -10,10 +10,82 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Jan 2015 14:03:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2015 14:18:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[metrics-graphics updated to version 2.1.0]]></title>
+            <description><![CDATA[A library optimized for concise, principled data graphics and layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.1.0/metricsgraphics.min.js">//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.1.0/metricsgraphics.min.js</a>]]></description>
+            <link>http://metricsgraphicsjs.org</link>
+            <guid isPermaLink="false">metrics-graphics2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2015 13:52:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fluidbox updated to version 1.4.3]]></title>
+            <description><![CDATA[Replicating Medium's beautiful, minimalist lightbox module<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.3/jquery.fluidbox.min.js">//cdnjs.cloudflare.com/ajax/libs/fluidbox/1.4.3/jquery.fluidbox.min.js</a>]]></description>
+            <link>https://github.com/terrymun/Fluidbox</link>
+            <guid isPermaLink="false">fluidbox1.4.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2015 13:42:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-material updated to version 0.7.0]]></title>
+            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0/angular-material.min.css</a>]]></description>
+            <link>https://material.angularjs.org/</link>
+            <guid isPermaLink="false">angular-material0.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2015 13:42:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[orb updated to version 1.0.7]]></title>
+            <description><![CDATA[Pivot grid javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/orb/1.0.7/orb.min.js">//cdnjs.cloudflare.com/ajax/libs/orb/1.0.7/orb.min.js</a>]]></description>
+            <link>http://nnajm.github.io/orb/</link>
+            <guid isPermaLink="false">orb1.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2015 13:28:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[postal.js updated to version 0.12.4]]></title>
+            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.4/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/0.12.4/postal.min.js</a>]]></description>
+            <link>http://github.com/postaljs/postal.js</link>
+            <guid isPermaLink="false">postal.js0.12.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2015 13:27:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[motajs updated to version 0.4.2]]></title>
+            <description><![CDATA[JavaScript library that aims to allow the developer to easily build web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motajs/0.4.2/mota.min.js">//cdnjs.cloudflare.com/ajax/libs/motajs/0.4.2/mota.min.js</a>]]></description>
+            <link>http://motapc97.github.io/motajs/</link>
+            <guid isPermaLink="false">motajs0.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2015 13:27:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[kineticjs updated to version 5.2.0]]></title>
+            <description><![CDATA[KineticJS is an HTML5 Canvas JavaScript framework that enables high performance animations, transitions, node nesting, layering, filtering, caching, event handling for desktop and mobile applications, and much more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.min.js">//cdnjs.cloudflare.com/ajax/libs/kineticjs/5.2.0/kinetic.min.js</a>]]></description>
+            <link>http://kineticjs.com/</link>
+            <guid isPermaLink="false">kineticjs5.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2015 13:27:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jshint updated to version 2.6.0]]></title>
+            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.6.0/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.6.0/jshint.js</a>]]></description>
+            <link>http://jshint.com/</link>
+            <guid isPermaLink="false">jshint2.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2015 13:26:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[breezejs updated to version 1.5.3]]></title>
+            <description><![CDATA[BreezeJS is a JavaScript library for managing data in data rich-client HTML/JS applications. Core features include client-side querying, caching, change-tracking, validation, batch saves.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.3/breeze.min.js">//cdnjs.cloudflare.com/ajax/libs/breezejs/1.5.3/breeze.min.js</a>]]></description>
+            <link>http://www.getbreezenow.com/</link>
+            <guid isPermaLink="false">breezejs1.5.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 24 Jan 2015 13:26:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[codemirror updated to version 4.12.0]]></title>
             <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.12.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.12.0/codemirror.min.js</a>]]></description>
@@ -339,14 +411,6 @@
             <guid isPermaLink="false">jquery.googlemap1.4.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 19 Jan 2015 17:50:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[motajs updated to version 0.4.0]]></title>
-            <description><![CDATA[JavaScript library that aims to allow the developer to easily build web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motajs/0.4.0/mota.min.js">//cdnjs.cloudflare.com/ajax/libs/motajs/0.4.0/mota.min.js</a>]]></description>
-            <link>http://motapc97.github.io/motajs/</link>
-            <guid isPermaLink="false">motajs0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 19 Jan 2015 16:18:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[socket.io updated to version 1.3.2]]></title>
@@ -807,14 +871,6 @@
             <pubDate>Thu, 15 Jan 2015 06:42:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-material updated to version 0.7.0-rc3]]></title>
-            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0-rc3/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0-rc3/angular-material.min.css</a>]]></description>
-            <link>https://material.angularjs.org/</link>
-            <guid isPermaLink="false">angular-material0.7.0-rc3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 Jan 2015 06:38:15 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-css updated to version 1.0.6]]></title>
             <description><![CDATA[CSS on-demand for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.6/angular-css.js">//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.6/angular-css.js</a>]]></description>
             <link>http://door3.github.io/angular-css</link>
@@ -988,14 +1044,6 @@
             <guid isPermaLink="false">moment.js2.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 16:41:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[kineticjs updated to version 5.1.9]]></title>
-            <description><![CDATA[KineticJS is an HTML5 Canvas JavaScript framework that enables high performance animations, transitions, node nesting, layering, filtering, caching, event handling for desktop and mobile applications, and much more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kineticjs/5.1.9/kinetic.min.js">//cdnjs.cloudflare.com/ajax/libs/kineticjs/5.1.9/kinetic.min.js</a>]]></description>
-            <link>http://kineticjs.com/</link>
-            <guid isPermaLink="false">kineticjs5.1.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:41:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jxon updated to version 1.2.1]]></title>
