@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Jan 2015 17:03:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2015 17:18:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -85,6 +85,14 @@
             <guid isPermaLink="false">breezejs1.5.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 24 Jan 2015 13:26:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[riot(2.0.1) was added]]></title>
+            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.1/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.1/riot.min.js</a>]]></description>
+            <link>https://muut.com/riotjs/</link>
+            <guid isPermaLink="false">riot2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 23 Jan 2015 19:53:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[codemirror updated to version 4.12.0]]></title>
