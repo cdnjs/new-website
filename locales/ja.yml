@@ -21,7 +21,7 @@ about:
   maintainers: メンテナー
   sponsors: スポンサー
   cloudflare-description: CloudFlare はオープンソース、CDNJS のようなコミュニティ主導のプロジェクトはインターネットの未来が構築される際のツールであると信じています。CloudFlare は未来を助けるグローバルな CDN のインフラを提供することを誇りに思います。
-  userapp-description: 私たちのシステムは UserApp の支援を受けています。UserApp は、ユーザ管理機能を提供しておりこれによりより高速な開発、高速な収入、より多くのユーザ、そしてあなたのユーザにより良いサービスを提供します。
+  userapp-description: &userapp-description 私たちのシステムは UserApp の支援を受けています。UserApp は、ユーザ管理機能を提供しておりこれによりより高速な開発、高速な収入、より多くのユーザ、そしてあなたのユーザにより良いサービスを提供します。
   algolia-description: Algolia はデベロッパーフレンドリーなデータベース検索の SaaS API を提供しています。これはどんなウェブサイトやモバイルアプリケーションでも簡単にインスタントで関連性の高い検索を可能にします。Algolia 独自の検索により、ユーザはほんの数回のキー入力で探しているものを見つけることができます。
   media: メディア
   translations: 各国言語版
@@ -63,3 +63,11 @@ newsfeed:
   latest-updates: 最近のアップデート
   comments: コメント
   posted: '投稿時:'
+
+login:
+  title: cdnjs にログインする
+  description: あなたの <strong>お気に入り</strong> を保存して簡単にアクセスできるようにしよう | 重要なシステムの <strong>通知</strong> を受け取ろう | <strong>公開プロフィール</strong> を作成してシェアしよう
+  username: ユーザ名
+  password: パスワード
+  dont-have-an-account: アカウントを持っていませんか？ <a href="/register">今すぐ登録しましょう</a>
+  userapp-description: *userapp-description

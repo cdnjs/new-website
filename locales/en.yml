@@ -21,7 +21,7 @@ about:
   maintainers: Maintainers
   sponsors: Sponsors
   cloudflare-description: At CloudFlare, we believe that open source, community-driven projects like CDNJS are the tools upon which the future of the internet will be built. CloudFlare is proud to provide the global CDN infrastructure that will help power that future.
-  userapp-description: Our user system is sponsored by UserApp. UserApp provides you with user management functionality that results in faster development, faster revenue, more users, and the ability to serve your users better by engaging with them more efficiently.
+  userapp-description: &userapp-description Our user system is sponsored by UserApp. UserApp provides you with user management functionality that results in faster development, faster revenue, more users, and the ability to serve your users better by engaging with them more efficiently.
   algolia-description: Algolia provides a developer-friendly SaaS API for database search. It enables any website or mobile application to easily provide its end-users with an instant and relevant search. With Algolia's unique find as you type experience, users can find what they're looking for in just a few keystrokes.
   media: Media
   translations: Translations
@@ -63,3 +63,11 @@ newsfeed:
   latest-updates: Latest updates
   comments: Comments
   posted: Posted
+
+login:
+  title: Login to cdnjs
+  description: Save your <strong>favorites</strong> for easy access | Receive important system <strong>notifications</strong> | Create your own <strong>public profile</strong> to share.
+  username: Username
+  password: Password
+  dont-have-an-account: Don't have an account? <a href="/register">register now</a>
+  userapp-description: *userapp-description
