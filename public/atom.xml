@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Jan 2015 03:18:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2015 03:33:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1091,13 +1091,6 @@
             <guid isPermaLink="false">jQuery.mmenu4.7.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 10 Jan 2015 03:46:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[snabbt.js(0.3.0) was added]]></title>
-            <description><![CDATA[Fast animations with javascript and CSS-transforms<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/snabbt.js/0.3.0/snabbt.min.js">//cdnjs.cloudflare.com/ajax/libs/snabbt.js/0.3.0/snabbt.min.js</a>]]></description>
-            <guid isPermaLink="false">snabbt.js0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 10 Jan 2015 03:17:33 GMT</pubDate>
         </item>
     </channel>
 </rss>
