@@ -87,3 +87,8 @@ profile:
   favorites: Favorites
   library: Library
   link: Link
+
+members:
+  title: Members - beta
+  community-members-and-growing: community members and growing
+  user: User

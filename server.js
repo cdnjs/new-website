@@ -394,7 +394,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
             current_page: page,
             page_nav: page_nav
           }
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     });
   }
