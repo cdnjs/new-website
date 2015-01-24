@@ -39,3 +39,12 @@ home:
   realtime-search: Realtime search by
   library: Library
   link: Link
+
+librarypage:
+  version: Version
+  recent-community-updates: Recent Community Updates
+  view-or-post: <a href="/news">View all</a> or <a href="/news">post your own</a>
+
+news:
+  title: news
+  latest-tweets: Latest Tweets

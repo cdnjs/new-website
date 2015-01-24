@@ -236,12 +236,13 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       var library = req.params.library.toLowerCase().replace(/\./g, '');
       console.log(library);
       res.send(generatePage({
-        title: library + ' - cdnjs.com - the missing cdn for javascript and css',
+        title: library + ' - ',
         page: {
           template: templates.library,
           data: {library: LIBRARIES_MAP[library], updates: docs},
           description: LIBRARIES_MAP[library] && LIBRARIES_MAP[library].description
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     });
   });
@@ -252,12 +253,13 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     var library = req.params.library.toLowerCase().replace(/\./g, '');
     T.get('search/tweets', { q: library, count: 100 }, function(err, data, response) {
       res.send(generatePage({
-        title: library + ' news - cdnjs.com - the missing cdn for javascript and css',
+        title: library + ' news - ',
         page: {
           template: templates.news,
           data: {statuses: data.statuses, library: LIBRARIES_MAP[library]},
           description: LIBRARIES_MAP[library].description
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     })
 

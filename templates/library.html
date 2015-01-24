@@ -24,7 +24,7 @@
       {{#library.assets}}
       <div data-library-version="{{version}}" class="assets panel panel-primary {{classes}}" style="display: none;">
         <div class="panel-heading">
-          <div class="panel-title" class="translateit">Version {{version}}</div>
+          <div class="panel-title">{{librarypage.version}} {{version}}</div>
         </div>
 
         <div class="panel-body">
@@ -46,8 +46,8 @@
 
       {{/library.assets}}
       <hr />
-      <h3 class="translateit">Recent Community Updates</h3>
-      <a href="/news">View all</a> or <a href="/news">post your own</a>
+      <h3>{{librarypage.recent-community-updates}}</h3>
+      {{{librarypage.view-or-post}}}
       <div style="clear: both;"></div>
       <hr />
       <ul style="margin: 0; padding: 0; list-style: none;">

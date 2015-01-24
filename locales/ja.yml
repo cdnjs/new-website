@@ -39,3 +39,12 @@ home:
   realtime-search: 'リアルタイム検索:'
   library: ライブラリ
   link: リンク
+
+librarypage:
+  version: バージョン
+  recent-community-updates: 最近のコミュニティアップデート
+  view-or-post: <a href="/news">全て見る</a> もしくは <a href="/news">投稿する</a>
+
+news:
+  title: ニュース
+  latest-tweets: 最近のツイート
