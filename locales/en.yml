@@ -1,11 +1,34 @@
-title: cdnjs.com - the missing cdn for javascript and css
-description: An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!
-add-a-library: Add a library
-about: About
-community: community
-job-board: Job Board
-chat: Chat
-login: Login
-logout: Logout
-register: Register
-profile: Profile
+layout:
+  title: cdnjs.com - the missing cdn for javascript and css
+  description: An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!
+  add-a-library: &add-a-library Add a library
+  about: About
+  community: community
+  job-board: Job Board
+  chat: &chat Chat
+  login: Login
+  logout: Logout
+  register: Register
+  profile: Profile
+about:
+  google-and-microsoft: Everyone loves the&nbsp;<a target="_blank" href="http://code.google.com/apis/libraries/devguide.html">Google CDN</a>&nbsp;right? Even&nbsp;<a href="http://www.asp.net/ajaxlibrary/cdn.ashx" target="_blank">Microsoft runs their own CDN</a>.
+  the-promblem: The problem is, they only host the most popular libraries.
+  we-host-it-all: We host it all - JavaScript, CSS, SWF, images, etc!
+  supports-http-https-spdy: Supports http/https/spdy, we encourage always using <strong>https</strong>!
+  currently-used-by: Currently used by ~320,000 websites worldwide(~500,000 in total), <a href="http://trends.builtwith.com/cdn/CDN-JS">see more</a>.
+  creators: Creators
+  maintainers: Maintainers
+  sponsors: Sponsors
+  cloudflare-description: At CloudFlare, we believe that open source, community-driven projects like CDNJS are the tools upon which the future of the internet will be built. CloudFlare is proud to provide the global CDN infrastructure that will help power that future.
+  userapp-description: Our user system is sponsored by UserApp. UserApp provides you with user management functionality that results in faster development, faster revenue, more users, and the ability to serve your users better by engaging with them more efficiently.
+  algolia-description: Algolia provides a developer-friendly SaaS API for database search. It enables any website or mobile application to easily provide its end-users with an instant and relevant search. With Algolia's unique find as you type experience, users can find what they're looking for in just a few keystrokes.
+  media: Media
+  translations: Translations
+  explore: Explore
+  add-a-library: *add-a-library
+  feedback: Feedback
+  our-network: Our network
+  uptime: Uptime
+  plugins: Plugins
+  chat: *chat
+  members: Members

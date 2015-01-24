@@ -404,7 +404,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       page: {
         template: templates.about,
         title: 'about - cdnjs.com - the missing cdn for javascript and css'
-      }
+      },
+      language: parseLanguage(req.headers.host)
     }));
   });
 

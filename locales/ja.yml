@@ -1,11 +1,34 @@
-title: cdnjs.com - Javascript と CSS のための今までになかった CDN
-description: jQuery や Modernizr から Bootstrap まで全てをホストする CloudFlare が支援する Javascript と CSS のオープンソース CDN です。cdnjs であなたのサイトをスピードアップ！
-add-a-library: ライブラリを追加
-about: このサイトについて
-community: コミュニティ
-job-board: ジョブボード
-chat: チャット
-login: ログイン
-logout: ログアウト
-register: 登録
-profile: プロフィール
+layout:
+  title: cdnjs.com - Javascript と CSS のための今までになかった CDN
+  description: jQuery や Modernizr から Bootstrap まで全てをホストする CloudFlare が支援する Javascript と CSS のオープンソース CDN です。cdnjs であなたのサイトをスピードアップ！
+  add-a-library: &add-a-library ライブラリを追加
+  about: このサイトについて
+  community: コミュニティ
+  job-board: ジョブボード
+  chat: &chat チャット
+  login: ログイン
+  logout: ログアウト
+  register: 登録
+  profile: プロフィール
+about:
+  google-and-microsoft: 皆さんは&nbsp;<a target="_blank" href="http://code.google.com/apis/libraries/devguide.html">Google CDN</a>&nbsp;が好きですよね？ 同じく&nbsp;<a href="http://www.asp.net/ajaxlibrary/cdn.ashx" target="_blank">Microsoft も自らの CDN を運営しています</a>。
+  the-promblem: 問題は、これらは有名なライブラリしかホストしていないことです。
+  we-host-it-all: 私たちは JavaScript, CSS, SWF, 画像, その他の全てをホストします。
+  supports-http-https-spdy: http/https/spdy をサポートしていますが、私たちは <strong>https</strong> を使うことを強く勧めます！
+  currently-used-by: 現在、320,000のウェブサイトで、全世界の合計で500,000のウェブサイトで使われています。<a href="http://trends.builtwith.com/cdn/CDN-JS">詳しくはこちら</a>。
+  creators: クリエイター
+  maintainers: メンテナー
+  sponsors: スポンサー
+  cloudflare-description: CloudFlare はオープンソース、CDNJS のようなコミュニティ主導のプロジェクトはインターネットの未来が構築される際のツールであると信じています。CloudFlare は未来を助けるグローバルな CDN のインフラを提供することを誇りに思います。
+  userapp-description: 私たちのシステムは UserApp の支援を受けています。UserApp は、ユーザ管理機能を提供しておりこれによりより高速な開発、高速な収入、より多くのユーザ、そしてあなたのユーザにより良いサービスを提供します。
+  algolia-description: Algolia はデベロッパーフレンドリーなデータベース検索の SaaS API を提供しています。これはどんなウェブサイトやモバイルアプリケーションでも簡単にインスタントで関連性の高い検索を可能にします。Algolia 独自の検索により、ユーザはほんの数回のキー入力で探しているものを見つけることができます。
+  media: メディア
+  translations: 各国言語版
+  explore: 探索
+  add-a-library: *add-a-library
+  feedback: フィードバック
+  our-network: グローバルネットワーク
+  uptime: アップタイム
+  plugins: プラグイン
+  chat: *chat
+  members: メンバー
