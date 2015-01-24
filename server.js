@@ -16,6 +16,7 @@ var BSON = mongo.BSONPure;
 var Hipchat = require('node-hipchat');
 var timeago = require('timeago');
 var compress = require('compression');
+var yaml = require('js-yaml');
 
 var user_app_token = process.env.USER_APP;
 var DISQUS_SECRET = process.env.DISQUS_SECRET;
@@ -154,18 +155,34 @@ var templates = {
   about: fs.readFileSync('templates/about.html', 'utf8')
 }
 
+// Locales
+var locales = {
+  en: yaml.load(fs.readFileSync('locales/en.yml', 'utf8')),
+  ja: yaml.load(fs.readFileSync('locales/ja.yml', 'utf8'))
+}
+
 var generatePage = function (options) {
   var layout = options.layout || templates.layout;
-  var title = options.title || 'cdnjs.com - the missing cdn for javascript and css'
-  var description = options.page && options.page.description || 'An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!'
+  var language = options.language || 'en';
+  var fullOption = locales[language];
+  if(options.title) {
+    fullOption.title = options.title + '-' + locales[language].title
+  }
+  if(options.page && options.page.description) {
+    fullOption.description = options.page.description
+  }
+  var pageData = locales[language]
+  if(options.page && options.page.data) {
+    pageData = _.extend(pageData, options.page.data)
+  }
 
   var page = {
-    data: options.page && options.page.data || {},
+    data: pageData,
     template: options.page && options.page.template || 'No content'
   }
-  var pageContent = Mustache.render(page.template, page.data);
+  fullOption.page = Mustache.render(page.template, page.data);
 
-  var fullContent = Mustache.render(layout, {title: title, description: description, page: pageContent});
+  var fullContent = Mustache.render(layout, fullOption);
   return fullContent;
 
 }
