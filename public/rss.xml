@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Jan 2015 04:33:23 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2015 04:48:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1075,14 +1075,6 @@
             <guid isPermaLink="false">Chart.js1.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 06:42:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[reveal.js updated to version 3.0.0]]></title>
-            <description><![CDATA[A framework for easily creating beautiful presentations using HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/js/reveal.min.js">//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.0.0/js/reveal.min.js</a>]]></description>
-            <link>http://lab.hakim.se/reveal-js/</link>
-            <guid isPermaLink="false">reveal.js3.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 10 Jan 2015 04:43:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
