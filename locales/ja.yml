@@ -10,6 +10,7 @@ layout:
   logout: ログアウト
   register: 登録
   profile: プロフィール
+
 about:
   google-and-microsoft: 皆さんは&nbsp;<a target="_blank" href="http://code.google.com/apis/libraries/devguide.html">Google CDN</a>&nbsp;が好きですよね？ 同じく&nbsp;<a href="http://www.asp.net/ajaxlibrary/cdn.ashx" target="_blank">Microsoft も自らの CDN を運営しています</a>。
   the-promblem: 問題は、これらは有名なライブラリしかホストしていないことです。
@@ -32,3 +33,9 @@ about:
   plugins: プラグイン
   chat: *chat
   members: メンバー
+
+home:
+  search-for: ライブラリから検索する
+  realtime-search: 'リアルタイム検索:'
+  library: ライブラリ
+  link: リンク
