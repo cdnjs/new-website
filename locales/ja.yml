@@ -66,9 +66,19 @@ newsfeed:
 
 login:
   title: cdnjs にログインする
-  description: あなたの <strong>お気に入り</strong> を保存して簡単にアクセスできるようにしよう | 重要なシステムの <strong>通知</strong> を受け取ろう | <strong>公開プロフィール</strong> を作成してシェアしよう
-  username: ユーザ名
-  password: パスワード
+  description: &description あなたの <strong>お気に入り</strong> を保存して簡単にアクセスできるようにしよう | 重要なシステムの <strong>通知</strong> を受け取ろう | <strong>公開プロフィール</strong> を作成してシェアしよう
+  username: &username ユーザ名
+  password: &password パスワード
   dont-have-an-account: アカウントを持っていませんか？ <a href="/register">今すぐ登録しましょう</a>
   userapp-description: *userapp-description
   button: ログイン
+
+register:
+  title: cdnjs にサインアップする
+  description: *description
+  username: *username
+  email: メールアドレス
+  password: *password
+  create-button: アカウント作成
+  already-have-an-account: 既にアカウントを持っていますか？ <a href="login">ここからログイン</a>
+  userapp-description: *userapp-description

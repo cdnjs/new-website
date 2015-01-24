@@ -66,9 +66,19 @@ newsfeed:
 
 login:
   title: Login to cdnjs
-  description: Save your <strong>favorites</strong> for easy access | Receive important system <strong>notifications</strong> | Create your own <strong>public profile</strong> to share.
-  username: Username
-  password: Password
+  description: &description Save your <strong>favorites</strong> for easy access | Receive important system <strong>notifications</strong> | Create your own <strong>public profile</strong> to share.
+  username: &username Username
+  password: &password Password
   dont-have-an-account: Don't have an account? <a href="/register">register now</a>
   userapp-description: *userapp-description
   button: Log in
+
+register:
+  title: Sign up for cdnjs
+  description: *description
+  username: *username
+  email: Email address
+  password: *password
+  create-button: Create my account
+  already-have-an-account: Already have an account? <a href="login">Log in</a>
+  userapp-description: *userapp-description

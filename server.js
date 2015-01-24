@@ -351,7 +351,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     res.send(generatePage({
       page: {
         template: templates.register
-      }
+      },
+      language: parseLanguage(req.headers.host)
     }));
   });
 
