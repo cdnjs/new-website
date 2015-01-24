@@ -71,3 +71,4 @@ login:
   password: パスワード
   dont-have-an-account: アカウントを持っていませんか？ <a href="/register">今すぐ登録しましょう</a>
   userapp-description: *userapp-description
+  button: ログイン

@@ -71,3 +71,4 @@ login:
   password: Password
   dont-have-an-account: Don't have an account? <a href="/register">register now</a>
   userapp-description: *userapp-description
+  button: Log in
