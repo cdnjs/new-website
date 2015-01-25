@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 25 Jan 2015 16:48:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Jan 2015 17:03:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1076,37 +1076,6 @@
             <guid isPermaLink="false">speakingurl0.20.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 18:48:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[localforage updated to version 1.2.1]]></title>
-            <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/1.2.1/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/1.2.1/localforage.min.js</a>]]></description>
-            <link>https://github.com/mozilla/localForage</link>
-            <guid isPermaLink="false">localforage1.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:41:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment.js updated to version 2.9.0]]></title>
-            <description><![CDATA[A lightweight (4.3k) javascript date library for parsing, manipulating, and formatting dates.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js">//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js</a>]]></description>
-            <link>http://momentjs.com/</link>
-            <guid isPermaLink="false">moment.js2.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:41:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jxon updated to version 1.2.1]]></title>
-            <description><![CDATA[A complete, bidirectional, JXON library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jxon/1.2.1/index.js">//cdnjs.cloudflare.com/ajax/libs/jxon/1.2.1/index.js</a>]]></description>
-            <guid isPermaLink="false">jxon1.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:40:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.imagesloaded updated to version 3.1.8]]></title>
-            <description><![CDATA[jQuery plugin that triggers a callback after all images have been loaded<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.1.8/imagesloaded.pkgd.min.js</a>]]></description>
-            <link>http://desandro.github.com/imagesloaded/</link>
-            <guid isPermaLink="false">jquery.imagesloaded3.1.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 16:40:15 GMT</pubDate>
         </item>
     </channel>
 </rss>
