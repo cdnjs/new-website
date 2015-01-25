@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 25 Jan 2015 05:18:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Jan 2015 05:33:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[font-awesome updated to version 4.3.0]]></title>
+            <description><![CDATA[Font Awesome<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css</a>]]></description>
+            <link>http://fontawesome.io/</link>
+            <guid isPermaLink="false">font-awesome4.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 25 Jan 2015 05:15:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[sass.js updated to version 0.6.2]]></title>
+            <description><![CDATA[Sass parser in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.2/sass.min.js">//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.2/sass.min.js</a>]]></description>
+            <link>https://github.com/medialize/sass.js</link>
+            <guid isPermaLink="false">sass.js0.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 25 Jan 2015 04:46:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[parsley.js updated to version 2.0.7]]></title>
+            <description><![CDATA[Validate your forms without writing a single line of javascript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.7/parsley.min.js">//cdnjs.cloudflare.com/ajax/libs/parsley.js/2.0.7/parsley.min.js</a>]]></description>
+            <link>http://parsleyjs.org/</link>
+            <guid isPermaLink="false">parsley.js2.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 25 Jan 2015 04:46:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[froala-editor updated to version 1.2.5]]></title>
+            <description><![CDATA[A beautiful jQuery WYSIWYG text editor based on HTML5 technology. Cross browser, with mobile support, high performance and Retina Ready flat design.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.5/js/froala_editor.min.js">//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.5/js/froala_editor.min.js</a>]]></description>
+            <link>http://editor.froala.com/</link>
+            <guid isPermaLink="false">froala-editor1.2.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 25 Jan 2015 04:45:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[metrics-graphics updated to version 2.1.0]]></title>
             <description><![CDATA[A library optimized for concise, principled data graphics and layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.1.0/metricsgraphics.min.js">//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.1.0/metricsgraphics.min.js</a>]]></description>
