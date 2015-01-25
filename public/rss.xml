@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 25 Jan 2015 06:33:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Jan 2015 06:48:13 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1147,22 +1147,6 @@
             <guid isPermaLink="false">Vague.js0.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 06:45:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-markdown updated to version 2.8.0]]></title>
-            <description><![CDATA[A bootstrap plugin for markdown editing<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.8.0/js/bootstrap-markdown.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.8.0/js/bootstrap-markdown.js</a>]]></description>
-            <link>https://github.com/toopay/bootstrap-markdown</link>
-            <guid isPermaLink="false">bootstrap-markdown2.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 06:45:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Chart.js updated to version 1.0.1]]></title>
-            <description><![CDATA[Simple HTML5 Charts using the canvas element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js">//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.1/Chart.min.js</a>]]></description>
-            <link>http://www.chartjs.org</link>
-            <guid isPermaLink="false">Chart.js1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 06:42:56 GMT</pubDate>
         </item>
     </channel>
 </rss>
