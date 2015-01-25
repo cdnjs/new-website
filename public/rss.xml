@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 25 Jan 2015 18:48:13 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Jan 2015 19:03:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1052,30 +1052,6 @@
             <guid isPermaLink="false">yasqe2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 11 Jan 2015 20:20:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pouchdb updated to version 3.2.1]]></title>
-            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.2.1/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.2.1/pouchdb.min.js</a>]]></description>
-            <link>http://pouchdb.com/</link>
-            <guid isPermaLink="false">pouchdb3.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 18:48:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pixi.js updated to version 2.2.3]]></title>
-            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.3/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.3/pixi.js</a>]]></description>
-            <link>http://goodboydigital.com/</link>
-            <guid isPermaLink="false">pixi.js2.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 18:48:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[speakingurl updated to version 0.20.0]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.20.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.20.0/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.20.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 11 Jan 2015 18:48:25 GMT</pubDate>
         </item>
     </channel>
 </rss>
