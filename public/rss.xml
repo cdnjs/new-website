@@ -10,17 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 26 Jan 2015 11:33:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2015 11:48:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[dot(1.0.3) was added]]></title>
+            <title><![CDATA[dot updated to version 1.0.3]]></title>
             <description><![CDATA[doT is the he fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dot/1.0.3/doT.min.js">//cdnjs.cloudflare.com/ajax/libs/dot/1.0.3/doT.min.js</a>]]></description>
             <link>http://olado.github.io/doT/</link>
             <guid isPermaLink="false">dot1.0.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 26 Jan 2015 09:21:13 GMT</pubDate>
+            <pubDate>Mon, 26 Jan 2015 09:48:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[shaka-player(1.1.0) was added]]></title>
