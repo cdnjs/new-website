@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 26 Jan 2015 16:33:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2015 16:48:48 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1061,13 +1061,6 @@
             <guid isPermaLink="false">ol33.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 01:44:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-mixpanel(1.0.0) was added]]></title>
-            <description><![CDATA[Wraps the mixpanel JavaScript global to make it injectable and aid in testing<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-mixpanel/1.0.0/angular-mixpanel.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-mixpanel/1.0.0/angular-mixpanel.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-mixpanel1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 12 Jan 2015 15:19:18 GMT</pubDate>
         </item>
     </channel>
 </rss>
