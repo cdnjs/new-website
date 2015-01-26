@@ -10,10 +10,66 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 26 Jan 2015 02:48:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2015 03:03:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jsxgraph updated to version 0.99.1]]></title>
+            <description><![CDATA[JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.1/jsxgraphcore.js">//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.1/jsxgraphcore.js</a>]]></description>
+            <link>http://jsxgraph.org/</link>
+            <guid isPermaLink="false">jsxgraph0.99.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 26 Jan 2015 02:27:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.8.0]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.0/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 26 Jan 2015 02:26:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[underscore.string updated to version 3.0.2]]></title>
+            <description><![CDATA[Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.2/underscore.string.min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.2/underscore.string.min.js</a>]]></description>
+            <link>http://epeli.github.com/underscore.string/</link>
+            <guid isPermaLink="false">underscore.string3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 26 Jan 2015 02:21:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mermaid updated to version 0.3.3]]></title>
+            <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.3/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.3/mermaid.full.min.js</a>]]></description>
+            <link>https://github.com/knsv/mermaid</link>
+            <guid isPermaLink="false">mermaid0.3.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 26 Jan 2015 02:21:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[drawer updated to version 2.3.0]]></title>
+            <description><![CDATA[A small CSS3 and jQuery plugin for app style drawer menu.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/drawer/2.3.0/js/jquery.drawer.min.js">//cdnjs.cloudflare.com/ajax/libs/drawer/2.3.0/js/jquery.drawer.min.js</a>]]></description>
+            <link>http://git.blivesta.com/drawer</link>
+            <guid isPermaLink="false">drawer2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 26 Jan 2015 02:20:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[riot updated to version 2.0.2]]></title>
+            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.2/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.2/riot.min.js</a>]]></description>
+            <link>https://muut.com/riotjs/</link>
+            <guid isPermaLink="false">riot2.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 26 Jan 2015 02:20:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-switch updated to version 3.3.2]]></title>
+            <description><![CDATA[Turn checkboxes and radio buttons in toggle switches.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/js/bootstrap-switch.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/js/bootstrap-switch.min.js</a>]]></description>
+            <link>http://www.bootstrap-switch.org</link>
+            <guid isPermaLink="false">bootstrap-switch3.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 26 Jan 2015 02:06:50 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[gsap updated to version 1.15.1]]></title>
             <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js">//cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js</a>]]></description>
@@ -127,14 +183,6 @@
             <pubDate>Sat, 24 Jan 2015 13:26:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[riot(2.0.1) was added]]></title>
-            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.1/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.1/riot.min.js</a>]]></description>
-            <link>https://muut.com/riotjs/</link>
-            <guid isPermaLink="false">riot2.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 23 Jan 2015 19:53:08 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[codemirror updated to version 4.12.0]]></title>
             <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.12.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.12.0/codemirror.min.js</a>]]></description>
             <link>http://codemirror.net</link>
@@ -229,14 +277,6 @@
             <guid isPermaLink="false">jquery.payment1.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 22 Jan 2015 06:37:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[underscore.string updated to version 3.0.1]]></title>
-            <description><![CDATA[Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.1/underscore.string.min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.1/underscore.string.min.js</a>]]></description>
-            <link>http://epeli.github.com/underscore.string/</link>
-            <guid isPermaLink="false">underscore.string3.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 21 Jan 2015 16:11:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.matchHeight(0.5.2) was added]]></title>
@@ -554,14 +594,6 @@
             <pubDate>Sun, 18 Jan 2015 16:40:24 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[mermaid updated to version 0.3.2]]></title>
-            <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.2/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.2/mermaid.full.min.js</a>]]></description>
-            <link>https://github.com/knsv/mermaid</link>
-            <guid isPermaLink="false">mermaid0.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 16:40:01 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[velocity updated to version 1.2.1]]></title>
             <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.min.js</a>]]></description>
             <link>http://velocityjs.org</link>
@@ -584,14 +616,6 @@
             <guid isPermaLink="false">fullcalendar2.2.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 Jan 2015 16:37:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[drawer updated to version 2.2.3]]></title>
-            <description><![CDATA[A small CSS3 and jQuery plugin for app style drawer menu.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/drawer/2.2.3/js/jquery.drawer.min.js">//cdnjs.cloudflare.com/ajax/libs/drawer/2.2.3/js/jquery.drawer.min.js</a>]]></description>
-            <link>http://git.blivesta.com/drawer</link>
-            <guid isPermaLink="false">drawer2.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 16:36:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[buzz updated to version 1.1.8]]></title>
@@ -767,14 +791,6 @@
             <guid isPermaLink="false">vis3.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 Jan 2015 01:03:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.7.3]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.3/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.7.3/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.7.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 17 Jan 2015 09:35:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[awesome-bootstrap-checkbox updated to version 0.2.3]]></title>
