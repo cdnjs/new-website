@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Jan 2015 01:48:17 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2015 02:03:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1061,14 +1061,6 @@
             <guid isPermaLink="false">toastr.js2.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 02:44:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ol3 updated to version 3.1.1]]></title>
-            <description><![CDATA[OpenLayers is a JavaScript library for building map applications on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.1.1/ol.min.js">//cdnjs.cloudflare.com/ajax/libs/ol3/3.1.1/ol.min.js</a>]]></description>
-            <link>http://openlayers.org/</link>
-            <guid isPermaLink="false">ol33.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 01:44:57 GMT</pubDate>
         </item>
     </channel>
 </rss>
