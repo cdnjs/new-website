@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Jan 2015 21:03:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2015 21:18:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1005,14 +1005,6 @@
             <guid isPermaLink="false">bacon.js0.7.42</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 Jan 2015 16:52:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[amplifyjs updated to version 1.1.2]]></title>
-            <description><![CDATA[AmplifyJS is a set of components designed to solve common web application problems with a simplistic API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js">//cdnjs.cloudflare.com/ajax/libs/amplifyjs/1.1.2/amplify.min.js</a>]]></description>
-            <link>http://amplifyjs.com/</link>
-            <guid isPermaLink="false">amplifyjs1.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 21:05:39 GMT</pubDate>
         </item>
     </channel>
 </rss>
