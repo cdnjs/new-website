@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Jan 2015 02:48:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2015 03:03:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1053,14 +1053,6 @@
             <guid isPermaLink="false">angular-loading-bar0.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 04:59:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[toastr.js updated to version 2.1.0]]></title>
-            <description><![CDATA[ToastrJS is a JavaScript library for Gnome / Growl type non-blocking notifications. jQuery is required. The goal is to create a simple core library that can be customized and extended.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.0/js/toastr.min.js">//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.0/js/toastr.min.js</a>]]></description>
-            <link>http://www.toastrjs.com</link>
-            <guid isPermaLink="false">toastr.js2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 02:44:37 GMT</pubDate>
         </item>
     </channel>
 </rss>
