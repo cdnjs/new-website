@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Jan 2015 09:33:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2015 09:48:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1029,14 +1029,6 @@
             <guid isPermaLink="false">algoliasearch2.8.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 13:43:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[immutable updated to version 3.6.2]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.2/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.2/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 09:28:19 GMT</pubDate>
         </item>
     </channel>
 </rss>
