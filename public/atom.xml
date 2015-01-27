@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Jan 2015 20:33:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2015 20:48:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1013,14 +1013,6 @@
             <guid isPermaLink="false">amplifyjs1.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 13 Jan 2015 21:05:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment-timezone updated to version 0.3.0]]></title>
-            <description><![CDATA[Timezone plugin for Moment.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.3.0/moment-timezone.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.3.0/moment-timezone.min.js</a>]]></description>
-            <link>http://momentjs.com/timezone</link>
-            <guid isPermaLink="false">moment-timezone0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 13 Jan 2015 20:37:21 GMT</pubDate>
         </item>
     </channel>
 </rss>
