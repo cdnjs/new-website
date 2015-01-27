@@ -10,10 +10,73 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 27 Jan 2015 05:18:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Jan 2015 05:33:30 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jsxgraph updated to version 0.99.3]]></title>
+            <description><![CDATA[JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js">//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js</a>]]></description>
+            <link>http://jsxgraph.org/</link>
+            <guid isPermaLink="false">jsxgraph0.99.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 Jan 2015 05:14:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mojio-js updated to version 2.2.6]]></title>
+            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.6/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.6/mojio-js.min.js</a>]]></description>
+            <link>https://github.com/mojio/mojio-js</link>
+            <guid isPermaLink="false">mojio-js2.2.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 Jan 2015 05:07:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[textAngular updated to version 1.3.2]]></title>
+            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.2/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.2/dist/textAngular.min.js</a>]]></description>
+            <link>http://textAngular.com</link>
+            <guid isPermaLink="false">textAngular1.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 Jan 2015 05:03:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[materialize updated to version 0.95.1]]></title>
+            <description><![CDATA[Builds Materialize distribution packages<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/css/materialize.min.css">//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/css/materialize.min.css</a>]]></description>
+            <guid isPermaLink="false">materialize0.95.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 Jan 2015 05:02:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jasmine-ajax updated to version 3.0.0]]></title>
+            <description><![CDATA[A library for faking Ajax responses in your Jasmine suite.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/3.0.0/mock-ajax.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/3.0.0/mock-ajax.min.js</a>]]></description>
+            <link>https://github.com/pivotal/jasmine-ajax/</link>
+            <guid isPermaLink="false">jasmine-ajax3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 Jan 2015 05:02:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[clappr updated to version 0.0.93]]></title>
+            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.93/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.93/clappr.min.js</a>]]></description>
+            <link>https://github.com/globocom/clappr</link>
+            <guid isPermaLink="false">clappr0.0.93</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 Jan 2015 05:00:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular.js updated to version 1.3.11]]></title>
+            <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.11/angular.min.js</a>]]></description>
+            <link>http://angularjs.org</link>
+            <guid isPermaLink="false">angular.js1.3.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 Jan 2015 04:48:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone.validation updated to version 0.10.0]]></title>
+            <description><![CDATA[A validation plugin for Backbone.js that validates both your model as well as form input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.10.0/backbone-validation-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.10.0/backbone-validation-min.js</a>]]></description>
+            <link>http://thedersen.com/projects/backbone-validation</link>
+            <guid isPermaLink="false">backbone.validation0.10.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 27 Jan 2015 04:30:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[fullPage.js updated to version 2.5.6]]></title>
             <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.6/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.6/jquery.fullPage.min.css</a>]]></description>
@@ -45,14 +108,6 @@
             <guid isPermaLink="false">shaka-player1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 26 Jan 2015 04:15:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsxgraph updated to version 0.99.1]]></title>
-            <description><![CDATA[JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.1/jsxgraphcore.js">//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.1/jsxgraphcore.js</a>]]></description>
-            <link>http://jsxgraph.org/</link>
-            <guid isPermaLink="false">jsxgraph0.99.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 26 Jan 2015 02:27:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.8.0]]></title>
@@ -223,14 +278,6 @@
             <pubDate>Fri, 23 Jan 2015 15:54:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[backbone.validation updated to version 0.9.2]]></title>
-            <description><![CDATA[A validation plugin for Backbone.js that validates both your model as well as form input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.9.2/backbone-validation-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.9.2/backbone-validation-min.js</a>]]></description>
-            <link>http://thedersen.com/projects/backbone-validation</link>
-            <guid isPermaLink="false">backbone.validation0.9.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 23 Jan 2015 15:51:19 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[backbone-localstorage.js updated to version 1.1.16]]></title>
             <description><![CDATA[A simple module to replace Backbone.sync with localStorage-based persistence. Models are given GUIDS, and saved into a JSON object. Simple as that.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.16/backbone.localStorage-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.16/backbone.localStorage-min.js</a>]]></description>
             <link>https://github.com/jeromegn/Backbone.localStorage</link>
@@ -269,14 +316,6 @@
             <guid isPermaLink="false">angular-md50.1.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 23 Jan 2015 08:03:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[textAngular updated to version 1.3.1]]></title>
-            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.1/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.1/dist/textAngular.min.js</a>]]></description>
-            <link>http://textAngular.com</link>
-            <guid isPermaLink="false">textAngular1.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 23 Jan 2015 07:17:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[chartist updated to version 0.6.1]]></title>
@@ -380,14 +419,6 @@
             <guid isPermaLink="false">jquery.nicescroll3.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 21 Jan 2015 06:31:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular.js updated to version 1.3.10]]></title>
-            <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.10/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.10/angular.min.js</a>]]></description>
-            <link>http://angularjs.org</link>
-            <guid isPermaLink="false">angular.js1.3.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 21 Jan 2015 03:01:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-contextify updated to version 1.0.4]]></title>
@@ -587,14 +618,6 @@
             <pubDate>Sun, 18 Jan 2015 16:53:05 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[mojio-js updated to version 2.2.5]]></title>
-            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.5/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.5/mojio-js.min.js</a>]]></description>
-            <link>https://github.com/mojio/mojio-js</link>
-            <guid isPermaLink="false">mojio-js2.2.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 16:51:12 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[rivets updated to version 0.7.2]]></title>
             <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.2/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.7.2/rivets.min.js</a>]]></description>
             <link>http://rivetsjs.com</link>
@@ -609,13 +632,6 @@
             <guid isPermaLink="false">phaser2.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 Jan 2015 16:42:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[materialize updated to version 0.95.0]]></title>
-            <description><![CDATA[Builds Materialize distribution packages<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.0/css/materialize.min.css">//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.0/css/materialize.min.css</a>]]></description>
-            <guid isPermaLink="false">materialize0.95.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 16:41:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.scregal updated to version 1.3]]></title>
@@ -759,14 +775,6 @@
             <guid isPermaLink="false">underscore.js1.7.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 Jan 2015 07:03:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[clappr(0.0.91) was added]]></title>
-            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.91/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.91/clappr.min.js</a>]]></description>
-            <link>https://github.com/globocom/clappr</link>
-            <guid isPermaLink="false">clappr0.0.91</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 06:52:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[PapaParse(4.1.0) was added]]></title>
@@ -973,14 +981,6 @@
             <guid isPermaLink="false">angular-css1.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 15 Jan 2015 04:56:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jasmine-ajax updated to version 2.99.0]]></title>
-            <description><![CDATA[A library for faking Ajax responses in your Jasmine suite.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/2.99.0/mock-ajax.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/2.99.0/mock-ajax.min.js</a>]]></description>
-            <link>https://github.com/pivotal/jasmine-ajax/</link>
-            <guid isPermaLink="false">jasmine-ajax2.99.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 14 Jan 2015 19:27:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Leaflet.awesome-markers updated to version 2.0.2]]></title>
