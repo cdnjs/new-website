@@ -10,10 +10,114 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 Jan 2015 06:03:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jan 2015 06:18:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.23.0]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.23.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.23.0/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.23.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 06:01:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsoneditor updated to version 3.2.0]]></title>
+            <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/3.2.0/jsoneditor.min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/3.2.0/jsoneditor.min.js</a>]]></description>
+            <link>http://jsoneditoronline.org</link>
+            <guid isPermaLink="false">jsoneditor3.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 06:01:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[less.js updated to version 2.3.0]]></title>
+            <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.3.0/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.3.0/less.min.js</a>]]></description>
+            <link>http://lesscss.org/</link>
+            <guid isPermaLink="false">less.js2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 06:00:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.29]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.29/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.29/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.29</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 06:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootswatch updated to version 3.3.2]]></title>
+            <description><![CDATA[Bootswatch is a collection of themes for Bootstrap.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.2/custom/bootstrap.min.css">//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.2/custom/bootstrap.min.css</a>]]></description>
+            <link>http://bootswatch.com/</link>
+            <guid isPermaLink="false">bootswatch3.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 05:59:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.9.3]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.3/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.3/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.9.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 05:59:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tablesort updated to version 2.2.1]]></title>
+            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/2.2.1/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/2.2.1/tablesort.min.js</a>]]></description>
+            <link>http://tristen.ca/tablesort/demo/</link>
+            <guid isPermaLink="false">tablesort2.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 05:52:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-timepicker updated to version 1.5.3]]></title>
+            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.5.3/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.5.3/jquery.timepicker.min.css</a>]]></description>
+            <link>http://jonthornton.github.com/jquery-timepicker/</link>
+            <guid isPermaLink="false">jquery-timepicker1.5.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 05:51:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[clappr updated to version 0.0.94]]></title>
+            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.94/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.94/clappr.min.js</a>]]></description>
+            <link>https://github.com/globocom/clappr</link>
+            <guid isPermaLink="false">clappr0.0.94</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 05:50:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone.radio updated to version 0.8.5]]></title>
+            <description><![CDATA[The semantic messaging system for Backbone applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.5/backbone.radio.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.8.5/backbone.radio.min.js</a>]]></description>
+            <link>https://github.com/jmeas/backbone.radio</link>
+            <guid isPermaLink="false">backbone.radio0.8.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 05:50:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[textAngular updated to version 1.3.3]]></title>
+            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.3/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.3/dist/textAngular.min.js</a>]]></description>
+            <link>http://textAngular.com</link>
+            <guid isPermaLink="false">textAngular1.3.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 05:47:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-carousel updated to version 0.3.9]]></title>
+            <description><![CDATA[Angular Carousel - Mobile friendly touch carousel for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.9/angular-carousel.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.9/angular-carousel.min.js</a>]]></description>
+            <link>http://revolunet.github.com/angular-carousel</link>
+            <guid isPermaLink="false">angular-carousel0.3.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 05:46:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[riot updated to version 2.0.5]]></title>
+            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.5/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.5/riot.min.js</a>]]></description>
+            <link>https://muut.com/riotjs/</link>
+            <guid isPermaLink="false">riot2.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 05:46:22 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jsxgraph updated to version 0.99.3]]></title>
             <description><![CDATA[JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js">//cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.3/jsxgraphcore.js</a>]]></description>
@@ -31,14 +135,6 @@
             <pubDate>Tue, 27 Jan 2015 05:07:34 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[textAngular updated to version 1.3.2]]></title>
-            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.2/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.2/dist/textAngular.min.js</a>]]></description>
-            <link>http://textAngular.com</link>
-            <guid isPermaLink="false">textAngular1.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 27 Jan 2015 05:03:40 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[materialize updated to version 0.95.1]]></title>
             <description><![CDATA[Builds Materialize distribution packages<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/css/materialize.min.css">//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/css/materialize.min.css</a>]]></description>
             <guid isPermaLink="false">materialize0.95.1</guid>
@@ -52,14 +148,6 @@
             <guid isPermaLink="false">jasmine-ajax3.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 27 Jan 2015 05:02:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[clappr updated to version 0.0.93]]></title>
-            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.93/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.93/clappr.min.js</a>]]></description>
-            <link>https://github.com/globocom/clappr</link>
-            <guid isPermaLink="false">clappr0.0.93</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 27 Jan 2015 05:00:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular.js updated to version 1.3.11]]></title>
@@ -140,14 +228,6 @@
             <guid isPermaLink="false">drawer2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 26 Jan 2015 02:20:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[riot updated to version 2.0.2]]></title>
-            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.2/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.2/riot.min.js</a>]]></description>
-            <link>https://muut.com/riotjs/</link>
-            <guid isPermaLink="false">riot2.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 26 Jan 2015 02:20:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-switch updated to version 3.3.2]]></title>
@@ -460,14 +540,6 @@
             <pubDate>Tue, 20 Jan 2015 07:26:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bluebird updated to version 2.8.1]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.8.1/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.8.1/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.8.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 20 Jan 2015 07:26:39 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-ui-sortable updated to version 0.13.3]]></title>
             <description><![CDATA[This directive allows you to jQueryUI Sortable.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.3/sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-sortable/0.13.3/sortable.min.js</a>]]></description>
             <link>http://angular-ui.github.com</link>
@@ -498,14 +570,6 @@
             <guid isPermaLink="false">social-likes3.0.12</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 Jan 2015 04:11:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tablesort updated to version 2.2.0]]></title>
-            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/2.2.0/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/2.2.0/tablesort.min.js</a>]]></description>
-            <link>http://tristen.ca/tablesort/demo/</link>
-            <guid isPermaLink="false">tablesort2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 20 Jan 2015 04:11:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[c3 updated to version 0.4.9]]></title>
