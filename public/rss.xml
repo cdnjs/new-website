@@ -10,10 +10,74 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 Jan 2015 16:18:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jan 2015 16:33:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.8.1]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.1/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.1/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 16:14:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone.validation updated to version 0.10.1]]></title>
+            <description><![CDATA[A validation plugin for Backbone.js that validates both your model as well as form input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.10.1/backbone-validation-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.10.1/backbone-validation-min.js</a>]]></description>
+            <link>http://thedersen.com/projects/backbone-validation</link>
+            <guid isPermaLink="false">backbone.validation0.10.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 16:13:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[video.js updated to version 4.11.4]]></title>
+            <description><![CDATA[Open source HTML5 & Flash video player<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.4/video.js">//cdnjs.cloudflare.com/ajax/libs/video.js/4.11.4/video.js</a>]]></description>
+            <link>http://videojs.com/</link>
+            <guid isPermaLink="false">video.js4.11.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 16:13:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.27.0]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.27.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.27.0/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.27.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 16:11:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[maquette updated to version 1.4.5]]></title>
+            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.5/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.5/maquette.min.js</a>]]></description>
+            <link>http://johan-gorter.github.io/maquette/</link>
+            <guid isPermaLink="false">maquette1.4.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 16:10:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 2.4.2]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.2/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.2/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 16:10:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pixi.js updated to version 2.2.5]]></title>
+            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.5/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.5/pixi.js</a>]]></description>
+            <link>http://goodboydigital.com/</link>
+            <guid isPermaLink="false">pixi.js2.2.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 16:10:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vis updated to version 3.9.1]]></title>
+            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.9.1/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.9.1/vis.min.js</a>]]></description>
+            <link>http://visjs.org/</link>
+            <guid isPermaLink="false">vis3.9.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 28 Jan 2015 16:09:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[algoliasearch updated to version 2.9.0]]></title>
             <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.0/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.0/algoliasearch.min.js</a>]]></description>
@@ -166,14 +230,6 @@
             <pubDate>Tue, 27 Jan 2015 04:48:11 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[backbone.validation updated to version 0.10.0]]></title>
-            <description><![CDATA[A validation plugin for Backbone.js that validates both your model as well as form input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.10.0/backbone-validation-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.10.0/backbone-validation-min.js</a>]]></description>
-            <link>http://thedersen.com/projects/backbone-validation</link>
-            <guid isPermaLink="false">backbone.validation0.10.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 27 Jan 2015 04:30:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[fullPage.js updated to version 2.5.6]]></title>
             <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.6/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.6/jquery.fullPage.min.css</a>]]></description>
             <link>http://alvarotrigo.com/fullPage/</link>
@@ -204,14 +260,6 @@
             <guid isPermaLink="false">shaka-player1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 26 Jan 2015 04:15:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.8.0]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.0/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.8.0/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 26 Jan 2015 02:26:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[underscore.string updated to version 3.0.2]]></title>
@@ -897,14 +945,6 @@
             <pubDate>Sun, 18 Jan 2015 05:45:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[vis updated to version 3.9.0]]></title>
-            <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.9.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.9.0/vis.min.js</a>]]></description>
-            <link>http://visjs.org/</link>
-            <guid isPermaLink="false">vis3.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 01:03:38 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[awesome-bootstrap-checkbox updated to version 0.2.3]]></title>
             <description><![CDATA[Font Awesome Bootstrap Checkboxes & Radios. Pure css way to make inputs look prettier.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.2.3/awesome-bootstrap-checkbox.min.css">//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.2.3/awesome-bootstrap-checkbox.min.css</a>]]></description>
             <link>http://awesome-bootstrap-checkbox.okendoken.com/demo/index.html</link>
@@ -957,14 +997,6 @@
             <guid isPermaLink="false">cytoscape2.3.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 Jan 2015 10:21:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webtorrent updated to version 0.26.0]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.26.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.26.0/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.26.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 10:20:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mori updated to version 0.3.2]]></title>
@@ -1061,14 +1093,6 @@
             <guid isPermaLink="false">Leaflet.awesome-markers2.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 14 Jan 2015 19:25:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[maquette updated to version 1.4.4]]></title>
-            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.4/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.4/maquette.min.js</a>]]></description>
-            <link>http://johan-gorter.github.io/maquette/</link>
-            <guid isPermaLink="false">maquette1.4.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 14 Jan 2015 16:52:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bacon.js updated to version 0.7.42]]></title>
