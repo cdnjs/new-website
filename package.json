@@ -30,7 +30,6 @@
     "lodash": "^2.4.1",
     "mongodb": "^1.4",
     "mustache": "^1.0",
-    "node-hipchat": "^0.4.5",
     "superagent": "^0.21",
     "timeago": "^0.2",
     "twit": "^1.1",
