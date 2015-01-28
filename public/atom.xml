@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 28 Jan 2015 19:18:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Jan 2015 19:33:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1085,14 +1085,6 @@
             <guid isPermaLink="false">angular-css1.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 15 Jan 2015 04:56:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Leaflet.awesome-markers updated to version 2.0.2]]></title>
-            <description><![CDATA[Colorful iconic & retina-proof markers for Leaflet, based on the Glyphicons / Font-Awesome icons<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js">//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js</a>]]></description>
-            <link>https://github.com/lvoogdt/Leaflet.awesome-markers</link>
-            <guid isPermaLink="false">Leaflet.awesome-markers2.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 14 Jan 2015 19:25:51 GMT</pubDate>
         </item>
     </channel>
 </rss>
