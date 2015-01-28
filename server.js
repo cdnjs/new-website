@@ -13,7 +13,6 @@ var Twit = require('twit')
 var linkify = require("html-linkify");
 var mongo = require('mongodb');
 var BSON = mongo.BSONPure;
-var Hipchat = require('node-hipchat');
 var timeago = require('timeago');
 var compress = require('compression');
 
@@ -73,25 +72,6 @@ function disqusSignon(user) {
       auth: message + " " + hexsig + " " + timestamp
     };
 }
-
-var HC = new Hipchat(process.env.HIPCHAT);
-var hipchat = {
-  message: function(color, message) {
-    if (process.env.HIPCHAT) {
-      var params = {
-        room: 165440,
-        from: 'Website',
-        message: message,
-        color: color,
-        notify: 1
-      };
-      HC.postMessage(params, function(data) {console.log(arguments)});
-    } else {
-      console.log('No Hipchat API Key');
-    }
-  }
-};
-hipchat.message('purple', 'Server restarting');
 
 var T = new Twit({
     consumer_key:         process.env.CONSUMER_KEY
@@ -526,7 +506,6 @@ app.get('/news/:id/:slug', news_item);
           }
           if(okay){
             db.collection('updates').insert({user_id: user.user_id, login: user.login, status: req.body.status, posted_at: now, gravatar: get_gravatar(user.email, 100)}, {w: 1}, function(err) {});
-            hipchat.message('green', 'New status update by ' + user.login + ' - http://cdnjs.com/news');
             res.send({message: 'Success'});
 
           } else {
@@ -542,7 +521,6 @@ app.get('/news/:id/:slug', news_item);
   });
 
   app.get('/newregistration/:login', function(req, res) {
-      hipchat.message('green', 'New User - ' + req.params.login + ' - http://cdnjs.com/profile/'+ req.params.login);
     res.send({});
   });
 
