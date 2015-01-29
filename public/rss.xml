@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 Jan 2015 04:48:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jan 2015 05:03:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1077,14 +1077,6 @@
             <guid isPermaLink="false">deck.js1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 15 Jan 2015 06:42:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-css updated to version 1.0.6]]></title>
-            <description><![CDATA[CSS on-demand for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.6/angular-css.js">//cdnjs.cloudflare.com/ajax/libs/angular-css/1.0.6/angular-css.js</a>]]></description>
-            <link>http://door3.github.io/angular-css</link>
-            <guid isPermaLink="false">angular-css1.0.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 Jan 2015 04:56:30 GMT</pubDate>
         </item>
     </channel>
 </rss>
