@@ -10,10 +10,41 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 Jan 2015 22:18:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jan 2015 22:33:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.43]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.43/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.43/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.43</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 29 Jan 2015 22:05:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[coffee-script updated to version 1.9.0]]></title>
+            <description><![CDATA[CoffeeScript is a little language that compiles into JavaScript. Underneath all of those embarrassing braces and semicolons, JavaScript has always had a gorgeous object model at its heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.9.0/coffee-script.min.js">//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.9.0/coffee-script.min.js</a>]]></description>
+            <link>http://jashkenas.github.com/coffee-script/</link>
+            <guid isPermaLink="false">coffee-script1.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 29 Jan 2015 22:05:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[slick-carousel updated to version 1.4.0]]></title>
+            <description><![CDATA[the last carousel you'll ever need<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.js">//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.0/slick.min.js</a>]]></description>
+            <guid isPermaLink="false">slick-carousel1.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 29 Jan 2015 22:04:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[spf updated to version 2.1.2]]></title>
+            <description><![CDATA[A lightweight JS framework for fast navigation and page updates from YouTube<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/spf/2.1.2/spf.js">//cdnjs.cloudflare.com/ajax/libs/spf/2.1.2/spf.js</a>]]></description>
+            <link>https://github.com/youtube/spfjs</link>
+            <guid isPermaLink="false">spf2.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 29 Jan 2015 22:03:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-gantt updated to version 1.1.1]]></title>
             <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.1/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.1/angular-gantt.min.js</a>]]></description>
