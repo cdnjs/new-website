@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 Jan 2015 19:18:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jan 2015 19:33:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1045,14 +1045,6 @@
             <guid isPermaLink="false">backbone.babysitter0.1.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 15 Jan 2015 20:58:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[uikit updated to version 2.16.2]]></title>
-            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.16.2/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.16.2/js/uikit.min.js</a>]]></description>
-            <link>http://www.getuikit.com</link>
-            <guid isPermaLink="false">uikit2.16.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 Jan 2015 19:26:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pusher-angular(0.1.4) was added]]></title>
