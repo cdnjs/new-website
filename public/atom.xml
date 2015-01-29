@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 Jan 2015 16:03:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jan 2015 16:18:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[riot updated to version 2.0.5]]></title>
+            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.5/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.5/riot.min.js</a>]]></description>
+            <link>https://muut.com/riotjs/</link>
+            <guid isPermaLink="false">riot2.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 29 Jan 2015 13:57:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jQuery.dotdotdot updated to version 1.7.0]]></title>
             <description><![CDATA[A jQuery plugin for advanced cross-browser ellipsis on multiple line content.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.0/jquery.dotdotdot.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.0/jquery.dotdotdot.min.js</a>]]></description>
@@ -189,14 +197,6 @@
             <guid isPermaLink="false">angular-carousel0.3.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 Jan 2015 05:46:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[riot updated to version 2.0.5]]></title>
-            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.5/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.5/riot.min.js</a>]]></description>
-            <link>https://muut.com/riotjs/</link>
-            <guid isPermaLink="false">riot2.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 28 Jan 2015 05:46:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jsxgraph updated to version 0.99.3]]></title>
