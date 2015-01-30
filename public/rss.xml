@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 30 Jan 2015 11:48:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2015 12:03:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1061,14 +1061,6 @@
             <guid isPermaLink="false">dom41.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 Jan 2015 16:17:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pusher-angular(0.1.4) was added]]></title>
-            <description><![CDATA[Angular library for using Pusher<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pusher-angular/0.1.4/pusher-angular.min.js">//cdnjs.cloudflare.com/ajax/libs/pusher-angular/0.1.4/pusher-angular.min.js</a>]]></description>
-            <link>https://github.com/pusher/pusher-angular</link>
-            <guid isPermaLink="false">pusher-angular0.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 15 Jan 2015 17:46:57 GMT</pubDate>
         </item>
     </channel>
 </rss>
