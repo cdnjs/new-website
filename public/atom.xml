@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 30 Jan 2015 16:18:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2015 16:33:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1045,22 +1045,6 @@
             <guid isPermaLink="false">msl-client-browser1.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 17 Jan 2015 06:49:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[three.js updated to version r70]]></title>
-            <description><![CDATA[three.js is a lightweight 3D library with a very low level of complexity. The library provides <canvas>, <svg> and WebGL renderers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js">//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js</a>]]></description>
-            <link>http://threejs.org/</link>
-            <guid isPermaLink="false">three.jsr70</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 16:26:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dom4 updated to version 1.3.1]]></title>
-            <description><![CDATA[a fully tested and covered polyfill for new DOM Level 4 entries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dom4/1.3.1/dom4.js">//cdnjs.cloudflare.com/ajax/libs/dom4/1.3.1/dom4.js</a>]]></description>
-            <link>https://github.com/WebReflection/dom4</link>
-            <guid isPermaLink="false">dom41.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 16:17:15 GMT</pubDate>
         </item>
     </channel>
 </rss>
