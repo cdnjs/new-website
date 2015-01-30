@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 30 Jan 2015 10:18:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2015 10:33:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1061,29 +1061,6 @@
             <guid isPermaLink="false">dom41.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 16 Jan 2015 16:17:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[geojson2svg updated to version 0.1.3]]></title>
-            <description><![CDATA[Converts geojson to svg/path string given svg viewport size and maps extent.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/geojson2svg/0.1.3/geojson2svg.min.js">//cdnjs.cloudflare.com/ajax/libs/geojson2svg/0.1.3/geojson2svg.min.js</a>]]></description>
-            <guid isPermaLink="false">geojson2svg0.1.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 10:22:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cytoscape updated to version 2.3.8]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.8/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.8/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.3.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 10:21:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mori updated to version 0.3.2]]></title>
-            <description><![CDATA[ClojureScript's persistent data structures and supporting API from the comfort of vanilla JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mori/0.3.2/mori.js">//cdnjs.cloudflare.com/ajax/libs/mori/0.3.2/mori.js</a>]]></description>
-            <link>http://swannodette.github.io/mori/</link>
-            <guid isPermaLink="false">mori0.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 16 Jan 2015 10:18:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pusher-angular(0.1.4) was added]]></title>
