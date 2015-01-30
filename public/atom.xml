@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 30 Jan 2015 08:03:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Jan 2015 08:18:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[selectize.js updated to version 0.12.0]]></title>
+            <description><![CDATA[A jQuery-based select UI control with autocomplete and native-feeling keyboard navigation; useful for tagging, contact lists, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.0/js/selectize.min.js">//cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.0/js/selectize.min.js</a>]]></description>
+            <link>http://brianreavis.github.io/selectize.js/</link>
+            <guid isPermaLink="false">selectize.js0.12.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 30 Jan 2015 08:08:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[kronos.js updated to version 0.7.2]]></title>
+            <description><![CDATA[JavaScript client for Kronos<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.2/kronos.min.js">//cdnjs.cloudflare.com/ajax/libs/kronos.js/0.7.2/kronos.min.js</a>]]></description>
+            <link>https://chronology.github.io</link>
+            <guid isPermaLink="false">kronos.js0.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 30 Jan 2015 08:07:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[riot updated to version 2.0.7]]></title>
+            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.7/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.7/riot.min.js</a>]]></description>
+            <link>https://muut.com/riotjs/</link>
+            <guid isPermaLink="false">riot2.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 30 Jan 2015 08:07:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[howler updated to version 1.1.25]]></title>
+            <description><![CDATA[Javascript audio library for the modern web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/howler/1.1.25/howler.min.js">//cdnjs.cloudflare.com/ajax/libs/howler/1.1.25/howler.min.js</a>]]></description>
+            <link>http://howlerjs.com/</link>
+            <guid isPermaLink="false">howler1.1.25</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 30 Jan 2015 08:07:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bacon.js updated to version 0.7.43]]></title>
             <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.43/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.43/Bacon.min.js</a>]]></description>
@@ -76,14 +108,6 @@
             <guid isPermaLink="false">backbone.validation0.11.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 29 Jan 2015 16:54:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[riot updated to version 2.0.5]]></title>
-            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.5/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.5/riot.min.js</a>]]></description>
-            <link>https://muut.com/riotjs/</link>
-            <guid isPermaLink="false">riot2.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 29 Jan 2015 13:57:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[less.js updated to version 2.3.1]]></title>
