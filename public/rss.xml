@@ -10,10 +10,58 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 31 Jan 2015 14:18:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2015 14:33:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mediaelement updated to version 2.16.3]]></title>
+            <description><![CDATA[HTML5 audio and video players in pure HTML and CSS. MediaElementPlayer.js uses the same HTML/CSS for all players.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mediaelement/2.16.3/mediaelement.min.js">//cdnjs.cloudflare.com/ajax/libs/mediaelement/2.16.3/mediaelement.min.js</a>]]></description>
+            <link>http://mediaelementjs.com/</link>
+            <guid isPermaLink="false">mediaelement2.16.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 31 Jan 2015 14:09:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[avgrund(0.1.0) was added]]></title>
+            <description><![CDATA[A JS/CSS3 modal UI concept<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/avgrund/0.1.0/js/avgrund.min.js">//cdnjs.cloudflare.com/ajax/libs/avgrund/0.1.0/js/avgrund.min.js</a>]]></description>
+            <link>http://lab.hakim.se/avgrund/</link>
+            <guid isPermaLink="false">avgrund0.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 31 Jan 2015 13:50:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[stroll.js(1.0) was added]]></title>
+            <description><![CDATA[CSS3 list scroll effects<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/stroll.js/1.0/js/stroll.min.js">//cdnjs.cloudflare.com/ajax/libs/stroll.js/1.0/js/stroll.min.js</a>]]></description>
+            <link>http://lab.hakim.se/scroll-effects</link>
+            <guid isPermaLink="false">stroll.js1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 31 Jan 2015 13:42:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[html-inspector updated to version 0.8.2]]></title>
+            <description><![CDATA[HTML Inspector is a code quality tool to help you and your team write better markup. It's written in JavaScript and runs in the browser, so testing your HTML has never been easier.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.min.js">//cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.min.js</a>]]></description>
+            <link>https://github.com/philipwalton/html-inspector</link>
+            <guid isPermaLink="false">html-inspector0.8.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 31 Jan 2015 13:07:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.9.4]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.4/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.4/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.9.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 31 Jan 2015 13:03:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-material updated to version 0.7.1]]></title>
+            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.1/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.1/angular-material.min.css</a>]]></description>
+            <link>https://material.angularjs.org/</link>
+            <guid isPermaLink="false">angular-material0.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 31 Jan 2015 03:21:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[custom-elements-builder(0.1.0) was added]]></title>
             <description><![CDATA[Custom Elements Builder (ceb) is ... a builder for Custom Elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.1.0/ceb.min.js">//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.1.0/ceb.min.js</a>]]></description>
@@ -230,14 +278,6 @@
             <pubDate>Wed, 28 Jan 2015 05:59:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bluebird updated to version 2.9.3]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.3/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.3/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.9.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 28 Jan 2015 05:59:04 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[tablesort updated to version 2.2.1]]></title>
             <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/2.2.1/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/2.2.1/tablesort.min.js</a>]]></description>
             <link>http://tristen.ca/tablesort/demo/</link>
@@ -435,14 +475,6 @@
             <guid isPermaLink="false">fluidbox1.4.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 24 Jan 2015 13:42:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-material updated to version 0.7.0]]></title>
-            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.0/angular-material.min.css</a>]]></description>
-            <link>https://material.angularjs.org/</link>
-            <guid isPermaLink="false">angular-material0.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 24 Jan 2015 13:42:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[orb updated to version 1.0.7]]></title>
