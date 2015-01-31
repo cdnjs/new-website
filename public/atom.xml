@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 31 Jan 2015 18:18:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2015 19:36:41 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mathjax updated to version 2.5.0]]></title>
+            <description><![CDATA[MathJax is an open source JavaScript display engine for mathematics that works in all browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.0/MathJax.js">//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.0/MathJax.js</a>]]></description>
+            <link>http://www.mathjax.org/</link>
+            <guid isPermaLink="false">mathjax2.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 31 Jan 2015 17:57:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.mb.YTPlayer updated to version 2.8.0]]></title>
+            <description><![CDATA[This plugin let you play any public YouTube video as background of your page. It can also be used as a customized player in page.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.8.0/jquery.mb.YTPlayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.8.0/jquery.mb.YTPlayer.min.js</a>]]></description>
+            <link>http://pupunzi.open-lab.com/mb-jquery-components/jquery-mb-ytplayer/</link>
+            <guid isPermaLink="false">jquery.mb.YTPlayer2.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 31 Jan 2015 17:25:06 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mediaelement updated to version 2.16.3]]></title>
             <description><![CDATA[HTML5 audio and video players in pure HTML and CSS. MediaElementPlayer.js uses the same HTML/CSS for all players.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mediaelement/2.16.3/mediaelement.min.js">//cdnjs.cloudflare.com/ajax/libs/mediaelement/2.16.3/mediaelement.min.js</a>]]></description>
@@ -855,14 +871,6 @@
             <guid isPermaLink="false">jquery.postcodify2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 18 Jan 2015 16:53:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.mb.YTPlayer updated to version 2.7.9]]></title>
-            <description><![CDATA[This plugin let you play any public YouTube video as background of your page. It can also be used as a customized player in page.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.9/jquery.mb.YTPlayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.7.9/jquery.mb.YTPlayer.min.js</a>]]></description>
-            <link>http://pupunzi.open-lab.com/mb-jquery-components/jquery-mb-ytplayer/</link>
-            <guid isPermaLink="false">jquery.mb.YTPlayer2.7.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 18 Jan 2015 16:53:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rivets updated to version 0.7.2]]></title>
