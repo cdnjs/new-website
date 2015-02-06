@@ -45,25 +45,7 @@
       </div>
 
       {{/library.assets}}
-      <hr />
-      <h3 class="translateit">Recent Community Updates</h3>
-      <a href="/news">View all</a> or <a href="/news">post your own</a>
-      <div style="clear: both;"></div>
-      <hr />
-      <ul style="margin: 0; padding: 0; list-style: none;">
-        {{#updates}}
-          <li style="border-bottom: 1px solid #ccc; margin-bottom: 10px;padding-bottom: 10px;">
-          <div class="row">
-            <div class="col-md-1"><img style="float: left; margin-right: 5px;  margin-bottom: 5px; width: 50px;" class="avatar img-circle" src="{{gravatar}}" /></div>
-            <div class="col-md-11">
-            <p><a href="/profile/{{login}}"><strong>{{login}}</strong></a><br /><span  class="translateit">{{{status}}}</span></p>
-            <div style="color: #ccc;" class="pull-right"><a data-disqus-identifier="{{_id}}" href="/news/{{_id}}/{{slug}}" class="translateit">Comments</a> | Posted <span  class="timeago" title="">{{timeago}}</span></div></div>
-            <div style="clear: both;"></div></div>
 
-            <div style="clear: both;"></div>
-          </li>
-        {{/updates}}
-      </ul>
       <!--
       <div id="disqus_thread"></div>
       <script type="text/javascript">
