@@ -10,10 +10,89 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Feb 2015 09:59:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Feb 2015 02:06:53 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ol3 updated to version 3.2.0]]></title>
+            <description><![CDATA[OpenLayers is a JavaScript library for building map applications on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.2.0/ol.min.js">//cdnjs.cloudflare.com/ajax/libs/ol3/3.2.0/ol.min.js</a>]]></description>
+            <link>http://openlayers.org/</link>
+            <guid isPermaLink="false">ol33.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 17:45:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-dialog updated to version 0.3.10]]></title>
+            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.10/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.10/js/ngDialog.min.js</a>]]></description>
+            <link>http://likeastore.github.io/ngDialog/</link>
+            <guid isPermaLink="false">ng-dialog0.3.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 17:44:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es5-shim updated to version 4.1.0]]></title>
+            <description><![CDATA[ECMAScript 5 compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.0/es5-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.0/es5-shim.min.js</a>]]></description>
+            <link>http://github.com/es-shims/es5-shim/</link>
+            <guid isPermaLink="false">es5-shim4.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 17:43:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.24.0]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.24.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.24.0/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.24.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 17:43:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[custom-elements-builder updated to version 0.2.1]]></title>
+            <description><![CDATA[Custom Elements Builder (ceb) is ... a builder for Custom Elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.2.1/ceb.min.js">//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.2.1/ceb.min.js</a>]]></description>
+            <link>https://tmorin.github.io/custom-elements-builder</link>
+            <guid isPermaLink="false">custom-elements-builder0.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 17:42:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nvd3 updated to version 1.7.0]]></title>
+            <description><![CDATA[Re-usable charts and chart components for d3.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.js">//cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.js</a>]]></description>
+            <link>http://nvd3.org/</link>
+            <guid isPermaLink="false">nvd31.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 12:58:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[knockout-sortable updated to version 0.8.1]]></title>
+            <description><![CDATA[Knockout-sortable is a binding for Knockout.js designed to connect observableArrays with JQueryUI's Sortable functionality.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockout-sortable/0.8.1/knockout-sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/knockout-sortable/0.8.1/knockout-sortable.min.js</a>]]></description>
+            <guid isPermaLink="false">knockout-sortable0.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 12:40:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-material-icons(0.4.0) was added]]></title>
+            <description><![CDATA[AngularJS directive to use Material Design icons with custom fill color and size.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.4.0/angular-material-icons.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-material-icons/0.4.0/angular-material-icons.min.js</a>]]></description>
+            <link>https://github.com/klarsys/angular-material-icons</link>
+            <guid isPermaLink="false">angular-material-icons0.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 12:01:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lodash-compat(3.1.0) was added]]></title>
+            <description><![CDATA[The compatibility build of lodash.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.1.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.1.0/lodash.min.js</a>]]></description>
+            <link>http://lodash.com/</link>
+            <guid isPermaLink="false">lodash-compat3.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 11:43:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.3.9]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.9/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.9/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.3.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 07:46:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[textAngular updated to version 1.3.6]]></title>
             <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.6/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.6/dist/textAngular.min.js</a>]]></description>
@@ -333,14 +412,6 @@
             <pubDate>Tue, 03 Feb 2015 02:05:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[custom-elements-builder updated to version 0.2.0]]></title>
-            <description><![CDATA[Custom Elements Builder (ceb) is ... a builder for Custom Elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.2.0/ceb.min.js">//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.2.0/ceb.min.js</a>]]></description>
-            <link>https://tmorin.github.io/custom-elements-builder</link>
-            <guid isPermaLink="false">custom-elements-builder0.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 01:52:24 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[elasticsearch updated to version 3.1.2]]></title>
             <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.2/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.2/elasticsearch.js</a>]]></description>
             <link>https://github.com/elasticsearch/elasticsearch-js</link>
@@ -586,14 +657,6 @@
             <pubDate>Thu, 29 Jan 2015 17:02:27 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[es5-shim updated to version 4.0.6]]></title>
-            <description><![CDATA[ECMAScript 5 compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.6/es5-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.0.6/es5-shim.min.js</a>]]></description>
-            <link>http://github.com/es-shims/es5-shim/</link>
-            <guid isPermaLink="false">es5-shim4.0.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 29 Jan 2015 16:54:58 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[less.js updated to version 2.3.1]]></title>
             <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.3.1/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.3.1/less.min.js</a>]]></description>
             <link>http://lesscss.org/</link>
@@ -640,14 +703,6 @@
             <guid isPermaLink="false">backbone.radio0.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 28 Jan 2015 15:53:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.23.0]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.23.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.23.0/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.23.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 28 Jan 2015 06:01:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jsoneditor updated to version 3.2.0]]></title>
@@ -871,30 +926,6 @@
             <guid isPermaLink="false">breezejs1.5.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 24 Jan 2015 13:26:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[codemirror updated to version 4.12.0]]></title>
-            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.12.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/4.12.0/codemirror.min.js</a>]]></description>
-            <link>http://codemirror.net</link>
-            <guid isPermaLink="false">codemirror4.12.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 23 Jan 2015 15:54:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-localstorage.js updated to version 1.1.16]]></title>
-            <description><![CDATA[A simple module to replace Backbone.sync with localStorage-based persistence. Models are given GUIDS, and saved into a JSON object. Simple as that.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.16/backbone.localStorage-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.16/backbone.localStorage-min.js</a>]]></description>
-            <link>https://github.com/jeromegn/Backbone.localStorage</link>
-            <guid isPermaLink="false">backbone-localstorage.js1.1.16</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 23 Jan 2015 15:51:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webfont updated to version 1.5.14]]></title>
-            <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.14/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.14/webfontloader.js</a>]]></description>
-            <link>http://code.google.com/apis/webfonts/docs/webfont_loader.html</link>
-            <guid isPermaLink="false">webfont1.5.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 23 Jan 2015 15:44:28 GMT</pubDate>
         </item>
     </channel>
 </rss>
