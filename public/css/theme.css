@@ -3,6 +3,10 @@ body {
   padding-top: 15px;
 }
 
+.page {
+  padding-top: 15px;
+}
+
 .avatar-frame{border: 2px solid #dd4814;}
 .avatar-frame,.avatar-frame img{
   width: 90px;
