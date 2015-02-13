@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Feb 2015 15:25:37 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Feb 2015 16:47:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -174,10 +174,10 @@
             <pubDate>Thu, 12 Feb 2015 05:54:21 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bacon.js updated to version 0.7.45]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.45/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.45/Bacon.min.js</a>]]></description>
+            <title><![CDATA[bacon.js updated to version 0.7.47]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.47/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.47/Bacon.min.js</a>]]></description>
             <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.45</guid>
+            <guid isPermaLink="false">bacon.js0.7.47</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 12 Feb 2015 05:53:44 GMT</pubDate>
         </item>
@@ -292,10 +292,10 @@
             <pubDate>Wed, 11 Feb 2015 05:27:01 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bluebird updated to version 2.9.8]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.8/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.8/bluebird.min.js</a>]]></description>
+            <title><![CDATA[bluebird updated to version 2.9.9]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.9/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.9/bluebird.min.js</a>]]></description>
             <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.9.8</guid>
+            <guid isPermaLink="false">bluebird2.9.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 11 Feb 2015 05:26:48 GMT</pubDate>
         </item>
@@ -427,10 +427,10 @@
             <pubDate>Tue, 10 Feb 2015 06:21:49 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[riot updated to version 2.0.8]]></title>
-            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.8/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.8/riot.min.js</a>]]></description>
+            <title><![CDATA[riot updated to version 2.0.9]]></title>
+            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.9/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.9/riot.min.js</a>]]></description>
             <link>https://muut.com/riotjs/</link>
-            <guid isPermaLink="false">riot2.0.8</guid>
+            <guid isPermaLink="false">riot2.0.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Feb 2015 06:19:19 GMT</pubDate>
         </item>
@@ -599,10 +599,10 @@
             <pubDate>Mon, 09 Feb 2015 01:37:21 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[6to5 updated to version 3.5.3]]></title>
-            <description><![CDATA[Turn ES6 code into readable vanilla ES5 with source maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/6to5/3.5.3/browser.js">//cdnjs.cloudflare.com/ajax/libs/6to5/3.5.3/browser.js</a>]]></description>
+            <title><![CDATA[6to5 updated to version 3.6.1]]></title>
+            <description><![CDATA[Turn ES6 code into readable vanilla ES5 with source maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/6to5/3.6.1/browser.js">//cdnjs.cloudflare.com/ajax/libs/6to5/3.6.1/browser.js</a>]]></description>
             <link>https://6to5.org/</link>
-            <guid isPermaLink="false">6to53.5.3</guid>
+            <guid isPermaLink="false">6to53.6.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 09 Feb 2015 01:37:01 GMT</pubDate>
         </item>
@@ -734,10 +734,10 @@
             <pubDate>Fri, 06 Feb 2015 17:45:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ng-dialog updated to version 0.3.10]]></title>
-            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.10/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.10/js/ngDialog.min.js</a>]]></description>
+            <title><![CDATA[ng-dialog updated to version 0.3.11]]></title>
+            <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.11/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.11/js/ngDialog.min.js</a>]]></description>
             <link>http://likeastore.github.io/ngDialog/</link>
-            <guid isPermaLink="false">ng-dialog0.3.10</guid>
+            <guid isPermaLink="false">ng-dialog0.3.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 06 Feb 2015 17:44:21 GMT</pubDate>
         </item>
@@ -797,10 +797,10 @@
             <pubDate>Fri, 06 Feb 2015 03:58:48 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[immstruct(1.3.1) was added]]></title>
-            <description><![CDATA[Immutable data structure, with undo/redo, for top-to-bottom properties and unidirectional flow in component based libraries like React<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immstruct/1.3.1/immstruct.min.js">//cdnjs.cloudflare.com/ajax/libs/immstruct/1.3.1/immstruct.min.js</a>]]></description>
+            <title><![CDATA[immstruct(1.4.0) was added]]></title>
+            <description><![CDATA[Immutable data structure, with undo/redo, for top-to-bottom properties and unidirectional flow in component based libraries like React<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immstruct/1.4.0/immstruct.min.js">//cdnjs.cloudflare.com/ajax/libs/immstruct/1.4.0/immstruct.min.js</a>]]></description>
             <link>https://github.com/omniscientjs/immstruct</link>
-            <guid isPermaLink="false">immstruct1.3.1</guid>
+            <guid isPermaLink="false">immstruct1.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 05 Feb 2015 18:01:30 GMT</pubDate>
         </item>
@@ -1066,10 +1066,10 @@
             <pubDate>Mon, 02 Feb 2015 13:02:58 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[p5.js updated to version 0.4.0]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.0/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.0/p5.min.js</a>]]></description>
+            <title><![CDATA[p5.js updated to version 0.4.1]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.1/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.1/p5.min.js</a>]]></description>
             <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.4.0</guid>
+            <guid isPermaLink="false">p5.js0.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 02 Feb 2015 13:02:28 GMT</pubDate>
         </item>
