@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Feb 2015 18:19:44 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Feb 2015 19:08:34 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-strap updated to version 2.2.0]]></title>
+            <description><![CDATA[AngularStrap - Twitter Bootstrap directives for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.2.0/angular-strap.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.2.0/angular-strap.min.js</a>]]></description>
+            <link>http://mgcrea.github.com/angular-strap</link>
+            <guid isPermaLink="false">angular-strap2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 17:53:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.3.5]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.5/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.5/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 16:21:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 2.4.10]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.10/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.10/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.4.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 16:21:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pouchdb updated to version 3.3.1]]></title>
+            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.3.1/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.3.1/pouchdb.min.js</a>]]></description>
+            <link>http://pouchdb.com/</link>
+            <guid isPermaLink="false">pouchdb3.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 16:11:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 3.0.12]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.0.12/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.0.12/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly3.0.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 16:05:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[draggabilly updated to version 1.1.2]]></title>
             <description><![CDATA[Draggabilly is Javascript library to make elements draggable. When dragging, Draggabillly will add the class .is-dragging to the element. The minified source draggabilly.pkgd.min.js is on http://draggabilly.desandro.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.2/draggabilly.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.2/draggabilly.pkgd.min.js</a>]]></description>
@@ -294,14 +334,6 @@
             <pubDate>Thu, 12 Feb 2015 05:54:21 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 3.0.12]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.0.12/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.0.12/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly3.0.12</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 05:53:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[l20n updated to version 1.0.2]]></title>
             <description><![CDATA[A client side localization library from Mozilla<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js">//cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js</a>]]></description>
             <link>http://l20n.org</link>
@@ -402,14 +434,6 @@
             <guid isPermaLink="false">angular-css1.0.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 11 Feb 2015 05:27:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasr updated to version 2.4.10]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.10/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.10/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.4.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 11 Feb 2015 05:26:25 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[d3 updated to version 3.5.5]]></title>
@@ -568,14 +592,6 @@
             <guid isPermaLink="false">select2-bootstrap-css1.4.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 09 Feb 2015 13:29:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 2.3.5]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.5/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.5/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.3.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 09 Feb 2015 13:29:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vue updated to version 0.11.5]]></title>
@@ -941,14 +957,6 @@
             <pubDate>Wed, 04 Feb 2015 10:26:43 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[pouchdb updated to version 3.3.1]]></title>
-            <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.3.1/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.3.1/pouchdb.min.js</a>]]></description>
-            <link>http://pouchdb.com/</link>
-            <guid isPermaLink="false">pouchdb3.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 04 Feb 2015 10:26:06 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[chainloading updated to version 1.0.3]]></title>
             <description><![CDATA[Allows you to chain together jQuery deferreds or functions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.3/chainloading.min.js">//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.3/chainloading.min.js</a>]]></description>
             <guid isPermaLink="false">chainloading1.0.3</guid>
@@ -1127,22 +1135,6 @@
             <guid isPermaLink="false">bla1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 01 Feb 2015 13:24:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mathjax updated to version 2.5.0]]></title>
-            <description><![CDATA[MathJax is an open source JavaScript display engine for mathematics that works in all browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.0/MathJax.js">//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.0/MathJax.js</a>]]></description>
-            <link>http://www.mathjax.org/</link>
-            <guid isPermaLink="false">mathjax2.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 31 Jan 2015 17:57:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.mb.YTPlayer updated to version 2.8.0]]></title>
-            <description><![CDATA[This plugin let you play any public YouTube video as background of your page. It can also be used as a customized player in page.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.8.0/jquery.mb.YTPlayer.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/2.8.0/jquery.mb.YTPlayer.min.js</a>]]></description>
-            <link>http://pupunzi.open-lab.com/mb-jquery-components/jquery-mb-ytplayer/</link>
-            <guid isPermaLink="false">jquery.mb.YTPlayer2.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 31 Jan 2015 17:25:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
