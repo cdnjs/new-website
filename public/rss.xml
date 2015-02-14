@@ -10,10 +10,50 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Feb 2015 03:36:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Feb 2015 04:20:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[draggabilly updated to version 1.1.2]]></title>
+            <description><![CDATA[Draggabilly is Javascript library to make elements draggable. When dragging, Draggabillly will add the class .is-dragging to the element. The minified source draggabilly.pkgd.min.js is on http://draggabilly.desandro.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.2/draggabilly.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.1.2/draggabilly.pkgd.min.js</a>]]></description>
+            <link>http://draggabilly.desandro.com/</link>
+            <guid isPermaLink="false">draggabilly1.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 02:51:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sortable updated to version 1.1.0]]></title>
+            <description><![CDATA[Sortable is a minimalist JavaScript library for modern browsers and touch devices. No jQuery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.0/Sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.0/Sortable.min.js</a>]]></description>
+            <link>http://rubaxa.github.io/Sortable/</link>
+            <guid isPermaLink="false">Sortable1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 02:50:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rangeslider.js updated to version 1.0.0]]></title>
+            <description><![CDATA[Simple, small and fast JavaScript/jQuery polyfill for the HTML5 <input type="range"> slider element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.0.0/rangeslider.min.css">//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.0.0/rangeslider.min.css</a>]]></description>
+            <link>https://github.com/andreruffert/rangeslider.js</link>
+            <guid isPermaLink="false">rangeslider.js1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 02:36:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.21]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.21/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.21/jsonld.min.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.21</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 02:34:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[xls updated to version 0.7.4-a]]></title>
+            <description><![CDATA[Javascript XLS (Excel 97-2004) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.js">//cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.js</a>]]></description>
+            <link>https://github.com/SheetJS/js-xls</link>
+            <guid isPermaLink="false">xls0.7.4-a</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 14 Feb 2015 02:33:42 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[preconditions(5.2.3) was added]]></title>
             <description><![CDATA[A preconditions package based on Google's preconditions library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/preconditions/5.2.3/preconditions.min.js">//cdnjs.cloudflare.com/ajax/libs/preconditions/5.2.3/preconditions.min.js</a>]]></description>
@@ -372,14 +412,6 @@
             <pubDate>Wed, 11 Feb 2015 05:26:25 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[xls updated to version 0.7.4-a]]></title>
-            <description><![CDATA[Javascript XLS (Excel 97-2004) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.js">//cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.js</a>]]></description>
-            <link>https://github.com/SheetJS/js-xls</link>
-            <guid isPermaLink="false">xls0.7.4-a</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 11 Feb 2015 05:24:58 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[d3 updated to version 3.5.5]]></title>
             <description><![CDATA[A small, free JavaScript library for manipulating documents based on data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js">//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js</a>]]></description>
             <link>http://mbostock.github.com/d3/</link>
@@ -442,14 +474,6 @@
             <guid isPermaLink="false">rivets0.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Feb 2015 16:32:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Sortable updated to version 1.1.0]]></title>
-            <description><![CDATA[Sortable is a minimalist JavaScript library for modern browsers and touch devices. No jQuery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.0/Sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.0/Sortable.min.js</a>]]></description>
-            <link>http://rubaxa.github.io/Sortable/</link>
-            <guid isPermaLink="false">Sortable1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Feb 2015 09:05:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cldrjs updated to version 0.4.0]]></title>
@@ -703,14 +727,6 @@
             <pubDate>Sun, 08 Feb 2015 15:00:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jsonld updated to version 0.3.21]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.21/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.21/jsonld.min.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.21</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 14:59:41 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[less.js updated to version 2.4.0]]></title>
             <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.4.0/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.4.0/less.min.js</a>]]></description>
             <link>http://lesscss.org/</link>
@@ -907,14 +923,6 @@
             <guid isPermaLink="false">angular-azure-mobile-service1.3.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 04 Feb 2015 10:31:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rangeslider.js updated to version 1.0.0]]></title>
-            <description><![CDATA[Simple, small and fast JavaScript/jQuery polyfill for the HTML5 <input type="range"> slider element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.0.0/rangeslider.min.css">//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.0.0/rangeslider.min.css</a>]]></description>
-            <link>https://github.com/andreruffert/rangeslider.js</link>
-            <guid isPermaLink="false">rangeslider.js1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 04 Feb 2015 10:27:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ouibounce updated to version 0.0.11]]></title>
