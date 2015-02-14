@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Feb 2015 04:20:11 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Feb 2015 05:12:09 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1175,14 +1175,6 @@
             <guid isPermaLink="false">html-inspector0.8.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 31 Jan 2015 13:07:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-material updated to version 0.7.1]]></title>
-            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.1/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.7.1/angular-material.min.css</a>]]></description>
-            <link>https://material.angularjs.org/</link>
-            <guid isPermaLink="false">angular-material0.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 31 Jan 2015 03:21:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
