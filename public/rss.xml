@@ -10,10 +10,81 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 15 Feb 2015 14:29:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Feb 2015 08:50:32 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[then-request(2.1.1) was added]]></title>
+            <description><![CDATA[A request library that returns promises, inspired by request<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/then-request/2.1.1/request.min.js">//cdnjs.cloudflare.com/ajax/libs/then-request/2.1.1/request.min.js</a>]]></description>
+            <link>https://github.com/then/request</link>
+            <guid isPermaLink="false">then-request2.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 16:12:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 3.1.0]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.1.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.1.0/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly3.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 16:11:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.48]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.48/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.48/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.48</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 16:11:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasqe updated to version 2.3.7]]></title>
+            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.7/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.7/yasqe.bundled.min.js</a>]]></description>
+            <link>http://yasqe.yasgui.org</link>
+            <guid isPermaLink="false">yasqe2.3.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 16:10:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react-foundation-apps updated to version 0.6.0]]></title>
+            <description><![CDATA['React port of foundation-apps'<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-foundation-apps/0.6.0/react-foundation-apps.min.js">//cdnjs.cloudflare.com/ajax/libs/react-foundation-apps/0.6.0/react-foundation-apps.min.js</a>]]></description>
+            <link>https://github.com/akiran/react-foundation-apps</link>
+            <guid isPermaLink="false">react-foundation-apps0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 15:26:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsface updated to version 2.3.0]]></title>
+            <description><![CDATA[Small, fast, elegant, powerful, and cross platform JavaScript OOP library. Support main, singleton, super call, private, mixins, plugins, AOP and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsface/2.3.0/jsface.min.js">//cdnjs.cloudflare.com/ajax/libs/jsface/2.3.0/jsface.min.js</a>]]></description>
+            <link>https://github.com/tnhu/jsface</link>
+            <guid isPermaLink="false">jsface2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 15:25:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chainloading updated to version 1.0.4]]></title>
+            <description><![CDATA[Allows you to chain together jQuery deferreds or functions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.4/chainloading.min.js">//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.4/chainloading.min.js</a>]]></description>
+            <guid isPermaLink="false">chainloading1.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 13:32:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[socket.io updated to version 1.3.4]]></title>
+            <description><![CDATA[Browser-side code for Socket.IO. Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.4/socket.io.min.js">//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.4/socket.io.min.js</a>]]></description>
+            <link>http://socket.io</link>
+            <guid isPermaLink="false">socket.io1.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 13:31:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[yasr updated to version 2.4.11]]></title>
+            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.11/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.11/yasr.bundled.min.js</a>]]></description>
+            <link>http://yasr.yasgui.org</link>
+            <guid isPermaLink="false">yasr2.4.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 13:31:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[interact.js updated to version 1.2.3]]></title>
             <description><![CDATA[Drag and drop, resizing and multi-touch gestures with inertia and snapping for modern browsers (and also IE8+)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.3/interact.min.js">//cdnjs.cloudflare.com/ajax/libs/interact.js/1.2.3/interact.min.js</a>]]></description>
@@ -55,36 +126,12 @@
             <pubDate>Sat, 14 Feb 2015 17:53:18 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[yasqe updated to version 2.3.5]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.5/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.5/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.3.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 14 Feb 2015 16:21:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasr updated to version 2.4.10]]></title>
-            <description><![CDATA[Yet Another SPARQL Resultset Visualizer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.10/yasr.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasr/2.4.10/yasr.bundled.min.js</a>]]></description>
-            <link>http://yasr.yasgui.org</link>
-            <guid isPermaLink="false">yasr2.4.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 14 Feb 2015 16:21:39 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[pouchdb updated to version 3.3.1]]></title>
             <description><![CDATA[PouchDB is a pocket-sized database.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.3.1/pouchdb.min.js">//cdnjs.cloudflare.com/ajax/libs/pouchdb/3.3.1/pouchdb.min.js</a>]]></description>
             <link>http://pouchdb.com/</link>
             <guid isPermaLink="false">pouchdb3.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 14 Feb 2015 16:11:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-formly updated to version 3.0.12]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.0.12/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.0.12/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly3.0.12</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 14 Feb 2015 16:05:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[draggabilly updated to version 1.1.2]]></title>
@@ -189,14 +236,6 @@
             <guid isPermaLink="false">immstruct1.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Feb 2015 16:19:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.47]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.47/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.47/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.47</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 16:19:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ace updated to version 1.1.8]]></title>
@@ -427,14 +466,6 @@
             <guid isPermaLink="false">react-slick0.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 11 Feb 2015 10:30:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react-foundation-apps(0.6.0) was added]]></title>
-            <description><![CDATA['React port of foundation-apps'<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-foundation-apps/0.6.0/react-foundation-apps.min.js">//cdnjs.cloudflare.com/ajax/libs/react-foundation-apps/0.6.0/react-foundation-apps.min.js</a>]]></description>
-            <link>https://github.com/akiran/react-foundation-apps</link>
-            <guid isPermaLink="false">react-foundation-apps0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 11 Feb 2015 10:24:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[materialize updated to version 0.95.2]]></title>
@@ -885,6 +916,14 @@
             <pubDate>Fri, 06 Feb 2015 03:58:48 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[holder updated to version 2.5.0]]></title>
+            <description><![CDATA[Client-side image placeholders.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/holder/2.5.0/holder.min.js">//cdnjs.cloudflare.com/ajax/libs/holder/2.5.0/holder.min.js</a>]]></description>
+            <link>http://imsky.github.io/holder/</link>
+            <guid isPermaLink="false">holder2.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 06 Feb 2015 02:08:59 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[gist-embed updated to version 2.1]]></title>
             <description><![CDATA[Ultra powered gist embedding for your website<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gist-embed/2.1/gist-embed.min.js">//cdnjs.cloudflare.com/ajax/libs/gist-embed/2.1/gist-embed.min.js</a>]]></description>
             <link>http://blairvanderhoof.com/gist-embed/</link>
@@ -965,21 +1004,6 @@
             <pubDate>Wed, 04 Feb 2015 10:27:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[socket.io updated to version 1.3.3]]></title>
-            <description><![CDATA[Browser-side code for Socket.IO. Socket.IO aims to make realtime apps possible in every browser and mobile device, blurring the differences between the different transport mechanisms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.3/socket.io.min.js">//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.3/socket.io.min.js</a>]]></description>
-            <link>http://socket.io</link>
-            <guid isPermaLink="false">socket.io1.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 04 Feb 2015 10:26:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chainloading updated to version 1.0.3]]></title>
-            <description><![CDATA[Allows you to chain together jQuery deferreds or functions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.3/chainloading.min.js">//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.3/chainloading.min.js</a>]]></description>
-            <guid isPermaLink="false">chainloading1.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 04 Feb 2015 10:25:10 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[webtorrent updated to version 0.27.1]]></title>
             <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.27.1/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.27.1/webtorrent.min.js</a>]]></description>
             <link>http://webtorrent.io</link>
@@ -1033,14 +1057,6 @@
             <guid isPermaLink="false">jQuery.dotdotdot1.7.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 03 Feb 2015 02:08:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[holder updated to version 2.5.0]]></title>
-            <description><![CDATA[Client-side image placeholders.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/holder/2.5.0/holder.min.js">//cdnjs.cloudflare.com/ajax/libs/holder/2.5.0/holder.min.js</a>]]></description>
-            <link>http://imsky.github.io/holder/</link>
-            <guid isPermaLink="false">holder2.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 02:07:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[echarts updated to version 2.2.0]]></title>
@@ -1130,35 +1146,20 @@
             <pubDate>Mon, 02 Feb 2015 13:02:58 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.businessHours updated to version 1.0.1]]></title>
-            <description><![CDATA[jQuery plugin allows you to easy show & manage business hours<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.businessHours/1.0.1/jquery.businessHours.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.businessHours/1.0.1/jquery.businessHours.min.js</a>]]></description>
-            <link>http://gendelf.github.io/jquery.businessHours/</link>
-            <guid isPermaLink="false">jquery.businessHours1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Feb 2015 04:25:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-flow updated to version 2.6.0]]></title>
-            <description><![CDATA[Flow.js html5 file upload extension on angular.js framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-flow/2.6.0/ng-flow-standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-flow/2.6.0/ng-flow-standalone.min.js</a>]]></description>
-            <guid isPermaLink="false">ng-flow2.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Feb 2015 03:59:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bla(1.1.0) was added]]></title>
-            <description><![CDATA[Easy way to create your own API methods for server and client sides<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bla/1.1.0/bla.min.js">//cdnjs.cloudflare.com/ajax/libs/bla/1.1.0/bla.min.js</a>]]></description>
-            <link>https://github.com/baby-loris/bla</link>
-            <guid isPermaLink="false">bla1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 01 Feb 2015 13:24:52 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
             <description><![CDATA[Select Client-side components of MeteorJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mini-meteor/1.0.1/mini-meteor.js">//cdnjs.cloudflare.com/ajax/libs/mini-meteor/1.0.1/mini-meteor.js</a>]]></description>
             <link>https://github.com/chicagogrooves/mini-meteor</link>
             <guid isPermaLink="false">mini-meteor1.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 29 Jan 2015 20:08:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vault.js(0.1.1) was added]]></title>
+            <description><![CDATA[Normalizer for local/sessionStorage & cookies.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.1/vault.min.js">//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.1/vault.min.js</a>]]></description>
+            <link>http://jimmybyrum.github.io/vault.js/</link>
+            <guid isPermaLink="false">vault.js0.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 20 Jan 2015 04:14:30 GMT</pubDate>
         </item>
     </channel>
 </rss>
