@@ -367,6 +367,9 @@ $('body').on('click', '.remove-favorite', function(e) {
   var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010', { dsn: true }); // public/search-only credentials
   var index = algolia.initIndex('libraries');
   function searchHandler(ev) {
+    // cleanup URL hash if present
+    location.hash = ''
+
     var val = $(ev.currentTarget).val();
     if (val === '') {
       $hits.html($allRows);
@@ -376,6 +379,18 @@ $('body').on('click', '.remove-favorite', function(e) {
   }
 
   $('#search-box').on('keyup change', searchHandler);
+
+
+  // Perform searches automatically based on the URL hash
+  if (location.hash.length > 1) {
+    var query = location.hash.match(/q=([\w+]+)/)
+    if (query) {
+      query = query[1].replace(/\+/, ' ')
+      $('#search-box').val(query)
+      index.search(query, displayMatchingLibraries, { hitsPerPage: 20 });
+    }
+  }
+
 
   // Put favorite libraries at the top of the list
   //putClassOnFavorites(getFavorites());
