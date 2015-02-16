@@ -10,10 +10,64 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 16 Feb 2015 10:18:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Feb 2015 11:51:16 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mermaid updated to version 0.3.5]]></title>
+            <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.5/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.5/mermaid.full.min.js</a>]]></description>
+            <link>https://github.com/knsv/mermaid</link>
+            <guid isPermaLink="false">mermaid0.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 09:07:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-mixpanel updated to version 1.0.2]]></title>
+            <description><![CDATA[Wraps the mixpanel JavaScript global to make it injectable and aid in testing<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-mixpanel/1.0.2/angular-mixpanel.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-mixpanel/1.0.2/angular-mixpanel.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-mixpanel1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 09:07:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jspdf updated to version 1.0.272]]></title>
+            <description><![CDATA[A HTML5 client-side solution for generating PDFs. Perfect for event tickets, reports, certificates, you name it!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.min.js">//cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.min.js</a>]]></description>
+            <link>http://parall.ax/products/jspdf</link>
+            <guid isPermaLink="false">jspdf1.0.272</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 09:04:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.49]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.49/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.49/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.49</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 08:40:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[neo-async updated to version 0.6.0]]></title>
+            <description><![CDATA[Neo-Async is thought to be used as a drop-in replacement for Async, it almost fully covers its functionality and runs faster<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.0/async.js">//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.0/async.js</a>]]></description>
+            <guid isPermaLink="false">neo-async0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 08:40:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vault.js updated to version 0.1.7]]></title>
+            <description><![CDATA[Normalizer for local/sessionStorage & cookies.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.7/vault.min.js">//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.7/vault.min.js</a>]]></description>
+            <link>http://jimmybyrum.github.io/vault.js/</link>
+            <guid isPermaLink="false">vault.js0.1.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 08:38:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[evil-icons(1.7.1) was added]]></title>
+            <description><![CDATA[Evil Icons is a set of SVG icons designed extensively for using in modern web projects<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.1/evil-icons.min.js">//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.1/evil-icons.min.js</a>]]></description>
+            <link>http://evil-icons.io</link>
+            <guid isPermaLink="false">evil-icons1.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Feb 2015 17:42:14 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[then-request(2.1.1) was added]]></title>
             <description><![CDATA[A request library that returns promises, inspired by request<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/then-request/2.1.1/request.min.js">//cdnjs.cloudflare.com/ajax/libs/then-request/2.1.1/request.min.js</a>]]></description>
@@ -29,14 +83,6 @@
             <guid isPermaLink="false">angular-formly3.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Feb 2015 16:11:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.49]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.49/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.49/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.49</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Feb 2015 16:11:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yasqe updated to version 2.3.7]]></title>
@@ -854,13 +900,6 @@
             <pubDate>Sat, 07 Feb 2015 14:16:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[neo-async(0.6.0) was added]]></title>
-            <description><![CDATA[Neo-Async is thought to be used as a drop-in replacement for Async, it almost fully covers its functionality and runs faster<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.0/async.js">//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.0/async.js</a>]]></description>
-            <guid isPermaLink="false">neo-async0.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 07 Feb 2015 12:34:12 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[es5-shim updated to version 4.1.0]]></title>
             <description><![CDATA[ECMAScript 5 compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.0/es5-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.0/es5-shim.min.js</a>]]></description>
             <link>http://github.com/es-shims/es5-shim/</link>
@@ -1154,12 +1193,12 @@
             <pubDate>Thu, 29 Jan 2015 20:08:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[vault.js(0.1.7) was added]]></title>
-            <description><![CDATA[Normalizer for local/sessionStorage & cookies.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.7/vault.min.js">//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.7/vault.min.js</a>]]></description>
-            <link>http://jimmybyrum.github.io/vault.js/</link>
-            <guid isPermaLink="false">vault.js0.1.7</guid>
+            <title><![CDATA[co(4.1.0) was added]]></title>
+            <description><![CDATA[generator async control flow goodness<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/co/4.1.0/index.min.js">//cdnjs.cloudflare.com/ajax/libs/co/4.1.0/index.min.js</a>]]></description>
+            <link>https://github.com/tj/co</link>
+            <guid isPermaLink="false">co4.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 20 Jan 2015 04:14:30 GMT</pubDate>
+            <pubDate>Thu, 22 Jan 2015 21:06:35 GMT</pubDate>
         </item>
     </channel>
 </rss>
