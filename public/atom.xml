@@ -10,10 +10,82 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 16 Feb 2015 18:08:36 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Feb 2015 19:50:30 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[twemoji updated to version 1.2.1]]></title>
+            <description><![CDATA[A Unicode standard based way to implement emoji across all platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twemoji/1.2.1/twemoji.min.js">//cdnjs.cloudflare.com/ajax/libs/twemoji/1.2.1/twemoji.min.js</a>]]></description>
+            <link>https://github.com/twitter/twemoji</link>
+            <guid isPermaLink="false">twemoji1.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 17:44:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[social-likes updated to version 3.0.13]]></title>
+            <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.13/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.13/social-likes.min.js</a>]]></description>
+            <link>http://sapegin.github.io/social-likes/</link>
+            <guid isPermaLink="false">social-likes3.0.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 17:44:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pusher updated to version 2.2.4]]></title>
+            <description><![CDATA[Pusher Javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pusher/2.2.4/pusher.min.js">//cdnjs.cloudflare.com/ajax/libs/pusher/2.2.4/pusher.min.js</a>]]></description>
+            <link>http://pusher.com/</link>
+            <guid isPermaLink="false">pusher2.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 17:43:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-select updated to version 0.9.8]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.8/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.8/select.min.js</a>]]></description>
+            <link>http://github.com/angular-ui/ui-select</link>
+            <guid isPermaLink="false">angular-ui-select0.9.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 17:43:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.4.2]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.2/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.2/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.4.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 17:24:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cutjs updated to version 0.3.1]]></title>
+            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.3.1/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.3.1/cut.web.min.js</a>]]></description>
+            <link>http://cutjs.org/</link>
+            <guid isPermaLink="false">cutjs0.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 17:24:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cookies.js updated to version 1.2.1]]></title>
+            <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.2.1/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.2.1/cookies.min.js</a>]]></description>
+            <link>https://github.com/ScottHamper/Cookies</link>
+            <guid isPermaLink="false">Cookies.js1.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 17:23:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsforce updated to version 1.4.0]]></title>
+            <description><![CDATA[Salesforce API Library for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.0/jsforce.min.js">//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.0/jsforce.min.js</a>]]></description>
+            <link>http://jsforce.github.io</link>
+            <guid isPermaLink="false">jsforce1.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 17:22:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[evil-icons updated to version 1.7.1]]></title>
+            <description><![CDATA[Evil Icons is a set of SVG icons designed extensively for using in modern web projects<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.1/evil-icons.min.js">//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.1/evil-icons.min.js</a>]]></description>
+            <link>http://evil-icons.io</link>
+            <guid isPermaLink="false">evil-icons1.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Feb 2015 17:22:24 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mermaid updated to version 0.3.5]]></title>
             <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.5/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.5/mermaid.full.min.js</a>]]></description>
@@ -59,14 +131,6 @@
             <guid isPermaLink="false">vault.js0.1.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 16 Feb 2015 08:38:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[evil-icons(1.7.1) was added]]></title>
-            <description><![CDATA[Evil Icons is a set of SVG icons designed extensively for using in modern web projects<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.1/evil-icons.min.js">//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.1/evil-icons.min.js</a>]]></description>
-            <link>http://evil-icons.io</link>
-            <guid isPermaLink="false">evil-icons1.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Feb 2015 17:42:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[then-request(2.1.1) was added]]></title>
@@ -244,22 +308,6 @@
             <pubDate>Fri, 13 Feb 2015 16:28:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-ui-select updated to version 0.9.7]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.7/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.9.7/select.min.js</a>]]></description>
-            <link>http://github.com/angular-ui/ui-select</link>
-            <guid isPermaLink="false">angular-ui-select0.9.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 16:28:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[p5.js updated to version 0.4.1]]></title>
-            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.1/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.1/p5.min.js</a>]]></description>
-            <link>http://p5js.org</link>
-            <guid isPermaLink="false">p5.js0.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 16:20:44 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ng-dialog updated to version 0.3.11]]></title>
             <description><![CDATA[Modals and popups provider for Angular.js applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.11/js/ngDialog.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.3.11/js/ngDialog.min.js</a>]]></description>
             <link>http://likeastore.github.io/ngDialog/</link>
@@ -321,14 +369,6 @@
             <guid isPermaLink="false">textAngular1.3.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Feb 2015 07:02:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cutjs updated to version 0.3.0]]></title>
-            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.3.0/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.3.0/cut.web.min.js</a>]]></description>
-            <link>http://cutjs.org/</link>
-            <guid isPermaLink="false">cutjs0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 07:02:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[swagger-ui updated to version 2.1.4]]></title>
@@ -561,14 +601,6 @@
             <pubDate>Wed, 11 Feb 2015 05:22:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Cookies.js updated to version 1.2.0]]></title>
-            <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.2.0/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.2.0/cookies.min.js</a>]]></description>
-            <link>https://github.com/ScottHamper/Cookies</link>
-            <guid isPermaLink="false">Cookies.js1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 11 Feb 2015 05:22:37 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[dropzone updated to version 4.0.1]]></title>
             <description><![CDATA[Drag'n'drop file uploads with image previews<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.js">//cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.js</a>]]></description>
             <link>http://www.dropzonejs.com/</link>
@@ -630,14 +662,6 @@
             <guid isPermaLink="false">fastclick1.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Feb 2015 06:23:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pusher updated to version 2.2.3]]></title>
-            <description><![CDATA[Pusher Javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pusher/2.2.3/pusher.min.js">//cdnjs.cloudflare.com/ajax/libs/pusher/2.2.3/pusher.min.js</a>]]></description>
-            <link>http://pusher.com/</link>
-            <guid isPermaLink="false">pusher2.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Feb 2015 06:21:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[reconnecting-websocket(1.0.0) was added]]></title>
