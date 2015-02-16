@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 16 Feb 2015 08:50:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Feb 2015 10:18:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -31,10 +31,10 @@
             <pubDate>Sun, 15 Feb 2015 16:11:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bacon.js updated to version 0.7.48]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.48/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.48/Bacon.min.js</a>]]></description>
+            <title><![CDATA[bacon.js updated to version 0.7.49]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.49/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.49/Bacon.min.js</a>]]></description>
             <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.48</guid>
+            <guid isPermaLink="false">bacon.js0.7.49</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Feb 2015 16:11:13 GMT</pubDate>
         </item>
@@ -854,9 +854,9 @@
             <pubDate>Sat, 07 Feb 2015 14:16:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[neo-async(0.5.3) was added]]></title>
-            <description><![CDATA[Neo-Async is thought to be used as a drop-in replacement for Async, it almost fully covers its functionality and runs faster<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/neo-async/0.5.3/async.js">//cdnjs.cloudflare.com/ajax/libs/neo-async/0.5.3/async.js</a>]]></description>
-            <guid isPermaLink="false">neo-async0.5.3</guid>
+            <title><![CDATA[neo-async(0.6.0) was added]]></title>
+            <description><![CDATA[Neo-Async is thought to be used as a drop-in replacement for Async, it almost fully covers its functionality and runs faster<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.0/async.js">//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.0/async.js</a>]]></description>
+            <guid isPermaLink="false">neo-async0.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 07 Feb 2015 12:34:12 GMT</pubDate>
         </item>
@@ -1154,10 +1154,10 @@
             <pubDate>Thu, 29 Jan 2015 20:08:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[vault.js(0.1.1) was added]]></title>
-            <description><![CDATA[Normalizer for local/sessionStorage & cookies.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.1/vault.min.js">//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.1/vault.min.js</a>]]></description>
+            <title><![CDATA[vault.js(0.1.7) was added]]></title>
+            <description><![CDATA[Normalizer for local/sessionStorage & cookies.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.7/vault.min.js">//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.7/vault.min.js</a>]]></description>
             <link>http://jimmybyrum.github.io/vault.js/</link>
-            <guid isPermaLink="false">vault.js0.1.1</guid>
+            <guid isPermaLink="false">vault.js0.1.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 20 Jan 2015 04:14:30 GMT</pubDate>
         </item>
