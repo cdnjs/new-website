@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 16 Feb 2015 14:35:21 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Feb 2015 14:56:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1128,61 +1128,6 @@
             <guid isPermaLink="false">q.js2.0.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 03 Feb 2015 01:40:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[localforage updated to version 1.2.2]]></title>
-            <description><![CDATA[Offline storage, improved.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/localforage/1.2.2/localforage.min.js">//cdnjs.cloudflare.com/ajax/libs/localforage/1.2.2/localforage.min.js</a>]]></description>
-            <link>https://github.com/mozilla/localForage</link>
-            <guid isPermaLink="false">localforage1.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Feb 2015 13:10:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lazysizes updated to version 0.9.0]]></title>
-            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.9.0/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/0.9.0/lazysizes.min.js</a>]]></description>
-            <guid isPermaLink="false">lazysizes0.9.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Feb 2015 13:10:09 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockout-validation updated to version 2.0.2]]></title>
-            <description><![CDATA[A validation library for Knockout JS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockout-validation/2.0.2/knockout.validation.min.js">//cdnjs.cloudflare.com/ajax/libs/knockout-validation/2.0.2/knockout.validation.min.js</a>]]></description>
-            <link>https://github.com/Knockout-Contrib/Knockout-Validation</link>
-            <guid isPermaLink="false">knockout-validation2.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Feb 2015 13:09:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[maquette updated to version 1.4.6]]></title>
-            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.6/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.4.6/maquette.min.js</a>]]></description>
-            <link>http://johan-gorter.github.io/maquette/</link>
-            <guid isPermaLink="false">maquette1.4.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Feb 2015 13:08:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-jgrowl updated to version 1.4.2]]></title>
-            <description><![CDATA[jGrowl is a jQuery plugin that raises unobtrusive messages within the browser, similar to the way that OS X's Growl Framework works. The idea is simple, deliver notifications to the end user in a noticeable way that doesn't obstruct the work flow and yet keeps the user informed.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.2/jquery.jgrowl.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-jgrowl/1.4.2/jquery.jgrowl.min.js</a>]]></description>
-            <link>https://github.com/stanlemon/jGrowl</link>
-            <guid isPermaLink="false">jquery-jgrowl1.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Feb 2015 13:08:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[motajs updated to version 0.4.3]]></title>
-            <description><![CDATA[JavaScript library that aims to allow the developer to easily build web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motajs/0.4.3/mota.min.js">//cdnjs.cloudflare.com/ajax/libs/motajs/0.4.3/mota.min.js</a>]]></description>
-            <link>http://motapc97.github.io/motajs/</link>
-            <guid isPermaLink="false">motajs0.4.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Feb 2015 13:03:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[machina.js updated to version 1.0.0-1]]></title>
-            <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/machina.js/1.0.0-1/machina.min.js">//cdnjs.cloudflare.com/ajax/libs/machina.js/1.0.0-1/machina.min.js</a>]]></description>
-            <link>http://machina-js.org/</link>
-            <guid isPermaLink="false">machina.js1.0.0-1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 02 Feb 2015 13:02:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
