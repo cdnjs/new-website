@@ -10,10 +10,82 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Feb 2015 04:31:39 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Feb 2015 06:07:45 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[swagger-ui updated to version 2.1.4-M1]]></title>
+            <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.4-M1/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.4-M1/swagger-ui.min.js</a>]]></description>
+            <link>http://swagger.io/</link>
+            <guid isPermaLink="false">swagger-ui2.1.4-M1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 04:47:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[metrics-graphics updated to version 2.2.0]]></title>
+            <description><![CDATA[A library optimized for concise, principled data graphics and layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.2.0/metricsgraphics.min.js">//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.2.0/metricsgraphics.min.js</a>]]></description>
+            <link>http://metricsgraphicsjs.org</link>
+            <guid isPermaLink="false">metrics-graphics2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 04:46:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[velocity updated to version 1.2.2]]></title>
+            <description><![CDATA[Accelerated JavaScript animation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js">//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js</a>]]></description>
+            <link>http://velocityjs.org</link>
+            <guid isPermaLink="false">velocity1.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 04:45:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fullPage.js updated to version 2.5.7]]></title>
+            <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.7/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.7/jquery.fullPage.min.css</a>]]></description>
+            <link>http://alvarotrigo.com/fullPage/</link>
+            <guid isPermaLink="false">fullPage.js2.5.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 04:45:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-filter updated to version 0.5.3]]></title>
+            <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.3/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.3/angular-filter.min.js</a>]]></description>
+            <link>https://github.com/a8m/angular-filter</link>
+            <guid isPermaLink="false">angular-filter0.5.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 04:43:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.25.0]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.0/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.25.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 04:30:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsonld updated to version 0.3.22]]></title>
+            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.22/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.22/jsonld.min.js</a>]]></description>
+            <link>http://github.com/digitalbazaar/jsonld.js</link>
+            <guid isPermaLink="false">jsonld0.3.22</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 04:29:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fast-json-patch updated to version 0.5.1]]></title>
+            <description><![CDATA[Fast implementation of JSON-Patch (RFC-6902) with duplex (observe changes) capabilities<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.1/json-patch-duplex.min.js">//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.1/json-patch-duplex.min.js</a>]]></description>
+            <link>https://github.com/Starcounter-Jack/Fast-JSON-Patch</link>
+            <guid isPermaLink="false">fast-json-patch0.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 04:29:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[algoliasearch updated to version 2.9.2]]></title>
+            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.2/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.2/algoliasearch.min.js</a>]]></description>
+            <link>https://github.com/algolia/algoliasearch-client-js</link>
+            <guid isPermaLink="false">algoliasearch2.9.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 04:28:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[twemoji updated to version 1.2.1]]></title>
             <description><![CDATA[A Unicode standard based way to implement emoji across all platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twemoji/1.2.1/twemoji.min.js">//cdnjs.cloudflare.com/ajax/libs/twemoji/1.2.1/twemoji.min.js</a>]]></description>
@@ -268,14 +340,6 @@
             <pubDate>Sat, 14 Feb 2015 02:36:05 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jsonld updated to version 0.3.21]]></title>
-            <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.21/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.21/jsonld.min.js</a>]]></description>
-            <link>http://github.com/digitalbazaar/jsonld.js</link>
-            <guid isPermaLink="false">jsonld0.3.21</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 14 Feb 2015 02:34:53 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[xls updated to version 0.7.4-a]]></title>
             <description><![CDATA[Javascript XLS (Excel 97-2004) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.js">//cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.js</a>]]></description>
             <link>https://github.com/SheetJS/js-xls</link>
@@ -369,14 +433,6 @@
             <guid isPermaLink="false">textAngular1.3.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Feb 2015 07:02:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[swagger-ui updated to version 2.1.4]]></title>
-            <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.4/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.4/swagger-ui.min.js</a>]]></description>
-            <link>http://swagger.io/</link>
-            <guid isPermaLink="false">swagger-ui2.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 07:01:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[markdown-it updated to version 3.0.6]]></title>
@@ -932,14 +988,6 @@
             <pubDate>Fri, 06 Feb 2015 17:43:39 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[es6-shim updated to version 0.24.0]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.24.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.24.0/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.24.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 06 Feb 2015 17:43:09 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[nvd3 updated to version 1.7.0]]></title>
             <description><![CDATA[Re-usable charts and chart components for d3.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.js">//cdnjs.cloudflare.com/ajax/libs/nvd3/1.7.0/nv.d3.min.js</a>]]></description>
             <link>http://nvd3.org/</link>
@@ -1073,14 +1121,6 @@
             <guid isPermaLink="false">webtorrent0.27.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 04 Feb 2015 10:24:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[algoliasearch updated to version 2.9.1]]></title>
-            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.1/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.1/algoliasearch.min.js</a>]]></description>
-            <link>https://github.com/algolia/algoliasearch-client-js</link>
-            <guid isPermaLink="false">algoliasearch2.9.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 04 Feb 2015 10:24:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[set-iframe-height(1.1.1) was added]]></title>
