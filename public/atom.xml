@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Feb 2015 02:44:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Feb 2015 02:48:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1136,22 +1136,6 @@
             <guid isPermaLink="false">jasmine2.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 03 Feb 2015 02:05:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[elasticsearch updated to version 3.1.2]]></title>
-            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.2/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.2/elasticsearch.js</a>]]></description>
-            <link>https://github.com/elasticsearch/elasticsearch-js</link>
-            <guid isPermaLink="false">elasticsearch3.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 01:52:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[q.js updated to version 2.0.3]]></title>
-            <description><![CDATA[A library for promises (CommonJS/Promises/A,B,D)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/q.js/2.0.3/q.js">//cdnjs.cloudflare.com/ajax/libs/q.js/2.0.3/q.js</a>]]></description>
-            <link>https://github.com/kriskowal/q</link>
-            <guid isPermaLink="false">q.js2.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 01:40:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
