@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Feb 2015 07:50:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Feb 2015 08:50:15 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1136,14 +1136,6 @@
             <guid isPermaLink="false">set-iframe-height1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 04 Feb 2015 10:10:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-table updated to version 1.6.0]]></title>
-            <description><![CDATA[Bootstrap table displays data in a tabular format and offers rich support to radio, checkbox, sort, pagination and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.6.0/bootstrap-table.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.6.0/bootstrap-table.min.js</a>]]></description>
-            <link>http://wenzhixin.net.cn/p/bootstrap-table/</link>
-            <guid isPermaLink="false">bootstrap-table1.6.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 07:27:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
