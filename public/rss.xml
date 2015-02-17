@@ -10,17 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Feb 2015 18:10:22 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Feb 2015 19:21:41 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[flocks.js(0.14.3) was added]]></title>
+            <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.14.3/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.14.3/flocks.js</a>]]></description>
+            <link>http://flocks.rocks/</link>
+            <guid isPermaLink="false">flocks.js0.14.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 18:19:48 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[highmaps updated to version 1.1.1]]></title>
             <description><![CDATA[Highmaps is Highcharts for geo maps. Mainly choropleth maps where the color intensity relates to some value of a geographic area, but Highmaps also supports different features like lines (roads, rivers etc.) and points (cities, points of interest) and more. Highmaps comes in two flavors, either as a standalone JavaScript file, or as a plugin for Highcharts. Highmaps is NOT free for commercial use.  See the license and pricing here: http://shop.highsoft.com/highmaps.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.1/highmaps.js">//cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.1/highmaps.js</a>]]></description>
             <link>http://highcharts.com/</link>
             <guid isPermaLink="false">highmaps1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Feb 2015 08:34:04 GMT</pubDate>
+            <pubDate>Tue, 17 Feb 2015 16:52:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[highstock updated to version 2.1.1]]></title>
@@ -28,7 +36,7 @@
             <link>http://highcharts.com/</link>
             <guid isPermaLink="false">highstock2.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Feb 2015 08:30:22 GMT</pubDate>
+            <pubDate>Tue, 17 Feb 2015 16:50:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[highcharts updated to version 4.1.1]]></title>
@@ -36,7 +44,22 @@
             <link>http://highcharts.com/</link>
             <guid isPermaLink="false">highcharts4.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Feb 2015 08:28:12 GMT</pubDate>
+            <pubDate>Tue, 17 Feb 2015 16:46:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[evil-icons updated to version 1.7.2]]></title>
+            <description><![CDATA[Evil Icons is a set of SVG icons designed extensively for using in modern web projects<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.2/evil-icons.min.js">//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.2/evil-icons.min.js</a>]]></description>
+            <link>http://evil-icons.io</link>
+            <guid isPermaLink="false">evil-icons1.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 16:43:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chainloading updated to version 1.0.5]]></title>
+            <description><![CDATA[Allows you to chain together jQuery deferreds or functions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.5/chainloading.min.js">//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.5/chainloading.min.js</a>]]></description>
+            <guid isPermaLink="false">chainloading1.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 16:42:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[flexslider updated to version 2.3.0]]></title>
@@ -183,14 +206,6 @@
             <pubDate>Mon, 16 Feb 2015 17:22:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[evil-icons updated to version 1.7.2]]></title>
-            <description><![CDATA[Evil Icons is a set of SVG icons designed extensively for using in modern web projects<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.2/evil-icons.min.js">//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.2/evil-icons.min.js</a>]]></description>
-            <link>http://evil-icons.io</link>
-            <guid isPermaLink="false">evil-icons1.7.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 16 Feb 2015 17:22:24 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[flickity(0.2.3) was added]]></title>
             <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/0.2.3/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/0.2.3/flickity.pkgd.min.js</a>]]></description>
             <link>http://flickity.metafizzy.co/</link>
@@ -283,13 +298,6 @@
             <guid isPermaLink="false">jsface2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Feb 2015 15:25:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chainloading updated to version 1.0.5]]></title>
-            <description><![CDATA[Allows you to chain together jQuery deferreds or functions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.5/chainloading.min.js">//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.5/chainloading.min.js</a>]]></description>
-            <guid isPermaLink="false">chainloading1.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Feb 2015 13:32:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[socket.io updated to version 1.3.4]]></title>
