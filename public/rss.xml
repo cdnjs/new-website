@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Feb 2015 09:16:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Feb 2015 10:07:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[highmaps updated to version 1.1.0]]></title>
+            <description><![CDATA[Highmaps is Highcharts for geo maps. Mainly choropleth maps where the color intensity relates to some value of a geographic area, but Highmaps also supports different features like lines (roads, rivers etc.) and points (cities, points of interest) and more. Highmaps comes in two flavors, either as a standalone JavaScript file, or as a plugin for Highcharts. Highmaps is NOT free for commercial use.  See the license and pricing here: http://shop.highsoft.com/highmaps.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.0/highmaps.js">//cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.0/highmaps.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highmaps1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 08:34:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highstock updated to version 2.1.0]]></title>
+            <description><![CDATA[Highstock lets you create stock or general timeline charts in pure JavaScript, including sophisticated navigation options like a small navigator series, preset date ranges, date picker, scrolling and panning. Highstock is NOT free for commercial use.  See the license here: http://shop.highsoft.com/highstock.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highstock/2.1.0/highstock.js">//cdnjs.cloudflare.com/ajax/libs/highstock/2.1.0/highstock.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highstock2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 08:30:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highcharts updated to version 4.1.0]]></title>
+            <description><![CDATA[Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie and scatter chart types. Highcharts is NOT free for commercial use.  See the license here: http://highcharts.com/license<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.1.0/highcharts.js">//cdnjs.cloudflare.com/ajax/libs/highcharts/4.1.0/highcharts.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highcharts4.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 17 Feb 2015 08:28:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[flexslider updated to version 2.3.0]]></title>
             <description><![CDATA[An awesome, fully responsive jQuery slider plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.3.0/flexslider-min.css">//cdnjs.cloudflare.com/ajax/libs/flexslider/2.3.0/flexslider-min.css</a>]]></description>
