@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Feb 2015 02:48:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Feb 2015 03:31:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1096,46 +1096,6 @@
             <guid isPermaLink="false">bootstrap-table1.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 03 Feb 2015 07:27:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nanogallery updated to version 5.4.0]]></title>
-            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.4.0/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.4.0/jquery.nanogallery.min.js</a>]]></description>
-            <link>http://nanogallery.brisbois.fr/</link>
-            <guid isPermaLink="false">nanogallery5.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 02:08:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.payment updated to version 1.2.2]]></title>
-            <description><![CDATA[A general purpose library for building credit card forms, validating inputs and formatting numbers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.2/jquery.payment.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.2/jquery.payment.min.js</a>]]></description>
-            <link>https://github.com/stripe/jquery.payment</link>
-            <guid isPermaLink="false">jquery.payment1.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 02:08:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jQuery.dotdotdot updated to version 1.7.2]]></title>
-            <description><![CDATA[A jQuery plugin for advanced cross-browser ellipsis on multiple line content.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.2/jquery.dotdotdot.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.2/jquery.dotdotdot.min.js</a>]]></description>
-            <link>http://dotdotdot.frebsite.nl/</link>
-            <guid isPermaLink="false">jQuery.dotdotdot1.7.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 02:08:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[echarts updated to version 2.2.0]]></title>
-            <description><![CDATA[Enterprise Charts，基于Canvas，纯Javascript图表库，提供直观，生动，可交互，可个性化定制的数据可视化表。<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/echarts/2.2.0/echarts.js">//cdnjs.cloudflare.com/ajax/libs/echarts/2.2.0/echarts.js</a>]]></description>
-            <link>http://echarts.baidu.com</link>
-            <guid isPermaLink="false">echarts2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 02:06:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jasmine updated to version 2.2.1]]></title>
-            <description><![CDATA[DOM-less simple JavaScript testing framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine/2.2.1/jasmine.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine/2.2.1/jasmine.min.js</a>]]></description>
-            <link>http://jasmine.github.io/</link>
-            <guid isPermaLink="false">jasmine2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Feb 2015 02:05:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
