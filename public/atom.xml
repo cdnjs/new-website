@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 17 Feb 2015 06:07:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Feb 2015 07:24:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -473,6 +473,14 @@
             <guid isPermaLink="false">fuelux3.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Feb 2015 06:59:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[flexslider updated to version 2.3.0]]></title>
+            <description><![CDATA[An awesome, fully responsive jQuery slider plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.3.0/flexslider-min.css">//cdnjs.cloudflare.com/ajax/libs/flexslider/2.3.0/flexslider-min.css</a>]]></description>
+            <link>http://www.woothemes.com/flexslider/</link>
+            <guid isPermaLink="false">flexslider2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 12 Feb 2015 19:22:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[knockout updated to version 3.2.0]]></title>
