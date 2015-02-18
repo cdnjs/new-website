@@ -58,7 +58,7 @@ var github = new GitHubApi({ version: "3.0.0" });
 function authenticate(next) {
   github.authenticate({
     type: "oauth",
-    token: '2e25fb969a43b6470e76ee9e75f919ce03003afb' // scope=public_repos only (not secret)
+    token: process.env.GITHUB_OAUTH_TOKEN // scope=public_repos only (not secret)
   });
   next();
 }
