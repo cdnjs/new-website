@@ -128,7 +128,8 @@ function initIndex(next) {
     attributesToIndex: ['unordered(name)', 'unordered(alternativeNames)', 'unordered(description)', 'unordered(keywords)', 'unordered(filename)'],
     customRanking: [ 'desc(github.stargazers_count)', 'asc(name)' ],
     attributesForFaceting: ['fileType', 'keywords'],
-    optionalWords: ['js', 'css'] // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
+    optionalWords: ['js', 'css'], // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
+    ranking: ['typo', 'words', 'proximity', 'attribute', 'custom'] // removed the "exact" criteria conflicting with the "keywords" array containing exact forms
   }, function(error, content) {
     next();
   });
