@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 19 Feb 2015 07:38:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Feb 2015 09:12:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1177,30 +1177,6 @@
             <guid isPermaLink="false">skel2.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 05 Feb 2015 09:46:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.validation updated to version 0.11.3]]></title>
-            <description><![CDATA[A validation plugin for Backbone.js that validates both your model as well as form input.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.11.3/backbone-validation-min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.validation/0.11.3/backbone-validation-min.js</a>]]></description>
-            <link>http://thedersen.com/projects/backbone-validation</link>
-            <guid isPermaLink="false">backbone.validation0.11.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 05 Feb 2015 07:52:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.isotope updated to version 2.1.0]]></title>
-            <description><![CDATA[Filter and sort magical layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.1.0/isotope.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.1.0/isotope.pkgd.min.js</a>]]></description>
-            <link>http://isotope.metafizzy.co</link>
-            <guid isPermaLink="false">jquery.isotope2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 05 Feb 2015 07:52:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mithril updated to version 0.1.30]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.30/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.30/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.30</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 05 Feb 2015 07:51:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
