@@ -10,10 +10,105 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 18 Feb 2015 17:17:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Feb 2015 07:38:09 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[swagger-ui updated to version 2.1.5-M1]]></title>
+            <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.5-M1/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.5-M1/swagger-ui.min.js</a>]]></description>
+            <link>http://swagger.io/</link>
+            <guid isPermaLink="false">swagger-ui2.1.5-M1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 07:35:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[FlipDiv updated to version 1.6.0]]></title>
+            <description><![CDATA[A space efficient 3D menu with CSS transitions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/FlipDiv/1.6.0/FlipDiv.min.js">//cdnjs.cloudflare.com/ajax/libs/FlipDiv/1.6.0/FlipDiv.min.js</a>]]></description>
+            <link>http://kireerik.github.io/FlipDiv/demo/</link>
+            <guid isPermaLink="false">FlipDiv1.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 07:34:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[octicons updated to version 2.2.0]]></title>
+            <description><![CDATA[GitHub's icon font<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.0/octicons.min.css">//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.0/octicons.min.css</a>]]></description>
+            <link>http://octicons.github.com/</link>
+            <guid isPermaLink="false">octicons2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 07:33:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rome updated to version 2.1.0]]></title>
+            <description><![CDATA[Customizable date (and time) picker. Opt-in UI, no jQuery!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rome/2.1.0/rome.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/rome/2.1.0/rome.standalone.min.js</a>]]></description>
+            <link>https://github.com/bevacqua/rome</link>
+            <guid isPermaLink="false">rome2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 07:32:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[riot updated to version 2.0.10]]></title>
+            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.10/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.10/riot.min.js</a>]]></description>
+            <link>https://muut.com/riotjs/</link>
+            <guid isPermaLink="false">riot2.0.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 07:32:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[coffee-script updated to version 1.9.1]]></title>
+            <description><![CDATA[CoffeeScript is a little language that compiles into JavaScript. Underneath all of those embarrassing braces and semicolons, JavaScript has always had a gorgeous object model at its heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.9.1/coffee-script.min.js">//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.9.1/coffee-script.min.js</a>]]></description>
+            <link>http://jashkenas.github.com/coffee-script/</link>
+            <guid isPermaLink="false">coffee-script1.9.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 06:56:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[absurd updated to version 0.3.34]]></title>
+            <description><![CDATA[JavaScript library with superpowers - http://absurdjs.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.34/absurd.min.js">//cdnjs.cloudflare.com/ajax/libs/absurd/0.3.34/absurd.min.js</a>]]></description>
+            <link>http://absurdjs.com/</link>
+            <guid isPermaLink="false">absurd0.3.34</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 06:56:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[emblem updated to version 0.3.19]]></title>
+            <description><![CDATA[Ember-friendly, indented syntax alternative for Handlebars.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emblem/0.3.19/emblem.min.js">//cdnjs.cloudflare.com/ajax/libs/emblem/0.3.19/emblem.min.js</a>]]></description>
+            <link>http://emblemjs.com/</link>
+            <guid isPermaLink="false">emblem0.3.19</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 06:54:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.25.2]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.2/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.2/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.25.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 06:53:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[danialfarid-angular-file-upload updated to version 3.0.7]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/3.0.7/angular-file-upload.min.js">//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/3.0.7/angular-file-upload.min.js</a>]]></description>
+            <guid isPermaLink="false">danialfarid-angular-file-upload3.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 06:53:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bignumber.js updated to version 2.0.3]]></title>
+            <description><![CDATA[A library for arbitrary-precision decimal and non-decimal arithmetic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bignumber.js/2.0.3/bignumber.min.js">//cdnjs.cloudflare.com/ajax/libs/bignumber.js/2.0.3/bignumber.min.js</a>]]></description>
+            <link>http://mikemcl.github.io/bignumber.js/</link>
+            <guid isPermaLink="false">bignumber.js2.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 06:52:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 3.1.6]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.1.6/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.1.6/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly3.1.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 06:51:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bootstrap-colorpicker updated to version 2.1.0]]></title>
             <description><![CDATA[A colorpicker for Twitter Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.1.0/js/bootstrap-colorpicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.1.0/js/bootstrap-colorpicker.min.js</a>]]></description>
@@ -134,14 +229,6 @@
             <pubDate>Tue, 17 Feb 2015 05:59:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[swagger-ui updated to version 2.1.4-M1]]></title>
-            <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.4-M1/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.4-M1/swagger-ui.min.js</a>]]></description>
-            <link>http://swagger.io/</link>
-            <guid isPermaLink="false">swagger-ui2.1.4-M1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Feb 2015 04:47:03 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[metrics-graphics updated to version 2.2.0]]></title>
             <description><![CDATA[A library optimized for concise, principled data graphics and layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.2.0/metricsgraphics.min.js">//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.2.0/metricsgraphics.min.js</a>]]></description>
             <link>http://metricsgraphicsjs.org</link>
@@ -172,14 +259,6 @@
             <guid isPermaLink="false">angular-filter0.5.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 17 Feb 2015 04:43:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.25.0]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.0/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.25.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Feb 2015 04:30:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jsonld updated to version 0.3.22]]></title>
@@ -324,14 +403,6 @@
             <pubDate>Sun, 15 Feb 2015 16:12:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 3.1.0]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.1.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.1.0/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly3.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Feb 2015 16:11:29 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[yasqe updated to version 2.3.7]]></title>
             <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.7/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.7/yasqe.bundled.min.js</a>]]></description>
             <link>http://yasqe.yasgui.org</link>
@@ -460,14 +531,6 @@
             <pubDate>Fri, 13 Feb 2015 23:54:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[riot updated to version 2.0.9]]></title>
-            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.9/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.9/riot.min.js</a>]]></description>
-            <link>https://muut.com/riotjs/</link>
-            <guid isPermaLink="false">riot2.0.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 16:29:15 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bootstrap3-dialog updated to version 1.34.2]]></title>
             <description><![CDATA[Make use of Bootstrap Modal more monkey-friendly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.2/js/bootstrap-dialog.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.2/js/bootstrap-dialog.min.js</a>]]></description>
             <link>http://nakupanda.github.io/bootstrap3-dialog</link>
@@ -506,13 +569,6 @@
             <guid isPermaLink="false">ace1.1.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Feb 2015 07:19:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[danialfarid-angular-file-upload updated to version 3.0.4]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/3.0.4/angular-file-upload.min.js">//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/3.0.4/angular-file-upload.min.js</a>]]></description>
-            <guid isPermaLink="false">danialfarid-angular-file-upload3.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 07:03:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ink updated to version 3.1.4]]></title>
@@ -593,14 +649,6 @@
             <guid isPermaLink="false">viewer.js0.10.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 12 Feb 2015 06:33:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rome updated to version 2.0.4]]></title>
-            <description><![CDATA[Customizable date (and time) picker. Opt-in UI, no jQuery!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rome/2.0.4/rome.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/rome/2.0.4/rome.standalone.min.js</a>]]></description>
-            <link>https://github.com/bevacqua/rome</link>
-            <guid isPermaLink="false">rome2.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 06:32:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[device.js updated to version 0.2.4]]></title>
@@ -1153,14 +1201,6 @@
             <guid isPermaLink="false">mithril0.1.30</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 05 Feb 2015 07:51:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[FlipDiv(1.5.0) was added]]></title>
-            <description><![CDATA[A space efficient 3D menu with CSS transitions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/FlipDiv/1.5.0/FlipDiv.min.js">//cdnjs.cloudflare.com/ajax/libs/FlipDiv/1.5.0/FlipDiv.min.js</a>]]></description>
-            <link>http://kireerik.github.io/FlipDiv/demo/</link>
-            <guid isPermaLink="false">FlipDiv1.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 05 Feb 2015 02:16:54 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
