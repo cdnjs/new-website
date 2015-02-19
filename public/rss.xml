@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 19 Feb 2015 10:16:14 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Feb 2015 11:18:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1161,22 +1161,6 @@
             <guid isPermaLink="false">holder2.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 06 Feb 2015 02:08:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gist-embed updated to version 2.1]]></title>
-            <description><![CDATA[Ultra powered gist embedding for your website<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/gist-embed/2.1/gist-embed.min.js">//cdnjs.cloudflare.com/ajax/libs/gist-embed/2.1/gist-embed.min.js</a>]]></description>
-            <link>http://blairvanderhoof.com/gist-embed/</link>
-            <guid isPermaLink="false">gist-embed2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 05 Feb 2015 09:48:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[skel updated to version 2.2.1]]></title>
-            <description><![CDATA[Skel: A lightweight responsive framework for the www.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skel/2.2.1/skel.min.css">//cdnjs.cloudflare.com/ajax/libs/skel/2.2.1/skel.min.css</a>]]></description>
-            <link>http://getskel.com/</link>
-            <guid isPermaLink="false">skel2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 05 Feb 2015 09:46:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
