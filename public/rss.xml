@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Feb 2015 14:21:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Feb 2015 14:34:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -547,10 +547,10 @@
             <pubDate>Sat, 14 Feb 2015 02:51:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Sortable updated to version 1.1.0]]></title>
-            <description><![CDATA[Sortable is a minimalist JavaScript library for modern browsers and touch devices. No jQuery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.0/Sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.0/Sortable.min.js</a>]]></description>
+            <title><![CDATA[Sortable updated to version 1.1.1]]></title>
+            <description><![CDATA[Sortable is a minimalist JavaScript library for modern browsers and touch devices. No jQuery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.1/Sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.1/Sortable.min.js</a>]]></description>
             <link>http://rubaxa.github.io/Sortable/</link>
-            <guid isPermaLink="false">Sortable1.1.0</guid>
+            <guid isPermaLink="false">Sortable1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 14 Feb 2015 02:50:48 GMT</pubDate>
         </item>
@@ -595,10 +595,10 @@
             <pubDate>Fri, 13 Feb 2015 16:20:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bluebird updated to version 2.9.9]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.9/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.9/bluebird.min.js</a>]]></description>
+            <title><![CDATA[bluebird updated to version 2.9.12]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.12/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.12/bluebird.min.js</a>]]></description>
             <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.9.9</guid>
+            <guid isPermaLink="false">bluebird2.9.12</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Feb 2015 16:19:59 GMT</pubDate>
         </item>
@@ -1148,10 +1148,10 @@
             <pubDate>Fri, 06 Feb 2015 17:43:39 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[holder updated to version 2.5.0]]></title>
-            <description><![CDATA[Client-side image placeholders.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/holder/2.5.0/holder.min.js">//cdnjs.cloudflare.com/ajax/libs/holder/2.5.0/holder.min.js</a>]]></description>
+            <title><![CDATA[holder updated to version 2.5.2]]></title>
+            <description><![CDATA[Client-side image placeholders.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/holder/2.5.2/holder.min.js">//cdnjs.cloudflare.com/ajax/libs/holder/2.5.2/holder.min.js</a>]]></description>
             <link>http://imsky.github.io/holder/</link>
-            <guid isPermaLink="false">holder2.5.0</guid>
+            <guid isPermaLink="false">holder2.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 06 Feb 2015 02:08:59 GMT</pubDate>
         </item>
