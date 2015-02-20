@@ -10,15 +10,15 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Feb 2015 05:51:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Feb 2015 06:24:40 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[ekko-lightbox updated to version 3.0.3a]]></title>
-            <description><![CDATA[A lightbox gallery plugin for Bootstrap 3 based on the modal plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.0.3a/ekko-lightbox.min.js">//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.0.3a/ekko-lightbox.min.js</a>]]></description>
+            <title><![CDATA[ekko-lightbox updated to version 3.2.2]]></title>
+            <description><![CDATA[A lightbox gallery plugin for Bootstrap 3 based on the modal plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.2.2/ekko-lightbox.min.js">//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.2.2/ekko-lightbox.min.js</a>]]></description>
             <link>https://github.com/ashleydw/lightbox</link>
-            <guid isPermaLink="false">ekko-lightbox3.0.3a</guid>
+            <guid isPermaLink="false">ekko-lightbox3.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Feb 2015 13:51:06 GMT</pubDate>
         </item>
@@ -79,10 +79,10 @@
             <pubDate>Thu, 19 Feb 2015 06:56:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[emblem updated to version 0.3.19]]></title>
-            <description><![CDATA[Ember-friendly, indented syntax alternative for Handlebars.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emblem/0.3.19/emblem.min.js">//cdnjs.cloudflare.com/ajax/libs/emblem/0.3.19/emblem.min.js</a>]]></description>
+            <title><![CDATA[emblem updated to version 0.4.0]]></title>
+            <description><![CDATA[Ember-friendly, indented syntax alternative for Handlebars.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emblem/0.4.0/emblem.min.js">//cdnjs.cloudflare.com/ajax/libs/emblem/0.4.0/emblem.min.js</a>]]></description>
             <link>http://emblemjs.com/</link>
-            <guid isPermaLink="false">emblem0.3.19</guid>
+            <guid isPermaLink="false">emblem0.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Feb 2015 06:54:16 GMT</pubDate>
         </item>
@@ -349,10 +349,10 @@
             <pubDate>Mon, 16 Feb 2015 17:22:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[flickity(0.2.3) was added]]></title>
-            <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/0.2.3/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/0.2.3/flickity.pkgd.min.js</a>]]></description>
+            <title><![CDATA[flickity(0.3.1) was added]]></title>
+            <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/0.3.1/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/0.3.1/flickity.pkgd.min.js</a>]]></description>
             <link>http://flickity.metafizzy.co/</link>
-            <guid isPermaLink="false">flickity0.2.3</guid>
+            <guid isPermaLink="false">flickity0.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 16 Feb 2015 14:11:24 GMT</pubDate>
         </item>
@@ -691,10 +691,10 @@
             <pubDate>Thu, 12 Feb 2015 05:59:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Swiper updated to version 2.7.6]]></title>
-            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/2.7.6/idangerous.swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/2.7.6/idangerous.swiper.min.js</a>]]></description>
+            <title><![CDATA[Swiper updated to version 3.0.1]]></title>
+            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.1/js/swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.1/js/swiper.min.js</a>]]></description>
             <link>http://www.idangero.us/sliders/swiper</link>
-            <guid isPermaLink="false">Swiper2.7.6</guid>
+            <guid isPermaLink="false">Swiper3.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 12 Feb 2015 05:54:21 GMT</pubDate>
         </item>
@@ -996,10 +996,10 @@
             <pubDate>Mon, 09 Feb 2015 02:27:01 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[js-yaml updated to version 3.2.6]]></title>
-            <description><![CDATA[YAML 1.2 parser and serializer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.6/js-yaml.min.js">//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.6/js-yaml.min.js</a>]]></description>
+            <title><![CDATA[js-yaml updated to version 3.2.7]]></title>
+            <description><![CDATA[YAML 1.2 parser and serializer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.7/js-yaml.min.js">//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.7/js-yaml.min.js</a>]]></description>
             <link>https://github.com/nodeca/js-yaml</link>
-            <guid isPermaLink="false">js-yaml3.2.6</guid>
+            <guid isPermaLink="false">js-yaml3.2.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 09 Feb 2015 02:21:56 GMT</pubDate>
         </item>
