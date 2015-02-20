@@ -10,10 +10,103 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Feb 2015 18:23:31 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Feb 2015 18:39:11 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[codemirror updated to version 5.0.0]]></title>
+            <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/codemirror.min.js</a>]]></description>
+            <link>http://codemirror.net</link>
+            <guid isPermaLink="false">codemirror5.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:50:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[knockout updated to version 3.3.0]]></title>
+            <description><![CDATA[Knockout makes it easier to create rich, responsive UIs with JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js">//cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js</a>]]></description>
+            <link>http://knockoutjs.com/</link>
+            <guid isPermaLink="false">knockout3.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:45:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lodash.js updated to version 3.3.0]]></title>
+            <description><![CDATA[A utility library delivering consistency, customization, performance, & extras.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.3.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.3.0/lodash.min.js</a>]]></description>
+            <link>http://lodash.com/</link>
+            <guid isPermaLink="false">lodash.js3.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:43:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lodash-compat updated to version 3.3.0]]></title>
+            <description><![CDATA[The compatibility build of lodash.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.3.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.3.0/lodash.min.js</a>]]></description>
+            <link>http://lodash.com/</link>
+            <guid isPermaLink="false">lodash-compat3.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:43:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-smooth-scroll updated to version 1.5.5]]></title>
+            <description><![CDATA[Automatically make same-page links scroll smoothly<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js</a>]]></description>
+            <guid isPermaLink="false">jquery-smooth-scroll1.5.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:42:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fullPage.js updated to version 2.5.8]]></title>
+            <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.8/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.8/jquery.fullPage.min.css</a>]]></description>
+            <link>http://alvarotrigo.com/fullPage/</link>
+            <guid isPermaLink="false">fullPage.js2.5.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:41:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jxon updated to version 1.3.1]]></title>
+            <description><![CDATA[A complete, bidirectional, JXON library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jxon/1.3.1/index.js">//cdnjs.cloudflare.com/ajax/libs/jxon/1.3.1/index.js</a>]]></description>
+            <guid isPermaLink="false">jxon1.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:40:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-filter updated to version 0.5.4]]></title>
+            <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.4/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.4/angular-filter.min.js</a>]]></description>
+            <link>https://github.com/a8m/angular-filter</link>
+            <guid isPermaLink="false">angular-filter0.5.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:40:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[neo-async updated to version 0.6.1]]></title>
+            <description><![CDATA[Neo-Async is thought to be used as a drop-in replacement for Async, it almost fully covers its functionality and runs faster<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.1/async.js">//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.1/async.js</a>]]></description>
+            <guid isPermaLink="false">neo-async0.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:34:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[omniscient updated to version 3.0.1]]></title>
+            <description><![CDATA[A simple abstraction and architecture providing unidirectional flow and immutable data structures to React.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/omniscient/3.0.1/omniscient.min.js">//cdnjs.cloudflare.com/ajax/libs/omniscient/3.0.1/omniscient.min.js</a>]]></description>
+            <link>https://github.com/omniscientjs/omniscient</link>
+            <guid isPermaLink="false">omniscient3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:33:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react-slick updated to version 0.3.4]]></title>
+            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.4/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.4/react-slick.min.js</a>]]></description>
+            <link>https://github.com/akiran/react-slick</link>
+            <guid isPermaLink="false">react-slick0.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:31:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[uikit updated to version 2.17.0]]></title>
+            <description><![CDATA[UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/uikit/2.17.0/js/uikit.min.js">//cdnjs.cloudflare.com/ajax/libs/uikit/2.17.0/js/uikit.min.js</a>]]></description>
+            <link>http://www.getuikit.com</link>
+            <guid isPermaLink="false">uikit2.17.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 17:31:25 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bluebird updated to version 2.9.12]]></title>
             <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.12/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.12/bluebird.min.js</a>]]></description>
@@ -246,14 +339,6 @@
             <pubDate>Wed, 18 Feb 2015 03:48:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[react-slick updated to version 0.3.4]]></title>
-            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.4/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.4/react-slick.min.js</a>]]></description>
-            <link>https://github.com/akiran/react-slick</link>
-            <guid isPermaLink="false">react-slick0.3.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Feb 2015 03:46:37 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[flocks.js updated to version 0.14.4]]></title>
             <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.14.4/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.14.4/flocks.js</a>]]></description>
             <link>http://flocks.rocks/</link>
@@ -331,22 +416,6 @@
             <guid isPermaLink="false">velocity1.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 17 Feb 2015 04:45:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fullPage.js updated to version 2.5.8]]></title>
-            <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.8/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.8/jquery.fullPage.min.css</a>]]></description>
-            <link>http://alvarotrigo.com/fullPage/</link>
-            <guid isPermaLink="false">fullPage.js2.5.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Feb 2015 04:45:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-filter updated to version 0.5.4]]></title>
-            <description><![CDATA[Bunch of useful filters for AngularJS (with no external dependencies!)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.4/angular-filter.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.4/angular-filter.min.js</a>]]></description>
-            <link>https://github.com/a8m/angular-filter</link>
-            <guid isPermaLink="false">angular-filter0.5.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Feb 2015 04:43:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jsonld updated to version 0.3.22]]></title>
@@ -458,13 +527,6 @@
             <guid isPermaLink="false">bacon.js0.7.49</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 16 Feb 2015 08:40:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[neo-async updated to version 0.6.1]]></title>
-            <description><![CDATA[Neo-Async is thought to be used as a drop-in replacement for Async, it almost fully covers its functionality and runs faster<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.1/async.js">//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.1/async.js</a>]]></description>
-            <guid isPermaLink="false">neo-async0.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 16 Feb 2015 08:40:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vault.js updated to version 0.1.7]]></title>
@@ -675,36 +737,12 @@
             <pubDate>Fri, 13 Feb 2015 07:00:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[lodash-compat updated to version 3.3.0]]></title>
-            <description><![CDATA[The compatibility build of lodash.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.3.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.3.0/lodash.min.js</a>]]></description>
-            <link>http://lodash.com/</link>
-            <guid isPermaLink="false">lodash-compat3.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 07:00:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lodash.js updated to version 3.3.0]]></title>
-            <description><![CDATA[A utility library delivering consistency, customization, performance, & extras.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.3.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.3.0/lodash.min.js</a>]]></description>
-            <link>http://lodash.com/</link>
-            <guid isPermaLink="false">lodash.js3.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 07:00:04 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[fuelux updated to version 3.6.2]]></title>
             <description><![CDATA[Extends Twitter Bootstrap with additional lightweight JavaScript controls.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuelux/3.6.2/js/fuelux.min.js">//cdnjs.cloudflare.com/ajax/libs/fuelux/3.6.2/js/fuelux.min.js</a>]]></description>
             <link>http://exacttarget.github.io/fuelux</link>
             <guid isPermaLink="false">fuelux3.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Feb 2015 06:59:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[knockout updated to version 3.3.0]]></title>
-            <description><![CDATA[Knockout makes it easier to create rich, responsive UIs with JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js">//cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js</a>]]></description>
-            <link>http://knockoutjs.com/</link>
-            <guid isPermaLink="false">knockout3.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 16:31:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[viewer.js updated to version 0.10.4]]></title>
@@ -793,13 +831,6 @@
             <guid isPermaLink="false">handlebars.js3.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 11 Feb 2015 10:44:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jxon updated to version 1.3.1]]></title>
-            <description><![CDATA[A complete, bidirectional, JXON library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jxon/1.3.1/index.js">//cdnjs.cloudflare.com/ajax/libs/jxon/1.3.1/index.js</a>]]></description>
-            <guid isPermaLink="false">jxon1.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 11 Feb 2015 10:43:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vis updated to version 3.10.0]]></title>
@@ -1154,14 +1185,6 @@
             <guid isPermaLink="false">audio5js0.1.10</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 07 Feb 2015 14:16:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es5-shim updated to version 4.1.0]]></title>
-            <description><![CDATA[ECMAScript 5 compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.0/es5-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.0/es5-shim.min.js</a>]]></description>
-            <link>http://github.com/es-shims/es5-shim/</link>
-            <guid isPermaLink="false">es5-shim4.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 06 Feb 2015 17:43:39 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
