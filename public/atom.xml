@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Feb 2015 08:21:22 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Feb 2015 09:05:28 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1169,14 +1169,6 @@
             <guid isPermaLink="false">angular-material-icons0.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 06 Feb 2015 12:01:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cytoscape updated to version 2.3.9]]></title>
-            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.9/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.9/cytoscape.min.js</a>]]></description>
-            <link>http://cytoscape.github.io/cytoscape.js</link>
-            <guid isPermaLink="false">cytoscape2.3.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 06 Feb 2015 07:46:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[holder updated to version 2.5.0]]></title>
