@@ -10,17 +10,73 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Feb 2015 06:53:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Feb 2015 07:37:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[Swiper updated to version 3.0.1]]></title>
+            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.1/js/swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.1/js/swiper.min.js</a>]]></description>
+            <link>http://www.idangero.us/sliders/swiper</link>
+            <guid isPermaLink="false">Swiper3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 05:31:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ekko-lightbox updated to version 3.2.2]]></title>
             <description><![CDATA[A lightbox gallery plugin for Bootstrap 3 based on the modal plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.2.2/ekko-lightbox.min.js">//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.2.2/ekko-lightbox.min.js</a>]]></description>
             <link>https://github.com/ashleydw/lightbox</link>
             <guid isPermaLink="false">ekko-lightbox3.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Feb 2015 13:51:06 GMT</pubDate>
+            <pubDate>Fri, 20 Feb 2015 05:29:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[flickity updated to version 0.3.1]]></title>
+            <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/0.3.1/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/0.3.1/flickity.pkgd.min.js</a>]]></description>
+            <link>http://flickity.metafizzy.co/</link>
+            <guid isPermaLink="false">flickity0.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 04:58:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[emblem updated to version 0.4.0]]></title>
+            <description><![CDATA[Ember-friendly, indented syntax alternative for Handlebars.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emblem/0.4.0/emblem.min.js">//cdnjs.cloudflare.com/ajax/libs/emblem/0.4.0/emblem.min.js</a>]]></description>
+            <link>http://emblemjs.com/</link>
+            <guid isPermaLink="false">emblem0.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 04:57:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[js-yaml updated to version 3.2.7]]></title>
+            <description><![CDATA[YAML 1.2 parser and serializer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.7/js-yaml.min.js">//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.7/js-yaml.min.js</a>]]></description>
+            <link>https://github.com/nodeca/js-yaml</link>
+            <guid isPermaLink="false">js-yaml3.2.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 04:55:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[underscore.js updated to version 1.8.1]]></title>
+            <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.1/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.1/underscore-min.js</a>]]></description>
+            <link>http://jashkenas.github.io/underscore/</link>
+            <guid isPermaLink="false">underscore.js1.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 04:54:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[handsontable updated to version 0.12.6]]></title>
+            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.6/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.12.6/handsontable.full.min.js</a>]]></description>
+            <link>http://handsontable.com/</link>
+            <guid isPermaLink="false">handsontable0.12.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 04:54:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-select updated to version 1.6.4]]></title>
+            <description><![CDATA[A custom <select> for Bootstrap using button dropdown as replacement<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.4/js/bootstrap-select.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.4/js/bootstrap-select.min.js</a>]]></description>
+            <link>http://silviomoreto.github.io/bootstrap-select/</link>
+            <guid isPermaLink="false">bootstrap-select1.6.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 04:53:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[swagger-ui updated to version 2.1.5-M1]]></title>
@@ -77,14 +133,6 @@
             <guid isPermaLink="false">absurd0.3.34</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Feb 2015 06:56:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[emblem updated to version 0.4.0]]></title>
-            <description><![CDATA[Ember-friendly, indented syntax alternative for Handlebars.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/emblem/0.4.0/emblem.min.js">//cdnjs.cloudflare.com/ajax/libs/emblem/0.4.0/emblem.min.js</a>]]></description>
-            <link>http://emblemjs.com/</link>
-            <guid isPermaLink="false">emblem0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Feb 2015 06:54:16 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[es6-shim updated to version 0.25.2]]></title>
@@ -347,14 +395,6 @@
             <guid isPermaLink="false">jsforce1.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 16 Feb 2015 17:22:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[flickity(0.3.1) was added]]></title>
-            <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/0.3.1/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/0.3.1/flickity.pkgd.min.js</a>]]></description>
-            <link>http://flickity.metafizzy.co/</link>
-            <guid isPermaLink="false">flickity0.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 16 Feb 2015 14:11:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mermaid updated to version 0.3.5]]></title>
@@ -691,14 +731,6 @@
             <pubDate>Thu, 12 Feb 2015 05:59:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Swiper updated to version 3.0.1]]></title>
-            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.1/js/swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.1/js/swiper.min.js</a>]]></description>
-            <link>http://www.idangero.us/sliders/swiper</link>
-            <guid isPermaLink="false">Swiper3.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 05:54:21 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[l20n updated to version 1.0.2]]></title>
             <description><![CDATA[A client side localization library from Mozilla<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js">//cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js</a>]]></description>
             <link>http://l20n.org</link>
@@ -994,14 +1026,6 @@
             <guid isPermaLink="false">yamlcss4.1.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 09 Feb 2015 02:27:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[js-yaml updated to version 3.2.7]]></title>
-            <description><![CDATA[YAML 1.2 parser and serializer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.7/js-yaml.min.js">//cdnjs.cloudflare.com/ajax/libs/js-yaml/3.2.7/js-yaml.min.js</a>]]></description>
-            <link>https://github.com/nodeca/js-yaml</link>
-            <guid isPermaLink="false">js-yaml3.2.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 09 Feb 2015 02:21:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bower-angular-translate updated to version 2.6.0]]></title>
