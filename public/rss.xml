@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Feb 2015 18:19:51 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Feb 2015 18:53:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1201,14 +1201,6 @@
             <guid isPermaLink="false">AniJS0.9.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 07 Feb 2015 18:36:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[custom-elements-builder updated to version 0.2.2]]></title>
-            <description><![CDATA[Custom Elements Builder (ceb) is ... a builder for Custom Elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.2.2/ceb.min.js">//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.2.2/ceb.min.js</a>]]></description>
-            <link>https://tmorin.github.io/custom-elements-builder</link>
-            <guid isPermaLink="false">custom-elements-builder0.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 07 Feb 2015 17:24:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
