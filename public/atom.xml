@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Feb 2015 08:55:02 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Feb 2015 10:47:45 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -252,10 +252,10 @@
             <pubDate>Fri, 20 Feb 2015 04:53:27 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[swagger-ui updated to version 2.1.5-M1]]></title>
-            <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.5-M1/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.5-M1/swagger-ui.min.js</a>]]></description>
+            <title><![CDATA[swagger-ui updated to version 2.1.7-M1]]></title>
+            <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.7-M1/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.7-M1/swagger-ui.min.js</a>]]></description>
             <link>http://swagger.io/</link>
-            <guid isPermaLink="false">swagger-ui2.1.5-M1</guid>
+            <guid isPermaLink="false">swagger-ui2.1.7-M1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Feb 2015 07:35:16 GMT</pubDate>
         </item>
