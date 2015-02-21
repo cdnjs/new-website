@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Feb 2015 15:35:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Feb 2015 16:12:41 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1209,22 +1209,6 @@
             <guid isPermaLink="false">custom-elements-builder0.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 07 Feb 2015 17:24:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[skel-layers updated to version 2.0.2]]></title>
-            <description><![CDATA[Layers: A plugin for Skel that streamlines building stuff like off-canvas navigation, toolbars, modals, and other stuff.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/skel-layers/2.0.2/skel-layers.min.js">//cdnjs.cloudflare.com/ajax/libs/skel-layers/2.0.2/skel-layers.min.js</a>]]></description>
-            <link>http://getskel.com/</link>
-            <guid isPermaLink="false">skel-layers2.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 07 Feb 2015 14:31:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[audio5js updated to version 0.1.10]]></title>
-            <description><![CDATA[HTML5 Audio Compatibility Layer<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/audio5js/0.1.10/audio5.min.js">//cdnjs.cloudflare.com/ajax/libs/audio5js/0.1.10/audio5.min.js</a>]]></description>
-            <link>http://zohararad.github.com/audio5js/</link>
-            <guid isPermaLink="false">audio5js0.1.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 07 Feb 2015 14:16:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
