@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Feb 2015 05:47:46 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Feb 2015 06:34:02 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -283,10 +283,10 @@
             <pubDate>Thu, 19 Feb 2015 06:52:17 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 3.1.6]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.1.6/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.1.6/formly.min.js</a>]]></description>
+            <title><![CDATA[angular-formly updated to version 3.2.0]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.0/formly.min.js</a>]]></description>
             <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly3.1.6</guid>
+            <guid isPermaLink="false">angular-formly3.2.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Feb 2015 06:51:31 GMT</pubDate>
         </item>
@@ -951,10 +951,10 @@
             <pubDate>Tue, 10 Feb 2015 05:49:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.tablesorter updated to version 2.19.1]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.19.1/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.19.1/js/jquery.tablesorter.min.js</a>]]></description>
+            <title><![CDATA[jquery.tablesorter updated to version 2.20.1]]></title>
+            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js</a>]]></description>
             <link>http://mottie.github.com/tablesorter/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.19.1</guid>
+            <guid isPermaLink="false">jquery.tablesorter2.20.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Feb 2015 05:48:54 GMT</pubDate>
         </item>
