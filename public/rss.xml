@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Feb 2015 08:14:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Feb 2015 08:19:53 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fullcalendar updated to version 2.3.0]]></title>
+            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js</a>]]></description>
+            <link>http://arshaw.com/fullcalendar/</link>
+            <guid isPermaLink="false">fullcalendar2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Feb 2015 07:24:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[markdown-it updated to version 3.0.7]]></title>
+            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.7/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.7/markdown-it.min.js</a>]]></description>
+            <link>https://github.com/markdown-it/markdown-it</link>
+            <guid isPermaLink="false">markdown-it3.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Feb 2015 07:23:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-bootstrap updated to version 0.12.1]]></title>
+            <description><![CDATA[Native AngularJS (Angular) directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.1/ui-bootstrap-tpls.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.1/ui-bootstrap-tpls.min.js</a>]]></description>
+            <link>http://angular-ui.github.io/bootstrap/</link>
+            <guid isPermaLink="false">angular-ui-bootstrap0.12.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Feb 2015 07:23:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 3.2.3]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.3/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.3/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly3.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Feb 2015 07:08:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[sbt updated to version 1.1.3.20150220]]></title>
             <description><![CDATA[Social Business Toolkit minified&aggregated files<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sbt/1.1.3.20150220/sbt-core-dojo-amd.js">//cdnjs.cloudflare.com/ajax/libs/sbt/1.1.3.20150220/sbt-core-dojo-amd.js</a>]]></description>
@@ -53,14 +85,6 @@
             <guid isPermaLink="false">spectrum1.6.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 21 Feb 2015 05:26:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-formly updated to version 3.2.3]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.3/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.3/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly3.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 21 Feb 2015 05:24:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.tablesorter updated to version 2.20.1]]></title>
@@ -769,14 +793,6 @@
             <pubDate>Fri, 13 Feb 2015 07:02:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[markdown-it updated to version 3.0.7]]></title>
-            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.7/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.7/markdown-it.min.js</a>]]></description>
-            <link>https://github.com/markdown-it/markdown-it</link>
-            <guid isPermaLink="false">markdown-it3.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Feb 2015 07:01:14 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[chartist updated to version 0.7.2]]></title>
             <description><![CDATA[Simple, responsive charts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chartist/0.7.2/chartist.min.js">//cdnjs.cloudflare.com/ajax/libs/chartist/0.7.2/chartist.min.js</a>]]></description>
             <link>https://gionkunz.github.io/chartist-js</link>
@@ -950,14 +966,6 @@
             <guid isPermaLink="false">datatables1.10.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Feb 2015 16:33:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fullcalendar updated to version 2.3.0]]></title>
-            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js</a>]]></description>
-            <link>http://arshaw.com/fullcalendar/</link>
-            <guid isPermaLink="false">fullcalendar2.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Feb 2015 16:33:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rivets updated to version 0.8.0]]></title>
