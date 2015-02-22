@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Feb 2015 15:36:07 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Feb 2015 16:15:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1129,70 +1129,6 @@
             <guid isPermaLink="false">bower-angular-translate2.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 09 Feb 2015 01:37:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[clappr updated to version 0.0.101]]></title>
-            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.101/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.101/clappr.min.js</a>]]></description>
-            <link>https://github.com/globocom/clappr</link>
-            <guid isPermaLink="false">clappr0.0.101</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 15:17:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[underscore.string updated to version 3.0.3]]></title>
-            <description><![CDATA[Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.3/underscore.string.min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.string/3.0.3/underscore.string.min.js</a>]]></description>
-            <link>http://epeli.github.com/underscore.string/</link>
-            <guid isPermaLink="false">underscore.string3.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 15:16:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[summernote updated to version 0.6.1]]></title>
-            <description><![CDATA[Meet the world's best WYSIWYG editor on bootstrap. Summernote support both bootstrap 3.0.x and 2.x.x.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/summernote/0.6.1/summernote.min.js">//cdnjs.cloudflare.com/ajax/libs/summernote/0.6.1/summernote.min.js</a>]]></description>
-            <link>http://hackerwins.github.io/summernote/</link>
-            <guid isPermaLink="false">summernote0.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 15:16:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ember.js updated to version 1.10.0]]></title>
-            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.10.0/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.10.0/ember.min.js</a>]]></description>
-            <link>http://emberjs.com/</link>
-            <guid isPermaLink="false">ember.js1.10.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 15:16:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[animsition updated to version 3.4.3]]></title>
-            <description><![CDATA[A simple and easy jQuery plugin for CSS animated page transitions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animsition/3.4.3/js/jquery.animsition.min.js">//cdnjs.cloudflare.com/ajax/libs/animsition/3.4.3/js/jquery.animsition.min.js</a>]]></description>
-            <link>http://git.blivesta.com/animsition</link>
-            <guid isPermaLink="false">animsition3.4.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 15:05:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[postal.js updated to version 1.0.0]]></title>
-            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/1.0.0/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/1.0.0/postal.min.js</a>]]></description>
-            <link>http://github.com/postaljs/postal.js</link>
-            <guid isPermaLink="false">postal.js1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 15:00:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[less.js updated to version 2.4.0]]></title>
-            <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/less.js/2.4.0/less.min.js">//cdnjs.cloudflare.com/ajax/libs/less.js/2.4.0/less.min.js</a>]]></description>
-            <link>http://lesscss.org/</link>
-            <guid isPermaLink="false">less.js2.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 14:59:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[basket.js updated to version 0.5.2]]></title>
-            <description><![CDATA[A script and resource loader for caching & loading scripts with localStorage<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/basket.js/0.5.2/basket.full.min.js">//cdnjs.cloudflare.com/ajax/libs/basket.js/0.5.2/basket.full.min.js</a>]]></description>
-            <link>http://addyosmani.github.com/basket.js</link>
-            <guid isPermaLink="false">basket.js0.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 14:58:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
