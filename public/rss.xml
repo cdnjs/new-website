@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Feb 2015 10:17:01 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Feb 2015 11:22:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -20,7 +20,7 @@
             <link>http://fullcalendar.io/</link>
             <guid isPermaLink="false">fullcalendar2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 07:24:12 GMT</pubDate>
+            <pubDate>Sun, 22 Feb 2015 08:43:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[markdown-it updated to version 3.0.7]]></title>
