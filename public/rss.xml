@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Feb 2015 07:16:05 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Feb 2015 08:14:04 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -55,10 +55,10 @@
             <pubDate>Sat, 21 Feb 2015 05:26:55 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 3.2.0]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.0/formly.min.js</a>]]></description>
+            <title><![CDATA[angular-formly updated to version 3.2.3]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.3/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.3/formly.min.js</a>]]></description>
             <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly3.2.0</guid>
+            <guid isPermaLink="false">angular-formly3.2.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 21 Feb 2015 05:24:24 GMT</pubDate>
         </item>
@@ -769,10 +769,10 @@
             <pubDate>Fri, 13 Feb 2015 07:02:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[markdown-it updated to version 3.0.6]]></title>
-            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.6/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.6/markdown-it.min.js</a>]]></description>
+            <title><![CDATA[markdown-it updated to version 3.0.7]]></title>
+            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.7/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.0.7/markdown-it.min.js</a>]]></description>
             <link>https://github.com/markdown-it/markdown-it</link>
-            <guid isPermaLink="false">markdown-it3.0.6</guid>
+            <guid isPermaLink="false">markdown-it3.0.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Feb 2015 07:01:14 GMT</pubDate>
         </item>
@@ -952,10 +952,10 @@
             <pubDate>Tue, 10 Feb 2015 16:33:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[fullcalendar updated to version 2.2.7]]></title>
-            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.js</a>]]></description>
+            <title><![CDATA[fullcalendar updated to version 2.3.0]]></title>
+            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js</a>]]></description>
             <link>http://arshaw.com/fullcalendar/</link>
-            <guid isPermaLink="false">fullcalendar2.2.7</guid>
+            <guid isPermaLink="false">fullcalendar2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Feb 2015 16:33:01 GMT</pubDate>
         </item>
