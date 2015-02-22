@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Feb 2015 14:49:25 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Feb 2015 15:36:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1193,14 +1193,6 @@
             <guid isPermaLink="false">basket.js0.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 08 Feb 2015 14:58:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dojo updated to version 1.10.4]]></title>
-            <description><![CDATA[Dojo saves you time, delivers powerful performance, and scales with your development process. It’s the toolkit experienced developers turn to for building superior desktop and mobile web experiences.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dojo/1.10.4/dojo.js">//cdnjs.cloudflare.com/ajax/libs/dojo/1.10.4/dojo.js</a>]]></description>
-            <link>http://dojotoolkit.org/</link>
-            <guid isPermaLink="false">dojo1.10.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Feb 2015 13:38:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
