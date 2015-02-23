@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Feb 2015 23:23:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2015 00:22:39 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery-mobile updated to version 1.4.5]]></title>
+            <description><![CDATA[A unified, HTML5-based user interface system for all popular mobile device platforms, built on the rock-solid jQuery and jQuery UI foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js</a>]]></description>
+            <link>http://jquerymobile.com/</link>
+            <guid isPermaLink="false">jquery-mobile1.4.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Feb 2015 22:24:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Director(1.2.8) was added]]></title>
             <description><![CDATA[Director is a router. Routing is the process of determining what code to run when a URL is requested<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Director/1.2.8/director.min.js">//cdnjs.cloudflare.com/ajax/libs/Director/1.2.8/director.min.js</a>]]></description>
