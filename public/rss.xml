@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 23 Feb 2015 14:26:22 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2015 14:37:00 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1094,36 +1094,12 @@
             <pubDate>Mon, 09 Feb 2015 13:28:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[amstockchart updated to version 3.13.0]]></title>
-            <description><![CDATA[amCharts is a robust charting tool that will suit any dataviz need.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/amstockchart/3.13.0/amstock.js">//cdnjs.cloudflare.com/ajax/libs/amstockchart/3.13.0/amstock.js</a>]]></description>
-            <link>http://www.amcharts.com/</link>
-            <guid isPermaLink="false">amstockchart3.13.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 09 Feb 2015 13:26:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ammaps updated to version 3.13.0]]></title>
-            <description><![CDATA[JavaScript / HTML5 mapping library to create interactive, animated maps and display them in websites or web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ammaps/3.13.0/ammap.js">//cdnjs.cloudflare.com/ajax/libs/ammaps/3.13.0/ammap.js</a>]]></description>
-            <link>http://www.amcharts.com/</link>
-            <guid isPermaLink="false">ammaps3.13.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 09 Feb 2015 13:22:16 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular.js updated to version 1.3.13]]></title>
             <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.min.js</a>]]></description>
             <link>http://angularjs.org</link>
             <guid isPermaLink="false">angular.js1.3.13</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 09 Feb 2015 13:17:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[amcharts updated to version 3.13.0]]></title>
-            <description><![CDATA[amCharts is a robust charting tool that will suit any dataviz need.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/amcharts/3.13.0/amcharts.js">//cdnjs.cloudflare.com/ajax/libs/amcharts/3.13.0/amcharts.js</a>]]></description>
-            <link>http://www.amcharts.com/</link>
-            <guid isPermaLink="false">amcharts3.13.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 09 Feb 2015 13:13:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ember-simple-auth updated to version 0.7.3]]></title>
