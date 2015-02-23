@@ -10,18 +10,10 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 23 Feb 2015 04:07:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Feb 2015 04:24:51 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
-        <item>
-            <title><![CDATA[custom-elements-builder updated to version 0.2.4]]></title>
-            <description><![CDATA[Custom Elements Builder (ceb) is ... a builder for Custom Elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.2.4/ceb.min.js">//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.2.4/ceb.min.js</a>]]></description>
-            <link>https://tmorin.github.io/custom-elements-builder</link>
-            <guid isPermaLink="false">custom-elements-builder0.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 23 Feb 2015 03:21:43 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[jquery-mobile updated to version 1.4.5]]></title>
             <description><![CDATA[A unified, HTML5-based user interface system for all popular mobile device platforms, built on the rock-solid jQuery and jQuery UI foundation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js</a>]]></description>
@@ -37,62 +29,6 @@
             <guid isPermaLink="false">Director1.2.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 22 Feb 2015 19:23:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[underscore.js updated to version 1.8.2]]></title>
-            <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js</a>]]></description>
-            <link>http://jashkenas.github.io/underscore/</link>
-            <guid isPermaLink="false">underscore.js1.8.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 14:55:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[swagger-ui updated to version 2.1.8-M1]]></title>
-            <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.8-M1/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.8-M1/swagger-ui.min.js</a>]]></description>
-            <link>http://swagger.io/</link>
-            <guid isPermaLink="false">swagger-ui2.1.8-M1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 14:55:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Swiper updated to version 3.0.2]]></title>
-            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.2/js/swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.2/js/swiper.min.js</a>]]></description>
-            <link>http://www.idangero.us/sliders/swiper</link>
-            <guid isPermaLink="false">Swiper3.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 14:40:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.25.3]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.3/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.3/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.25.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 14:31:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[froala-editor updated to version 1.2.6]]></title>
-            <description><![CDATA[A beautiful jQuery WYSIWYG text editor based on HTML5 technology. Cross browser, with mobile support, high performance and Retina Ready flat design.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.6/js/froala_editor.min.js">//cdnjs.cloudflare.com/ajax/libs/froala-editor/1.2.6/js/froala_editor.min.js</a>]]></description>
-            <link>http://editor.froala.com/</link>
-            <guid isPermaLink="false">froala-editor1.2.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 14:31:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[motajs updated to version 0.5.1]]></title>
-            <description><![CDATA[JavaScript library that aims to allow the developer to easily build web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motajs/0.5.1/mota.min.js">//cdnjs.cloudflare.com/ajax/libs/motajs/0.5.1/mota.min.js</a>]]></description>
-            <link>http://motapc97.github.io/motajs/</link>
-            <guid isPermaLink="false">motajs0.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 14:30:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[flocks.js updated to version 0.15.2]]></title>
-            <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.15.2/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.15.2/flocks.js</a>]]></description>
-            <link>http://flocks.rocks/</link>
-            <guid isPermaLink="false">flocks.js0.15.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 14:29:05 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[fullcalendar updated to version 2.3.0]]></title>
@@ -133,6 +69,14 @@
             <guid isPermaLink="false">sbt1.1.3.20150220</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 21 Feb 2015 10:24:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[swagger-ui updated to version 2.1.8-M1]]></title>
+            <description><![CDATA[Swagger UI is a dependency-free collection of HTML, Javascript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.8-M1/swagger-ui.min.js">//cdnjs.cloudflare.com/ajax/libs/swagger-ui/2.1.8-M1/swagger-ui.min.js</a>]]></description>
+            <link>http://swagger.io/</link>
+            <guid isPermaLink="false">swagger-ui2.1.8-M1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Feb 2015 10:22:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.isotope updated to version 2.1.1]]></title>
@@ -300,6 +244,14 @@
             <pubDate>Fri, 20 Feb 2015 14:21:14 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Swiper updated to version 3.0.2]]></title>
+            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.2/js/swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.2/js/swiper.min.js</a>]]></description>
+            <link>http://www.idangero.us/sliders/swiper</link>
+            <guid isPermaLink="false">Swiper3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 05:31:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ekko-lightbox updated to version 3.2.2]]></title>
             <description><![CDATA[A lightbox gallery plugin for Bootstrap 3 based on the modal plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.2.2/ekko-lightbox.min.js">//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.2.2/ekko-lightbox.min.js</a>]]></description>
             <link>https://github.com/ashleydw/lightbox</link>
@@ -330,6 +282,14 @@
             <guid isPermaLink="false">js-yaml3.2.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 20 Feb 2015 04:55:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[underscore.js updated to version 1.8.2]]></title>
+            <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js</a>]]></description>
+            <link>http://jashkenas.github.io/underscore/</link>
+            <guid isPermaLink="false">underscore.js1.8.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 04:54:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[handsontable updated to version 0.12.6]]></title>
@@ -396,6 +356,14 @@
             <pubDate>Thu, 19 Feb 2015 06:56:02 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[es6-shim updated to version 0.25.3]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.3/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.3/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.25.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Feb 2015 06:53:49 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[danialfarid-angular-file-upload updated to version 3.0.7]]></title>
             <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/3.0.7/angular-file-upload.min.js">//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/3.0.7/angular-file-upload.min.js</a>]]></description>
             <guid isPermaLink="false">danialfarid-angular-file-upload3.0.7</guid>
@@ -457,6 +425,14 @@
             <guid isPermaLink="false">semantic-ui1.9.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 18 Feb 2015 03:48:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[flocks.js updated to version 0.15.2]]></title>
+            <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.15.2/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.15.2/flocks.js</a>]]></description>
+            <link>http://flocks.rocks/</link>
+            <guid isPermaLink="false">flocks.js0.15.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Feb 2015 03:46:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone.js updated to version 1.1.2]]></title>
@@ -1132,6 +1108,14 @@
             <guid isPermaLink="false">ember-simple-auth0.7.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 09 Feb 2015 13:04:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
+            <description><![CDATA[Select Client-side components of MeteorJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mini-meteor/1.0.1/mini-meteor.js">//cdnjs.cloudflare.com/ajax/libs/mini-meteor/1.0.1/mini-meteor.js</a>]]></description>
+            <link>https://github.com/chicagogrooves/mini-meteor</link>
+            <guid isPermaLink="false">mini-meteor1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 29 Jan 2015 20:08:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[co(4.1.0) was added]]></title>
