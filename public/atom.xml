@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Feb 2015 18:00:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Feb 2015 19:02:31 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1038,22 +1038,6 @@
             <guid isPermaLink="false">moment-range1.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 11 Feb 2015 05:22:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dropzone updated to version 4.0.1]]></title>
-            <description><![CDATA[Drag'n'drop file uploads with image previews<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.js">//cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.js</a>]]></description>
-            <link>http://www.dropzonejs.com/</link>
-            <guid isPermaLink="false">dropzone4.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Feb 2015 17:18:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[datatables updated to version 1.10.5]]></title>
-            <description><![CDATA[DataTables enhances HTML tables with the ability to sort, filter and page the data in the table very easily. It provides a comprehensive API and set of configuration options, allowing you to consume data from virtually any data source.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.5/js/jquery.dataTables.min.js">//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.5/js/jquery.dataTables.min.js</a>]]></description>
-            <link>http://datatables.net</link>
-            <guid isPermaLink="false">datatables1.10.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Feb 2015 16:33:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rivets updated to version 0.8.0]]></title>
