@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Feb 2015 07:25:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Feb 2015 07:42:32 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1029,14 +1029,6 @@
             <guid isPermaLink="false">fastclick1.0.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Feb 2015 06:23:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[reconnecting-websocket(1.0.0) was added]]></title>
-            <description><![CDATA[A small JavaScript library that decorates the WebSocket API to provide a WebSocket connection that will automatically reconnect if the connection is dropped.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.min.js">//cdnjs.cloudflare.com/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.min.js</a>]]></description>
-            <link>https://github.com/joewalnes/reconnecting-websocket</link>
-            <guid isPermaLink="false">reconnecting-websocket1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Feb 2015 06:06:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[require.js updated to version 2.1.16]]></title>
