@@ -10,10 +10,82 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Feb 2015 08:41:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Feb 2015 09:06:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[backbone.marionette updated to version 2.4.0]]></title>
+            <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.0/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.0/backbone.marionette.min.js</a>]]></description>
+            <link>http://github.com/marionettejs/backbone.marionette</link>
+            <guid isPermaLink="false">backbone.marionette2.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Feb 2015 07:30:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[riot updated to version 2.0.11]]></title>
+            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.11/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.11/riot.min.js</a>]]></description>
+            <link>https://muut.com/riotjs/</link>
+            <guid isPermaLink="false">riot2.0.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Feb 2015 07:29:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-material updated to version 0.8.0]]></title>
+            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.8.0/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.8.0/angular-material.min.css</a>]]></description>
+            <link>https://material.angularjs.org/</link>
+            <guid isPermaLink="false">angular-material0.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Feb 2015 07:29:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[flocks.js updated to version 0.15.3]]></title>
+            <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.15.3/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.15.3/flocks.js</a>]]></description>
+            <link>http://flocks.rocks/</link>
+            <guid isPermaLink="false">flocks.js0.15.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Feb 2015 07:13:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chai updated to version 2.1.0]]></title>
+            <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chai/2.1.0/chai.js">//cdnjs.cloudflare.com/ajax/libs/chai/2.1.0/chai.js</a>]]></description>
+            <link>http://chaijs.com</link>
+            <guid isPermaLink="false">chai2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Feb 2015 07:13:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[elasticsearch updated to version 3.1.3]]></title>
+            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.3/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.3/elasticsearch.js</a>]]></description>
+            <link>https://github.com/elasticsearch/elasticsearch-js</link>
+            <guid isPermaLink="false">elasticsearch3.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Feb 2015 07:12:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[tablesort updated to version 3.0.0]]></title>
+            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.0/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.0/tablesort.min.js</a>]]></description>
+            <link>http://tristen.ca/tablesort/demo/</link>
+            <guid isPermaLink="false">tablesort3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Feb 2015 07:11:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[maquette updated to version 1.5.1]]></title>
+            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.5.1/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.5.1/maquette.min.js</a>]]></description>
+            <link>http://johan-gorter.github.io/maquette/</link>
+            <guid isPermaLink="false">maquette1.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Feb 2015 07:11:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 3.2.7]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.7/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.7/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly3.2.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Feb 2015 07:10:36 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery-sheetrock(0.2.4) was added]]></title>
             <description><![CDATA[Quickly connect to, query, and lazy-load data from Google Spreadsheets.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/0.2.4/dist/jquery.sheetrock.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/0.2.4/dist/jquery.sheetrock.min.js</a>]]></description>
@@ -95,14 +167,6 @@
             <pubDate>Sun, 22 Feb 2015 14:30:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[flocks.js updated to version 0.15.3]]></title>
-            <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.15.3/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.15.3/flocks.js</a>]]></description>
-            <link>http://flocks.rocks/</link>
-            <guid isPermaLink="false">flocks.js0.15.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 14:29:05 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[fullcalendar updated to version 2.3.0]]></title>
             <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js</a>]]></description>
             <link>http://fullcalendar.io/</link>
@@ -125,14 +189,6 @@
             <guid isPermaLink="false">angular-ui-bootstrap0.12.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 22 Feb 2015 07:23:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-formly updated to version 3.2.7]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.7/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.7/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly3.2.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 07:08:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[sbt updated to version 1.1.3.20150220]]></title>
@@ -378,14 +434,6 @@
             <guid isPermaLink="false">rome2.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Feb 2015 07:32:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[riot updated to version 2.0.11]]></title>
-            <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.11/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.11/riot.min.js</a>]]></description>
-            <link>https://muut.com/riotjs/</link>
-            <guid isPermaLink="false">riot2.0.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Feb 2015 07:32:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[coffee-script updated to version 1.9.1]]></title>
@@ -879,14 +927,6 @@
             <guid isPermaLink="false">angular-carousel0.3.10</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 12 Feb 2015 06:32:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chai updated to version 2.1.0]]></title>
-            <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chai/2.1.0/chai.js">//cdnjs.cloudflare.com/ajax/libs/chai/2.1.0/chai.js</a>]]></description>
-            <link>http://chaijs.com</link>
-            <guid isPermaLink="false">chai2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 05:59:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone.layoutmanager updated to version 0.9.6]]></title>
