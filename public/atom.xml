@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Feb 2015 07:42:32 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 24 Feb 2015 07:51:47 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1014,29 +1014,6 @@
             <guid isPermaLink="false">rivets0.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Feb 2015 16:32:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cldrjs updated to version 0.4.0]]></title>
-            <description><![CDATA[Simple CLDR API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.0/cldr.min.js">//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.0/cldr.min.js</a>]]></description>
-            <guid isPermaLink="false">cldrjs0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Feb 2015 06:38:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fastclick updated to version 1.0.6]]></title>
-            <description><![CDATA[Polyfill to remove click delays on browsers with touch UIs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js">//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js</a>]]></description>
-            <link>https://github.com/ftlabs/fastclick</link>
-            <guid isPermaLink="false">fastclick1.0.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Feb 2015 06:23:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[require.js updated to version 2.1.16]]></title>
-            <description><![CDATA[RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.16/require.min.js">//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.16/require.min.js</a>]]></description>
-            <link>http://requirejs.org/</link>
-            <guid isPermaLink="false">require.js2.1.16</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Feb 2015 05:49:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[co(4.1.0) was added]]></title>
