@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Feb 2015 17:04:54 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Feb 2015 17:31:43 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[paymentfont(1.0.1) was added]]></title>
+            <description><![CDATA[PaymentFont<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/paymentfont/1.0.1/css/paymentfont.min.css">//cdnjs.cloudflare.com/ajax/libs/paymentfont/1.0.1/css/paymentfont.min.css</a>]]></description>
+            <link>http://paymentfont.io/</link>
+            <guid isPermaLink="false">paymentfont1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 16:15:30 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[webshim updated to version 1.15.7]]></title>
             <description><![CDATA[modular capability-based polyfill loading libary, which extends jQuery with HTML5 features in legacy browsers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.7/minified/polyfiller.js">//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.7/minified/polyfiller.js</a>]]></description>
@@ -1014,30 +1022,6 @@
             <guid isPermaLink="false">l20n1.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 12 Feb 2015 05:51:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-domPath updated to version 1.0.0]]></title>
-            <description><![CDATA[A simple jQuery plugin for getting DOM Path of HTML elements<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-domPath/1.0.0/jquery.domPath.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-domPath/1.0.0/jquery.domPath.min.js</a>]]></description>
-            <link>https://github.com/asatour/jquery-domPath</link>
-            <guid isPermaLink="false">jquery-domPath1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 11 Feb 2015 17:29:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sweetalert updated to version 0.4.2]]></title>
-            <description><![CDATA[A beautiful replacement for JavaScript's alert.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.4.2/sweet-alert.min.js">//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.4.2/sweet-alert.min.js</a>]]></description>
-            <link>http://tristanedwards.me/sweetalert</link>
-            <guid isPermaLink="false">sweetalert0.4.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 11 Feb 2015 16:42:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.perfect-scrollbar updated to version 0.5.9]]></title>
-            <description><![CDATA[Tiny but perfect jQuery scrollbar plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.9/perfect-scrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.5.9/perfect-scrollbar.min.js</a>]]></description>
-            <link>http://www.yuiazu.net/perfect-scrollbar/</link>
-            <guid isPermaLink="false">jquery.perfect-scrollbar0.5.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 11 Feb 2015 16:41:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[co(4.1.0) was added]]></title>
