@@ -366,6 +366,7 @@ $('body').on('click', '.remove-favorite', function(e) {
 
   var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010', { dsn: true }); // public/search-only credentials
   var index = algolia.initIndex('libraries');
+  var lastQuery;
   function searchHandler(ev) {
     // cleanup URL hash if present
     location.hash = ''
@@ -373,9 +374,10 @@ $('body').on('click', '.remove-favorite', function(e) {
     var val = $(ev.currentTarget).val();
     if (val === '') {
       $hits.html($allRows);
-    } else {
+    } else if (lastQuery !== val) {
       index.search(val, displayMatchingLibraries, { hitsPerPage: 20 });
     }
+    lastQuery = val;
   }
 
   $('#search-box').on('keyup change', searchHandler);
