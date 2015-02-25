@@ -10,10 +10,97 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Feb 2015 16:09:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Feb 2015 17:04:54 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[webshim updated to version 1.15.7]]></title>
+            <description><![CDATA[modular capability-based polyfill loading libary, which extends jQuery with HTML5 features in legacy browsers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.7/minified/polyfiller.js">//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.7/minified/polyfiller.js</a>]]></description>
+            <link>http://afarkas.github.com/webshim/demos/index.html</link>
+            <guid isPermaLink="false">webshim1.15.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:59:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cldrjs updated to version 0.4.1]]></title>
+            <description><![CDATA[Simple CLDR API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.1/cldr.min.js">//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.1/cldr.min.js</a>]]></description>
+            <guid isPermaLink="false">cldrjs0.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:59:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-contextify updated to version 1.0.5]]></title>
+            <description><![CDATA[A lightweight jQuery plugin for creating Bootstrap powered context menus.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-contextify/1.0.5/jquery.contextify.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-contextify/1.0.5/jquery.contextify.min.js</a>]]></description>
+            <link>http://contextify.donlabs.com</link>
+            <guid isPermaLink="false">jquery-contextify1.0.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:58:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-material updated to version 0.8.1]]></title>
+            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.8.1/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.8.1/angular-material.min.css</a>]]></description>
+            <link>https://material.angularjs.org/</link>
+            <guid isPermaLink="false">angular-material0.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:58:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cutjs updated to version 0.4.0]]></title>
+            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.0/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.0/cut.web.min.js</a>]]></description>
+            <link>http://cutjs.org/</link>
+            <guid isPermaLink="false">cutjs0.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:44:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bacon.js updated to version 0.7.50]]></title>
+            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.50/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.50/Bacon.min.js</a>]]></description>
+            <link>http://baconjs.blogspot.com</link>
+            <guid isPermaLink="false">bacon.js0.7.50</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:43:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react-slick updated to version 0.3.5]]></title>
+            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.5/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.5/react-slick.min.js</a>]]></description>
+            <link>https://github.com/akiran/react-slick</link>
+            <guid isPermaLink="false">react-slick0.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:43:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.26.0]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.0/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.26.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:43:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-loading-bar updated to version 0.7.1]]></title>
+            <description><![CDATA[An automatic loading bar for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.7.1/loading-bar.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.7.1/loading-bar.min.js</a>]]></description>
+            <link>https://chieffancypants.github.io/angular-loading-bar</link>
+            <guid isPermaLink="false">angular-loading-bar0.7.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:42:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 3.3.0]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.3.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.3.0/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly3.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:42:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jcarousel updated to version 0.3.2]]></title>
+            <description><![CDATA[jCarousel is a jQuery plugin for controlling a list of items in horizontal or vertical order. It provides a full-featured and flexible toolset for navigating any HTML based content in a carousel-like fashion.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.2/jquery.jcarousel.min.js">//cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.2/jquery.jcarousel.min.js</a>]]></description>
+            <link>http://sorgalla.com/jcarousel/</link>
+            <guid isPermaLink="false">jcarousel0.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 07:45:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular.js updated to version 1.3.14]]></title>
             <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js</a>]]></description>
@@ -71,14 +158,6 @@
             <pubDate>Tue, 24 Feb 2015 18:26:19 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jcarousel updated to version 0.3.2]]></title>
-            <description><![CDATA[jCarousel is a jQuery plugin for controlling a list of items in horizontal or vertical order. It provides a full-featured and flexible toolset for navigating any HTML based content in a carousel-like fashion.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.2/jquery.jcarousel.min.js">//cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.2/jquery.jcarousel.min.js</a>]]></description>
-            <link>http://sorgalla.com/jcarousel/</link>
-            <guid isPermaLink="false">jcarousel0.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 24 Feb 2015 15:05:38 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[backbone.marionette updated to version 2.4.0]]></title>
             <description><![CDATA[Make your Backbone.js apps dance with a composite application architecture!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.0/backbone.marionette.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.0/backbone.marionette.min.js</a>]]></description>
             <link>http://github.com/marionettejs/backbone.marionette</link>
@@ -93,14 +172,6 @@
             <guid isPermaLink="false">riot2.0.11</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 24 Feb 2015 07:29:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-material updated to version 0.8.0]]></title>
-            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.8.0/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.8.0/angular-material.min.css</a>]]></description>
-            <link>https://material.angularjs.org/</link>
-            <guid isPermaLink="false">angular-material0.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 24 Feb 2015 07:29:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[flocks.js updated to version 0.15.3]]></title>
@@ -141,14 +212,6 @@
             <guid isPermaLink="false">maquette1.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 24 Feb 2015 07:11:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-formly updated to version 3.2.7]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.7/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/3.2.7/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly3.2.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 24 Feb 2015 07:10:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-sheetrock(0.2.4) was added]]></title>
@@ -205,14 +268,6 @@
             <guid isPermaLink="false">Swiper3.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 22 Feb 2015 14:40:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.25.3]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.3/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.25.3/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.25.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 14:31:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[froala-editor updated to version 1.2.6]]></title>
@@ -362,14 +417,6 @@
             <guid isPermaLink="false">omniscient3.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 20 Feb 2015 17:33:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react-slick updated to version 0.3.4]]></title>
-            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.4/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.4/react-slick.min.js</a>]]></description>
-            <link>https://github.com/akiran/react-slick</link>
-            <guid isPermaLink="false">react-slick0.3.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 20 Feb 2015 17:31:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[uikit updated to version 2.17.0]]></title>
@@ -682,14 +729,6 @@
             <pubDate>Mon, 16 Feb 2015 17:24:25 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[cutjs updated to version 0.3.1]]></title>
-            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.3.1/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.3.1/cut.web.min.js</a>]]></description>
-            <link>http://cutjs.org/</link>
-            <guid isPermaLink="false">cutjs0.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 16 Feb 2015 17:24:11 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Cookies.js updated to version 1.2.1]]></title>
             <description><![CDATA[Cookies.js is a small client-side javascript library that makes managing cookies easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.2.1/cookies.min.js">//cdnjs.cloudflare.com/ajax/libs/Cookies.js/1.2.1/cookies.min.js</a>]]></description>
             <link>https://github.com/ScottHamper/Cookies</link>
@@ -727,14 +766,6 @@
             <guid isPermaLink="false">jspdf1.0.272</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 16 Feb 2015 09:04:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bacon.js updated to version 0.7.49]]></title>
-            <description><![CDATA[A small functional reactive programming lib for JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.49/Bacon.min.js">//cdnjs.cloudflare.com/ajax/libs/bacon.js/0.7.49/Bacon.min.js</a>]]></description>
-            <link>http://baconjs.blogspot.com</link>
-            <guid isPermaLink="false">bacon.js0.7.49</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 16 Feb 2015 08:40:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vault.js updated to version 0.1.7]]></title>
