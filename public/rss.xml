@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Feb 2015 08:11:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Feb 2015 10:18:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -1036,38 +1036,6 @@
             <guid isPermaLink="false">fuelux3.6.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Feb 2015 06:59:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[viewer.js updated to version 0.10.4]]></title>
-            <description><![CDATA[A viewer for documents converted with the Box View API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.4/crocodoc.viewer.min.js">//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.4/crocodoc.viewer.min.js</a>]]></description>
-            <link>https://github.com/box/viewer.js</link>
-            <guid isPermaLink="false">viewer.js0.10.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 06:33:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[device.js updated to version 0.2.4]]></title>
-            <description><![CDATA[Device.js makes it easy to write conditional CSS _and/or_ JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/device.js/0.2.4/device.min.js">//cdnjs.cloudflare.com/ajax/libs/device.js/0.2.4/device.min.js</a>]]></description>
-            <link>https://github.com/matthewhudson/device.js</link>
-            <guid isPermaLink="false">device.js0.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 06:32:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-carousel updated to version 0.3.10]]></title>
-            <description><![CDATA[Angular Carousel - Mobile friendly touch carousel for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.10/angular-carousel.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.10/angular-carousel.min.js</a>]]></description>
-            <link>http://revolunet.github.com/angular-carousel</link>
-            <guid isPermaLink="false">angular-carousel0.3.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 06:32:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone.layoutmanager updated to version 0.9.6]]></title>
-            <description><![CDATA[A layout and template manager for Backbone.js applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.layoutmanager/0.9.6/backbone.layoutmanager.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.layoutmanager/0.9.6/backbone.layoutmanager.min.js</a>]]></description>
-            <link>http://layoutmanager.org</link>
-            <guid isPermaLink="false">backbone.layoutmanager0.9.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 05:59:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[co(4.1.0) was added]]></title>
