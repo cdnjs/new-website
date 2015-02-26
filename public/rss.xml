@@ -10,10 +10,25 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Feb 2015 19:08:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Feb 2015 19:41:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ScrollMagic updated to version 2.0.0]]></title>
+            <description><![CDATA[The javascript library for magical scroll interactions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.0/ScrollMagic.min.js">//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.0/ScrollMagic.min.js</a>]]></description>
+            <link>http://janpaepke.github.io/ScrollMagic/</link>
+            <guid isPermaLink="false">ScrollMagic2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 16:07:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lazysizes updated to version 1.0.0]]></title>
+            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/1.0.0/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/1.0.0/lazysizes.min.js</a>]]></description>
+            <guid isPermaLink="false">lazysizes1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 11:10:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery_lazyload updated to version 1.9.4]]></title>
             <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.4/jquery.lazyload.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.4/jquery.lazyload.min.js</a>]]></description>
@@ -122,13 +137,6 @@
             <guid isPermaLink="false">flickity1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 26 Feb 2015 04:10:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lazysizes updated to version 1.0.0]]></title>
-            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/1.0.0/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/1.0.0/lazysizes.min.js</a>]]></description>
-            <guid isPermaLink="false">lazysizes1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 04:10:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[componentjs(1.2.4) was added]]></title>
