@@ -10,10 +10,96 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Feb 2015 05:41:23 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Feb 2015 06:01:47 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[tablesort updated to version 3.0.2]]></title>
+            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.2/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.2/tablesort.min.js</a>]]></description>
+            <link>http://tristen.ca/tablesort/demo/</link>
+            <guid isPermaLink="false">tablesort3.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:28:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[materialize updated to version 0.95.3]]></title>
+            <description><![CDATA[Builds Materialize distribution packages<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css</a>]]></description>
+            <guid isPermaLink="false">materialize0.95.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:27:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mathjax updated to version 2.5.1]]></title>
+            <description><![CDATA[MathJax is an open source JavaScript display engine for mathematics that works in all browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.1/MathJax.js">//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.1/MathJax.js</a>]]></description>
+            <link>http://www.mathjax.org/</link>
+            <guid isPermaLink="false">mathjax2.5.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:27:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.10.2]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.10.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.10.2/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.10.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:25:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es6-shim updated to version 0.26.1]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.1/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.1/es6-shim.min.js</a>]]></description>
+            <link>https://github.com/es-shims/es6-shim/</link>
+            <guid isPermaLink="false">es6-shim0.26.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:12:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react-slick updated to version 0.3.6]]></title>
+            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.6/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.6/react-slick.min.js</a>]]></description>
+            <link>https://github.com/akiran/react-slick</link>
+            <guid isPermaLink="false">react-slick0.3.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:12:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[pixi.js updated to version 2.2.7]]></title>
+            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.7/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.7/pixi.js</a>]]></description>
+            <link>http://goodboydigital.com/</link>
+            <guid isPermaLink="false">pixi.js2.2.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:11:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[moment-range updated to version 1.0.7]]></title>
+            <description><![CDATA[Fancy date ranges for Moment.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.7/moment-range.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.7/moment-range.min.js</a>]]></description>
+            <link>https://github.com/gf3/moment-range</link>
+            <guid isPermaLink="false">moment-range1.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:11:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsforce updated to version 1.4.1]]></title>
+            <description><![CDATA[Salesforce API Library for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.1/jsforce.min.js">//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.1/jsforce.min.js</a>]]></description>
+            <link>http://jsforce.github.io</link>
+            <guid isPermaLink="false">jsforce1.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:11:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[flickity updated to version 1.0.0]]></title>
+            <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js</a>]]></description>
+            <link>http://flickity.metafizzy.co/</link>
+            <guid isPermaLink="false">flickity1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:10:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lazysizes updated to version 1.0.0]]></title>
+            <description><![CDATA[High performance (jankfree) lazy loader for images (including responsive images), iframes and scripts (widgets).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lazysizes/1.0.0/lazysizes.min.js">//cdnjs.cloudflare.com/ajax/libs/lazysizes/1.0.0/lazysizes.min.js</a>]]></description>
+            <guid isPermaLink="false">lazysizes1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 04:10:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[componentjs(1.2.4) was added]]></title>
             <description><![CDATA[Powerful run-time Component System for structuring HTML5-based Rich Clients<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/componentjs/1.2.4/component.min.js">//cdnjs.cloudflare.com/ajax/libs/componentjs/1.2.4/component.min.js</a>]]></description>
@@ -62,6 +148,14 @@
             <pubDate>Wed, 25 Feb 2015 15:58:34 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Tocca.js updated to version 0.1.21]]></title>
+            <description><![CDATA[Super lightweight script (~1kb) to detect via Javascript events like 'tap' 'dbltap' 'swipeup' 'swipedown' 'swipeleft' 'swiperight' on any kind of device.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Tocca.js/0.1.21/Tocca.min.js">//cdnjs.cloudflare.com/ajax/libs/Tocca.js/0.1.21/Tocca.min.js</a>]]></description>
+            <link>https://gianlucaguarini.github.io/Tocca.js/</link>
+            <guid isPermaLink="false">Tocca.js0.1.21</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Feb 2015 15:58:13 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[cutjs updated to version 0.4.0]]></title>
             <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.0/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.0/cut.web.min.js</a>]]></description>
             <link>http://cutjs.org/</link>
@@ -76,22 +170,6 @@
             <guid isPermaLink="false">bacon.js0.7.50</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 25 Feb 2015 15:43:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react-slick updated to version 0.3.6]]></title>
-            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.6/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.6/react-slick.min.js</a>]]></description>
-            <link>https://github.com/akiran/react-slick</link>
-            <guid isPermaLink="false">react-slick0.3.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Feb 2015 15:43:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[es6-shim updated to version 0.26.1]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.1/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.1/es6-shim.min.js</a>]]></description>
-            <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.26.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Feb 2015 15:43:13 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-loading-bar updated to version 0.7.1]]></title>
@@ -158,14 +236,6 @@
             <pubDate>Tue, 24 Feb 2015 18:38:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[semantic-ui updated to version 1.10.2]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.10.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.10.2/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.10.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 24 Feb 2015 18:28:12 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bla updated to version 1.2.0]]></title>
             <description><![CDATA[Easy way to create your own API methods for server and client sides<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bla/1.2.0/bla.min.js">//cdnjs.cloudflare.com/ajax/libs/bla/1.2.0/bla.min.js</a>]]></description>
             <link>https://github.com/baby-loris/bla</link>
@@ -212,14 +282,6 @@
             <guid isPermaLink="false">elasticsearch3.1.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 24 Feb 2015 07:12:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tablesort updated to version 3.0.2]]></title>
-            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.2/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.2/tablesort.min.js</a>]]></description>
-            <link>http://tristen.ca/tablesort/demo/</link>
-            <guid isPermaLink="false">tablesort3.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 24 Feb 2015 07:11:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[maquette updated to version 1.5.1]]></title>
@@ -481,14 +543,6 @@
             <guid isPermaLink="false">ekko-lightbox3.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 20 Feb 2015 05:29:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[flickity updated to version 1.0.0]]></title>
-            <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js</a>]]></description>
-            <link>http://flickity.metafizzy.co/</link>
-            <guid isPermaLink="false">flickity1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 20 Feb 2015 04:58:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[emblem updated to version 0.4.0]]></title>
@@ -753,14 +807,6 @@
             <pubDate>Mon, 16 Feb 2015 17:23:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jsforce updated to version 1.4.1]]></title>
-            <description><![CDATA[Salesforce API Library for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.1/jsforce.min.js">//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.1/jsforce.min.js</a>]]></description>
-            <link>http://jsforce.github.io</link>
-            <guid isPermaLink="false">jsforce1.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 16 Feb 2015 17:22:59 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[mermaid updated to version 0.3.5]]></title>
             <description><![CDATA[Generation of diagrams and flowcharts from text in a similar manner as markdown.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.5/mermaid.full.min.js">//cdnjs.cloudflare.com/ajax/libs/mermaid/0.3.5/mermaid.full.min.js</a>]]></description>
             <link>https://github.com/knsv/mermaid</link>
@@ -1022,14 +1068,6 @@
             <guid isPermaLink="false">backbone.layoutmanager0.9.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 12 Feb 2015 05:59:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[l20n updated to version 1.0.2]]></title>
-            <description><![CDATA[A client side localization library from Mozilla<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js">//cdnjs.cloudflare.com/ajax/libs/l20n/1.0.2/l20n.min.js</a>]]></description>
-            <link>http://l20n.org</link>
-            <guid isPermaLink="false">l20n1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Feb 2015 05:51:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[co(4.1.0) was added]]></title>
