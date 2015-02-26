@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Feb 2015 04:43:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Feb 2015 05:41:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[componentjs(1.2.4) was added]]></title>
+            <description><![CDATA[Powerful run-time Component System for structuring HTML5-based Rich Clients<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/componentjs/1.2.4/component.min.js">//cdnjs.cloudflare.com/ajax/libs/componentjs/1.2.4/component.min.js</a>]]></description>
+            <link>http://componentjs.com/</link>
+            <guid isPermaLink="false">componentjs1.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Feb 2015 00:04:37 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[paymentfont(1.0.1) was added]]></title>
             <description><![CDATA[PaymentFont<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/paymentfont/1.0.1/css/paymentfont.min.css">//cdnjs.cloudflare.com/ajax/libs/paymentfont/1.0.1/css/paymentfont.min.css</a>]]></description>
@@ -70,18 +78,18 @@
             <pubDate>Wed, 25 Feb 2015 15:43:52 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[react-slick updated to version 0.3.5]]></title>
-            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.5/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.5/react-slick.min.js</a>]]></description>
+            <title><![CDATA[react-slick updated to version 0.3.6]]></title>
+            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.6/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.6/react-slick.min.js</a>]]></description>
             <link>https://github.com/akiran/react-slick</link>
-            <guid isPermaLink="false">react-slick0.3.5</guid>
+            <guid isPermaLink="false">react-slick0.3.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 25 Feb 2015 15:43:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[es6-shim updated to version 0.26.0]]></title>
-            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.0/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.0/es6-shim.min.js</a>]]></description>
+            <title><![CDATA[es6-shim updated to version 0.26.1]]></title>
+            <description><![CDATA[ECMAScript 6 (Harmony) compatibility shims for legacy JavaScript engines<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.1/es6-shim.min.js">//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.26.1/es6-shim.min.js</a>]]></description>
             <link>https://github.com/es-shims/es6-shim/</link>
-            <guid isPermaLink="false">es6-shim0.26.0</guid>
+            <guid isPermaLink="false">es6-shim0.26.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 25 Feb 2015 15:43:13 GMT</pubDate>
         </item>
@@ -150,10 +158,10 @@
             <pubDate>Tue, 24 Feb 2015 18:38:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[semantic-ui updated to version 1.9.3]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.9.3/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.9.3/semantic.min.js</a>]]></description>
+            <title><![CDATA[semantic-ui updated to version 1.10.2]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.10.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.10.2/semantic.min.js</a>]]></description>
             <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.9.3</guid>
+            <guid isPermaLink="false">semantic-ui1.10.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 24 Feb 2015 18:28:12 GMT</pubDate>
         </item>
@@ -206,10 +214,10 @@
             <pubDate>Tue, 24 Feb 2015 07:12:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[tablesort updated to version 3.0.0]]></title>
-            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.0/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.0/tablesort.min.js</a>]]></description>
+            <title><![CDATA[tablesort updated to version 3.0.2]]></title>
+            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.2/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.2/tablesort.min.js</a>]]></description>
             <link>http://tristen.ca/tablesort/demo/</link>
-            <guid isPermaLink="false">tablesort3.0.0</guid>
+            <guid isPermaLink="false">tablesort3.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 24 Feb 2015 07:11:45 GMT</pubDate>
         </item>
@@ -475,10 +483,10 @@
             <pubDate>Fri, 20 Feb 2015 05:29:22 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[flickity updated to version 0.3.1]]></title>
-            <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/0.3.1/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/0.3.1/flickity.pkgd.min.js</a>]]></description>
+            <title><![CDATA[flickity updated to version 1.0.0]]></title>
+            <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js</a>]]></description>
             <link>http://flickity.metafizzy.co/</link>
-            <guid isPermaLink="false">flickity0.3.1</guid>
+            <guid isPermaLink="false">flickity1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 20 Feb 2015 04:58:34 GMT</pubDate>
         </item>
@@ -745,10 +753,10 @@
             <pubDate>Mon, 16 Feb 2015 17:23:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jsforce updated to version 1.4.0]]></title>
-            <description><![CDATA[Salesforce API Library for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.0/jsforce.min.js">//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.0/jsforce.min.js</a>]]></description>
+            <title><![CDATA[jsforce updated to version 1.4.1]]></title>
+            <description><![CDATA[Salesforce API Library for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.1/jsforce.min.js">//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.1/jsforce.min.js</a>]]></description>
             <link>http://jsforce.github.io</link>
-            <guid isPermaLink="false">jsforce1.4.0</guid>
+            <guid isPermaLink="false">jsforce1.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 16 Feb 2015 17:22:59 GMT</pubDate>
         </item>
