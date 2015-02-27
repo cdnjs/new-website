@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 27 Feb 2015 18:26:39 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Feb 2015 19:35:45 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fullPage.js updated to version 2.5.9]]></title>
+            <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.9/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.9/jquery.fullPage.min.css</a>]]></description>
+            <link>http://alvarotrigo.com/fullPage/</link>
+            <guid isPermaLink="false">fullPage.js2.5.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Feb 2015 17:25:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-gantt updated to version 1.1.2]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.2/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.2/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Feb 2015 17:25:24 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ramda updated to version 0.10.0]]></title>
             <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.10.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.10.0/ramda.min.js</a>]]></description>
@@ -533,14 +549,6 @@
             <guid isPermaLink="false">jquery-smooth-scroll1.5.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 20 Feb 2015 17:42:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fullPage.js updated to version 2.5.9]]></title>
-            <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.9/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.9/jquery.fullPage.min.css</a>]]></description>
-            <link>http://alvarotrigo.com/fullPage/</link>
-            <guid isPermaLink="false">fullPage.js2.5.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 20 Feb 2015 17:41:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jxon updated to version 1.3.1]]></title>
