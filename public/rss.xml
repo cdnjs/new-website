@@ -10,18 +10,10 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Mar 2015 15:31:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Mar 2015 18:10:34 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
-        <item>
-            <title><![CDATA[free-jqgrid(4.8.0) was added]]></title>
-            <description><![CDATA[grid as jQuery plugin - fork of jqGrid before licensing change<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.8.0/js/jquery.jqgrid.src.js">//cdnjs.cloudflare.com/ajax/libs/free-jqgrid/4.8.0/js/jquery.jqgrid.src.js</a>]]></description>
-            <link>https://github.com/free-jqgrid/jqGrid</link>
-            <guid isPermaLink="false">free-jqgrid4.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 06 Mar 2015 12:45:49 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[jquery.tablesorter updated to version 2.21.0]]></title>
             <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.0/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.0/js/jquery.tablesorter.min.js</a>]]></description>
@@ -977,6 +969,30 @@
             <guid isPermaLink="false">uikit2.17.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 20 Feb 2015 17:31:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[holder updated to version 2.5.2]]></title>
+            <description><![CDATA[Client-side image placeholders.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/holder/2.5.2/holder.min.js">//cdnjs.cloudflare.com/ajax/libs/holder/2.5.2/holder.min.js</a>]]></description>
+            <link>http://imsky.github.io/holder/</link>
+            <guid isPermaLink="false">holder2.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 14:22:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-scroll updated to version 0.6.5]]></title>
+            <description><![CDATA[Scrollspy, animated scrollTo and scroll events<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.5/angular-scroll.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.6.5/angular-scroll.min.js</a>]]></description>
+            <link>https://github.com/oblador/angular-scroll</link>
+            <guid isPermaLink="false">angular-scroll0.6.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 14:21:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sortable updated to version 1.1.1]]></title>
+            <description><![CDATA[Sortable is a minimalist JavaScript library for modern browsers and touch devices. No jQuery.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.1/Sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/Sortable/1.1.1/Sortable.min.js</a>]]></description>
+            <link>http://rubaxa.github.io/Sortable/</link>
+            <guid isPermaLink="false">Sortable1.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Feb 2015 14:21:14 GMT</pubDate>
         </item>
     </channel>
 </rss>
