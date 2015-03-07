@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 07 Mar 2015 05:31:37 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Mar 2015 09:00:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[nanogallery updated to version 5.5.0]]></title>
+            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.0/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.0/jquery.nanogallery.min.js</a>]]></description>
+            <link>http://nanogallery.brisbois.fr/</link>
+            <guid isPermaLink="false">nanogallery5.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 07 Mar 2015 06:37:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.postcodify updated to version 2.4.0]]></title>
+            <description><![CDATA[Postcodify is a jQuery plugin and server-side API for searching South Korean street addresses and postal codes.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.4.0/search.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.4.0/search.min.js</a>]]></description>
+            <link>http://postcodify.poesis.kr/</link>
+            <guid isPermaLink="false">jquery.postcodify2.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 07 Mar 2015 06:36:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cc-icons updated to version 1.2.1]]></title>
+            <description><![CDATA[Creative Commons Web Font.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css">//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css</a>]]></description>
+            <link>http://cc-icons.github.io/</link>
+            <guid isPermaLink="false">cc-icons1.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 07 Mar 2015 06:36:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[custom-elements-builder updated to version 0.3.3]]></title>
+            <description><![CDATA[Custom Elements Builder (ceb) is ... a builder for Custom Elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.3.3/ceb.min.js">//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.3.3/ceb.min.js</a>]]></description>
+            <link>https://tmorin.github.io/custom-elements-builder</link>
+            <guid isPermaLink="false">custom-elements-builder0.3.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 07 Mar 2015 06:32:35 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[lodash-compat updated to version 3.4.0]]></title>
             <description><![CDATA[The compatibility build of lodash.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.4.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.4.0/lodash.min.js</a>]]></description>
@@ -172,14 +204,6 @@
             <guid isPermaLink="false">Readmore.js2.0.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 05 Mar 2015 05:33:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[custom-elements-builder updated to version 0.3.2]]></title>
-            <description><![CDATA[Custom Elements Builder (ceb) is ... a builder for Custom Elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.3.2/ceb.min.js">//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.3.2/ceb.min.js</a>]]></description>
-            <link>https://tmorin.github.io/custom-elements-builder</link>
-            <guid isPermaLink="false">custom-elements-builder0.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 05 Mar 2015 05:30:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[danialfarid-angular-file-upload updated to version 3.1.2]]></title>
@@ -923,22 +947,6 @@
             <guid isPermaLink="false">sbt1.1.3.20150220</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 21 Feb 2015 10:24:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.isotope updated to version 2.1.1]]></title>
-            <description><![CDATA[Filter and sort magical layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.1.1/isotope.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.1.1/isotope.pkgd.min.js</a>]]></description>
-            <link>http://isotope.metafizzy.co</link>
-            <guid isPermaLink="false">jquery.isotope2.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 21 Feb 2015 05:28:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[spectrum updated to version 1.6.1]]></title>
-            <description><![CDATA[The No Hassle jQuery Colorpicker<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/spectrum/1.6.1/spectrum.min.js">//cdnjs.cloudflare.com/ajax/libs/spectrum/1.6.1/spectrum.min.js</a>]]></description>
-            <link>http://bgrins.github.com/spectrum</link>
-            <guid isPermaLink="false">spectrum1.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 21 Feb 2015 05:26:55 GMT</pubDate>
         </item>
     </channel>
 </rss>
