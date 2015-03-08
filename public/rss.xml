@@ -10,17 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 Mar 2015 05:31:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Mar 2015 10:04:07 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[nanogallery updated to version 5.5.0]]></title>
-            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.0/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.0/jquery.nanogallery.min.js</a>]]></description>
+            <title><![CDATA[nanogallery updated to version 5.5.1]]></title>
+            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.1/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.1/jquery.nanogallery.min.js</a>]]></description>
             <link>http://nanogallery.brisbois.fr/</link>
-            <guid isPermaLink="false">nanogallery5.5.0</guid>
+            <guid isPermaLink="false">nanogallery5.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 07 Mar 2015 06:37:26 GMT</pubDate>
+            <pubDate>Sun, 08 Mar 2015 06:11:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[flocks.js updated to version 0.17.0]]></title>
+            <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.17.0/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.17.0/flocks.js</a>]]></description>
+            <link>http://flocks.rocks/</link>
+            <guid isPermaLink="false">flocks.js0.17.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 08 Mar 2015 06:10:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-datetimepicker updated to version 4.7.14]]></title>
+            <description><![CDATA[Date/time picker widget for Twitter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js</a>]]></description>
+            <link>http://eonasdan.github.io/bootstrap-datetimepicker/</link>
+            <guid isPermaLink="false">bootstrap-datetimepicker4.7.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 08 Mar 2015 06:10:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-gantt updated to version 1.2.0]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.0/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.0/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 08 Mar 2015 05:53:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[KaTeX updated to version 0.2.0]]></title>
+            <description><![CDATA[Fast math typesetting for the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.js">//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.js</a>]]></description>
+            <link>https://khan.github.io/KaTeX/</link>
+            <guid isPermaLink="false">KaTeX0.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 07 Mar 2015 17:45:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.postcodify updated to version 2.4.0]]></title>
@@ -444,14 +476,6 @@
             <pubDate>Sun, 01 Mar 2015 18:23:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[flocks.js updated to version 0.16.17]]></title>
-            <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.16.17/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.16.17/flocks.js</a>]]></description>
-            <link>http://flocks.rocks/</link>
-            <guid isPermaLink="false">flocks.js0.16.17</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 01 Mar 2015 18:22:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bower-angular-translate updated to version 2.6.1]]></title>
             <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.6.1/angular-translate.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.6.1/angular-translate.min.js</a>]]></description>
             <link>http://angular-translate.github.io</link>
@@ -640,14 +664,6 @@
             <guid isPermaLink="false">fullPage.js2.5.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 27 Feb 2015 17:25:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-gantt updated to version 1.1.2]]></title>
-            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.2/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.1.2/angular-gantt.min.js</a>]]></description>
-            <link>http://www.angular-gantt.com</link>
-            <guid isPermaLink="false">angular-gantt1.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Feb 2015 17:25:24 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ajile(2.1.7) was added]]></title>
@@ -931,14 +947,6 @@
             <guid isPermaLink="false">fullcalendar2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 22 Feb 2015 08:43:06 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-bootstrap updated to version 0.12.1]]></title>
-            <description><![CDATA[Native AngularJS (Angular) directives for Bootstrap. Small footprint (5kB gzipped!), no 3rd party JS dependencies (jQuery, bootstrap JS) required!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.1/ui-bootstrap-tpls.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.1/ui-bootstrap-tpls.min.js</a>]]></description>
-            <link>http://angular-ui.github.io/bootstrap/</link>
-            <guid isPermaLink="false">angular-ui-bootstrap0.12.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 07:23:22 GMT</pubDate>
         </item>
     </channel>
 </rss>
