@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 Mar 2015 20:05:58 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Mar 2015 21:49:52 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -899,14 +899,6 @@
             <guid isPermaLink="false">jquery-mobile1.4.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 22 Feb 2015 22:24:53 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Director(1.2.8) was added]]></title>
-            <description><![CDATA[Director is a router. Routing is the process of determining what code to run when a URL is requested<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Director/1.2.8/director.min.js">//cdnjs.cloudflare.com/ajax/libs/Director/1.2.8/director.min.js</a>]]></description>
-            <link>https://github.com/flatiron/director</link>
-            <guid isPermaLink="false">Director1.2.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Feb 2015 19:23:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[underscore.js updated to version 1.8.2]]></title>
