@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 09 Mar 2015 12:31:40 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Mar 2015 16:08:40 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jsoneditor updated to version 4.0.0]]></title>
+            <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.0.0/jsoneditor.min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.0.0/jsoneditor.min.js</a>]]></description>
+            <link>http://jsoneditoronline.org</link>
+            <guid isPermaLink="false">jsoneditor4.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 09 Mar 2015 13:51:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nanogallery updated to version 5.5.1]]></title>
             <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.1/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.1/jquery.nanogallery.min.js</a>]]></description>
