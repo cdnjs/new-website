@@ -10,10 +10,49 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Mar 2015 18:07:40 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Mar 2015 20:01:46 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[social-likes updated to version 3.0.14]]></title>
+            <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.14/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.14/social-likes.min.js</a>]]></description>
+            <link>http://sapegin.github.io/social-likes/</link>
+            <guid isPermaLink="false">social-likes3.0.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 18:22:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[awesome-bootstrap-checkbox updated to version 0.3.3]]></title>
+            <description><![CDATA[Font Awesome Bootstrap Checkboxes & Radios. Pure css way to make inputs look prettier.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.3/awesome-bootstrap-checkbox.min.css">//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.3/awesome-bootstrap-checkbox.min.css</a>]]></description>
+            <link>http://awesome-bootstrap-checkbox.okendoken.com/demo/index.html</link>
+            <guid isPermaLink="false">awesome-bootstrap-checkbox0.3.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 18:22:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-strap updated to version 2.2.1]]></title>
+            <description><![CDATA[AngularStrap - Twitter Bootstrap directives for AngularJS.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.2.1/angular-strap.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.2.1/angular-strap.min.js</a>]]></description>
+            <link>http://mgcrea.github.com/angular-strap</link>
+            <guid isPermaLink="false">angular-strap2.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 18:22:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps updated to version 2.1.0-X.4]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.4/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.4/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.1.0-X.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 18:21:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cutjs updated to version 0.4.7]]></title>
+            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.7/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.7/cut.web.min.js</a>]]></description>
+            <link>http://cutjs.org/</link>
+            <guid isPermaLink="false">cutjs0.4.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 16:48:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[leaflet-providers updated to version 1.0.22]]></title>
             <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.22/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.22/leaflet-providers.js</a>]]></description>
@@ -75,14 +114,6 @@
             <guid isPermaLink="false">knockout-sortable0.10.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Mar 2015 02:09:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[awesome-bootstrap-checkbox updated to version 0.3.2]]></title>
-            <description><![CDATA[Font Awesome Bootstrap Checkboxes & Radios. Pure css way to make inputs look prettier.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.2/awesome-bootstrap-checkbox.min.css">//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.2/awesome-bootstrap-checkbox.min.css</a>]]></description>
-            <link>http://awesome-bootstrap-checkbox.okendoken.com/demo/index.html</link>
-            <guid isPermaLink="false">awesome-bootstrap-checkbox0.3.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Mar 2015 02:08:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-mixpanel updated to version 1.1.0]]></title>
@@ -443,14 +474,6 @@
             <pubDate>Tue, 03 Mar 2015 11:42:34 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[cutjs updated to version 0.4.5]]></title>
-            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.5/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.5/cut.web.min.js</a>]]></description>
-            <link>http://cutjs.org/</link>
-            <guid isPermaLink="false">cutjs0.4.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Mar 2015 11:42:01 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[riot updated to version 2.0.12]]></title>
             <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.12/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.12/riot.min.js</a>]]></description>
             <link>https://muut.com/riotjs/</link>
@@ -703,13 +726,6 @@
             <guid isPermaLink="false">drawer2.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 28 Feb 2015 08:18:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-google-maps updated to version 2.1.0-X.0]]></title>
-            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.0/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.0/angular-google-maps.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-google-maps2.1.0-X.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 28 Feb 2015 08:16:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rxjs updated to version 2.4.1]]></title>
