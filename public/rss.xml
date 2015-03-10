@@ -10,10 +10,135 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 10 Mar 2015 01:59:18 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Mar 2015 02:31:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[leaflet-providers updated to version 1.0.22]]></title>
+            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.22/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.22/leaflet-providers.js</a>]]></description>
+            <guid isPermaLink="false">leaflet-providers1.0.22</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:12:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fullcalendar updated to version 2.3.1]]></title>
+            <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.1/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.1/fullcalendar.min.js</a>]]></description>
+            <link>http://fullcalendar.io/</link>
+            <guid isPermaLink="false">fullcalendar2.3.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:12:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[handsontable updated to version 0.13.0]]></title>
+            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.13.0/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.13.0/handsontable.full.min.js</a>]]></description>
+            <link>http://handsontable.com/</link>
+            <guid isPermaLink="false">handsontable0.13.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:12:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lodash.js updated to version 3.5.0]]></title>
+            <description><![CDATA[A utility library delivering consistency, customization, performance, & extras.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js</a>]]></description>
+            <link>http://lodash.com/</link>
+            <guid isPermaLink="false">lodash.js3.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:11:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[draggabilly updated to version 1.2.0]]></title>
+            <description><![CDATA[Draggabilly is Javascript library to make elements draggable. When dragging, Draggabillly will add the class .is-dragging to the element. The minified source draggabilly.pkgd.min.js is on http://draggabilly.desandro.com/<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.2.0/draggabilly.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/draggabilly/1.2.0/draggabilly.pkgd.min.js</a>]]></description>
+            <link>http://draggabilly.desandro.com/</link>
+            <guid isPermaLink="false">draggabilly1.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:11:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-timepicker updated to version 1.6.3]]></title>
+            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.3/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.3/jquery.timepicker.min.css</a>]]></description>
+            <link>http://jonthornton.github.com/jquery-timepicker/</link>
+            <guid isPermaLink="false">jquery-timepicker1.6.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:09:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[malihu-custom-scrollbar-plugin updated to version 3.0.8]]></title>
+            <description><![CDATA[Highly customizable custom scrollbar jQuery plugin, featuring vertical/horizontal scrollbars, scrolling momentum, mouse-wheel, keyboard and touch support user defined callbacks etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.8/jquery.mCustomScrollbar.min.js">//cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.8/jquery.mCustomScrollbar.min.js</a>]]></description>
+            <link>http://manos.malihu.gr/jquery-custom-content-scroller</link>
+            <guid isPermaLink="false">malihu-custom-scrollbar-plugin3.0.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:09:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[knockout-sortable updated to version 0.10.0]]></title>
+            <description><![CDATA[Knockout-sortable is a binding for Knockout.js designed to connect observableArrays with JQueryUI's Sortable functionality.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/knockout-sortable/0.10.0/knockout-sortable.min.js">//cdnjs.cloudflare.com/ajax/libs/knockout-sortable/0.10.0/knockout-sortable.min.js</a>]]></description>
+            <guid isPermaLink="false">knockout-sortable0.10.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:09:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[awesome-bootstrap-checkbox updated to version 0.3.2]]></title>
+            <description><![CDATA[Font Awesome Bootstrap Checkboxes & Radios. Pure css way to make inputs look prettier.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.2/awesome-bootstrap-checkbox.min.css">//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.2/awesome-bootstrap-checkbox.min.css</a>]]></description>
+            <link>http://awesome-bootstrap-checkbox.okendoken.com/demo/index.html</link>
+            <guid isPermaLink="false">awesome-bootstrap-checkbox0.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:08:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-mixpanel updated to version 1.1.0]]></title>
+            <description><![CDATA[Wraps the mixpanel JavaScript global to make it injectable and aid in testing<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-mixpanel/1.1.0/angular-mixpanel.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-mixpanel/1.1.0/angular-mixpanel.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-mixpanel1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:08:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fullPage.js updated to version 2.6.0]]></title>
+            <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.0/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.0/jquery.fullPage.min.css</a>]]></description>
+            <link>http://alvarotrigo.com/fullPage/</link>
+            <guid isPermaLink="false">fullPage.js2.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:07:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chart.js updated to version 1.0.2]]></title>
+            <description><![CDATA[Simple HTML5 Charts using the canvas element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js">//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js</a>]]></description>
+            <link>http://www.chartjs.org</link>
+            <guid isPermaLink="false">Chart.js1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:05:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[lodash-compat updated to version 3.5.0]]></title>
+            <description><![CDATA[The compatibility build of lodash.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.5.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.5.0/lodash.min.js</a>]]></description>
+            <link>http://lodash.com/</link>
+            <guid isPermaLink="false">lodash-compat3.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:05:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-select updated to version 0.11.1]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.11.1/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.11.1/select.min.js</a>]]></description>
+            <link>http://github.com/angular-ui/ui-select</link>
+            <guid isPermaLink="false">angular-ui-select0.11.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:04:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[clappr updated to version 0.0.107]]></title>
+            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.107/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.107/clappr.min.js</a>]]></description>
+            <link>https://github.com/globocom/clappr</link>
+            <guid isPermaLink="false">clappr0.0.107</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 02:04:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 4.0.8]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.0.8/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.0.8/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly4.0.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 10 Mar 2015 01:21:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jsoneditor updated to version 4.0.0]]></title>
             <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.0.0/jsoneditor.min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.0.0/jsoneditor.min.js</a>]]></description>
@@ -87,22 +212,6 @@
             <pubDate>Sat, 07 Mar 2015 06:32:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[lodash-compat updated to version 3.4.0]]></title>
-            <description><![CDATA[The compatibility build of lodash.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.4.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.4.0/lodash.min.js</a>]]></description>
-            <link>http://lodash.com/</link>
-            <guid isPermaLink="false">lodash-compat3.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 07 Mar 2015 02:50:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[awesome-bootstrap-checkbox updated to version 0.3.0]]></title>
-            <description><![CDATA[Font Awesome Bootstrap Checkboxes & Radios. Pure css way to make inputs look prettier.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.0/awesome-bootstrap-checkbox.min.css">//cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.0/awesome-bootstrap-checkbox.min.css</a>]]></description>
-            <link>http://awesome-bootstrap-checkbox.okendoken.com/demo/index.html</link>
-            <guid isPermaLink="false">awesome-bootstrap-checkbox0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 07 Mar 2015 02:49:12 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[subkit updated to version 1.1.15]]></title>
             <description><![CDATA[Subkit library for the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.15/subkit.min.js">//cdnjs.cloudflare.com/ajax/libs/subkit/1.1.15/subkit.min.js</a>]]></description>
             <link>https://github.com/subkit/subkit.js</link>
@@ -151,27 +260,12 @@
             <pubDate>Fri, 06 Mar 2015 07:28:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[lodash.js updated to version 3.4.0]]></title>
-            <description><![CDATA[A utility library delivering consistency, customization, performance, & extras.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.4.0/lodash.min.js">//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.4.0/lodash.min.js</a>]]></description>
-            <link>http://lodash.com/</link>
-            <guid isPermaLink="false">lodash.js3.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 06 Mar 2015 07:28:40 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[markdown-it updated to version 3.1.0]]></title>
             <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.1.0/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.1.0/markdown-it.min.js</a>]]></description>
             <link>https://github.com/markdown-it/markdown-it</link>
             <guid isPermaLink="false">markdown-it3.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 06 Mar 2015 07:28:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[leaflet-providers updated to version 1.0.21]]></title>
-            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.21/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.21/leaflet-providers.js</a>]]></description>
-            <guid isPermaLink="false">leaflet-providers1.0.21</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 06 Mar 2015 07:27:55 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.11.1]]></title>
@@ -261,22 +355,6 @@
             <pubDate>Thu, 05 Mar 2015 05:28:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 4.0.6]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.0.6/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.0.6/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly4.0.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 05 Mar 2015 05:15:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-timepicker updated to version 1.6.2]]></title>
-            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.2/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.2/jquery.timepicker.min.css</a>]]></description>
-            <link>http://jonthornton.github.com/jquery-timepicker/</link>
-            <guid isPermaLink="false">jquery-timepicker1.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 04 Mar 2015 08:45:25 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-material updated to version 0.8.3]]></title>
             <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-material/0.8.3/angular-material.min.css">//cdnjs.cloudflare.com/ajax/libs/angular-material/0.8.3/angular-material.min.css</a>]]></description>
             <link>https://material.angularjs.org/</link>
@@ -331,14 +409,6 @@
             <guid isPermaLink="false">yasgui1.0.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 04 Mar 2015 08:18:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[clappr updated to version 0.0.105]]></title>
-            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.105/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.105/clappr.min.js</a>]]></description>
-            <link>https://github.com/globocom/clappr</link>
-            <guid isPermaLink="false">clappr0.0.105</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 03 Mar 2015 15:57:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[buzz updated to version 1.1.9]]></title>
@@ -666,14 +736,6 @@
             <pubDate>Sat, 28 Feb 2015 08:14:07 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[fullPage.js updated to version 2.5.9]]></title>
-            <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.9/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.5.9/jquery.fullPage.min.css</a>]]></description>
-            <link>http://alvarotrigo.com/fullPage/</link>
-            <guid isPermaLink="false">fullPage.js2.5.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Feb 2015 17:25:40 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ajile(2.1.7) was added]]></title>
             <description><![CDATA[ajile enables namespacing, dependency-management, and on-demand loading of cross-domain, local, and inline JavaScript within browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ajile/2.1.7/com.iskitz.ajile.js">//cdnjs.cloudflare.com/ajax/libs/ajile/2.1.7/com.iskitz.ajile.js</a>]]></description>
             <link>http://ajile.net/</link>
@@ -733,14 +795,6 @@
             <guid isPermaLink="false">jquery_lazyload1.9.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 26 Feb 2015 10:40:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-select updated to version 0.10.0]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.10.0/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.10.0/select.min.js</a>]]></description>
-            <link>http://github.com/angular-ui/ui-select</link>
-            <guid isPermaLink="false">angular-ui-select0.10.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 10:40:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[tablesort updated to version 3.0.2]]></title>
