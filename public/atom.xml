@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Mar 2015 14:31:38 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Mar 2015 17:54:35 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -937,45 +937,6 @@
             <guid isPermaLink="false">componentjs1.2.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 26 Feb 2015 00:04:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[paymentfont(1.0.1) was added]]></title>
-            <description><![CDATA[PaymentFont<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/paymentfont/1.0.1/css/paymentfont.min.css">//cdnjs.cloudflare.com/ajax/libs/paymentfont/1.0.1/css/paymentfont.min.css</a>]]></description>
-            <link>http://paymentfont.io/</link>
-            <guid isPermaLink="false">paymentfont1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Feb 2015 16:15:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webshim updated to version 1.15.7]]></title>
-            <description><![CDATA[modular capability-based polyfill loading libary, which extends jQuery with HTML5 features in legacy browsers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.7/minified/polyfiller.js">//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.7/minified/polyfiller.js</a>]]></description>
-            <link>http://afarkas.github.com/webshim/demos/index.html</link>
-            <guid isPermaLink="false">webshim1.15.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Feb 2015 15:59:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cldrjs updated to version 0.4.1]]></title>
-            <description><![CDATA[Simple CLDR API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.1/cldr.min.js">//cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.1/cldr.min.js</a>]]></description>
-            <guid isPermaLink="false">cldrjs0.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Feb 2015 15:59:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-contextify updated to version 1.0.5]]></title>
-            <description><![CDATA[A lightweight jQuery plugin for creating Bootstrap powered context menus.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-contextify/1.0.5/jquery.contextify.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-contextify/1.0.5/jquery.contextify.min.js</a>]]></description>
-            <link>http://contextify.donlabs.com</link>
-            <guid isPermaLink="false">jquery-contextify1.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Feb 2015 15:58:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-loading-bar updated to version 0.7.1]]></title>
-            <description><![CDATA[An automatic loading bar for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.7.1/loading-bar.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.7.1/loading-bar.min.js</a>]]></description>
-            <link>https://chieffancypants.github.io/angular-loading-bar</link>
-            <guid isPermaLink="false">angular-loading-bar0.7.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Feb 2015 15:42:57 GMT</pubDate>
         </item>
     </channel>
 </rss>
