@@ -10,10 +10,144 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 11 Mar 2015 08:31:35 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Mar 2015 11:58:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[react updated to version 0.13.0]]></title>
+            <description><![CDATA[React is a JavaScript library for building user interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js">//cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js</a>]]></description>
+            <link>http://facebook.github.io/react</link>
+            <guid isPermaLink="false">react0.13.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 09:01:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highstock updated to version 2.1.4]]></title>
+            <description><![CDATA[Highstock lets you create stock or general timeline charts in pure JavaScript, including sophisticated navigation options like a small navigator series, preset date ranges, date picker, scrolling and panning. Highstock is NOT free for commercial use.  See the license here: http://shop.highsoft.com/highstock.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highstock/2.1.4/highstock.js">//cdnjs.cloudflare.com/ajax/libs/highstock/2.1.4/highstock.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highstock2.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:50:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highcharts updated to version 4.1.4]]></title>
+            <description><![CDATA[Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie and scatter chart types. Highcharts is NOT free for commercial use.  See the license here: http://highcharts.com/license<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.1.4/highcharts.js">//cdnjs.cloudflare.com/ajax/libs/highcharts/4.1.4/highcharts.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highcharts4.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:48:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[highmaps updated to version 1.1.4]]></title>
+            <description><![CDATA[Highmaps is Highcharts for geo maps. Mainly choropleth maps where the color intensity relates to some value of a geographic area, but Highmaps also supports different features like lines (roads, rivers etc.) and points (cities, points of interest) and more. Highmaps comes in two flavors, either as a standalone JavaScript file, or as a plugin for Highcharts. Highmaps is NOT free for commercial use.  See the license and pricing here: http://shop.highsoft.com/highmaps.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.4/highmaps.js">//cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.4/highmaps.js</a>]]></description>
+            <link>http://highcharts.com/</link>
+            <guid isPermaLink="false">highmaps1.1.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:43:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.11.2]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.2/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.2/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.11.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:40:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps updated to version 2.1.0-X.5]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.5/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.5/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.1.0-X.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:38:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[postal.js updated to version 1.0.1]]></title>
+            <description><![CDATA[Pub/Sub library providing wildcard subscriptions, complex message handling, etc.  Works server and client-side.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/postal.js/1.0.1/postal.min.js">//cdnjs.cloudflare.com/ajax/libs/postal.js/1.0.1/postal.min.js</a>]]></description>
+            <link>http://github.com/postaljs/postal.js</link>
+            <guid isPermaLink="false">postal.js1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:37:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[orb updated to version 1.0.8]]></title>
+            <description><![CDATA[Pivot grid javascript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/orb/1.0.8/orb.min.js">//cdnjs.cloudflare.com/ajax/libs/orb/1.0.8/orb.min.js</a>]]></description>
+            <link>http://nnajm.github.io/orb/</link>
+            <guid isPermaLink="false">orb1.0.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:36:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[machina.js updated to version 1.0.0-2]]></title>
+            <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/machina.js/1.0.0-2/machina.min.js">//cdnjs.cloudflare.com/ajax/libs/machina.js/1.0.0-2/machina.min.js</a>]]></description>
+            <link>http://machina-js.org/</link>
+            <guid isPermaLink="false">machina.js1.0.0-2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:36:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.6.4]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.4/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.4/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.6.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:35:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react-slick updated to version 0.3.7]]></title>
+            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.7/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.7/react-slick.min.js</a>]]></description>
+            <link>https://github.com/akiran/react-slick</link>
+            <guid isPermaLink="false">react-slick0.3.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:34:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cytoscape updated to version 2.3.10]]></title>
+            <description><![CDATA[A JavaScript graph library for analysis and visualisation<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.10/cytoscape.min.js">//cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.10/cytoscape.min.js</a>]]></description>
+            <link>http://cytoscape.github.io/cytoscape.js</link>
+            <guid isPermaLink="false">cytoscape2.3.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:34:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.tablesorter updated to version 2.21.1]]></title>
+            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.1/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.1/js/jquery.tablesorter.min.js</a>]]></description>
+            <link>http://mottie.github.com/tablesorter/</link>
+            <guid isPermaLink="false">jquery.tablesorter2.21.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:33:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ramda updated to version 0.11.0]]></title>
+            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.11.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.11.0/ramda.min.js</a>]]></description>
+            <link>https://www.github.com/ramda/ramda</link>
+            <guid isPermaLink="false">ramda0.11.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:30:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rome updated to version 2.1.13]]></title>
+            <description><![CDATA[Customizable date (and time) picker. Opt-in UI, no jQuery!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rome/2.1.13/rome.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/rome/2.1.13/rome.standalone.min.js</a>]]></description>
+            <link>https://github.com/bevacqua/rome</link>
+            <guid isPermaLink="false">rome2.1.13</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:29:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[flocks.js updated to version 0.17.2]]></title>
+            <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.17.2/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.17.2/flocks.js</a>]]></description>
+            <link>http://flocks.rocks/</link>
+            <guid isPermaLink="false">flocks.js0.17.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:29:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mocha updated to version 2.2.1]]></title>
+            <description><![CDATA[simple, flexible, fun test framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mocha/2.2.1/mocha.min.js">//cdnjs.cloudflare.com/ajax/libs/mocha/2.2.1/mocha.min.js</a>]]></description>
+            <guid isPermaLink="false">mocha2.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 11 Mar 2015 08:28:23 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[social-likes updated to version 3.0.14]]></title>
             <description><![CDATA[Beautiful like buttons with counters for popular social networks.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.14/social-likes.min.js">//cdnjs.cloudflare.com/ajax/libs/social-likes/3.0.14/social-likes.min.js</a>]]></description>
@@ -37,13 +171,6 @@
             <guid isPermaLink="false">angular-strap2.2.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 10 Mar 2015 18:22:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-google-maps updated to version 2.1.0-X.4]]></title>
-            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.4/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.4/angular-google-maps.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-google-maps2.1.0-X.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 10 Mar 2015 18:21:37 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[cutjs updated to version 0.4.7]]></title>
@@ -187,14 +314,6 @@
             <pubDate>Sun, 08 Mar 2015 06:11:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[flocks.js updated to version 0.17.0]]></title>
-            <description><![CDATA[Simpler state management for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.17.0/flocks.js">//cdnjs.cloudflare.com/ajax/libs/flocks.js/0.17.0/flocks.js</a>]]></description>
-            <link>http://flocks.rocks/</link>
-            <guid isPermaLink="false">flocks.js0.17.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 08 Mar 2015 06:10:55 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bootstrap-datetimepicker updated to version 4.7.14]]></title>
             <description><![CDATA[Date/time picker widget for Twitter<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js</a>]]></description>
             <link>http://eonasdan.github.io/bootstrap-datetimepicker/</link>
@@ -267,14 +386,6 @@
             <pubDate>Fri, 06 Mar 2015 12:45:49 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.tablesorter updated to version 2.21.0]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.0/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.0/js/jquery.tablesorter.min.js</a>]]></description>
-            <link>http://mottie.github.com/tablesorter/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.21.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 06 Mar 2015 07:34:50 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery.nanoscroller updated to version 0.8.5]]></title>
             <description><![CDATA[A jQuery plugin that offers a simplistic way of implementing Lion OS scrollbars<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.5/css/nanoscroller.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery.nanoscroller/0.8.5/css/nanoscroller.min.css</a>]]></description>
             <link>http://jamesflorentino.github.com/nanoScrollerJS/</link>
@@ -297,14 +408,6 @@
             <guid isPermaLink="false">markdown-it3.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 06 Mar 2015 07:28:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[semantic-ui updated to version 1.11.1]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.1/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.1/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.11.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 06 Mar 2015 06:53:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[es6-shim updated to version 0.27.1]]></title>
@@ -400,14 +503,6 @@
             <guid isPermaLink="false">fuelux3.6.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 04 Mar 2015 08:43:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rome updated to version 2.1.12]]></title>
-            <description><![CDATA[Customizable date (and time) picker. Opt-in UI, no jQuery!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rome/2.1.12/rome.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/rome/2.1.12/rome.standalone.min.js</a>]]></description>
-            <link>https://github.com/bevacqua/rome</link>
-            <guid isPermaLink="false">rome2.1.12</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 04 Mar 2015 08:38:49 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[socket.io updated to version 1.3.5]]></title>
@@ -665,30 +760,6 @@
             <pubDate>Sat, 28 Feb 2015 08:29:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[highstock updated to version 2.1.2]]></title>
-            <description><![CDATA[Highstock lets you create stock or general timeline charts in pure JavaScript, including sophisticated navigation options like a small navigator series, preset date ranges, date picker, scrolling and panning. Highstock is NOT free for commercial use.  See the license here: http://shop.highsoft.com/highstock.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highstock/2.1.2/highstock.js">//cdnjs.cloudflare.com/ajax/libs/highstock/2.1.2/highstock.js</a>]]></description>
-            <link>http://highcharts.com/</link>
-            <guid isPermaLink="false">highstock2.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 28 Feb 2015 08:26:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highmaps updated to version 1.1.2]]></title>
-            <description><![CDATA[Highmaps is Highcharts for geo maps. Mainly choropleth maps where the color intensity relates to some value of a geographic area, but Highmaps also supports different features like lines (roads, rivers etc.) and points (cities, points of interest) and more. Highmaps comes in two flavors, either as a standalone JavaScript file, or as a plugin for Highcharts. Highmaps is NOT free for commercial use.  See the license and pricing here: http://shop.highsoft.com/highmaps.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.2/highmaps.js">//cdnjs.cloudflare.com/ajax/libs/highmaps/1.1.2/highmaps.js</a>]]></description>
-            <link>http://highcharts.com/</link>
-            <guid isPermaLink="false">highmaps1.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 28 Feb 2015 08:25:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[highcharts updated to version 4.1.3]]></title>
-            <description><![CDATA[Highcharts is a charting library written in pure JavaScript, offering an easy way of adding interactive charts to your web site or web application. Highcharts currently supports line, spline, area, areaspline, column, bar, pie and scatter chart types. Highcharts is NOT free for commercial use.  See the license here: http://highcharts.com/license<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/highcharts/4.1.3/highcharts.js">//cdnjs.cloudflare.com/ajax/libs/highcharts/4.1.3/highcharts.js</a>]]></description>
-            <link>http://highcharts.com/</link>
-            <guid isPermaLink="false">highcharts4.1.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 28 Feb 2015 08:24:52 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[preconditions updated to version 5.2.4]]></title>
             <description><![CDATA[A preconditions package based on Google's preconditions library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/preconditions/5.2.4/preconditions.min.js">//cdnjs.cloudflare.com/ajax/libs/preconditions/5.2.4/preconditions.min.js</a>]]></description>
             <link>https://github.com/anshulverma/conditional</link>
@@ -760,14 +831,6 @@
             <pubDate>Fri, 27 Feb 2015 15:22:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ramda updated to version 0.10.0]]></title>
-            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.10.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.10.0/ramda.min.js</a>]]></description>
-            <link>https://www.github.com/ramda/ramda</link>
-            <guid isPermaLink="false">ramda0.10.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Feb 2015 05:56:29 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[metrics-graphics updated to version 2.2.1]]></title>
             <description><![CDATA[A library optimized for concise, principled data graphics and layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.2.1/metricsgraphics.min.js">//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.2.1/metricsgraphics.min.js</a>]]></description>
             <link>http://metricsgraphicsjs.org</link>
@@ -834,14 +897,6 @@
             <guid isPermaLink="false">mathjax2.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 26 Feb 2015 04:27:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react-slick updated to version 0.3.6]]></title>
-            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.6/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.3.6/react-slick.min.js</a>]]></description>
-            <link>https://github.com/akiran/react-slick</link>
-            <guid isPermaLink="false">react-slick0.3.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 04:12:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pixi.js updated to version 2.2.7]]></title>
