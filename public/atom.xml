@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 12 Mar 2015 00:00:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Mar 2015 00:31:41 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -929,14 +929,6 @@
             <guid isPermaLink="false">flickity1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 26 Feb 2015 04:10:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[componentjs(1.2.4) was added]]></title>
-            <description><![CDATA[Powerful run-time Component System for structuring HTML5-based Rich Clients<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/componentjs/1.2.4/component.min.js">//cdnjs.cloudflare.com/ajax/libs/componentjs/1.2.4/component.min.js</a>]]></description>
-            <link>http://componentjs.com/</link>
-            <guid isPermaLink="false">componentjs1.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 00:04:37 GMT</pubDate>
         </item>
     </channel>
 </rss>
