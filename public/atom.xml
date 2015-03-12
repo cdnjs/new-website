@@ -10,10 +10,41 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 12 Mar 2015 19:56:43 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Mar 2015 22:06:42 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[markdown-it updated to version 4.0.0]]></title>
+            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/4.0.0/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/4.0.0/markdown-it.min.js</a>]]></description>
+            <link>https://github.com/markdown-it/markdown-it</link>
+            <guid isPermaLink="false">markdown-it4.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 12 Mar 2015 18:55:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[buckets updated to version 1.85.3]]></title>
+            <description><![CDATA[Buckets is a complete, fully tested and documented data structure library written in pure JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/buckets/1.85.3/buckets-minified.js">//cdnjs.cloudflare.com/ajax/libs/buckets/1.85.3/buckets-minified.js</a>]]></description>
+            <guid isPermaLink="false">buckets1.85.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 12 Mar 2015 18:54:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Han updated to version 3.1.0]]></title>
+            <description><![CDATA[The CSS typography framework optimised for Hanzi<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Han/3.1.0/han.min.css">//cdnjs.cloudflare.com/ajax/libs/Han/3.1.0/han.min.css</a>]]></description>
+            <link>http://css.hanzi.co/</link>
+            <guid isPermaLink="false">Han3.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 12 Mar 2015 18:44:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-smart-table(2.0.1) was added]]></title>
+            <description><![CDATA[Smart table is a table module for angular js. It allows you to quickly compose your table in a declarative way including sorting, filtering, row selection pagination.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-smart-table/2.0.1/smart-table.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-smart-table/2.0.1/smart-table.min.js</a>]]></description>
+            <link>http://lorenzofox3.github.io/smart-table-website/</link>
+            <guid isPermaLink="false">angular-smart-table2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 12 Mar 2015 17:26:57 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[savvior(0.4.2) was added]]></title>
             <description><![CDATA[A Javascript multicolumn layout tool alternative to Masonry or Salvattore.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/savvior/0.4.2/savvior.min.js">//cdnjs.cloudflare.com/ajax/libs/savvior/0.4.2/savvior.min.js</a>]]></description>
@@ -21,14 +52,6 @@
             <guid isPermaLink="false">savvior0.4.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 12 Mar 2015 11:44:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Han updated to version 3.0.2]]></title>
-            <description><![CDATA[The CSS typography framework optimised for Hanzi<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Han/3.0.2/han.min.css">//cdnjs.cloudflare.com/ajax/libs/Han/3.0.2/han.min.css</a>]]></description>
-            <link>http://css.hanzi.co/</link>
-            <guid isPermaLink="false">Han3.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Mar 2015 09:03:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jsSHA updated to version 1.6.0]]></title>
@@ -101,13 +124,6 @@
             <guid isPermaLink="false">uikit2.18.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 12 Mar 2015 08:03:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[buckets updated to version 1.85.2]]></title>
-            <description><![CDATA[Buckets is a complete, fully tested and documented data structure library written in pure JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/buckets/1.85.2/buckets-minified.js">//cdnjs.cloudflare.com/ajax/libs/buckets/1.85.2/buckets-minified.js</a>]]></description>
-            <guid isPermaLink="false">buckets1.85.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 12 Mar 2015 08:03:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[string_score updated to version 0.1.22]]></title>
@@ -589,14 +605,6 @@
             <guid isPermaLink="false">ember-dialog1.2.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 06 Mar 2015 07:28:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[markdown-it updated to version 3.1.0]]></title>
-            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.1.0/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/3.1.0/markdown-it.min.js</a>]]></description>
-            <link>https://github.com/markdown-it/markdown-it</link>
-            <guid isPermaLink="false">markdown-it3.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 06 Mar 2015 07:28:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[es6-shim updated to version 0.27.1]]></title>
