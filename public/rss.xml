@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 12 Mar 2015 04:12:14 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Mar 2015 05:59:20 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -874,61 +874,6 @@
             <guid isPermaLink="false">jquery_lazyload1.9.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 26 Feb 2015 10:40:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tablesort updated to version 3.0.2]]></title>
-            <description><![CDATA[A dependency free sorting component for tables.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.2/tablesort.min.js">//cdnjs.cloudflare.com/ajax/libs/tablesort/3.0.2/tablesort.min.js</a>]]></description>
-            <link>http://tristen.ca/tablesort/demo/</link>
-            <guid isPermaLink="false">tablesort3.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 04:28:34 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[materialize updated to version 0.95.3]]></title>
-            <description><![CDATA[Builds Materialize distribution packages<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css">//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css</a>]]></description>
-            <guid isPermaLink="false">materialize0.95.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 04:27:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mathjax updated to version 2.5.1]]></title>
-            <description><![CDATA[MathJax is an open source JavaScript display engine for mathematics that works in all browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.1/MathJax.js">//cdnjs.cloudflare.com/ajax/libs/mathjax/2.5.1/MathJax.js</a>]]></description>
-            <link>http://www.mathjax.org/</link>
-            <guid isPermaLink="false">mathjax2.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 04:27:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pixi.js updated to version 2.2.7]]></title>
-            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.7/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.7/pixi.js</a>]]></description>
-            <link>http://goodboydigital.com/</link>
-            <guid isPermaLink="false">pixi.js2.2.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 04:11:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment-range updated to version 1.0.7]]></title>
-            <description><![CDATA[Fancy date ranges for Moment.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.7/moment-range.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.7/moment-range.min.js</a>]]></description>
-            <link>https://github.com/gf3/moment-range</link>
-            <guid isPermaLink="false">moment-range1.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 04:11:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsforce updated to version 1.4.1]]></title>
-            <description><![CDATA[Salesforce API Library for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.1/jsforce.min.js">//cdnjs.cloudflare.com/ajax/libs/jsforce/1.4.1/jsforce.min.js</a>]]></description>
-            <link>http://jsforce.github.io</link>
-            <guid isPermaLink="false">jsforce1.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 04:11:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[flickity updated to version 1.0.0]]></title>
-            <description><![CDATA[Touch, responsive, flickable galleries<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js</a>]]></description>
-            <link>http://flickity.metafizzy.co/</link>
-            <guid isPermaLink="false">flickity1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Feb 2015 04:10:45 GMT</pubDate>
         </item>
     </channel>
 </rss>
