@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Mar 2015 04:31:34 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Mar 2015 06:31:38 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -939,29 +939,6 @@
             <guid isPermaLink="false">ajile2.1.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 27 Feb 2015 15:22:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[metrics-graphics updated to version 2.2.1]]></title>
-            <description><![CDATA[A library optimized for concise, principled data graphics and layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.2.1/metricsgraphics.min.js">//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.2.1/metricsgraphics.min.js</a>]]></description>
-            <link>http://metricsgraphicsjs.org</link>
-            <guid isPermaLink="false">metrics-graphics2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Feb 2015 04:40:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ember-charts updated to version 0.4.0]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-charts/0.4.0/ember-charts.min.css">//cdnjs.cloudflare.com/ajax/libs/ember-charts/0.4.0/ember-charts.min.css</a>]]></description>
-            <guid isPermaLink="false">ember-charts0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Feb 2015 04:40:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[timelinejs updated to version 2.35.5]]></title>
-            <description><![CDATA[TimelineJS is an open-source tool that enables you to build visually-rich interactive timelines and is available in 40 languages.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.5/js/timeline-min.js">//cdnjs.cloudflare.com/ajax/libs/timelinejs/2.35.5/js/timeline-min.js</a>]]></description>
-            <link>http://timeline.knightlab.com/</link>
-            <guid isPermaLink="false">timelinejs2.35.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Feb 2015 04:39:43 GMT</pubDate>
         </item>
     </channel>
 </rss>
