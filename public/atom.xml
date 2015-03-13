@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 13 Mar 2015 16:14:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Mar 2015 17:14:14 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[twemoji updated to version 1.3.2]]></title>
+            <description><![CDATA[A Unicode standard based way to implement emoji across all platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twemoji/1.3.2/twemoji.min.js">//cdnjs.cloudflare.com/ajax/libs/twemoji/1.3.2/twemoji.min.js</a>]]></description>
+            <link>https://github.com/twitter/twemoji</link>
+            <guid isPermaLink="false">twemoji1.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 13 Mar 2015 16:03:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rome updated to version 2.1.14]]></title>
+            <description><![CDATA[Customizable date (and time) picker. Opt-in UI, no jQuery!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rome/2.1.14/rome.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/rome/2.1.14/rome.standalone.min.js</a>]]></description>
+            <link>https://github.com/bevacqua/rome</link>
+            <guid isPermaLink="false">rome2.1.14</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 13 Mar 2015 15:03:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-route-segment updated to version 1.4.0]]></title>
+            <description><![CDATA[A lightweight extension for AngularJS $route service which supports tree-like nested views and routes hierarchy, and advanced loading flow handling.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-route-segment/1.4.0/angular-route-segment.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-route-segment/1.4.0/angular-route-segment.min.js</a>]]></description>
+            <link>http://angular-route-segment.com/</link>
+            <guid isPermaLink="false">angular-route-segment1.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 13 Mar 2015 14:48:34 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[markdown-it updated to version 4.0.1]]></title>
             <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/4.0.1/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/4.0.1/markdown-it.min.js</a>]]></description>
@@ -53,14 +77,6 @@
             <guid isPermaLink="false">textAngular1.3.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Mar 2015 09:24:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[twemoji updated to version 1.3.1]]></title>
-            <description><![CDATA[A Unicode standard based way to implement emoji across all platforms.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twemoji/1.3.1/twemoji.min.js">//cdnjs.cloudflare.com/ajax/libs/twemoji/1.3.1/twemoji.min.js</a>]]></description>
-            <link>https://github.com/twitter/twemoji</link>
-            <guid isPermaLink="false">twemoji1.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Mar 2015 09:24:12 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[neo-async updated to version 0.6.3]]></title>
@@ -424,14 +440,6 @@
             <guid isPermaLink="false">ramda0.11.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 11 Mar 2015 08:30:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rome updated to version 2.1.13]]></title>
-            <description><![CDATA[Customizable date (and time) picker. Opt-in UI, no jQuery!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rome/2.1.13/rome.standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/rome/2.1.13/rome.standalone.min.js</a>]]></description>
-            <link>https://github.com/bevacqua/rome</link>
-            <guid isPermaLink="false">rome2.1.13</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 11 Mar 2015 08:29:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[flocks.js updated to version 0.17.2]]></title>
