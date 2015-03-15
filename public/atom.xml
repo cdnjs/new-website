@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 15 Mar 2015 06:02:46 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Mar 2015 08:06:02 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
@@ -922,54 +922,6 @@
             <guid isPermaLink="false">bower-angular-translate2.6.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 01 Mar 2015 17:09:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[paper.js updated to version 0.9.22]]></title>
-            <description><![CDATA[The Swiss Army Knife of Vector Graphics Scripting<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.22/paper-full.min.js">//cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.22/paper-full.min.js</a>]]></description>
-            <link>http://paperjs.org/</link>
-            <guid isPermaLink="false">paper.js0.9.22</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 01 Mar 2015 05:54:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jcarousel updated to version 0.3.3]]></title>
-            <description><![CDATA[jCarousel is a jQuery plugin for controlling a list of items in horizontal or vertical order. It provides a full-featured and flexible toolset for navigating any HTML based content in a carousel-like fashion.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.3/jquery.jcarousel.min.js">//cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.3/jquery.jcarousel.min.js</a>]]></description>
-            <link>http://sorgalla.com/jcarousel/</link>
-            <guid isPermaLink="false">jcarousel0.3.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 01 Mar 2015 05:53:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[xls updated to version 0.7.5]]></title>
-            <description><![CDATA[Javascript XLS (Excel 97-2004) parser<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/xls/0.7.5/xls.js">//cdnjs.cloudflare.com/ajax/libs/xls/0.7.5/xls.js</a>]]></description>
-            <link>https://github.com/SheetJS/js-xls</link>
-            <guid isPermaLink="false">xls0.7.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 01 Mar 2015 05:53:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mathjs updated to version 1.4.0]]></title>
-            <description><![CDATA[Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mathjs/1.4.0/math.min.js">//cdnjs.cloudflare.com/ajax/libs/mathjs/1.4.0/math.min.js</a>]]></description>
-            <link>http://mathjs.org</link>
-            <guid isPermaLink="false">mathjs1.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 01 Mar 2015 05:52:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jshint updated to version 2.6.3]]></title>
-            <description><![CDATA[Static analysis tool for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jshint/2.6.3/jshint.js">//cdnjs.cloudflare.com/ajax/libs/jshint/2.6.3/jshint.js</a>]]></description>
-            <link>http://jshint.com/</link>
-            <guid isPermaLink="false">jshint2.6.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 01 Mar 2015 05:52:01 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[yasqe updated to version 2.3.9]]></title>
-            <description><![CDATA[Yet Another SPARQL Query Editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.9/yasqe.bundled.min.js">//cdnjs.cloudflare.com/ajax/libs/yasqe/2.3.9/yasqe.bundled.min.js</a>]]></description>
-            <link>http://yasqe.yasgui.org</link>
-            <guid isPermaLink="false">yasqe2.3.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 01 Mar 2015 05:50:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ajile(2.1.7) was added]]></title>
