@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 15 Mar 2015 10:03:26 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Mar 2015 18:24:45 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[document-register-element updated to version 0.1.8]]></title>
+            <description><![CDATA[A stand-alone working lightweight version of the W3C Custom Elements specification<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.8/document-register-element.js">//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.8/document-register-element.js</a>]]></description>
+            <link>https://github.com/WebReflection/document-register-element</link>
+            <guid isPermaLink="false">document-register-element0.1.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Mar 2015 16:53:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[qoopido.js updated to version 3.6.0]]></title>
+            <description><![CDATA[Modular library of dry, extendable and AMD compatible JavaScript modules<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/qoopido.js/3.6.0/base.js">//cdnjs.cloudflare.com/ajax/libs/qoopido.js/3.6.0/base.js</a>]]></description>
+            <link>https://github.com/dlueth/qoopido.js</link>
+            <guid isPermaLink="false">qoopido.js3.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 15 Mar 2015 13:51:19 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[zxcvbn(1.0) was added]]></title>
             <description><![CDATA[Realistic password strength estimation, based on common words, patterns, and keyboard adjacency.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/zxcvbn/1.0/zxcvbn-async.js">//cdnjs.cloudflare.com/ajax/libs/zxcvbn/1.0/zxcvbn-async.js</a>]]></description>
@@ -2003,14 +2019,6 @@
             <description><![CDATA[qooxdoo is a cross-browser DOM manipulation library to enhance websites with a rich user experience.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/qooxdoo/4.1/q.min.js">//cdnjs.cloudflare.com/ajax/libs/qooxdoo/4.1/q.min.js</a>]]></description>
             <link>http://qooxdoo.org</link>
             <guid isPermaLink="false">qooxdoo4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[qoopido.js(3.5.3) was added]]></title>
-            <description><![CDATA[Modular library of dry, extendable and AMD compatible JavaScript modules<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/qoopido.js/3.5.3/base.js">//cdnjs.cloudflare.com/ajax/libs/qoopido.js/3.5.3/base.js</a>]]></description>
-            <link>https://github.com/dlueth/qoopido.js</link>
-            <guid isPermaLink="false">qoopido.js3.5.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -6689,14 +6697,6 @@
             <description><![CDATA[Pretty documentation generator for Github projects with proper Readme.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/documentup/0.1.1/documentup.min.js">//cdnjs.cloudflare.com/ajax/libs/documentup/0.1.1/documentup.min.js</a>]]></description>
             <link>http://documentup.com</link>
             <guid isPermaLink="false">documentup0.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[document-register-element(0.1.7) was added]]></title>
-            <description><![CDATA[A stand-alone working lightweight version of the W3C Custom Elements specification<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.7/document-register-element.js">//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.7/document-register-element.js</a>]]></description>
-            <link>https://github.com/WebReflection/document-register-element</link>
-            <guid isPermaLink="false">document-register-element0.1.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
