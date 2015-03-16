@@ -86,7 +86,7 @@ app.use(express.static(__dirname + '/public', {maxAge: 7200 * 1000}));
 app.use(bodyParser());
 app.use(cookieParser());
 // Load libraries into ram
-var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.json', 'utf8')).packages;
+var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
 
 // Map libraries array into object for easy access
 var LIBRARIES_MAP = {};

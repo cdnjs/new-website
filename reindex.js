@@ -10,7 +10,7 @@ var async = require("async");
  * It makes an intensive use of the `async` library to ease the asynchronous processing.
  *
  * Here is how it works:
- *  - fetch the libraries from public/packages.json
+ *  - fetch the libraries from public/packages.min.json
  *  - retrieve various infos from GitHub (number of stars, etc..)
  *    - authenticate with a public token
  *    - for each library
@@ -25,12 +25,12 @@ var async = require("async");
 */
 
 //////
-////// Fetch all libraries from the generated public/packages.json file
+////// Fetch all libraries from the generated public/packages.min.json file
 //////
 var LIBRARIES = [];
 function load(next) {
   console.log('* Loading libraries');
-  LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.json', 'utf8')).packages, function(library) {
+  LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages, function(library) {
     library.originalName = library.name;
     library.name = library.name.toLowerCase();
     library.objectID = library.name.replace(/\./g, '');
