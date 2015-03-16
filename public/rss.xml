@@ -10,10 +10,74 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 15 Mar 2015 18:24:45 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Mar 2015 07:29:08 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2013 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[textAngular updated to version 1.3.11]]></title>
+            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.11/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.11/dist/textAngular.min.js</a>]]></description>
+            <link>http://textAngular.com</link>
+            <guid isPermaLink="false">textAngular1.3.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2015 06:18:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[three.js updated to version r71]]></title>
+            <description><![CDATA[three.js is a lightweight 3D library with a very low level of complexity. The library provides <canvas>, <svg> and WebGL renderers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js">//cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js</a>]]></description>
+            <link>http://threejs.org/</link>
+            <guid isPermaLink="false">three.jsr71</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2015 06:17:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ajile updated to version 2.1.7]]></title>
+            <description><![CDATA[ajile enables namespacing, dependency-management, and on-demand loading of cross-domain, local, and inline JavaScript within browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ajile/2.1.7/com.iskitz.ajile.js">//cdnjs.cloudflare.com/ajax/libs/ajile/2.1.7/com.iskitz.ajile.js</a>]]></description>
+            <link>http://ajile.net/</link>
+            <guid isPermaLink="false">ajile2.1.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2015 06:16:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsoneditor updated to version 4.1.1]]></title>
+            <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.1.1/jsoneditor.min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.1.1/jsoneditor.min.js</a>]]></description>
+            <link>http://jsoneditoronline.org</link>
+            <guid isPermaLink="false">jsoneditor4.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2015 05:52:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[minicart updated to version 3.0.6]]></title>
+            <description><![CDATA[The Mini Cart is a great way to improve your PayPal shopping cart integration.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.6/minicart.min.js">//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.6/minicart.min.js</a>]]></description>
+            <link>http://www.minicartjs.com</link>
+            <guid isPermaLink="false">minicart3.0.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2015 05:51:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[speakingurl updated to version 1.1.0]]></title>
+            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/1.1.0/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/1.1.0/speakingurl.min.js</a>]]></description>
+            <link>http://pid.github.io/speakingurl/</link>
+            <guid isPermaLink="false">speakingurl1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2015 05:51:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[showdown updated to version 0.4.0]]></title>
+            <description><![CDATA[A JavaScript port of Markdown<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/showdown/0.4.0/Showdown.min.js">//cdnjs.cloudflare.com/ajax/libs/showdown/0.4.0/Showdown.min.js</a>]]></description>
+            <link>https://github.com/showdownjs/showdown</link>
+            <guid isPermaLink="false">showdown0.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2015 05:34:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.4.3]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.3/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.3/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.4.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 16 Mar 2015 05:33:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[document-register-element updated to version 0.1.8]]></title>
             <description><![CDATA[A stand-alone working lightweight version of the W3C Custom Elements specification<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.8/document-register-element.js">//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.8/document-register-element.js</a>]]></description>
@@ -735,14 +799,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[three.js(r70) was added]]></title>
-            <description><![CDATA[three.js is a lightweight 3D library with a very low level of complexity. The library provides <canvas>, <svg> and WebGL renderers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js">//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js</a>]]></description>
-            <link>http://threejs.org/</link>
-            <guid isPermaLink="false">three.jsr70</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[thorax(2.2.1) was added]]></title>
             <description><![CDATA[Handlebars + Backbone<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/thorax/2.2.1/thorax.js">//cdnjs.cloudflare.com/ajax/libs/thorax/2.2.1/thorax.js</a>]]></description>
             <link>http://thoraxjs.org/</link>
@@ -755,14 +811,6 @@
             <description><![CDATA[A request library that returns promises, inspired by request<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/then-request/2.1.1/request.min.js">//cdnjs.cloudflare.com/ajax/libs/then-request/2.1.1/request.min.js</a>]]></description>
             <link>https://github.com/then/request</link>
             <guid isPermaLink="false">then-request2.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[textAngular(1.3.9) was added]]></title>
-            <description><![CDATA[A radically powerful Text-Editor/Wysiwyg editor for Angular.js! Create multiple editor instances, two-way-bind HTML content, watch editors for changes and more!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.9/dist/textAngular.min.js">//cdnjs.cloudflare.com/ajax/libs/textAngular/1.3.9/dist/textAngular.min.js</a>]]></description>
-            <link>http://textAngular.com</link>
-            <guid isPermaLink="false">textAngular1.3.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -1097,14 +1145,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[speakingurl(0.20.1) was added]]></title>
-            <description><![CDATA[Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.20.1/speakingurl.min.js">//cdnjs.cloudflare.com/ajax/libs/speakingurl/0.20.1/speakingurl.min.js</a>]]></description>
-            <link>http://pid.github.io/speakingurl/</link>
-            <guid isPermaLink="false">speakingurl0.20.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[space(0.8.4) was added]]></title>
             <description><![CDATA[A lightweight language for objects<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/space/0.8.4/space.min.js">//cdnjs.cloudflare.com/ajax/libs/space/0.8.4/space.min.js</a>]]></description>
             <guid isPermaLink="false">space0.8.4</guid>
@@ -1348,14 +1388,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[showdown(0.3.1) was added]]></title>
-            <description><![CDATA[A JavaScript port of Markdown<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js">//cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js</a>]]></description>
-            <link>https://github.com/showdownjs/showdown</link>
-            <guid isPermaLink="false">showdown0.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[shine.js(0.2.7) was added]]></title>
             <description><![CDATA[A library for pretty shadows.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/shine.js/0.2.7/shine.min.js">//cdnjs.cloudflare.com/ajax/libs/shine.js/0.2.7/shine.min.js</a>]]></description>
             <link>https://github.com/bigspaceship/shine.js</link>
@@ -1564,14 +1596,6 @@
             <description><![CDATA[Easy to use CSS Colors in your project with simple class you can colorize your text or background with the class of color name.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/s3colors/1.0/s3-colors.min.css">//cdnjs.cloudflare.com/ajax/libs/s3colors/1.0/s3-colors.min.css</a>]]></description>
             <link>http://shaz3e.github.io/S3-Colors/</link>
             <guid isPermaLink="false">s3colors1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs(2.4.1) was added]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.1/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.1/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -3094,14 +3118,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[minicart(3.0.5) was added]]></title>
-            <description><![CDATA[The Mini Cart is a great way to improve your PayPal shopping cart integration.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.5/minicart.min.js">//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.5/minicart.min.js</a>]]></description>
-            <link>http://www.minicartjs.com</link>
-            <guid isPermaLink="false">minicart3.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[mini-meteor(1.0.1) was added]]></title>
             <description><![CDATA[Select Client-side components of MeteorJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mini-meteor/1.0.1/mini-meteor.js">//cdnjs.cloudflare.com/ajax/libs/mini-meteor/1.0.1/mini-meteor.js</a>]]></description>
             <link>https://github.com/chicagogrooves/mini-meteor</link>
@@ -3772,14 +3788,6 @@
             <description><![CDATA[A JSON-LD Processor and API implementation in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.22/jsonld.min.js">//cdnjs.cloudflare.com/ajax/libs/jsonld/0.3.22/jsonld.min.js</a>]]></description>
             <link>http://github.com/digitalbazaar/jsonld.js</link>
             <guid isPermaLink="false">jsonld0.3.22</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsoneditor(4.0.0) was added]]></title>
-            <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.0.0/jsoneditor.min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.0.0/jsoneditor.min.js</a>]]></description>
-            <link>http://jsoneditoronline.org</link>
-            <guid isPermaLink="false">jsoneditor4.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -8566,14 +8574,6 @@
             <description><![CDATA[Alertify is an unobtrusive customizable JavaScript notification system.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.0/alertify.min.js">//cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.0/alertify.min.js</a>]]></description>
             <link>http://fabien-d.github.io/alertify.js/</link>
             <guid isPermaLink="false">alertify.js0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ajile(2.1.7) was added]]></title>
-            <description><![CDATA[ajile enables namespacing, dependency-management, and on-demand loading of cross-domain, local, and inline JavaScript within browsers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ajile/2.1.7/com.iskitz.ajile.js">//cdnjs.cloudflare.com/ajax/libs/ajile/2.1.7/com.iskitz.ajile.js</a>]]></description>
-            <link>http://ajile.net/</link>
-            <guid isPermaLink="false">ajile2.1.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
