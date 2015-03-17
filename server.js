@@ -145,6 +145,7 @@ var generatePage = function (options) {
   var layout = options.layout || templates.layout;
   var language = options.language || 'en';
   var fullOption = locales[language];
+  fullOption.language = language;
   if(options.title) {
     fullOption.title = options.title + '-' + locales[language].title
   }

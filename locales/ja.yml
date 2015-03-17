@@ -16,7 +16,7 @@ about:
   the-promblem: 問題は、これらは有名なライブラリしかホストしていないことです。
   we-host-it-all: 私たちは JavaScript, CSS, SWF, 画像, その他の全てをホストします。
   supports-http-https-spdy: http/https/spdy をサポートしていますが、私たちは <strong>https</strong> を使うことを強く勧めます！
-  currently-used-by: 現在、320,000のウェブサイトで、全世界の合計で500,000のウェブサイトで使われています。<a href="http://trends.builtwith.com/cdn/CDN-JS">詳しくはこちら</a>。
+  currently-used-by: 現在、全世界の520,000のウェブサイトで使われています。<a href="http://trends.builtwith.com/cdn/CDN-JS">詳しくはこちら</a>。
   creators: クリエイター
   maintainers: メンテナー
   sponsors: スポンサー

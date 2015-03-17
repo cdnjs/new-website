@@ -3,7 +3,7 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
+<html class="no-js" lang="{{language}}">
 <!--<![endif]-->
 
 <head>
@@ -42,7 +42,7 @@
 
             </ul>
             <ul class="nav navbar-nav">
-              <li class=""><a href="https://gitter.im/cdnjs/cdnjs" class="translateit">Chat</a></li>
+              <li class=""><a href="https://gitter.im/cdnjs/cdnjs">{{about.chat}}</a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -55,9 +55,9 @@
           </div>
         </div>
         <p>
-      <span class="translateit">Everyone loves the&nbsp;</span><a target="_blank" href="http://code.google.com/apis/libraries/devguide.html" class="translateit">Google CDN</a><span class="translateit">&nbsp;right? Even&nbsp;</span><a href="http://www.asp.net/ajaxlibrary/cdn.ashx" target="_blank" class="translateit">Microsoft runs their own CDN</a>.
-      <br><span class="translateit">The problem is, they only host the most popular libraries.</span>
-      <br><span class="translateit">We host it all - JavaScript, CSS, SWF, images, etc!</span>
+      {{{about.google-and-microsoft}}}
+      <br>{{about.the-promblem}}
+      <br>{{about.we-host-it-all}}
     </p>
       </div>
       <div class="col-md-4">
