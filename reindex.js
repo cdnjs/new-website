@@ -10,7 +10,7 @@ var async = require("async");
  * It makes an intensive use of the `async` library to ease the asynchronous processing.
  *
  * Here is how it works:
- *  - fetch the libraries from public/packages.json
+ *  - fetch the libraries from public/packages.min.json
  *  - retrieve various infos from GitHub (number of stars, etc..)
  *    - authenticate with a public token
  *    - for each library
@@ -25,12 +25,12 @@ var async = require("async");
 */
 
 //////
-////// Fetch all libraries from the generated public/packages.json file
+////// Fetch all libraries from the generated public/packages.min.json file
 //////
 var LIBRARIES = [];
 function load(next) {
   console.log('* Loading libraries');
-  LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.json', 'utf8')).packages, function(library) {
+  LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages, function(library) {
     library.originalName = library.name;
     library.name = library.name.toLowerCase();
     library.objectID = library.name.replace(/\./g, '');
@@ -58,7 +58,7 @@ var github = new GitHubApi({ version: "3.0.0" });
 function authenticate(next) {
   github.authenticate({
     type: "oauth",
-    token: '2e25fb969a43b6470e76ee9e75f919ce03003afb' // scope=public_repos only (not secret)
+    token: process.env.GITHUB_OAUTH_TOKEN // scope=public_repos only (not secret)
   });
   next();
 }
@@ -128,7 +128,8 @@ function initIndex(next) {
     attributesToIndex: ['unordered(name)', 'unordered(alternativeNames)', 'unordered(description)', 'unordered(keywords)', 'unordered(filename)'],
     customRanking: [ 'desc(github.stargazers_count)', 'asc(name)' ],
     attributesForFaceting: ['fileType', 'keywords'],
-    optionalWords: ['js', 'css'] // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
+    optionalWords: ['js', 'css'], // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
+    ranking: ['typo', 'words', 'proximity', 'attribute', 'custom'] // removed the "exact" criteria conflicting with the "keywords" array containing exact forms
   }, function(error, content) {
     next();
   });

@@ -3,6 +3,10 @@ body {
   padding-top: 15px;
 }
 
+.page {
+  padding-top: 15px;
+}
+
 .avatar-frame{border: 2px solid #dd4814;}
 .avatar-frame,.avatar-frame img{
   width: 90px;
@@ -128,7 +132,36 @@ p#date{
   background-color: #575552;
 }
 
-  .packages-table-container tbody tr .label-default.highlight em {
-    color: #ffdead;
-    background: none;
-  }
+.packages-table-container tbody tr .label-default.highlight em {
+  color: #ffdead;
+  background: none;
+}
+
+#carbonads {
+  border: 1px solid #bf3e11!important;
+  border-radius: 4px;
+  width: 330px!important;
+  height: auto!important;
+  padding: 15px!important;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.carbon-text, .carbon-poweredby {
+  display: block!important;
+  margin-left: 145px!important;
+  font-size: 13px!important;
+  line-height: 16px!important;
+  color: #333333;
+}
+
+.carbon-poweredby {
+  margin-top: 10px;
+}
+
+.carbon-img > img {
+  float: left;
+  display: inline;
+  width: 130px;
+  height: 100px;
+}

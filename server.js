@@ -13,7 +13,6 @@ var Twit = require('twit')
 var linkify = require("html-linkify");
 var mongo = require('mongodb');
 var BSON = mongo.BSONPure;
-var Hipchat = require('node-hipchat');
 var timeago = require('timeago');
 var compress = require('compression');
 var yaml = require('js-yaml');
@@ -75,25 +74,6 @@ function disqusSignon(user) {
     };
 }
 
-var HC = new Hipchat(process.env.HIPCHAT);
-var hipchat = {
-  message: function(color, message) {
-    if (process.env.HIPCHAT) {
-      var params = {
-        room: 165440,
-        from: 'Website',
-        message: message,
-        color: color,
-        notify: 1
-      };
-      HC.postMessage(params, function(data) {console.log(arguments)});
-    } else {
-      console.log('No Hipchat API Key');
-    }
-  }
-};
-hipchat.message('purple', 'Server restarting');
-
 var T = new Twit({
     consumer_key:         process.env.CONSUMER_KEY
   , consumer_secret:      process.env.CONSUMER_SECRET
@@ -107,7 +87,7 @@ app.use(express.static(__dirname + '/public', {maxAge: 7200 * 1000}));
 app.use(bodyParser());
 app.use(cookieParser());
 // Load libraries into ram
-var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.json', 'utf8')).packages;
+var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
 
 // Map libraries array into object for easy access
 var LIBRARIES_MAP = {};
@@ -563,7 +543,6 @@ app.get('/news/:id/:slug', news_item);
           }
           if(okay){
             db.collection('updates').insert({user_id: user.user_id, login: user.login, status: req.body.status, posted_at: now, gravatar: get_gravatar(user.email, 100)}, {w: 1}, function(err) {});
-            hipchat.message('green', 'New status update by ' + user.login + ' - http://cdnjs.com/news');
             res.send({message: 'Success'});
 
           } else {
@@ -579,7 +558,6 @@ app.get('/news/:id/:slug', news_item);
   });
 
   app.get('/newregistration/:login', function(req, res) {
-      hipchat.message('green', 'New User - ' + req.params.login + ' - http://cdnjs.com/profile/'+ req.params.login);
     res.send({});
   });
 
