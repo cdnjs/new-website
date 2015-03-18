@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 18 Mar 2015 02:45:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Mar 2015 03:30:50 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[bower-angular-translate-loader-url updated to version 2.6.1]]></title>
+            <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-url/2.6.1/angular-translate-loader-url.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-url/2.6.1/angular-translate-loader-url.min.js</a>]]></description>
+            <link>http://angular-translate.github.io</link>
+            <guid isPermaLink="false">bower-angular-translate-loader-url2.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 03:15:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bower-angular-translate-loader-static-files updated to version 2.6.1]]></title>
+            <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-static-files/2.6.1/angular-translate-loader-static-files.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-static-files/2.6.1/angular-translate-loader-static-files.min.js</a>]]></description>
+            <link>http://angular-translate.github.io</link>
+            <guid isPermaLink="false">bower-angular-translate-loader-static-files2.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 03:15:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bower-angular-translate-loader-partial updated to version 2.6.1]]></title>
+            <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-partial/2.6.1/angular-translate-loader-partial.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-partial/2.6.1/angular-translate-loader-partial.min.js</a>]]></description>
+            <link>http://angular-translate.github.io</link>
+            <guid isPermaLink="false">bower-angular-translate-loader-partial2.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 03:14:17 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[string.js updated to version 3.0.1]]></title>
             <description><![CDATA[string.js contains methods that aren't included in the vanilla JavaScript string such as escaping HTML, decoding HTML entities, stripping tags, etc.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/string.js/3.0.1/string.min.js">//cdnjs.cloudflare.com/ajax/libs/string.js/3.0.1/string.min.js</a>]]></description>
@@ -7447,30 +7471,6 @@
             <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.6.1/angular-translate.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.6.1/angular-translate.min.js</a>]]></description>
             <link>http://angular-translate.github.io</link>
             <guid isPermaLink="false">bower-angular-translate2.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bower-angular-translate-loader-url(2.0.0) was added]]></title>
-            <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-url/2.0.0/angular-translate-loader-url.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-url/2.0.0/angular-translate-loader-url.min.js</a>]]></description>
-            <link>http://angular-translate.github.io</link>
-            <guid isPermaLink="false">bower-angular-translate-loader-url2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bower-angular-translate-loader-static-files(2.0.0) was added]]></title>
-            <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-static-files/2.0.0/angular-translate-loader-static-files.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-static-files/2.0.0/angular-translate-loader-static-files.min.js</a>]]></description>
-            <link>http://angular-translate.github.io</link>
-            <guid isPermaLink="false">bower-angular-translate-loader-static-files2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bower-angular-translate-loader-partial(2.0.0) was added]]></title>
-            <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-partial/2.0.0/angular-translate-loader-partial.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-partial/2.0.0/angular-translate-loader-partial.min.js</a>]]></description>
-            <link>http://angular-translate.github.io</link>
-            <guid isPermaLink="false">bower-angular-translate-loader-partial2.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
