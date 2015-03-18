@@ -10,10 +10,82 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 18 Mar 2015 04:45:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Mar 2015 17:15:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery-localScroll updated to version 1.4.0]]></title>
+            <description><![CDATA[Animated anchor navigation made easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js</a>]]></description>
+            <link>https://github.com/flesler/jquery.localScroll</link>
+            <guid isPermaLink="false">jquery-localScroll1.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 17:10:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-material-design updated to version 0.3.0]]></title>
+            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js</a>]]></description>
+            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
+            <guid isPermaLink="false">bootstrap-material-design0.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 17:09:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-gantt updated to version 1.2.3]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.3/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.3/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 17:08:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.serialScroll updated to version 1.3.0]]></title>
+            <description><![CDATA[Animated scrolling of series.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.serialScroll/1.3.0/jquery.serialScroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.serialScroll/1.3.0/jquery.serialScroll.min.js</a>]]></description>
+            <link>https://github.com/flesler/jquery.serialScroll</link>
+            <guid isPermaLink="false">jquery.serialScroll1.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 17:08:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fuelux updated to version 3.6.4]]></title>
+            <description><![CDATA[Extends Twitter Bootstrap with additional lightweight JavaScript controls.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuelux/3.6.4/js/fuelux.min.js">//cdnjs.cloudflare.com/ajax/libs/fuelux/3.6.4/js/fuelux.min.js</a>]]></description>
+            <link>http://exacttarget.github.io/fuelux</link>
+            <guid isPermaLink="false">fuelux3.6.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 17:08:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-scrollTo updated to version 2.1.0]]></title>
+            <description><![CDATA[A small, customizable plugin for scrolling elements, or the window itself.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js</a>]]></description>
+            <link>https://github.com/flesler/jquery.scrollTo</link>
+            <guid isPermaLink="false">jquery-scrollTo2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 17:07:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[animate.css updated to version 3.2.4]]></title>
+            <description><![CDATA[Plug and play, app-like animations for your websites and web apps.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.4/animate.min.css">//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.4/animate.min.css</a>]]></description>
+            <link>http://daneden.github.io/animate.css</link>
+            <guid isPermaLink="false">animate.css3.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 17:07:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react-cookie updated to version 0.1.7]]></title>
+            <description><![CDATA[Load and save cookies within your React application<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-cookie/0.1.7/react-cookie.min.js">//cdnjs.cloudflare.com/ajax/libs/react-cookie/0.1.7/react-cookie.min.js</a>]]></description>
+            <link>http://github.com/eXon/react-cookie</link>
+            <guid isPermaLink="false">react-cookie0.1.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 17:06:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 4.1.0]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.1.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.1.0/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly4.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 16:54:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[bower-angular-translate-loader-url updated to version 2.6.1]]></title>
             <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-url/2.6.1/angular-translate-loader-url.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-url/2.6.1/angular-translate-loader-url.min.js</a>]]></description>
@@ -45,14 +117,6 @@
             <guid isPermaLink="false">string.js3.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 18 Mar 2015 02:40:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react-cookie updated to version 0.1.4]]></title>
-            <description><![CDATA[Load and save cookies within your React application<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-cookie/0.1.4/react-cookie.min.js">//cdnjs.cloudflare.com/ajax/libs/react-cookie/0.1.4/react-cookie.min.js</a>]]></description>
-            <link>http://github.com/eXon/react-cookie</link>
-            <guid isPermaLink="false">react-cookie0.1.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 02:38:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[postscribe updated to version 1.3.2]]></title>
@@ -156,14 +220,6 @@
             <pubDate>Tue, 17 Mar 2015 12:17:58 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-gantt updated to version 1.2.2]]></title>
-            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.2/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.2/angular-gantt.min.js</a>]]></description>
-            <link>http://www.angular-gantt.com</link>
-            <guid isPermaLink="false">angular-gantt1.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 12:17:40 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[AniJS updated to version 0.9.3]]></title>
             <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js</a>]]></description>
             <link>http://anijs.github.io/</link>
@@ -178,14 +234,6 @@
             <guid isPermaLink="false">moment-timezone0.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 17 Mar 2015 10:14:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-formly updated to version 4.0.11]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.0.11/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.0.11/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly4.0.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 10:13:53 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[tinycolor updated to version 1.1.2]]></title>
@@ -4218,14 +4266,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.serialScroll(1.2.4) was added]]></title>
-            <description><![CDATA[Animated scrolling of series.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.serialScroll/1.2.4/jquery.serialScroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.serialScroll/1.2.4/jquery.serialScroll.min.js</a>]]></description>
-            <link>https://github.com/flesler/jquery.serialScroll</link>
-            <guid isPermaLink="false">jquery.serialScroll1.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery.selection(1.0.1) was added]]></title>
             <description><![CDATA[selection text/caret operation - jQuery pulgin | 選択範囲のテキスト操作 / キャレット操作 <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.selection/1.0.1/jquery.selection.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.selection/1.0.1/jquery.selection.min.js</a>]]></description>
             <link>https://github.com/madapaja/jquery.selection</link>
@@ -4887,14 +4927,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery-scrollTo(1.4.14) was added]]></title>
-            <description><![CDATA[A small, customizable plugin for scrolling elements, or the window itself.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min.js</a>]]></description>
-            <link>https://github.com/flesler/jquery.scrollTo</link>
-            <guid isPermaLink="false">jquery-scrollTo1.4.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery-resize(1.1) was added]]></title>
             <description><![CDATA[A resize event for ALL your jQueries!<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-resize/1.1/jquery.ba-resize.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-resize/1.1/jquery.ba-resize.min.js</a>]]></description>
             <link>http://benalman.com/projects/jquery-resize-plugin/</link>
@@ -5011,14 +5043,6 @@
             <description><![CDATA[jQuery plugin to mask data entry in the input text in the form of money (currency)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js</a>]]></description>
             <link>https://github.com/plentz/jquery-maskmoney</link>
             <guid isPermaLink="false">jquery-maskmoney3.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-localScroll(1.3.5) was added]]></title>
-            <description><![CDATA[Animated anchor navigation made easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.3.5/jquery.localScroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.3.5/jquery.localScroll.min.js</a>]]></description>
-            <link>https://github.com/flesler/jquery.localScroll</link>
-            <guid isPermaLink="false">jquery-localScroll1.3.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -6125,14 +6149,6 @@
             <description><![CDATA[Full-sized drag & drop event calendar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.1/fullcalendar.min.js">//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.1/fullcalendar.min.js</a>]]></description>
             <link>http://fullcalendar.io/</link>
             <guid isPermaLink="false">fullcalendar2.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fuelux(3.6.3) was added]]></title>
-            <description><![CDATA[Extends Twitter Bootstrap with additional lightweight JavaScript controls.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuelux/3.6.3/js/fuelux.min.js">//cdnjs.cloudflare.com/ajax/libs/fuelux/3.6.3/js/fuelux.min.js</a>]]></description>
-            <link>http://exacttarget.github.io/fuelux</link>
-            <guid isPermaLink="false">fuelux3.6.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -7555,14 +7571,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bootstrap-material-design(0.2.2) was added]]></title>
-            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.2/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.2/js/material.min.js</a>]]></description>
-            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
-            <guid isPermaLink="false">bootstrap-material-design0.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bootstrap-markdown(2.8.0) was added]]></title>
             <description><![CDATA[A bootstrap plugin for markdown editing<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.8.0/js/bootstrap-markdown.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-markdown/2.8.0/js/bootstrap-markdown.js</a>]]></description>
             <link>https://github.com/toopay/bootstrap-markdown</link>
@@ -8193,14 +8201,6 @@
             <description><![CDATA[A simple and easy jQuery plugin for CSS animated page transitions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animsition/3.4.3/js/jquery.animsition.min.js">//cdnjs.cloudflare.com/ajax/libs/animsition/3.4.3/js/jquery.animsition.min.js</a>]]></description>
             <link>http://git.blivesta.com/animsition</link>
             <guid isPermaLink="false">animsition3.4.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[animate.css(3.2.3) was added]]></title>
-            <description><![CDATA[Plug and play, app-like animations for your websites and web apps.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css</a>]]></description>
-            <link>http://daneden.github.io/animate.css</link>
-            <guid isPermaLink="false">animate.css3.2.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
