@@ -10,10 +10,58 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 19 Mar 2015 04:24:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Mar 2015 05:31:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular.js updated to version 1.3.15]]></title>
+            <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js</a>]]></description>
+            <link>http://angularjs.org</link>
+            <guid isPermaLink="false">angular.js1.3.15</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 05:26:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-timepicker updated to version 1.6.5]]></title>
+            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.5/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.5/jquery.timepicker.min.css</a>]]></description>
+            <link>http://jonthornton.github.com/jquery-timepicker/</link>
+            <guid isPermaLink="false">jquery-timepicker1.6.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 05:22:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[animate.css updated to version 3.2.5]]></title>
+            <description><![CDATA[Plug and play, app-like animations for your websites and web apps.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.5/animate.min.css">//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.5/animate.min.css</a>]]></description>
+            <link>http://daneden.github.io/animate.css</link>
+            <guid isPermaLink="false">animate.css3.2.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 05:22:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ink updated to version 3.1.5]]></title>
+            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.1.5/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.1.5/js/ink-all.min.js</a>]]></description>
+            <link>http://ink.sapo.pt/</link>
+            <guid isPermaLink="false">ink3.1.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 05:21:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rangeslider.js updated to version 1.1.0]]></title>
+            <description><![CDATA[Simple, small and fast JavaScript/jQuery polyfill for the HTML5 <input type="range"> slider element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.1.0/rangeslider.min.css">//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.1.0/rangeslider.min.css</a>]]></description>
+            <link>https://github.com/andreruffert/rangeslider.js</link>
+            <guid isPermaLink="false">rangeslider.js1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 04:07:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jsoneditor updated to version 4.1.3]]></title>
+            <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.1.3/jsoneditor.min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.1.3/jsoneditor.min.js</a>]]></description>
+            <link>http://jsoneditoronline.org</link>
+            <guid isPermaLink="false">jsoneditor4.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 04:06:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[icono(1.3.0) was added]]></title>
             <description><![CDATA[Pure CSS Icons<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/icono/1.3.0/icono.min.css">//cdnjs.cloudflare.com/ajax/libs/icono/1.3.0/icono.min.css</a>]]></description>
@@ -69,14 +117,6 @@
             <guid isPermaLink="false">jquery-scrollTo2.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 18 Mar 2015 17:07:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[animate.css updated to version 3.2.4]]></title>
-            <description><![CDATA[Plug and play, app-like animations for your websites and web apps.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.4/animate.min.css">//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.4/animate.min.css</a>]]></description>
-            <link>http://daneden.github.io/animate.css</link>
-            <guid isPermaLink="false">animate.css3.2.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 17:07:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[react-cookie updated to version 0.1.7]]></title>
@@ -337,14 +377,6 @@
             <guid isPermaLink="false">ajile2.1.7</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 16 Mar 2015 06:16:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsoneditor updated to version 4.1.1]]></title>
-            <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.1.1/jsoneditor.min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.1.1/jsoneditor.min.js</a>]]></description>
-            <link>http://jsoneditoronline.org</link>
-            <guid isPermaLink="false">jsoneditor4.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 16 Mar 2015 05:52:18 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[minicart updated to version 3.0.6]]></title>
@@ -2144,14 +2176,6 @@
             <description><![CDATA[A cross-browser JavaScript range and selection library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rangy/1.2.3/rangy-core.js">//cdnjs.cloudflare.com/ajax/libs/rangy/1.2.3/rangy-core.js</a>]]></description>
             <link>http://code.google.com/p/rangy/</link>
             <guid isPermaLink="false">rangy1.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rangeslider.js(1.0.0) was added]]></title>
-            <description><![CDATA[Simple, small and fast JavaScript/jQuery polyfill for the HTML5 <input type="range"> slider element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.0.0/rangeslider.min.css">//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.0.0/rangeslider.min.css</a>]]></description>
-            <link>https://github.com/andreruffert/rangeslider.js</link>
-            <guid isPermaLink="false">rangeslider.js1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -4824,14 +4848,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery-timepicker(1.6.4) was added]]></title>
-            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.4/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.4/jquery.timepicker.min.css</a>]]></description>
-            <link>http://jonthornton.github.com/jquery-timepicker/</link>
-            <guid isPermaLink="false">jquery-timepicker1.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery-timeago(1.4.1) was added]]></title>
             <description><![CDATA[Timeago is a jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. '4 minutes ago' or 'about 1 day ago') from ISO 8601 formatted dates and times embedded in your HTML (à la microformats).<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.1/jquery.timeago.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.1/jquery.timeago.min.js</a>]]></description>
             <link>http://timeago.yarp.com/</link>
@@ -5602,14 +5618,6 @@
             <description><![CDATA[InsightJS is a data aggregation and vizualization library for quickly analyzing datasets in Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/insightjs/1.4.0/insight.min.js">//cdnjs.cloudflare.com/ajax/libs/insightjs/1.4.0/insight.min.js</a>]]></description>
             <link>https://github.com/scottlogic/insight</link>
             <guid isPermaLink="false">insightjs1.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ink(3.1.4) was added]]></title>
-            <description><![CDATA[An HTML5/CSS3 framework used at SAPO for fast and efficient website design and prototyping<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ink/3.1.4/js/ink-all.min.js">//cdnjs.cloudflare.com/ajax/libs/ink/3.1.4/js/ink-all.min.js</a>]]></description>
-            <link>http://ink.sapo.pt/</link>
-            <guid isPermaLink="false">ink3.1.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -8249,14 +8257,6 @@
             <description><![CDATA[AngularFire is a set of Firebase bindings for AngularJS. It allows you to easily plug in a backend powered by Firebase to your Angular based webapp.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularFire/0.5.0/angularfire.min.js">//cdnjs.cloudflare.com/ajax/libs/angularFire/0.5.0/angularfire.min.js</a>]]></description>
             <link>http://github.com/firebase/angularFire</link>
             <guid isPermaLink="false">angularFire0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular.js(1.3.14) was added]]></title>
-            <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js</a>]]></description>
-            <link>http://angularjs.org</link>
-            <guid isPermaLink="false">angular.js1.3.14</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
