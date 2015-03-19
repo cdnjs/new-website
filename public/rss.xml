@@ -10,10 +10,58 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 19 Mar 2015 16:00:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Mar 2015 16:32:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[sweetalert updated to version 0.5.0]]></title>
+            <description><![CDATA[A beautiful replacement for JavaScript's alert.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js">//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js</a>]]></description>
+            <link>http://tristanedwards.me/sweetalert</link>
+            <guid isPermaLink="false">sweetalert0.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 16:28:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[handsontable updated to version 0.13.1]]></title>
+            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.13.1/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.13.1/handsontable.full.min.js</a>]]></description>
+            <link>http://handsontable.com/</link>
+            <guid isPermaLink="false">handsontable0.13.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 16:27:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[clappr updated to version 0.0.111]]></title>
+            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.111/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.111/clappr.min.js</a>]]></description>
+            <link>https://github.com/globocom/clappr</link>
+            <guid isPermaLink="false">clappr0.0.111</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 16:26:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.29.3]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.29.3/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.29.3/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.29.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 16:10:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[video.js updated to version 4.12.5]]></title>
+            <description><![CDATA[Open source HTML5 & Flash video player<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/video.js/4.12.5/video.js">//cdnjs.cloudflare.com/ajax/libs/video.js/4.12.5/video.js</a>]]></description>
+            <link>http://videojs.com/</link>
+            <guid isPermaLink="false">video.js4.12.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 16:09:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[seajs updated to version 3.0.0]]></title>
+            <description><![CDATA[A Module Loader for the Web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seajs/3.0.0/sea.js">//cdnjs.cloudflare.com/ajax/libs/seajs/3.0.0/sea.js</a>]]></description>
+            <link>http://seajs.org/</link>
+            <guid isPermaLink="false">seajs3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 16:09:41 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[urljs(1.1.0) was added]]></title>
             <description><![CDATA[A lightweight JavaScript library to manipulate the page url.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/urljs/1.1.0/url.min.js">//cdnjs.cloudflare.com/ajax/libs/urljs/1.1.0/url.min.js</a>]]></description>
@@ -274,14 +322,6 @@
             <guid isPermaLink="false">ionic1.0.0-rc.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 17 Mar 2015 12:19:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[clappr updated to version 0.0.109]]></title>
-            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.109/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.109/clappr.min.js</a>]]></description>
-            <link>https://github.com/globocom/clappr</link>
-            <guid isPermaLink="false">clappr0.0.109</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 12:18:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[c3 updated to version 0.4.10]]></title>
@@ -625,14 +665,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[webtorrent(0.29.0) was added]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.29.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.29.0/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.29.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[websqltracer(1.0.1) was added]]></title>
             <description><![CDATA[Console tracer for Web SQL or SQLite<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/websqltracer/1.0.1/webSqlTracer.min.js">//cdnjs.cloudflare.com/ajax/libs/websqltracer/1.0.1/webSqlTracer.min.js</a>]]></description>
             <link>https://github.com/terikon/webSqlTracer</link>
@@ -756,14 +788,6 @@
             <description><![CDATA[A viewer for documents converted with the Box View API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.5/crocodoc.viewer.min.js">//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.5/crocodoc.viewer.min.js</a>]]></description>
             <link>https://github.com/box/viewer.js</link>
             <guid isPermaLink="false">viewer.js0.10.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[video.js(4.12.4) was added]]></title>
-            <description><![CDATA[Open source HTML5 & Flash video player<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/video.js/4.12.4/video.js">//cdnjs.cloudflare.com/ajax/libs/video.js/4.12.4/video.js</a>]]></description>
-            <link>http://videojs.com/</link>
-            <guid isPermaLink="false">video.js4.12.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -1228,14 +1252,6 @@
             <description><![CDATA[SWFObject is an easy-to-use and standards-friendly method to embed Flash content, which utilizes one small JavaScript file<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js">//cdnjs.cloudflare.com/ajax/libs/swfobject/2.2/swfobject.js</a>]]></description>
             <link>http://code.google.com/p/swfobject/</link>
             <guid isPermaLink="false">swfobject2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sweetalert(0.4.2) was added]]></title>
-            <description><![CDATA[A beautiful replacement for JavaScript's alert.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.4.2/sweet-alert.min.js">//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.4.2/sweet-alert.min.js</a>]]></description>
-            <link>http://tristanedwards.me/sweetalert</link>
-            <guid isPermaLink="false">sweetalert0.4.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -1770,14 +1786,6 @@
             <description><![CDATA[Seeded random number generator for Javascript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.11/seedrandom.min.js">//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.3.11/seedrandom.min.js</a>]]></description>
             <link>https://github.com/davidbau/seedrandom</link>
             <guid isPermaLink="false">seedrandom2.3.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[seajs(2.3.0) was added]]></title>
-            <description><![CDATA[A Module Loader for the Web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seajs/2.3.0/sea.js">//cdnjs.cloudflare.com/ajax/libs/seajs/2.3.0/sea.js</a>]]></description>
-            <link>http://seajs.org/</link>
-            <guid isPermaLink="false">seajs2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -5950,14 +5958,6 @@
             <title><![CDATA[hasher(1.2.0) was added]]></title>
             <description><![CDATA[Hasher is a set of JavaScript functions to control browser history for rich-media websites and applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hasher/1.2.0/hasher.min.js">//cdnjs.cloudflare.com/ajax/libs/hasher/1.2.0/hasher.min.js</a>]]></description>
             <guid isPermaLink="false">hasher1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[handsontable(0.13.0) was added]]></title>
-            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.13.0/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.13.0/handsontable.full.min.js</a>]]></description>
-            <link>http://handsontable.com/</link>
-            <guid isPermaLink="false">handsontable0.13.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
