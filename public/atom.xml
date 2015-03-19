@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 19 Mar 2015 08:00:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Mar 2015 16:00:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[urljs(1.1.0) was added]]></title>
+            <description><![CDATA[A lightweight JavaScript library to manipulate the page url.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/urljs/1.1.0/url.min.js">//cdnjs.cloudflare.com/ajax/libs/urljs/1.1.0/url.min.js</a>]]></description>
+            <link>https://github.com/jillix/url.js</link>
+            <guid isPermaLink="false">urljs1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 09:53:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[svg.pan-zoom.js(1.0.1) was added]]></title>
+            <description><![CDATA[A JavaScript library for panning and zooming SVG things.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/svg.pan-zoom.js/1.0.1/svg.pan-zoom.min.js">//cdnjs.cloudflare.com/ajax/libs/svg.pan-zoom.js/1.0.1/svg.pan-zoom.min.js</a>]]></description>
+            <link>https://github.com/jillix/svg.pan-zoom.js</link>
+            <guid isPermaLink="false">svg.pan-zoom.js1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 09:04:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[svg.connectable.js updated to version 1.0.1]]></title>
+            <description><![CDATA[A JavaScript library for connecting SVG things.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/svg.connectable.js/1.0.1/svg.connectable.min.js">//cdnjs.cloudflare.com/ajax/libs/svg.connectable.js/1.0.1/svg.connectable.min.js</a>]]></description>
+            <link>https://github.com/jillix/svg.connectable.js</link>
+            <guid isPermaLink="false">svg.connectable.js1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 19 Mar 2015 08:40:11 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular.js updated to version 1.3.15]]></title>
             <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js</a>]]></description>
