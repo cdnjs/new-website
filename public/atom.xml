@@ -10,10 +10,57 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 19 Mar 2015 16:32:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Mar 2015 07:17:30 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[shepherd updated to version 0.7.0]]></title>
+            <description><![CDATA[Guide your users through a tour of your app.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/shepherd/0.7.0/shepherd.min.js">//cdnjs.cloudflare.com/ajax/libs/shepherd/0.7.0/shepherd.min.js</a>]]></description>
+            <guid isPermaLink="false">shepherd0.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2015 07:00:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nanogallery updated to version 5.5.2]]></title>
+            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.2/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.2/jquery.nanogallery.min.js</a>]]></description>
+            <link>http://nanogallery.brisbois.fr/</link>
+            <guid isPermaLink="false">nanogallery5.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2015 07:00:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[annyang updated to version 1.6.0]]></title>
+            <description><![CDATA[A javascript library for adding voice commands to your site, using speech recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/annyang/1.6.0/annyang.min.js">//cdnjs.cloudflare.com/ajax/libs/annyang/1.6.0/annyang.min.js</a>]]></description>
+            <link>https://www.talater.com/annyang/</link>
+            <guid isPermaLink="false">annyang1.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2015 06:59:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[algoliasearch updated to version 2.9.3]]></title>
+            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.3/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.3/algoliasearch.min.js</a>]]></description>
+            <link>https://github.com/algolia/algoliasearch-client-js</link>
+            <guid isPermaLink="false">algoliasearch2.9.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2015 06:41:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[vault.js updated to version 0.1.9]]></title>
+            <description><![CDATA[Normalizer for local/sessionStorage & cookies.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.9/vault.min.js">//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.9/vault.min.js</a>]]></description>
+            <link>http://jimmybyrum.github.io/vault.js/</link>
+            <guid isPermaLink="false">vault.js0.1.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2015 06:40:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.30.0]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.30.0/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.30.0/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.30.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2015 06:39:56 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[sweetalert updated to version 0.5.0]]></title>
             <description><![CDATA[A beautiful replacement for JavaScript's alert.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js">//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js</a>]]></description>
@@ -37,14 +84,6 @@
             <guid isPermaLink="false">clappr0.0.111</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Mar 2015 16:26:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webtorrent updated to version 0.29.3]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.29.3/webtorrent.min.js">//cdnjs.cloudflare.com/ajax/libs/webtorrent/0.29.3/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.29.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 16:10:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[video.js updated to version 4.12.5]]></title>
@@ -811,14 +850,6 @@
             <title><![CDATA[veinjs(0.3) was added]]></title>
             <description><![CDATA[Injects CSS into the document (it's a perfectly legal procedure)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/veinjs/0.3/vein.min.js">//cdnjs.cloudflare.com/ajax/libs/veinjs/0.3/vein.min.js</a>]]></description>
             <guid isPermaLink="false">veinjs0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vault.js(0.1.8) was added]]></title>
-            <description><![CDATA[Normalizer for local/sessionStorage & cookies.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.8/vault.min.js">//cdnjs.cloudflare.com/ajax/libs/vault.js/0.1.8/vault.min.js</a>]]></description>
-            <link>http://jimmybyrum.github.io/vault.js/</link>
-            <guid isPermaLink="false">vault.js0.1.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -1708,13 +1739,6 @@
             <description><![CDATA[A library for pretty shadows.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/shine.js/0.2.7/shine.min.js">//cdnjs.cloudflare.com/ajax/libs/shine.js/0.2.7/shine.min.js</a>]]></description>
             <link>https://github.com/bigspaceship/shine.js</link>
             <guid isPermaLink="false">shine.js0.2.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[shepherd(0.6.14) was added]]></title>
-            <description><![CDATA[Guide your users through a tour of your app.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/shepherd/0.6.14/shepherd.min.js">//cdnjs.cloudflare.com/ajax/libs/shepherd/0.6.14/shepherd.min.js</a>]]></description>
-            <guid isPermaLink="false">shepherd0.6.14</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -3163,14 +3187,6 @@
             <title><![CDATA[neo-async(0.6.3) was added]]></title>
             <description><![CDATA[Neo-Async is thought to be used as a drop-in replacement for Async, it almost fully covers its functionality and runs faster<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.3/async.js">//cdnjs.cloudflare.com/ajax/libs/neo-async/0.6.3/async.js</a>]]></description>
             <guid isPermaLink="false">neo-async0.6.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[nanogallery(5.5.1) was added]]></title>
-            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.1/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.1/jquery.nanogallery.min.js</a>]]></description>
-            <link>http://nanogallery.brisbois.fr/</link>
-            <guid isPermaLink="false">nanogallery5.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -8229,14 +8245,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[annyang(1.5.0) was added]]></title>
-            <description><![CDATA[A javascript library for adding voice commands to your site, using speech recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/annyang/1.5.0/annyang.min.js">//cdnjs.cloudflare.com/ajax/libs/annyang/1.5.0/annyang.min.js</a>]]></description>
-            <link>https://www.talater.com/annyang/</link>
-            <guid isPermaLink="false">annyang1.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[animsition(3.4.3) was added]]></title>
             <description><![CDATA[A simple and easy jQuery plugin for CSS animated page transitions.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animsition/3.4.3/js/jquery.animsition.min.js">//cdnjs.cloudflare.com/ajax/libs/animsition/3.4.3/js/jquery.animsition.min.js</a>]]></description>
             <link>http://git.blivesta.com/animsition</link>
@@ -8599,14 +8607,6 @@
             <title><![CDATA[allow-me(0.1.1) was added]]></title>
             <description><![CDATA[Visual aid for your users in giving you browser's permission such as cam or mic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.js">//cdnjs.cloudflare.com/ajax/libs/allow-me/0.1.1/allowMe.min.js</a>]]></description>
             <guid isPermaLink="false">allow-me0.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[algoliasearch(2.9.2) was added]]></title>
-            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.2/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.2/algoliasearch.min.js</a>]]></description>
-            <link>https://github.com/algolia/algoliasearch-client-js</link>
-            <guid isPermaLink="false">algoliasearch2.9.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
