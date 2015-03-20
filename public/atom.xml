@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Mar 2015 13:45:55 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Mar 2015 14:00:48 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[angular-gantt updated to version 1.2.4]]></title>
+            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.4/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.4/angular-gantt.min.js</a>]]></description>
+            <link>http://www.angular-gantt.com</link>
+            <guid isPermaLink="false">angular-gantt1.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2015 13:48:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[quill updated to version 0.19.10]]></title>
+            <description><![CDATA[Cross browser rich text editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/quill/0.19.10/quill.base.min.css">//cdnjs.cloudflare.com/ajax/libs/quill/0.19.10/quill.base.min.css</a>]]></description>
+            <link>http://quilljs.com</link>
+            <guid isPermaLink="false">quill0.19.10</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2015 13:37:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[shepherd updated to version 0.7.0]]></title>
             <description><![CDATA[Guide your users through a tour of your app.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/shepherd/0.7.0/shepherd.min.js">//cdnjs.cloudflare.com/ajax/libs/shepherd/0.7.0/shepherd.min.js</a>]]></description>
@@ -203,14 +219,6 @@
             <guid isPermaLink="false">bootstrap-material-design0.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 18 Mar 2015 17:09:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-gantt updated to version 1.2.3]]></title>
-            <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.3/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.3/angular-gantt.min.js</a>]]></description>
-            <link>http://www.angular-gantt.com</link>
-            <guid isPermaLink="false">angular-gantt1.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 17:08:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery.serialScroll updated to version 1.3.0]]></title>
@@ -2319,14 +2327,6 @@
             <description><![CDATA[An easy-to-use JavaScript Unit Testing framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/qunit/1.16.0/qunit.min.js">//cdnjs.cloudflare.com/ajax/libs/qunit/1.16.0/qunit.min.js</a>]]></description>
             <link>http://qunitjs.com/</link>
             <guid isPermaLink="false">qunit1.16.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[quill(0.19.8) was added]]></title>
-            <description><![CDATA[Cross browser rich text editor<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/quill/0.19.8/quill.base.min.css">//cdnjs.cloudflare.com/ajax/libs/quill/0.19.8/quill.base.min.css</a>]]></description>
-            <link>http://quilljs.com</link>
-            <guid isPermaLink="false">quill0.19.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
