@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Mar 2015 07:17:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Mar 2015 13:45:55 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
@@ -180,6 +180,13 @@
             <guid isPermaLink="false">icono1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 18 Mar 2015 22:05:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angularLocalStorage(0.3.0) was added]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularLocalStorage/0.3.0/angularLocalStorage.min.js">//cdnjs.cloudflare.com/ajax/libs/angularLocalStorage/0.3.0/angularLocalStorage.min.js</a>]]></description>
+            <guid isPermaLink="false">angularLocalStorage0.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 18 Mar 2015 21:01:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-localScroll updated to version 1.4.0]]></title>
