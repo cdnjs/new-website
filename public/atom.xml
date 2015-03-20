@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Mar 2015 14:00:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Mar 2015 18:15:47 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[document-register-element updated to version 0.2.1]]></title>
+            <description><![CDATA[A stand-alone working lightweight version of the W3C Custom Elements specification<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.2.1/document-register-element.js">//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.2.1/document-register-element.js</a>]]></description>
+            <link>https://github.com/WebReflection/document-register-element</link>
+            <guid isPermaLink="false">document-register-element0.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 20 Mar 2015 15:13:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-gantt updated to version 1.2.4]]></title>
             <description><![CDATA[Gantt chart component for AngularJS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.4/angular-gantt.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-gantt/1.2.4/angular-gantt.min.js</a>]]></description>
@@ -299,14 +307,6 @@
             <guid isPermaLink="false">postscribe1.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 18 Mar 2015 02:07:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[document-register-element updated to version 0.1.9]]></title>
-            <description><![CDATA[A stand-alone working lightweight version of the W3C Custom Elements specification<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.9/document-register-element.js">//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.1.9/document-register-element.js</a>]]></description>
-            <link>https://github.com/WebReflection/document-register-element</link>
-            <guid isPermaLink="false">document-register-element0.1.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 01:57:02 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[danialfarid-angular-file-upload updated to version 3.2.5]]></title>
