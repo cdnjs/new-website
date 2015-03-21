@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Mar 2015 12:17:19 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Mar 2015 13:02:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[hallo.js updated to version 1.1.1]]></title>
+            <description><![CDATA[Distraction-free writing for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hallo.js/1.1.1/hallo.min.js">//cdnjs.cloudflare.com/ajax/libs/hallo.js/1.1.1/hallo.min.js</a>]]></description>
+            <link>http://hallojs.org/</link>
+            <guid isPermaLink="false">hallo.js1.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Mar 2015 12:48:38 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[hellojs(1.5.0) was added]]></title>
             <description><![CDATA[A clientside Javascript library for standardizing requests to OAuth2 web services (and OAuth1 - with a shim)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hellojs/1.5.0/hello.all.min.js">//cdnjs.cloudflare.com/ajax/libs/hellojs/1.5.0/hello.all.min.js</a>]]></description>
@@ -6035,14 +6043,6 @@
             <description><![CDATA[A javascript library for multi-touch gestures :// You can touch this <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js">//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js</a>]]></description>
             <link>http://eightmedia.github.com/hammer.js/</link>
             <guid isPermaLink="false">hammer.js2.0.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[hallo.js(1.0.4) was added]]></title>
-            <description><![CDATA[Distraction-free writing for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hallo.js/1.0.4/hallo.js">//cdnjs.cloudflare.com/ajax/libs/hallo.js/1.0.4/hallo.js</a>]]></description>
-            <link>http://hallojs.org/</link>
-            <guid isPermaLink="false">hallo.js1.0.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
