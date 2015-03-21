@@ -10,10 +10,66 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Mar 2015 06:48:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Mar 2015 07:17:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[nanogallery updated to version 5.5.3]]></title>
+            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.3/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.3/jquery.nanogallery.min.js</a>]]></description>
+            <link>http://nanogallery.brisbois.fr/</link>
+            <guid isPermaLink="false">nanogallery5.5.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Mar 2015 07:10:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webcomponentsjs updated to version 0.6.0]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.6.0/webcomponents.min.js">//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.6.0/webcomponents.min.js</a>]]></description>
+            <link>http://webcomponents.org</link>
+            <guid isPermaLink="false">webcomponentsjs0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Mar 2015 07:10:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SlickNav updated to version 1.0.2]]></title>
+            <description><![CDATA[Responsive Mobile Menu Plugin for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.2/slicknav.min.css">//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.2/slicknav.min.css</a>]]></description>
+            <link>http://slicknav.com/</link>
+            <guid isPermaLink="false">SlickNav1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Mar 2015 07:10:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bla updated to version 1.3.0]]></title>
+            <description><![CDATA[Easy way to create your own API methods for server and client sides<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bla/1.3.0/bla.min.js">//cdnjs.cloudflare.com/ajax/libs/bla/1.3.0/bla.min.js</a>]]></description>
+            <link>https://github.com/baby-loris/bla</link>
+            <guid isPermaLink="false">bla1.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Mar 2015 06:51:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-cache updated to version 4.0.1]]></title>
+            <description><![CDATA[angular-cache is a very useful replacement for Angular's $cacheFactory.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.0.1/angular-cache.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.0.1/angular-cache.min.js</a>]]></description>
+            <link>http://jmdobry.github.io/angular-cache</link>
+            <guid isPermaLink="false">angular-cache4.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Mar 2015 06:37:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[analytics.js updated to version 2.8.1]]></title>
+            <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.8.1/analytics.min.js">//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.8.1/analytics.min.js</a>]]></description>
+            <link>https://segment.io/docs/libraries/analytics.js/</link>
+            <guid isPermaLink="false">analytics.js2.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Mar 2015 06:37:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[algoliasearch updated to version 2.9.4]]></title>
+            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.4/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.4/algoliasearch.min.js</a>]]></description>
+            <link>https://github.com/algolia/algoliasearch-client-js</link>
+            <guid isPermaLink="false">algoliasearch2.9.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Mar 2015 06:36:28 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[angular-vertxbus(1.0.0) was added]]></title>
             <description><![CDATA[AngularJS facade and service acting as a Vert.x SockJS client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-vertxbus/1.0.0/angular-vertxbus.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-vertxbus/1.0.0/angular-vertxbus.min.js</a>]]></description>
@@ -53,28 +109,12 @@
             <pubDate>Fri, 20 Mar 2015 07:00:27 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[nanogallery updated to version 5.5.2]]></title>
-            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.2/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.2/jquery.nanogallery.min.js</a>]]></description>
-            <link>http://nanogallery.brisbois.fr/</link>
-            <guid isPermaLink="false">nanogallery5.5.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 20 Mar 2015 07:00:05 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[annyang updated to version 1.6.0]]></title>
             <description><![CDATA[A javascript library for adding voice commands to your site, using speech recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/annyang/1.6.0/annyang.min.js">//cdnjs.cloudflare.com/ajax/libs/annyang/1.6.0/annyang.min.js</a>]]></description>
             <link>https://www.talater.com/annyang/</link>
             <guid isPermaLink="false">annyang1.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 20 Mar 2015 06:59:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[algoliasearch updated to version 2.9.3]]></title>
-            <description><![CDATA[Algolia Search JavaScript API Client<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.3/algoliasearch.min.js">//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.9.3/algoliasearch.min.js</a>]]></description>
-            <link>https://github.com/algolia/algoliasearch-client-js</link>
-            <guid isPermaLink="false">algoliasearch2.9.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 20 Mar 2015 06:41:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[vault.js updated to version 0.1.9]]></title>
@@ -321,14 +361,6 @@
             <guid isPermaLink="false">danialfarid-angular-file-upload3.2.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 18 Mar 2015 01:56:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-cache updated to version 4.0.0]]></title>
-            <description><![CDATA[angular-cache is a very useful replacement for Angular's $cacheFactory.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.0.0/angular-cache.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.0.0/angular-cache.min.js</a>]]></description>
-            <link>http://jmdobry.github.io/angular-cache</link>
-            <guid isPermaLink="false">angular-cache4.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 01:56:35 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootswatch updated to version 3.3.4]]></title>
@@ -761,14 +793,6 @@
             <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.14/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.14/webfontloader.js</a>]]></description>
             <link>http://code.google.com/apis/webfonts/docs/webfont_loader.html</link>
             <guid isPermaLink="false">webfont1.5.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webcomponentsjs(0.5.5) was added]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.5/webcomponents.min.js">//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.5/webcomponents.min.js</a>]]></description>
-            <link>http://webcomponents.org</link>
-            <guid isPermaLink="false">webcomponentsjs0.5.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -7777,14 +7801,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bla(1.2.0) was added]]></title>
-            <description><![CDATA[Easy way to create your own API methods for server and client sides<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bla/1.2.0/bla.min.js">//cdnjs.cloudflare.com/ajax/libs/bla/1.2.0/bla.min.js</a>]]></description>
-            <link>https://github.com/baby-loris/bla</link>
-            <guid isPermaLink="false">bla1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bitcoinjs-lib(0.2.0-1) was added]]></title>
             <description><![CDATA[Client-side Bitcoin JavaScript library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bitcoinjs-lib/0.2.0-1/bitcoinjs-min.js">//cdnjs.cloudflare.com/ajax/libs/bitcoinjs-lib/0.2.0-1/bitcoinjs-min.js</a>]]></description>
             <link>http://bitcoinjs.org/</link>
@@ -8570,14 +8586,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[analytics.js(2.3.27) was added]]></title>
-            <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.3.27/analytics.min.js">//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.3.27/analytics.min.js</a>]]></description>
-            <link>https://segment.io/docs/libraries/analytics.js/</link>
-            <guid isPermaLink="false">analytics.js2.3.27</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[amstockchart(3.13.0) was added]]></title>
             <description><![CDATA[amCharts is a robust charting tool that will suit any dataviz need.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/amstockchart/3.13.0/amstock.js">//cdnjs.cloudflare.com/ajax/libs/amstockchart/3.13.0/amstock.js</a>]]></description>
             <link>http://www.amcharts.com/</link>
@@ -8772,14 +8780,6 @@
             <description><![CDATA[JavaScript library for one-directional scrolling with item based navigation support<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Sly/1.2.1/sly.min.js">//cdnjs.cloudflare.com/ajax/libs/Sly/1.2.1/sly.min.js</a>]]></description>
             <link>http://darsa.in/sly/</link>
             <guid isPermaLink="false">Sly1.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[SlickNav(1.0.1) was added]]></title>
-            <description><![CDATA[Responsive Mobile Menu Plugin for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.1/jquery.slicknav.min.js">//cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.1/jquery.slicknav.min.js</a>]]></description>
-            <link>http://slicknav.com/</link>
-            <guid isPermaLink="false">SlickNav1.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
