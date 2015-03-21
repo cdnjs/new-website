@@ -10,10 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Mar 2015 07:17:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Mar 2015 07:46:47 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[hellojs(1.5.0) was added]]></title>
+            <description><![CDATA[A clientside Javascript library for standardizing requests to OAuth2 web services (and OAuth1 - with a shim)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hellojs/1.5.0/hello.all.min.js">//cdnjs.cloudflare.com/ajax/libs/hellojs/1.5.0/hello.all.min.js</a>]]></description>
+            <guid isPermaLink="false">hellojs1.5.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 21 Mar 2015 07:31:46 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[nanogallery updated to version 5.5.3]]></title>
             <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.3/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.3/jquery.nanogallery.min.js</a>]]></description>
