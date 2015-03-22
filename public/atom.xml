@@ -10,10 +10,48 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Mar 2015 18:03:59 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Mar 2015 18:17:27 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[leaflet-providers updated to version 1.0.23]]></title>
+            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.23/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.23/leaflet-providers.js</a>]]></description>
+            <guid isPermaLink="false">leaflet-providers1.0.23</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 17:51:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[proj4js updated to version 2.3.5]]></title>
+            <description><![CDATA[Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.5/proj4.js">//cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.5/proj4.js</a>]]></description>
+            <link>http://proj4js.org/</link>
+            <guid isPermaLink="false">proj4js2.3.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 17:38:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ramda updated to version 0.12.0]]></title>
+            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.12.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.12.0/ramda.min.js</a>]]></description>
+            <link>https://www.github.com/ramda/ramda</link>
+            <guid isPermaLink="false">ramda0.12.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 17:38:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[matreshka updated to version 0.4.1]]></title>
+            <description><![CDATA[JavaScript framework for programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/matreshka/0.4.1/matreshka.min.js">//cdnjs.cloudflare.com/ajax/libs/matreshka/0.4.1/matreshka.min.js</a>]]></description>
+            <link>http://matreshka.io/</link>
+            <guid isPermaLink="false">matreshka0.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 17:37:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[set-iframe-height updated to version 1.1.5]]></title>
+            <description><![CDATA[cross-domain responsive iframes: automatically set iframe height to fit iframe content<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/set-iframe-height/1.1.5/set-iframe-height-parent-min.js">//cdnjs.cloudflare.com/ajax/libs/set-iframe-height/1.1.5/set-iframe-height-parent-min.js</a>]]></description>
+            <guid isPermaLink="false">set-iframe-height1.1.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 17:36:53 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[github-org-members.js(1.0.0) was added]]></title>
             <description><![CDATA[A JavaScript library for fetching and rendering in HTML the members of a GitHub organization.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/github-org-members.js/1.0.0/github-org-members.js">//cdnjs.cloudflare.com/ajax/libs/github-org-members.js/1.0.0/github-org-members.js</a>]]></description>
@@ -61,6 +99,14 @@
             <guid isPermaLink="false">jquery-prompt211.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 22 Mar 2015 15:24:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cutjs updated to version 0.4.12]]></title>
+            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.12/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.12/cut.web.min.js</a>]]></description>
+            <link>http://cutjs.org/</link>
+            <guid isPermaLink="false">cutjs0.4.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 13:03:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[m8tro-bootstrap updated to version 3.3.4]]></title>
@@ -1972,13 +2018,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[set-iframe-height(1.1.1) was added]]></title>
-            <description><![CDATA[cross-domain responsive iframes: automatically set iframe height to fit iframe content<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/set-iframe-height/1.1.1/set-iframe-height-parent-min.js">//cdnjs.cloudflare.com/ajax/libs/set-iframe-height/1.1.1/set-iframe-height-parent-min.js</a>]]></description>
-            <guid isPermaLink="false">set-iframe-height1.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[semantic-ui(1.11.4) was added]]></title>
             <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.4/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.4/semantic.min.js</a>]]></description>
             <link>http://semantic-ui.com/</link>
@@ -2449,14 +2488,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ramda(0.11.0) was added]]></title>
-            <description><![CDATA[A practical functional library for Javascript programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ramda/0.11.0/ramda.min.js">//cdnjs.cloudflare.com/ajax/libs/ramda/0.11.0/ramda.min.js</a>]]></description>
-            <link>https://www.github.com/ramda/ramda</link>
-            <guid isPermaLink="false">ramda0.11.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[rainyday.js(0.1.2) was added]]></title>
             <description><![CDATA[Simulating raindrops falling on a window<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rainyday.js/0.1.2/rainyday.min.js">//cdnjs.cloudflare.com/ajax/libs/rainyday.js/0.1.2/rainyday.min.js</a>]]></description>
             <link>https://github.com/maroslaw/rainyday.js</link>
@@ -2636,14 +2667,6 @@
             <description><![CDATA[Prototype is a JavaScript Framework that aims to ease development of dynamic web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/prototype/1.7.2/prototype.js">//cdnjs.cloudflare.com/ajax/libs/prototype/1.7.2/prototype.js</a>]]></description>
             <link>http://prototypejs.org/</link>
             <guid isPermaLink="false">prototype1.7.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[proj4js(2.3.3) was added]]></title>
-            <description><![CDATA[Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.3/proj4.js">//cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.3/proj4.js</a>]]></description>
-            <link>http://proj4js.org/</link>
-            <guid isPermaLink="false">proj4js2.3.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -3960,13 +3983,6 @@
             <description><![CDATA[Vector drawing plugin for Leaflet<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.js">//cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.js</a>]]></description>
             <link>https://github.com/Leaflet/Leaflet.draw</link>
             <guid isPermaLink="false">leaflet.draw0.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[leaflet-providers(1.0.22) was added]]></title>
-            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.22/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.22/leaflet-providers.js</a>]]></description>
-            <guid isPermaLink="false">leaflet-providers1.0.22</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -7272,14 +7288,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[cutjs(0.4.9) was added]]></title>
-            <description><![CDATA[Lightweight, fast, interactable 2D HTML5 rendering engine for cross-platform game development.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.9/cut.web.min.js">//cdnjs.cloudflare.com/ajax/libs/cutjs/0.4.9/cut.web.min.js</a>]]></description>
-            <link>http://cutjs.org/</link>
-            <guid isPermaLink="false">cutjs0.4.9</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[custom-elements-builder(0.3.3) was added]]></title>
             <description><![CDATA[Custom Elements Builder (ceb) is ... a builder for Custom Elements.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.3.3/ceb.min.js">//cdnjs.cloudflare.com/ajax/libs/custom-elements-builder/0.3.3/ceb.min.js</a>]]></description>
             <link>https://tmorin.github.io/custom-elements-builder</link>
@@ -9200,14 +9208,6 @@
             <guid isPermaLink="false">outdated-browser1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 13 Mar 2015 12:17:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[matreshka(0.4.1) was added]]></title>
-            <description><![CDATA[JavaScript framework for programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/matreshka/0.4.1/matreshka.min.js">//cdnjs.cloudflare.com/ajax/libs/matreshka/0.4.1/matreshka.min.js</a>]]></description>
-            <link>http://matreshka.io/</link>
-            <guid isPermaLink="false">matreshka0.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Feb 2015 17:54:31 GMT</pubDate>
         </item>
     </channel>
 </rss>
