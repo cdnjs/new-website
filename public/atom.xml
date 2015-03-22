@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Mar 2015 04:32:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Mar 2015 12:32:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[m8tro-bootstrap updated to version 3.3.4]]></title>
+            <description><![CDATA[Bootstrap theme inspired by Windows Modern UI (aka Metro)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.4/m8tro.min.css">//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.4/m8tro.min.css</a>]]></description>
+            <link>http://idleberg.github.io/m8tro-bootstrap/</link>
+            <guid isPermaLink="false">m8tro-bootstrap3.3.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 11:31:13 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jQuery.mmenu updated to version 5.0.1]]></title>
             <description><![CDATA[A jQuery plugin that creates slick app look-alike sliding menus for your (mobile) website with horizontal or vertical submenus. It's easy to customize and has options for headers, labels, counters, a searchfield and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.1/js/jquery.mmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.1/js/jquery.mmenu.min.js</a>]]></description>
@@ -3705,14 +3713,6 @@
             <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/machina.js/1.0.0-2/machina.min.js">//cdnjs.cloudflare.com/ajax/libs/machina.js/1.0.0-2/machina.min.js</a>]]></description>
             <link>http://machina-js.org/</link>
             <guid isPermaLink="false">machina.js1.0.0-2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[m8tro-bootstrap(3.3.2) was added]]></title>
-            <description><![CDATA[Bootstrap theme inspired by Windows Modern UI (aka Metro)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.2/m8tro.min.css">//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.2/m8tro.min.css</a>]]></description>
-            <link>http://idleberg.github.io/m8tro-bootstrap/</link>
-            <guid isPermaLink="false">m8tro-bootstrap3.3.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
