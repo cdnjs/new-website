@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 21 Mar 2015 19:02:26 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Mar 2015 04:32:09 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jQuery.mmenu updated to version 5.0.1]]></title>
+            <description><![CDATA[A jQuery plugin that creates slick app look-alike sliding menus for your (mobile) website with horizontal or vertical submenus. It's easy to customize and has options for headers, labels, counters, a searchfield and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.1/js/jquery.mmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.1/js/jquery.mmenu.min.js</a>]]></description>
+            <link>http://mmenu.frebsite.nl/</link>
+            <guid isPermaLink="false">jQuery.mmenu5.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 04:26:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rivets updated to version 0.8.1]]></title>
+            <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.8.1/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.8.1/rivets.min.js</a>]]></description>
+            <link>http://rivetsjs.com</link>
+            <guid isPermaLink="false">rivets0.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 04:20:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[markdown-it updated to version 4.0.2]]></title>
+            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/4.0.2/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/4.0.2/markdown-it.min.js</a>]]></description>
+            <link>https://github.com/markdown-it/markdown-it</link>
+            <guid isPermaLink="false">markdown-it4.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 04:19:48 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Swiper updated to version 3.0.5]]></title>
             <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.5/js/swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.5/js/swiper.min.js</a>]]></description>
@@ -2097,14 +2121,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[rivets(0.8.0) was added]]></title>
-            <description><![CDATA[Data binding + templating solution.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rivets/0.8.0/rivets.min.js">//cdnjs.cloudflare.com/ajax/libs/rivets/0.8.0/rivets.min.js</a>]]></description>
-            <link>http://rivetsjs.com</link>
-            <guid isPermaLink="false">rivets0.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[riot(2.0.13) was added]]></title>
             <description><![CDATA[A React- like, 2.5K user interface library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/riot/2.0.13/riot.min.js">//cdnjs.cloudflare.com/ajax/libs/riot/2.0.13/riot.min.js</a>]]></description>
             <link>https://muut.com/riotjs/</link>
@@ -3657,14 +3673,6 @@
             <description><![CDATA[Yet another Markdown parser, this time for JavaScript. There's a few options that precede this project but they all treat Markdown to HTML conversion as a single step process. You pass Markdown in and get HTML out, end of story.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown.js/0.6.0-beta1/markdown.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown.js/0.6.0-beta1/markdown.min.js</a>]]></description>
             <link>https://github.com/evilstreak/markdown-js/</link>
             <guid isPermaLink="false">markdown.js0.6.0-beta1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[markdown-it(4.0.1) was added]]></title>
-            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown-it/4.0.1/markdown-it.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown-it/4.0.1/markdown-it.min.js</a>]]></description>
-            <link>https://github.com/markdown-it/markdown-it</link>
-            <guid isPermaLink="false">markdown-it4.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -5680,14 +5688,6 @@
             <description><![CDATA[jScrollPane - cross browser styleable scrollbars with jQuery and CSS<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jScrollPane/2.0.14/jquery.jscrollpane.min.js">//cdnjs.cloudflare.com/ajax/libs/jScrollPane/2.0.14/jquery.jscrollpane.min.js</a>]]></description>
             <link>http://jscrollpane.kelvinluck.com</link>
             <guid isPermaLink="false">jScrollPane2.0.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jQuery.mmenu(4.7.5) was added]]></title>
-            <description><![CDATA[A jQuery plugin that creates slick app look-alike sliding menus for your (mobile) website with horizontal or vertical submenus. It's easy to customize and has options for headers, labels, counters, a searchfield and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/4.7.5/js/jquery.mmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/4.7.5/js/jquery.mmenu.min.js</a>]]></description>
-            <link>http://mmenu.frebsite.nl/</link>
-            <guid isPermaLink="false">jQuery.mmenu4.7.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
