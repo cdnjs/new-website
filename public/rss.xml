@@ -10,10 +10,58 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 22 Mar 2015 12:32:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Mar 2015 18:03:59 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[github-org-members.js(1.0.0) was added]]></title>
+            <description><![CDATA[A JavaScript library for fetching and rendering in HTML the members of a GitHub organization.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/github-org-members.js/1.0.0/github-org-members.js">//cdnjs.cloudflare.com/ajax/libs/github-org-members.js/1.0.0/github-org-members.js</a>]]></description>
+            <link>https://github.com/IonicaBizau/github-org-members.js</link>
+            <guid isPermaLink="false">github-org-members.js1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 15:38:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[medium-editor-custom-html(1.0.0) was added]]></title>
+            <description><![CDATA[Insert custom HTML using a new button in the Medium Editor toolbar<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/medium-editor-custom-html/1.0.0/custom-html.js">//cdnjs.cloudflare.com/ajax/libs/medium-editor-custom-html/1.0.0/custom-html.js</a>]]></description>
+            <link>https://github.com/jillix/medium-editor-custom-html</link>
+            <guid isPermaLink="false">medium-editor-custom-html1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 15:28:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-image-upload(1.0.0) was added]]></title>
+            <description><![CDATA[A jQuery plugin that adds controls to the selected jQuery elements with a simple call.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-image-upload/1.0.0/jQuery-image-upload.js">//cdnjs.cloudflare.com/ajax/libs/jquery-image-upload/1.0.0/jQuery-image-upload.js</a>]]></description>
+            <link>https://github.com/jillix/jQuery-image-upload</link>
+            <guid isPermaLink="false">jquery-image-upload1.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 15:24:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-sidebar(3.0.0) was added]]></title>
+            <description><![CDATA[A stupid simple sidebar jQuery plugin.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-sidebar/3.0.0/jquery.sidebar.js">//cdnjs.cloudflare.com/ajax/libs/jquery-sidebar/3.0.0/jquery.sidebar.js</a>]]></description>
+            <link>https://github.com/jillix/jQuery-sidebar</link>
+            <guid isPermaLink="false">jquery-sidebar3.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 15:24:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-json-editor(1.1.0) was added]]></title>
+            <description><![CDATA[A jQuery library for editing JSON data.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-json-editor/1.1.0/jquery-json-editor.js">//cdnjs.cloudflare.com/ajax/libs/jquery-json-editor/1.1.0/jquery-json-editor.js</a>]]></description>
+            <link>https://github.com/jillix/jQuery-json-editor</link>
+            <guid isPermaLink="false">jquery-json-editor1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 15:24:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-prompt21(1.1.0) was added]]></title>
+            <description><![CDATA[A minimalist jQuery prompt plugin for the 21st Century.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-prompt21/1.1.0/jquery-prompt21.js">//cdnjs.cloudflare.com/ajax/libs/jquery-prompt21/1.1.0/jquery-prompt21.js</a>]]></description>
+            <link>https://github.com/jillix/jQuery-prompt21</link>
+            <guid isPermaLink="false">jquery-prompt211.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 22 Mar 2015 15:24:08 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[m8tro-bootstrap updated to version 3.3.4]]></title>
             <description><![CDATA[Bootstrap theme inspired by Windows Modern UI (aka Metro)<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.4/m8tro.min.css">//cdnjs.cloudflare.com/ajax/libs/m8tro-bootstrap/3.3.4/m8tro.min.css</a>]]></description>
