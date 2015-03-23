@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 23 Mar 2015 06:47:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Mar 2015 16:32:21 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ractive-require(0.1.0) was added]]></title>
+            <description><![CDATA[Require Ractive views on demand in Package by Feature way<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ractive-require/0.1.0/ractive-require.min.js">//cdnjs.cloudflare.com/ajax/libs/ractive-require/0.1.0/ractive-require.min.js</a>]]></description>
+            <link>https://github.com/XavierBoubert/ractive-require</link>
+            <guid isPermaLink="false">ractive-require0.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 23 Mar 2015 11:00:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jQuery.mmenu updated to version 5.0.2]]></title>
             <description><![CDATA[A jQuery plugin that creates slick app look-alike sliding menus for your (mobile) website with horizontal or vertical submenus. It's easy to customize and has options for headers, labels, counters, a searchfield and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.2/js/jquery.mmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.2/js/jquery.mmenu.min.js</a>]]></description>
