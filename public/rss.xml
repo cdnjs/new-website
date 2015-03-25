@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Mar 2015 04:17:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2015 10:17:36 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[caiuss(1.0.2) was added]]></title>
+            <description><![CDATA[A Minimalist and Civilized CSS framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/caiuss/1.0.2/caiuss.min.css">//cdnjs.cloudflare.com/ajax/libs/caiuss/1.0.2/caiuss.min.css</a>]]></description>
+            <link>https://github.com/IonicaBizau/CaiuSS</link>
+            <guid isPermaLink="false">caiuss1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Mar 2015 14:19:27 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ng-slider(2.2.3) was added]]></title>
             <description><![CDATA[AngularJS directive slider control.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-slider/2.2.3//ng-slider.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-slider/2.2.3//ng-slider.min.js</a>]]></description>
