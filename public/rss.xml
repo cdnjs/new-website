@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 24 Mar 2015 05:48:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2015 04:17:06 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ng-slider(2.2.3) was added]]></title>
+            <description><![CDATA[AngularJS directive slider control.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-slider/2.2.3//ng-slider.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-slider/2.2.3//ng-slider.min.js</a>]]></description>
+            <link>https://github.com/darul75/ng-slider</link>
+            <guid isPermaLink="false">ng-slider2.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 24 Mar 2015 14:18:47 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[semantic-ui updated to version 1.11.5]]></title>
             <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.5/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.5/semantic.min.js</a>]]></description>
