@@ -10,10 +10,113 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 25 Mar 2015 10:17:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Mar 2015 12:18:23 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[leaflet-providers updated to version 1.0.24]]></title>
+            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.24/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.24/leaflet-providers.js</a>]]></description>
+            <guid isPermaLink="false">leaflet-providers1.0.24</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 12:05:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ember-data.js updated to version 1.0.0-beta.16.1]]></title>
+            <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.16.1/ember-data.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.16.1/ember-data.min.js</a>]]></description>
+            <link>https://github.com/emberjs/data</link>
+            <guid isPermaLink="false">ember-data.js1.0.0-beta.16.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 12:04:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[nanogallery updated to version 5.5.4]]></title>
+            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.4/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.4/jquery.nanogallery.min.js</a>]]></description>
+            <link>http://nanogallery.brisbois.fr/</link>
+            <guid isPermaLink="false">nanogallery5.5.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 12:03:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[picturefill updated to version 2.3.0]]></title>
+            <description><![CDATA[A responsive image polyfill for <picture>, srcset, sizes, and more<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.0/picturefill.min.js">//cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.0/picturefill.min.js</a>]]></description>
+            <link>http://scottjehl.github.com/picturefill/</link>
+            <guid isPermaLink="false">picturefill2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 12:03:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[clappr updated to version 0.0.112]]></title>
+            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.112/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.112/clappr.min.js</a>]]></description>
+            <link>https://github.com/globocom/clappr</link>
+            <guid isPermaLink="false">clappr0.0.112</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 12:03:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap3-dialog updated to version 1.34.3]]></title>
+            <description><![CDATA[Make use of Bootstrap Modal more monkey-friendly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.3/js/bootstrap-dialog.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.3/js/bootstrap-dialog.min.js</a>]]></description>
+            <link>http://nakupanda.github.io/bootstrap3-dialog</link>
+            <guid isPermaLink="false">bootstrap3-dialog1.34.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 12:02:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[animate.css updated to version 3.2.6]]></title>
+            <description><![CDATA[Plug and play, app-like animations for your websites and web apps.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css</a>]]></description>
+            <link>http://daneden.github.io/animate.css</link>
+            <guid isPermaLink="false">animate.css3.2.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 12:02:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[viewer.js updated to version 0.10.6]]></title>
+            <description><![CDATA[A viewer for documents converted with the Box View API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.6/crocodoc.viewer.min.js">//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.6/crocodoc.viewer.min.js</a>]]></description>
+            <link>https://github.com/box/viewer.js</link>
+            <guid isPermaLink="false">viewer.js0.10.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 12:01:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webfont updated to version 1.5.15]]></title>
+            <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.15/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.15/webfontloader.js</a>]]></description>
+            <link>http://code.google.com/apis/webfonts/docs/webfont_loader.html</link>
+            <guid isPermaLink="false">webfont1.5.15</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 12:01:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mojio-js updated to version 3.0.1]]></title>
+            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.0.1/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.0.1/mojio-js.min.js</a>]]></description>
+            <link>https://github.com/mojio/mojio-js</link>
+            <guid isPermaLink="false">mojio-js3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 11:59:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[handlebars.js updated to version 3.0.1]]></title>
+            <description><![CDATA[Handlebars provides the power necessary to let you build semantic templates effectively with no frustration. Mustache templates are compatible with Handlebars, so you can take a Mustache template, import it into Handlebars, and start taking advantage of the extra Handlebars features.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js">//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js</a>]]></description>
+            <link>http://www.handlebarsjs.com</link>
+            <guid isPermaLink="false">handlebars.js3.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 10:02:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[analytics.js updated to version 2.8.2]]></title>
+            <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.8.2/analytics.min.js">//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.8.2/analytics.min.js</a>]]></description>
+            <link>https://segment.io/docs/libraries/analytics.js/</link>
+            <guid isPermaLink="false">analytics.js2.8.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 10:01:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[matreshka updated to version 1.0.2]]></title>
+            <description><![CDATA[JavaScript framework for programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/matreshka/1.0.2/matreshka.min.js">//cdnjs.cloudflare.com/ajax/libs/matreshka/1.0.2/matreshka.min.js</a>]]></description>
+            <link>http://matreshka.io/</link>
+            <guid isPermaLink="false">matreshka1.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 25 Mar 2015 10:00:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[caiuss(1.0.2) was added]]></title>
             <description><![CDATA[A Minimalist and Civilized CSS framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/caiuss/1.0.2/caiuss.min.css">//cdnjs.cloudflare.com/ajax/libs/caiuss/1.0.2/caiuss.min.css</a>]]></description>
@@ -95,14 +198,6 @@
             <pubDate>Mon, 23 Mar 2015 23:46:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ember-data.js updated to version 1.0.0-beta.16]]></title>
-            <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.16/ember-data.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.16/ember-data.min.js</a>]]></description>
-            <link>https://github.com/emberjs/data</link>
-            <guid isPermaLink="false">ember-data.js1.0.0-beta.16</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 23 Mar 2015 16:42:49 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[codemirror updated to version 5.1.0]]></title>
             <description><![CDATA[In-browser code editing made bearable<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.1.0/codemirror.min.js">//cdnjs.cloudflare.com/ajax/libs/codemirror/5.1.0/codemirror.min.js</a>]]></description>
             <link>http://codemirror.net</link>
@@ -158,14 +253,6 @@
             <pubDate>Mon, 23 Mar 2015 05:37:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[matreshka updated to version 1.0.0]]></title>
-            <description><![CDATA[JavaScript framework for programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/matreshka/1.0.0/matreshka.min.js">//cdnjs.cloudflare.com/ajax/libs/matreshka/1.0.0/matreshka.min.js</a>]]></description>
-            <link>http://matreshka.io/</link>
-            <guid isPermaLink="false">matreshka1.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 23 Mar 2015 05:35:34 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-cache updated to version 4.0.2]]></title>
             <description><![CDATA[angular-cache is a very useful replacement for Angular's $cacheFactory.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.0.2/angular-cache.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.0.2/angular-cache.min.js</a>]]></description>
             <link>http://jmdobry.github.io/angular-cache</link>
@@ -188,13 +275,6 @@
             <guid isPermaLink="false">tablesort3.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 22 Mar 2015 18:22:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[leaflet-providers updated to version 1.0.23]]></title>
-            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.23/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.23/leaflet-providers.js</a>]]></description>
-            <guid isPermaLink="false">leaflet-providers1.0.23</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 22 Mar 2015 17:51:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[proj4js updated to version 2.3.5]]></title>
@@ -379,14 +459,6 @@
             <pubDate>Sat, 21 Mar 2015 07:31:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[nanogallery updated to version 5.5.3]]></title>
-            <description><![CDATA[Image gallery simplified. nanoGALLERY is an easy to implement image gallery plugin for jQuery. It is touch enabled, responsive, fast and it supports cloud storage. Featuring multi-level navigation in albums, lightbox, combinable hover effects on thumbnails, slideshow, fullscreen, pagination, image lazy load, themes, deep linking, browser back/forward navigation, i18n, and pulling in Flickr, Picasa, Google+ and SmugMug photo albums among others.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.3/jquery.nanogallery.min.js">//cdnjs.cloudflare.com/ajax/libs/nanogallery/5.5.3/jquery.nanogallery.min.js</a>]]></description>
-            <link>http://nanogallery.brisbois.fr/</link>
-            <guid isPermaLink="false">nanogallery5.5.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 21 Mar 2015 07:10:57 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[webcomponentsjs updated to version 0.6.0]]></title>
             <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.6.0/webcomponents.min.js">//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.6.0/webcomponents.min.js</a>]]></description>
             <link>http://webcomponents.org</link>
@@ -409,14 +481,6 @@
             <guid isPermaLink="false">bla1.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 21 Mar 2015 06:51:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[analytics.js updated to version 2.8.1]]></title>
-            <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.8.1/analytics.min.js">//cdnjs.cloudflare.com/ajax/libs/analytics.js/2.8.1/analytics.min.js</a>]]></description>
-            <link>https://segment.io/docs/libraries/analytics.js/</link>
-            <guid isPermaLink="false">analytics.js2.8.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 21 Mar 2015 06:37:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[algoliasearch updated to version 2.9.4]]></title>
@@ -497,14 +561,6 @@
             <pubDate>Thu, 19 Mar 2015 16:27:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[clappr updated to version 0.0.111]]></title>
-            <description><![CDATA[An extensible media player for the web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.111/clappr.min.js">//cdnjs.cloudflare.com/ajax/libs/clappr/0.0.111/clappr.min.js</a>]]></description>
-            <link>https://github.com/globocom/clappr</link>
-            <guid isPermaLink="false">clappr0.0.111</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 16:26:56 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[video.js updated to version 4.12.5]]></title>
             <description><![CDATA[Open source HTML5 & Flash video player<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/video.js/4.12.5/video.js">//cdnjs.cloudflare.com/ajax/libs/video.js/4.12.5/video.js</a>]]></description>
             <link>http://videojs.com/</link>
@@ -559,14 +615,6 @@
             <guid isPermaLink="false">jquery-timepicker1.6.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Mar 2015 05:22:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[animate.css updated to version 3.2.5]]></title>
-            <description><![CDATA[Plug and play, app-like animations for your websites and web apps.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.5/animate.min.css">//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.5/animate.min.css</a>]]></description>
-            <link>http://daneden.github.io/animate.css</link>
-            <guid isPermaLink="false">animate.css3.2.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 05:22:01 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ink updated to version 3.1.5]]></title>
@@ -1121,14 +1169,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[webfont(1.5.14) was added]]></title>
-            <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.14/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.14/webfontloader.js</a>]]></description>
-            <link>http://code.google.com/apis/webfonts/docs/webfont_loader.html</link>
-            <guid isPermaLink="false">webfont1.5.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[web-starter-kit(0.2.0-beta) was added]]></title>
             <description><![CDATA[Google Web Starter Kit: Boilerplate & Tooling for Multi-Device Development<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/web-starter-kit/0.2.0-beta/styles/main.min.css">//cdnjs.cloudflare.com/ajax/libs/web-starter-kit/0.2.0-beta/styles/main.min.css</a>]]></description>
             <link>https://developers.google.com/web/starter-kit/</link>
@@ -1197,14 +1237,6 @@
             <description><![CDATA[A dynamic, browser-based visualization library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vis/3.11.0/vis.min.js">//cdnjs.cloudflare.com/ajax/libs/vis/3.11.0/vis.min.js</a>]]></description>
             <link>http://visjs.org/</link>
             <guid isPermaLink="false">vis3.11.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[viewer.js(0.10.5) was added]]></title>
-            <description><![CDATA[A viewer for documents converted with the Box View API<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.5/crocodoc.viewer.min.js">//cdnjs.cloudflare.com/ajax/libs/viewer.js/0.10.5/crocodoc.viewer.min.js</a>]]></description>
-            <link>https://github.com/box/viewer.js</link>
-            <guid isPermaLink="false">viewer.js0.10.5</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -2963,14 +2995,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[picturefill(2.2.0) was added]]></title>
-            <description><![CDATA[A responsive image polyfill for <picture>, srcset, sizes, and more<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.2.0/picturefill.min.js">//cdnjs.cloudflare.com/ajax/libs/picturefill/2.2.0/picturefill.min.js</a>]]></description>
-            <link>http://scottjehl.github.com/picturefill/</link>
-            <guid isPermaLink="false">picturefill2.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[pickadate.js(3.5.3) was added]]></title>
             <description><![CDATA[The mobile-friendly, responsive, and lightweight jQuery date & time input picker.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.3/picker.js">//cdnjs.cloudflare.com/ajax/libs/pickadate.js/3.5.3/picker.js</a>]]></description>
             <link>http://amsul.github.io/pickadate.js</link>
@@ -3612,14 +3636,6 @@
             <description><![CDATA[Fancy date ranges for Moment.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.7/moment-range.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-range/1.0.7/moment-range.min.js</a>]]></description>
             <link>https://github.com/gf3/moment-range</link>
             <guid isPermaLink="false">moment-range1.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mojio-js(2.2.8) was added]]></title>
-            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.8/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/2.2.8/mojio-js.min.js</a>]]></description>
-            <link>https://github.com/mojio/mojio-js</link>
-            <guid isPermaLink="false">mojio-js2.2.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -6238,14 +6254,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[handlebars.js(3.0.0) was added]]></title>
-            <description><![CDATA[Handlebars provides the power necessary to let you build semantic templates effectively with no frustration. Mustache templates are compatible with Handlebars, so you can take a Mustache template, import it into Handlebars, and start taking advantage of the extra Handlebars features.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js">//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js</a>]]></description>
-            <link>http://www.handlebarsjs.com</link>
-            <guid isPermaLink="false">handlebars.js3.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[hammer.js(2.0.4) was added]]></title>
             <description><![CDATA[A javascript library for multi-touch gestures :// You can touch this <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js">//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js</a>]]></description>
             <link>http://eightmedia.github.com/hammer.js/</link>
@@ -7748,14 +7756,6 @@
             <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.6.1/angular-translate.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate/2.6.1/angular-translate.min.js</a>]]></description>
             <link>http://angular-translate.github.io</link>
             <guid isPermaLink="false">bower-angular-translate2.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap3-dialog(1.34.2) was added]]></title>
-            <description><![CDATA[Make use of Bootstrap Modal more monkey-friendly.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.2/js/bootstrap-dialog.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.2/js/bootstrap-dialog.min.js</a>]]></description>
-            <link>http://nakupanda.github.io/bootstrap3-dialog</link>
-            <guid isPermaLink="false">bootstrap3-dialog1.34.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
