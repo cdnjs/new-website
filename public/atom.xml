@@ -10,10 +10,17 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Mar 2015 12:32:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Mar 2015 13:01:43 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[leaflet-providers updated to version 1.0.26]]></title>
+            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.26/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.26/leaflet-providers.js</a>]]></description>
+            <guid isPermaLink="false">leaflet-providers1.0.26</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Mar 2015 12:47:04 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jade updated to version 1.9.2]]></title>
             <description><![CDATA[A clean, whitespace-sensitive template language for writing HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jade/1.9.2/jade.min.js">//cdnjs.cloudflare.com/ajax/libs/jade/1.9.2/jade.min.js</a>]]></description>
@@ -148,13 +155,6 @@
             <guid isPermaLink="false">lodash-compat3.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 25 Mar 2015 17:07:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[leaflet-providers updated to version 1.0.25]]></title>
-            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.25/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.25/leaflet-providers.js</a>]]></description>
-            <guid isPermaLink="false">leaflet-providers1.0.25</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Mar 2015 17:06:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[timelinejs updated to version 2.35.6]]></title>
