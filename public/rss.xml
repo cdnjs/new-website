@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Mar 2015 09:02:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Mar 2015 12:32:17 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jade updated to version 1.9.2]]></title>
+            <description><![CDATA[A clean, whitespace-sensitive template language for writing HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jade/1.9.2/jade.min.js">//cdnjs.cloudflare.com/ajax/libs/jade/1.9.2/jade.min.js</a>]]></description>
+            <link>http://jade-lang.com/</link>
+            <guid isPermaLink="false">jade1.9.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Mar 2015 11:41:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[overthrow(0.7.0) was added]]></title>
+            <description><![CDATA[A tiny, no-frills, framework-independent, targeted overflow: auto polyfill for use in responsive design.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/overthrow/0.7.0/overthrow.min.js">//cdnjs.cloudflare.com/ajax/libs/overthrow/0.7.0/overthrow.min.js</a>]]></description>
+            <link>http://filamentgroup.github.io/Overthrow</link>
+            <guid isPermaLink="false">overthrow0.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Mar 2015 09:44:54 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.postcodify updated to version 2.5.0]]></title>
             <description><![CDATA[Postcodify is a jQuery plugin and server-side API for searching South Korean street addresses and postal codes.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.5.0/search.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.postcodify/2.5.0/search.min.js</a>]]></description>
@@ -5823,14 +5839,6 @@
             <description><![CDATA[A library for faking Ajax responses in your Jasmine suite.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/3.1.0/mock-ajax.min.js">//cdnjs.cloudflare.com/ajax/libs/jasmine-ajax/3.1.0/mock-ajax.min.js</a>]]></description>
             <link>https://github.com/pivotal/jasmine-ajax/</link>
             <guid isPermaLink="false">jasmine-ajax3.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jade(1.3.1) was added]]></title>
-            <description><![CDATA[Jade template engine<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jade/1.3.1/jade.min.js">//cdnjs.cloudflare.com/ajax/libs/jade/1.3.1/jade.min.js</a>]]></description>
-            <link>http://jade-lang.com/</link>
-            <guid isPermaLink="false">jade1.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
