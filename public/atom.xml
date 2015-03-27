@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 27 Mar 2015 05:47:19 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Mar 2015 14:47:41 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[hover.css updated to version 2.0.2]]></title>
+            <description><![CDATA[A collection of CSS3 powered hover effects to be applied to call to actions, buttons, logos, featured images and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css">//cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css</a>]]></description>
+            <link>http://ianlunn.co.uk/</link>
+            <guid isPermaLink="false">hover.css2.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 12:48:29 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[anchor-js(0.3.1) was added]]></title>
             <description><![CDATA[A tiny javscript utility for adding anchor links to existing page content.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/anchor-js/0.3.1/anchor.min.css">//cdnjs.cloudflare.com/ajax/libs/anchor-js/0.3.1/anchor.min.css</a>]]></description>
@@ -6180,14 +6188,6 @@
             <description><![CDATA[Javascript audio library for the modern web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/howler/1.1.25/howler.min.js">//cdnjs.cloudflare.com/ajax/libs/howler/1.1.25/howler.min.js</a>]]></description>
             <link>http://howlerjs.com/</link>
             <guid isPermaLink="false">howler1.1.25</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[hover.css(1.0.8) was added]]></title>
-            <description><![CDATA[A collection of CSS3 powered hover effects to be applied to call to actions, buttons, logos, featured images and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hover.css/1.0.8/css/hover-min.css">//cdnjs.cloudflare.com/ajax/libs/hover.css/1.0.8/css/hover-min.css</a>]]></description>
-            <link>http://ianlunn.co.uk/</link>
-            <guid isPermaLink="false">hover.css1.0.8</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
