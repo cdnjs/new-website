@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Mar 2015 13:01:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Mar 2015 03:17:30 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[jquery.hoverintent updated to version 2013.03.11]]></title>
+            <description><![CDATA[hoverIntent is a plug-in that attempts to determine the user's intent... like a crystal ball, only with mouse movement! It is similar to jQuery's hover method. However, instead of calling the handlerIn function immediately, hoverIntent waits until the user's mouse slows down enough before making the call.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js</a>]]></description>
+            <link>http://cherne.net/brian/resources/jquery.hoverIntent.html</link>
+            <guid isPermaLink="false">jquery.hoverintent2013.03.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Mar 2015 18:04:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[html2canvas updated to version 0.4.1]]></title>
+            <description><![CDATA[This script allows you to take "screenshots" of webpages or parts of it, directly on the users browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js">//cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js</a>]]></description>
+            <link>http://html2canvas.hertzen.com/</link>
+            <guid isPermaLink="false">html2canvas0.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 26 Mar 2015 17:11:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[leaflet-providers updated to version 1.0.26]]></title>
             <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.26/leaflet-providers.js">//cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.0.26/leaflet-providers.js</a>]]></description>
@@ -4885,14 +4901,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.hoverintent(2013.03.11) was added]]></title>
-            <description><![CDATA[hoverIntent is a plug-in that attempts to determine the user's intent... like a crystal ball, only with mouse movement! It is similar to jQuery's hover method. However, instead of calling the handlerIn function immediately, hoverIntent waits until the user's mouse slows down enough before making the call.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js</a>]]></description>
-            <link>http://cherne.net/brian/resources/jquery.hoverIntent.html</link>
-            <guid isPermaLink="false">jquery.hoverintent2013.03.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery.hashcash.io(0.0.2) was added]]></title>
             <description><![CDATA[jQuery Hashcash.io plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.hashcash.io/0.0.2/jquery.hashcash.io.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.hashcash.io/0.0.2/jquery.hashcash.io.min.js</a>]]></description>
             <link>https://github.com/hashcash/jquery.hashcash.io</link>
@@ -6124,14 +6132,6 @@
             <description><![CDATA[HTML5 History API provides an emulation of HTML5 History API for older browsers<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/html5-history-api/4.0.2/history.iegte8.min.js">//cdnjs.cloudflare.com/ajax/libs/html5-history-api/4.0.2/history.iegte8.min.js</a>]]></description>
             <link>https://github.com/devote/HTML5-History-API</link>
             <guid isPermaLink="false">html5-history-api4.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[html2canvas(0.4.1) was added]]></title>
-            <description><![CDATA[This script allows you to take "screenshots" of webpages or parts of it, directly on the users browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js">//cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js</a>]]></description>
-            <link>http://html2canvas.hertzen.com/</link>
-            <guid isPermaLink="false">html2canvas0.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
