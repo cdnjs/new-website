@@ -10,17 +10,89 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 27 Mar 2015 03:17:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Mar 2015 05:47:19 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[jquery.hoverintent updated to version 2013.03.11]]></title>
-            <description><![CDATA[hoverIntent is a plug-in that attempts to determine the user's intent... like a crystal ball, only with mouse movement! It is similar to jQuery's hover method. However, instead of calling the handlerIn function immediately, hoverIntent waits until the user's mouse slows down enough before making the call.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js</a>]]></description>
-            <link>http://cherne.net/brian/resources/jquery.hoverIntent.html</link>
-            <guid isPermaLink="false">jquery.hoverintent2013.03.11</guid>
+            <title><![CDATA[anchor-js(0.3.1) was added]]></title>
+            <description><![CDATA[A tiny javscript utility for adding anchor links to existing page content.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/anchor-js/0.3.1/anchor.min.css">//cdnjs.cloudflare.com/ajax/libs/anchor-js/0.3.1/anchor.min.css</a>]]></description>
+            <link>https://github.com/bryanbraun/anchorjs</link>
+            <guid isPermaLink="false">anchor-js0.3.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Mar 2015 18:04:48 GMT</pubDate>
+            <pubDate>Fri, 27 Mar 2015 04:59:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.tablesorter updated to version 2.21.3]]></title>
+            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.3/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.3/js/jquery.tablesorter.min.js</a>]]></description>
+            <link>http://mottie.github.com/tablesorter/</link>
+            <guid isPermaLink="false">jquery.tablesorter2.21.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 04:58:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.payment updated to version 1.2.3]]></title>
+            <description><![CDATA[A general purpose library for building credit card forms, validating inputs and formatting numbers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.3/jquery.payment.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.3/jquery.payment.min.js</a>]]></description>
+            <link>https://github.com/stripe/jquery.payment</link>
+            <guid isPermaLink="false">jquery.payment1.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 04:05:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angularjs-toaster updated to version 0.4.11]]></title>
+            <description><![CDATA[AngularJS Toaster is a customized version of 'toastr' non-blocking notification javascript library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.11/toaster.min.js">//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.11/toaster.min.js</a>]]></description>
+            <link>https://github.com/jirikavi/AngularJS-Toaster</link>
+            <guid isPermaLink="false">angularjs-toaster0.4.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 04:04:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.hoverintent updated to version 1.8.1]]></title>
+            <description><![CDATA[hoverIntent is a plug-in that attempts to determine the user's intent... like a crystal ball, only with mouse movement! It is similar to jQuery's hover method. However, instead of calling the handlerIn function immediately, hoverIntent waits until the user's mouse slows down enough before making the call.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js</a>]]></description>
+            <link>http://cherne.net/brian/resources/jquery.hoverIntent.html</link>
+            <guid isPermaLink="false">jquery.hoverintent1.8.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 04:03:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mojio-js updated to version 3.1.2]]></title>
+            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.1.2/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.1.2/mojio-js.min.js</a>]]></description>
+            <link>https://github.com/mojio/mojio-js</link>
+            <guid isPermaLink="false">mojio-js3.1.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 04:01:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.31]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.31/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.31/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.31</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 03:37:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[maquette updated to version 1.5.3]]></title>
+            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.5.3/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.5.3/maquette.min.js</a>]]></description>
+            <link>http://johan-gorter.github.io/maquette/</link>
+            <guid isPermaLink="false">maquette1.5.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 03:37:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[elasticsearch updated to version 4.0.1]]></title>
+            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/4.0.1/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/4.0.1/elasticsearch.js</a>]]></description>
+            <link>https://github.com/elasticsearch/elasticsearch-js</link>
+            <guid isPermaLink="false">elasticsearch4.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 03:36:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.9.15]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.15/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.15/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.9.15</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 03:36:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[html2canvas updated to version 0.4.1]]></title>
@@ -251,14 +323,6 @@
             <guid isPermaLink="false">webfont1.5.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 25 Mar 2015 12:01:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mojio-js updated to version 3.0.1]]></title>
-            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.0.1/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.0.1/mojio-js.min.js</a>]]></description>
-            <link>https://github.com/mojio/mojio-js</link>
-            <guid isPermaLink="false">mojio-js3.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Mar 2015 11:59:10 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[handlebars.js updated to version 3.0.1]]></title>
@@ -3742,14 +3806,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[mithril(0.1.30) was added]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.30/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.30/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.30</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[minitranslate(1.2.0) was added]]></title>
             <description><![CDATA[A lightweight way to change words into other words.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/minitranslate/1.2.0/minitranslate.min.js">//cdnjs.cloudflare.com/ajax/libs/minitranslate/1.2.0/minitranslate.min.js</a>]]></description>
             <link>http://bryce.io/minitranslate</link>
@@ -3903,14 +3959,6 @@
             <description><![CDATA[Yet another Markdown parser, this time for JavaScript. There's a few options that precede this project but they all treat Markdown to HTML conversion as a single step process. You pass Markdown in and get HTML out, end of story.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/markdown.js/0.6.0-beta1/markdown.min.js">//cdnjs.cloudflare.com/ajax/libs/markdown.js/0.6.0-beta1/markdown.min.js</a>]]></description>
             <link>https://github.com/evilstreak/markdown-js/</link>
             <guid isPermaLink="false">markdown.js0.6.0-beta1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[maquette(1.5.2) was added]]></title>
-            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.5.2/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.5.2/maquette.min.js</a>]]></description>
-            <link>http://johan-gorter.github.io/maquette/</link>
-            <guid isPermaLink="false">maquette1.5.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -4606,14 +4654,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.tablesorter(2.21.2) was added]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.2/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.2/js/jquery.tablesorter.min.js</a>]]></description>
-            <link>http://mottie.github.com/tablesorter/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.21.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery.swipebox(1.3.0.2) was added]]></title>
             <description><![CDATA[A touchable jQuery lightbox.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.min.js</a>]]></description>
             <link>https://brutaldesign.github.io/swipebox/</link>
@@ -4762,14 +4802,6 @@
             <description><![CDATA[Kinetic drag for mobile & desktop.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.pep/0.4.0/jquery.pep.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.pep/0.4.0/jquery.pep.min.js</a>]]></description>
             <link>http://pep.briangonzalez.org</link>
             <guid isPermaLink="false">jquery.pep0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.payment(1.2.2) was added]]></title>
-            <description><![CDATA[A general purpose library for building credit card forms, validating inputs and formatting numbers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.2/jquery.payment.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.2/jquery.payment.min.js</a>]]></description>
-            <link>https://github.com/stripe/jquery.payment</link>
-            <guid isPermaLink="false">jquery.payment1.2.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -7007,14 +7039,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[elasticsearch(3.1.3) was added]]></title>
-            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.3/elasticsearch.js">//cdnjs.cloudflare.com/ajax/libs/elasticsearch/3.1.3/elasticsearch.js</a>]]></description>
-            <link>https://github.com/elasticsearch/elasticsearch-js</link>
-            <guid isPermaLink="false">elasticsearch3.1.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ekko-lightbox(3.2.3) was added]]></title>
             <description><![CDATA[A lightbox gallery plugin for Bootstrap 3 based on the modal plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.2.3/ekko-lightbox.min.js">//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.2.3/ekko-lightbox.min.js</a>]]></description>
             <link>https://github.com/ashleydw/lightbox</link>
@@ -7968,14 +7992,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bluebird(2.9.14) was added]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.14/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.14/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.9.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[blanket.js(1.1.4) was added]]></title>
             <description><![CDATA[seamless js code coverage<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/blanket.js/1.1.4/blanket.min.js">//cdnjs.cloudflare.com/ajax/libs/blanket.js/1.1.4/blanket.min.js</a>]]></description>
             <link>https://github.com/alex-seville/blanket</link>
@@ -8470,14 +8486,6 @@
             <description><![CDATA[Vendor-agnostic web analytics for AngularJS applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angulartics/0.17.2/angulartics.min.js">//cdnjs.cloudflare.com/ajax/libs/angulartics/0.17.2/angulartics.min.js</a>]]></description>
             <link>http://luisfarzati.github.io/angulartics</link>
             <guid isPermaLink="false">angulartics0.17.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angularjs-toaster(0.4.10) was added]]></title>
-            <description><![CDATA[AngularJS Toaster is a customized version of 'toastr' non-blocking notification javascript library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.10/toaster.min.js">//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.10/toaster.min.js</a>]]></description>
-            <link>https://github.com/jirikavi/AngularJS-Toaster</link>
-            <guid isPermaLink="false">angularjs-toaster0.4.10</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
