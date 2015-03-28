@@ -10,17 +10,48 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 27 Mar 2015 14:47:41 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Mar 2015 07:47:10 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[mojio-js updated to version 3.1.3]]></title>
+            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.1.3/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.1.3/mojio-js.min.js</a>]]></description>
+            <link>https://github.com/mojio/mojio-js</link>
+            <guid isPermaLink="false">mojio-js3.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 07:33:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps updated to version 2.1.0-X.7]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.7/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.7/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.1.0-X.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 07:33:43 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[hover.css updated to version 2.0.2]]></title>
             <description><![CDATA[A collection of CSS3 powered hover effects to be applied to call to actions, buttons, logos, featured images and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css">//cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css</a>]]></description>
             <link>http://ianlunn.co.uk/</link>
             <guid isPermaLink="false">hover.css2.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Mar 2015 12:48:29 GMT</pubDate>
+            <pubDate>Sat, 28 Mar 2015 07:33:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Swiper updated to version 3.0.6]]></title>
+            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.6/js/swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.6/js/swiper.min.js</a>]]></description>
+            <link>http://www.idangero.us/sliders/swiper</link>
+            <guid isPermaLink="false">Swiper3.0.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 07:18:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 4.2.1]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.2.1/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.2.1/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly4.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 27 Mar 2015 14:11:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[anchor-js(0.3.1) was added]]></title>
@@ -61,14 +92,6 @@
             <guid isPermaLink="false">jquery.hoverintent1.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 27 Mar 2015 04:03:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mojio-js updated to version 3.1.2]]></title>
-            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.1.2/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.1.2/mojio-js.min.js</a>]]></description>
-            <link>https://github.com/mojio/mojio-js</link>
-            <guid isPermaLink="false">mojio-js3.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Mar 2015 04:01:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mithril updated to version 0.1.31]]></title>
@@ -571,14 +594,6 @@
             <pubDate>Sun, 22 Mar 2015 04:20:07 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Swiper updated to version 3.0.5]]></title>
-            <description><![CDATA[Mobile touch slider and framework with hardware accelerated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.5/js/swiper.min.js">//cdnjs.cloudflare.com/ajax/libs/Swiper/3.0.5/js/swiper.min.js</a>]]></description>
-            <link>http://www.idangero.us/sliders/swiper</link>
-            <guid isPermaLink="false">Swiper3.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 21 Mar 2015 18:19:32 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-translate(2.6.1) was added]]></title>
             <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-translate/2.6.1/angular-translate.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-translate/2.6.1/angular-translate.min.js</a>]]></description>
             <link>http://angular-translate.github.io</link>
@@ -895,14 +910,6 @@
             <pubDate>Wed, 18 Mar 2015 17:06:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 4.1.0]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.1.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.1.0/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly4.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 16:54:18 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bower-angular-translate-loader-url updated to version 2.6.1]]></title>
             <description><![CDATA[i18n for your Angular apps, made easy<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-url/2.6.1/angular-translate-loader-url.min.js">//cdnjs.cloudflare.com/ajax/libs/bower-angular-translate-loader-url/2.6.1/angular-translate-loader-url.min.js</a>]]></description>
             <link>http://angular-translate.github.io</link>
@@ -972,13 +979,6 @@
             <guid isPermaLink="false">angular-ui-select0.11.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 17 Mar 2015 12:20:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-google-maps updated to version 2.1.0-X.6]]></title>
-            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.6/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.6/angular-google-maps.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-google-maps2.1.0-X.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 12:19:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ionic updated to version 1.0.0-rc.1]]></title>
