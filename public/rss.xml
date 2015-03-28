@@ -10,10 +10,82 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 28 Mar 2015 07:47:10 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Mar 2015 11:32:18 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[ol3 updated to version 3.4.0]]></title>
+            <description><![CDATA[OpenLayers is a JavaScript library for building map applications on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.4.0/ol.min.js">//cdnjs.cloudflare.com/ajax/libs/ol3/3.4.0/ol.min.js</a>]]></description>
+            <link>http://openlayers.org/</link>
+            <guid isPermaLink="false">ol33.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 11:20:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fast-json-patch updated to version 0.5.2]]></title>
+            <description><![CDATA[Fast implementation of JSON-Patch (RFC-6902) with duplex (observe changes) capabilities<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.2/json-patch-duplex.min.js">//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.2/json-patch-duplex.min.js</a>]]></description>
+            <link>https://github.com/Starcounter-Jack/Fast-JSON-Patch</link>
+            <guid isPermaLink="false">fast-json-patch0.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 08:24:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[semantic-ui updated to version 1.11.6]]></title>
+            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.6/semantic.min.js</a>]]></description>
+            <link>http://semantic-ui.com/</link>
+            <guid isPermaLink="false">semantic-ui1.11.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 08:24:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.4.7]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.7/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.7/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.4.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 08:23:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dustjs-linkedin updated to version 2.6.2]]></title>
+            <description><![CDATA[Asynchronous templates for the browser and node.js ( LinkedIn fork )<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.6.2/dust-core.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.6.2/dust-core.min.js</a>]]></description>
+            <link>http://linkedin.github.com/dustjs/</link>
+            <guid isPermaLink="false">dustjs-linkedin2.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 08:23:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dustjs-helpers updated to version 1.6.2]]></title>
+            <description><![CDATA[Additional functionality for dustjs-linkedin package<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.6.2/dust-helpers.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.6.2/dust-helpers.min.js</a>]]></description>
+            <link>Additional functionality for dustjs-linkedin package</link>
+            <guid isPermaLink="false">dustjs-helpers1.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 08:23:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[immutable updated to version 3.7.0]]></title>
+            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.7.0/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.7.0/immutable.min.js</a>]]></description>
+            <link>https://github.com/facebook/immutable-js</link>
+            <guid isPermaLink="false">immutable3.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 08:21:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.9.16]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.16/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.16/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.9.16</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 08:21:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chai updated to version 2.2.0]]></title>
+            <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chai/2.2.0/chai.js">//cdnjs.cloudflare.com/ajax/libs/chai/2.2.0/chai.js</a>]]></description>
+            <link>http://chaijs.com</link>
+            <guid isPermaLink="false">chai2.2.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 08:16:01 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[mojio-js updated to version 3.1.3]]></title>
             <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.1.3/mojio-js.min.js">//cdnjs.cloudflare.com/ajax/libs/mojio-js/3.1.3/mojio-js.min.js</a>]]></description>
@@ -116,14 +188,6 @@
             <guid isPermaLink="false">elasticsearch4.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 27 Mar 2015 03:36:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bluebird updated to version 2.9.15]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.15/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.15/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.9.15</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Mar 2015 03:36:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[html2canvas updated to version 0.4.1]]></title>
@@ -388,14 +452,6 @@
             <pubDate>Tue, 24 Mar 2015 14:19:27 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[semantic-ui updated to version 1.11.5]]></title>
-            <description><![CDATA[Semantic empowers designers and developers by creating a language for sharing UI<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.5/semantic.min.js">//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.5/semantic.min.js</a>]]></description>
-            <link>http://semantic-ui.com/</link>
-            <guid isPermaLink="false">semantic-ui1.11.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 24 Mar 2015 03:22:50 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[document-register-element updated to version 0.2.2]]></title>
             <description><![CDATA[A stand-alone working lightweight version of the W3C Custom Elements specification<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.2.2/document-register-element.js">//cdnjs.cloudflare.com/ajax/libs/document-register-element/0.2.2/document-register-element.js</a>]]></description>
             <link>https://github.com/WebReflection/document-register-element</link>
@@ -426,14 +482,6 @@
             <guid isPermaLink="false">custom-elements-builder0.3.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 24 Mar 2015 03:18:49 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.4.6]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.6/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.6/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.4.6</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 24 Mar 2015 03:18:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[codemirror updated to version 5.1.0]]></title>
@@ -3377,14 +3425,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ol3(3.3.0) was added]]></title>
-            <description><![CDATA[OpenLayers is a JavaScript library for building map applications on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.3.0/ol.min.js">//cdnjs.cloudflare.com/ajax/libs/ol3/3.3.0/ol.min.js</a>]]></description>
-            <link>http://openlayers.org/</link>
-            <guid isPermaLink="false">ol33.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[oj(0.2.1) was added]]></title>
             <description><![CDATA[A unified templating language for the people. Thirsty people.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/oj/0.2.1/oj.min.js">//cdnjs.cloudflare.com/ajax/libs/oj/0.2.1/oj.min.js</a>]]></description>
             <link>http://ojjs.org</link>
@@ -6026,14 +6066,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[immutable(3.6.4) was added]]></title>
-            <description><![CDATA[Immutable Data Collections<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.4/immutable.min.js">//cdnjs.cloudflare.com/ajax/libs/immutable/3.6.4/immutable.min.js</a>]]></description>
-            <link>https://github.com/facebook/immutable-js</link>
-            <guid isPermaLink="false">immutable3.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[immstruct(1.4.0) was added]]></title>
             <description><![CDATA[Immutable data structure, with undo/redo, for top-to-bottom properties and unidirectional flow in component based libraries like React<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/immstruct/1.4.0/immstruct.min.js">//cdnjs.cloudflare.com/ajax/libs/immstruct/1.4.0/immstruct.min.js</a>]]></description>
             <link>https://github.com/omniscientjs/immstruct</link>
@@ -6756,14 +6788,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[fast-json-patch(0.5.1) was added]]></title>
-            <description><![CDATA[Fast implementation of JSON-Patch (RFC-6902) with duplex (observe changes) capabilities<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.1/json-patch-duplex.min.js">//cdnjs.cloudflare.com/ajax/libs/fast-json-patch/0.5.1/json-patch-duplex.min.js</a>]]></description>
-            <link>https://github.com/Starcounter-Jack/Fast-JSON-Patch</link>
-            <guid isPermaLink="false">fast-json-patch0.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[fancybox(2.1.5) was added]]></title>
             <description><![CDATA[fancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built at the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to customize.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js">//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js</a>]]></description>
             <link>http://fancyapps.com/fancybox/</link>
@@ -7083,22 +7107,6 @@
             <description><![CDATA[dygraphs is an open source JavaScript library that produces produces interactive, zoomable charts of time series. It is designed to display dense data sets and enable users to explore and interpret them. Version 1.2 pre-dates 1.0.0: http://blog.dygraphs.com/2013/08/announcing-dygraphs-100.html<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.0/dygraph-combined.js">//cdnjs.cloudflare.com/ajax/libs/dygraph/1.1.0/dygraph-combined.js</a>]]></description>
             <link>http://dygraphs.com/</link>
             <guid isPermaLink="false">dygraph1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dustjs-linkedin(2.6.1) was added]]></title>
-            <description><![CDATA[Asynchronous templates for the browser and node.js ( LinkedIn fork )<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.6.1/dust-core.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.6.1/dust-core.min.js</a>]]></description>
-            <link>http://linkedin.github.com/dustjs/</link>
-            <guid isPermaLink="false">dustjs-linkedin2.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[dustjs-helpers(1.6.1) was added]]></title>
-            <description><![CDATA[Additional functionality for dustjs-linkedin package<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.6.1/dust-helpers.min.js">//cdnjs.cloudflare.com/ajax/libs/dustjs-helpers/1.6.1/dust-helpers.min.js</a>]]></description>
-            <link>Additional functionality for dustjs-linkedin package</link>
-            <guid isPermaLink="false">dustjs-helpers1.6.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -7668,14 +7676,6 @@
             <title><![CDATA[chainloading(1.0.7) was added]]></title>
             <description><![CDATA[Allows you to chain together jQuery deferreds or functions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.7/chainloading.min.js">//cdnjs.cloudflare.com/ajax/libs/chainloading/1.0.7/chainloading.min.js</a>]]></description>
             <guid isPermaLink="false">chainloading1.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chai(2.1.1) was added]]></title>
-            <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chai/2.1.1/chai.js">//cdnjs.cloudflare.com/ajax/libs/chai/2.1.1/chai.js</a>]]></description>
-            <link>http://chaijs.com</link>
-            <guid isPermaLink="false">chai2.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
