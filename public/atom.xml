@@ -10,17 +10,63 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 29 Mar 2015 08:32:26 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Mar 2015 09:02:32 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[react-router updated to version 0.11.6]]></title>
-            <description><![CDATA[A complete routing solution for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-router/0.11.6/react-router.min.js">//cdnjs.cloudflare.com/ajax/libs/react-router/0.11.6/react-router.min.js</a>]]></description>
+            <title><![CDATA[react-router updated to version 0.13.2]]></title>
+            <description><![CDATA[A complete routing solution for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-router/0.13.2/ReactRouter.min.js">//cdnjs.cloudflare.com/ajax/libs/react-router/0.13.2/ReactRouter.min.js</a>]]></description>
             <link>https://github.com/rackt/react-router</link>
-            <guid isPermaLink="false">react-router0.11.6</guid>
+            <guid isPermaLink="false">react-router0.13.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 29 Mar 2015 00:48:05 GMT</pubDate>
+            <pubDate>Sun, 29 Mar 2015 08:52:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cannon.js updated to version 0.6.2]]></title>
+            <description><![CDATA[A lightweight 3D physics engine written in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js">//cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js</a>]]></description>
+            <link>http://schteppe.github.com/cannon.js</link>
+            <guid isPermaLink="false">cannon.js0.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 29 Mar 2015 08:42:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ember.js updated to version 1.11.0]]></title>
+            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.11.0/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.11.0/ember.min.js</a>]]></description>
+            <link>http://emberjs.com/</link>
+            <guid isPermaLink="false">ember.js1.11.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 29 Mar 2015 08:30:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps updated to version 2.1.0-X.8]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.8/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.8/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.1.0-X.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 29 Mar 2015 08:30:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jQuery.mmenu updated to version 5.0.3]]></title>
+            <description><![CDATA[A jQuery plugin that creates slick app look-alike sliding menus for your (mobile) website with horizontal or vertical submenus. It's easy to customize and has options for headers, labels, counters, a searchfield and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.3/js/jquery.mmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.3/js/jquery.mmenu.min.js</a>]]></description>
+            <link>http://mmenu.frebsite.nl/</link>
+            <guid isPermaLink="false">jQuery.mmenu5.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 29 Mar 2015 08:22:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-timepicker updated to version 1.6.6]]></title>
+            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.6/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.6/jquery.timepicker.min.css</a>]]></description>
+            <link>http://jonthornton.github.com/jquery-timepicker/</link>
+            <guid isPermaLink="false">jquery-timepicker1.6.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 29 Mar 2015 07:52:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-flow updated to version 2.6.1]]></title>
+            <description><![CDATA[Flow.js html5 file upload extension on angular.js framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-flow/2.6.1/ng-flow-standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-flow/2.6.1/ng-flow-standalone.min.js</a>]]></description>
+            <guid isPermaLink="false">ng-flow2.6.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 29 Mar 2015 06:40:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ol3 updated to version 3.4.0]]></title>
@@ -101,13 +147,6 @@
             <guid isPermaLink="false">mojio-js3.1.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 28 Mar 2015 07:33:55 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-google-maps updated to version 2.1.0-X.7]]></title>
-            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.7/angular-google-maps.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.0-X.7/angular-google-maps.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-google-maps2.1.0-X.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 28 Mar 2015 07:33:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[hover.css updated to version 2.0.2]]></title>
@@ -500,14 +539,6 @@
             <pubDate>Mon, 23 Mar 2015 16:23:27 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jQuery.mmenu updated to version 5.0.2]]></title>
-            <description><![CDATA[A jQuery plugin that creates slick app look-alike sliding menus for your (mobile) website with horizontal or vertical submenus. It's easy to customize and has options for headers, labels, counters, a searchfield and more.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.2/js/jquery.mmenu.min.js">//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.0.2/js/jquery.mmenu.min.js</a>]]></description>
-            <link>http://mmenu.frebsite.nl/</link>
-            <guid isPermaLink="false">jQuery.mmenu5.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 23 Mar 2015 06:39:17 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[buckets updated to version 1.90.0]]></title>
             <description><![CDATA[Buckets is a complete, fully tested and documented data structure library written in pure JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/buckets/1.90.0/buckets.min.js">//cdnjs.cloudflare.com/ajax/libs/buckets/1.90.0/buckets.min.js</a>]]></description>
             <guid isPermaLink="false">buckets1.90.0</guid>
@@ -869,14 +900,6 @@
             <guid isPermaLink="false">angular.js1.3.15</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Mar 2015 05:26:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-timepicker updated to version 1.6.5]]></title>
-            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.5/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.5/jquery.timepicker.min.css</a>]]></description>
-            <link>http://jonthornton.github.com/jquery-timepicker/</link>
-            <guid isPermaLink="false">jquery-timepicker1.6.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 05:22:40 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ink updated to version 3.1.5]]></title>
@@ -3641,13 +3664,6 @@
             <description><![CDATA[Angular Data Grid written in AngularJS and jQuery by the AngularUI Team<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-grid/2.0.11/ng-grid.min.js</a>]]></description>
             <link>http://angular-ui.github.io/ng-grid/</link>
             <guid isPermaLink="false">ng-grid2.0.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ng-flow(2.6.0) was added]]></title>
-            <description><![CDATA[Flow.js html5 file upload extension on angular.js framework<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-flow/2.6.0/ng-flow-standalone.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-flow/2.6.0/ng-flow-standalone.min.js</a>]]></description>
-            <guid isPermaLink="false">ng-flow2.6.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
@@ -6969,14 +6985,6 @@
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ember.js(1.10.0) was added]]></title>
-            <description><![CDATA[Ember is a JavaScript framework for creating ambitious web applications that eliminates boilerplate and provides a standard application architecture.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember.js/1.10.0/ember.min.js">//cdnjs.cloudflare.com/ajax/libs/ember.js/1.10.0/ember.min.js</a>]]></description>
-            <link>http://emberjs.com/</link>
-            <guid isPermaLink="false">ember.js1.10.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[ember-simple-auth(0.7.3) was added]]></title>
             <description><![CDATA[A lightweight library for implementing authentication/authorization in Ember.js applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ember-simple-auth/0.7.3/ember-simple-auth.min.js">//cdnjs.cloudflare.com/ajax/libs/ember-simple-auth/0.7.3/ember-simple-auth.min.js</a>]]></description>
             <link>http://ember-simple-auth.simplabs.com/</link>
@@ -7724,14 +7732,6 @@
             <description><![CDATA[CanvasJS is an easy to use HTML5 & JavaScript Charting library built on Canvas element.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/canvasjs/1.4.1/canvas.min.js">//cdnjs.cloudflare.com/ajax/libs/canvasjs/1.4.1/canvas.min.js</a>]]></description>
             <link>http://canvasjs.com/</link>
             <guid isPermaLink="false">canvasjs1.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[cannon.js(0.6.1) was added]]></title>
-            <description><![CDATA[A lightweight 3D physics engine written in JavaScript.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.1/cannon.min.js">//cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.1/cannon.min.js</a>]]></description>
-            <link>http://schteppe.github.com/cannon.js</link>
-            <guid isPermaLink="false">cannon.js0.6.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
