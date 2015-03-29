@@ -10,10 +10,18 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 29 Mar 2015 08:04:39 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Mar 2015 08:32:26 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[react-router updated to version 0.11.6]]></title>
+            <description><![CDATA[A complete routing solution for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-router/0.11.6/react-router.min.js">//cdnjs.cloudflare.com/ajax/libs/react-router/0.11.6/react-router.min.js</a>]]></description>
+            <link>https://github.com/rackt/react-router</link>
+            <guid isPermaLink="false">react-router0.11.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sun, 29 Mar 2015 00:48:05 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[ol3 updated to version 3.4.0]]></title>
             <description><![CDATA[OpenLayers is a JavaScript library for building map applications on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.4.0/ol.min.js">//cdnjs.cloudflare.com/ajax/libs/ol3/3.4.0/ol.min.js</a>]]></description>
@@ -2747,14 +2755,6 @@
             <description><![CDATA[A lightweight CoffeeScript library/DSL for reactive programming and for declaratively building scalable web UIs.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/reactive-coffee/1.2.2/reactive-coffee.min.js">//cdnjs.cloudflare.com/ajax/libs/reactive-coffee/1.2.2/reactive-coffee.min.js</a>]]></description>
             <link>http://yang.github.io/reactive-coffee/</link>
             <guid isPermaLink="false">reactive-coffee1.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react-router(0.11.6) was added]]></title>
-            <description><![CDATA[A complete routing solution for React.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-router/0.11.6/react-router.min.js">//cdnjs.cloudflare.com/ajax/libs/react-router/0.11.6/react-router.min.js</a>]]></description>
-            <link>https://github.com/rackt/react-router</link>
-            <guid isPermaLink="false">react-router0.11.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sun, 15 Mar 2015 09:43:33 GMT</pubDate>
         </item>
