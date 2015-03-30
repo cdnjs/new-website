@@ -10,10 +10,42 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 30 Mar 2015 07:47:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Mar 2015 18:48:57 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[webfont updated to version 1.5.16]]></title>
+            <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.16/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.16/webfontloader.js</a>]]></description>
+            <link>http://code.google.com/apis/webfonts/docs/webfont_loader.html</link>
+            <guid isPermaLink="false">webfont1.5.16</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 30 Mar 2015 18:29:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.tablesorter updated to version 2.21.4]]></title>
+            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.4/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.4/js/jquery.tablesorter.min.js</a>]]></description>
+            <link>http://mottie.github.com/tablesorter/</link>
+            <guid isPermaLink="false">jquery.tablesorter2.21.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 30 Mar 2015 18:28:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-cache updated to version 4.1.0]]></title>
+            <description><![CDATA[angular-cache is a very useful replacement for Angular's $cacheFactory.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.1.0/angular-cache.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.1.0/angular-cache.min.js</a>]]></description>
+            <link>http://jmdobry.github.io/angular-cache</link>
+            <guid isPermaLink="false">angular-cache4.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 30 Mar 2015 17:10:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[motajs updated to version 0.6.0]]></title>
+            <description><![CDATA[JavaScript library that aims to allow the developer to easily build web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motajs/0.6.0/mota.min.js">//cdnjs.cloudflare.com/ajax/libs/motajs/0.6.0/mota.min.js</a>]]></description>
+            <link>http://motapc97.github.io/motajs/</link>
+            <guid isPermaLink="false">motajs0.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Mon, 30 Mar 2015 17:10:15 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[snabbt.js updated to version 0.5.1]]></title>
             <description><![CDATA[Fast animations with javascript and CSS-transforms<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/snabbt.js/0.5.1/snabbt.min.js">//cdnjs.cloudflare.com/ajax/libs/snabbt.js/0.5.1/snabbt.min.js</a>]]></description>
@@ -259,14 +291,6 @@
             <pubDate>Fri, 27 Mar 2015 04:59:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[jquery.tablesorter updated to version 2.21.3]]></title>
-            <description><![CDATA[tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. This forked version adds lots of new enhancements including: alphanumeric sorting, pager callback functons, multiple widgets providing column styling, ui theme application, sticky headers, column filters and resizer, as well as extended documentation with a lot more demos.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.3/js/jquery.tablesorter.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.21.3/js/jquery.tablesorter.min.js</a>]]></description>
-            <link>http://mottie.github.com/tablesorter/</link>
-            <guid isPermaLink="false">jquery.tablesorter2.21.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Mar 2015 04:58:15 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery.payment updated to version 1.2.3]]></title>
             <description><![CDATA[A general purpose library for building credit card forms, validating inputs and formatting numbers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.3/jquery.payment.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.3/jquery.payment.min.js</a>]]></description>
             <link>https://github.com/stripe/jquery.payment</link>
@@ -506,14 +530,6 @@
             <pubDate>Wed, 25 Mar 2015 12:01:30 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[webfont updated to version 1.5.15]]></title>
-            <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.15/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.15/webfontloader.js</a>]]></description>
-            <link>http://code.google.com/apis/webfonts/docs/webfont_loader.html</link>
-            <guid isPermaLink="false">webfont1.5.15</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Mar 2015 12:01:16 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[handlebars.js updated to version 3.0.1]]></title>
             <description><![CDATA[Handlebars provides the power necessary to let you build semantic templates effectively with no frustration. Mustache templates are compatible with Handlebars, so you can take a Mustache template, import it into Handlebars, and start taking advantage of the extra Handlebars features.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js">//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js</a>]]></description>
             <link>http://www.handlebarsjs.com</link>
@@ -607,14 +623,6 @@
             <guid isPermaLink="false">mobile-detect1.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 23 Mar 2015 05:37:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-cache updated to version 4.0.2]]></title>
-            <description><![CDATA[angular-cache is a very useful replacement for Angular's $cacheFactory.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.0.2/angular-cache.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-cache/4.0.2/angular-cache.min.js</a>]]></description>
-            <link>http://jmdobry.github.io/angular-cache</link>
-            <guid isPermaLink="false">angular-cache4.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 23 Mar 2015 05:35:15 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ramda updated to version 0.13.0]]></title>
@@ -1175,14 +1183,6 @@
             <guid isPermaLink="false">backbone-react-component0.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 16 Mar 2015 20:01:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chosen updated to version 1.4.1]]></title>
-            <description><![CDATA[Chosen is a JavaScript plugin that makes long, unwieldy select boxes much more user-friendly. It is currently available in both jQuery and Prototype flavors.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chosen/1.4.1/chosen.jquery.min.js">//cdnjs.cloudflare.com/ajax/libs/chosen/1.4.1/chosen.jquery.min.js</a>]]></description>
-            <link>http://harvesthq.github.com/chosen</link>
-            <guid isPermaLink="false">chosen1.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 16 Mar 2015 09:38:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[outdated-browser updated to version 1.1.0]]></title>
