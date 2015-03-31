@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 31 Mar 2015 09:17:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2015 19:02:56 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[favico.js updated to version 0.3.7]]></title>
+            <description><![CDATA[Make a use of your favicon with badges, images or videos<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/favico.js/0.3.7/favico.min.js">//cdnjs.cloudflare.com/ajax/libs/favico.js/0.3.7/favico.min.js</a>]]></description>
+            <link>http://lab.ejci.net/favico.js/</link>
+            <guid isPermaLink="false">favico.js0.3.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 18:42:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bignumber.js updated to version 2.0.6]]></title>
+            <description><![CDATA[A library for arbitrary-precision decimal and non-decimal arithmetic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bignumber.js/2.0.6/bignumber.min.js">//cdnjs.cloudflare.com/ajax/libs/bignumber.js/2.0.6/bignumber.min.js</a>]]></description>
+            <link>http://mikemcl.github.io/bignumber.js/</link>
+            <guid isPermaLink="false">bignumber.js2.0.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 18:13:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chroma-js updated to version 0.7.2]]></title>
+            <description><![CDATA[JavaScript library for color conversions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.7.2/chroma.min.js">//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.7.2/chroma.min.js</a>]]></description>
+            <link>https://github.com/gka/chroma.js</link>
+            <guid isPermaLink="false">chroma-js0.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 18:10:09 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[octicons updated to version 2.2.1]]></title>
             <description><![CDATA[GitHub's icon font<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.1/octicons.min.css">//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.1/octicons.min.css</a>]]></description>
@@ -266,6 +290,14 @@
             <pubDate>Sun, 29 Mar 2015 06:40:29 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[soundmanager2(2.97.20140901) was added]]></title>
+            <description><![CDATA[A JavaScript Sound API supporting MP3, MPEG4 and HTML5 audio + (experimental) RTMP, providing reliable cross-browser/platform audio control in as little as 10 KB.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97.20140901/script/soundmanager2-nodebug-jsmin.js">//cdnjs.cloudflare.com/ajax/libs/soundmanager2/2.97.20140901/script/soundmanager2-nodebug-jsmin.js</a>]]></description>
+            <link>http://www.schillmania.com/projects/soundmanager2/</link>
+            <guid isPermaLink="false">soundmanager22.97.20140901</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Sat, 28 Mar 2015 22:08:18 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ol3 updated to version 3.4.0]]></title>
             <description><![CDATA[OpenLayers is a JavaScript library for building map applications on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.4.0/ol.min.js">//cdnjs.cloudflare.com/ajax/libs/ol3/3.4.0/ol.min.js</a>]]></description>
             <link>http://openlayers.org/</link>
@@ -463,14 +495,6 @@
             <guid isPermaLink="false">ng-tags-input2.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 26 Mar 2015 07:32:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bignumber.js updated to version 2.0.5]]></title>
-            <description><![CDATA[A library for arbitrary-precision decimal and non-decimal arithmetic<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bignumber.js/2.0.5/bignumber.min.js">//cdnjs.cloudflare.com/ajax/libs/bignumber.js/2.0.5/bignumber.min.js</a>]]></description>
-            <link>http://mikemcl.github.io/bignumber.js/</link>
-            <guid isPermaLink="false">bignumber.js2.0.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Mar 2015 07:32:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ractive updated to version 0.7.1]]></title>
@@ -1144,93 +1168,6 @@
             <guid isPermaLink="false">angular-moment0.9.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 18 Mar 2015 01:55:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fullPage.js updated to version 2.6.2]]></title>
-            <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.2/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.2/jquery.fullPage.min.css</a>]]></description>
-            <link>http://alvarotrigo.com/fullPage/</link>
-            <guid isPermaLink="false">fullPage.js2.6.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 12:21:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-ui-select updated to version 0.11.2]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.11.2/select.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.11.2/select.min.js</a>]]></description>
-            <link>http://github.com/angular-ui/ui-select</link>
-            <guid isPermaLink="false">angular-ui-select0.11.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 12:20:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[c3 updated to version 0.4.10]]></title>
-            <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js</a>]]></description>
-            <link>http://c3js.org</link>
-            <guid isPermaLink="false">c30.4.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 12:17:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[AniJS updated to version 0.9.3]]></title>
-            <description><![CDATA[Declarative handling library for CSS animations.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js">//cdnjs.cloudflare.com/ajax/libs/AniJS/0.9.3/anijs-min.js</a>]]></description>
-            <link>http://anijs.github.io/</link>
-            <guid isPermaLink="false">AniJS0.9.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 12:17:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[moment-timezone updated to version 0.3.1]]></title>
-            <description><![CDATA[Timezone plugin for Moment.js.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.3.1/moment-timezone.min.js">//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.3.1/moment-timezone.min.js</a>]]></description>
-            <link>http://momentjs.com/timezone</link>
-            <guid isPermaLink="false">moment-timezone0.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 10:14:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tinycolor updated to version 1.1.2]]></title>
-            <description><![CDATA[Fast, small color manipulation and conversion for JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.2/tinycolor.min.js">//cdnjs.cloudflare.com/ajax/libs/tinycolor/1.1.2/tinycolor.min.js</a>]]></description>
-            <link>http://bgrins.github.io/TinyColor/</link>
-            <guid isPermaLink="false">tinycolor1.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 10:11:37 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[pixi.js updated to version 2.2.8]]></title>
-            <description><![CDATA[Pixi.js is a fast lightweight 2D library that works across all devices.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.8/pixi.js">//cdnjs.cloudflare.com/ajax/libs/pixi.js/2.2.8/pixi.js</a>]]></description>
-            <link>http://goodboydigital.com/</link>
-            <guid isPermaLink="false">pixi.js2.2.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 10:06:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[twitter-bootstrap updated to version 3.3.4]]></title>
-            <description><![CDATA[The most popular front-end framework for developing responsive, mobile first projects on the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js">//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js</a>]]></description>
-            <link>http://getbootstrap.com/</link>
-            <guid isPermaLink="false">twitter-bootstrap3.3.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 10:05:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vega updated to version 1.5.0]]></title>
-            <description><![CDATA[Vega is a visualization grammar, a declarative format for creating, saving and sharing visualization designs. <br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/vega/1.5.0/vega.min.js">//cdnjs.cloudflare.com/ajax/libs/vega/1.5.0/vega.min.js</a>]]></description>
-            <link>http://trifacta.github.io/vega/</link>
-            <guid isPermaLink="false">vega1.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 10:05:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react updated to version 0.13.1]]></title>
-            <description><![CDATA[React is a JavaScript library for building user interfaces.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react/0.13.1/react.min.js">//cdnjs.cloudflare.com/ajax/libs/react/0.13.1/react.min.js</a>]]></description>
-            <link>http://facebook.github.io/react</link>
-            <guid isPermaLink="false">react0.13.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 10:03:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[outdated-browser updated to version 1.1.0]]></title>
-            <description><![CDATA[It detects outdated browsers and advises users to upgrade to a new version.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.0/outdatedbrowser.min.js">//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.0/outdatedbrowser.min.js</a>]]></description>
-            <guid isPermaLink="false">outdated-browser1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 13 Mar 2015 12:17:26 GMT</pubDate>
         </item>
     </channel>
 </rss>
