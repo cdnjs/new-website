@@ -10,10 +10,81 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 30 Mar 2015 18:48:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2015 09:02:46 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[octicons updated to version 2.2.1]]></title>
+            <description><![CDATA[GitHub's icon font<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.1/octicons.min.css">//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.1/octicons.min.css</a>]]></description>
+            <link>http://octicons.github.com/</link>
+            <guid isPermaLink="false">octicons2.2.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:54:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[metrics-graphics updated to version 2.3.0]]></title>
+            <description><![CDATA[A library optimized for concise, principled data graphics and layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.3.0/metricsgraphics.min.js">//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.3.0/metricsgraphics.min.js</a>]]></description>
+            <link>http://metricsgraphicsjs.org</link>
+            <guid isPermaLink="false">metrics-graphics2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:54:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ionic updated to version 1.0.0-rc.2]]></title>
+            <description><![CDATA[Advanced HTML5 Mobile App Framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.2/js/ionic.min.js">//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.2/js/ionic.min.js</a>]]></description>
+            <guid isPermaLink="false">ionic1.0.0-rc.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:54:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[p5.js updated to version 0.4.3]]></title>
+            <description><![CDATA[p5.js is a JavaScript client-side library for creating graphic and interactive experiences, using canvas and HTML5, based on the core principles of Processing.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.3/p5.min.js">//cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.3/p5.min.js</a>]]></description>
+            <link>http://p5js.org</link>
+            <guid isPermaLink="false">p5.js0.4.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:16:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[normalize updated to version 3.0.3]]></title>
+            <description><![CDATA[Normalize.css makes browsers render all elements consistently and in line with modern standards.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css</a>]]></description>
+            <link>http://necolas.github.com/normalize.css/</link>
+            <guid isPermaLink="false">normalize3.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:15:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mithril updated to version 0.1.33]]></title>
+            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.33/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.33/mithril.min.js</a>]]></description>
+            <link>http://lhorie.github.io/mithril</link>
+            <guid isPermaLink="false">mithril0.1.33</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:15:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[maquette updated to version 1.6.0]]></title>
+            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.6.0/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.6.0/maquette.min.js</a>]]></description>
+            <link>http://johan-gorter.github.io/maquette/</link>
+            <guid isPermaLink="false">maquette1.6.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:15:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ekko-lightbox updated to version 3.3.0]]></title>
+            <description><![CDATA[A lightbox gallery plugin for Bootstrap 3 based on the modal plugin<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.js">//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.js</a>]]></description>
+            <link>https://github.com/ashleydw/lightbox</link>
+            <guid isPermaLink="false">ekko-lightbox3.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:08:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 4.2.5]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.2.5/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.2.5/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly4.2.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:07:58 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[webfont updated to version 1.5.16]]></title>
             <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.16/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.16/webfontloader.js</a>]]></description>
@@ -91,14 +162,6 @@
             <guid isPermaLink="false">yasgui1.1.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 30 Mar 2015 06:48:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mithril updated to version 0.1.32]]></title>
-            <description><![CDATA[A Javascript Framework for building brilliant applications<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.32/mithril.min.js">//cdnjs.cloudflare.com/ajax/libs/mithril/0.1.32/mithril.min.js</a>]]></description>
-            <link>http://lhorie.github.io/mithril</link>
-            <guid isPermaLink="false">mithril0.1.32</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 30 Mar 2015 06:48:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mathjs updated to version 1.5.0]]></title>
@@ -275,14 +338,6 @@
             <pubDate>Sat, 28 Mar 2015 07:18:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 4.2.1]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.2.1/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.2.1/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly4.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Mar 2015 14:11:47 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[anchor-js(0.3.1) was added]]></title>
             <description><![CDATA[A tiny javscript utility for adding anchor links to existing page content.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/anchor-js/0.3.1/anchor.min.css">//cdnjs.cloudflare.com/ajax/libs/anchor-js/0.3.1/anchor.min.css</a>]]></description>
             <link>https://github.com/bryanbraun/anchorjs</link>
@@ -313,14 +368,6 @@
             <guid isPermaLink="false">jquery.hoverintent1.8.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 27 Mar 2015 04:03:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[maquette updated to version 1.5.3]]></title>
-            <description><![CDATA[Minimalistic Virtual DOM implementation with support for animated transitions<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/maquette/1.5.3/maquette.min.js">//cdnjs.cloudflare.com/ajax/libs/maquette/1.5.3/maquette.min.js</a>]]></description>
-            <link>http://johan-gorter.github.io/maquette/</link>
-            <guid isPermaLink="false">maquette1.5.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Mar 2015 03:37:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[html2canvas updated to version 0.4.1]]></title>
@@ -1107,13 +1154,6 @@
             <pubDate>Tue, 17 Mar 2015 12:20:41 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ionic updated to version 1.0.0-rc.1]]></title>
-            <description><![CDATA[Advanced HTML5 Mobile App Framework.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.1/js/ionic.min.js">//cdnjs.cloudflare.com/ajax/libs/ionic/1.0.0-rc.1/js/ionic.min.js</a>]]></description>
-            <guid isPermaLink="false">ionic1.0.0-rc.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 17 Mar 2015 12:19:19 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[c3 updated to version 0.4.10]]></title>
             <description><![CDATA[D3-based reusable chart library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js">//cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js</a>]]></description>
             <link>http://c3js.org</link>
@@ -1176,13 +1216,6 @@
             <guid isPermaLink="false">react0.13.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 17 Mar 2015 10:03:58 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[backbone-react-component updated to version 0.8.0]]></title>
-            <description><![CDATA[Backbone.React.Component is a wrapper for React.Component and brings all the power of Facebook's React to Backbone.js<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.8.0/backbone-react-component.js">//cdnjs.cloudflare.com/ajax/libs/backbone-react-component/0.8.0/backbone-react-component.js</a>]]></description>
-            <guid isPermaLink="false">backbone-react-component0.8.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 16 Mar 2015 20:01:56 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[outdated-browser updated to version 1.1.0]]></title>
