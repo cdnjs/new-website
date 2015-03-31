@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 31 Mar 2015 09:02:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2015 09:17:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
@@ -36,6 +36,14 @@
             <guid isPermaLink="false">ionic1.0.0-rc.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 31 Mar 2015 08:54:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[myscript(0.0.2) was added]]></title>
+            <description><![CDATA[MyScript javascript library to facilitate the use of cloud handwriting recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.2/myscript.min.js">//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.2/myscript.min.js</a>]]></description>
+            <link>http://myscript.github.io/MyScriptJS/</link>
+            <guid isPermaLink="false">myscript0.0.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 31 Mar 2015 08:35:09 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[p5.js updated to version 0.4.3]]></title>
