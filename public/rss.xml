@@ -10,10 +10,34 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Apr 2015 06:17:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Apr 2015 21:32:30 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[myscript updated to version 0.0.7]]></title>
+            <description><![CDATA[MyScript javascript library to facilitate the use of cloud handwriting recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.7/myscript.min.js">//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.7/myscript.min.js</a>]]></description>
+            <link>http://myscript.github.io/MyScriptJS/</link>
+            <guid isPermaLink="false">myscript0.0.7</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 01 Apr 2015 21:21:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-table updated to version 1.7.0]]></title>
+            <description><![CDATA[Bootstrap table displays data in a tabular format and offers rich support to radio, checkbox, sort, pagination and so on.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.7.0/bootstrap-table.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.7.0/bootstrap-table.min.js</a>]]></description>
+            <link>http://wenzhixin.net.cn/p/bootstrap-table/</link>
+            <guid isPermaLink="false">bootstrap-table1.7.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 01 Apr 2015 21:20:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-colorpicker updated to version 2.1.1]]></title>
+            <description><![CDATA[A colorpicker for Twitter Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.1.1/js/bootstrap-colorpicker.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.1.1/js/bootstrap-colorpicker.min.js</a>]]></description>
+            <link>https://github.com/mjolnic/bootstrap-colorpicker</link>
+            <guid isPermaLink="false">bootstrap-colorpicker2.1.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 01 Apr 2015 21:19:12 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[jquery.matchHeight updated to version 0.6.0]]></title>
             <description><![CDATA[A more robust equal heights plugin for jQuery<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.6.0/jquery.matchHeight-min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.6.0/jquery.matchHeight-min.js</a>]]></description>
@@ -44,14 +68,6 @@
             <guid isPermaLink="false">markdown-it4.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 01 Apr 2015 05:59:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[myscript updated to version 0.0.3]]></title>
-            <description><![CDATA[MyScript javascript library to facilitate the use of cloud handwriting recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.3/myscript.min.js">//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.3/myscript.min.js</a>]]></description>
-            <link>http://myscript.github.io/MyScriptJS/</link>
-            <guid isPermaLink="false">myscript0.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 01 Apr 2015 05:59:30 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ink updated to version 3.1.6]]></title>
@@ -1081,54 +1097,6 @@
             <guid isPermaLink="false">angularLocalStorage0.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 18 Mar 2015 21:01:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-localScroll updated to version 1.4.0]]></title>
-            <description><![CDATA[Animated anchor navigation made easy.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js</a>]]></description>
-            <link>https://github.com/flesler/jquery.localScroll</link>
-            <guid isPermaLink="false">jquery-localScroll1.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 17:10:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bootstrap-material-design updated to version 0.3.0]]></title>
-            <description><![CDATA[Material Design for Bootstrap<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js">//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js</a>]]></description>
-            <link>https://github.com/FezVrasta/bootstrap-material-design</link>
-            <guid isPermaLink="false">bootstrap-material-design0.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 17:09:08 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery.serialScroll updated to version 1.3.0]]></title>
-            <description><![CDATA[Animated scrolling of series.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.serialScroll/1.3.0/jquery.serialScroll.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.serialScroll/1.3.0/jquery.serialScroll.min.js</a>]]></description>
-            <link>https://github.com/flesler/jquery.serialScroll</link>
-            <guid isPermaLink="false">jquery.serialScroll1.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 17:08:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[fuelux updated to version 3.6.4]]></title>
-            <description><![CDATA[Extends Twitter Bootstrap with additional lightweight JavaScript controls.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fuelux/3.6.4/js/fuelux.min.js">//cdnjs.cloudflare.com/ajax/libs/fuelux/3.6.4/js/fuelux.min.js</a>]]></description>
-            <link>http://exacttarget.github.io/fuelux</link>
-            <guid isPermaLink="false">fuelux3.6.4</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 17:08:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-scrollTo updated to version 2.1.0]]></title>
-            <description><![CDATA[A small, customizable plugin for scrolling elements, or the window itself.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js</a>]]></description>
-            <link>https://github.com/flesler/jquery.scrollTo</link>
-            <guid isPermaLink="false">jquery-scrollTo2.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 17:07:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react-cookie updated to version 0.1.7]]></title>
-            <description><![CDATA[Load and save cookies within your React application<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-cookie/0.1.7/react-cookie.min.js">//cdnjs.cloudflare.com/ajax/libs/react-cookie/0.1.7/react-cookie.min.js</a>]]></description>
-            <link>http://github.com/eXon/react-cookie</link>
-            <guid isPermaLink="false">react-cookie0.1.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 17:06:57 GMT</pubDate>
         </item>
     </channel>
 </rss>
