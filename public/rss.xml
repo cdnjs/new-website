@@ -10,10 +10,105 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Apr 2015 06:47:40 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Apr 2015 18:17:36 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[fullPage.js updated to version 2.6.3]]></title>
+            <description><![CDATA[Create  beautiful fullscreen scrolling websites<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.3/jquery.fullPage.min.css">//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.3/jquery.fullPage.min.css</a>]]></description>
+            <link>http://alvarotrigo.com/fullPage/</link>
+            <guid isPermaLink="false">fullPage.js2.6.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 18:06:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.4.9]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.9/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.9/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.4.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:48:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ng-slider updated to version 2.2.4]]></title>
+            <description><![CDATA[AngularJS directive slider control.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-slider/2.2.4//ng-slider.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-slider/2.2.4//ng-slider.min.js</a>]]></description>
+            <link>https://github.com/darul75/ng-slider</link>
+            <guid isPermaLink="false">ng-slider2.2.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:44:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[matreshka updated to version 1.0.3]]></title>
+            <description><![CDATA[JavaScript framework for programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/matreshka/1.0.3/matreshka.min.js">//cdnjs.cloudflare.com/ajax/libs/matreshka/1.0.3/matreshka.min.js</a>]]></description>
+            <link>http://matreshka.io/</link>
+            <guid isPermaLink="false">matreshka1.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:44:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.9.24]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.24/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.24/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.9.24</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:43:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[motajs updated to version 0.6.2]]></title>
+            <description><![CDATA[JavaScript library that aims to allow the developer to easily build web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motajs/0.6.2/mota.min.js">//cdnjs.cloudflare.com/ajax/libs/motajs/0.6.2/mota.min.js</a>]]></description>
+            <link>http://motapc97.github.io/motajs/</link>
+            <guid isPermaLink="false">motajs0.6.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:42:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[underscore.js updated to version 1.8.3]]></title>
+            <description><![CDATA[Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (or Ruby), but without extending any of the built-in JavaScript objects. It's the tie to go along with jQuery's tux.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js">//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js</a>]]></description>
+            <link>http://jashkenas.github.io/underscore/</link>
+            <guid isPermaLink="false">underscore.js1.8.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:37:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery_lazyload updated to version 1.9.5]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.5/jquery.lazyload.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.5/jquery.lazyload.min.js</a>]]></description>
+            <guid isPermaLink="false">jquery_lazyload1.9.5</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:36:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.pjax updated to version 1.9.6]]></title>
+            <description><![CDATA[pjax is a jQuery plugin that uses ajax and pushState to deliver a fast browsing experience with real permalinks, page titles, and a working back button.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.min.js</a>]]></description>
+            <link>http://pjax.heroku.com</link>
+            <guid isPermaLink="false">jquery.pjax1.9.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:36:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angularjs-toaster updated to version 0.4.12]]></title>
+            <description><![CDATA[AngularJS Toaster is a customized version of 'toastr' non-blocking notification javascript library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.12/toaster.min.js">//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.12/toaster.min.js</a>]]></description>
+            <link>https://github.com/jirikavi/AngularJS-Toaster</link>
+            <guid isPermaLink="false">angularjs-toaster0.4.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:36:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[myscript updated to version 1.0.1]]></title>
+            <description><![CDATA[MyScript javascript library to facilitate the use of cloud handwriting recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/myscript/1.0.1/myscript.min.js">//cdnjs.cloudflare.com/ajax/libs/myscript/1.0.1/myscript.min.js</a>]]></description>
+            <link>http://myscript.github.io/MyScriptJS/</link>
+            <guid isPermaLink="false">myscript1.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:35:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 5.0.3]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/5.0.3/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/5.0.3/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly5.0.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:26:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[materialize updated to version 0.96.0]]></title>
             <description><![CDATA[Builds Materialize distribution packages<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.96.0/css/materialize.min.css">//cdnjs.cloudflare.com/ajax/libs/materialize/0.96.0/css/materialize.min.css</a>]]></description>
@@ -38,36 +133,12 @@
             <pubDate>Thu, 02 Apr 2015 06:39:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[bluebird updated to version 2.9.22]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.22/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.22/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.9.22</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Apr 2015 06:17:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-formly updated to version 5.0.0]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/5.0.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/5.0.0/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly5.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Apr 2015 06:17:42 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[react-slick updated to version 0.4.1]]></title>
             <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.4.1/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.4.1/react-slick.min.js</a>]]></description>
             <link>https://github.com/akiran/react-slick</link>
             <guid isPermaLink="false">react-slick0.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 02 Apr 2015 06:17:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.4.8]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.8/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.8/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.4.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 02 Apr 2015 06:17:04 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone.radio updated to version 0.9.0]]></title>
@@ -92,14 +163,6 @@
             <guid isPermaLink="false">KaTeX0.3.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 02 Apr 2015 01:13:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[myscript updated to version 0.0.7]]></title>
-            <description><![CDATA[MyScript javascript library to facilitate the use of cloud handwriting recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.7/myscript.min.js">//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.7/myscript.min.js</a>]]></description>
-            <link>http://myscript.github.io/MyScriptJS/</link>
-            <guid isPermaLink="false">myscript0.0.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 01 Apr 2015 21:21:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[bootstrap-table updated to version 1.7.0]]></title>
@@ -163,14 +226,6 @@
             <guid isPermaLink="false">soundmanager22.97a.20140901</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 01 Apr 2015 05:58:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[motajs updated to version 0.6.1]]></title>
-            <description><![CDATA[JavaScript library that aims to allow the developer to easily build web applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/motajs/0.6.1/mota.min.js">//cdnjs.cloudflare.com/ajax/libs/motajs/0.6.1/mota.min.js</a>]]></description>
-            <link>http://motapc97.github.io/motajs/</link>
-            <guid isPermaLink="false">motajs0.6.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 01 Apr 2015 05:41:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[analytics.js updated to version 2.8.3]]></title>
@@ -489,14 +544,6 @@
             <pubDate>Fri, 27 Mar 2015 04:05:07 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angularjs-toaster updated to version 0.4.11]]></title>
-            <description><![CDATA[AngularJS Toaster is a customized version of 'toastr' non-blocking notification javascript library.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.11/toaster.min.js">//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.11/toaster.min.js</a>]]></description>
-            <link>https://github.com/jirikavi/AngularJS-Toaster</link>
-            <guid isPermaLink="false">angularjs-toaster0.4.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 27 Mar 2015 04:04:42 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[jquery.hoverintent updated to version 1.8.1]]></title>
             <description><![CDATA[hoverIntent is a plug-in that attempts to determine the user's intent... like a crystal ball, only with mouse movement! It is similar to jQuery's hover method. However, instead of calling the handlerIn function immediately, hoverIntent waits until the user's mouse slows down enough before making the call.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.8.1/jquery.hoverIntent.min.js</a>]]></description>
             <link>http://cherne.net/brian/resources/jquery.hoverIntent.html</link>
@@ -624,14 +671,6 @@
             <pubDate>Wed, 25 Mar 2015 17:06:25 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ng-slider updated to version 2.2.3]]></title>
-            <description><![CDATA[AngularJS directive slider control.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/ng-slider/2.2.3//ng-slider.min.js">//cdnjs.cloudflare.com/ajax/libs/ng-slider/2.2.3//ng-slider.min.js</a>]]></description>
-            <link>https://github.com/darul75/ng-slider</link>
-            <guid isPermaLink="false">ng-slider2.2.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Mar 2015 16:20:37 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[bla updated to version 1.3.1]]></title>
             <description><![CDATA[Easy way to create your own API methods for server and client sides<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bla/1.3.1/bla.min.js">//cdnjs.cloudflare.com/ajax/libs/bla/1.3.1/bla.min.js</a>]]></description>
             <link>https://github.com/baby-loris/bla</link>
@@ -694,14 +733,6 @@
             <guid isPermaLink="false">handlebars.js3.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 25 Mar 2015 10:02:24 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[matreshka updated to version 1.0.2]]></title>
-            <description><![CDATA[JavaScript framework for programmers.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/matreshka/1.0.2/matreshka.min.js">//cdnjs.cloudflare.com/ajax/libs/matreshka/1.0.2/matreshka.min.js</a>]]></description>
-            <link>http://matreshka.io/</link>
-            <guid isPermaLink="false">matreshka1.0.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 25 Mar 2015 10:00:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[caiuss(1.0.2) was added]]></title>
@@ -1033,62 +1064,6 @@
             <guid isPermaLink="false">webtorrent0.30.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 20 Mar 2015 06:39:56 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sweetalert updated to version 0.5.0]]></title>
-            <description><![CDATA[A beautiful replacement for JavaScript's alert.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js">//cdnjs.cloudflare.com/ajax/libs/sweetalert/0.5.0/sweet-alert.min.js</a>]]></description>
-            <link>http://tristanedwards.me/sweetalert</link>
-            <guid isPermaLink="false">sweetalert0.5.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 16:28:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[handsontable updated to version 0.13.1]]></title>
-            <description><![CDATA[Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/handsontable/0.13.1/handsontable.full.min.js">//cdnjs.cloudflare.com/ajax/libs/handsontable/0.13.1/handsontable.full.min.js</a>]]></description>
-            <link>http://handsontable.com/</link>
-            <guid isPermaLink="false">handsontable0.13.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 16:27:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[video.js updated to version 4.12.5]]></title>
-            <description><![CDATA[Open source HTML5 & Flash video player<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/video.js/4.12.5/video.js">//cdnjs.cloudflare.com/ajax/libs/video.js/4.12.5/video.js</a>]]></description>
-            <link>http://videojs.com/</link>
-            <guid isPermaLink="false">video.js4.12.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 16:09:59 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[seajs updated to version 3.0.0]]></title>
-            <description><![CDATA[A Module Loader for the Web<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/seajs/3.0.0/sea.js">//cdnjs.cloudflare.com/ajax/libs/seajs/3.0.0/sea.js</a>]]></description>
-            <link>http://seajs.org/</link>
-            <guid isPermaLink="false">seajs3.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 16:09:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[urljs(1.1.0) was added]]></title>
-            <description><![CDATA[A lightweight JavaScript library to manipulate the page url.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/urljs/1.1.0/url.min.js">//cdnjs.cloudflare.com/ajax/libs/urljs/1.1.0/url.min.js</a>]]></description>
-            <link>https://github.com/jillix/url.js</link>
-            <guid isPermaLink="false">urljs1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 09:53:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[svg.pan-zoom.js(1.0.1) was added]]></title>
-            <description><![CDATA[A JavaScript library for panning and zooming SVG things.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/svg.pan-zoom.js/1.0.1/svg.pan-zoom.min.js">//cdnjs.cloudflare.com/ajax/libs/svg.pan-zoom.js/1.0.1/svg.pan-zoom.min.js</a>]]></description>
-            <link>https://github.com/jillix/svg.pan-zoom.js</link>
-            <guid isPermaLink="false">svg.pan-zoom.js1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 09:04:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[svg.connectable.js updated to version 1.0.1]]></title>
-            <description><![CDATA[A JavaScript library for connecting SVG things.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/svg.connectable.js/1.0.1/svg.connectable.min.js">//cdnjs.cloudflare.com/ajax/libs/svg.connectable.js/1.0.1/svg.connectable.min.js</a>]]></description>
-            <link>https://github.com/jillix/svg.connectable.js</link>
-            <guid isPermaLink="false">svg.connectable.js1.0.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 08:40:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angularLocalStorage(0.3.0) was added]]></title>
