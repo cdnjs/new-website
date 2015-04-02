@@ -10,7 +10,7 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 02 Apr 2015 18:17:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Apr 2015 18:32:25 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
@@ -21,6 +21,14 @@
             <guid isPermaLink="false">fullPage.js2.6.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 02 Apr 2015 18:06:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery.inputmask updated to version 3.1.62]]></title>
+            <description><![CDATA[jquery.inputmask is a jquery plugin which create an input mask.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.1.62/jquery.inputmask.bundle.min.js">//cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.1.62/jquery.inputmask.bundle.min.js</a>]]></description>
+            <link>https://github.com/RobinHerbots/jquery.inputmask</link>
+            <guid isPermaLink="false">jquery.inputmask3.1.62</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 17:58:36 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rxjs updated to version 2.4.9]]></title>
