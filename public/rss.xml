@@ -10,10 +10,89 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 01 Apr 2015 21:32:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Apr 2015 06:47:40 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[materialize updated to version 0.96.0]]></title>
+            <description><![CDATA[Builds Materialize distribution packages<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.96.0/css/materialize.min.css">//cdnjs.cloudflare.com/ajax/libs/materialize/0.96.0/css/materialize.min.css</a>]]></description>
+            <guid isPermaLink="false">materialize0.96.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 06:41:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[masonry updated to version 3.2.3]]></title>
+            <description><![CDATA[Cascading grid layout library<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.3/masonry.pkgd.min.js">//cdnjs.cloudflare.com/ajax/libs/masonry/3.2.3/masonry.pkgd.min.js</a>]]></description>
+            <link>http://masonry.desandro.com/</link>
+            <guid isPermaLink="false">masonry3.2.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 06:40:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-timepicker updated to version 1.6.8]]></title>
+            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.8/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.8/jquery.timepicker.min.css</a>]]></description>
+            <link>http://jonthornton.github.com/jquery-timepicker/</link>
+            <guid isPermaLink="false">jquery-timepicker1.6.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 06:39:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bluebird updated to version 2.9.22]]></title>
+            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.22/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.22/bluebird.min.js</a>]]></description>
+            <link>https://github.com/petkaantonov/bluebird</link>
+            <guid isPermaLink="false">bluebird2.9.22</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 06:17:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 5.0.0]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/5.0.0/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/5.0.0/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly5.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 06:17:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[react-slick updated to version 0.4.1]]></title>
+            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.4.1/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.4.1/react-slick.min.js</a>]]></description>
+            <link>https://github.com/akiran/react-slick</link>
+            <guid isPermaLink="false">react-slick0.4.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 06:17:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[rxjs updated to version 2.4.8]]></title>
+            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.8/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.8/rx.min.js</a>]]></description>
+            <link>https://github.com/Reactive-Extensions/RxJS</link>
+            <guid isPermaLink="false">rxjs2.4.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 06:17:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[backbone.radio updated to version 0.9.0]]></title>
+            <description><![CDATA[The semantic messaging system for Backbone applications.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.9.0/backbone.radio.min.js">//cdnjs.cloudflare.com/ajax/libs/backbone.radio/0.9.0/backbone.radio.min.js</a>]]></description>
+            <link>https://github.com/jmeas/backbone.radio</link>
+            <guid isPermaLink="false">backbone.radio0.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 05:59:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[octicons updated to version 2.2.2]]></title>
+            <description><![CDATA[GitHub's icon font<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.2/octicons.min.css">//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.2/octicons.min.css</a>]]></description>
+            <link>http://octicons.github.com/</link>
+            <guid isPermaLink="false">octicons2.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 05:59:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[KaTeX updated to version 0.3.0]]></title>
+            <description><![CDATA[Fast math typesetting for the web.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js">//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js</a>]]></description>
+            <link>https://khan.github.io/KaTeX/</link>
+            <guid isPermaLink="false">KaTeX0.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 02 Apr 2015 01:13:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[myscript updated to version 0.0.7]]></title>
             <description><![CDATA[MyScript javascript library to facilitate the use of cloud handwriting recognition<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.7/myscript.min.js">//cdnjs.cloudflare.com/ajax/libs/myscript/0.0.7/myscript.min.js</a>]]></description>
@@ -126,14 +205,6 @@
             <pubDate>Tue, 31 Mar 2015 18:10:09 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[octicons updated to version 2.2.1]]></title>
-            <description><![CDATA[GitHub's icon font<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.1/octicons.min.css">//cdnjs.cloudflare.com/ajax/libs/octicons/2.2.1/octicons.min.css</a>]]></description>
-            <link>http://octicons.github.com/</link>
-            <guid isPermaLink="false">octicons2.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 31 Mar 2015 08:54:53 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[metrics-graphics updated to version 2.3.0]]></title>
             <description><![CDATA[A library optimized for concise, principled data graphics and layouts<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.3.0/metricsgraphics.min.js">//cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.3.0/metricsgraphics.min.js</a>]]></description>
             <link>http://metricsgraphicsjs.org</link>
@@ -189,14 +260,6 @@
             <pubDate>Tue, 31 Mar 2015 08:08:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 4.2.5]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.2.5/formly.min.js">//cdnjs.cloudflare.com/ajax/libs/angular-formly/4.2.5/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly4.2.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 31 Mar 2015 08:07:58 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[webfont updated to version 1.5.16]]></title>
             <description><![CDATA[The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.16/webfontloader.js">//cdnjs.cloudflare.com/ajax/libs/webfont/1.5.16/webfontloader.js</a>]]></description>
             <link>http://code.google.com/apis/webfonts/docs/webfont_loader.html</link>
@@ -226,14 +289,6 @@
             <guid isPermaLink="false">snabbt.js0.5.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 30 Mar 2015 07:21:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-timepicker updated to version 1.6.7]]></title>
-            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.7/jquery.timepicker.min.css">//cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.6.7/jquery.timepicker.min.css</a>]]></description>
-            <link>http://jonthornton.github.com/jquery-timepicker/</link>
-            <guid isPermaLink="false">jquery-timepicker1.6.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 30 Mar 2015 07:21:19 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pym updated to version 0.4.1]]></title>
@@ -297,14 +352,6 @@
             <guid isPermaLink="false">elasticsearch4.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 30 Mar 2015 06:41:25 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[bluebird updated to version 2.9.21]]></title>
-            <description><![CDATA[Bluebird is a fully featured Promise library with focus on innovative features and performance.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.21/bluebird.min.js">//cdnjs.cloudflare.com/ajax/libs/bluebird/2.9.21/bluebird.min.js</a>]]></description>
-            <link>https://github.com/petkaantonov/bluebird</link>
-            <guid isPermaLink="false">bluebird2.9.21</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 30 Mar 2015 06:39:51 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[absurd updated to version 0.3.4]]></title>
@@ -376,14 +423,6 @@
             <guid isPermaLink="false">semantic-ui1.11.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 28 Mar 2015 08:24:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rxjs updated to version 2.4.7]]></title>
-            <description><![CDATA[Library for composing asynchronous and event-based operations in JavaScript<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.7/rx.min.js">//cdnjs.cloudflare.com/ajax/libs/rxjs/2.4.7/rx.min.js</a>]]></description>
-            <link>https://github.com/Reactive-Extensions/RxJS</link>
-            <guid isPermaLink="false">rxjs2.4.7</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 28 Mar 2015 08:23:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dustjs-linkedin updated to version 2.6.2]]></title>
@@ -551,14 +590,6 @@
             <guid isPermaLink="false">ractive0.7.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 26 Mar 2015 07:27:19 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[react-slick updated to version 0.4.0]]></title>
-            <description><![CDATA[ React port of slick carousel<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/react-slick/0.4.0/react-slick.min.js">//cdnjs.cloudflare.com/ajax/libs/react-slick/0.4.0/react-slick.min.js</a>]]></description>
-            <link>https://github.com/akiran/react-slick</link>
-            <guid isPermaLink="false">react-slick0.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 26 Mar 2015 07:25:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[yasr updated to version 2.5.3]]></title>
@@ -1058,38 +1089,6 @@
             <guid isPermaLink="false">svg.connectable.js1.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 19 Mar 2015 08:40:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular.js updated to version 1.3.15]]></title>
-            <description><![CDATA[AngularJS is an MVC framework for building web applications. The core features include HTML enhanced with custom component and data-binding capabilities, dependency injection and strong focus on simplicity, testability, maintainability and boiler-plate reduction.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js">//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js</a>]]></description>
-            <link>http://angularjs.org</link>
-            <guid isPermaLink="false">angular.js1.3.15</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 05:26:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[rangeslider.js updated to version 1.1.0]]></title>
-            <description><![CDATA[Simple, small and fast JavaScript/jQuery polyfill for the HTML5 <input type="range"> slider element<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.1.0/rangeslider.min.css">//cdnjs.cloudflare.com/ajax/libs/rangeslider.js/1.1.0/rangeslider.min.css</a>]]></description>
-            <link>https://github.com/andreruffert/rangeslider.js</link>
-            <guid isPermaLink="false">rangeslider.js1.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 04:07:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jsoneditor updated to version 4.1.3]]></title>
-            <description><![CDATA[JSON Editor Online is a web-based tool to view, edit, and format JSON. It shows your data side by side in a clear, editable treeview and in formatted plain text.<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.1.3/jsoneditor.min.js">//cdnjs.cloudflare.com/ajax/libs/jsoneditor/4.1.3/jsoneditor.min.js</a>]]></description>
-            <link>http://jsoneditoronline.org</link>
-            <guid isPermaLink="false">jsoneditor4.1.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 19 Mar 2015 04:06:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[icono(1.3.0) was added]]></title>
-            <description><![CDATA[Pure CSS Icons<br /><br /><a href="//cdnjs.cloudflare.com/ajax/libs/icono/1.3.0/icono.min.css">//cdnjs.cloudflare.com/ajax/libs/icono/1.3.0/icono.min.css</a>]]></description>
-            <link>http://saeedalipoor.github.io/icono/</link>
-            <guid isPermaLink="false">icono1.3.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 18 Mar 2015 22:05:29 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angularLocalStorage(0.3.0) was added]]></title>
