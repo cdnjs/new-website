@@ -1,25 +1,22 @@
 <div class="container" style="text-align: center;">
     <form class="form login-form">
-      <h2 class="form-heading translateit">Login to cdnjs</h2>
-      <p class="translateit">Save your
-        <strong>favorites</strong> for easy access | Receive important system
-        <strong>notifications | </strong>Create your own
-        <strong>public profile</strong> to share.</p>
+      <h2 class="form-heading">{{login.title}}</h2>
+      <p>{{{login.description}}}</p>
     <!--  <br />
     Post updates about <strong>your projects</strong> to over 40,000 developers a week</p>-->
 
       <div class="form-fields">
-        <input id="username" type="text" class="form-control" placeholder="Username" required autofocus><br />
-        <input id="password" type="password" class="form-control" placeholder="Password" required><br />
+        <input id="username" type="text" class="form-control" placeholder="{{login.username}}" required autofocus><br />
+        <input id="password" type="password" class="form-control" placeholder="{{login.password}}" required><br />
       </div>
-      <input class="btn btn-lg btn-info btn-block" type="submit" value="Log in">
+      <input class="btn btn-lg btn-info btn-block" type="submit" value="{{login.button}}">
       <img id="loader" src="img/ajax-loader.gif" style="display: none; margin: 30px auto;">
     </form>
 
-    <p><br /><span class="translateit">Don't have an account?</span> <a href="/register" class="translateit">register now</a></p><br />
-    <div  class='col-md-6 col-md-offset-3'>
+    <p><br />{{{login.dont-have-an-account}}}</p><br />
+    <div class='col-md-6 col-md-offset-3'>
 
-    <p style="color: #444"><a href="https://www.userapp.io" target="_blank"><img src="https://www.userapp.io/img/badge.png" title="User management by UserApp"></a><br /><span  class="translateit">Our user system is sponsored by UserApp. UserApp provides you with user management functionality that results in faster development, faster revenue, more users, and the ability to serve your users better by engaging with them more efficiently.</span></p>
+    <p style="color: #444"><a href="https://www.userapp.io" target="_blank"><img src="https://www.userapp.io/img/badge.png" title="User management by UserApp"></a><br />{{login.userapp-description}}</p>
   </div>
 </div>
 <script>

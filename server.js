@@ -15,6 +15,7 @@ var mongo = require('mongodb');
 var BSON = mongo.BSONPure;
 var timeago = require('timeago');
 var compress = require('compression');
+var yaml = require('js-yaml');
 
 var user_app_token = process.env.USER_APP;
 var DISQUS_SECRET = process.env.DISQUS_SECRET;
@@ -134,25 +135,52 @@ var templates = {
   about: fs.readFileSync('templates/about.html', 'utf8')
 }
 
+// Locales
+var locales = {
+  en: yaml.load(fs.readFileSync('locales/en.yml', 'utf8')),
+  ja: yaml.load(fs.readFileSync('locales/ja.yml', 'utf8'))
+}
+
 var generatePage = function (options) {
   var layout = options.layout || templates.layout;
-  var title = options.title || 'cdnjs.com - the missing cdn for javascript and css'
-  var description = options.page && options.page.description || 'An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!'
+  var language = options.language || 'en';
+  var fullOption = locales[language];
+  fullOption.language = language;
+  if(options.title) {
+    fullOption.title = options.title + '-' + locales[language].title
+  }
+  if(options.page && options.page.description) {
+    fullOption.description = options.page.description
+  }
+  var pageData = locales[language]
+  if(options.page && options.page.data) {
+    pageData = _.extend(pageData, options.page.data)
+  }
 
   var page = {
-    data: options.page && options.page.data || {},
+    data: pageData,
     template: options.page && options.page.template || 'No content'
   }
-  var pageContent = Mustache.render(page.template, page.data);
+  fullOption.page = Mustache.render(page.template, page.data);
 
-  var fullContent = Mustache.render(layout, {title: title, description: description, page: pageContent});
+  var fullContent = Mustache.render(layout, fullOption);
   return fullContent;
 
 }
+
 var setCache = function (res, hours) {
   res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours); // 4 days
   res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
 }
+
+var parseLanguage = function (host) {
+  var splitHost = host.split('.');
+  for(var lang in locales) {
+    if(splitHost[0] === lang) return lang;
+  }
+  return 'en';
+}
+
 MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
   /*
@@ -170,7 +198,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       page: {
         template: templates.home,
         data: {packages: LIBRARIES}
-      }
+      },
+      language: parseLanguage(req.headers.host)
     }));
   });
 
@@ -188,12 +217,13 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
       var library = req.params.library.toLowerCase().replace(/\./g, '');
       console.log(library);
       res.send(generatePage({
-        title: library + ' - cdnjs.com - the missing cdn for javascript and css',
+        title: library + ' - ',
         page: {
           template: templates.library,
           data: {library: LIBRARIES_MAP[library], updates: docs},
           description: LIBRARIES_MAP[library] && LIBRARIES_MAP[library].description
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     });
   });
@@ -204,12 +234,13 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     var library = req.params.library.toLowerCase().replace(/\./g, '');
     T.get('search/tweets', { q: library, count: 100 }, function(err, data, response) {
       res.send(generatePage({
-        title: library + ' news - cdnjs.com - the missing cdn for javascript and css',
+        title: library + ' news - ',
         page: {
           template: templates.news,
           data: {statuses: data.statuses, library: LIBRARIES_MAP[library]},
           description: LIBRARIES_MAP[library].description
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     })
 
@@ -267,11 +298,12 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
             gravatar: get_gravatar(user.email, 100)
           }
           res.send(generatePage({
-            title: data.login + ' profile - cdnjs.com - the missing cdn for javascript and css',
+            title: data.login + ' profile - ',
             page: {
               template: templates.profile,
               data: data
-            }
+            },
+            language: parseLanguage(req.headers.host)
           }));
 
         });
@@ -292,7 +324,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     res.send(generatePage({
       page: {
         template: templates.login
-      }
+      },
+      language: parseLanguage(req.headers.host)
     }));
   });
 
@@ -300,7 +333,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     res.send(generatePage({
       page: {
         template: templates.register
-      }
+      },
+      language: parseLanguage(req.headers.host)
     }));
   });
 
@@ -331,7 +365,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
           })
         }
       res.send(generatePage({
-        title: 'members - cdnjs.com - the missing cdn for javascript and css',
+        title: 'members - ',
         page: {
           template: templates.members,
           data: {
@@ -341,7 +375,8 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
             current_page: page,
             page_nav: page_nav
           }
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     });
   }
@@ -355,8 +390,9 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
     res.send(generatePage({
       page: {
         template: templates.about,
-        title: 'about - cdnjs.com - the missing cdn for javascript and css'
-      }
+        title: 'about - '
+      },
+      language: parseLanguage(req.headers.host)
     }));
   });
 
@@ -433,11 +469,12 @@ var options = {
         doc.timeago = timeago(new Date(doc.posted_at));
       });
       res.send(generatePage({
-        title: 'news feed - community status updates from cdnjs.com',
+        title: 'news feed - ',
         page: {
           template: templates.newsfeed,
           data: {updates: docs.reverse()}
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     });
   });
@@ -461,12 +498,13 @@ var options = {
         doc.user = disqusSignon(disqusUser);
       }
       res.send(generatePage({
-        title: description + ' - cdnjs.com',
+        title: description,
         page: {
           description: description,
           template: templates.newsfeed_item,
           data: doc
-        }
+        },
+        language: parseLanguage(req.headers.host)
       }));
     });
   }

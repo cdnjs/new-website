@@ -1,13 +1,13 @@
 <div class="container">
 <div class="row">
 
-    <h1 style="margin-top: 00px;">{{library.name}} news</h1>
+    <h1 style="margin-top: 00px;">{{library.name}} {{news.title}}</h1>
 
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
       <p>{{library.description}}</p>
       <em>{{library.keywords}}</em>
       <br />
-      <h3>Latest Tweets</h3>
+      <h3>{{news.latest-tweets}}</h3>
 {{#statuses}}
 <div class="tweet-wrapper col-md-3 col-sm-3">
   <div class="tweet-cards">
@@ -25,7 +25,7 @@
     </div>
   </div>
 </div>
-    
+
 {{/statuses}}
 </div>
 </div>

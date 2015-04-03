@@ -1,0 +1,94 @@
+layout:
+  title: cdnjs.com - Javascript と CSS のための今までになかった CDN
+  description: jQuery や Modernizr から Bootstrap まで全てをホストする CloudFlare が支援する Javascript と CSS のオープンソース CDN です。cdnjs であなたのサイトをスピードアップ！
+  add-a-library: &add-a-library ライブラリを追加
+  about: このサイトについて
+  community: コミュニティ
+  job-board: ジョブボード
+  chat: &chat チャット
+  login: ログイン
+  logout: ログアウト
+  register: 登録
+  profile: プロフィール
+
+about:
+  google-and-microsoft: 皆さんは&nbsp;<a target="_blank" href="http://code.google.com/apis/libraries/devguide.html">Google CDN</a>&nbsp;が好きですよね？ 同じく&nbsp;<a href="http://www.asp.net/ajaxlibrary/cdn.ashx" target="_blank">Microsoft も自らの CDN を運営しています</a>。
+  the-promblem: 問題は、これらは有名なライブラリしかホストしていないことです。
+  we-host-it-all: 私たちは JavaScript, CSS, SWF, 画像, その他の全てをホストします。
+  supports-http-https-spdy: http/https/spdy をサポートしていますが、私たちは <strong>https</strong> を使うことを強く勧めます！
+  currently-used-by: 現在、全世界の520,000のウェブサイトで使われています。<a href="http://trends.builtwith.com/cdn/CDN-JS">詳しくはこちら</a>。
+  creators: クリエイター
+  maintainers: メンテナー
+  sponsors: スポンサー
+  cloudflare-description: CloudFlare はCDNJS のようなオープンソースでコミュニティ主導のプロジェクトがインターネットの未来を構築するツールであると信じています。その未来を支えるであろうグローバルな CDN を提供できることを、私たちは誇りに思います。
+  userapp-description: &userapp-description 私たちのシステムは UserApp の支援を受けています。UserApp は、ユーザ管理機能を提供しておりこれによりより高速な開発、高速な収入、より多くのユーザ、そしてあなたのユーザにより良いサービスを提供します。
+  algolia-description: Algolia はデベロッパーフレンドリーなデータベース検索の SaaS API を提供しています。これはどんなウェブサイトやモバイルアプリケーションでも簡単にインスタントで関連性の高い検索を可能にします。Algolia 独自の検索により、ユーザはほんの数回のキー入力で探しているものを見つけることができます。
+  media: メディア
+  translations: 各国言語版
+  explore: 探索
+  add-a-library: *add-a-library
+  feedback: フィードバック
+  our-network: グローバルネットワーク
+  uptime: アップタイム
+  plugins: プラグイン
+  chat: *chat
+  members: メンバー
+
+home:
+  search-for: ライブラリから検索する
+  realtime-search: 'リアルタイム検索:'
+  library: ライブラリ
+  link: リンク
+
+librarypage:
+  version: バージョン
+  recent-community-updates: 最近のコミュニティアップデート
+  view-or-post: <a href="/news">全て見る</a> もしくは <a href="/news">投稿する</a>
+
+news:
+  title: ニュース
+  latest-tweets: 最近のツイート
+
+newsfeed:
+  post-an-update: アップデートを投稿する
+  login-or-register: ステータスを投稿するために <a href="/login">ログインする</a> もしくは <a href="/register">登録する</a>
+  rules: ルール
+  rule1: 気軽に自分のプロジェクトを宣伝したり、フィードバックをもらったりなんでも好きなことを言う
+  rule2: ウェブ開発業界に関連するあなたの更新を保ち続ける
+  rule3: あなたは1日 <strong>1つだけ</strong> ニュースを投稿できる
+  rule4: 上限は200文字で URL は短縮される
+  chat: *chat
+  join-the-cdnjs: cdnjs に参加しよう
+  community-chat: コミュニティチャット
+  latest-updates: 最近のアップデート
+  comments: コメント
+  posted: '投稿時:'
+
+login:
+  title: cdnjs にログインする
+  description: &description あなたの <strong>お気に入り</strong> を保存して簡単にアクセスできるようにしよう | 重要なシステムの <strong>通知</strong> を受け取ろう | <strong>公開プロフィール</strong> を作成してシェアしよう
+  username: &username ユーザ名
+  password: &password パスワード
+  dont-have-an-account: アカウントを持っていませんか？ <a href="/register">今すぐ登録しましょう</a>
+  userapp-description: *userapp-description
+  button: ログイン
+
+register:
+  title: cdnjs にサインアップする
+  description: *description
+  username: *username
+  email: メールアドレス
+  password: *password
+  create-button: アカウント作成
+  already-have-an-account: 既にアカウントを持っていますか？ <a href="login">ここからログイン</a>
+  userapp-description: *userapp-description
+
+profile:
+  favorites: お気に入り
+  library: ライブラリ
+  link: リンク
+
+members:
+  title: メンバーズ - ベータ版
+  community-members-and-growing: 人のコミュニティメンバーがいます
+  user: ユーザ
