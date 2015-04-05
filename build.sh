@@ -17,3 +17,8 @@ git commit -am "Updated packages."
 git pull --rebase
 git push
 git push heroku master
+
+echo reindex algolia-search research
+GITHUB_OAUTH_TOKEN=
+ALGOLIA_API_KEY=
+./reindex.js
