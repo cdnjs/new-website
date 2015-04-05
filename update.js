@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var _    = require('lodash');
 var fs   = require('fs');
 var http = require('http');

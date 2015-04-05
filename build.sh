@@ -9,7 +9,7 @@ echo npm install for good mesure
 /usr/local/bin/npm install
 
 echo Re-generating website...
-/usr/local/bin/node update.js
+./update.js
 
 echo Uploading website...
 git add .
