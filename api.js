@@ -67,6 +67,6 @@ app.get('/libraries/:library', function(req, res){
   res.jsonp(results[0]);
 } else { res.jsonp({})}
 });
-var port = process.env.PORT || 5050;
+var port = process.env.PORT || 80;
 
 app.listen(port);
