@@ -32,7 +32,7 @@
     "html-linkify": "^1.2",
     "lodash": "^3.1",
     "mongodb": "^2.0",
-    "mustache": "^1.0",
+    "mustache": "^2.0",
     "timeago": "^0.2",
     "twit": "^1.1",
     "urlize": "^0.2",
