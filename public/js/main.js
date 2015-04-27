@@ -241,10 +241,11 @@ $('body').on('click', '.remove-favorite', function(e) {
       //copyEl.appendTo('body');
     });
   }
-  setupMouseEvents();
 
   var client = new ZeroClipboard($(".copy-button"));
   client.on( "ready", function( readyEvent ) {
+    // ZeroClipboard is enabled. Display copy button.
+    setupMouseEvents();
     client.on( "copy", function (event) {
       var button = $(event.target);
       var embed = button.attr('data-copy-embed');
