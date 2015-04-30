@@ -32,4 +32,4 @@ APP=[mainSite|api]
 
 **Note**: Make sure `mongod` is running if you're using a local database.
 
-**Heads up**: `runServer.sh` script only works on UNIX-like systems. Windows users should run `node [server|api].js` instead.
+**Heads up**: `runServer.sh` script only works on Bash. If you're using another shell run `node [server|api].js` instead.
