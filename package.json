@@ -37,8 +37,5 @@
     "twit": "^1.1",
     "urlize": "^0.2",
     "userapp": "^2.0"
-  },
-  "devDependencies": {
-    "algolia-search": "^2.0.1"
   }
 }
