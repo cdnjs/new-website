@@ -354,6 +354,7 @@ MongoClient.connect(process.env.MONGOHQ_URL, function(err, db) {
 
 
   app.get('/about', function(req, res) {
+    setCache(res, 72);
     res.send(generatePage({
       page: {
         template: templates.about,
