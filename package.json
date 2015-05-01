@@ -22,7 +22,7 @@
     "node": "0.10.x"
   },
   "dependencies": {
-    "algolia-search": "^1.7.0",
+    "algolia-search": "^2.0.1",
     "async": "^0.9.0",
     "body-parser": "^1.5",
     "compression": "^1.0",
@@ -39,6 +39,6 @@
     "userapp": "^2.0"
   },
   "devDependencies": {
-    "algolia-search": "^1.7.0"
+    "algolia-search": "^2.0.1"
   }
 }
