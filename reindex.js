@@ -2,7 +2,7 @@
 
 var _ = require("lodash");
 var fs = require("fs");
-var AlgoliaSearch = require("algolia-search");
+var algoliasearch = require("algoliasearch");
 var GitHubApi = require("github");
 var async = require("async");
 
@@ -121,7 +121,7 @@ function crawl(gnext) {
 //////
 ////// Push libraries to Algolia for the indexing
 //////
-var client = new AlgoliaSearch('2QWLVLXZB6', process.env.ALGOLIA_API_KEY);
+var client = algoliasearch('2QWLVLXZB6', process.env.ALGOLIA_API_KEY);
 var index = client.initIndex('libraries.tmp');
 
 function initIndex(next) {
