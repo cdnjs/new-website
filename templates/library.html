@@ -1,7 +1,6 @@
 <div class="library-container">
   <div class="col-md-12">
     <h1 style="margin-top: 00px;">{{library.name}}</h1>
-
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
       <p class="translateit">{{library.description}}</p>
       <em class="translateit">{{library.keywords}}</em>
@@ -26,11 +25,8 @@
         <div class="panel-heading">
           <div class="panel-title" class="translateit">Version {{version}}</div>
         </div>
-
         <div class="panel-body">
-
           <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
-
             <tbody>
               {{#files}}
               <tr class="library">
@@ -43,9 +39,7 @@
           </table>
         </div>
       </div>
-
       {{/library.assets}}
-
       <!--
       <div id="disqus_thread"></div>
       <script type="text/javascript">
