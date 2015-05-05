@@ -2,5 +2,5 @@
 if [ "$APP" == "mainSite" ]; then
     node server.js
 elif [ "$APP" == "api" ]; then
-    node api.js
+    node apiServer.js
 fi
