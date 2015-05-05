@@ -1,7 +1,6 @@
  currentUser = null; // This will contain the logged in user
 
 (function($) {
-
     function selectText(element) {
       var doc = document;
       var text = element;
@@ -20,10 +19,7 @@
       }
     }
 
-
-
     // UserApp Integration
-
     UserApp.initialize({
       appId: "5343d12871774"
     });
@@ -32,7 +28,6 @@
     if (token) {
       // Yes, there is
       UserApp.setToken(token);
-
       // Get the logged in user
       getCurrentUser(function(user) {
         if (user) {
@@ -101,11 +96,8 @@
     })
 
 
-
     // TODO - This is some pretty ugly code by Thomas </honesty>
-
     var favorites = [];
-
     function getFavorites(callback) {
       $.get("/favorites?token=" + token, function(data) {
         if (data) {
@@ -195,22 +187,6 @@ $('body').on('click', '.remove-favorite', function(e) {
       //putClassOnFavorites(favorites);
       return false;
     });
-/*
-<div class="btn-group">
-                  <button type="button" class="btn btn-primary">Primary</button>
-                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </div>
-*/
-
-
-
 
   var copyEl = $('<div/>').addClass('btn-group copy-button-group');
   var copyElButton = $('<button/>').attr('data-copy-type','').attr('type', 'button').addClass('btn btn-primary btn-sm copy-button').text('Copy');
@@ -383,7 +359,6 @@ $('body').on('click', '.remove-favorite', function(e) {
 
   $('#search-box').on('keyup change', searchHandler);
 
-
   // Perform searches automatically based on the URL hash
   if (location.hash.length > 1) {
     var query = location.hash.match(/q=([\w+]+)/)
@@ -394,7 +369,6 @@ $('body').on('click', '.remove-favorite', function(e) {
     }
   }
 
-
   // Put favorite libraries at the top of the list
   //putClassOnFavorites(getFavorites());
   $('#search-box').focus();
@@ -403,9 +377,7 @@ $('body').on('click', '.remove-favorite', function(e) {
     var val = $(ev.currentTarget).val();
     $('[data-library-version]').removeClass('active');
     $('[data-library-version="'+val+'"]').addClass('active');
-
   });
-
 
   $('.status-update').on('keydown', function (ev) {
     var count = 200- 1*($(ev.currentTarget).val().length);
@@ -414,7 +386,6 @@ $('body').on('click', '.remove-favorite', function(e) {
       $('.status-update-button').attr('disabled', 'disabled');
     } else {
       $('.status-update-button').removeAttr('disabled');
-
     }
   });
   $('.post-news').on('submit', function (ev) {
@@ -473,7 +444,5 @@ $('body').on('click', '.remove-favorite', function(e) {
       showLoader(false);
     }
     return false;
-
   })
-
 })(jQuery);
