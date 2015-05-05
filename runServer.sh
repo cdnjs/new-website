@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [ "$APP" == "mainSite" ]; then
-    node server.js
+    node webServer.js
 elif [ "$APP" == "api" ]; then
     node apiServer.js
 fi
