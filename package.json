@@ -30,7 +30,7 @@
     "express": "^4.7",
     "github": "^0.2",
     "html-linkify": "^1.2",
-    "lodash": "^3.1",
+    "lodash": "^3.8",
     "mongodb": "^2.0",
     "mustache": "^2.0",
     "timeago": "^0.2",
