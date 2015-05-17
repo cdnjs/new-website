@@ -86,10 +86,7 @@ var T = new Twit({
 app.use(compress());
 app.use(minify(
 {
-  js_match: /js/,
-  css_match: /css/,
-  blacklist: [/\.min\.(css|js)$/],
-  whitelist: null
+  js_match: /js/
 }));
 // Serve public folder
 app.use(express.static(__dirname + '/public', {maxAge: 7200 * 1000}));
