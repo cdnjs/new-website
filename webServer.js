@@ -17,6 +17,7 @@ var mongo = require('mongodb');
 var BSON = mongo.BSONPure;
 var timeago = require('timeago');
 var compress = require('compression');
+var minify = require('express-minify');
 
 var user_app_token = process.env.USER_APP;
 var DISQUS_SECRET = process.env.DISQUS_SECRET;
@@ -82,7 +83,14 @@ var T = new Twit({
   , access_token_secret:  process.env.ACCESS_TOKEN_SECRET
 });
 
-app.use(compress())
+app.use(compress());
+app.use(minify(
+{
+  js_match: /js/,
+  css_match: /css/,
+  blacklist: [/\.min\.(css|js)$/],
+  whitelist: null
+}));
 // Serve public folder
 app.use(express.static(__dirname + '/public', {maxAge: 7200 * 1000}));
 app.use(bodyParser());
