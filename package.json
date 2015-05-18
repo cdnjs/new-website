@@ -28,7 +28,7 @@
     "compression": "^1.0",
     "cookie-parser": "^1.0.1",
     "express": "^4.7",
-    "express-minify": "^0.1.3",
+    "express-minify": "^0.1.4",
     "github": "^0.2",
     "html-linkify": "^1.2",
     "lodash": "^3.8",
