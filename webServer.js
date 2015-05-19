@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+require('newrelic');
 var express = require("express");
 var fs = require("fs");
 var _ = require("lodash");

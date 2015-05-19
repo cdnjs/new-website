@@ -34,6 +34,7 @@
     "lodash": "^3.8",
     "mongodb": "^2.0",
     "mustache": "^2.0",
+    "newrelic": "^1.19.1",
     "timeago": "^0.2",
     "twit": "^1.1",
     "urlize": "^0.2",
