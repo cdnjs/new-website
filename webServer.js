@@ -22,16 +22,10 @@ function start() {
     var linkify = require("html-linkify");
     var timeago = require('timeago');
     var compress = require('compression');
-    // var minify = require('express-minify');
 
 
 
     app.use(compress());
-    /*
-    app.use(minify({
-        cache: __dirname + '/cache'
-    }));
-    */
     // Serve public folder
     app.use(express.static(__dirname + '/public', {
         maxAge: 7200 * 1000
