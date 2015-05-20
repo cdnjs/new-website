@@ -26,7 +26,7 @@ function start() {
 
 
 
-    app.use(compress());
+    // app.use(compress());
     app.use(minify({
         cache: __dirname + '/cache'
     }));
