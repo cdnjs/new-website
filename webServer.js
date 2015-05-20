@@ -123,7 +123,7 @@ function start() {
         setCache(res, 1);
 
         var library = req.params.library.toLowerCase().replace(/\./g, '');
-        // console.log(library);
+        console.log(library);
         res.send(generatePage({
             title: library + ' - cdnjs.com - the missing cdn for javascript and css',
             page: {
