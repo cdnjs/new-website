@@ -16,22 +16,18 @@ function start() {
     var _ = require("lodash");
     var Mustache = require("mustache");
     var app = express();
-    var bodyParser = require('body-parser');
 
-    var cookieParser = require('cookie-parser');
     var linkify = require("html-linkify");
     var timeago = require('timeago');
     var compress = require('compression');
 
-
-
     app.use(compress());
+
     // Serve public folder
     app.use(express.static(__dirname + '/public', {
         maxAge: 7200 * 1000
     }));
-    app.use(bodyParser());
-    app.use(cookieParser());
+
     // Load libraries into ram
     var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
 
@@ -137,7 +133,6 @@ function start() {
     });
 
 
-
     app.get('/about', function(req, res) {
         setCache(res, 72);
         res.send(generatePage({
@@ -147,10 +142,6 @@ function start() {
             }
         }));
     });
-
-
-
-
 
 
     app.listen(PORT, function() {

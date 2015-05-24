@@ -24,9 +24,7 @@
   "dependencies": {
     "algoliasearch": "^3.2",
     "async": "^1.0.0",
-    "body-parser": "^1.5",
     "compression": "^1.0",
-    "cookie-parser": "^1.0.1",
     "express": "^4.7",
     "github": "^0.2",
     "html-linkify": "^1.2",
