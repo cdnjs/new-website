@@ -16,9 +16,6 @@ function start() {
     var _ = require("lodash");
     var Mustache = require("mustache");
     var app = express();
-
-    var linkify = require("html-linkify");
-    var timeago = require('timeago');
     var compress = require('compression');
 
     app.use(compress());

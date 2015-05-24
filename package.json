@@ -27,13 +27,11 @@
     "compression": "^1.0",
     "express": "^4.7",
     "github": "^0.2",
-    "html-linkify": "^1.2",
     "lodash": "^3.8",
     "mongodb": "^2.0",
     "mustache": "^2.0",
     "newrelic": "^1.19.1",
     "throng": "^1.0.0",
-    "timeago": "^0.2",
     "twit": "^1.1",
     "userapp": "^2.0"
   }
