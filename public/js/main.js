@@ -63,8 +63,6 @@
       }
           ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
 
-      toastr.warning('Copied to the clipboard');
-
       var clipboard = event.clipboardData;
       clipboard.setData( "text/plain", url );
     });
