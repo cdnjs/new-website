@@ -33,7 +33,6 @@
     "mustache": "^2.0",
     "newrelic": "^1.19.1",
     "throng": "^1.0.0",
-    "twit": "^1.1",
-    "userapp": "^2.0"
+    "twit": "^1.1"
   }
 }
