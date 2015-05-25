@@ -1,14 +1,14 @@
 #!/usr/bin/env node
-//require('newrelic');
+require('newrelic');
 var throng = require('throng');
 
 var WORKERS = process.env.WEB_CONCURRENCY || 1;
 var PORT = Number(process.env.PORT || 5500);
-/*
+
 throng(start, {
     workers: WORKERS,
     lifetime: Infinity
-});*/
+});
 
 function start() {
     var express = require("express");
@@ -182,4 +182,3 @@ function start() {
         console.log("Listening on " + PORT);
     });
 }
-start();
