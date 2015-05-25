@@ -41,16 +41,6 @@ function start() {
             library.fileType = 'js';
         }
         library.keywords = library.keywords && library.keywords.join(', ');
-        library.assets = _.map(library.assets, function(assets) {
-            if (library.version === assets.version) {
-                assets.selected = 'selected="selected"';
-                assets.classes = 'active';
-            } else {
-                assets.selected = '';
-                assets.classes = '';
-            }
-            return assets;
-        })
         LIBRARIES_MAP[library.name.toLowerCase().replace(/\./g, '')] = library;
 
     });
@@ -111,23 +101,58 @@ function start() {
         }));
     });
 
+    function libraryAssetsList(library, version) {
+        return _.map(library.assets, function(assets) {
+            if (assets.version === version) {
+                assets.selected = 'selected="selected"';
+            } else {
+                assets.selected = '';
+            }
+            return assets;
+        });
+    }
 
-    app.get('/libraries/:library', function(req, res) {
+    function checkVersion(library, version) {
+        return _.findWhere(library.assets, { version: version });
+    }
+
+
+    function libraryResponse(req, res) {
         setCache(res, 1);
 
-        var library = req.params.library.toLowerCase().replace(/\./g, '');
-        // console.log(library);
+        var libraryName = req.params.library.toLowerCase().replace(/\./g, '');
+        var library = LIBRARIES_MAP[libraryName];
+
+        if(!library) {
+            // If we don't find the library, redirect to the homepage.
+            return res.status(404).send('Library "' + libraryName + '" not found!');
+        }
+
+        var version = req.params.version || library.version;
+
+        if(!_.findWhere(library.assets, { version: version })) {
+            return res.status(404).send(libraryName + ' version "' + version + '" not found!');
+        }
+
+        var assets = libraryAssetsList(library, version);
+
         res.send(generatePage({
-            title: library + ' - cdnjs.com - the missing cdn for javascript and css',
+            title: libraryName + ' - cdnjs.com - the missing cdn for javascript and css',
             page: {
                 template: templates.library,
                 data: {
-                    library: LIBRARIES_MAP[library]
+                    library: library,
+                    assets: assets,
+                    selectedAssets: _.findWhere(assets, {version: version})
                 },
                 description: LIBRARIES_MAP[library] && LIBRARIES_MAP[library].description
             }
         }));
-    });
+    }
+
+
+    app.get('/libraries/:library/:version', libraryResponse);
+    app.get('/libraries/:library', libraryResponse);
 
 
     app.get('/about', function(req, res) {

@@ -2,6 +2,7 @@
   <div class="col-md-12">
     <h1 style="margin-top: 00px;">{{library.name}}</h1>
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
+      <span id="library-name" style="display: none;" hidden>{{library.name}}</span>
       <p class="translateit">{{library.description}}</p>
       <em class="translateit">{{library.keywords}}</em>
       <br />
@@ -14,14 +15,14 @@
       <br />
       <br />
       <select class="form-control version-selector" style="float: right;">
-        {{#library.assets}}
+        {{#assets}}
           <option value="{{version}}" {{selected}}>{{version}}</option>
-        {{/library.assets}}
+        {{/assets}}
       </select>
       <div style="clear: both;"></div>
       <br />
-      {{#library.assets}}
-      <div data-library-version="{{version}}" class="assets panel panel-primary {{classes}}" style="display: none;">
+      {{#selectedAssets}}
+      <div data-library-version="{{version}}" class="assets panel panel-primary active">
         <div class="panel-heading">
           <div class="panel-title" class="translateit">Version {{version}}</div>
         </div>
@@ -39,7 +40,7 @@
           </table>
         </div>
       </div>
-      {{/library.assets}}
+      {{/selectedAssets}}
 
     <br />
     <br />

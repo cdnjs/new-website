@@ -206,9 +206,10 @@
   $('#search-box').focus();
 
   $('.version-selector').on('change', function (ev) {
-    var val = $(ev.currentTarget).val();
-    $('[data-library-version]').removeClass('active');
-    $('[data-library-version="'+val+'"]').addClass('active');
+    var libraryVersion = $(ev.currentTarget).val();
+    var libraryName = $('#library-name').text();
+    var newURL = window.location.origin + '/libraries/' + libraryName + '/' + libraryVersion;
+    window.location.href = newURL;
   });
 
 
