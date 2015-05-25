@@ -157,11 +157,15 @@ function start() {
     app.get('/libraries/:library/:version', libraryResponse);
     
     app.get('/libraries/:library', libraryResponse);
+
     app.get('/libraries', function(req, res) {
         res.send(generatePage({
+            title: 'libraries - cdnjs.com - the missing cdn for javascript and css',
             page: {
                 template: templates.libraries,
-                title: 'libraries - cdnjs.com - the missing cdn for javascript and css'
+                data: {
+                    packages: _.toArray(LIBRARIES_MAP)
+                }
             }
         }));
     });
