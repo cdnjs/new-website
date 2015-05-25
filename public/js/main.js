@@ -183,7 +183,7 @@
     var val = $(ev.currentTarget).val();
     if (val === '') {
       $hits.html($allRows);
-    $('.packages-table-container').hide();
+    $('.home.packages-table-container').hide();
 
     } else if (lastQuery !== val) {
       index.search(val, displayMatchingLibraries, { hitsPerPage: 20 });
