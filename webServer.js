@@ -1,14 +1,14 @@
 #!/usr/bin/env node
-require('newrelic');
+//require('newrelic');
 var throng = require('throng');
 
 var WORKERS = process.env.WEB_CONCURRENCY || 1;
 var PORT = Number(process.env.PORT || 5500);
-
+/*
 throng(start, {
     workers: WORKERS,
     lifetime: Infinity
-});
+});*/
 
 function start() {
     var express = require("express");
@@ -53,6 +53,7 @@ function start() {
     var templates = {
         layout: fs.readFileSync('templates/layout.html', 'utf8'),
         home: fs.readFileSync('templates/home.html', 'utf8'),
+        libraries: fs.readFileSync('templates/libraries.html', 'utf8'),
         library: fs.readFileSync('templates/library.html', 'utf8'),
         login: fs.readFileSync('templates/login.html', 'utf8'),
         register: fs.readFileSync('templates/register.html', 'utf8'),
@@ -78,7 +79,8 @@ function start() {
         var fullContent = Mustache.render(layout, {
             title: title,
             description: description,
-            page: pageContent
+            page: pageContent,
+            wrapperClass: options.wrapperClass || ''
         });
         return fullContent;
 
@@ -97,7 +99,8 @@ function start() {
                 data: {
                     packages: LIBRARIES
                 }
-            }
+            },
+            wrapperClass: 'home'
         }));
     });
 
@@ -152,7 +155,16 @@ function start() {
 
 
     app.get('/libraries/:library/:version', libraryResponse);
+    
     app.get('/libraries/:library', libraryResponse);
+    app.get('/libraries', function(req, res) {
+        res.send(generatePage({
+            page: {
+                template: templates.libraries,
+                title: 'libraries - cdnjs.com - the missing cdn for javascript and css'
+            }
+        }));
+    });
 
 
     app.get('/about', function(req, res) {
@@ -170,3 +182,4 @@ function start() {
         console.log("Listening on " + PORT);
     });
 }
+start();

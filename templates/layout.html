@@ -14,88 +14,43 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{{description}}">
   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="cdnjs">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.2/css/toastr.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.1.1-1/css/united/bootstrap.min.css">
   <link rel="stylesheet" href="/css/theme.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.min.css" />
-  <!--[if lt IE 9]>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.1.1/gh-fork-ribbon.ie.min.css" />
-  <![endif]-->
 </head>
 
 <body>
-  <div class="github-fork-ribbon-wrapper right">
-    <div class="github-fork-ribbon">
-      <a href="https://github.com/cdnjs/cdnjs">Help us on GitHub!</a>
-    </div>
-  </div>
-  <div class="container">
-    <div>
-      <div class="col-md-8">
-        <div class="navbar navbar-default">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">cdnjs</a>
-          </div>
-          <div class="navbar-collapse collapse navbar-responsive-collapse">
-            <ul class="nav navbar-nav">
+
+  <div class="container {{wrapperClass}}">
+    <div class="row">
+      <div class="col-md-12">
+            <ul class="menu">
+              <li class="logo"><a class="" href="/">cdnjs search</a></li>
+
               <li class=""><a href="http://github.com/cdnjs/cdnjs" class="translateit">Add a lib</a></li>
+
+              <li class=""><a href="https://gitter.im/cdnjs/cdnjs" class="translateit">Chat</a></li>
+            
+            <li><a href="https://www.cloudflare.com/network-map">Network</a></li>
+            <li><a href="http://stats.pingdom.com/4jg86a2wqei0">Uptime</a></li>
+            <li><a href="https://github.com/cdnjs/cdnjs/issues">Issues</a></li>
+           <!-- <li><a href="https://github.com/cdnjs/cdnjs/wiki/Extensions%2C-Plugins%2C-Resources">Plugins</a></li>-->
               <li class=""><a href="/about" class="translateit">About</a></li>
             </ul>
-            <ul class="nav navbar-nav">
-              <li class=""><a href="https://gitter.im/cdnjs/cdnjs" class="translateit">Chat</a></li>
-            </ul>
-            <ul class="nav navbar-nav"><li><a href="https://www.cloudflare.com/network-map">Network</a></li></ul>
-            <ul class="nav navbar-nav"><li><a href="http://stats.pingdom.com/4jg86a2wqei0">Uptime</a></li></ul>
-            <ul class="nav navbar-nav"><li><a href="https://github.com/cdnjs/cdnjs/issues">Issue</a></li></ul>
-            <ul class="nav navbar-nav"><li><a href="https://github.com/cdnjs/cdnjs/wiki/Extensions%2C-Plugins%2C-Resources">Plugin</a></li></ul>
-            <ul class="nav navbar-nav navbar-right">
-              <!--
-              <li><a style="display: none;" class="login translateit" href="/login" >Login</a>
-              <li><a style="display: none;" class="logout translateit" href="/logout" >Logout</a>
-              <li><a style="display: none;" class="register translateit" href="/register" >Register</a>
-              <li><a style="display: none;" class="profile translateit" href="/profile" >Profile</a>
-              -->
-              </li>
-            </ul>
-          </div>
-        </div>
-        <p>
-      <span class="translateit">Everyone loves the&nbsp;</span><a target="_blank" href="http://code.google.com/apis/libraries/devguide.html" class="translateit">Google CDN</a><span class="translateit">&nbsp;right? Even&nbsp;</span><a href="http://www.asp.net/ajaxlibrary/cdn.ashx" target="_blank" class="translateit">Microsoft runs their own CDN</a>.
-      <br><span class="translateit">The problem is, they only host the most popular libraries.</span>
-      <br><span class="translateit">We host it all - JavaScript, CSS, SWF, images, etc!</span>
-      <br><span class="translateit">Join us now on GitHub!</span><br>
-      <iframe src="https://ghbtns.com/github-btn.html?user=cdnjs&repo=cdnjs&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="105px" height="20px"></iframe>
-      <iframe src="https://ghbtns.com/github-btn.html?user=cdnjs&repo=cdnjs&type=star&count=true" frameborder="0" scrolling="0" width="105px" height="20px"></iframe>
-      <iframe src="https://ghbtns.com/github-btn.html?user=cdnjs&repo=new-website&type=star&count=true" frameborder="0" scrolling="0" width="105px" height="20px"></iframe>
-      <iframe src="https://ghbtns.com/github-btn.html?user=cdnjs&repo=cdnjs&type=fork&count=true" frameborder="0" scrolling="0" width="105px" height="20px"></iframe>
-      </p><p>
-      <a class="btn btn-success" href="https://news.cdnjs.com" target="_blank" style="width: 100%;margin-top: 20px;margin-bottom: 20px;">Come join our new front end news community!</a>
-      </p>
-      </div>
-      <div class="col-md-4">
-        <script async type="text/javascript" src="https://cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=cdnjscom" id="_carbonads_js" async></script>
-      </div>
+       </div>
+       </div>
 
-    <div class="clear"></div>
-    <div class="page">
+    <div class="page row">
       {{{page}}}
+
     </div>
+       
   </div>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap-dropdown.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.0.0-beta.5/ZeroClipboard.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.2/js/toastr.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.0/jquery.timeago.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/algoliasearch/2.8.0/algoliasearch.min.js"></script>
-  <script src="/js/kaka.js"></script>
   <script src="/js/main.js"></script>
 
     <script src="//static.getclicky.com/js"></script>
@@ -110,18 +65,6 @@
       ga('require', 'linkid', 'linkid.js');
       ga('require', 'displayfeatures');
       ga('send', 'pageview');
-    </script>
-    <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'cdnjsweb'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-    var s = document.createElement('script'); s.async = true;
-    s.type = 'text/javascript';
-    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
     </script>
 </body>
 

@@ -1,20 +1,9 @@
 body {
   overflow-y: scroll;
-  padding-top: 15px;
 }
 
 .page {
   padding-top: 15px;
-}
-
-.avatar-frame{border: 2px solid #dd4814;}
-.avatar-frame,.avatar-frame img{
-  width: 90px;
-  margin-bottom: 17px;
-  height: 90px;
-  -webkit-border-radius: 80px; /* Saf3+, Chrome */
-  border-radius: 80px; /* Opera 10.5, IE 9 */
-  /*-moz-border-radius: 30px;  Disabled for FF1+ */
 }
 
 .assets.active {
@@ -53,38 +42,6 @@ body {
 
 
 
-.tweet-wrapper {
-  margin: 50px auto;
-  text-align: center;
-}
-
-.tweet-cards{
-  background-color: #F4F4F4;
-  height:250px;
-  border-radius: 2px;
-  box-shadow: 3px 3px 3px #007BA8;
-}
-
-.tweet-cards .card-top{
-  background-color: #007BA8;
-  border-bottom: 4px solid #006E96;
-  height:30%;
-  border-radius: 2px 2px 0px 0px;
-}
-
-.tweet-cards .profile-pic{
-  height:60px;
-}
-
-.tweet-cards .profile-pic img{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: relative;
-  margin: -52px 0 0 6px;
-  border: 4px solid white;
-}
-
 p#name a{
     text-decoration: none;
     font-family: arial, helvetica;
@@ -92,21 +49,6 @@ p#name a{
     font-weight: bold;
     position: relative;
     bottom: 8px;
-}
-
-.tweet{
-    position: relative;
-    bottom: 7px;
-    width: 260px;
-    height: 102px;
-    word-wrap: break-word;
-    text-align: center;
-    line-height: 18px;
-    margin: auto;
-    font-weight: 200;
-    font-family: helvetica neue;
-    font-size: 0.95em;
-    color: #545454;
 }
 
 p#date{
@@ -138,7 +80,7 @@ p#date{
 }
 
 #carbonads {
-  border: 1px solid #bf3e11!important;
+  border: none !important;
   border-radius: 4px;
   width: 330px!important;
   height: auto!important;
@@ -164,4 +106,34 @@ p#date{
   display: inline;
   width: 130px;
   height: 100px;
+}
+#search-box {
+  margin: 0px 0 15px 0;
+}
+.container.home {
+  margin-top: 200px;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+.menu li {
+  float: right;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.logo {
+  float: left !important;
+  margin-left: 0 !important;
+}
+.logo a {
+  font-weight: bold;
+}
+
+.version-dropdown {
+  margin-top: 20px;
 }

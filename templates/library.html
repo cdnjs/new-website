@@ -1,32 +1,36 @@
 <div class="library-container">
   <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-8">
+
     <h1 style="margin-top: 00px;">{{library.name}}</h1>
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
       <span id="library-name" style="display: none;" hidden>{{library.name}}</span>
       <p class="translateit">{{library.description}}</p>
       <em class="translateit">{{library.keywords}}</em>
+
       <br />
       {{#library.gratipay}}
       <a href="https://gratipay.com/{{library.gratipay}}/"><img src="https://img.shields.io/gratipay/{{library.gratipay}}.svg" /></a>
       {{/library.gratipay}}
-      {{#library.namespace}}
-      <a href="http://libscore.com#{{library.namespace}}"><img src="http://api.libscore.com/badge/{{library.namespace}}.svg" /></a>
-      {{/library.namespace}}
-      <br />
-      <br />
+        </div>
+        <div class="col-md-4">
+
+      <script async type="text/javascript" src="https://cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=cdnjscom" id="_carbonads_js" async></script>
+        </div>
+      </div>
+       <div class="input-group version-dropdown">
+      <div class="input-group-addon">Version</div>
       <select class="form-control version-selector" style="float: right;">
         {{#assets}}
           <option value="{{version}}" {{selected}}>{{version}}</option>
         {{/assets}}
       </select>
+        </div>
       <div style="clear: both;"></div>
       <br />
       {{#selectedAssets}}
-      <div data-library-version="{{version}}" class="assets panel panel-primary active">
-        <div class="panel-heading">
-          <div class="panel-title" class="translateit">Version {{version}}</div>
-        </div>
-        <div class="panel-body">
+      <div data-library-version="{{version}}" class="assets">
           <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
             <tbody>
               {{#files}}
@@ -39,11 +43,9 @@
             </tbody>
           </table>
         </div>
-      </div>
       {{/selectedAssets}}
 
     <br />
     <br />
-    <p></p><a class="btn btn-success" href="https://news.cdnjs.com" target="_blank" style="width: 100%;margin-top: 20px;margin-bottom: 20px;">Come join our new front end news community!</a></p>
 </div>
 </div>

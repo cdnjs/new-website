@@ -29,9 +29,6 @@
                     '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="#">Copy Url</a></li>' +
                     '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy Script Tag</a></li>' +
                     '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy Link Tag</a></li>' +
-                    '<li class="divider"></li>' +
-                    '<li><a class="add-favorite" href="#">Add to favorites</a></li>' +
-                    '<li><a class="remove-favorite" href="#">Remove from favorites</a></li>' +
                  '</ul>');
 
   var copyContainer = $('<div/>');
@@ -133,6 +130,8 @@
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
   function displayMatchingLibraries(success, content) {
+    $('.packages-table-container').show();
+
     if (!success || content.query !== $('#search-box').val()) {
       return;
     }
@@ -177,12 +176,15 @@
   var index = algolia.initIndex('libraries');
   var lastQuery;
   function searchHandler(ev) {
+    $('.container.home').animate({ 'marginTop': '0px' }, 200);
     // cleanup URL hash if present
     location.hash = ''
 
     var val = $(ev.currentTarget).val();
     if (val === '') {
       $hits.html($allRows);
+    $('.packages-table-container').hide();
+
     } else if (lastQuery !== val) {
       index.search(val, displayMatchingLibraries, { hitsPerPage: 20 });
     }
