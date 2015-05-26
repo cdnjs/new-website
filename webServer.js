@@ -159,6 +159,8 @@ function start() {
     app.get('/libraries/:library', libraryResponse);
 
     app.get('/libraries', function(req, res) {
+        setCache(res, 2);
+
         res.send(generatePage({
             title: 'libraries - cdnjs.com - the missing cdn for javascript and css',
             page: {
