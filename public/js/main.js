@@ -128,7 +128,8 @@
     if(val && val !== lastHashQuery
         && ev.keyCode === 13
         && 'replaceState' in history) {
-      history.replaceState('', '', '#q=' + val.replace(/ /g, '+'));
+      var encodedVal = encodeURIComponent(val).replace(/%20/g, '+');
+      history.replaceState('', '', '#q=' + encodedVal);
       lastHashQuery = val;
     }
   }
@@ -156,9 +157,9 @@
 
   // Perform searches automatically based on the URL hash
   if (location.hash.length > 1) {
-    var query = decodeURIComponent(location.hash).toLowerCase().match(/q=([^&]+)/);
+    var query = location.hash.match(/q=([^&]+)/);
     if (query) {
-      query = query[1].replace(/\+/g, ' ');
+      query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
       $('#search-box').val(query);
       animateTop();
       index.search(query, displayMatchingLibraries, { hitsPerPage: 20 });
