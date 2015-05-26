@@ -128,13 +128,13 @@ function start() {
 
         if(!library) {
             // If we don't find the library, redirect to the homepage.
-            return res.status(404).send('Library "' + libraryName + '" not found!');
+            return res.status(404).send('Library not found!');
         }
 
         var version = req.params.version || library.version;
 
         if(!_.findWhere(library.assets, { version: version })) {
-            return res.status(404).send(libraryName + ' version "' + version + '" not found!');
+            return res.status(404).send(libraryName + ' version not found!');
         }
 
         var assets = libraryAssetsList(library, version);
@@ -164,7 +164,7 @@ function start() {
             page: {
                 template: templates.libraries,
                 data: {
-                    packages: _.toArray(LIBRARIES_MAP)
+                    packages: LIBRARIES
                 }
             }
         }));
