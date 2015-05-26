@@ -32,7 +32,6 @@ function start() {
     var LIBRARIES_MAP = {};
     _.each(LIBRARIES, function(library) {
         library.originalName = library.name;
-        library.name = library.name.toLowerCase();
         library.id = library.name.replace(/\./g, '');
 
         if (library.filename && library.filename.substr(library.filename.length - 3, library.filename.length) === 'css') {
@@ -41,12 +40,12 @@ function start() {
             library.fileType = 'js';
         }
         library.keywords = library.keywords && library.keywords.join(', ');
-        LIBRARIES_MAP[library.name.toLowerCase().replace(/\./g, '')] = library;
+        LIBRARIES_MAP[library.name.replace(/\./g, '')] = library;
 
     });
 
     function generateSlug(value) {
-        return value.toLowerCase().replace(/-+/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+        return value.replace(/-+/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     };
 
     // Templates
@@ -123,7 +122,7 @@ function start() {
     function libraryResponse(req, res) {
         setCache(res, 1);
 
-        var libraryName = req.params.library.toLowerCase().replace(/\./g, '');
+        var libraryName = req.params.library.replace(/\./g, '');
         var library = LIBRARIES_MAP[libraryName];
 
         if(!library) {

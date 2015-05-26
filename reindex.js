@@ -34,7 +34,6 @@ function load(next) {
   console.log('* Loading libraries');
   LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages, function(library) {
     library.originalName = library.name;
-    library.name = library.name.toLowerCase();
     library.objectID = library.name.replace(/\./g, '');
     // add some alternative name forms to improve the search relevance
     library.alternativeNames = [
