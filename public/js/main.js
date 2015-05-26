@@ -90,7 +90,7 @@
       }
       var row = '<tr id="' + hit.objectID + '">' +
         '<td>' +
-          '<p><a itemprop="name" href="libraries/'+ hit.name + '">' +
+          '<p><a itemprop="name" href="/libraries/'+ hit.name + '">' +
             hit._highlightResult.name.value +
           '</a></p>' +
           '<p class="text-muted">' + (hit._highlightResult.description && hit._highlightResult.description.value) + '</p>' +
