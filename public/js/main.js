@@ -114,19 +114,23 @@
     setupMouseEvents();
   }
 
+  var animateTop = _.once(function() {
+    $('.container.home').animate({ 'marginTop': '0px' }, 200);
+  });
+
   var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010', { dsn: true }); // public/search-only credentials
   var index = algolia.initIndex('libraries');
   var lastQuery;
   function searchHandler(ev) {
-    $('.container.home').animate({ 'marginTop': '0px' }, 200);
+    animateTop();
+
     // cleanup URL hash if present
     location.hash = ''
 
     var val = $(ev.currentTarget).val();
     if (val === '') {
       $hits.html($allRows);
-    $('.home .packages-table-container').hide();
-
+      $('.home .packages-table-container').hide();
     } else if (lastQuery !== val) {
       index.search(val, displayMatchingLibraries, { hitsPerPage: 20 });
     }
@@ -137,10 +141,11 @@
 
   // Perform searches automatically based on the URL hash
   if (location.hash.length > 1) {
-    var query = location.hash.match(/q=([\w+]+)/)
+    var query = decodeURIComponent(location.hash).toLowerCase().match(/q=([^&]+)/);
     if (query) {
-      query = query[1].replace(/\+/, ' ')
-      $('#search-box').val(query)
+      query = query[1].replace(/\+/g, ' ');
+      $('#search-box').val(query);
+      animateTop();
       index.search(query, displayMatchingLibraries, { hitsPerPage: 20 });
     }
   }
