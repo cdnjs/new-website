@@ -67,12 +67,7 @@
       clipboard.setData( "text/plain", url );
     });
   });
-  //http://www.merriampark.com/ld.htm, http://www.mgilleland.com/ld/ldjavascript.htm, Damerau–Levenshtein distance (Wikipedia)
 
-  // TODO: generate this as part of the template
-  rowSelector = '#example > tbody > tr';
-  matchedRowSelector = '#example tr.search-result';
-  libraryNameCache = _.pluck($(rowSelector), 'id');
 
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
