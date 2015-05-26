@@ -118,16 +118,31 @@
     $('.container.home').animate({ 'marginTop': '0px' }, 200);
   });
 
+  var clearHash = _.once(function() {
+    location.hash = '';
+  });
+
+  var lastHashQuery;
+  function replaceHash(ev, val) {
+    // Only replace the hash if we press enter
+    if(val && val !== lastHashQuery
+        && ev.keyCode === 13
+        && 'replaceState' in history) {
+      history.replaceState('', '', '#q=' + val.replace(/ /g, '+'));
+      lastHashQuery = val;
+    }
+  }
+
   var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010', { dsn: true }); // public/search-only credentials
   var index = algolia.initIndex('libraries');
   var lastQuery;
   function searchHandler(ev) {
     animateTop();
-
-    // cleanup URL hash if present
-    location.hash = ''
+    clearHash();
 
     var val = $(ev.currentTarget).val();
+    replaceHash(ev, val);
+
     if (val === '') {
       $hits.html($allRows);
       $('.home .packages-table-container').hide();
