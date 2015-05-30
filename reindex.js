@@ -99,6 +99,9 @@ function crawl(gnext) {
         if (!err) {
           // enchrich the library
           console.log('** Enrich ' + repo.user + '/' + repo.repo);
+          if (res.stargazers_count == undefined) {
+            console.log('Got a problem on ' + repo.user + '/' + repo.repo + ' !!!');
+          }
           library.github = {
             user: repo.user,
             repo: repo.repo,
