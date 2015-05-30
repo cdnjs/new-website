@@ -5,6 +5,7 @@ var fs = require("fs");
 var algoliasearch = require("algoliasearch");
 var GitHubApi = require("github");
 var async = require("async");
+var colors = require('colors');
 
 
 /*
@@ -100,7 +101,7 @@ function crawl(gnext) {
           // enchrich the library
           console.log('** Enrich ' + repo.user + '/' + repo.repo);
           if (res.stargazers_count == undefined) {
-            console.log('Got a problem on ' + repo.user + '/' + repo.repo + ' !!!');
+            console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + ' !!!'));
           }
           library.github = {
             user: repo.user,
