@@ -39,7 +39,7 @@ app.get('/libraries', function(req, res){
   results = _.map(results, function (package) {
     var data = {
       name: package.name,
-      latest: 'http://cdnjs.cloudflare.com/ajax/libs/' + package.name + '/' + package.version + '/' + package.filename
+      latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + package.name + '/' + package.version + '/' + package.filename
     };
 
     _.each(fields, function(field){
