@@ -5,6 +5,7 @@ var fs = require("fs");
 var algoliasearch = require("algoliasearch");
 var GitHubApi = require("github");
 var async = require("async");
+var colors = require('colors');
 
 
 /*
@@ -34,7 +35,6 @@ function load(next) {
   console.log('* Loading libraries');
   LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages, function(library) {
     library.originalName = library.name;
-    library.name = library.name.toLowerCase();
     library.objectID = library.name.replace(/\./g, '');
     // add some alternative name forms to improve the search relevance
     library.alternativeNames = [
@@ -109,6 +109,8 @@ function crawl(gnext) {
             open_issues_count: res.open_issues_count,
             subscribers_count: res.subscribers_count
           }
+        } else {
+            console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + ' !!!'));
         }
         next();
       });

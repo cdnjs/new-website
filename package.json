@@ -22,9 +22,10 @@
     "node": "0.10.x"
   },
   "dependencies": {
-    "algoliasearch": "^3.2",
+    "algoliasearch": "^3.4",
     "async": "^1.0.0",
     "body-parser": "^1.5",
+    "colors": "^1.1.0",
     "compression": "^1.0",
     "express": "^4.7",
     "github": "^0.2",

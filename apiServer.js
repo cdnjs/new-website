@@ -39,7 +39,7 @@ app.get('/libraries', function(req, res){
   results = _.map(results, function (package) {
     var data = {
       name: package.name,
-      latest: 'http://cdnjs.cloudflare.com/ajax/libs/' + package.name + '/' + package.version + '/' + package.filename
+      latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + package.name + '/' + package.version + '/' + package.filename
     };
 
     _.each(fields, function(field){
@@ -68,6 +68,6 @@ app.get('/libraries/:library', function(req, res){
   res.jsonp(results[0]);
 } else { res.jsonp({})}
 });
-var port = process.env.PORT || 80;
+var port = process.env.PORT || 5050;
 
 app.listen(port);

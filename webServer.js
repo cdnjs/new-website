@@ -32,7 +32,6 @@ function start() {
     var LIBRARIES_MAP = {};
     _.each(LIBRARIES, function(library) {
         library.originalName = library.name;
-        library.name = library.name.toLowerCase();
         library.id = library.name.replace(/\./g, '');
 
         if (library.filename && library.filename.substr(library.filename.length - 3, library.filename.length) === 'css') {
@@ -41,12 +40,12 @@ function start() {
             library.fileType = 'js';
         }
         library.keywords = library.keywords && library.keywords.join(', ');
-        LIBRARIES_MAP[library.name.toLowerCase().replace(/\./g, '')] = library;
+        LIBRARIES_MAP[library.name.replace(/\./g, '')] = library;
 
     });
 
     function generateSlug(value) {
-        return value.toLowerCase().replace(/-+/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+        return value.replace(/-+/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     };
 
     // Templates
@@ -124,18 +123,18 @@ function start() {
     function libraryResponse(req, res) {
         setCache(res, 1);
 
-        var libraryName = req.params.library.toLowerCase().replace(/\./g, '');
+        var libraryName = req.params.library.replace(/\./g, '');
         var library = LIBRARIES_MAP[libraryName];
 
         if(!library) {
             // If we don't find the library, redirect to the homepage.
-            return res.status(404).send('Library "' + libraryName + '" not found!');
+            return res.status(404).send('Library not found!');
         }
 
         var version = req.params.version || library.version;
 
         if(!_.findWhere(library.assets, { version: version })) {
-            return res.status(404).send(libraryName + ' version "' + version + '" not found!');
+            return res.status(404).send(libraryName + ' version not found!');
         }
 
         var assets = libraryAssetsList(library, version);
@@ -160,12 +159,14 @@ function start() {
     app.get('/libraries/:library', libraryResponse);
 
     app.get('/libraries', function(req, res) {
+        setCache(res, 2);
+
         res.send(generatePage({
             title: 'libraries - cdnjs.com - the missing cdn for javascript and css',
             page: {
                 template: templates.libraries,
                 data: {
-                    packages: _.toArray(LIBRARIES_MAP)
+                    packages: LIBRARIES
                 }
             }
         }));
@@ -222,6 +223,12 @@ function start() {
                 title: 'about - cdnjs.com - the missing cdn for javascript and css'
             }
         }));
+    });
+
+
+    app.use(function(err, req, res, next) {
+        console.error(err.stack);
+        res.status(500).send('Something broke!');
     });
 
 

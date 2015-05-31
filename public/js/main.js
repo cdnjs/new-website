@@ -67,63 +67,7 @@
       clipboard.setData( "text/plain", url );
     });
   });
-  //http://www.merriampark.com/ld.htm, http://www.mgilleland.com/ld/ldjavascript.htm, Damerau–Levenshtein distance (Wikipedia)
 
-  function levDist(s, t) {
-    var d = []; //2d matrix
-
-    // Step 1
-    var n = s.length;
-    var m = t.length;
-
-    if (n == 0) return m;
-    if (m == 0) return n;
-
-    //Create an array of arrays in javascript (a descending loop is quicker)
-    for (var i = n; i >= 0; i--) d[i] = [];
-
-    // Step 2
-    for (var i = n; i >= 0; i--) d[i][0] = i;
-    for (var j = m; j >= 0; j--) d[0][j] = j;
-
-    // Step 3
-    for (var i = 1; i <= n; i++) {
-      var s_i = s.charAt(i - 1);
-
-      // Step 4
-      for (var j = 1; j <= m; j++) {
-
-        //Check the jagged ld total so far
-        if (i == j && d[i][j] > 4) return n;
-
-        var t_j = t.charAt(j - 1);
-        var cost = (s_i == t_j) ? 0 : 1; // Step 5
-
-        //Calculate the minimum
-        var mi = d[i - 1][j] + 1;
-        var b = d[i][j - 1] + 1;
-        var c = d[i - 1][j - 1] + cost;
-
-        if (b < mi) mi = b;
-        if (c < mi) mi = c;
-
-        d[i][j] = mi; // Step 6
-
-        //Damerau transposition
-        if (i > 1 && j > 1 && s_i == t.charAt(j - 2) && s.charAt(i - 2) == t_j) {
-          d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + cost);
-        }
-      }
-    }
-
-    // Step 7
-    return d[n][m];
-  }
-
-  // TODO: generate this as part of the template
-  rowSelector = '#example > tbody > tr';
-  matchedRowSelector = '#example tr.search-result';
-  libraryNameCache = _.pluck($(rowSelector), 'id');
 
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
@@ -146,7 +90,7 @@
       }
       var row = '<tr id="' + hit.objectID + '">' +
         '<td>' +
-          '<p><a itemprop="name" href="libraries/'+ hit.name + '">' +
+          '<p><a itemprop="name" href="/libraries/'+ hit.name + '">' +
             hit._highlightResult.name.value +
           '</a></p>' +
           '<p class="text-muted">' + (hit._highlightResult.description && hit._highlightResult.description.value) + '</p>' +
@@ -170,19 +114,39 @@
     setupMouseEvents();
   }
 
+  var animateTop = _.once(function() {
+    $('.container.home').animate({ 'marginTop': '0px' }, 200);
+  });
+
+  var clearHash = _.once(function() {
+    location.hash = '';
+  });
+
+  var lastHashQuery;
+  function replaceHash(ev, val) {
+    // Only replace the hash if we press enter
+    if(val && val !== lastHashQuery
+        && ev.keyCode === 13
+        && 'replaceState' in history) {
+      var encodedVal = encodeURIComponent(val).replace(/%20/g, '+');
+      history.replaceState('', '', '#q=' + encodedVal);
+      lastHashQuery = val;
+    }
+  }
+
   var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010', { dsn: true }); // public/search-only credentials
   var index = algolia.initIndex('libraries');
   var lastQuery;
   function searchHandler(ev) {
-    $('.container.home').animate({ 'marginTop': '0px' }, 200);
-    // cleanup URL hash if present
-    location.hash = ''
+    animateTop();
+    clearHash();
 
     var val = $(ev.currentTarget).val();
+    replaceHash(ev, val);
+
     if (val === '') {
       $hits.html($allRows);
-    $('.home .packages-table-container').hide();
-
+      $('.home .packages-table-container').hide();
     } else if (lastQuery !== val) {
       index.search(val, displayMatchingLibraries, { hitsPerPage: 20 });
     }
@@ -193,10 +157,11 @@
 
   // Perform searches automatically based on the URL hash
   if (location.hash.length > 1) {
-    var query = location.hash.match(/q=([\w+]+)/)
+    var query = location.hash.match(/q=([^&]+)/);
     if (query) {
-      query = query[1].replace(/\+/, ' ')
-      $('#search-box').val(query)
+      query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
+      $('#search-box').val(query);
+      animateTop();
       index.search(query, displayMatchingLibraries, { hitsPerPage: 20 });
     }
   }
