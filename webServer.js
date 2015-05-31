@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-//require('newrelic');
+require('newrelic');
 var throng = require('throng');
 
 var WORKERS = process.env.WEB_CONCURRENCY || 1;
@@ -17,6 +17,8 @@ function start() {
     var Mustache = require("mustache");
     var app = express();
     var compress = require('compression');
+    var highlight = require('highlight.js');
+    var marked = require( "marked" );
 
     app.use(compress());
 
@@ -180,8 +182,6 @@ function start() {
         var tutorialFile = fs.readFileSync('tutorials/' + library + '/' + tutorial + '/index.md', 'utf8');
         var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + library + '/' + tutorial + '/tutorial.json', 'utf8'));
 
-        var marked = require( "marked" );
-
         marked.setOptions({
           renderer: new marked.Renderer(),
           gfm: true,
@@ -196,7 +196,7 @@ function start() {
             var language = lang || 'html';
             console.log(language);
 
-            return require('highlight.js').highlightAuto(code).value;
+            return highlight.highlightAuto(code).value;
           }
         });
 
@@ -206,7 +206,7 @@ function start() {
                 template: templates.tutorial,
                 title: 'about - cdnjs.com - the missing cdn for javascript and css',
                 data: {
-                    tute: marked( tutorialFile )   
+                    tute: marked(tutorialFile)
                 }
             }
         }));
