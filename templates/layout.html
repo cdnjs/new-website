@@ -40,12 +40,13 @@
        </div>
        </div>
 
-    <div class="page row">
+       
+  </div>
+
+    <div class="page">
       {{{page}}}
 
     </div>
-       
-  </div>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"></script>
@@ -66,7 +67,11 @@
       ga('require', 'linkid', 'linkid.js');
       ga('require', 'displayfeatures');
       ga('send', 'pageview');
+$('.post > p, .post  > h1, .post > h2, .post > ul, .post > h3, .post > blockquote').wrap('<div class="container"><div class="col-md-10 col-md-offset-1">')
+$('.post > pre > code').wrapInner('<div class="container"><div class="col-md-10 col-md-offset-1">')
+$('.post code').addClass('hljs');
     </script>
+
 </body>
 
 </html>

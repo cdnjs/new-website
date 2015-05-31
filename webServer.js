@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-require('newrelic');
+//require('newrelic');
 var throng = require('throng');
 
 var WORKERS = process.env.WEB_CONCURRENCY || 1;
@@ -62,7 +62,8 @@ function start() {
         news: fs.readFileSync('templates/news.html', 'utf8'),
         newsfeed_item: fs.readFileSync('templates/newsfeed_item.html', 'utf8'),
         newsfeed: fs.readFileSync('templates/newsfeed.html', 'utf8'),
-        about: fs.readFileSync('templates/about.html', 'utf8')
+        about: fs.readFileSync('templates/about.html', 'utf8'),
+        tutorial: fs.readFileSync('templates/tutorial.html', 'utf8')
     }
 
     var generatePage = function(options) {
@@ -170,8 +171,50 @@ function start() {
         }));
     });
 
+    // Tutorials
+    app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
+        var library = req.params.library;
+        var tutorial = req.params.tutorial;
+
+        var tutorialFile = fs.readFileSync('tutorials/' + library + '/' + tutorial + '/index.md', 'utf8');
+        var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + library + '/' + tutorial + '/tutorial.json', 'utf8'));
+
+        var marked = require( "marked" );
+
+        marked.setOptions({
+          renderer: new marked.Renderer(),
+          gfm: true,
+          tables: true,
+          breaks: false,
+          pedantic: false,
+          sanitize: false,
+          smartLists: true,
+          smartypants: true,
+          langPrefix: '',
+          highlight: function (code, lang) {
+            var language = lang || 'html';
+            console.log(language);
+
+            return require('highlight.js').highlightAuto(code).value;
+          }
+        });
+
+        setCache(res, 72);
+        res.send(generatePage({
+            page: {
+                template: templates.tutorial,
+                title: 'about - cdnjs.com - the missing cdn for javascript and css',
+                data: {
+                    tute: marked( tutorialFile )   
+                }
+            }
+        }));
+    });
+
+
 
     app.get('/about', function(req, res) {
+        
         setCache(res, 72);
         res.send(generatePage({
             page: {
