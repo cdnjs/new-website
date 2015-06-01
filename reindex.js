@@ -118,6 +118,7 @@ function crawl(gnext) {
           }
         } else {
             console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + ' !!!'));
+            console.log(colors.red(err));
         }
         next();
       });
