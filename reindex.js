@@ -34,6 +34,7 @@ var LIBRARIES = [];
 function load(next) {
   console.log('* Loading libraries');
   LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages, function(library) {
+    delete library.assets;
     library.originalName = library.name;
     library.objectID = library.name.replace(/\./g, '');
     // add some alternative name forms to improve the search relevance
@@ -49,7 +50,6 @@ function load(next) {
     } else {
       library.fileType = 'js';
     }
-    delete library.assets;
     return library;
   });
   next();
