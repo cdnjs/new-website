@@ -52,3 +52,33 @@
 </div>
 </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js"></script>
+<script>
+files = [];
+{{#selectedAssets}}
+base='https://cdnjs.cloudflare.com/ajax/libs/{{library.originalName}}/{{version}}/'
+{{#files}}files.push('{{name}}');{{/files}}
+var zip = new JSZip();
+var num = -1;
+function x() {
+  (function lib() {
+    $.get(base+files[num], function(responseText) {
+      if ( responseText != undefined ) {
+        zip.file(files[num], responseText, {base64: true});
+      }
+    }).fail(function() {
+      console.log("Error on downloading " + files[num]);
+    });
+    if (num++ < files.length - 1) {
+      setTimeout(add, 500);
+    } else {
+      content = zip.generate({type:"blob"});
+      saveAs(content, "{{library.originalName}}.zip");
+      {{/selectedAssets}}
+    }
+  })();
+}
+
+</script>
