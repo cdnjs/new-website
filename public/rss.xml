@@ -10,10 +10,74 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Jun 2015 09:31:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jun 2015 16:59:29 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[malihu-custom-scrollbar-plugin updated to version 3.0.9]]></title>
+            <description><![CDATA[Highly customizable custom scrollbar jQuery plugin, featuring vertical/horizontal scrollbars, scrolling momentum, mouse-wheel, keyboard and touch support user defined callbacks etc.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.9/jquery.mCustomScrollbar.min.js">https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.9/jquery.mCustomScrollbar.min.js</a>]]></description>
+            <link>http://manos.malihu.gr/jquery-custom-content-scroller</link>
+            <guid isPermaLink="false">malihu-custom-scrollbar-plugin3.0.9</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2015 16:44:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-carousel updated to version 0.3.11]]></title>
+            <description><![CDATA[Angular Carousel - Mobile friendly touch carousel for AngularJS<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.11/angular-carousel.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.11/angular-carousel.min.js</a>]]></description>
+            <link>http://revolunet.github.com/angular-carousel</link>
+            <guid isPermaLink="false">angular-carousel0.3.11</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2015 16:38:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 6.12.0]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.12.0/formly.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.12.0/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly6.12.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2015 16:38:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-wizard updated to version 0.5.2]]></title>
+            <description><![CDATA[Easy to use Wizard library for AngularJS<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-wizard/0.5.2/angular-wizard.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-wizard/0.5.2/angular-wizard.min.js</a>]]></description>
+            <link>https://github.com/mgonto/angular-wizard</link>
+            <guid isPermaLink="false">angular-wizard0.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2015 16:36:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[api-check updated to version 7.3.0]]></title>
+            <description><![CDATA[Validate the api to your functions to help people use them correctly. This is pretty much React's propTypes without React.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/api-check/7.3.0/api-check.js">https://cdnjs.cloudflare.com/ajax/libs/api-check/7.3.0/api-check.js</a>]]></description>
+            <link>https://github.com/kentcdodds/api-check</link>
+            <guid isPermaLink="false">api-check7.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2015 16:34:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dustjs-linkedin updated to version 2.7.2]]></title>
+            <description><![CDATA[Asynchronous templates for the browser and node.js ( LinkedIn fork )<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.7.2/dust-core.min.js">https://cdnjs.cloudflare.com/ajax/libs/dustjs-linkedin/2.7.2/dust-core.min.js</a>]]></description>
+            <link>http://linkedin.github.com/dustjs/</link>
+            <guid isPermaLink="false">dustjs-linkedin2.7.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2015 16:34:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ember-data.js updated to version 1.0.0-beta.19.1]]></title>
+            <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.19.1/ember-data.min.js">https://cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.19.1/ember-data.min.js</a>]]></description>
+            <link>https://github.com/emberjs/data</link>
+            <guid isPermaLink="false">ember-data.js1.0.0-beta.19.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2015 16:34:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[mojio-js updated to version 3.5.2]]></title>
+            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/mojio-js/3.5.2/mojio-js.min.js">https://cdnjs.cloudflare.com/ajax/libs/mojio-js/3.5.2/mojio-js.min.js</a>]]></description>
+            <link>https://github.com/mojio/mojio-js</link>
+            <guid isPermaLink="false">mojio-js3.5.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2015 16:31:51 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[hprose-html5 updated to version 1.5.3]]></title>
             <description><![CDATA[Hprose is a High Performance Remote Object Service Engine. It is a modern, lightweight, cross-language, cross-platform, object-oriented, high performance, remote dynamic communication middleware. It is not only easy to use, but powerful. You just need a little time to learn, then you can use it to easily construct cross language cross platform distributed application system.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/hprose-html5/1.5.3/hprose-html5.js">https://cdnjs.cloudflare.com/ajax/libs/hprose-html5/1.5.3/hprose-html5.js</a>]]></description>
@@ -227,22 +291,6 @@
             <pubDate>Sat, 06 Jun 2015 16:38:03 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 6.11.5]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.11.5/formly.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.11.5/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly6.11.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Jun 2015 03:27:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ember-data.js updated to version 1.0.0-beta.19]]></title>
-            <description><![CDATA[A data persistence library for Ember.js.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.19/ember-data.min.js">https://cdnjs.cloudflare.com/ajax/libs/ember-data.js/1.0.0-beta.19/ember-data.min.js</a>]]></description>
-            <link>https://github.com/emberjs/data</link>
-            <guid isPermaLink="false">ember-data.js1.0.0-beta.19</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Jun 2015 03:26:06 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[underscore.string updated to version 3.1.1]]></title>
             <description><![CDATA[Underscore.string is JavaScript library for comfortable manipulation with strings, extension for Underscore.js inspired by Prototype.js, Right.js, Underscore and beautiful Ruby language.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/underscore.string/3.1.1/underscore.string.min.js">https://cdnjs.cloudflare.com/ajax/libs/underscore.string/3.1.1/underscore.string.min.js</a>]]></description>
             <link>http://epeli.github.com/underscore.string/</link>
@@ -265,14 +313,6 @@
             <guid isPermaLink="false">emojione1.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 06 Jun 2015 03:15:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-wizard updated to version 0.5.1]]></title>
-            <description><![CDATA[Easy to use Wizard library for AngularJS<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-wizard/0.5.1/angular-wizard.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-wizard/0.5.1/angular-wizard.min.js</a>]]></description>
-            <link>https://github.com/mgonto/angular-wizard</link>
-            <guid isPermaLink="false">angular-wizard0.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 06 Jun 2015 02:42:47 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[algoliasearch updated to version 3.6.0]]></title>
@@ -502,14 +542,6 @@
             <guid isPermaLink="false">octicons2.4.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 03 Jun 2015 06:05:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mojio-js updated to version 3.5.1]]></title>
-            <description><![CDATA[Mojio's mojio-js is a client to Mojio's connected car API.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/mojio-js/3.5.1/mojio-js.min.js">https://cdnjs.cloudflare.com/ajax/libs/mojio-js/3.5.1/mojio-js.min.js</a>]]></description>
-            <link>https://github.com/mojio/mojio-js</link>
-            <guid isPermaLink="false">mojio-js3.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Jun 2015 06:04:39 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[chroma-js updated to version 0.7.8]]></title>
@@ -1402,14 +1434,6 @@
             <description><![CDATA[Caches calls to Backbone.[Model | Collection].fetch<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/backbone.fetch-cache/1.1.2/backbone.fetch-cache.min.js">https://cdnjs.cloudflare.com/ajax/libs/backbone.fetch-cache/1.1.2/backbone.fetch-cache.min.js</a>]]></description>
             <link>https://github.com/madglory/backbone-fetch-cache</link>
             <guid isPermaLink="false">backbone.fetch-cache1.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 30 May 2015 19:20:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[api-check updated to version 7.2.4]]></title>
-            <description><![CDATA[Validate the api to your functions to help people use them correctly. This is pretty much React's propTypes without React.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/api-check/7.2.4/api-check.js">https://cdnjs.cloudflare.com/ajax/libs/api-check/7.2.4/api-check.js</a>]]></description>
-            <link>https://github.com/kentcdodds/api-check</link>
-            <guid isPermaLink="false">api-check7.2.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Sat, 30 May 2015 19:20:26 GMT</pubDate>
         </item>
