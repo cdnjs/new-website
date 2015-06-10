@@ -10,10 +10,26 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 09 Jun 2015 16:59:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2015 06:32:02 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[markdown-it updated to version 4.2.2]]></title>
+            <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/4.2.2/markdown-it.min.js">https://cdnjs.cloudflare.com/ajax/libs/markdown-it/4.2.2/markdown-it.min.js</a>]]></description>
+            <link>https://github.com/markdown-it/markdown-it</link>
+            <guid isPermaLink="false">markdown-it4.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Jun 2015 05:56:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[featherlight updated to version 1.3.2]]></title>
+            <description><![CDATA[Featherlight is a very lightweight jQuery lightbox plugin. It's simple yet flexible and easy to use. Featherlight has minimal css and uses no inline styles, everything is name-spaced, it's completely customizable via configuration object and offers image, ajax and iframe support out of the box. Featherlights small footprint weights less than 4kB – in total.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.2/featherlight.min.js">https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.2/featherlight.min.js</a>]]></description>
+            <link>http://noelboss.github.io/featherlight/</link>
+            <guid isPermaLink="false">featherlight1.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Wed, 10 Jun 2015 05:52:39 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[malihu-custom-scrollbar-plugin updated to version 3.0.9]]></title>
             <description><![CDATA[Highly customizable custom scrollbar jQuery plugin, featuring vertical/horizontal scrollbars, scrolling momentum, mouse-wheel, keyboard and touch support user defined callbacks etc.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.9/jquery.mCustomScrollbar.min.js">https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.0.9/jquery.mCustomScrollbar.min.js</a>]]></description>
@@ -400,14 +416,6 @@
             <guid isPermaLink="false">machina.js1.1.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 05 Jun 2015 05:53:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[featherlight updated to version 1.3.1]]></title>
-            <description><![CDATA[Featherlight is a very lightweight jQuery lightbox plugin. It's simple yet flexible and easy to use. Featherlight has minimal css and uses no inline styles, everything is name-spaced, it's completely customizable via configuration object and offers image, ajax and iframe support out of the box. Featherlights small footprint weights less than 4kB – in total.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.1/featherlight.min.js">https://cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.1/featherlight.min.js</a>]]></description>
-            <link>http://noelboss.github.io/featherlight/</link>
-            <guid isPermaLink="false">featherlight1.3.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Jun 2015 05:53:14 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[backbone.js updated to version 1.2.1]]></title>
@@ -1713,62 +1721,6 @@
             <guid isPermaLink="false">layzr.js1.4.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 27 May 2015 10:41:23 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[anchor-js updated to version 1.1.1]]></title>
-            <description><![CDATA[A tiny javscript utility for adding anchor links to existing page content.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js">https://cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js</a>]]></description>
-            <link>https://github.com/bryanbraun/anchorjs</link>
-            <guid isPermaLink="false">anchor-js1.1.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 May 2015 19:43:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jquery-timepicker updated to version 1.7.0]]></title>
-            <description><![CDATA[A jQuery timepicker plugin inspired by Google Calendar. It supports both mouse and keyboard navigation.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.7.0/jquery.timepicker.min.css">https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.7.0/jquery.timepicker.min.css</a>]]></description>
-            <link>http://jonthornton.github.com/jquery-timepicker/</link>
-            <guid isPermaLink="false">jquery-timepicker1.7.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 May 2015 19:42:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angularjs-toaster updated to version 0.4.14]]></title>
-            <description><![CDATA[AngularJS Toaster is a customized version of 'toastr' non-blocking notification javascript library.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.14/toaster.min.js">https://cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.14/toaster.min.js</a>]]></description>
-            <link>https://github.com/jirikavi/AngularJS-Toaster</link>
-            <guid isPermaLink="false">angularjs-toaster0.4.14</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 May 2015 19:41:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[vue updated to version 0.11.10]]></title>
-            <description><![CDATA[Simple, Fast & Composable MVVM for building interative interfaces<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/vue/0.11.10/vue.min.js">https://cdnjs.cloudflare.com/ajax/libs/vue/0.11.10/vue.min.js</a>]]></description>
-            <link>http://vuejs.org</link>
-            <guid isPermaLink="false">vue0.11.10</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 May 2015 19:40:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mogl updated to version 0.2.2]]></title>
-            <description><![CDATA[MOGL is a lightweight & high performance MObile webGL library.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/mogl/0.2.2/mogl.min.js">https://cdnjs.cloudflare.com/ajax/libs/mogl/0.2.2/mogl.min.js</a>]]></description>
-            <link>https://github.com/projectBS/MoGL</link>
-            <guid isPermaLink="false">mogl0.2.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 May 2015 19:39:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lodash.js updated to version 3.9.3]]></title>
-            <description><![CDATA[A utility library delivering consistency, customization, performance, & extras.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js">https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.9.3/lodash.min.js</a>]]></description>
-            <link>http://lodash.com/</link>
-            <guid isPermaLink="false">lodash.js3.9.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 May 2015 19:39:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[lodash-compat updated to version 3.9.3]]></title>
-            <description><![CDATA[The compatibility build of lodash.js<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.9.3/lodash.min.js">https://cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.9.3/lodash.min.js</a>]]></description>
-            <link>http://lodash.com/</link>
-            <guid isPermaLink="false">lodash-compat3.9.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 26 May 2015 19:38:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[handjs(1.3.11) was added]]></title>
