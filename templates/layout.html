@@ -68,9 +68,11 @@
 if($('.post').length > 0) {
   $('.menu').parent().removeClass('col-md-12').addClass('col-md-10 col-md-offset-1');
 }
+
 $('.post > p, .post  > h1, .post > h2, .post > ul, .post > h3, .post > blockquote').wrap('<div class="container"><div class="row"><div class="col-md-10 col-md-offset-1">')
 $('.post > pre > code').wrapInner('<div class="container"><div class="row"><div class="col-md-10 col-md-offset-1">')
 $('.post code').addClass('hljs');
+$('.post').show();
     </script>
 
 </body>
