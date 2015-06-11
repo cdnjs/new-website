@@ -10,10 +10,126 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 10 Jun 2015 08:31:08 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2015 06:32:39 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
+        <item>
+            <title><![CDATA[leaflet-providers updated to version 1.1.0]]></title>
+            <description><![CDATA[An extension to Leaflet that contains configurations for various free tile providers.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.1.0/leaflet-providers.js">https://cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.1.0/leaflet-providers.js</a>]]></description>
+            <guid isPermaLink="false">leaflet-providers1.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:16:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[es5-shim updated to version 4.1.6]]></title>
+            <description><![CDATA[ECMAScript 5 compatibility shims for legacy JavaScript engines<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.6/es5-shim.min.js">https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.6/es5-shim.min.js</a>]]></description>
+            <link>http://github.com/es-shims/es5-shim/</link>
+            <guid isPermaLink="false">es5-shim4.1.6</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:16:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[danialfarid-angular-file-upload updated to version 5.0.4]]></title>
+            <description><![CDATA[undefined<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/5.0.4/ng-file-upload-shim.min.js">https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/5.0.4/ng-file-upload-shim.min.js</a>]]></description>
+            <guid isPermaLink="false">danialfarid-angular-file-upload5.0.4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:16:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-datetimepicker updated to version 4.14.30]]></title>
+            <description><![CDATA[Date/time picker widget for Twitter<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.14.30/js/bootstrap-datetimepicker.min.js">https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.14.30/js/bootstrap-datetimepicker.min.js</a>]]></description>
+            <link>http://eonasdan.github.io/bootstrap-datetimepicker/</link>
+            <guid isPermaLink="false">bootstrap-datetimepicker4.14.30</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:15:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly updated to version 6.13.0]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.13.0/formly.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.13.0/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly6.13.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:15:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-formly-templates-bootstrap updated to version 4.3.2]]></title>
+            <description><![CDATA[Angular-Formly plugin which outputs bootstrap compatible form fields.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-formly-templates-bootstrap/4.3.2/angular-formly-templates-bootstrap.js">https://cdnjs.cloudflare.com/ajax/libs/angular-formly-templates-bootstrap/4.3.2/angular-formly-templates-bootstrap.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly-templates-bootstrap/</link>
+            <guid isPermaLink="false">angular-formly-templates-bootstrap4.3.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:14:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-carousel updated to version 0.3.12]]></title>
+            <description><![CDATA[Angular Carousel - Mobile friendly touch carousel for AngularJS<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.12/angular-carousel.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.12/angular-carousel.min.js</a>]]></description>
+            <link>http://revolunet.github.com/angular-carousel</link>
+            <guid isPermaLink="false">angular-carousel0.3.12</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:11:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-google-maps updated to version 2.1.3]]></title>
+            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.3/angular-google-maps.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.3/angular-google-maps.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-google-maps2.1.3</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:09:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[elasticsearch updated to version 5.0.0]]></title>
+            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/elasticsearch/5.0.0/elasticsearch.js">https://cdnjs.cloudflare.com/ajax/libs/elasticsearch/5.0.0/elasticsearch.js</a>]]></description>
+            <link>https://github.com/elastic/elasticsearch-js</link>
+            <guid isPermaLink="false">elasticsearch5.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:09:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[medium-editor updated to version 4.12.2]]></title>
+            <description><![CDATA[Medium.com WYSIWYG editor clone.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/medium-editor/4.12.2//js/medium-editor.min.js">https://cdnjs.cloudflare.com/ajax/libs/medium-editor/4.12.2//js/medium-editor.min.js</a>]]></description>
+            <link>http://yabwe.github.io/medium-editor/</link>
+            <guid isPermaLink="false">medium-editor4.12.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:09:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[svg.js updated to version 2.0.0]]></title>
+            <description><![CDATA[A lightweight JavaScript library for manipulating and animating svg using an uncluttered syntax.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.0.0/svg.min.js">https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.0.0/svg.min.js</a>]]></description>
+            <link>http://svgjs.com/</link>
+            <guid isPermaLink="false">svg.js2.0.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:08:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.49.0]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/webtorrent/0.49.0/webtorrent.min.js">https://cdnjs.cloudflare.com/ajax/libs/webtorrent/0.49.0/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.49.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 06:08:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-vertxbus updated to version 2.0.1]]></title>
+            <description><![CDATA[AngularJS facade and service acting as a Vert.x SockJS client<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-vertxbus/2.0.1/angular-vertxbus.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-vertxbus/2.0.1/angular-vertxbus.min.js</a>]]></description>
+            <guid isPermaLink="false">angular-vertxbus2.0.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 05:34:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[bootstrap-slider updated to version 4.9.0]]></title>
+            <description><![CDATA[Slider view component for Twitter Bootstrap.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/4.9.0/bootstrap-slider.min.js">https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/4.9.0/bootstrap-slider.min.js</a>]]></description>
+            <link>https://github.com/seiyria/bootstrap-slider</link>
+            <guid isPermaLink="false">bootstrap-slider4.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 05:33:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[chartist updated to version 0.9.0]]></title>
+            <description><![CDATA[Simple, responsive charts<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.9.0/chartist.min.js">https://cdnjs.cloudflare.com/ajax/libs/chartist/0.9.0/chartist.min.js</a>]]></description>
+            <link>https://gionkunz.github.io/chartist-js</link>
+            <guid isPermaLink="false">chartist0.9.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 05:33:20 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[markdown-it updated to version 4.2.2]]></title>
             <description><![CDATA[Markdown-it - modern pluggable markdown parser.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/4.2.2/markdown-it.min.js">https://cdnjs.cloudflare.com/ajax/libs/markdown-it/4.2.2/markdown-it.min.js</a>]]></description>
@@ -37,22 +153,6 @@
             <guid isPermaLink="false">malihu-custom-scrollbar-plugin3.0.9</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 09 Jun 2015 16:44:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-carousel updated to version 0.3.11]]></title>
-            <description><![CDATA[Angular Carousel - Mobile friendly touch carousel for AngularJS<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.11/angular-carousel.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-carousel/0.3.11/angular-carousel.min.js</a>]]></description>
-            <link>http://revolunet.github.com/angular-carousel</link>
-            <guid isPermaLink="false">angular-carousel0.3.11</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 09 Jun 2015 16:38:47 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-formly updated to version 6.12.0]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.12.0/formly.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.12.0/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly6.12.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 09 Jun 2015 16:38:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-wizard updated to version 0.5.2]]></title>
@@ -133,21 +233,6 @@
             <guid isPermaLink="false">fullPage.js2.6.6</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 08 Jun 2015 21:16:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[danialfarid-angular-file-upload updated to version 5.0.3]]></title>
-            <description><![CDATA[undefined<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/5.0.3/ng-file-upload-shim.min.js">https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/5.0.3/ng-file-upload-shim.min.js</a>]]></description>
-            <guid isPermaLink="false">danialfarid-angular-file-upload5.0.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 08 Jun 2015 21:15:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[chartist updated to version 0.8.3]]></title>
-            <description><![CDATA[Simple, responsive charts<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/chartist/0.8.3/chartist.min.js">https://cdnjs.cloudflare.com/ajax/libs/chartist/0.8.3/chartist.min.js</a>]]></description>
-            <link>https://gionkunz.github.io/chartist-js</link>
-            <guid isPermaLink="false">chartist0.8.3</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 08 Jun 2015 05:58:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-ui-sortable updated to version 0.13.4]]></title>
@@ -402,14 +487,6 @@
             <pubDate>Fri, 05 Jun 2015 05:55:55 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[es5-shim updated to version 4.1.5]]></title>
-            <description><![CDATA[ECMAScript 5 compatibility shims for legacy JavaScript engines<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.5/es5-shim.min.js">https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.5/es5-shim.min.js</a>]]></description>
-            <link>http://github.com/es-shims/es5-shim/</link>
-            <guid isPermaLink="false">es5-shim4.1.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Jun 2015 05:54:30 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[machina.js updated to version 1.1.0]]></title>
             <description><![CDATA[A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/machina.js/1.1.0/machina.min.js">https://cdnjs.cloudflare.com/ajax/libs/machina.js/1.1.0/machina.min.js</a>]]></description>
             <link>http://machina-js.org/</link>
@@ -456,13 +533,6 @@
             <guid isPermaLink="false">moment-range2.0.2</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 05 Jun 2015 05:49:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-google-maps updated to version 2.1.2]]></title>
-            <description><![CDATA[AngularJS directives for Google Maps<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.2/angular-google-maps.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-google-maps/2.1.2/angular-google-maps.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-google-maps2.1.2</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Jun 2015 05:48:39 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[rxjs updated to version 2.5.3]]></title>
@@ -521,13 +591,6 @@
             <pubDate>Wed, 03 Jun 2015 18:03:34 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-vertxbus updated to version 2.0.0]]></title>
-            <description><![CDATA[AngularJS facade and service acting as a Vert.x SockJS client<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-vertxbus/2.0.0/angular-vertxbus.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-vertxbus/2.0.0/angular-vertxbus.min.js</a>]]></description>
-            <guid isPermaLink="false">angular-vertxbus2.0.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Jun 2015 09:21:46 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-scroll updated to version 0.7.1]]></title>
             <description><![CDATA[Scrollspy, animated scrollTo and scroll events<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.7.1/angular-scroll.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/0.7.1/angular-scroll.min.js</a>]]></description>
             <link>https://github.com/oblador/angular-scroll</link>
@@ -574,14 +637,6 @@
             <guid isPermaLink="false">holder2.8.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 03 Jun 2015 06:03:07 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[medium-editor updated to version 4.12.1]]></title>
-            <description><![CDATA[Medium.com WYSIWYG editor clone.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/medium-editor/4.12.1//js/medium-editor.min.js">https://cdnjs.cloudflare.com/ajax/libs/medium-editor/4.12.1//js/medium-editor.min.js</a>]]></description>
-            <link>http://yabwe.github.io/medium-editor/</link>
-            <guid isPermaLink="false">medium-editor4.12.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Jun 2015 06:02:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mithril updated to version 0.2.0]]></title>
@@ -890,14 +945,6 @@
             <guid isPermaLink="false">dygraph1.1.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Tue, 02 Jun 2015 00:07:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webtorrent updated to version 0.48.5]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/webtorrent/0.48.5/webtorrent.min.js">https://cdnjs.cloudflare.com/ajax/libs/webtorrent/0.48.5/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.48.5</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Tue, 02 Jun 2015 00:06:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jshint updated to version 2.8.0]]></title>
@@ -1367,14 +1414,6 @@
             <pubDate>Sat, 30 May 2015 19:20:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[elasticsearch updated to version 4.1.0]]></title>
-            <description><![CDATA[The official low-level Elasticsearch client, for use in the browser.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/elasticsearch/4.1.0/elasticsearch.js">https://cdnjs.cloudflare.com/ajax/libs/elasticsearch/4.1.0/elasticsearch.js</a>]]></description>
-            <link>https://github.com/elastic/elasticsearch-js</link>
-            <guid isPermaLink="false">elasticsearch4.1.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Sat, 30 May 2015 19:20:26 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[dragonbones updated to version 2.4.1]]></title>
             <description><![CDATA[The Open Source 2D skeleton animation solution<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/dragonbones/2.4.1/dragonbones.min.js">https://cdnjs.cloudflare.com/ajax/libs/dragonbones/2.4.1/dragonbones.min.js</a>]]></description>
             <link>https://dragonbones.github.io/</link>
@@ -1681,46 +1720,6 @@
             <guid isPermaLink="false">knockout-pre-rendered0.5.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 28 May 2015 10:26:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[mobile-detect updated to version 1.2.0]]></title>
-            <description><![CDATA[Device detection (phone, tablet, desktop, mobile grade, os, versions)<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.2.0/mobile-detect.min.js">https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.2.0/mobile-detect.min.js</a>]]></description>
-            <link>http://hgoebl.github.io/mobile-detect.js/</link>
-            <guid isPermaLink="false">mobile-detect1.2.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 27 May 2015 14:26:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[immstruct updated to version 1.4.1]]></title>
-            <description><![CDATA[Immutable data structure, with undo/redo, for top-to-bottom properties and unidirectional flow in component based libraries like React<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/immstruct/1.4.1/immstruct.min.js">https://cdnjs.cloudflare.com/ajax/libs/immstruct/1.4.1/immstruct.min.js</a>]]></description>
-            <link>https://github.com/omniscientjs/immstruct</link>
-            <guid isPermaLink="false">immstruct1.4.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 27 May 2015 10:43:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[less.js updated to version 2.5.1]]></title>
-            <description><![CDATA[Less is a CSS pre-processor, meaning that it extends the CSS language, adding features that allow variables, mixins and functions.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js">https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js</a>]]></description>
-            <link>http://lesscss.org/</link>
-            <guid isPermaLink="false">less.js2.5.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 27 May 2015 10:43:17 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[jinplace updated to version 1.2.1]]></title>
-            <description><![CDATA[A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/jinplace/1.2.1/jinplace.min.js">https://cdnjs.cloudflare.com/ajax/libs/jinplace/1.2.1/jinplace.min.js</a>]]></description>
-            <link>https://bitbucket.org/itinken/jinplace</link>
-            <guid isPermaLink="false">jinplace1.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 27 May 2015 10:42:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[layzr.js updated to version 1.4.0]]></title>
-            <description><![CDATA[A small, fast, modern, and dependency-free library for lazy loading.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/layzr.js/1.4.0/layzr.min.js">https://cdnjs.cloudflare.com/ajax/libs/layzr.js/1.4.0/layzr.min.js</a>]]></description>
-            <link>http://callmecavs.github.io/layzr.js/</link>
-            <guid isPermaLink="false">layzr.js1.4.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 27 May 2015 10:41:23 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[handjs(1.3.11) was added]]></title>
