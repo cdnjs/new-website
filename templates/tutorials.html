@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>{{library}} tutorials</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-hover" style="margin-top: 25px;">
+                <thead>
+                    <tr>
+                        <td>Tutorial</td>
+                        <td>Author</td>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#tutorials}}
+                    <tr>
+                        <td><a href="/libraries/{{library}}/tutorials/{{slug}}">{{name}}</a></td>
+                        <td><a href="{{homepage}}">{{author}}</a></td>
+                    </tr>
+                {{/tutorials}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

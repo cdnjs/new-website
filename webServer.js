@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-//require('newrelic');
+require('newrelic');
 var throng = require('throng');
 var gravatar = require('gravatar');
 
@@ -18,6 +18,9 @@ function start() {
     var Mustache = require("mustache");
     var app = express();
     var compress = require('compression');
+    var highlight = require('highlight.js');
+    var marked = require( "marked" );
+    var path = require('path');
 
     app.use(compress());
 
@@ -63,6 +66,7 @@ function start() {
         newsfeed_item: fs.readFileSync('templates/newsfeed_item.html', 'utf8'),
         newsfeed: fs.readFileSync('templates/newsfeed.html', 'utf8'),
         about: fs.readFileSync('templates/about.html', 'utf8'),
+        tutorials: fs.readFileSync('templates/tutorials.html', 'utf8'),
         tutorial: fs.readFileSync('templates/tutorial.html', 'utf8')
     }
 
@@ -154,26 +158,35 @@ function start() {
         }));
     }
 
+/*
+    app.get('/libraries/:library/tutorials', function (req, res) {
+        var library = req.params.library
+        var srcpath = 'tutorials/' + library;
 
-    app.get('/libraries/:library/:version', libraryResponse);
-    
-    app.get('/libraries/:library', libraryResponse);
+        var directories = fs.readdirSync(srcpath).filter(function(file) {
+            return fs.statSync(path.join(srcpath, file)).isDirectory();
+        });
 
-    app.get('/libraries', function(req, res) {
-        setCache(res, 2);
+        var tutorialPackages = _.map(directories, function(tutorial) {
+            var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + library + '/' + tutorial + '/tutorial.json', 'utf8'));
+            tutorialPackage.slug = tutorial;
+            return tutorialPackage;
+        });
 
+        setCache(res, 72);
         res.send(generatePage({
-            title: 'libraries - cdnjs.com - the missing cdn for javascript and css',
             page: {
-                template: templates.libraries,
+                template: templates.tutorials,
+                title: library + ' tutorials - cdnjs.com - the missing cdn for javascript and css',
                 data: {
-                    packages: LIBRARIES
+                    tutorials: tutorialPackages,
+                    library: library
                 }
             }
         }));
     });
+*/
 
-    // Tutorials
     app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
         var library = req.params.library;
         var tutorial = req.params.tutorial;
@@ -196,9 +209,7 @@ function start() {
           langPrefix: '',
           highlight: function (code, lang) {
             var language = lang || 'html';
-            console.log(language);
-
-            return require('highlight.js').highlightAuto(code).value;
+            return highlight.highlightAuto(code).value;
           }
         });
 
@@ -206,15 +217,36 @@ function start() {
         res.send(generatePage({
             page: {
                 template: templates.tutorial,
-                title: 'about - cdnjs.com - the missing cdn for javascript and css',
+                title:  tutorial + ' - cdnjs.com - the missing cdn for javascript and css',
                 data: {
                     tute: marked( tutorialFile ),
-                    avatar: avatar   
+                    avatar: avatar,
+                    tutorial: tutorialPackage,
+                    disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
+                    disqus_url: tutorialPackage.disqus_url || req.originalUrl,
+                    author: tutorialPackage.author   
                 }
             }
         }));
     });
 
+    app.get('/libraries/:library/:version', libraryResponse);
+    
+    app.get('/libraries/:library', libraryResponse);
+
+    app.get('/libraries', function(req, res) {
+        setCache(res, 2);
+
+        res.send(generatePage({
+            title: 'libraries - cdnjs.com - the missing cdn for javascript and css',
+            page: {
+                template: templates.libraries,
+                data: {
+                    packages: LIBRARIES
+                }
+            }
+        }));
+    });
 
 
     app.get('/about', function(req, res) {
