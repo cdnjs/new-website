@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 //require('newrelic');
 var throng = require('throng');
+var gravatar = require('gravatar');
 
 var WORKERS = process.env.WEB_CONCURRENCY || 1;
 var PORT = Number(process.env.PORT || 5500);
@@ -179,7 +180,8 @@ function start() {
 
         var tutorialFile = fs.readFileSync('tutorials/' + library + '/' + tutorial + '/index.md', 'utf8');
         var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + library + '/' + tutorial + '/tutorial.json', 'utf8'));
-
+        console.log(tutorialPackage.author.email);
+        var avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'});
         var marked = require( "marked" );
 
         marked.setOptions({
@@ -206,7 +208,8 @@ function start() {
                 template: templates.tutorial,
                 title: 'about - cdnjs.com - the missing cdn for javascript and css',
                 data: {
-                    tute: marked( tutorialFile )   
+                    tute: marked( tutorialFile ),
+                    avatar: avatar   
                 }
             }
         }));
