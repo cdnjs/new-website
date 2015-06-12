@@ -130,9 +130,20 @@ function start() {
 
     function libraryResponse(req, res) {
         setCache(res, 1);
-
+        var libraryRealName = req.params.library;
         var libraryName = req.params.library.replace(/\./g, '');
         var library = LIBRARIES_MAP[libraryName];
+        var srcpath = 'tutorials/' + libraryRealName;
+
+        var directories = fs.readdirSync(srcpath).filter(function(file) {
+            return fs.statSync(path.join(srcpath, file)).isDirectory();
+        });
+
+        var tutorialPackages = _.map(directories, function(tutorial) {
+            var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + libraryRealName + '/' + tutorial + '/tutorial.json', 'utf8'));
+            tutorialPackage.slug = tutorial;
+            return tutorialPackage;
+        });
 
         if(!library) {
             // If we don't find the library, redirect to the homepage.
@@ -154,7 +165,9 @@ function start() {
                 data: {
                     library: library,
                     assets: assets,
-                    selectedAssets: _.findWhere(assets, {version: version})
+                    selectedAssets: _.findWhere(assets, {version: version}),
+                    tutorials: tutorialPackages,
+                    libraryRealName: libraryRealName
                 },
                 description: LIBRARIES_MAP[library] && LIBRARIES_MAP[library].description
             }
@@ -192,6 +205,19 @@ function start() {
         var library = req.params.library;
         var tutorial = req.params.tutorial;
 
+
+        var srcpath = 'tutorials/' + library;
+
+        var directories = fs.readdirSync(srcpath).filter(function(file) {
+            return fs.statSync(path.join(srcpath, file)).isDirectory();
+        });
+
+        var tutorialPackages = _.map(directories, function(tutorial) {
+            var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + library + '/' + tutorial + '/tutorial.json', 'utf8'));
+            tutorialPackage.slug = tutorial;
+            return tutorialPackage;
+        });
+
         var tutorialFile = fs.readFileSync('tutorials/' + library + '/' + tutorial + '/index.md', 'utf8');
         var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + library + '/' + tutorial + '/tutorial.json', 'utf8'));
         console.log(tutorialPackage.author.email);
@@ -225,7 +251,9 @@ function start() {
                     tutorial: tutorialPackage,
                     disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
                     disqus_url: tutorialPackage.disqus_url || req.originalUrl,
-                    author: tutorialPackage.author   
+                    author: tutorialPackage.author,
+                    tutorials: tutorialPackages,
+                    library: library
                 }
             }
         }));

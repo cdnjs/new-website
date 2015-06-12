@@ -1,4 +1,5 @@
 <div class="container">
+      <div class="row">
 
 <div class="library-container">
   <div class="col-md-12">
@@ -47,8 +48,23 @@
         </div>
       {{/selectedAssets}}
 
-    <br />
-    <br />
+        <h3>Related Tutorials</h3>
+            <table class="table table-hover" style="margin-top: 25px;">
+                <thead>
+                    <tr>
+                        <td>Tutorial</td>
+                        <td>Author</td>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#tutorials}}
+                    <tr>
+                        <td><a href="/libraries/{{libraryRealName}}/tutorials/{{slug}}">{{name}}</a></td>
+                        <td><a href="{{author.homepage}}">{{author.name}}</a></td>
+                    </tr>
+                {{/tutorials}}
+                </tbody>
+            </table>
 </div>
 </div>
 </div>
