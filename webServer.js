@@ -133,15 +133,15 @@ function start() {
         var libraryRealName = req.params.library;
         var libraryName = req.params.library.replace(/\./g, '');
         var library = LIBRARIES_MAP[libraryName];
-        var srcpath = __dirname + '/tutorials/' + libraryRealName;
+        var srcpath = path.resolve(__dirname, 'tutorials', libraryRealName);
         var tutorialPackages = [];
         if(fs.existsSync(srcpath)){
             var directories = fs.readdirSync(srcpath).filter(function(file) {
-                return fs.statSync(path.join(srcpath, file)).isDirectory();
+                return fs.statSync(path.resolve(srcpath, file)).isDirectory();
             });
 
             var tutorialPackages = _.map(directories, function(tutorial) {
-                var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + libraryRealName + '/' + tutorial + '/tutorial.json', 'utf8'));
+                var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
                 tutorialPackage.slug = tutorial;
                 return tutorialPackage;
             });
@@ -179,14 +179,14 @@ function start() {
 
     app.get('/libraries/:library/tutorials', function (req, res) {
         var library = req.params.library
-        var srcpath = 'tutorials/' + library;
+        var srcpath = path.resolve(__dirname, 'tutorials', library);
 
         var directories = fs.readdirSync(srcpath).filter(function(file) {
-            return fs.statSync(path.join(srcpath, file)).isDirectory();
+            return fs.statSync(path.resolve(srcpath, file)).isDirectory();
         });
 
         var tutorialPackages = _.map(directories, function(tutorial) {
-            var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + library + '/' + tutorial + '/tutorial.json', 'utf8'));
+            var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
             tutorialPackage.slug = tutorial;
             return tutorialPackage;
         });
@@ -209,20 +209,20 @@ function start() {
         var tutorial = req.params.tutorial;
 
 
-        var srcpath = 'tutorials/' + library;
+        var srcpath = path.resolve(__dirname, 'tutorials', library);
 
         var directories = fs.readdirSync(srcpath).filter(function(file) {
-            return fs.statSync(path.join(srcpath, file)).isDirectory();
+            return fs.statSync(path.resolve(srcpath, file)).isDirectory();
         });
 
         var tutorialPackages = _.map(directories, function(tutorial) {
-            var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + library + '/' + tutorial + '/tutorial.json', 'utf8'));
+            var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
             tutorialPackage.slug = tutorial;
             return tutorialPackage;
         });
 
-        var tutorialFile = fs.readFileSync('tutorials/' + library + '/' + tutorial + '/index.md', 'utf8');
-        var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + library + '/' + tutorial + '/tutorial.json', 'utf8'));
+        var tutorialFile = fs.readFileSync(path.resolve(srcpath, tutorial, 'index.md'), 'utf8');
+        var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
         console.log(tutorialPackage.author.email);
         var avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'});
         var marked = require( "marked" );
