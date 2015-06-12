@@ -133,7 +133,7 @@ function start() {
         var libraryRealName = req.params.library;
         var libraryName = req.params.library.replace(/\./g, '');
         var library = LIBRARIES_MAP[libraryName];
-        var srcpath = 'tutorials/' + libraryRealName;
+        var srcpath = __dirname + '/tutorials/' + libraryRealName;
         var tutorialPackages = [];
         if(fs.existsSync(srcpath)){
             var directories = fs.readdirSync(srcpath).filter(function(file) {
