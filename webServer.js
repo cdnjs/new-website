@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-require('newrelic');
+//require('newrelic');
 var throng = require('throng');
 var gravatar = require('gravatar');
 
@@ -21,7 +21,10 @@ function start() {
     var highlight = require('highlight.js');
     var marked = require( "marked" );
     var path = require('path');
-
+    highlight.configure({
+      tabReplace: '  '
+                          // … other options aren't changed
+    })
     app.use(compress());
 
     // Serve public folder
@@ -158,7 +161,6 @@ function start() {
         }));
     }
 
-/*
     app.get('/libraries/:library/tutorials', function (req, res) {
         var library = req.params.library
         var srcpath = 'tutorials/' + library;
@@ -185,7 +187,6 @@ function start() {
             }
         }));
     });
-*/
 
     app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
         var library = req.params.library;
@@ -204,13 +205,13 @@ function start() {
           breaks: false,
           pedantic: false,
           sanitize: false,
-          smartLists: true,
-          smartypants: true,
+          smartLists: false,
+          smartypants: false,
           langPrefix: '',
-          highlight: function (code, lang) {
-            var language = lang || 'html';
-            return highlight.highlightAuto(code).value;
-          }
+          //highlight: function (code, lang) {
+          //  var language = lang || 'html';
+          //  return highlight.highlightAuto(code).value;
+          //}
         });
 
         setCache(res, 72);
