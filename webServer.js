@@ -134,17 +134,18 @@ function start() {
         var libraryName = req.params.library.replace(/\./g, '');
         var library = LIBRARIES_MAP[libraryName];
         var srcpath = 'tutorials/' + libraryRealName;
+        var tutorialPackages = [];
+        if(fs.existsSync(srcpath)){
+            var directories = fs.readdirSync(srcpath).filter(function(file) {
+                return fs.statSync(path.join(srcpath, file)).isDirectory();
+            });
 
-        var directories = fs.readdirSync(srcpath).filter(function(file) {
-            return fs.statSync(path.join(srcpath, file)).isDirectory();
-        });
-
-        var tutorialPackages = _.map(directories, function(tutorial) {
-            var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + libraryRealName + '/' + tutorial + '/tutorial.json', 'utf8'));
-            tutorialPackage.slug = tutorial;
-            return tutorialPackage;
-        });
-
+            var tutorialPackages = _.map(directories, function(tutorial) {
+                var tutorialPackage = JSON.parse(fs.readFileSync('tutorials/' + libraryRealName + '/' + tutorial + '/tutorial.json', 'utf8'));
+                tutorialPackage.slug = tutorial;
+                return tutorialPackage;
+            });
+        }
         if(!library) {
             // If we don't find the library, redirect to the homepage.
             return res.status(404).send('Library not found!');
