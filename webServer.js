@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-//require('newrelic');
+require('newrelic');
 var throng = require('throng');
 var gravatar = require('gravatar');
 
