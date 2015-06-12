@@ -247,7 +247,7 @@ function start() {
         res.send(generatePage({
             page: {
                 template: templates.tutorial,
-                title:  tutorial + ' - cdnjs.com - the missing cdn for javascript and css',
+                title:  tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
                 data: {
                     tute: marked( tutorialFile ),
                     avatar: avatar,
