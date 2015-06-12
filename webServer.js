@@ -169,7 +169,8 @@ function start() {
                     assets: assets,
                     selectedAssets: _.findWhere(assets, {version: version}),
                     tutorials: tutorialPackages,
-                    libraryRealName: libraryRealName
+                    libraryRealName: libraryRealName,
+                    tutorialsPresent: tutorialsPresent
                 },
                 description: LIBRARIES_MAP[library] && LIBRARIES_MAP[library].description
             }
