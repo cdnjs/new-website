@@ -10,17 +10,105 @@
             <link>http://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 11 Jun 2015 18:31:08 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2015 05:31:22 GMT</lastBuildDate>
         <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
         <item>
-            <title><![CDATA[d3-geo-projection updated to version 0.2.9]]></title>
-            <description><![CDATA[Extended geographic projections for D3.js.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.9/d3.geo.projection.min.js">https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.9/d3.geo.projection.min.js</a>]]></description>
-            <link>https://github.com/d3/d3-geo-projection</link>
-            <guid isPermaLink="false">d3-geo-projection0.2.9</guid>
+            <title><![CDATA[angular-formly updated to version 6.13.1]]></title>
+            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.13.1/formly.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.13.1/formly.min.js</a>]]></description>
+            <link>http://formly-js.github.io/angular-formly/#!/</link>
+            <guid isPermaLink="false">angular-formly6.13.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Jun 2015 17:26:26 GMT</pubDate>
+            <pubDate>Fri, 12 Jun 2015 04:54:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-material updated to version 0.10.0-rc4]]></title>
+            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/0.10.0-rc4/angular-material.min.css">https://cdnjs.cloudflare.com/ajax/libs/angular-material/0.10.0-rc4/angular-material.min.css</a>]]></description>
+            <link>https://material.angularjs.org/</link>
+            <guid isPermaLink="false">angular-material0.10.0-rc4</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:53:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[analytics.js updated to version 2.9.1]]></title>
+            <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/analytics.js/2.9.1/analytics.min.js">https://cdnjs.cloudflare.com/ajax/libs/analytics.js/2.9.1/analytics.min.js</a>]]></description>
+            <link>https://segment.io/docs/libraries/analytics.js/</link>
+            <guid isPermaLink="false">analytics.js2.9.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:51:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[d3-geo-projection updated to version 0.2.15]]></title>
+            <description><![CDATA[Extended geographic projections for D3.js.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.15/d3.geo.projection.min.js">https://cdnjs.cloudflare.com/ajax/libs/d3-geo-projection/0.2.15/d3.geo.projection.min.js</a>]]></description>
+            <link>https://github.com/d3/d3-geo-projection</link>
+            <guid isPermaLink="false">d3-geo-projection0.2.15</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:48:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[gl-matrix updated to version 2.3.0]]></title>
+            <description><![CDATA[Javascript Matrix and Vector library for High Performance WebGL apps<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.3.0/gl-matrix-min.js">https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.3.0/gl-matrix-min.js</a>]]></description>
+            <link>https://github.com/toji/gl-matrix</link>
+            <guid isPermaLink="false">gl-matrix2.3.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:45:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[numbro updated to version 1.2.2]]></title>
+            <description><![CDATA[Format and manipulate numbers.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/numbro/1.2.2/numbro.min.js">https://cdnjs.cloudflare.com/ajax/libs/numbro/1.2.2/numbro.min.js</a>]]></description>
+            <link>http://numbrojs.com</link>
+            <guid isPermaLink="false">numbro1.2.2</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:44:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-smart-table updated to version 2.1.0]]></title>
+            <description><![CDATA[Smart table is a table module for angular js. It allows you to quickly compose your table in a declarative way including sorting, filtering, row selection pagination.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-smart-table/2.1.0/smart-table.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-smart-table/2.1.0/smart-table.min.js</a>]]></description>
+            <link>http://lorenzofox3.github.io/smart-table-website/</link>
+            <guid isPermaLink="false">angular-smart-table2.1.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:42:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[angular-ui-date updated to version 0.0.8]]></title>
+            <description><![CDATA[This directive allows you to add a date-picker to your form elements.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.8/date.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-ui-date/0.0.8/date.min.js</a>]]></description>
+            <link>http://angular-ui.github.com/ui-date</link>
+            <guid isPermaLink="false">angular-ui-date0.0.8</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:41:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[aws-sdk updated to version 2.1.34]]></title>
+            <description><![CDATA[The AWS SDK for JavaScript.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.1.34/aws-sdk.min.js">https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.1.34/aws-sdk.min.js</a>]]></description>
+            <link>https://github.com/aws/aws-sdk-js</link>
+            <guid isPermaLink="false">aws-sdk2.1.34</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:39:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[webtorrent updated to version 0.49.1]]></title>
+            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/webtorrent/0.49.1/webtorrent.min.js">https://cdnjs.cloudflare.com/ajax/libs/webtorrent/0.49.1/webtorrent.min.js</a>]]></description>
+            <link>http://webtorrent.io</link>
+            <guid isPermaLink="false">webtorrent0.49.1</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:38:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[fuelux updated to version 3.8.0]]></title>
+            <description><![CDATA[Extends Twitter Bootstrap with additional lightweight JavaScript controls.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/fuelux/3.8.0/js/fuelux.min.js">https://cdnjs.cloudflare.com/ajax/libs/fuelux/3.8.0/js/fuelux.min.js</a>]]></description>
+            <link>http://exacttarget.github.io/fuelux</link>
+            <guid isPermaLink="false">fuelux3.8.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Fri, 12 Jun 2015 04:37:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[jquery-data-remote(0.4.0) was added]]></title>
+            <description><![CDATA[jQuery Data Remote is a plugin that simplifies the common task of making api/remote requests and injecting the response to the page. Optionally leverages Handlebars.js for templating.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/jquery-data-remote/0.4.0/jquery.data-remote.js">https://cdnjs.cloudflare.com/ajax/libs/jquery-data-remote/0.4.0/jquery.data-remote.js</a>]]></description>
+            <link>https://github.com/codonnell822/jquery-data-remote</link>
+            <guid isPermaLink="false">jquery-data-remote0.4.0</guid>
+            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2015 17:44:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[mustache.js updated to version 2.1.1]]></title>
@@ -53,14 +141,6 @@
             <guid isPermaLink="false">angular-poller0.3.3</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Jun 2015 16:40:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[numbro updated to version 1.2.1]]></title>
-            <description><![CDATA[Format and manipulate numbers.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/numbro/1.2.1/numbro.min.js">https://cdnjs.cloudflare.com/ajax/libs/numbro/1.2.1/numbro.min.js</a>]]></description>
-            <link>http://numbrojs.com</link>
-            <guid isPermaLink="false">numbro1.2.1</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Jun 2015 08:01:28 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[maquette updated to version 2.0.0]]></title>
@@ -108,14 +188,6 @@
             <pubDate>Thu, 11 Jun 2015 06:15:27 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[angular-formly updated to version 6.13.0]]></title>
-            <description><![CDATA[AngularJS directive which takes JSON representing a form and renders to HTML<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.13.0/formly.min.js">https://cdnjs.cloudflare.com/ajax/libs/angular-formly/6.13.0/formly.min.js</a>]]></description>
-            <link>http://formly-js.github.io/angular-formly/#!/</link>
-            <guid isPermaLink="false">angular-formly6.13.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Jun 2015 06:15:07 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[angular-formly-templates-bootstrap updated to version 4.3.2]]></title>
             <description><![CDATA[Angular-Formly plugin which outputs bootstrap compatible form fields.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-formly-templates-bootstrap/4.3.2/angular-formly-templates-bootstrap.js">https://cdnjs.cloudflare.com/ajax/libs/angular-formly-templates-bootstrap/4.3.2/angular-formly-templates-bootstrap.js</a>]]></description>
             <link>http://formly-js.github.io/angular-formly-templates-bootstrap/</link>
@@ -161,14 +233,6 @@
             <guid isPermaLink="false">svg.js2.0.0</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Thu, 11 Jun 2015 06:08:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[webtorrent updated to version 0.49.0]]></title>
-            <description><![CDATA[WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/webtorrent/0.49.0/webtorrent.min.js">https://cdnjs.cloudflare.com/ajax/libs/webtorrent/0.49.0/webtorrent.min.js</a>]]></description>
-            <link>http://webtorrent.io</link>
-            <guid isPermaLink="false">webtorrent0.49.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 11 Jun 2015 06:08:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[angular-vertxbus updated to version 2.0.1]]></title>
@@ -264,14 +328,6 @@
             <guid isPermaLink="false">speakingurl5.0.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Mon, 08 Jun 2015 23:04:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[angular-material updated to version 0.9.8]]></title>
-            <description><![CDATA[Material Design for AngularJS Apps<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/0.9.8/angular-material.min.css">https://cdnjs.cloudflare.com/ajax/libs/angular-material/0.9.8/angular-material.min.css</a>]]></description>
-            <link>https://material.angularjs.org/</link>
-            <guid isPermaLink="false">angular-material0.9.8</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Mon, 08 Jun 2015 22:59:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[jquery-scrollTo updated to version 2.1.1]]></title>
@@ -598,14 +654,6 @@
             <pubDate>Fri, 05 Jun 2015 05:46:34 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[aws-sdk updated to version 2.1.33]]></title>
-            <description><![CDATA[The AWS SDK for JavaScript.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.1.33/aws-sdk.min.js">https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.1.33/aws-sdk.min.js</a>]]></description>
-            <link>https://github.com/aws/aws-sdk-js</link>
-            <guid isPermaLink="false">aws-sdk2.1.33</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Fri, 05 Jun 2015 05:46:03 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[chai updated to version 3.0.0]]></title>
             <description><![CDATA[BDD/TDD assertion library for node.js and the browser. Test framework agnostic.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/chai/3.0.0/chai.js">https://cdnjs.cloudflare.com/ajax/libs/chai/3.0.0/chai.js</a>]]></description>
             <link>http://chaijs.com</link>
@@ -636,14 +684,6 @@
             <guid isPermaLink="false">angular-scroll0.7.1</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Wed, 03 Jun 2015 06:07:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[analytics.js updated to version 2.8.25]]></title>
-            <description><![CDATA[The hassle-free way to integrate analytics into any web application.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/analytics.js/2.8.25/analytics.min.js">https://cdnjs.cloudflare.com/ajax/libs/analytics.js/2.8.25/analytics.min.js</a>]]></description>
-            <link>https://segment.io/docs/libraries/analytics.js/</link>
-            <guid isPermaLink="false">analytics.js2.8.25</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Wed, 03 Jun 2015 06:05:48 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[octicons updated to version 2.4.1]]></title>
@@ -1687,14 +1727,6 @@
             <guid isPermaLink="false">angular-strap2.2.4</guid>
             <dc:creator><![CDATA[cdnjs team]]></dc:creator>
             <pubDate>Fri, 29 May 2015 06:38:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[gsap updated to version 1.17.0]]></title>
-            <description><![CDATA[GreenSock Animation Platform (GSAP) is a suite of tools for scripted animation, including TweenLite, TweenMax, TimelineLite, TimelineMax, various easing equations (EasePack), plugins for things like animating along Bezier paths, tweening RaphaelJS objects, etc. and it also includes a jQuery plugin that hijacks the native jQuery.animate() method so that animations perform much better and additional properties can be tweened, like colors, transforms (2D and 3D), boxShadow, borderRadius, clip, and lots more. GSAP has no dependencies on jQuery and it can animate ANY numeric property of ANY object.<br /><br /><a href="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js">https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js</a>]]></description>
-            <link>http://www.greensock.com/gsap-js/</link>
-            <guid isPermaLink="false">gsap1.17.0</guid>
-            <dc:creator><![CDATA[cdnjs team]]></dc:creator>
-            <pubDate>Thu, 28 May 2015 22:30:40 GMT</pubDate>
         </item>
     </channel>
 </rss>
