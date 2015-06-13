@@ -245,9 +245,9 @@ function start() {
 
         setCache(res, 72);
         res.send(generatePage({
+            title:  tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
             page: {
                 template: templates.tutorial,
-                title:  tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
                 data: {
                     tute: marked( tutorialFile ),
                     avatar: avatar,
