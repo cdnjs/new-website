@@ -221,9 +221,12 @@ function start() {
             return tutorialPackage;
         });
 
-        var tutorialFile = fs.readFileSync(path.resolve(srcpath, tutorial, 'index.md'), 'utf8');
+        var tutorialIndexPath = path.resolve(srcpath, tutorial, 'index.md');
+        if (!fs.existsSync(tutorialIndexPath)) {
+            return res.status(404).send('Tutorial not found!');
+        }
+        var tutorialFile = fs.readFileSync(tutorialIndexPath, 'utf8');
         var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
-        console.log(tutorialPackage.author.email);
         var avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'});
         var marked = require( "marked" );
 
