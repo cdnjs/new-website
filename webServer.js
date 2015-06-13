@@ -211,6 +211,11 @@ function start() {
 
         var srcpath = path.resolve(__dirname, 'tutorials', library);
 
+        var tutorialIndexPath = path.resolve(srcpath, tutorial, 'index.md');
+        if (!fs.existsSync(tutorialIndexPath)) {
+            return res.status(404).send('Tutorial not found!');
+        }
+
         var directories = fs.readdirSync(srcpath).filter(function(file) {
             return fs.statSync(path.resolve(srcpath, file)).isDirectory();
         });
@@ -221,10 +226,6 @@ function start() {
             return tutorialPackage;
         });
 
-        var tutorialIndexPath = path.resolve(srcpath, tutorial, 'index.md');
-        if (!fs.existsSync(tutorialIndexPath)) {
-            return res.status(404).send('Tutorial not found!');
-        }
         var tutorialFile = fs.readFileSync(tutorialIndexPath, 'utf8');
         var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
         var avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'});
