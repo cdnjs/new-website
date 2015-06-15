@@ -25,12 +25,10 @@ app.get('/libraries', function(req, res){
   var results;
 
   res.setHeader("Expires", new Date(Date.now() + 360 * 60 * 1000).toUTCString());
-  console.log(req.query);
   var fields = (req.query.fields && req.query.fields.split(',')) || [];
   if(req.query.search) {
     var search = req.query.search;
     results = _.filter(packages, function (package) {
-      console.log(package.name.toLowerCase(), search.toLowerCase())
       return package.name.toLowerCase().indexOf(search.toLowerCase()) === -1 ? false : true;
     });
   } else {
@@ -63,7 +61,6 @@ app.get('/libraries/:library', function(req, res){
       return false;
     }
   });
-  console.log(results);
   if(results.length > 0 ) {
   res.jsonp(results[0]);
 } else { res.jsonp({})}
