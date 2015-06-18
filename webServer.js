@@ -208,8 +208,14 @@ function start() {
         var library = req.params.library;
         var tutorial = req.params.tutorial;
 
-
         var srcpath = path.resolve(__dirname, 'tutorials', library);
+        var indexPath = path.resolve(srcpath, tutorial, 'index.md');
+
+        if(!fs.existsSync(indexPath)) {
+            return res.status(404).send('Tutorial not found!');
+        }
+
+        var tutorialFile = fs.readFileSync(indexPath, 'utf8');
 
         var directories = fs.readdirSync(srcpath).filter(function(file) {
             return fs.statSync(path.resolve(srcpath, file)).isDirectory();
@@ -221,9 +227,7 @@ function start() {
             return tutorialPackage;
         });
 
-        var tutorialFile = fs.readFileSync(path.resolve(srcpath, tutorial, 'index.md'), 'utf8');
         var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
-        console.log(tutorialPackage.author.email);
         var avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'});
         var marked = require( "marked" );
 
