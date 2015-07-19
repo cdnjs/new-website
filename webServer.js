@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 require('newrelic');
-var throng = require('throng');
-var gravatar = require('gravatar');
+var throng = require('throng'),
+  gravatar = require('gravatar'),
 
-var WORKERS = process.env.WEB_CONCURRENCY || 1;
-var PORT = Number(process.env.PORT || 5500);
+  WORKERS = process.env.WEB_CONCURRENCY || 1,
+  PORT = Number(process.env.PORT || 5500);
 
 throng(start, {
     workers: WORKERS,
@@ -12,15 +12,15 @@ throng(start, {
 });
 
 function start() {
-    var express = require("express");
-    var fs = require("fs");
-    var _ = require("lodash");
-    var Mustache = require("mustache");
-    var app = express();
-    var compress = require('compression');
-    var highlight = require('highlight.js');
-    var marked = require( "marked" );
-    var path = require('path');
+    var express = require("express"),
+      fs = require("fs"),
+      _ = require("lodash"),
+      Mustache = require("mustache"),
+      app = express(),
+      compress = require('compression'),
+      highlight = require('highlight.js'),
+      marked = require( "marked" ),
+      path = require('path');
     highlight.configure({
       tabReplace: '  '
                           // … other options aren't changed
@@ -74,17 +74,17 @@ function start() {
     }
 
     var generatePage = function(options) {
-        var layout = options.layout || templates.layout;
-        var title = options.title || 'cdnjs.com - the missing cdn for javascript and css'
-        var description = options.page && options.page.description || 'An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!'
+        var layout = options.layout || templates.layout,
+          title = options.title || 'cdnjs.com - the missing cdn for javascript and css',
+          description = options.page && options.page.description || 'An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!',
 
-        var page = {
+          page = {
             data: options.page && options.page.data || {},
             template: options.page && options.page.template || 'No content'
-        }
-        var pageContent = Mustache.render(page.template, page.data);
+        },
+          pageContent = Mustache.render(page.template, page.data),
 
-        var fullContent = Mustache.render(layout, {
+          fullContent = Mustache.render(layout, {
             title: title,
             description: description,
             page: pageContent,
@@ -130,11 +130,11 @@ function start() {
 
     function libraryResponse(req, res) {
         setCache(res, 1);
-        var libraryRealName = req.params.library;
-        var libraryName = req.params.library.replace(/\./g, '');
-        var library = LIBRARIES_MAP[libraryName];
-        var srcpath = path.resolve(__dirname, 'tutorials', libraryRealName);
-        var tutorialPackages = [];
+        var libraryRealName = req.params.library,
+          libraryName = req.params.library.replace(/\./g, ''),
+          library = LIBRARIES_MAP[libraryName],
+          srcpath = path.resolve(__dirname, 'tutorials', libraryRealName),
+          tutorialPackages = [];
         if(fs.existsSync(srcpath)){
             var directories = fs.readdirSync(srcpath).filter(function(file) {
                 return fs.statSync(path.resolve(srcpath, file)).isDirectory();
@@ -178,10 +178,10 @@ function start() {
     }
 
     app.get('/libraries/:library/tutorials', function (req, res) {
-        var library = req.params.library
-        var srcpath = path.resolve(__dirname, 'tutorials', library);
+        var library = req.params.library,
+          srcpath = path.resolve(__dirname, 'tutorials', library),
 
-        var directories = fs.readdirSync(srcpath).filter(function(file) {
+          directories = fs.readdirSync(srcpath).filter(function(file) {
             return fs.statSync(path.resolve(srcpath, file)).isDirectory();
         });
 
@@ -205,19 +205,19 @@ function start() {
     });
 
     app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
-        var library = req.params.library;
-        var tutorial = req.params.tutorial;
+        var library = req.params.library,
+          tutorial = req.params.tutorial,
 
-        var srcpath = path.resolve(__dirname, 'tutorials', library);
-        var indexPath = path.resolve(srcpath, tutorial, 'index.md');
+          srcpath = path.resolve(__dirname, 'tutorials', library),
+          indexPath = path.resolve(srcpath, tutorial, 'index.md');
 
         if(!fs.existsSync(indexPath)) {
             return res.status(404).send('Tutorial not found!');
         }
 
-        var tutorialFile = fs.readFileSync(indexPath, 'utf8');
+        var tutorialFile = fs.readFileSync(indexPath, 'utf8'),
 
-        var directories = fs.readdirSync(srcpath).filter(function(file) {
+          directories = fs.readdirSync(srcpath).filter(function(file) {
             return fs.statSync(path.resolve(srcpath, file)).isDirectory();
         });
 
@@ -227,9 +227,9 @@ function start() {
             return tutorialPackage;
         });
 
-        var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
-        var avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'});
-        var marked = require( "marked" );
+        var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8')),
+          avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'}),
+          marked = require( "marked" );
 
         marked.setOptions({
           renderer: new marked.Renderer(),

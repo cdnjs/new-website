@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-var _ = require("lodash");
-var fs = require("fs");
-var algoliasearch = require("algoliasearch");
-var GitHubApi = require("github");
-var async = require("async");
-var colors = require('colors');
+var _ = require("lodash"),
+  fs = require("fs"),
+  algoliasearch = require("algoliasearch"),
+  GitHubApi = require("github"),
+  async = require("async"),
+  colors = require('colors');
 
 
 /*

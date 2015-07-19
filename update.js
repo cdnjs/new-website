@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-var _    = require('lodash');
-var fs   = require('fs');
-var http = require('http');
+var _    = require('lodash'),
+  fs   = require('fs'),
+  http = require('http'),
 
-var pkgMeta = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
+  pkgMeta = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages,
 
 // Generate sitemap
-var pages = [
+  pages = [
   'http://cdnjs.com/',
   'http://cdnjs.com/about',
   'http://cdnjs.com/login',

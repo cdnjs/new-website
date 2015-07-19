@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 require('newrelic');
-var fs = require('fs');
-var express = require('express');
-var _ = require('lodash');
-var app = express();
+var fs = require('fs'),
+  express = require('express'),
+  _ = require('lodash'),
+  app = express(),
 
-var compress = require('compression');
-var bodyParser = require('body-parser');
-var allowCrossDomain = function(req, res, next) {
+  compress = require('compression'),
+  bodyParser = require('body-parser'),
+  allowCrossDomain = function(req, res, next) {
     res.header('Access-Control-Allow-Credentials', true);
     res.header('Access-Control-Allow-Origin', '*')
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
