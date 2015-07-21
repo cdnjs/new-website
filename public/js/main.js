@@ -104,7 +104,7 @@
         '</td>' +
         '<td style="white-space: nowrap;">' +
           '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
-            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">//cdnjs.cloudflare.com/ajax/libs/' + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
+            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">https://cdnjs.cloudflare.com/ajax/libs/' + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
           '</div>' +
         '</td>' +
       '</tr>';
