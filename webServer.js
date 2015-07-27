@@ -119,11 +119,14 @@ function start() {
             } else {
                 assets.selected = '';
             }
-            var fileArray = [];
-            assets.files.map(function(fileName, index) {
-                fileArray.push({name: fileName});
-            });
-            assets.files = fileArray;
+            if (assets.gennedFileNames === undefined) {
+                var fileArray = [];
+                assets.files.map(function(fileName, index) {
+                    fileArray.push({"name": fileName});
+                });
+                assets.files = fileArray;
+                assets.gennedFileNames = true;
+            }
             return assets;
         });
     }
