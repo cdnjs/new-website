@@ -119,6 +119,11 @@ function start() {
             } else {
                 assets.selected = '';
             }
+            var fileArray = [];
+            assets.files.map(function(fileName, index) {
+                fileArray.push({name: fileName});
+            });
+            assets.files = fileArray;
             return assets;
         });
     }
