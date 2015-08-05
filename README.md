@@ -30,6 +30,9 @@ APP=[mainSite|api]
 ./runServer.sh
 ```
 
-**Note**: Make sure `mongod` is running if you're using a local database.
+**Note**:
+
+ * Make sure `mongod` is running if you're using a local database.
+ * The artifacts/meta data is on the [meta](https://github.com/cdnjs/new-website/tree/meta) branch.
 
 **Heads up**: `runServer.sh` script only works on Bash. If you're using another shell run `node [webServer|apiServer].js` instead.
