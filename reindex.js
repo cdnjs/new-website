@@ -137,7 +137,17 @@ var index = client.initIndex('libraries.tmp');
 function initIndex(next) {
   console.log('* Initializing the index');
   index.setSettings({
-    attributesToIndex: ['unordered(name)', 'unordered(alternativeNames)', 'unordered(description)', 'unordered(keywords)', 'unordered(filename)'],
+    attributesToIndex: [
+      'unordered(name)',
+      'unordered(alternativeNames)',
+      'unordered(github.repo)',
+      'unordered(description)',
+      'unordered(keywords)',
+      'unordered(filename)',
+      'unordered(repositories.url)',
+      'unordered(github.user)',
+      'unordered(maintainers.name)'
+    ],
     customRanking: [ 'desc(github.stargazers_count)', 'asc(name)' ],
     attributesForFaceting: ['fileType', 'keywords'],
     optionalWords: ['js', 'css'], // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
