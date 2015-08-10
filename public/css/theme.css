@@ -70,7 +70,7 @@ p#date{
   width: 60% !important;
 }
 
-.packages-table-container tbody tr .label-default.highlight {
+.packages-table-container tbody tr .label-default.highlight, .label-highlight {
   background-color: #575552;
 }
 
