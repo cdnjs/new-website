@@ -160,6 +160,7 @@ function start() {
             return res.status(404).send('Library not found!');
         }
 
+        library.autoupdateEnabled = library.autoupdate ? library.autoupdate + ' autoupdate enabled' : '';
         var version = req.params.version || library.version;
 
         if(!_.findWhere(library.assets, { version: version })) {
