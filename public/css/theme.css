@@ -155,6 +155,8 @@ button.btn {
 
       button.btn {
          display: block;
+         outline: none;
+         border: none;
     }
      
      .menu li {
@@ -166,6 +168,10 @@ button.btn {
            border-bottom: 2px solid white;
            background-color: #EF4836;
            font-size: 20px;
+     }
+
+     .menu li:nth-last-child(1) {
+           border-bottom: 0px;
      }
 
      .menu li:nth-child(1) {
