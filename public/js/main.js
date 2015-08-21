@@ -88,12 +88,17 @@
           '<li><i class="fa fa-code-fork"></i> ' + hit.github.forks + '</li>' +
         '</ul>';
       }
+
+      // extract & escape the description to prevent any XSS issue keeping the highlighting tags
+      var description = hit._highlightResult.description && hit._highlightResult.description.value;
+      description = $('<div />').text(description).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
+
       var row = '<tr id="' + hit.objectID + '">' +
         '<td>' +
           '<p><a itemprop="name" href="/libraries/'+ hit.name + '">' +
             hit._highlightResult.name.value +
           '</a></p>' +
-          '<p class="text-muted">' + (hit._highlightResult.description && hit._highlightResult.description.value) + '</p>' +
+          '<p class="text-muted">' + description + '</p>' +
           '<ul class="list-inline">' +
             $.map(hit._highlightResult.keywords || [], function(e) { 
               var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
