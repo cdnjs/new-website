@@ -179,3 +179,7 @@
 
 
 })(jQuery);
+
+$("button.btn").click(function(){
+    $(".menu li").toggleClass("show")
+});

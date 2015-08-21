@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster|Abel|Shadows+Into+Light|Pacifico|Orbitron);
+@import url(http://fonts.googleapis.com/css?family=Abel);
 
 body {
   overflow-y: scroll;
@@ -140,15 +140,41 @@ p#date{
   margin-top: 20px;
 }
 
+.glyphicon-list {
+  display: none;
+}
+
+button.btn {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
+     .glyphicon-list {
+           display: block;
+    }
+
+      button.btn {
+         display: block;
+    }
      
      .menu li {
+           display: none;
            width: 100%;
            text-align: center;
-           padding-top: 20px;
-           background-color: #16a085;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           border-bottom: 2px solid white;
+           background-color: #EF4836;
            font-size: 20px;
-           border-radius: 10px;
+     }
+
+     .menu li:nth-child(1) {
+           display: block;
+           font-family: 'Abel', sans-serif;
+           font-size: 50px;
+           background-color: white;
+           border-radius: 0px;
+           padding: 0px;
      }
 
      .menu li a {
@@ -158,14 +184,6 @@ p#date{
 
      .menu li a:hover {
          color: #ecf0f1;
-     }
-
-     .menu li:nth-child(1) {
-         font-family: 'Abel', sans-serif;
-         font-size: 80px;
-         background-color: white;
-         border-radius: 0px;
-         padding: 0px;
      }
 
      .menu li.logo a {
@@ -189,5 +207,21 @@ p#date{
      #search-box {
           min-height: 50px;
           width: 100%;
+     }
+
+     button.btn {
+          border-radius: 0px;
+     }
+
+     button.btn-color {
+          background: #D64541;
+     }
+
+     span.glyphicon-list {
+          color: black;
+     }
+
+     .show {
+          display: block;
      }
 }
