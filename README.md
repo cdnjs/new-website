@@ -9,7 +9,6 @@ Website of https://cdnjs.com
 
 * [Node](https://nodejs.org)
 * [MongoDB](https://mongodb.org)
-* A registered [Twitter application](https://apps.twitter.com/).
 
 ## Setup
 
@@ -21,10 +20,6 @@ npm install
 ## Running
 
 ```sh
-CONSUMER_KEY=<twitter app consumer key>
-CONSUMER_SECRET=<twitter app consumer secret>
-ACCESS_TOKEN=<twitter app access token>
-ACCESS_TOKEN_SECRETt=<twitter app access token secret>
 MONGOHQ_URL=<mongodb url>
 APP=[mainSite|api]
 ./runServer.sh
