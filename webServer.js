@@ -160,6 +160,39 @@ function start() {
             return res.status(404).send('Library not found!');
         }
 
+        //Get the repository url
+        var urls = [];
+        // collect all repository urls
+        if (library.repositories && _.isArray(library.repositories)) {
+          for (var i = 0; i < library.repositories.length; ++i) {
+            urls.push(library.repositories[i].url);
+          }      
+        }
+        if (library.repository) {
+          if (_.isObject(library.repository)) {
+            urls.push(library.repository.url);
+          } else if (_.isString(library.repository)) {
+            urls.push(library.repository);
+          }   
+        }
+        // for each collected URL, try to find the associated github repo
+        var repos = _.compact(_.map(urls, function(url) {
+          if (!url || !_.isString(url)) {
+            return null;
+          }
+          var m = url.match(/.*github\.com\/([^\/]+)\/([^\/]+)(\/.*|\.git)?$/);
+          if (!m) {
+            return null;
+          }
+          return { user: m[1], repo: m[2].replace(/.git$/, '') };
+        }));
+  
+        library.repo = '';
+        if (repos.length > 0) {
+          var repo = repos[0]; // fetch only the first repository   
+          library.repo = repo.user + '/' + repo.repo;
+        }       
+       
         library.autoupdateEnabled = library.autoupdate ? library.autoupdate + ' autoupdate enabled' : '';
         var version = req.params.version || library.version;
 
