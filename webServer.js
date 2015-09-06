@@ -3,6 +3,8 @@ require('newrelic');
 var throng = require('throng'),
   gravatar = require('gravatar'),
 
+  fs = require('fs'),
+  licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
   PORT = Number(process.env.PORT || 5500);
 
@@ -112,6 +114,28 @@ function start() {
         }));
     });
 
+    function librarylicensesList(library) {
+        if (library.license == undefined && library.licenses == undefined) {
+            return null;
+        }
+        if (library.license != undefined) {
+            library.licenses = [];
+            library.licenses[0] = library.license;
+            delete library.license;
+        }
+        for (license in library.licenses) {
+            if (typeof(library.licenses[license]) !== 'object') {
+                var temp = library.licenses[license];
+                library.licenses[license] = {};
+                library.licenses[license].type = temp;
+            }
+            if (licenses.indexOf(library.licenses[license].type) !== -1) {
+                library.licenses[license].url = 'https://spdx.org/licenses/' + library.licenses[license].type + '.html';
+            }
+        }
+        return library.licenses;
+    }
+
     function libraryAssetsList(library, version) {
         return _.map(library.assets, function(assets) {
             if (assets.version === version) {
@@ -167,6 +191,7 @@ function start() {
             return res.status(404).send(libraryName + ' version not found!');
         }
 
+        var licenses = librarylicensesList(library);
         var assets = libraryAssetsList(library, version);
 
         res.send(generatePage({
@@ -176,6 +201,7 @@ function start() {
                 data: {
                     library: library,
                     assets: assets,
+                    licenses: licenses,
                     selectedAssets: _.findWhere(assets, {version: version}),
                     tutorials: tutorialPackages,
                     libraryRealName: libraryRealName,
