@@ -106,7 +106,7 @@ function crawl(gnext) {
       github.repos.get(repo, function(err, res) {
         if (!err) {
           // enchrich the library
-          console.log('** Enrich ' + repo.user + '/' + repo.repo);
+          console.log('** Enrich ' + repo.user + '/' + repo.repo + ', ' + res.stargazers_count + ' star(s) ...');
           library.github = {
             user: repo.user,
             repo: repo.repo,
