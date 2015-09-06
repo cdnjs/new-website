@@ -104,6 +104,9 @@ function crawl(gnext) {
     if (repos.length > 0) {
       var repo = repos[0]; // fetch only the first repository
       github.repos.get(repo, function(err, res) {
+        if (res.stargazers_count == undefined) {
+          err = "Didn't fetch the meta data properly!!!";
+        }
         if (!err) {
           // enchrich the library
           console.log('** Enrich ' + repo.user + '/' + repo.repo + ', ' + res.stargazers_count + ' star(s) ...');
