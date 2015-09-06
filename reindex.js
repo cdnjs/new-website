@@ -104,7 +104,7 @@ function crawl(gnext) {
     if (repos.length > 0) {
       var repo = repos[0]; // fetch only the first repository
       github.repos.get(repo, function(err, res) {
-        if (res == undefined) {
+        if (!err && res == undefined) {
           err = "Didn't fetch the meta data properly!!!";
         }
         if (!err) {
