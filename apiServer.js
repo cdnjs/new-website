@@ -24,6 +24,10 @@ var packages = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).p
 app.get('/libraries', function(req, res){
   var results;
 
+  if(req.query.output && req.query.output === 'human') {
+    app.set('json spaces', 2);
+  }
+
   res.setHeader("Expires", new Date(Date.now() + 360 * 60 * 1000).toUTCString());
   var fields = (req.query.fields && req.query.fields.split(',')) || [];
   if(req.query.search) {
@@ -52,6 +56,10 @@ app.get('/libraries', function(req, res){
 });
 app.get('/libraries/:library', function(req, res){
   var results;
+
+  if(req.query.output && req.query.output === 'human') {
+    app.set('json spaces', 2);
+  }
 
   res.setHeader("Expires", new Date(Date.now() + 360 * 60 * 1000).toUTCString());
   results = _.filter(packages, function(package) {
