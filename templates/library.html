@@ -12,6 +12,9 @@
       <p>
         <li class="label label-default label-highlight"><a href="https://api.cdnjs.com/libraries/{{library.name}}">cdnjs api</a></li>
         <li class="label label-default label-highlight">{{library.autoupdateEnabled}}</li>
+        {{#library.urls}}
+        <li class="label label-default label-highlight"><a href="{{url}}">repository</a></li>
+        {{/library.urls}}
         {{#licenses}}
           <li class="label label-default label-highlight"><a href="{{url}}">{{type}} license</a></li>
         {{/licenses}}

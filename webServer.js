@@ -2,6 +2,7 @@
 require('newrelic');
 var throng = require('throng'),
   gravatar = require('gravatar'),
+  GitUrlParse = require("git-url-parse"),
 
   fs = require('fs'),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
@@ -114,6 +115,29 @@ function start() {
         }));
     });
 
+    function libraryGitRepoList(library) {
+        urls = [];
+        temp = [];
+
+        if (library.repository != undefined) {
+            temp[0] = library.repository;
+        } else if (library.repositories != undefined) {
+            temp = library.repositories;
+        } else {
+            return null;
+        }
+
+        console.dir(temp);
+        for (repo in temp) {
+            if (temp[repo].type === 'git') {
+                urls.push({'url': GitUrlParse(temp[repo].url).toString("https")});
+            }
+        }
+        delete temp;
+        library.urls = urls;
+        return urls;
+    }
+
     function librarylicensesList(library) {
         if (library.license == undefined && library.licenses == undefined) {
             return null;
@@ -193,6 +217,9 @@ function start() {
 
         var licenses = librarylicensesList(library);
         var assets = libraryAssetsList(library, version);
+        if (!library.urls) {
+            library.urls = libraryGitRepoList(library);
+        }
 
         res.send(generatePage({
             title: libraryName + ' - cdnjs.com - the missing cdn for javascript and css',
