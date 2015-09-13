@@ -79,6 +79,10 @@ p#date{
   background: none;
 }
 
+.label-highlight a {
+  color: white !important;
+ }
+
 #carbonads {
   border: none !important;
   border-radius: 4px;
