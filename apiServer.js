@@ -73,6 +73,11 @@ app.get('/libraries/:library', function(req, res){
   res.jsonp(results[0]);
 } else { res.jsonp({})}
 });
+
+app.get('/', function(req, res){
+  res.redirect('https://github.com/cdnjs/cdnjs#api');
+});
+
 var port = process.env.PORT || 5050;
 
 app.listen(port);
