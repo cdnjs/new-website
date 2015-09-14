@@ -2,6 +2,7 @@
 require('newrelic');
 var fs = require('fs'),
   express = require('express'),
+  algoliasearch = require("algoliasearch")
   _ = require('lodash'),
   app = express(),
 
@@ -19,40 +20,60 @@ app.use(allowCrossDomain);
 app.use(compress())
 
 var packages = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
-
+// build an indexed version of the packages (speed up lookup)
+var packagesByName = {};
+_.each(packages, function(package) {
+  packagesByName[package.name] = package;
+});
+var algoliaIndex = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010').initIndex('libraries');
 
 app.get('/libraries', function(req, res){
   var results;
 
-  if(req.query.output && req.query.output === 'human') {
+  if (req.query.output && req.query.output === 'human') {
     app.set('json spaces', 2);
+  }
+
+  // format the results including optional `fields`
+  function formatResults(fields, packages) {
+    return _.map(packages, function (package) {
+      var data = {
+        name: package.name,
+        latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + package.name + '/' + package.version + '/' + package.filename
+      };
+      _.each(fields, function(field){
+        data[field] = package[field] || null;
+      });
+      return data;
+    });
   }
 
   res.setHeader("Expires", new Date(Date.now() + 360 * 60 * 1000).toUTCString());
   var fields = (req.query.fields && req.query.fields.split(',')) || [];
-  if(req.query.search) {
-    var search = req.query.search;
-    results = _.filter(packages, function (package) {
-      return package.name.toLowerCase().indexOf(search.toLowerCase()) === -1 ? false : true;
+  if (req.query.search) {
+    var searchParams = {
+      typoTolerance: 'min', // only keep the minimum typos
+      hitsPerPage: 1000 // maximum
+    };
+    algoliaIndex.search(req.query.search, searchParams, function(error, content) {
+      if (error) {
+        res.status(500).send(error.message);
+        return;
+      }
+      // fetch the orignal version of the package based on the search hit
+      results = _.map(content.hits, function(hit) { return packagesByName[hit.originalName] || hit; });
+      res.jsonp({
+        results: formatResults(fields, results),
+        total: content.hits.length
+      });
     });
   } else {
     results = _.filter(packages, function(package) {return package});
-  }
-  results = _.map(results, function (package) {
-    var data = {
-      name: package.name,
-      latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + package.name + '/' + package.version + '/' + package.filename
-    };
-
-    _.each(fields, function(field){
-      data[field] = package[field] || null;
+    res.jsonp({
+      results: formatResults(fields, results),
+      total: results.length
     });
-    return data;
-  });
-  res.jsonp({
-    results: results,
-    total: results.length
-  });
+  }
 });
 app.get('/libraries/:library', function(req, res){
   var results;
