@@ -80,7 +80,7 @@ function start() {
     var generatePage = function(options) {
         var layout = options.layout || templates.layout,
           title = options.title || TITLE,
-          description = options.page && options.page.description || 'An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!',
+          description = options.page && options.page.description || 'The free and open source CDN for all the famous web related libraries that speeding up your websites and saving the bandwidth for you!',
 
           page = {
             data: options.page && options.page.data || {},
