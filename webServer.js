@@ -7,7 +7,8 @@ var throng = require('throng'),
   fs = require('fs'),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
-  PORT = Number(process.env.PORT || 5500);
+  PORT = Number(process.env.PORT || 5500),
+  TITLE = 'cdnjs.com - the free and open source cdn for web related libraries to speed up your website!';
 
 throng(start, {
     workers: WORKERS,
@@ -78,7 +79,7 @@ function start() {
 
     var generatePage = function(options) {
         var layout = options.layout || templates.layout,
-          title = options.title || 'cdnjs.com - the missing cdn for javascript and css',
+          title = options.title || TITLE,
           description = options.page && options.page.description || 'An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!',
 
           page = {
@@ -222,7 +223,7 @@ function start() {
         }
 
         res.send(generatePage({
-            title: libraryName + ' - cdnjs.com - the missing cdn for javascript and css',
+            title: libraryName + ' - ' + TITLE,
             page: {
                 template: templates.library,
                 data: {
@@ -257,7 +258,7 @@ function start() {
         res.send(generatePage({
             page: {
                 template: templates.tutorials,
-                title: library + ' tutorials - cdnjs.com - the missing cdn for javascript and css',
+                title: library + ' tutorials - ' + TITLE,
                 data: {
                     tutorials: tutorialPackages,
                     library: library
@@ -336,7 +337,7 @@ function start() {
         setCache(res, 2);
 
         res.send(generatePage({
-            title: 'libraries - cdnjs.com - the missing cdn for javascript and css',
+            title: 'libraries - ' + TITLE,
             page: {
                 template: templates.libraries,
                 data: {
@@ -353,7 +354,7 @@ function start() {
         res.send(generatePage({
             page: {
                 template: templates.about,
-                title: 'about - cdnjs.com - the missing cdn for javascript and css'
+                title: 'about - ' + TITLE
             }
         }));
     });
