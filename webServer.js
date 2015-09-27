@@ -5,6 +5,7 @@ var throng = require('throng'),
   GitUrlParse = require("git-url-parse"),
   lzma = require('lzma-native'),
 
+  isThere = require("is-there"),
   fs = require('fs'),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
@@ -352,8 +353,14 @@ function start() {
                 }
             }));
         });
-
-
+        app.get('/packages.json', function(req, res) {
+            setCache(res, 24);
+            res.send(decompressed);
+        });
+        app.get('/packages.min.json', function(req, res) {
+            setCache(res, 24);
+            res.send(decompressed);
+        });
         app.use(function(err, req, res, next) {
             console.error(err.stack);
             res.status(500).send('Something broke!');
