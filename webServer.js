@@ -128,7 +128,6 @@ function start() {
             return null;
         }
 
-        console.dir(temp);
         for (repo in temp) {
             if (temp[repo].type === 'git') {
                 urls.push({'url': GitUrlParse(temp[repo].url).toString("https")});
