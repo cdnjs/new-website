@@ -167,14 +167,6 @@ function start() {
             } else {
                 assets.selected = '';
             }
-            if (assets.gennedFileNames === undefined) {
-                var fileArray = [];
-                assets.files.map(function(fileName, index) {
-                    fileArray.push({"name": fileName});
-                });
-                assets.files = fileArray;
-                assets.gennedFileNames = true;
-            }
             return assets;
         });
     }
