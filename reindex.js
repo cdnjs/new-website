@@ -5,8 +5,7 @@ var _ = require("lodash"),
   algoliasearch = require("algoliasearch"),
   GitHubApi = require("github"),
   async = require("async"),
-  colors = require('colors'),
-  lzma = require('lzma-native');
+  colors = require('colors');
 
 
 /*
@@ -32,16 +31,6 @@ var _ = require("lodash"),
 ////// Fetch all libraries from the generated public/packages.min.json file
 //////
 var LIBRARIES = [];
-function extract(next) {
-  console.log('* Extracting xz compressed meta data');
-  fs.readFile('public/packages.min.json.xz', function(err, raw) {
-    lzma.decompress(raw, function(decompressed) {
-      fs.writeFileSync('public/packages.min.json', decompressed);
-      next();
-    });
-  });
-}
-
 function load(next) {
   console.log('* Loading libraries');
   LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages, function(library) {
@@ -189,7 +178,6 @@ function commit(next) {
 ////// Orchestrate it!
 //////
 async.series([
-  extract,
   load,
   authenticate,
   crawl,
