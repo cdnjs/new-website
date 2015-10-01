@@ -25,5 +25,3 @@ build/Release
 node_modules
 
 cache/*
-
-public/packages.min.json
