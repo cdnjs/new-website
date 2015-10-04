@@ -204,8 +204,7 @@ function start() {
         }
         var tutorialsPresent = tutorialPackages.length > 0 ? true : false;
         if(!library) {
-            // If we don't find the library, redirect to the homepage.
-            return res.status(404).send('Library not found!');
+            return res.redirect(307, '/#q=' + libraryName);
         }
 
         library.autoupdateEnabled = library.autoupdate ? library.autoupdate + ' autoupdate enabled' : '';
