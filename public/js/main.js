@@ -77,22 +77,28 @@
     if (!success || content.query !== $('#search-box').val()) {
       return;
     }
+
+    function getSafeHighlightedValue(highlight) {
+      // extract & escape the attribute to prevent any XSS issue keeping the highlighting tags
+      var v = highlight && highlight.value || '';
+      return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
+    }
+
     var html = '';
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
       var githubDetails = '';
       if (hit.github) {
+        var user = getSafeHighlightedValue(hit._highlightResult.github.user);
+        var repo = getSafeHighlightedValue(hit._highlightResult.github.repo);
         githubDetails = '<ul class="list-inline">' +
-          '<li><i class="fa fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '">' + hit.github.user + '/' + hit.github.repo + '</a></li>' +
+          '<li><i class="fa fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '">' + user + '/' + repo + '</a></li>' +
           '<li><i class="fa fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
           '<li><i class="fa fa-code-fork"></i> ' + hit.github.forks + '</li>' +
         '</ul>';
       }
 
-      // extract & escape the description to prevent any XSS issue keeping the highlighting tags
-      var description = hit._highlightResult.description && hit._highlightResult.description.value;
-      description = $('<div />').text(description).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
-
+      var description = getSafeHighlightedValue(hit._highlightResult.description);
       var row = '<tr id="' + hit.objectID + '">' +
         '<td>' +
           '<p><a itemprop="name" href="/libraries/'+ hit.name + '">' +
