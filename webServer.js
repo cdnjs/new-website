@@ -8,7 +8,7 @@ var throng = require('throng'),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
   PORT = Number(process.env.PORT || 5500),
-  TITLE = 'cdnjs.com - the free and open source cdn for web related libraries to speed up your website!';
+  TITLE = 'cdnjs.com - The free and open source CDN for web related libraries to speed up your website!';
 
 throng(start, {
     workers: WORKERS,
@@ -80,7 +80,7 @@ function start() {
     var generatePage = function(options) {
         var layout = options.layout || templates.layout,
           title = options.title || TITLE,
-          description = options.page && options.page.description || 'The free and open source CDN for all the famous web related libraries that speeding up your websites and saving the bandwidth for you!',
+          description = options.page && options.page.description || 'The free and open source CDN for all web libraries. Speed up your websites and save bandwidth!',
 
           page = {
             data: options.page && options.page.data || {},
