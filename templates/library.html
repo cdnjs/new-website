@@ -7,6 +7,15 @@
         <div class="col-md-8">
 
     <h1 style="margin-top: 00px;">{{library.name}}</h1>
+    {{#library.repo}}
+    <br/>
+    <p>
+       <a aria-label="Star {{library.repo}} on GitHub" data-count-aria-label="# stargazers on GitHub" data-style="mega" data-count-api="/repos/{{library.repo}}#stargazers_count" data-count-href="/{{library.repo}}/stargazers" href="https://github.com/{{library.repo}}" class="github-button">Star</a>
+       &nbsp;
+       <a aria-label="Fork {{library.repo}} on GitHub" data-count-aria-label="# forks on GitHub" data-style="mega" data-count-api="/repos/{{library.repo}}#forks_count" data-count-href="/{{library.repo}}/network" data-icon="octicon-repo-forked" href="https://github.com/{{library.repo}}/fork" class="github-button">Fork</a>
+       <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    </p>
+    {{/library.repo}}
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
       <span id="library-name" style="display: none;" hidden>{{library.name}}</span>
       <p>
