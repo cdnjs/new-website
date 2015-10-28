@@ -34,40 +34,78 @@
   var copyContainer = $('<div/>');
   copyEl.attr('style', 'display: none;');
   copyEl.appendTo('body');
+  var clipboard;
 
   function setupMouseEvents() {
-    $('.library-column').on( "mouseenter", function(ev) {
-      var cont = $(ev.currentTarget);
-      copyEl.show();
-      copyEl.appendTo(cont);
-    })
-    .on( "mouseleave", function(ev) {
-      var cont = $(ev.currentTarget);
-      //copyEl.appendTo('body');
+    // Currently not showing the copy button for iOS, check clipboard.js support
+    if(!(/iPhone|iPad/i.test(navigator.userAgent))) {
+      $('.library-column').on( "mouseenter", function(ev) {
+        var cont = $(ev.currentTarget);
+        copyEl.show();
+        copyEl.appendTo(cont);
+      })
+      .on( "mouseleave", function(ev) {
+        var cont = $(ev.currentTarget);
+        //copyEl.appendTo('body');
+      });
+      if (clipboard) clipboard.destroy();
+      setupCopyButton();
+    }
+  }
+
+  function setupCopyButton() {
+    clipboard = new Clipboard(".copy-button", {
+      text: function(trigger) {
+        var button = $(trigger);
+        var embed = button.attr('data-copy-embed');
+        var url = $('.library-url', button.parents('.library-column')).text();
+        if(embed === 'script') {
+          url = '<script type="text/javascript" src="' + url + '"></script>';
+        } else if (embed === 'link') {
+          url = '<link rel="stylesheet" href="' + url + '">';
+        }
+        return url;
+      }
+    });
+
+    clipboard.on("success", function(e) {
+      var button = $(e.trigger);
+      var btContainer = button.parents('.copy-button-group').tooltip({
+        trigger: 'manual',
+        placement: 'bottom',
+        title: 'Copied!'
+      });
+      btContainer.tooltip('show');
+      setTimeout(function(){
+        btContainer.tooltip('hide');
+        btContainer.tooltip('destroy');
+      }, 1000);
+      ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
+    });
+
+    clipboard.on("error", function(e) {
+      var button = $(e.trigger);
+      var msg;
+      if (/Mac/i.test(navigator.userAgent)) {
+        msg = 'Press ⌘-C to copy';
+      }
+      else {
+        msg = 'Press Ctrl-C to copy';
+      }
+      var btContainer = button.parents('.copy-button-group').tooltip({
+        trigger: 'manual',
+        placement: 'bottom',
+        title: msg
+      });
+      btContainer.tooltip('show');
+      setTimeout(function(){
+        btContainer.tooltip('hide');
+        btContainer.tooltip('destroy');
+      }, 1000);
     });
   }
 
-  var client = new ZeroClipboard($(".copy-button"));
-  client.on( "ready", function( readyEvent ) {
-    // ZeroClipboard is enabled. Display copy button.
-    setupMouseEvents();
-    client.on( "copy", function (event) {
-      var button = $(event.target);
-      var embed = button.attr('data-copy-embed');
-      var url = $('.library-url', button.parents('.library-column')).text();
-      var oldurl = url;
-      if(embed === 'script') {
-        url = '<script type="text/javascript" src="' + url + '"></script>';
-      } else if (embed === 'link') {
-        url = '<link rel="stylesheet" href="' + url + '">';
-      }
-          ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
-
-      var clipboard = event.clipboardData;
-      clipboard.setData( "text/plain", url );
-    });
-  });
-
+  setupMouseEvents();
 
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
@@ -107,9 +145,9 @@
           '</a></p>' +
           '<p class="text-muted">' + description + '</p>' +
           '<ul class="list-inline">' +
-            $.map(hit._highlightResult.keywords || [], function(e) { 
+            $.map(hit._highlightResult.keywords || [], function(e) {
               var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
-              return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>'; 
+              return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>';
             }).join(' ') +
           '</ul>' +
           githubDetails +
@@ -123,6 +161,7 @@
       html += row;
     }
     $hits.html(html);
+
     setupMouseEvents();
   }
 
