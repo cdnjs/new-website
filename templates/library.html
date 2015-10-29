@@ -11,7 +11,7 @@
       <span id="library-name" style="display: none;" hidden>{{library.name}}</span>
       <p>
         <li class="label label-default label-highlight"><a href="https://api.cdnjs.com/libraries/{{library.name}}">cdnjs api</a></li>
-        <li class="label label-default label-highlight">{{library.autoupdateEnabled}}</li>
+        <a href="{{library.autoupdate.url}}"><li class="label label-default label-highlight">{{library.autoupdate.string}}</li></a>
         {{#library.urls}}
         <li class="label label-default label-highlight"><a href="{{url}}">repository</a></li>
         {{/library.urls}}

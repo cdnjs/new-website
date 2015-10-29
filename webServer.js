@@ -207,7 +207,17 @@ function start() {
             return res.redirect(307, '/#q=' + libraryName);
         }
 
-        library.autoupdateEnabled = library.autoupdate ? library.autoupdate + ' autoupdate enabled' : '';
+        if (library.autoupdate && !library.autoupdate.url) {
+            library.autoupdate.string = library.autoupdate.type ? library.autoupdate.type + ' autoupdate enabled' : '';
+            switch (library.autoupdate.type) {
+              case 'npm':
+                library.autoupdate.url = 'https://npmjs.com/package/' + library.autoupdate.target;
+                break;
+              case 'git':
+                library.autoupdate.url = GitUrlParse(library.autoupdate.target).toString("https");
+                break;
+            }
+        }
         var version = req.params.version || library.version;
 
         if(!_.findWhere(library.assets, { version: version })) {
