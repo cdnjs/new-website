@@ -2,15 +2,15 @@
     <channel>
         <title><![CDATA[cdnjs.com - library updates]]></title>
         <description><![CDATA[Track when libraries are added and updated! Created by <a href="http://twitter.com/ryan_kirkman">Ryan Kirkman</a> and <a href="http://twitter.com/neutralthoughts">Thomas Davis</a>, managed by <a href="https://twitter.com/PeterDaveHello">Peter Dave Hello</a>. Sponsored and hosted by <a href="http://cloudflare.com">Cloudflare</a>]]></description>
-        <link>http://cdnjs.com/</link>
+        <link>https://cdnjs.com/</link>
         <image>
-            <url>http://cdnjs.com/img/poweredbycloudflare.png</url>
+            <url>https://cdnjs.com/img/poweredbycloudflare.png</url>
             <title>cdnjs.com - library updates</title>
-            <link>http://cdnjs.com/</link>
+            <link>https://cdnjs.com/</link>
         </image>
         <generator>RSS for Node</generator>
         <lastBuildDate>Thu, 29 Oct 2015 13:02:34 GMT</lastBuildDate>
-        <atom:link href="http://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://cdnjs.com/rss.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[cdnjs team]]></author>
         <copyright><![CDATA[Copyright © 2015 Cdnjs. All rights reserved]]></copyright>
         <item>
