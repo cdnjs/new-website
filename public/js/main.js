@@ -43,12 +43,10 @@
         var cont = $(ev.currentTarget);
         copyEl.show();
         copyEl.appendTo(cont);
-      })
-      .on( "mouseleave", function(ev) {
-        var cont = $(ev.currentTarget);
-        //copyEl.appendTo('body');
       });
-      if (clipboard) clipboard.destroy();
+      if (clipboard) {
+        clipboard.destroy();
+      }
       setupCopyButton();
     }
   }
@@ -102,6 +100,7 @@
         btContainer.tooltip('hide');
         btContainer.tooltip('destroy');
       }, 1000);
+      ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
     });
   }
 
