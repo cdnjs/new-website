@@ -114,9 +114,7 @@ function crawl(gnext) {
             user: repo.user,
             repo: repo.repo,
             stargazers_count: res.stargazers_count,
-            watchers_count: res.watchers_count,
             forks: res.forks,
-            open_issues_count: res.open_issues_count,
             subscribers_count: res.subscribers_count
           }
         } else {
