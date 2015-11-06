@@ -3,7 +3,7 @@ require('newrelic');
 var throng = require('throng'),
   gravatar = require('gravatar'),
   GitUrlParse = require("git-url-parse"),
-  minify = require('html-minifier').minify,
+
   fs = require('fs'),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
@@ -29,15 +29,6 @@ function start() {
       tabReplace: '  '
                           // … other options aren't changed
     })
-    minifyOpts = {
-      removeComments: true,
-      removeCommentsFromCDATA: true,
-      collapseWhitespace: true,
-      conservativeCollapse: true,
-      removeEmptyAttributes: true,
-      minifyJS: true,
-      minifyCSS: true
-    };
     app.use(compress());
 
     // Serve public folder
@@ -103,7 +94,7 @@ function start() {
             page: pageContent,
             wrapperClass: options.wrapperClass || ''
         });
-        return minify(fullContent, minifyOpts);
+        return fullContent;
 
     }
     var setCache = function(res, hours) {
@@ -239,23 +230,22 @@ function start() {
             library.urls = libraryGitRepoList(library);
         }
 
-        res.send(minify(
-            generatePage({
-                title: libraryName + ' - ' + TITLE,
-                page: {
-                    template: templates.library,
-                    data: {
-                        library: library,
-                        assets: assets,
-                        licenses: licenses,
-                        selectedAssets: _.findWhere(assets, {version: version}),
-                        tutorials: tutorialPackages,
-                        libraryRealName: libraryRealName,
-                        tutorialsPresent: tutorialsPresent
-                    },
-                    description: LIBRARIES_MAP[library] && LIBRARIES_MAP[library].description
-                }
-        }), minifyOpts));
+        res.send(generatePage({
+            title: libraryName + ' - ' + TITLE,
+            page: {
+                template: templates.library,
+                data: {
+                    library: library,
+                    assets: assets,
+                    licenses: licenses,
+                    selectedAssets: _.findWhere(assets, {version: version}),
+                    tutorials: tutorialPackages,
+                    libraryRealName: libraryRealName,
+                    tutorialsPresent: tutorialsPresent
+                },
+                description: LIBRARIES_MAP[library] && LIBRARIES_MAP[library].description
+            }
+        }));
     }
 
     app.get('/libraries/:library/tutorials', function (req, res) {
