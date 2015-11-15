@@ -29,6 +29,7 @@ function start() {
       tabReplace: '  '
                           // … other options aren't changed
     })
+    app.disable('x-powered-by');
     app.use(compress());
 
     // Serve public folder
