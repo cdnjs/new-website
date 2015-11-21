@@ -74,7 +74,7 @@ function authenticate(next) {
 
 function crawl(gnext) {
   console.log('* Enriching libraries with GitHub');
-  async.eachLimit(LIBRARIES, 8, function(library, next) {
+  async.eachLimit(LIBRARIES, 16, function(library, next) {
     var urls = [];
     // collect all repository urls
     if (library.repositories && _.isArray(library.repositories)) {
