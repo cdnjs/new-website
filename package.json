@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "startWeb": "node webServer.js",
+    "startAPI": "node apiServer.js",
     "reindex": "node reindex.js"
   },
   "repository": {
