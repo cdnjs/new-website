@@ -125,7 +125,7 @@ function crawl(gnext) {
             }
             metas[repo.user + '/' + repo.repo] = library.github;
           } else {
-              console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + ' !!!'));
+              console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + '(' + library.name + ') !!!'));
               console.log(colors.red(err));
           }
         });
