@@ -181,7 +181,7 @@ function commit(next) {
 }
 
 function saveMeta(next) {
-    fs.writeFile('GitHub.repos.meta.json', JSON.stringify(metas, null, 2), 'utf8', function(err){
+    fs.writeFile('GitHub.repos.meta.json', JSON.stringify(metas, null, 2) + '\n', 'utf8', function(err){
       if (err) throw err;
       console.log('GitHub repositories meta data saved!');
       next();
