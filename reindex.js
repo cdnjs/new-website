@@ -97,7 +97,7 @@ function crawl(gnext) {
       if (!url || !_.isString(url)) {
         return null;
       }
-      var m = url.match(/.*github\.com\/([^\/]+)\/([^\/]+)(\/.*|\.git)?$/);
+      var m = url.match(/.*github\.com[\/:]([^\/]+)\/([^\/]+)(\/.*|\.git)?$/);
       if (!m) {
         return null;
       }
