@@ -14,6 +14,7 @@ html {
 body {
   margin-bottom: 25px;
   overflow-y: scroll;
+  background-color: #ffece5;
 }
 
 .page {
