@@ -68,6 +68,8 @@
 
     clipboard.on("success", function(e) {
       var button = $(e.trigger);
+      var url = $('.library-url', button.parents('.library-column')).text();
+      $.get(url, null);
       var btContainer = button.parents('.copy-button-group').tooltip({
         trigger: 'manual',
         placement: 'bottom',
