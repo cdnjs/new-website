@@ -164,7 +164,7 @@ function start() {
     function libraryAssetsList(library, version) {
         return _.map(library.assets, function(assets) {
             if (assets.version === version) {
-                assets.selected = 'selected="selected"';
+                assets.selected = 'selected';
             } else {
                 assets.selected = '';
             }
