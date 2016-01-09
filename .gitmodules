@@ -1,3 +1,9 @@
 [submodule "tutorials"]
 	path = tutorials
 	url = git://github.com/cdnjs/tutorials.git
+[submodule "public/git_stats"]
+	path = public/git_stats
+	url = https://github.com/cdnjs/cdnjs-git_stats.git
+[submodule "public/gitstats"]
+	path = public/gitstats
+	url = https://github.com/cdnjs/cdnjs-gitstats.git
