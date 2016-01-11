@@ -108,10 +108,10 @@
 
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
-  function displayMatchingLibraries(success, content) {
+  function displayMatchingLibraries(err, content) {
     $('.packages-table-container').show();
 
-    if (!success || content.query !== $('#search-box').val()) {
+    if (err || content.query !== $('#search-box').val()) {
       return;
     }
 
@@ -184,7 +184,7 @@
     }
   }
 
-  var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010', { dsn: true }); // public/search-only credentials
+  var algolia = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'); // public/search-only credentials
   var index = algolia.initIndex('libraries');
   var lastQuery;
   function searchHandler(ev) {
@@ -198,7 +198,7 @@
       $hits.html($allRows);
       $('.home .packages-table-container').hide();
     } else if (lastQuery !== val) {
-      index.search(val, displayMatchingLibraries, { hitsPerPage: 20 });
+      index.search(val, displayMatchingLibraries);
     }
     lastQuery = val;
   }
@@ -212,7 +212,7 @@
       query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
       $('#search-box').val(query);
       animateTop();
-      index.search(query, displayMatchingLibraries, { hitsPerPage: 20 });
+      index.search(query, displayMatchingLibraries);
     }
   }
 
