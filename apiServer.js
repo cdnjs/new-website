@@ -27,10 +27,10 @@ _.each(packages, function(package) {
 });
 var algoliaIndex = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010').initIndex('libraries');
 
-app.get('/libraries/:output', function(req, res){
+app.get('/libraries', function(req, res){
   var results;
 
-  if (req.params.output && req.params.output === 'humanReadable') {
+  if (req.query.output && req.query.output === 'human') {
     app.set('json spaces', 2);
   }
 
@@ -75,10 +75,10 @@ app.get('/libraries/:output', function(req, res){
     });
   }
 });
-app.get('/libraries/:library/:output', function(req, res){
+app.get('/libraries/:library', function(req, res){
   var results;
 
-  if (req.params.output && req.params.output === 'humanReadable') {
+  if(req.query.output && req.query.output === 'human') {
     app.set('json spaces', 2);
   }
 
