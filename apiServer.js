@@ -30,6 +30,7 @@ var algoliaIndex = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010
 app.get('/libraries', function(req, res){
   var results;
 
+  app.set('json spaces', 0);
   if (req.query.output && req.query.output === 'human') {
     app.set('json spaces', 2);
   }
@@ -78,6 +79,7 @@ app.get('/libraries', function(req, res){
 app.get('/libraries/:library', function(req, res){
   var results;
 
+  app.set('json spaces', 0);
   if(req.query.output && req.query.output === 'human') {
     app.set('json spaces', 2);
   }
