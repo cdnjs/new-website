@@ -110,7 +110,8 @@ function start() {
             page: {
                 template: templates.home,
                 data: {
-                    packages: LIBRARIES
+                    packages: LIBRARIES,
+                    libCount: LIBRARIES.length
                 }
             },
             wrapperClass: 'home'
@@ -350,7 +351,8 @@ function start() {
             page: {
                 template: templates.libraries,
                 data: {
-                    packages: LIBRARIES
+                    packages: LIBRARIES,
+                    libCount: LIBRARIES.length
                 }
             }
         }));
