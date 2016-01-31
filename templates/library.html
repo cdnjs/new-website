@@ -10,6 +10,7 @@
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
       <span id="library-name" style="display: none;" hidden>{{library.name}}</span>
       <p>
+        <li class="label" style="color:Black">Links/Tags:</li>
         <li class="label label-default label-highlight"><a href="https://api.cdnjs.com/libraries/{{library.name}}" title="api url of {{library.name}} on cdnjs">cdnjs api</a> <a href="https://api.cdnjs.com/libraries/{{library.name}}?output=human" title="Human readable api output of {{library.name}}"><i class="fa fa-user"></i></a></li>
         <a href="{{library.autoupdate.url}}" title="{{library.name}} has auto-update config, this is the link to upstream, click to checkout lastest version on official page."><li class="label label-default label-highlight">{{library.autoupdate.string}}</li></a>
         {{#library.urls}}
