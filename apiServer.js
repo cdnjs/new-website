@@ -19,6 +19,19 @@ app.use(bodyParser());
 app.use(allowCrossDomain);
 app.use(compress())
 
+function humanOutput(res, json) {
+  res.header('Content-Type', 'text/html');
+  res.write('<!doctype><html>');
+  res.write('<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css" /></head>');
+  res.write('<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>')
+  res.write('<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/languages/json.min.js"></script>')
+  res.write('<script>hljs.initHighlightingOnLoad();</script>');
+  res.write('<pre><code class="json">');
+  res.write(JSON.stringify(json, null, 2));
+  res.write('</code></pre></body></html>');
+  res.end();
+}
+
 var packages = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
 // build an indexed version of the packages (speed up lookup)
 var packagesByName = {};
@@ -31,9 +44,6 @@ app.get('/libraries', function(req, res){
   var results;
 
   app.set('json spaces', 0);
-  if (req.query.output && req.query.output === 'human') {
-    app.set('json spaces', 2);
-  }
 
   // format the results including optional `fields`
   function formatResults(fields, packages) {
@@ -63,26 +73,33 @@ app.get('/libraries', function(req, res){
       }
       // fetch the orignal version of the package based on the search hit
       results = _.map(content.hits, function(hit) { return packagesByName[hit.originalName] || hit; });
-      res.jsonp({
-        results: formatResults(fields, results),
-        total: content.hits.length
-      });
+      var json = {
+          results: formatResults(fields, results),
+          total: content.hits.length
+      };
+      if (req.query.output && req.query.output === 'human') {
+        humanOutput(res, json);
+      } else {
+        res.jsonp(json);
+      }
     });
   } else {
     results = _.filter(packages, function(package) {return package});
-    res.jsonp({
+    var json = {
       results: formatResults(fields, results),
       total: results.length
-    });
+    };
+    if (req.query.output && req.query.output === 'human') {
+      humanOutput(res, json);
+    } else {
+      res.jsonp(json);
+    }
   }
 });
 app.get('/libraries/:library', function(req, res){
   var results;
 
   app.set('json spaces', 0);
-  if(req.query.output && req.query.output === 'human') {
-    app.set('json spaces', 2);
-  }
 
   res.setHeader("Expires", new Date(Date.now() + 360 * 60 * 1000).toUTCString());
   results = _.filter(packages, function(package) {
@@ -93,7 +110,11 @@ app.get('/libraries/:library', function(req, res){
     }
   });
   if(results.length > 0 ) {
-  res.jsonp(results[0]);
+    if(req.query.output && req.query.output === 'human') {
+      humanOutput(res, results[0]);
+    } else {
+      res.jsonp(results[0]);
+    }
 } else { res.jsonp({})}
 });
 
