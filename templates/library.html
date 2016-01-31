@@ -15,9 +15,7 @@
         {{#library.urls}}
         <li class="label label-default label-highlight"><a href="{{url}}">repository</a></li>
         {{/library.urls}}
-        {{#licenses}}
-          <li class="label label-default label-highlight"><a href="{{url}}">{{type}} license</a></li>
-        {{/licenses}}
+        {{#licenses}}<li class="label label-default label-highlight"><a href="{{url}}">{{type}} license</a></li>{{/licenses}}
       </p>
       <p>{{library.description}}</p>
       <em>{{library.keywords}}</em>
@@ -35,9 +33,7 @@
        <div class="input-group version-dropdown">
       <div class="input-group-addon">Version</div>
       <select class="form-control version-selector" style="float: right;">
-        {{#assets}}
-          <option value="{{version}}" {{selected}}>{{version}}</option>
-        {{/assets}}
+        {{#assets}}<option value="{{version}}" {{selected}}>{{version}}</option>{{/assets}}
       </select>
         </div>
       <div style="clear: both;"></div>
