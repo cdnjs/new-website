@@ -182,7 +182,7 @@ function start() {
     }
 
     function checkVersion(library, version) {
-        return _.findWhere(library.assets, { version: version });
+        return _.find(library.assets, { version: version });
     }
 
 
@@ -222,7 +222,7 @@ function start() {
         }
         var version = req.params.version || library.version;
 
-        if(!_.findWhere(library.assets, { version: version })) {
+        if(!_.find(library.assets, { version: version })) {
             return res.status(404).send(libraryName + ' version not found!');
         }
 
@@ -240,7 +240,7 @@ function start() {
                     library: library,
                     assets: assets,
                     licenses: licenses,
-                    selectedAssets: _.findWhere(assets, {version: version}),
+                    selectedAssets: _.find(assets, {version: version}),
                     tutorials: tutorialPackages,
                     libraryRealName: libraryRealName,
                     tutorialsPresent: tutorialsPresent
