@@ -220,6 +220,9 @@ function start() {
                 break;
             }
         }
+        if (!library.homepage && library.repository && library.repository.type == 'git') {
+            library.homepage = GitUrlParse(library.repository.url).toString("https");
+        }
         var version = req.params.version || library.version;
 
         if(!_.find(library.assets, { version: version })) {
