@@ -362,6 +362,8 @@ function start() {
     });
 
 
+    app.get('/gitstats', function(req, res) { return res.redirect(301, '/gitstats/cdnjs'); });
+    app.get('/git_stats', function(req, res) { return res.redirect(301, '/git_stats/cdnjs'); });
     app.get('/about', function(req, res) {
         
         setCache(res, 72);
