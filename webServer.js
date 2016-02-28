@@ -3,7 +3,8 @@ require('newrelic');
 var throng = require('throng'),
   gravatar = require('gravatar'),
   GitUrlParse = require("git-url-parse"),
-
+  removeNewline = require('newline-remove'),
+  condenseWhitespace = require('condense-whitespace'),
   fs = require('fs'),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
@@ -61,7 +62,7 @@ function start() {
     };
 
     function getTemplate(templateURL) {
-        return fs.readFileSync(templateURL, 'utf8');
+        return removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')));
     }
 
     // Templates

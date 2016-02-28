@@ -28,6 +28,7 @@
     "body-parser": "^1.14",
     "colors": "^1.1.2",
     "compression": "^1.6",
+    "condense-whitespace": "^1.0.0",
     "express": "^4.13",
     "git-url-parse": "^5.0.1",
     "github": "^0.2",
