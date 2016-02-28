@@ -60,22 +60,26 @@ function start() {
         return value.replace(/-+/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     };
 
+    function getTemplate(templateURL) {
+        return fs.readFileSync(templateURL, 'utf8');
+    }
+
     // Templates
     var templates = {
-        layout: fs.readFileSync('templates/layout.html', 'utf8'),
-        home: fs.readFileSync('templates/home.html', 'utf8'),
-        libraries: fs.readFileSync('templates/libraries.html', 'utf8'),
-        library: fs.readFileSync('templates/library.html', 'utf8'),
-        login: fs.readFileSync('templates/login.html', 'utf8'),
-        register: fs.readFileSync('templates/register.html', 'utf8'),
-        profile: fs.readFileSync('templates/profile.html', 'utf8'),
-        members: fs.readFileSync('templates/members.html', 'utf8'),
-        news: fs.readFileSync('templates/news.html', 'utf8'),
-        newsfeed_item: fs.readFileSync('templates/newsfeed_item.html', 'utf8'),
-        newsfeed: fs.readFileSync('templates/newsfeed.html', 'utf8'),
-        about: fs.readFileSync('templates/about.html', 'utf8'),
-        tutorials: fs.readFileSync('templates/tutorials.html', 'utf8'),
-        tutorial: fs.readFileSync('templates/tutorial.html', 'utf8')
+        layout: getTemplate('templates/layout.html'),
+        home: getTemplate('templates/home.html'),
+        libraries: getTemplate('templates/libraries.html'),
+        library: getTemplate('templates/library.html'),
+        login: getTemplate('templates/login.html'),
+        register: getTemplate('templates/register.html'),
+        profile: getTemplate('templates/profile.html'),
+        members: getTemplate('templates/members.html'),
+        news: getTemplate('templates/news.html'),
+        newsfeed_item: getTemplate('templates/newsfeed_item.html'),
+        newsfeed: getTemplate('templates/newsfeed.html'),
+        about: getTemplate('templates/about.html'),
+        tutorials: getTemplate('templates/tutorials.html'),
+        tutorial: getTemplate('templates/tutorial.html')
     }
 
     var generatePage = function(options) {
