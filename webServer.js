@@ -4,6 +4,7 @@ var throng = require('throng'),
   gravatar = require('gravatar'),
   GitUrlParse = require("git-url-parse"),
   removeNewline = require('newline-remove'),
+  replaceall = require("replaceall"),
   condenseWhitespace = require('condense-whitespace'),
   fs = require('fs'),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
@@ -62,7 +63,7 @@ function start() {
     };
 
     function getTemplate(templateURL) {
-        return removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')));
+        return replaceall(' <', '<', replaceall('> ', '>', removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')))));
     }
 
     // Templates
