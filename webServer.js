@@ -63,7 +63,7 @@ function start() {
     };
 
     function getTemplate(templateURL) {
-        return replaceall(' <', '<', replaceall('> ', '>', removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')))));
+        return fs.readFileSync(templateURL, 'utf8');
     }
 
     // Templates
