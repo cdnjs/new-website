@@ -62,8 +62,12 @@ function start() {
         return value.replace(/-+/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     };
 
-    function getTemplate(templateURL) {
-        return fs.readFileSync(templateURL, 'utf8');
+    function getTemplate(templateURL, simple) {
+        if (simple === true) {
+            return fs.readFileSync(templateURL, 'utf8');
+        }
+        return replaceall(' <', '<', replaceall('> ', '>', removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')))));
+
     }
 
     // Templates
@@ -80,8 +84,8 @@ function start() {
         newsfeed_item: getTemplate('templates/newsfeed_item.html'),
         newsfeed: getTemplate('templates/newsfeed.html'),
         about: getTemplate('templates/about.html'),
-        tutorials: getTemplate('templates/tutorials.html'),
-        tutorial: getTemplate('templates/tutorial.html')
+        tutorials: getTemplate('templates/tutorials.html', true),
+        tutorial: getTemplate('templates/tutorial.html', true)
     }
 
     var generatePage = function(options) {
