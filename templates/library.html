@@ -15,7 +15,7 @@
         <li class="label label-default label-highlight"><a href="https://api.cdnjs.com/libraries/{{library.name}}" title="api url of {{library.name}} on cdnjs">cdnjs api</a>&nbsp;<a href="https://api.cdnjs.com/libraries/{{library.name}}?output=human" title="Human readable api output of {{library.name}}">&nbsp;<i class="fa fa-user"></i></a></li>&nbsp;
         <a href="{{library.autoupdate.url}}" title="{{library.name}} has auto-update config, this is the link to upstream, click to checkout lastest version on official page."><li class="label label-default label-highlight">{{library.autoupdate.string}}</li></a>
         {{#library.urls}}
-        <li class="label label-default label-highlight"><a href="{{url}}" title="Link to {{library.name}}'s source code page.">repository</a></li>
+        &nbsp;<li class="label label-default label-highlight"><a href="{{url}}" title="Link to {{library.name}}'s source code page.">repository</a></li>
         {{/library.urls}}
         {{#licenses}}<li class="label label-default label-highlight"><a href="{{url}}" title="License info of {{library.name}}, click to see datail.">{{type}} license</a></li>{{/licenses}}
       </p>
