@@ -66,7 +66,7 @@ function start() {
         if (simple === true) {
             return fs.readFileSync(templateURL, 'utf8');
         }
-        return replaceall(' <', '<', replaceall('> ', '>', removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')))));
+        return removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')));
 
     }
 
