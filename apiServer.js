@@ -24,8 +24,8 @@ function humanOutput(res, json) {
   res.write('<!doctype><html>');
   res.write('<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css" /></head>');
   res.write('<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>')
-  res.write('<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/languages/json.min.js"></script>')
-  res.write('<script>hljs.initHighlightingOnLoad();</script>');
+  res.write('<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/languages/json.min.js" defer></script>')
+  res.write('<script defer>hljs.initHighlightingOnLoad();</script>');
   res.write('<pre><code class="json">');
   res.write(JSON.stringify(json, null, 2));
   res.write('</code></pre></body></html>');
