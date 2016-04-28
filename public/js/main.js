@@ -159,6 +159,15 @@
       '</tr>';
       html += row;
     }
+
+    if (!content.hits.length) {
+      html =
+        '<td class="text-center well" colspan="2">' +
+        'The library you\'re searching for cannot be found. Would you like to ' +
+        '<a href="https://goo.gl/VBLhp9">request it?</a>' +
+        '</td>';
+    }
+
     $hits.html(html);
 
     setupMouseEvents();
