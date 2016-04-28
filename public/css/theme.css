@@ -29,6 +29,9 @@ body {
   right: 10px;
   top: 2px;
 }
+.copy-options li {
+  width: 100%;
+}
 .copy-options .css {
   display: none;
 }
