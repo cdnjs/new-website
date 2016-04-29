@@ -182,7 +182,10 @@ function start() {
             if (assets.gennedFileNames === undefined) {
                 var fileArray = [];
                 assets.files.map(function(fileName, index) {
-                    fileArray.push({"name": fileName});
+                    var fileExtension = path.extname(fileName);
+                    var fileType = fileExtension.substring(1) || 'unknown';
+
+                    fileArray.push({"name": fileName, "fileType": fileType});
                 });
                 assets.files = fileArray;
                 assets.gennedFileNames = true;
@@ -353,7 +356,7 @@ function start() {
     });
 
     app.get('/libraries/:library/:version', libraryResponse);
-    
+
     app.get('/libraries/:library', libraryResponse);
 
     app.get('/libraries', function(req, res) {
@@ -375,7 +378,7 @@ function start() {
     app.get('/gitstats', function(req, res) { return res.redirect(301, '/gitstats/cdnjs'); });
     app.get('/git_stats', function(req, res) { return res.redirect(301, '/git_stats/cdnjs'); });
     app.get('/about', function(req, res) {
-        
+
         setCache(res, 72);
         res.send(generatePage({
             page: {
