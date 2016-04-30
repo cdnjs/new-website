@@ -346,7 +346,8 @@ function start() {
                     avatar: avatar,
                     tutorial: tutorialPackage,
                     disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
-                    disqus_url: tutorialPackage.disqus_url || req.originalUrl,
+                    disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
+                    disqus_id: tutorialPackage.disqus_url || req.originalUrl,
                     author: tutorialPackage.author,
                     tutorials: tutorialPackages,
                     library: library
