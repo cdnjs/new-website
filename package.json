@@ -41,6 +41,6 @@
     "newline-remove": "^1.0.2",
     "newrelic": "^1.25.1",
     "replaceall": "^0.1.6",
-    "throng": "^1.0.1"
+    "throng": "^4.0.0"
   }
 }
