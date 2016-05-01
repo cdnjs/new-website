@@ -249,5 +249,9 @@
     window.location.href = newURL;
   });
 
+  $('.library-container .show-hidden-files').on('click', function(ev) {
+    $('.library.hidden').removeClass('hidden');
+    $(ev.target).hide();
+  });
 
 })(jQuery);

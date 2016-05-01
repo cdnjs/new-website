@@ -7,10 +7,14 @@ var throng = require('throng'),
   replaceall = require("replaceall"),
   condenseWhitespace = require('condense-whitespace'),
   fs = require('fs'),
+  _ = require("lodash"),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
   PORT = Number(process.env.PORT || 5500),
-  TITLE = 'cdnjs.com - The free and open source CDN for web related libraries to speed up your website!';
+  TITLE = 'cdnjs.com - The free and open source CDN for web related libraries to speed up your website!'
+  HIDDEN_FILE_TYPE_LIST = [
+    'png', 'jpg', 'woff', 'woff2', 'oft', 'eot', 'svg', 'ttf', 'map',
+  ];
 
 throng(start, {
     workers: WORKERS,
@@ -20,7 +24,6 @@ throng(start, {
 function start() {
     var express = require("express"),
       fs = require("fs"),
-      _ = require("lodash"),
       Mustache = require("mustache"),
       app = express(),
       compress = require('compression'),
@@ -185,7 +188,7 @@ function start() {
                     var fileExtension = path.extname(fileName);
                     var fileType = fileExtension.substring(1) || 'unknown';
 
-                    fileArray.push({"name": fileName, "fileType": fileType});
+                    fileArray.push({"name": fileName, "fileType": fileType, isHidden: shouldHideFile({ path: fileName, type: fileType })});
                 });
                 assets.files = fileArray;
                 assets.gennedFileNames = true;
@@ -399,4 +402,14 @@ function start() {
     app.listen(PORT, function() {
         console.log("Listening on " + PORT);
     });
+}
+
+function shouldHideFile(f) {
+  return _.includes(HIDDEN_FILE_TYPE_LIST, f.type) || !isMinified(f.path);
+}
+
+function isMinified(p) {
+  var regExp = /min\.\w+$/gi;
+
+  return regExp.test(p);
 }
