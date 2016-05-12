@@ -121,9 +121,12 @@
       return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
     }
 
-    var html = '';
+    var html = '', match = false;
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
+      if (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length) {
+        match = true;
+      }
       var githubDetails = '';
       if (hit.github) {
         var user = getSafeHighlightedValue(hit._highlightResult.github.user);
@@ -160,12 +163,13 @@
       html += row;
     }
 
-    if (!content.hits.length) {
+    if (!content.hits.length || !match) {
       var libraryName = content.query;
 
-      html =
+      var tempText  = ( match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
+      var tempText2 =
         '<td class="text-center well" colspan="2">' +
-        'The library you\'re searching for cannot be found. Would you like to ' +
+        tempText + ' Would you like to ' +
         '<a href="' +
           'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20' +
           libraryName +
@@ -180,6 +184,7 @@
           '" target="_blank">request it?</a>' +
           ' Or just <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '">search if there is already an issue for it.</a>' +
         '</td>';
+      html += tempText2;
     }
 
     $hits.html(html);
