@@ -121,11 +121,14 @@
       return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
     }
 
-    var html = '', match = false;
+    var html = '', match = false, same = false;
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
       if (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length) {
         match = true;
+      }
+      if (hit.originalName == content.query) {
+        same = true;
       }
       var githubDetails = '';
       if (hit.github) {
@@ -162,13 +165,12 @@
       '</tr>';
       html += row;
     }
-
-    if (!content.hits.length || !match) {
+    if (!content.hits.length || !match || !same) {
       var libraryName = content.query;
 
       var tempText  = ( match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
       var tempText2 =
-        '<td class="text-center well" colspan="2">' +
+        '<br /><td class="text-center well" colspan="2">' +
         tempText + ' Would you like to ' +
         '<a href="' +
           'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20' +
