@@ -177,7 +177,8 @@
           '%20cdnjs%20maintainer%3A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending' +
           '%20pull%20request%2C%0Ait%27ll%20be%20faster%20then%20just%20opening%20a%20request%20' +
           'issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!' +
-        '" target="_blank">request it?</a>' +
+          '" target="_blank">request it?</a>' +
+          ' Or just <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '">search if there is already an issue for it.</a>' +
         '</td>';
     }
 
