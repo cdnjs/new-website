@@ -124,7 +124,7 @@
     var html = '', match = false, same = false;
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
-      if (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length) {
+      if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
         match = true;
       }
       if (hit.originalName == content.query) {
