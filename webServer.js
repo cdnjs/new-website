@@ -113,8 +113,44 @@ function start() {
         res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
     }
 
+    var serverPush = function(res, uri) {
+      var temp = uri.split('.'), ext = temp[temp.length-1], as = -1;
+      switch (ext) {
+        case 'js':
+          as='script';
+          break;
+        case 'css':
+          as='style';
+          break;
+        case 'png' :
+        case 'jpg' :
+        case 'jpeg':
+        case 'gif' :
+        case 'ico' :
+          as='image';
+          break;
+        case 'xml' :
+          as='';
+          break;
+      }
+      delete temp;
+      if (as != -1) {
+        res.append("Link", "<" + uri + ">; rel=preload; as=" + as );
+      }
+      delete temp;
+      delete ext;
+      delete as;
+    }
+
+    function pushAssets(res) {
+        serverPush(res, '/css/theme.css');
+        serverPush(res, '/css/main.css');
+        serverPush(res, '/js/main.js');
+    }
 
     app.get('/', function(req, res) {
+        pushAssets(res);
+        serverPush(res, '/img/algolia64x20.png');
         setCache(res, 2);
         res.send(generatePage({
             page: {
