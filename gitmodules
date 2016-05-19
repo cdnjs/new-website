@@ -1,0 +1,42 @@
+[submodule "tutorials"]
+	path = tutorials
+	url = git://github.com/cdnjs/tutorials.git
+[submodule "public/gitstats/new-website"]
+	path = public/gitstats/new-website
+	url = https://github.com/cdnjs/new-website-gitstats.git
+[submodule "public/git_stats/new-website"]
+	path = public/git_stats/new-website
+	url = https://github.com/cdnjs/new-website-gitstats.git
+[submodule "public/gitstats/buildScript"]
+	path = public/gitstats/buildScript
+	url = https://github.com/cdnjs/buildScript-gitstats.git
+[submodule "public/git_stats/buildScript"]
+	path = public/git_stats/buildScript
+	url = https://github.com/cdnjs/buildScript-gitstats.git
+[submodule "public/gitstats/tutorials"]
+	path = public/gitstats/tutorials
+	url = https://github.com/cdnjs/tutorials-gitstats.git
+[submodule "public/git_stats/tutorials"]
+	path = public/git_stats/tutorials
+	url = https://github.com/cdnjs/tutorials-gitstats.git
+[submodule "public/gitstats/autoupdate"]
+	path = public/gitstats/autoupdate
+	url = https://github.com/cdnjs/autoupdate-gitstats.git
+[submodule "public/git_stats/autoupdate"]
+	path = public/git_stats/autoupdate
+	url = https://github.com/cdnjs/autoupdate-gitstats.git
+[submodule "public/gitstats/atom-extension"]
+	path = public/gitstats/atom-extension
+	url = https://github.com/cdnjs/atom-extension-gitstats.git
+[submodule "public/git_stats/atom-extension"]
+	path = public/git_stats/atom-extension
+	url = https://github.com/cdnjs/atom-extension-gitstats.git
+[submodule "public/gitstats/importer"]
+	path = public/gitstats/importer
+	url = https://github.com/cdnjs/cdnjs-importer-gitstats.git
+[submodule "public/git_stats/importer"]
+	path = public/git_stats/cdnjs-importer
+	url = https://github.com/cdnjs/cdnjs-importer-gitstats.git
+[submodule "public/gitstats/cdnjs-importer"]
+	path = public/gitstats/cdnjs-importer
+	url = https://github.com/cdnjs/cdnjs-importer-gitstats.git

@@ -5,7 +5,8 @@ var _ = require("lodash"),
   algoliasearch = require("algoliasearch"),
   GitHubApi = require("github"),
   async = require("async"),
-  colors = require('colors');
+  colors = require('colors'),
+  metas = Object();
 
 
 /*
@@ -32,9 +33,12 @@ var _ = require("lodash"),
 //////
 var LIBRARIES = [];
 function load(next) {
+  console.log('* Loading GitHub repositories meta data');
+  metas = JSON.parse(fs.readFileSync('GitHub.repos.meta.json', 'utf8'));
   console.log('* Loading libraries');
   LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages, function(library) {
     delete library.assets;
+    delete library.autoupdate;
     library.originalName = library.name;
     library.objectID = library.name.replace(/\./g, '');
     // add some alternative name forms to improve the search relevance
@@ -74,7 +78,7 @@ function authenticate(next) {
 
 function crawl(gnext) {
   console.log('* Enriching libraries with GitHub');
-  async.each(LIBRARIES, function(library, next) {
+  async.eachLimit(LIBRARIES, 16, function(library, next) {
     var urls = [];
     // collect all repository urls
     if (library.repositories && _.isArray(library.repositories)) {
@@ -94,7 +98,7 @@ function crawl(gnext) {
       if (!url || !_.isString(url)) {
         return null;
       }
-      var m = url.match(/.*github\.com\/([^\/]+)\/([^\/]+)(\/.*|\.git)?$/);
+      var m = url.match(/.*github\.com[\/:]([^\/]+)\/([^\/]+)(\/.*|\.git)?$/);
       if (!m) {
         return null;
       }
@@ -103,28 +107,31 @@ function crawl(gnext) {
 
     if (repos.length > 0) {
       var repo = repos[0]; // fetch only the first repository
-      github.repos.get(repo, function(err, res) {
-        if (!err && res.stargazers_count == undefined) {
-          err = "Didn't fetch the meta data properly!!!";
-        }
-        if (!err) {
-          // enchrich the library
-          console.log('** Enrich ' + repo.user + '/' + repo.repo + ', ' + res.stargazers_count + ' star(s) ...');
-          library.github = {
-            user: repo.user,
-            repo: repo.repo,
-            stargazers_count: res.stargazers_count,
-            watchers_count: res.watchers_count,
-            forks: res.forks,
-            open_issues_count: res.open_issues_count,
-            subscribers_count: res.subscribers_count
+      if (metas[repo.user + '/' + repo.repo] != undefined) {
+        library.github = metas[repo.user + '/' + repo.repo];
+      } else {
+        github.repos.get(repo, function(err, res) {
+          if (!err && res.stargazers_count == undefined) {
+            err = "Didn't fetch the meta data properly!!!";
           }
-        } else {
-            console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + ' !!!'));
-            console.log(colors.red(err));
-        }
-        next();
-      });
+          if (!err) {
+            // enchrich the library
+            console.log('** Enrich ' + repo.user + '/' + repo.repo + ', ' + res.stargazers_count + ' star(s) ...');
+            library.github = {
+              user: repo.user,
+              repo: repo.repo,
+              stargazers_count: res.stargazers_count,
+              forks: res.forks,
+              subscribers_count: res.subscribers_count
+            }
+            metas[repo.user + '/' + repo.repo] = library.github;
+          } else {
+              console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + '(' + library.name + ') !!!'));
+              console.log(colors.red(err));
+          }
+        });
+      }
+      next();
     } else {
       next();
     }
@@ -174,6 +181,15 @@ function commit(next) {
   });
 }
 
+function saveMeta(next) {
+    fs.writeFile('GitHub.repos.meta.json', JSON.stringify(metas, null, 2) + '\n', 'utf8', function(err){
+      if (err) throw err;
+      console.log('GitHub repositories meta data saved!');
+      next();
+    });
+
+}
+
 //////
 ////// Orchestrate it!
 //////
@@ -183,7 +199,8 @@ async.series([
   crawl,
   initIndex,
   push,
-  commit
+  commit,
+  saveMeta
 ], function(err) {
   if (err) {
     console.error(err);

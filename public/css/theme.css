@@ -1,4 +1,18 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-top: 7px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
 body {
+  margin-bottom: 25px;
   overflow-y: scroll;
 }
 
@@ -14,6 +28,9 @@ body {
   position: absolute;
   right: 10px;
   top: 2px;
+}
+.copy-options li {
+  width: 100%;
 }
 .copy-options .css {
   display: none;

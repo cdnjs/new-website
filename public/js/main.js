@@ -34,47 +34,84 @@
   var copyContainer = $('<div/>');
   copyEl.attr('style', 'display: none;');
   copyEl.appendTo('body');
+  var clipboard;
 
   function setupMouseEvents() {
-    $('.library-column').on( "mouseenter", function(ev) {
-      var cont = $(ev.currentTarget);
-      copyEl.show();
-      copyEl.appendTo(cont);
-    })
-    .on( "mouseleave", function(ev) {
-      var cont = $(ev.currentTarget);
-      //copyEl.appendTo('body');
+    // Currently not showing the copy button for iOS, check clipboard.js support
+    if(!(/iPhone|iPad/i.test(navigator.userAgent))) {
+      $('.library-column').on( "mouseenter", function(ev) {
+        var cont = $(ev.currentTarget);
+        copyEl.show();
+        copyEl.appendTo(cont);
+      });
+      if (clipboard) {
+        clipboard.destroy();
+      }
+      setupCopyButton();
+    }
+  }
+
+  function setupCopyButton() {
+    clipboard = new Clipboard(".copy-button", {
+      text: function(trigger) {
+        var button = $(trigger);
+        var embed = button.attr('data-copy-embed');
+        var url = $('.library-url', button.parents('.library-column')).text();
+        if(embed === 'script') {
+          url = '<script type="text/javascript" src="' + url + '"></script>';
+        } else if (embed === 'link') {
+          url = '<link rel="stylesheet" href="' + url + '">';
+        }
+        return url;
+      }
+    });
+
+    clipboard.on("success", function(e) {
+      var button = $(e.trigger);
+      var btContainer = button.parents('.copy-button-group').tooltip({
+        trigger: 'manual',
+        placement: 'bottom',
+        title: 'Copied!'
+      });
+      btContainer.tooltip('show');
+      setTimeout(function(){
+        btContainer.tooltip('hide');
+        btContainer.tooltip('destroy');
+      }, 1000);
+      ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
+    });
+
+    clipboard.on("error", function(e) {
+      var button = $(e.trigger);
+      var msg;
+      if (/Mac/i.test(navigator.userAgent)) {
+        msg = 'Press ⌘-C to copy';
+      }
+      else {
+        msg = 'Press Ctrl-C to copy';
+      }
+      var btContainer = button.parents('.copy-button-group').tooltip({
+        trigger: 'manual',
+        placement: 'bottom',
+        title: msg
+      });
+      btContainer.tooltip('show');
+      setTimeout(function(){
+        btContainer.tooltip('hide');
+        btContainer.tooltip('destroy');
+      }, 1000);
+      ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
     });
   }
 
-  var client = new ZeroClipboard($(".copy-button"));
-  client.on( "ready", function( readyEvent ) {
-    // ZeroClipboard is enabled. Display copy button.
-    setupMouseEvents();
-    client.on( "copy", function (event) {
-      var button = $(event.target);
-      var embed = button.attr('data-copy-embed');
-      var url = $('.library-url', button.parents('.library-column')).text();
-      var oldurl = url;
-      if(embed === 'script') {
-        url = '<script type="text/javascript" src="' + url + '"></script>';
-      } else if (embed === 'link') {
-        url = '<link rel="stylesheet" href="' + url + '">';
-      }
-          ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
-
-      var clipboard = event.clipboardData;
-      clipboard.setData( "text/plain", url );
-    });
-  });
-
+  setupMouseEvents();
 
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
-  function displayMatchingLibraries(success, content) {
+  function displayMatchingLibraries(err, content) {
     $('.packages-table-container').show();
 
-    if (!success || content.query !== $('#search-box').val()) {
+    if (err || content.query !== $('#search-box').val()) {
       return;
     }
 
@@ -84,15 +121,22 @@
       return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
     }
 
-    var html = '';
+    var html = '', match = false, same = false;
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
+      if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
+        match = true;
+      }
+      if (hit.originalName == content.query) {
+        same = true;
+      }
       var githubDetails = '';
       if (hit.github) {
         var user = getSafeHighlightedValue(hit._highlightResult.github.user);
         var repo = getSafeHighlightedValue(hit._highlightResult.github.repo);
         githubDetails = '<ul class="list-inline">' +
           '<li><i class="fa fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '">' + user + '/' + repo + '</a></li>' +
+          '<li><i class="fa fa-eye"></i> ' + hit.github.subscribers_count + '</li>' +
           '<li><i class="fa fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
           '<li><i class="fa fa-code-fork"></i> ' + hit.github.forks + '</li>' +
         '</ul>';
@@ -106,9 +150,9 @@
           '</a></p>' +
           '<p class="text-muted">' + description + '</p>' +
           '<ul class="list-inline">' +
-            $.map(hit._highlightResult.keywords || [], function(e) { 
+            $.map(hit._highlightResult.keywords || [], function(e) {
               var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
-              return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>'; 
+              return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>';
             }).join(' ') +
           '</ul>' +
           githubDetails +
@@ -121,7 +165,32 @@
       '</tr>';
       html += row;
     }
+    if (!content.hits.length || !match || !same) {
+      var libraryName = content.query;
+
+      var tempText  = ( match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
+      var tempText2 =
+        '<br /><td class="text-center well" colspan="2">' +
+        tempText + ' Would you like to ' +
+        '<a href="' +
+          'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20' +
+          libraryName +
+          '%20&body=**Library%20name%3A**%20' +
+          libraryName +
+          '%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**'+
+          'License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?' +
+          '%20Leave%20message%20here%3A**%0A%0A%0A%0A=====================%0ANotes%20from' +
+          '%20cdnjs%20maintainer%3A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending' +
+          '%20pull%20request%2C%0Ait%27ll%20be%20faster%20then%20just%20opening%20a%20request%20' +
+          'issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!' +
+          '" target="_blank">request it?</a>' +
+          ' Or just <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank">search if there is already an issue for it.</a>' +
+        '</td>';
+      html += tempText2;
+    }
+
     $hits.html(html);
+
     setupMouseEvents();
   }
 
@@ -145,7 +214,7 @@
     }
   }
 
-  var algolia = new AlgoliaSearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010', { dsn: true }); // public/search-only credentials
+  var algolia = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'); // public/search-only credentials
   var index = algolia.initIndex('libraries');
   var lastQuery;
   function searchHandler(ev) {
@@ -159,7 +228,7 @@
       $hits.html($allRows);
       $('.home .packages-table-container').hide();
     } else if (lastQuery !== val) {
-      index.search(val, displayMatchingLibraries, { hitsPerPage: 20 });
+      index.search(val, displayMatchingLibraries);
     }
     lastQuery = val;
   }
@@ -173,7 +242,7 @@
       query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
       $('#search-box').val(query);
       animateTop();
-      index.search(query, displayMatchingLibraries, { hitsPerPage: 20 });
+      index.search(query, displayMatchingLibraries);
     }
   }
 

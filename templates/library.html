@@ -4,20 +4,20 @@
 <div class="library-container">
   <div class="col-md-12">
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-8">
 
     <h1 style="margin-top: 00px;">{{library.name}}</h1>
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
       <span id="library-name" style="display: none;" hidden>{{library.name}}</span>
       <p>
-        <li class="label label-default label-highlight"><a href="https://api.cdnjs.com/libraries/{{library.name}}">cdnjs api</a></li>
-        <li class="label label-default label-highlight">{{library.autoupdateEnabled}}</li>
+        <li class="label" style="color:Black">Links/Tags:</li>
+        <li class="label label-default label-highlight"><a href="https://github.com/cdnjs/cdnjs/commits/master/ajax/libs/{{library.name}}" title="Commit history of {{library.name}} on cdnjs">commits/history</a></li>&nbsp;
+        <li class="label label-default label-highlight"><a href="https://api.cdnjs.com/libraries/{{library.name}}" title="api url of {{library.name}} on cdnjs">cdnjs api</a>&nbsp;<a href="https://api.cdnjs.com/libraries/{{library.name}}?output=human" title="Human readable api output of {{library.name}}">&nbsp;<i class="fa fa-user"></i></a></li>&nbsp;
+        <a href="{{library.autoupdate.url}}" title="{{library.name}} has auto-update config, this is the link to upstream, click to checkout lastest version on official page."><li class="label label-default label-highlight">{{library.autoupdate.string}}</li></a>
         {{#library.urls}}
-        <li class="label label-default label-highlight"><a href="{{url}}">repository</a></li>
+        &nbsp;<li class="label label-default label-highlight"><a href="{{url}}" title="Link to {{library.name}}'s source code page.">repository</a></li>
         {{/library.urls}}
-        {{#licenses}}
-          <li class="label label-default label-highlight"><a href="{{url}}">{{type}} license</a></li>
-        {{/licenses}}
+        {{#licenses}}<li class="label label-default label-highlight"><a href="{{url}}" title="License info of {{library.name}}, click to see datail.">{{type}} license</a>&nbsp;</li>{{/licenses}}
       </p>
       <p>{{library.description}}</p>
       <em>{{library.keywords}}</em>
@@ -27,18 +27,15 @@
       <a href="https://gratipay.com/{{library.gratipay}}/"><img src="https://img.shields.io/gratipay/{{library.gratipay}}.svg" /></a>
       {{/library.gratipay}}
         </div>
-        <div class="col-md-2">
-          <a href="//www.bluehost.com/track/cdnjs/intro" target="_blank">
-            <img id="intro-image" border="0" src="//bluehost-cdn.com/media/partner/images/cdnjs/120x120/bh-ppc-banners-dynamic-120x120.png">
-          </a>
+        <div class="col-md-4">
+
+      <script type="text/javascript" src="https://cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=cdnjscom" id="_carbonads_js" defer></script>
         </div>
       </div>
        <div class="input-group version-dropdown">
       <div class="input-group-addon">Version</div>
       <select class="form-control version-selector" style="float: right;">
-        {{#assets}}
-          <option value="{{version}}" {{selected}}>{{version}}</option>
-        {{/assets}}
+        {{#assets}}<option value="{{version}}" {{selected}}>{{version}}</option>{{/assets}}
       </select>
         </div>
       <div style="clear: both;"></div>
@@ -48,7 +45,7 @@
           <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
             <tbody>
               {{#files}}
-              <tr class="library">
+              <tr class="library {{fileType}}-type">
                 <td class="library-column"  data-lib-name="{{library.name}}" style="position: relative;">
                   <p class='library-url'>https://cdnjs.cloudflare.com/ajax/libs/{{library.originalName}}/{{version}}/{{name}}</p>
                 </td>
@@ -59,9 +56,8 @@
         </div>
       {{/selectedAssets}}
         <h3>Related Tutorials</h3>
-        
 
-            <p style="margin-bottom: 50px;">Do you think w3schools sucks? Do you think you could do a way better job? <br /> Now you can! <a href="https://github.com/cdnjs/tutorials" target="_blank">Submit your own community driven tutorials.</a></p>
+            <p style="margin-bottom: 50px;">Help us write awesome web development tutorials! <a href="https://github.com/cdnjs/tutorials" target="_blank">Submit your own community driven tutorials.</a></p>
       {{#tutorialsPresent}}
             <table class="table table-hover" style="margin-top: 25px;">
                 <thead>

@@ -7,22 +7,22 @@ var _    = require('lodash'),
 
 // Generate sitemap
   pages = [
-  'http://cdnjs.com/',
-  'http://cdnjs.com/about',
-  'http://cdnjs.com/login',
-  'http://cdnjs.com/register'
+  'https://cdnjs.com/',
+  'https://cdnjs.com/about',
+  'https://cdnjs.com/login',
+  'https://cdnjs.com/register'
 ];
 
 var xml = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
 
 var librariePages = _.map(pkgMeta, function (package) {
-  return 'http://cdnjs.com/libraries/' + package.name;
+  return 'https://cdnjs.com/libraries/' + package.name;
 });
 
 pages = pages.concat(librariePages);
 
 var librarieNewsPages = _.map(pkgMeta, function (package) {
-  return 'http://cdnjs.com/libraries/' + package.name + '/news';
+  return 'https://cdnjs.com/libraries/' + package.name + '/news';
 });
 
 pages = pages.concat(librarieNewsPages);

@@ -3,12 +3,14 @@ require('newrelic');
 var throng = require('throng'),
   gravatar = require('gravatar'),
   GitUrlParse = require("git-url-parse"),
-
+  removeNewline = require('newline-remove'),
+  replaceall = require("replaceall"),
+  condenseWhitespace = require('condense-whitespace'),
   fs = require('fs'),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
   PORT = Number(process.env.PORT || 5500),
-  TITLE = 'cdnjs.com - the free and open source cdn for web related libraries to speed up your website!';
+  TITLE = 'cdnjs.com - The free and open source CDN for web related libraries to speed up your website!';
 
 throng(start, {
     workers: WORKERS,
@@ -29,6 +31,7 @@ function start() {
       tabReplace: '  '
                           // … other options aren't changed
     })
+    app.disable('x-powered-by');
     app.use(compress());
 
     // Serve public folder
@@ -59,28 +62,36 @@ function start() {
         return value.replace(/-+/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     };
 
+    function getTemplate(templateURL, simple) {
+        if (simple === true) {
+            return fs.readFileSync(templateURL, 'utf8');
+        }
+        return removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')));
+
+    }
+
     // Templates
     var templates = {
-        layout: fs.readFileSync('templates/layout.html', 'utf8'),
-        home: fs.readFileSync('templates/home.html', 'utf8'),
-        libraries: fs.readFileSync('templates/libraries.html', 'utf8'),
-        library: fs.readFileSync('templates/library.html', 'utf8'),
-        login: fs.readFileSync('templates/login.html', 'utf8'),
-        register: fs.readFileSync('templates/register.html', 'utf8'),
-        profile: fs.readFileSync('templates/profile.html', 'utf8'),
-        members: fs.readFileSync('templates/members.html', 'utf8'),
-        news: fs.readFileSync('templates/news.html', 'utf8'),
-        newsfeed_item: fs.readFileSync('templates/newsfeed_item.html', 'utf8'),
-        newsfeed: fs.readFileSync('templates/newsfeed.html', 'utf8'),
-        about: fs.readFileSync('templates/about.html', 'utf8'),
-        tutorials: fs.readFileSync('templates/tutorials.html', 'utf8'),
-        tutorial: fs.readFileSync('templates/tutorial.html', 'utf8')
+        layout: getTemplate('templates/layout.html'),
+        home: getTemplate('templates/home.html'),
+        libraries: getTemplate('templates/libraries.html'),
+        library: getTemplate('templates/library.html'),
+        login: getTemplate('templates/login.html'),
+        register: getTemplate('templates/register.html'),
+        profile: getTemplate('templates/profile.html'),
+        members: getTemplate('templates/members.html'),
+        news: getTemplate('templates/news.html'),
+        newsfeed_item: getTemplate('templates/newsfeed_item.html'),
+        newsfeed: getTemplate('templates/newsfeed.html'),
+        about: getTemplate('templates/about.html'),
+        tutorials: getTemplate('templates/tutorials.html', true),
+        tutorial: getTemplate('templates/tutorial.html', true)
     }
 
     var generatePage = function(options) {
         var layout = options.layout || templates.layout,
           title = options.title || TITLE,
-          description = options.page && options.page.description || 'The free and open source CDN for all the famous web related libraries that speeding up your websites and saving the bandwidth for you!',
+          description = options.page && options.page.description || 'The free and open source CDN for all web libraries. Speed up your websites and save bandwidth!',
 
           page = {
             data: options.page && options.page.data || {},
@@ -102,14 +113,51 @@ function start() {
         res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
     }
 
+    var serverPush = function(res, uri) {
+      var temp = uri.split('.'), ext = temp[temp.length-1], as = -1;
+      switch (ext) {
+        case 'js':
+          as='script';
+          break;
+        case 'css':
+          as='style';
+          break;
+        case 'png' :
+        case 'jpg' :
+        case 'jpeg':
+        case 'gif' :
+        case 'ico' :
+          as='image';
+          break;
+        case 'xml' :
+          as='';
+          break;
+      }
+      delete temp;
+      if (as != -1) {
+        res.append("Link", "<" + uri + ">; rel=preload; as=" + as );
+      }
+      delete temp;
+      delete ext;
+      delete as;
+    }
+
+    function pushAssets(res) {
+        serverPush(res, '/css/theme.css');
+        serverPush(res, '/css/main.css');
+        serverPush(res, '/js/main.js');
+    }
 
     app.get('/', function(req, res) {
+        pushAssets(res);
+        serverPush(res, '/img/algolia64x20.png');
         setCache(res, 2);
         res.send(generatePage({
             page: {
                 template: templates.home,
                 data: {
-                    packages: LIBRARIES
+                    packages: LIBRARIES,
+                    libCount: LIBRARIES.length
                 }
             },
             wrapperClass: 'home'
@@ -163,14 +211,17 @@ function start() {
     function libraryAssetsList(library, version) {
         return _.map(library.assets, function(assets) {
             if (assets.version === version) {
-                assets.selected = 'selected="selected"';
+                assets.selected = 'selected';
             } else {
                 assets.selected = '';
             }
             if (assets.gennedFileNames === undefined) {
                 var fileArray = [];
                 assets.files.map(function(fileName, index) {
-                    fileArray.push({"name": fileName});
+                    var fileExtension = path.extname(fileName);
+                    var fileType = fileExtension.substring(1) || 'unknown';
+
+                    fileArray.push({"name": fileName, "fileType": fileType});
                 });
                 assets.files = fileArray;
                 assets.gennedFileNames = true;
@@ -180,7 +231,7 @@ function start() {
     }
 
     function checkVersion(library, version) {
-        return _.findWhere(library.assets, { version: version });
+        return _.find(library.assets, { version: version });
     }
 
 
@@ -207,10 +258,23 @@ function start() {
             return res.redirect(307, '/#q=' + libraryName);
         }
 
-        library.autoupdateEnabled = library.autoupdate ? library.autoupdate + ' autoupdate enabled' : '';
+        if (library.autoupdate && !library.autoupdate.url) {
+            library.autoupdate.string = library.autoupdate.type ? library.autoupdate.type + ' autoupdate enabled' : '';
+            switch (library.autoupdate.type) {
+              case 'npm':
+                library.autoupdate.url = 'https://npmjs.com/package/' + library.autoupdate.target;
+                break;
+              case 'git':
+                library.autoupdate.url = GitUrlParse(library.autoupdate.target).toString("https");
+                break;
+            }
+        }
+        if (!library.homepage && library.repository && library.repository.type == 'git') {
+            library.homepage = GitUrlParse(library.repository.url).toString("https");
+        }
         var version = req.params.version || library.version;
 
-        if(!_.findWhere(library.assets, { version: version })) {
+        if(!_.find(library.assets, { version: version })) {
             return res.status(404).send(libraryName + ' version not found!');
         }
 
@@ -228,7 +292,7 @@ function start() {
                     library: library,
                     assets: assets,
                     licenses: licenses,
-                    selectedAssets: _.findWhere(assets, {version: version}),
+                    selectedAssets: _.find(assets, {version: version}),
                     tutorials: tutorialPackages,
                     libraryRealName: libraryRealName,
                     tutorialsPresent: tutorialsPresent
@@ -318,7 +382,8 @@ function start() {
                     avatar: avatar,
                     tutorial: tutorialPackage,
                     disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
-                    disqus_url: tutorialPackage.disqus_url || req.originalUrl,
+                    disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
+                    disqus_id: tutorialPackage.disqus_url || req.originalUrl,
                     author: tutorialPackage.author,
                     tutorials: tutorialPackages,
                     library: library
@@ -328,7 +393,7 @@ function start() {
     });
 
     app.get('/libraries/:library/:version', libraryResponse);
-    
+
     app.get('/libraries/:library', libraryResponse);
 
     app.get('/libraries', function(req, res) {
@@ -339,15 +404,18 @@ function start() {
             page: {
                 template: templates.libraries,
                 data: {
-                    packages: LIBRARIES
+                    packages: LIBRARIES,
+                    libCount: LIBRARIES.length
                 }
             }
         }));
     });
 
 
+    app.get('/gitstats', function(req, res) { return res.redirect(301, '/gitstats/cdnjs'); });
+    app.get('/git_stats', function(req, res) { return res.redirect(301, '/git_stats/cdnjs'); });
     app.get('/about', function(req, res) {
-        
+
         setCache(res, 72);
         res.send(generatePage({
             page: {
