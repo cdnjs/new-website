@@ -1,0 +1,74 @@
+{
+  // Support to lint in Atom Editor
+  "plugins": ["react"],
+  "ecmaFeatures": {"jsx": true},
+  // based on https://github.com/feross/standard
+  "extends": [ "standard", "standard-react" ],
+  "rules": {
+    "accessor-pairs": 0,
+    "arrow-parens": 0,
+    "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+    "comma-dangle": [2, "always-multiline"],
+    "consistent-return": 2,
+    "dot-location": [2,"property"],
+    "dot-notation": 2,
+    "eol-last": 2,
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "jsx-quotes": [2,"prefer-double"],
+    "no-dupe-class-members": 2,
+    "no-multi-spaces": 2,
+    "no-multiple-empty-lines": [2, {"max": 2}],
+    "no-restricted-syntax": [2,"WithStatement"],
+    "no-shadow": 2,
+    "no-unused-expressions": 2,
+    "no-unused-vars": 2,
+    "quotes": [2, "single", "avoid-escape"],
+    "quote-props": [2, "consistent-as-needed"],
+    "spaced-comment": 0,
+    "keyword-spacing": 2,
+    "space-before-blocks": 2,
+    "space-before-keywords": 0,
+    "strict": [2,"global"],
+    "radix": 0,
+    "object-shorthand": 2,
+
+    // not covered in standard
+    "no-var": 2,
+    "prefer-const": 2,
+    // overrides of the standard style
+    "curly": [2, "all"],
+    "max-len": [2, 90, 4],
+    "max-depth": [2, 4],
+    "max-nested-callbacks": [2, 3],
+    "max-params": [2, 5],
+    "max-statements": [2, 40],
+    "complexity": [2, 10],
+
+    "semi": [2, "always"],
+    "wrap-iife": [2, "outside"],
+    // overrides of the standard-react style
+    "react/display-name": 2,
+    "react/prop-types": 2,
+    "react/sort-prop-types": 2,
+    "react/jsx-indent": 0,        // removed until fixed for ternary
+    "react/jsx-indent-props": 0,  // removed until fixed for ternary
+    "react/jsx-uses-vars": 2,
+    "react/jsx-key": 2,
+    "react/no-unknown-property": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/self-closing-comp": 2,
+    "react/sort-comp": 2
+  },
+  "globals" : {
+    "fetch": true,
+    "xdescribe" : false,
+    "describe" : false,
+    "beforeEach": false,
+    "afterEach": false,
+    "xit": false,
+    "it": false,
+    "expect": false,
+    "__PACKED__": true,
+    "__CLIENT__": true
+  }
+}

@@ -1,13 +1,17 @@
 #!/usr/bin/env node
 require('newrelic');
-var throng = require('throng'),
+
+// Depedencies
+const throng = require('throng'),
   gravatar = require('gravatar'),
   GitUrlParse = require("git-url-parse"),
   removeNewline = require('newline-remove'),
   replaceall = require("replaceall"),
   condenseWhitespace = require('condense-whitespace'),
-  fs = require('fs'),
-  licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
+  fs = require('fs');
+
+
+const licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
   PORT = Number(process.env.PORT || 5500),
   TITLE = 'cdnjs.com - The free and open source CDN for web related libraries to speed up your website!';
