@@ -104,6 +104,7 @@ function start() {
             title: title,
             description: description,
             page: pageContent,
+            request: request,
             wrapperClass: options.wrapperClass || ''
         });
         return fullContent;
