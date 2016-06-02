@@ -10,7 +10,8 @@ var throng = require('throng'),
   licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
   WORKERS = process.env.WEB_CONCURRENCY || 1,
   PORT = Number(process.env.PORT || 5500),
-  TITLE = 'cdnjs.com - The free and open source CDN for web related libraries to speed up your website!';
+  TITLE = 'cdnjs.com - The free and open source CDN for web related libraries to speed up your website!',
+  request = 'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20_library_name_%20&body=**Library%20name%3A**%20%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?%20Leave%20message%20here%3A**%0A%0A=====================%0ANotes%20from%20cdnjs%20maintainer%3A%0APlease%20read%20the%20README.md%20and%20CONTRIBUTING.md%20document%20first.%0A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending%20pull%20request%2C%0Ait%27ll%20be%20faster%20then%20just%20opening%20a%20request%20issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!';
 
 throng(start, {
     workers: WORKERS,
@@ -147,6 +148,11 @@ function start() {
         serverPush(res, '/css/main.css');
         serverPush(res, '/js/main.js');
     }
+
+    app.get('/request-new-lib', function(req, res) {
+        return res.redirect(302, 'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20_library_name_%20&body=**Library%20name%3A**%20%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?%20Leave%20message%20here%3A**%0A%0A=====================%0ANotes%20from%20cdnjs%20maintainer%3A%0APlease%20read%20the%20README.md%20and%20CONTRIBUTING.md%20document%20first.%0A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending%20pull%20request%2C%0Ait%27ll%20be%20faster%20then%20just%20opening%20a%20request%20issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!');
+    });
+
 
     app.get('/', function(req, res) {
         pushAssets(res);
