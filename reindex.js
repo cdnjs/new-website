@@ -131,9 +131,13 @@ function crawl(gnext) {
           }
         });
       }
-      next();
+      async.setImmediate(function () {
+        next();
+      });
     } else {
-      next();
+      async.setImmediate(function () {
+        next();
+      });
     }
   }, gnext);
 }
