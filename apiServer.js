@@ -38,6 +38,7 @@ var packagesByName = {};
 _.each(packages, function(package) {
   packagesByName[package.name] = package;
 });
+delete packages;
 var algoliaIndex = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010').initIndex('libraries');
 
 app.get('/libraries', function(req, res){
@@ -46,8 +47,8 @@ app.get('/libraries', function(req, res){
   app.set('json spaces', 0);
 
   // format the results including optional `fields`
-  function formatResults(fields, packages) {
-    return _.map(packages, function (package) {
+  function formatResults(fields, packagesByName) {
+    return _.map(packagesByName, function (package) {
       var data = {
         name: package.name,
         latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + package.name + '/' + package.version + '/' + package.filename
@@ -84,9 +85,9 @@ app.get('/libraries', function(req, res){
       }
     });
   } else {
-    results = _.filter(packages, function(package) {return package});
+    results = formatResults(fields, packagesByName);
     var json = {
-      results: formatResults(fields, results),
+      results: results,
       total: results.length
     };
     if (req.query.output && req.query.output === 'human') {
@@ -102,12 +103,11 @@ app.get('/libraries/:library', function(req, res){
   app.set('json spaces', 0);
 
   res.setHeader("Expires", new Date(Date.now() + 360 * 60 * 1000).toUTCString());
-  results = _.filter(packages, function(package) {
-    if(package.name===req.params.library){
+  results = _.filter(packagesByName, function(package) {
+    if (package.name === req.params.library) {
       return package
-    } else {
-      return false;
     }
+    return false;
   });
   if(results.length > 0 ) {
     if(req.query.output && req.query.output === 'human') {
