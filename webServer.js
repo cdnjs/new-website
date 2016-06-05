@@ -58,7 +58,7 @@ function start() {
         LIBRARIES_MAP[library.name.replace(/\./g, '')] = library;
 
     });
-
+    delete LIBRARIES;
     function generateSlug(value) {
         return value.replace(/-+/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     };
@@ -163,8 +163,7 @@ function start() {
             page: {
                 template: templates.home,
                 data: {
-                    packages: LIBRARIES,
-                    libCount: LIBRARIES.length
+                    libCount: Object.keys(LIBRARIES_MAP).length
                 }
             },
             wrapperClass: 'home'
@@ -411,8 +410,8 @@ function start() {
             page: {
                 template: templates.libraries,
                 data: {
-                    packages: LIBRARIES,
-                    libCount: LIBRARIES.length
+                    packages: _.toArray(LIBRARIES_MAP),
+                    libCount: Object.keys(LIBRARIES_MAP).length
                 }
             }
         }));
