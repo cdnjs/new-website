@@ -150,6 +150,8 @@ function start() {
         serverPush(res, '/js/main.js');
     }
 
+    global.gc();
+
     app.get('/request-new-lib', function(req, res) {
         return res.redirect(302, request);
     });

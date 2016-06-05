@@ -41,6 +41,8 @@ _.each(packages, function(package) {
 delete packages;
 var algoliaIndex = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010').initIndex('libraries');
 
+global.gc();
+
 app.get('/libraries', function(req, res){
   var results;
 

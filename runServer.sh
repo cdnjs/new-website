@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [ "$APP" == "mainSite" ]; then
-    node webServer.js
+    node --expose-gc webServer.js
 elif [ "$APP" == "api" ]; then
-    node apiServer.js
+    node --expose-gc apiServer.js
 fi
