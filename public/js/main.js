@@ -1,10 +1,15 @@
  currentUser = null; // This will contain the logged in user
- var cdn_provider_base_url = [], cdn_provider = location.hash.substr(1,location.hash.length).toLowerCase();
+
+ var cdn_provider_base_url = [], cdn_provider;
  cdn_provider_base_url['cloudflare'] = 'https://cdnjs.cloudflare.com/ajax/libs/';
 
- if (!cdn_provider_base_url[cdn_provider]) cdn_provider = 'cloudflare';
+ function decideCDNProvider()
+ {
+   cdn_provider = location.hash.substr(1,location.hash.length).toLowerCase();
+   if (!cdn_provider_base_url[cdn_provider]) cdn_provider = 'cloudflare';
+ }
 
-
+  decideCDNProvider();
 
 (function($) {
     function selectText(element) {
