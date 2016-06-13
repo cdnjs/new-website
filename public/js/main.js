@@ -1,5 +1,10 @@
  currentUser = null; // This will contain the logged in user
- var cdn_provider_base_url = 'https://cdnjs.cloudflare.com/ajax/libs/';
+ var cdn_provider_base_url = [], cdn_provider = location.hash.substr(1,location.hash.length).toLowerCase();
+ cdn_provider_base_url['cloudflare'] = 'https://cdnjs.cloudflare.com/ajax/libs/';
+
+ if (!cdn_provider_base_url[cdn_provider]) cdn_provider = 'cloudflare';
+
+
 
 (function($) {
     function selectText(element) {
@@ -160,7 +165,7 @@
         '</td>' +
         '<td style="white-space: nowrap;">' +
           '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
-            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
+            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url[cdn_provider] + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
           '</div>' +
         '</td>' +
       '</tr>';
@@ -239,7 +244,7 @@
   var urlpattern = '^https://';
   $('p.library-url').each(function() {
     if ($(this).html().search(urlpattern) !== 0 ) {
-      $(this).html(cdn_provider_base_url + $(this).html());
+      $(this).html(cdn_provider_base_url[cdn_provider] + $(this).html());
     }
   });
   // Perform searches automatically based on the URL hash
