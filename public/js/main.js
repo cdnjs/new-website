@@ -1,15 +1,33 @@
  currentUser = null; // This will contain the logged in user
 
- var cdn_provider_base_url = [], cdn_provider;
+ var cdn_provider_base_url = [], cdn_provider, urlSetDecided = false;
  cdn_provider_base_url['cloudflare'] = 'https://cdnjs.cloudflare.com/ajax/libs/';
 
  function decideCDNProvider()
  {
-   cdn_provider = location.hash.substr(1,location.hash.length).toLowerCase();
-   if (!cdn_provider_base_url[cdn_provider]) cdn_provider = 'cloudflare';
+   target_cdn_provider = location.hash.substr(1,location.hash.length).toLowerCase();
+   if (!cdn_provider_base_url[target_cdn_provider]) target_cdn_provider = 'cloudflare';
+   return target_cdn_provider;
  }
 
-  decideCDNProvider();
+ cdn_provider = decideCDNProvider();
+ setFileURLs();
+
+ function setFileURLs(new_provider)
+ {
+   if (urlSetDecided === false) {
+     $('p.library-url').each(function() {
+       $(this).html(cdn_provider_base_url[cdn_provider] + $(this).html());
+     });
+     urlSetDecided = true;
+   } else {
+     $('p.library-url').each(function() {
+       $(this).html($(this).html().replace(cdn_provider_base_url[cdn_provider], cdn_provider_base_url[new_provider]));
+     });
+     cdn_provider = new_provider;
+   }
+ }
+
 
 (function($) {
     function selectText(element) {
@@ -246,12 +264,6 @@
 
   $('#search-box').on('keyup change', searchHandler);
 
-  var urlpattern = '^https://';
-  $('p.library-url').each(function() {
-    if ($(this).html().search(urlpattern) !== 0 ) {
-      $(this).html(cdn_provider_base_url[cdn_provider] + $(this).html());
-    }
-  });
   // Perform searches automatically based on the URL hash
   if (location.hash.length > 1) {
     var query = location.hash.match(/q=([^&]+)/);
@@ -267,6 +279,14 @@
   //putClassOnFavorites(getFavorites());
   $('#search-box').focus();
 
+  $('.cdn-provider-selector').on('change', function (ev) {
+    location.hash = $(ev.currentTarget).val();
+    setFileURLs(decideCDNProvider());
+  });
+  $(window).on('hashchange', function() {
+    $('.cdn-provider-selector').val(decideCDNProvider());
+    setFileURLs(decideCDNProvider());
+  });
   $('.version-selector').on('change', function (ev) {
     var libraryVersion = $(ev.currentTarget).val();
     var libraryName = $('#library-name').text();
