@@ -1,4 +1,5 @@
  currentUser = null; // This will contain the logged in user
+ var cdn_provider_base_url = 'https://cdnjs.cloudflare.com/ajax/libs/';
 
 (function($) {
     function selectText(element) {
@@ -159,7 +160,7 @@
         '</td>' +
         '<td style="white-space: nowrap;">' +
           '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
-            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">https://cdnjs.cloudflare.com/ajax/libs/' + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
+            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
           '</div>' +
         '</td>' +
       '</tr>';
@@ -235,6 +236,12 @@
 
   $('#search-box').on('keyup change', searchHandler);
 
+  var urlpattern = '^https://';
+  $('p.library-url').each(function() {
+    if ($(this).html().search(urlpattern) !== 0 ) {
+      $(this).html(cdn_provider_base_url + $(this).html());
+    }
+  });
   // Perform searches automatically based on the URL hash
   if (location.hash.length > 1) {
     var query = location.hash.match(/q=([^&]+)/);
