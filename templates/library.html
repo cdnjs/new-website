@@ -28,15 +28,14 @@
       {{/library.gratipay}}
         </div>
         <div class="col-md-4">
-
-      <script type="text/javascript" src="https://cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=cdnjscom" id="_carbonads_js" defer></script>
+          <script type="text/javascript" src="https://cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=cdnjscom" id="_carbonads_js" defer></script>
         </div>
       </div>
        <div class="input-group version-dropdown">
-      <div class="input-group-addon">Version</div>
-      <select class="form-control version-selector" style="float: right;">
-        {{#assets}}<option value="{{version}}" {{selected}}>{{version}}</option>{{/assets}}
-      </select>
+          <div class="input-group-addon">Version</div>
+          <select class="form-control version-selector" style="float: right;">
+            {{#assets}}<option value="{{version}}" {{selected}}>{{version}}</option>{{/assets}}
+          </select>
         </div>
       <div style="clear: both;"></div>
       <br />
@@ -56,21 +55,20 @@
         </div>
       {{/selectedAssets}}
         <h3>Related Tutorials</h3>
-
             <p style="margin-bottom: 50px;">Write your own awesome web development tutorials for the libraries on CDNJS! <a href="https://github.com/cdnjs/tutorials" target="_blank">Submit your community driven tutorials now!</a></p>
       {{#tutorialsPresent}}
             <table class="table table-hover" style="margin-top: 25px;">
                 <thead>
-                    <tr>
-                        <td>Tutorial</td>
-                        <td>Author</td>
-                    </tr>
+                  <tr>
+                    <td>Tutorial</td>
+                    <td>Author</td>
+                  </tr>
                 </thead>
                 <tbody>
                 {{#tutorials}}
                     <tr>
-                        <td><a href="/libraries/{{libraryRealName}}/tutorials/{{slug}}">{{name}}</a></td>
-                        <td><a href="{{author.homepage}}">{{author.name}}</a></td>
+                      <td><a href="/libraries/{{libraryRealName}}/tutorials/{{slug}}">{{name}}</a></td>
+                      <td><a href="{{author.homepage}}">{{author.name}}</a></td>
                     </tr>
                 {{/tutorials}}
                 </tbody>
