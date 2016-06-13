@@ -36,6 +36,10 @@
           <select class="form-control version-selector" style="float: right;">
             {{#assets}}<option value="{{version}}" {{selected}}>{{version}}</option>{{/assets}}
           </select>
+          <div class="input-group-addon">CDN provider</div>
+          <select class="form-control cdn-provider-selector" style="float: right;" disabled>
+            <option value="cloudflare" selected>CloudFlare</option>
+          </select>
         </div>
       <div style="clear: both;"></div>
       <br />
