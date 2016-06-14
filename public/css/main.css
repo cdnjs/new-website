@@ -3,6 +3,7 @@
 /*gitter button*/
 .gitter-open-chat-button{background-color:#dd4814;bottom:36px}
 .btn {font-size: inherit;    padding: 0px 0px;}
+.copy-button-group .copy-button { padding-left: 4px; }
 .dropdown-menu > li > a, .btn:hover, .btn:focus, .btn.focus {color:#dd4814}
 .dropdown-menu{ min-width: 0px; }
 ul.dropdown-menu > li { float: left; }
