@@ -93,7 +93,7 @@ function start() {
         var layout = options.layout || templates.layout,
           title = options.title || TITLE,
           keywords = options.page.data.library && options.page.data.library.keywords || 'CDN,CDNJS,js,css,library,web,front-end,free,open-source,png,plugin,ng,jQuery,angular',
-          description = options.page && (options.page.description + ' - ' + TITLE) || TITLE,
+          description = (options.page && options.page.description) ? options.page.description + ' - ' + TITLE : TITLE,
 
           page = {
             data: options.page && options.page.data || {},
