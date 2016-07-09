@@ -294,6 +294,7 @@
     setFileURLs(decideCDNProvider());
   });
   $(window).on('hashchange', function() {
+    searchByHash();
     $('.cdn-provider-selector').val(decideCDNProvider());
     setFileURLs(decideCDNProvider());
   });
