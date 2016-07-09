@@ -294,7 +294,6 @@ function start() {
         if (!library.urls) {
             library.urls = libraryGitRepoList(library);
         }
-
         res.send(generatePage({
             title: libraryName + ' - ' + TITLE,
             page: {
@@ -308,7 +307,7 @@ function start() {
                     libraryRealName: libraryRealName,
                     tutorialsPresent: tutorialsPresent
                 },
-                description: LIBRARIES_MAP[library] && LIBRARIES_MAP[library].description
+                description: library && (library.name + " - " + library.description + " - cdnjs.com")
             }
         }));
     }
