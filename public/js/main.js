@@ -221,6 +221,7 @@
     $hits.html(html);
 
     setupMouseEvents();
+    appLoading.stop();
   }
 
   var animateTop = _.once(function() {
@@ -247,6 +248,7 @@
   var index = algolia.initIndex('libraries');
   var lastQuery;
   function searchHandler(ev) {
+    appLoading.start();
     animateTop();
     clearHash();
 
@@ -266,6 +268,7 @@
 
   // Perform searches automatically based on the URL hash
   if (location.hash.length > 1) {
+    appLoading.start();
     var query = location.hash.match(/q=([^&]+)/);
     if (query) {
       query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
