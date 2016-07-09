@@ -271,15 +271,13 @@
   function searchByHash() {
     // Perform searches automatically based on the URL hash
     if (location.hash.length > 1) {
-      appLoading.start();
       var query = location.hash.match(/q=([^&]+)/);
       if (query) {
+        appLoading.start();
         query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
         $('#search-box').val(query);
         animateTop();
         index.search(query, displayMatchingLibraries);
-      } else {
-        appLoading.stop();
       }
     }
   }
