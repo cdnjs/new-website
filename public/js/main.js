@@ -139,7 +139,9 @@
   var $allRows = $hits.html();
   function displayMatchingLibraries(err, content) {
     $('.packages-table-container').show();
-
+    if (err) {
+      appLoading.stop();
+    }
     if (err || content.query !== $('#search-box').val()) {
       return;
     }
@@ -275,6 +277,8 @@
       $('#search-box').val(query);
       animateTop();
       index.search(query, displayMatchingLibraries);
+    } else {
+      appLoading.stop();
     }
   }
 
