@@ -1,5 +1,5 @@
  currentUser = null; // This will contain the logged in user
-
+ appLoading.setColor('#FF9900');
  var cdn_provider_base_url = [], cdn_provider, urlSetDecided = false;
  cdn_provider_base_url['cloudflare'] = 'https://cdnjs.cloudflare.com/ajax/libs/';
 
