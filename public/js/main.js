@@ -264,7 +264,7 @@
     lastQuery = val;
   }
 
-  $('#search-box').on('keyup change', searchHandler);
+  $('#search-box').on('input', searchHandler);
 
   // Perform searches automatically based on the URL hash
   if (location.hash.length > 1) {
