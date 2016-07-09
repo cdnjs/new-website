@@ -260,6 +260,7 @@
     if (val === '') {
       $hits.html($allRows);
       $('.home .packages-table-container').hide();
+      appLoading.stop();
     } else if (lastQuery !== val) {
       index.search(val, displayMatchingLibraries);
     }
