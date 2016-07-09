@@ -268,20 +268,23 @@
 
   $('#search-box').on('input', searchHandler);
 
-  // Perform searches automatically based on the URL hash
-  if (location.hash.length > 1) {
-    appLoading.start();
-    var query = location.hash.match(/q=([^&]+)/);
-    if (query) {
-      query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
-      $('#search-box').val(query);
-      animateTop();
-      index.search(query, displayMatchingLibraries);
-    } else {
-      appLoading.stop();
+  function searchByHash() {
+    // Perform searches automatically based on the URL hash
+    if (location.hash.length > 1) {
+      appLoading.start();
+      var query = location.hash.match(/q=([^&]+)/);
+      if (query) {
+        query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
+        $('#search-box').val(query);
+        animateTop();
+        index.search(query, displayMatchingLibraries);
+      } else {
+        appLoading.stop();
+      }
     }
   }
-
+  
+  searchByHash();
   // Put favorite libraries at the top of the list
   //putClassOnFavorites(getFavorites());
   $('#search-box').focus();
