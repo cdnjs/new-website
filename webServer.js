@@ -102,6 +102,7 @@ function start() {
           pageContent = Mustache.render(page.template, page.data),
 
           fullContent = Mustache.render(layout, {
+            url: options.reqUrl,
             title: title,
             keywords: keywords,
             description: description,
@@ -167,6 +168,7 @@ function start() {
         serverPush(res, '/img/algolia64x20.png');
         setCache(res, 2);
         res.send(generatePage({
+            reqUrl: req.url,
             page: {
                 template: templates.home,
                 data: {
@@ -297,6 +299,7 @@ function start() {
             library.urls = libraryGitRepoList(library);
         }
         res.send(generatePage({
+            reqUrl: req.url,
             title: libraryName + ' - ' + TITLE,
             page: {
                 template: templates.library,
@@ -330,6 +333,7 @@ function start() {
 
         setCache(res, 72);
         res.send(generatePage({
+            reqUrl: req.url,
             page: {
                 template: templates.tutorials,
                 title: library + ' tutorials - ' + TITLE,
@@ -386,6 +390,7 @@ function start() {
 
         setCache(res, 72);
         res.send(generatePage({
+            reqUrl: req.url,
             title:  tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
             page: {
                 template: templates.tutorial,
@@ -412,6 +417,7 @@ function start() {
         setCache(res, 2);
 
         res.send(generatePage({
+            reqUrl: req.url,
             title: 'libraries - ' + TITLE,
             page: {
                 template: templates.libraries,
@@ -430,6 +436,7 @@ function start() {
 
         setCache(res, 72);
         res.send(generatePage({
+            reqUrl: req.url,
             page: {
                 template: templates.about,
                 title: 'about - ' + TITLE
