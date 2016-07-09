@@ -92,6 +92,7 @@ function start() {
     var generatePage = function(options) {
         var layout = options.layout || templates.layout,
           title = options.title || TITLE,
+          keywords = (options.page.data.library.keywords) || 'CDN,CDNJS,js,css,library,web,front-end,free,open-source,png,plugin,ng,jQuery,angular',
           description = options.page && options.page.description || 'The free and open source CDN for all web libraries. Speed up your websites and save bandwidth!',
 
           page = {
@@ -102,6 +103,7 @@ function start() {
 
           fullContent = Mustache.render(layout, {
             title: title,
+            keywords: keywords,
             description: description,
             page: pageContent,
             request: request,
