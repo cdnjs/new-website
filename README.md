@@ -19,7 +19,7 @@ npm install
 ## Running
 
 ```sh
-APP=[mainSite|api]
+APP=[mainSite|api]   # chose which server you want to run
 ./runServer.sh
 ```
 
