@@ -20,7 +20,6 @@ if (args.length > 0 && (args[0] == '--local' || args[2] == '--local') ) {
   localMode = true;
 } else {
   console.log("local mode: off");
-  global.gc();
 }
 
 throng(start, {
@@ -53,6 +52,10 @@ function start() {
         next();
     });
     app.use(compress());
+
+    if (!localMode && (typeof global.gc != 'undefined')) {
+      global.gc();
+    }
 
     // Serve public folder
     app.use(express.static(__dirname + '/public', {
