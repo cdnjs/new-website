@@ -33,6 +33,13 @@ function start() {
                           // … other options aren't changed
     })
     app.disable('x-powered-by');
+    app.use(function(req, res, next) {
+        res.setHeader('X-Frame-Options', 'deny');
+        res.setHeader('X-Content-Type-Options', 'nosniff');
+        res.setHeader('X-XSS-Protection', '1; mode=block');
+        res.setHeader('Content-Security-Policy', "upgrade-insecure-requests; default-src 'self' *.carbonads.com *.getclicky.com fonts.gstatic.com www.google-analytics.com fonts.googleapis.com cdnjs.cloudflare.com 'unsafe-inline' https: data: ;");
+        next();
+    });
     app.use(compress());
 
     // Serve public folder
