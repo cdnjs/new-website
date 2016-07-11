@@ -15,9 +15,11 @@ var throng = require('throng'),
   args = process.argv.slice(2),
   localMode = false;
 
-if (args.length > 0 && args[0] == '--local') {
+if (args.length > 0 && (args[0] == '--local' || args[2] == '--local') ) {
+  console.log("local mode: on, gc() and CSP header disabled!");
   localMode = true;
 } else {
+  console.log("local mode: off");
   global.gc();
 }
 
