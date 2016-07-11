@@ -197,7 +197,7 @@
       html += row;
     }
     if (!content.hits.length || !match || !same) {
-      var libraryName = content.query;
+      var libraryName = escape(content.query);
 
       var tempText  = ( match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
       var tempText2 =
