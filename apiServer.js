@@ -5,6 +5,8 @@ var fs = require('fs'),
   algoliasearch = require("algoliasearch")
   _ = require('lodash'),
   app = express(),
+  args = process.argv.slice(2),
+  localMode = false,
 
   compress = require('compression'),
   bodyParser = require('body-parser'),
@@ -15,6 +17,14 @@ var fs = require('fs'),
     res.header('Access-Control-Allow-Headers', 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version');
   next();
 }
+
+if (args.length > 0 && (args[0] == '--local' || args[2] == '--local') ) {
+  console.log("local mode: on, gc() disabled!");
+  localMode = true;
+} else {
+  console.log("local mode: off");
+}
+
 app.use(bodyParser());
 app.use(allowCrossDomain);
 app.use(compress())
@@ -41,7 +51,9 @@ _.each(packages, function(package) {
 delete packages;
 var algoliaIndex = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010').initIndex('libraries');
 
-global.gc();
+if (!localMode && (typeof global.gc != 'undefined')) {
+  global.gc();
+}
 
 app.get('/libraries', function(req, res){
   var results;
