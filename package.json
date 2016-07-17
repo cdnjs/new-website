@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "algoliasearch": "^3.11",
-    "async": "^1.5.2",
+    "async": "^2.0.0",
     "body-parser": "^1.14",
     "colors": "^1.1.2",
     "compression": "^1.6",
