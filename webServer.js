@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-require('newrelic');
+if (process.env.ENV === 'production') {
+  require('newrelic');
+}
 
 // Depedencies
 const throng = require('throng'),
@@ -20,6 +22,7 @@ const throng = require('throng'),
 
 const WORKERS = process.env.WEB_CONCURRENCY || 1;
 const PORT = Number(process.env.PORT || 5500);
+const TITLE = 'cdnjs.com'
 
 const licenses = JSON.parse(fs.readFileSync(__dirname + '/license-list.json', 'utf8'));
 

@@ -1,0 +1,6 @@
+{
+  "apps" : [{
+    "script"      : "webServer.js",
+    "watch"       : ["webServer.js", "templates"],
+  }]
+}
