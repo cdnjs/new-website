@@ -235,6 +235,7 @@ function start() {
                 var temp = library.licenses[license];
                 library.licenses[license] = {};
                 library.licenses[license].type = temp;
+                library.licenses[license].url = '#';
             }
             if (licenses.indexOf(library.licenses[license].type) !== -1) {
                 library.licenses[license].url = 'https://spdx.org/licenses/' + library.licenses[license].type + '.html';
