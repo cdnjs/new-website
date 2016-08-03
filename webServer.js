@@ -47,7 +47,7 @@ function start() {
         res.setHeader('X-Content-Type-Options', 'nosniff');
         res.setHeader('X-XSS-Protection', '1; mode=block');
         if(!localMode) {
-          res.setHeader('Content-Security-Policy', "upgrade-insecure-requests; unsafe-eval default-src 'self' *.carbonads.com *.getclicky.com fonts.gstatic.com www.google-analytics.com fonts.googleapis.com cdnjs.cloudflare.com 'unsafe-inline' https: data: ;");
+          res.setHeader('Content-Security-Policy', "upgrade-insecure-requests; script-src 'unsafe-eval'; default-src 'self' *.carbonads.com *.getclicky.com fonts.gstatic.com www.google-analytics.com fonts.googleapis.com cdnjs.cloudflare.com 'unsafe-inline' https: data: ;");
         }
         next();
     });
