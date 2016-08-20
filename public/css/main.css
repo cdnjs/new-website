@@ -206,6 +206,9 @@ body {
   outline: none;
   border: 1px solid #ff5000;
 }
+.container.home {
+  margin-top: 200px;
+}
 .Menu {
   list-style: none;
   padding: 0 20px;
@@ -340,9 +343,6 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-}
-.library-url:hover {
-  background: #f1f1f1;
 }
 .assets {
   margin-bottom: 60px;
