@@ -216,7 +216,7 @@ function libraryResponse(req, res) {
     if (!library.urls) {
         library.urls = libraryGitRepoList(library);
     }
-
+    console.log(library)
     res.send(generatePage({
         title: libraryName + ' - ' + TITLE,
         page: {

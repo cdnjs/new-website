@@ -53,6 +53,10 @@ body {
     font-weight: 600;
     font-size: 20px;
     display: inline-block;
+    a {
+      text-decoration: none;
+      color: #444;
+    }
     em {
       font-style: normal;
       color: @color-brand;
@@ -72,4 +76,80 @@ body {
 }
 .octicon {
   font: normal normal normal 20px/1 octicons !important;
+}
+.hired-banner {
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  background: #f2f2f2;
+  bottom: 0;
+  left: 0;
+}
+.library-container {
+  margin-top: 70px;
+  padding: 0 20px;
+  a {
+    color: @color-brand;
+  }
+}
+.library-name {
+  font-weight: 300;
+  font-size: 44px;
+}
+.library-labels {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    float: left;
+    margin-right: 20px;
+    background: #ffdccc;
+    padding: 5px;
+    border-radius: 6px;
+    height: 20px;
+    line-height: 6px;
+    a {
+      text-decoration: none;
+      color: #444;
+      font-size: 12px;
+    }
+  }
+}
+.library-divider {
+  background: #efefef;
+  margin-bottom: 25px;
+  height: 2px;
+}
+.version-dropdown {
+  span {
+    height: 38px;
+    float: left;
+    line-height: 38px;
+  }
+  select {
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 4px;
+    margin-left: 10px;
+    line-height: 38px;
+    height: 38px;
+  }
+}
+.library-url {
+  font-size: 16px;
+  height: 55px;
+  line-height: 55px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  &:hover {
+    background: #f1f1f1;
+  }
+}
+.assets {
+  table {
+    width: 100%;
+  }
 }

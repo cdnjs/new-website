@@ -3,7 +3,7 @@
 
 var TEMPLATE_SEARCH_RESULT_STRING = '\
   <div class="search-result">   \
-    <div class="library-name">{{{name}}}</div>         \
+    <div class="library-name"><a href="/libraries/{{slug}}">{{{name}}}</a></div>         \
     <div class="library-stars"><span class="octicon octicon-star"></span> {{stars}}</div>         \
     <div class="library-url">{{url}}</div>                    \
   </div>';
@@ -50,11 +50,11 @@ var TEMPLATE_SEARCH_RESULT_STRING = '\
   function setupMouseEvents() {
     // Currently not showing the copy button for iOS, check clipboard.js support
     if(!(/iPhone|iPad/i.test(navigator.userAgent))) {
-      $('.library-column').on( "mouseenter", function(ev) {
-        var cont = $(ev.currentTarget);
-        copyEl.show();
-        copyEl.appendTo(cont);
-      });
+      // $('.library-column').on( "mouseenter", function(ev) {
+      //   var cont = $(ev.currentTarget);
+      //   copyEl.show();
+      //   copyEl.appendTo(cont);
+      // });
       if (clipboard) {
         clipboard.destroy();
       }
@@ -136,6 +136,7 @@ var TEMPLATE_SEARCH_RESULT_STRING = '\
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
       var lib = {
+        slug: hit.name,
         name: getSafeHighlightedValue(hit._highlightResult.name),
         stars: hit.github.stargazers_count,
         url: 'https://cdnjs.cloudflare.com/ajax/libs/' + hit.originalName + '/' + hit.version + '/' + hit.filename
