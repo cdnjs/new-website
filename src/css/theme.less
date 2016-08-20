@@ -1,6 +1,9 @@
 // div {
 //   outline: 1px solid #f0f0f0;
 // }
+body {
+  overflow-y: scroll;
+}
 #search-box {
   width: 100%;
   padding: 20px;
@@ -47,10 +50,16 @@
     background: #fff6f2;
   }
   .library-name {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 20px;
     display: inline-block;
+    em {
+      font-style: normal;
+      color: @color-brand;
+    }
   }
   .library-stars {
+    margin-left: 10px;
     display: inline-block;
   }
   .library-url {
@@ -60,4 +69,7 @@
 .container {
   width: 800px;
   margin: auto;
+}
+.octicon {
+  font: normal normal normal 20px/1 octicons !important;
 }

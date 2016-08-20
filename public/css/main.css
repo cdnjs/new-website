@@ -192,6 +192,9 @@ html {
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
+body {
+  overflow-y: scroll;
+}
 #search-box {
   width: 100%;
   padding: 20px;
@@ -233,10 +236,16 @@ html {
   background: #fff6f2;
 }
 .search-result .library-name {
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 20px;
   display: inline-block;
 }
+.search-result .library-name em {
+  font-style: normal;
+  color: #ff5000;
+}
 .search-result .library-stars {
+  margin-left: 10px;
   display: inline-block;
 }
 .search-result .library-url {
@@ -245,4 +254,7 @@ html {
 .container {
   width: 800px;
   margin: auto;
+}
+.octicon {
+  font: normal normal normal 20px/1 octicons !important;
 }
