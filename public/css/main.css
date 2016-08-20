@@ -194,6 +194,7 @@ html {
 }
 body {
   overflow-y: scroll;
+  padding-bottom: 80px;
 }
 #search-box {
   width: 100%;
@@ -270,6 +271,18 @@ body {
   bottom: 0;
   left: 0;
 }
+.hired-banner .container {
+  padding: 0 20px;
+}
+.hired-banner .hired-logo {
+  float: left;
+  line-height: 60px;
+  font-weight: bold;
+}
+.hired-banner .hired-promo {
+  float: right;
+  line-height: 60px;
+}
 .library-container {
   margin-top: 70px;
   padding: 0 20px;
@@ -330,6 +343,9 @@ body {
 }
 .library-url:hover {
   background: #f1f1f1;
+}
+.assets {
+  margin-bottom: 60px;
 }
 .assets table {
   width: 100%;
