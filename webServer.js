@@ -39,7 +39,7 @@ highlight.configure({
 })
 
 // Setup express
-app.use(compress());
+// app.use(compress());
 // Serve public folder
 app.use(express.static(__dirname + '/public', {
     maxAge: 7200 * 1000
@@ -357,7 +357,6 @@ app.get('/about', function(req, res) {
         }
     }));
 });
-
 
 app.use(function(err, req, res, next) {
     console.error(err.stack);

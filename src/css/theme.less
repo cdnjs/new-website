@@ -1,0 +1,63 @@
+// div {
+//   outline: 1px solid #f0f0f0;
+// }
+#search-box {
+  width: 100%;
+  padding: 20px;
+  height: 55px;
+  margin-bottom: 20px;
+  &:focus {
+    outline: none;
+    border: 1px solid @color-brand;
+  }
+}
+
+// When on homepage
+.container.home {
+  // margin-top: 200px;
+}
+
+.Menu {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  color: @color-brand;
+  li {
+    float: right;
+    a {
+      color: @color-brand;
+      text-decoration: none;
+    }
+  }
+  &__logo {
+    float: left !important;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__item {
+    margin-left: 15px;
+  }
+}
+.search-result {
+  padding: 20px;
+  &:hover {
+    background: #fff6f2;
+  }
+  .library-name {
+    font-weight: bold;
+    display: inline-block;
+  }
+  .library-stars {
+    display: inline-block;
+  }
+  .library-url {
+    font-size: 14px;
+  }
+}
+.container {
+  width: 800px;
+  margin: auto;
+}

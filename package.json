@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "startWeb": "node webServer.js",
     "startAPI": "node apiServer.js",
-    "reindex": "node reindex.js"
-  },
+    "reindex": "node reindex.js",
+    "css": "lessc src/css/main.less public/css/main.css",
+    "watch-css": "nodemon -e less --watch src/css -x \"npm run css\""  },
   "repository": {
     "type": "git",
     "url": "git://github.com/cdnjs/new-website.git"

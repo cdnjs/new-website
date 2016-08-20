@@ -1,23 +1,34 @@
- currentUser = null; // This will contain the logged in user
+/* eslint-disable */
+
+
+var TEMPLATE_SEARCH_RESULT_STRING = '\
+  <div class="search-result">   \
+    <div class="library-name">{{name}}</div>         \
+    <div class="library-stars">{{stars}}</div>         \
+    <div class="library-url">{{url}}</div>                    \
+  </div>';
 
 (function($) {
-    function selectText(element) {
-      var doc = document;
-      var text = element;
-      var range;
+  // setup templates
+  var TEMPLATE_SEARCH_RESULT = Handlebars.compile(TEMPLATE_SEARCH_RESULT_STRING);
 
-      if (doc.body.createTextRange) { // ms
-        range = doc.body.createTextRange();
-        range.moveToElementText(text);
-        range.select();
-      } else if (window.getSelection) { // moz, opera, webkit
-        var selection = window.getSelection();
-        range = doc.createRange();
-        range.selectNodeContents(text);
-        selection.removeAllRanges();
-        selection.addRange(range);
-      }
+  function selectText(element) {
+    var doc = document;
+    var text = element;
+    var range;
+
+    if (doc.body.createTextRange) { // ms
+      range = doc.body.createTextRange();
+      range.moveToElementText(text);
+      range.select();
+    } else if (window.getSelection) { // moz, opera, webkit
+      var selection = window.getSelection();
+      range = doc.createRange();
+      range.selectNodeContents(text);
+      selection.removeAllRanges();
+      selection.addRange(range);
     }
+  }
 
 
   var copyEl = $('<div/>').addClass('btn-group copy-button-group');
@@ -106,7 +117,7 @@
 
   setupMouseEvents();
 
-  var $hits = $('.packages-table-container tbody');
+  var $hits = $('.packages-table-container');
   var $allRows = $hits.html();
   function displayMatchingLibraries(err, content) {
     $('.packages-table-container').show();
@@ -124,69 +135,75 @@
     var html = '', match = false, same = false;
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
-      if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
-        match = true;
-      }
-      if (hit.originalName == content.query) {
-        same = true;
-      }
-      var githubDetails = '';
-      if (hit.github) {
-        var user = getSafeHighlightedValue(hit._highlightResult.github.user);
-        var repo = getSafeHighlightedValue(hit._highlightResult.github.repo);
-        githubDetails = '<ul class="list-inline">' +
-          '<li><i class="fa fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '">' + user + '/' + repo + '</a></li>' +
-          '<li><i class="fa fa-eye"></i> ' + hit.github.subscribers_count + '</li>' +
-          '<li><i class="fa fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
-          '<li><i class="fa fa-code-fork"></i> ' + hit.github.forks + '</li>' +
-        '</ul>';
-      }
-
-      var description = getSafeHighlightedValue(hit._highlightResult.description);
-      var row = '<tr id="' + hit.objectID + '">' +
-        '<td>' +
-          '<p><a itemprop="name" href="/libraries/'+ hit.name + '">' +
-            hit._highlightResult.name.value +
-          '</a></p>' +
-          '<p class="text-muted">' + description + '</p>' +
-          '<ul class="list-inline">' +
-            $.map(hit._highlightResult.keywords || [], function(e) {
-              var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
-              return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>';
-            }).join(' ') +
-          '</ul>' +
-          githubDetails +
-        '</td>' +
-        '<td style="white-space: nowrap;">' +
-          '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
-            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">https://cdnjs.cloudflare.com/ajax/libs/' + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
-          '</div>' +
-        '</td>' +
-      '</tr>';
+      var lib = {
+        name: hit.name,
+        stars: hit.github.stargazers_count,
+        url: 'https://cdnjs.cloudflare.com/ajax/libs/' + hit.originalName + '/' + hit.version + '/' + hit.filename
+      };
+      console.log(lib);
+      var row = TEMPLATE_SEARCH_RESULT(lib);
+      console.log(row);
       html += row;
-    }
-    if (!content.hits.length || !match || !same) {
-      var libraryName = content.query;
-
-      var tempText  = ( match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
-      var tempText2 =
-        '<br /><td class="text-center well" colspan="2">' +
-        tempText + ' Would you like to ' +
-        '<a href="' +
-          'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20' +
-          libraryName +
-          '%20&body=**Library%20name%3A**%20' +
-          libraryName +
-          '%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**'+
-          'License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?' +
-          '%20Leave%20message%20here%3A**%0A%0A%0A%0A=====================%0ANotes%20from' +
-          '%20cdnjs%20maintainer%3A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending' +
-          '%20pull%20request%2C%0Ait%27ll%20be%20faster%20then%20just%20opening%20a%20request%20' +
-          'issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!' +
-          '" target="_blank">request it?</a>' +
-          ' Or just <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank">search if there is already an issue for it.</a>' +
-        '</td>';
-      html += tempText2;
+    //   if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
+    //     match = true;
+    //   }
+    //   if (hit.originalName == content.query) {
+    //     same = true;
+    //   }
+    //   var githubDetails = '';
+    //   if (hit.github) {
+    //     var user = getSafeHighlightedValue(hit._highlightResult.github.user);
+    //     var repo = getSafeHighlightedValue(hit._highlightResult.github.repo);
+    //     githubDetails = '<ul class="list-inline">' +
+    //       // '<li><i class="fa fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '">' + user + '/' + repo + '</a></li>' +
+    //       '<li><i class="fa fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
+    //     '</ul>';
+    //   }
+    //
+    //   var description = getSafeHighlightedValue(hit._highlightResult.description);
+    //   var row = '<tr id="' + hit.objectID + '">' +
+    //     '<td>' +
+    //       '<p><a itemprop="name" href="/libraries/'+ hit.name + '">' +
+    //         hit._highlightResult.name.value +
+    //       '</a></p>' +
+    //       '<ul class="list-inline">' +
+    //         $.map(hit._highlightResult.keywords || [], function(e) {
+    //           var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
+    //           return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>';
+    //         }).join(' ') +
+    //       '</ul>' +
+    //       githubDetails +
+    //     '</td>' +
+    //     '<td style="white-space: nowrap;">' +
+    //       '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
+    //         '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">https://cdnjs.cloudflare.com/ajax/libs/' + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
+    //       '</div>' +
+    //     '</td>' +
+    //   '</tr>';
+    //   html += row;
+    // }
+    // if (!content.hits.length || !match || !same) {
+    //   var libraryName = content.query;
+    //
+    //   var tempText  = ( match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
+    //   var tempText2 =
+    //     '<br /><td class="text-center well" colspan="2">' +
+    //     tempText + ' Would you like to ' +
+    //     '<a href="' +
+    //       'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20' +
+    //       libraryName +
+    //       '%20&body=**Library%20name%3A**%20' +
+    //       libraryName +
+    //       '%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**'+
+    //       'License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?' +
+    //       '%20Leave%20message%20here%3A**%0A%0A%0A%0A=====================%0ANotes%20from' +
+    //       '%20cdnjs%20maintainer%3A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending' +
+    //       '%20pull%20request%2C%0Ait%27ll%20be%20faster%20then%20just%20opening%20a%20request%20' +
+    //       'issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!' +
+    //       '" target="_blank">request it?</a>' +
+    //       ' Or just <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank">search if there is already an issue for it.</a>' +
+    //     '</td>';
+    //   html += tempText2;
     }
 
     $hits.html(html);
