@@ -2,7 +2,7 @@
 
 
 var TEMPLATE_SEARCH_RESULT_STRING = '\
-  <div class="search-result">   \
+  <div class="search-result library-column">   \
     <div class="library-name"><a href="/libraries/{{slug}}">{{{name}}}</a></div>         \
     <div class="library-stars"><span class="octicon octicon-star"></span> {{stars}}</div>         \
     <div class="library-url">{{url}}</div>                    \
@@ -31,16 +31,19 @@ var TEMPLATE_SEARCH_RESULT_STRING = '\
   }
 
 
-  var copyEl = $('<div/>').addClass('btn-group copy-button-group');
-  var copyElButton = $('<button/>').attr('data-copy-type','').attr('type', 'button').addClass('btn btn-primary btn-sm copy-button').text('Copy');
-  var toggleButton = $('<button/>').attr('data-toggle', 'dropdown').attr('type', 'button').addClass('btn btn-primary btn-sm dropdown-toggle').append($('<span/>').addClass('caret'));
+  var copyEl = $('<div/>').addClass('copy-button-container');
+  var copyElButton = $('<button/>').attr('data-copy-type','').attr('type', 'button').addClass('copy-button').text('Copy');
+  var toggleButton = $('<button/>').attr('data-toggle', 'dropdown')
+    .html('<span class="octicon octicon-triangle-down"></span>')
+    .attr('type', 'button').addClass('copy-button-trigger').append($('<span/>').addClass('caret'));
   copyElButton.appendTo(copyEl);
   toggleButton.appendTo(copyEl);
-  copyEl.append('<ul class="dropdown-menu copy-options">' +
-                    '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="#">Copy Url</a></li>' +
-                    '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy Script Tag</a></li>' +
-                    '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy Link Tag</a></li>' +
-                 '</ul>');
+
+  // copyEl.append('<ul class="dropdown-menu copy-options">' +
+  //                   '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="#">Copy Url</a></li>' +
+  //                   '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy Script Tag</a></li>' +
+  //                   '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy Link Tag</a></li>' +
+  //                '</ul>');
 
   var copyContainer = $('<div/>');
   copyEl.attr('style', 'display: none;');
@@ -50,11 +53,11 @@ var TEMPLATE_SEARCH_RESULT_STRING = '\
   function setupMouseEvents() {
     // Currently not showing the copy button for iOS, check clipboard.js support
     if(!(/iPhone|iPad/i.test(navigator.userAgent))) {
-      // $('.library-column').on( "mouseenter", function(ev) {
-      //   var cont = $(ev.currentTarget);
-      //   copyEl.show();
-      //   copyEl.appendTo(cont);
-      // });
+      $('.library-column').on( "mouseenter", function(ev) {
+        var cont = $(ev.currentTarget);
+        copyEl.show();
+        copyEl.appendTo(cont);
+      });
       if (clipboard) {
         clipboard.destroy();
       }

@@ -235,6 +235,7 @@ body {
 }
 .search-result {
   padding: 20px;
+  position: relative;
 }
 .search-result:hover {
   background: #fff6f2;
@@ -335,6 +336,7 @@ body {
   margin-left: 10px;
   line-height: 38px;
   height: 38px;
+  outline: none;
 }
 .library-url {
   font-size: 16px;
@@ -349,4 +351,30 @@ body {
 }
 .assets table {
   width: 100%;
+}
+.copy-button-container {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  color: #fff;
+  height: 30px;
+}
+.copy-button-container .copy-button {
+  line-height: 30px;
+  background: #ff5000;
+  border: 0;
+  padding: 10px 5px 10px 10px;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  outline: 0;
+}
+.copy-button-container .copy-button-trigger {
+  line-height: 30px;
+  background: #ff5000;
+  outline: 0;
+  font-size: 16px !important;
+  border: 0;
+  padding: 10px 10px 10px 5px;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
 }
