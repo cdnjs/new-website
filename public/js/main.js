@@ -193,29 +193,27 @@
       '</tr>';
       html += row;
     }
-    if (!content.hits.length || !match) {
-      var libraryName = escape(content.query);
+    var libraryName = escape(content.query);
 
-      var tempText  = ( match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
-      var tempText2 =
-        '<br /><td class="text-center well" colspan="2">' +
-        tempText + ' Would you like to ' +
-        '<a href="' +
-          'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20' +
-          libraryName +
-          '%20&body=**Library%20name%3A**%20' +
-          libraryName +
-          '%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**'+
-          'License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?' +
-          '%20Leave%20message%20here%3A**%0A%0A%0A%0A=====================%0ANotes%20from' +
-          '%20cdnjs%20maintainer%3A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending' +
-          '%20pull%20request%2C%0Ait%27ll%20be%20faster%20then%20just%20opening%20a%20request%20' +
-          'issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!' +
-          '" target="_blank">request it?</a>' +
-          ' Or just <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank">search if there is already an issue for it.</a>' +
-        '</td>';
-      html += tempText2;
-    }
+    var tempText  = ( match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
+    var tempText2 =
+      '<br /><td class="text-center well" colspan="2">' +
+      tempText + ' Would you like to ' +
+      '<a href="' +
+        'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20' +
+        libraryName +
+        '%20&body=**Library%20name%3A**%20' +
+        libraryName +
+        '%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**'+
+        'License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?' +
+        '%20Leave%20message%20here%3A**%0A%0A%0A%0A=====================%0ANotes%20from' +
+        '%20cdnjs%20maintainer%3A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending' +
+        '%20pull%20request%2C%0Ait%27ll%20be%20faster%20then%20just%20opening%20a%20request%20' +
+        'issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!' +
+        '" target="_blank">request it?</a>' +
+        ' Or just <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank">search if there is already an issue for it.</a>' +
+      '</td>';
+    html += tempText2;
 
     $hits.html(html);
 
