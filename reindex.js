@@ -81,11 +81,6 @@ function crawl(gnext) {
   async.eachLimit(LIBRARIES, 16, function(library, next) {
     var urls = [];
     // collect all repository urls
-    if (library.repositories && _.isArray(library.repositories)) {
-      for (var i = 0; i < library.repositories.length; ++i) {
-        urls.push(library.repositories[i].url);
-      }
-    }
     if (library.repository) {
       if (_.isObject(library.repository)) {
         urls.push(library.repository.url);

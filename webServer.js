@@ -201,22 +201,14 @@ function start() {
 
     function libraryGitRepoList(library) {
         urls = [];
-        temp = [];
 
-        if (library.repository != undefined) {
-            temp[0] = library.repository;
-        } else if (library.repositories != undefined) {
-            temp = library.repositories;
-        } else {
+        if (library.repository == undefined) {
             return null;
         }
 
-        for (repo in temp) {
-            if (temp[repo].type === 'git') {
-                urls.push({'url': GitUrlParse(temp[repo].url).toString("https")});
-            }
+        if (library.repository.type === 'git') {
+            urls.push({'url': GitUrlParse(library.repository.url).toString("https")});
         }
-        delete temp;
         library.urls = urls;
         return urls;
     }
