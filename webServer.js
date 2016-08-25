@@ -69,7 +69,7 @@ function start() {
     var LIBRARIES_MAP = {};
     _.each(LIBRARIES, function(library) {
         library.originalName = library.name;
-        library.id = library.name.replace(/\./g, '');
+        library.id = library.name;
 
         if (library.filename && library.filename.substr(library.filename.length - 3, library.filename.length) === 'css') {
             library.fileType = 'css';
@@ -77,7 +77,7 @@ function start() {
             library.fileType = 'js';
         }
         library.keywords = library.keywords && library.keywords.join(', ');
-        LIBRARIES_MAP[library.name.replace(/\./g, '')] = library;
+        LIBRARIES_MAP[library.name] = library;
 
     });
     delete LIBRARIES;
@@ -265,11 +265,11 @@ function start() {
 
     function libraryResponse(req, res) {
         setCache(res, 1);
-        var libraryRealName = req.params.library,
-          libraryName = req.params.library.replace(/\./g, ''),
+        var libraryName = req.params.library,
           library = LIBRARIES_MAP[libraryName],
-          srcpath = path.resolve(__dirname, 'tutorials', libraryRealName),
+          srcpath = path.resolve(__dirname, 'tutorials', libraryName),
           tutorialPackages = [];
+
         if(fs.existsSync(srcpath)){
             var directories = fs.readdirSync(srcpath).filter(function(file) {
                 return fs.statSync(path.resolve(srcpath, file)).isDirectory();
@@ -322,7 +322,7 @@ function start() {
                     licenses: licenses,
                     selectedAssets: _.find(assets, {version: version}),
                     tutorials: tutorialPackages,
-                    libraryRealName: libraryRealName,
+                    libraryRealName: libraryName,
                     tutorialsPresent: tutorialsPresent
                 },
                 description: library && (library.name + " - " + library.description)
