@@ -79,26 +79,7 @@ body {
 .octicon {
   font: normal normal normal 20px/1 octicons !important;
 }
-.hired-banner {
-  height: 60px;
-  position: fixed;
-  width: 100%;
-  background: #f2f2f2;
-  bottom: 0;
-  left: 0;
-  .container {
-    padding: 0 20px;
-  }
-  .hired-logo {
-    float: left;
-    line-height: 60px;
-    font-weight: bold;
-  }
-  .hired-promo {
-    float: right;
-    line-height: 60px;
-  }
-}
+
 .library-container {
   margin-top: 70px;
   padding: 0 20px;
@@ -174,9 +155,9 @@ body {
   right: 20px;
   top: 40px;
   color: #fff;
-  height: 30px;
+  height: 20px;
   .copy-button {
-    line-height: 30px;
+    line-height: 20px;
     background: @color-brand;
     border: 0;
     padding: 10px 5px 10px 10px;
@@ -185,7 +166,7 @@ body {
     outline: 0;
   }
   .copy-button-trigger {
-      line-height: 30px;
+      line-height: 20px;
       background: @color-brand;
       outline: 0;
       font-size: 16px !important;
@@ -193,5 +174,167 @@ body {
       padding: 10px 10px 10px 5px;
       border-top-right-radius: 9px;
       border-bottom-right-radius: 9px;
+  }
+}
+
+
+.hired-banner {
+  height: 60px;
+  line-height: 52px;
+  font-family: 'GothamSSm';
+  position: fixed;
+  width: 100%;
+  background: #f2f2f2;
+  bottom: 0;
+  transition: height ease-in 0.4s;
+  left: 0;
+  // border-top: 1px solid #ccc;
+  cursor: pointer;
+  .container {
+    padding: 0 20px;
+  }
+  .hired-header {
+    background: #f2f2f2;
+  }
+  .hired-logo {
+    letter-spacing: 10px;
+    float: left;
+    line-height: 52px;
+    transition: all ease-in 0.4s;
+    font-weight: 500;
+  }
+  .hired-promo {
+    float: right;
+    font-weight: 300;
+    transition: opacity ease-in 0.4s;
+    line-height: 52px;
+  }
+  .first-pitch {
+    text-align: center;
+    font-size: 28px;
+  }
+  .first-copy {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  &.maximised {
+    height: 100%;
+    .hired-triangle {
+      display: none;
+    }
+    .hired-logo {
+      font-size: 50px;
+      padding-left: 50%;
+      margin-left: -105px;
+      margin-top: 50px;
+    }
+    .hired-promo {
+      opacity: 0;
+    }
+
+  }
+  .hired-privacy {
+    font-size: 12px;
+    color: #BABBC1;
+    text-align: center;
+  }
+
+  .email-input {
+    outline: 0;
+    border: 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    height: 3rem;
+    padding: 15px 15px;
+    border-radius: 0.2rem;
+    width: 500px;
+    margin: auto;
+    display: block;
+    border: 1px solid #BABBC1;
+    &:hover {
+      border: 1px solid #787985;
+    }
+  }
+  .get-job-offers {
+    width: 500px;
+    margin: auto;
+    display: block;
+    background: #1CB78C;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 40px;
+    padding-bottom: 10px;5
+    letter-spacing: 2px;
+    margin-top: 10px;
+    &:hover {
+      background: #55c9a9;
+    }
+  }
+  &:hover {
+    .hired-triangle {
+      margin-left: -20px;
+    }
+  }
+  .hired-divider {
+    border-top: 1px solid #ccc;
+    margin: 50px 0;
+  }
+  .hired-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent #f2f2f2 transparent;
+    position: absolute;
+    left: 50%;
+    margin-left: 300px;
+    transition: margin-left ease-in 0.2s;
+    top: -20px;
+
+
+  }
+
+  .list-numbered {
+    list-style: none;
+    counter-reset: line;
+    width: 500px;
+    margin: auto;
+    margin-left: 50px;
+  }
+
+  .list-numbered > li {
+    position: relative;
+    margin-bottom: 1.5em;
+    line-height: 40px;
+  }
+
+  .list-numbered > li:before {
+    background-color: #36373E;
+    border-radius: 10rem;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 2.4rem;
+    left: 0;
+    line-height: 2rem;
+    margin-left: -3.6rem;
+    margin-top: -17px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 2.4rem;
+    z-index: 1;
+    counter-increment: line;
+    content: counter(line);
+  }
+  .how-it-works {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }

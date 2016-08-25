@@ -278,5 +278,8 @@ var TEMPLATE_SEARCH_RESULT_STRING = '\
     window.location.href = newURL;
   });
 
+  $('.hired-banner').on('click', function (ev) {
+    $('.hired-banner').toggleClass('maximised');
+  });
 
 })(jQuery);
