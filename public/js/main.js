@@ -30,6 +30,7 @@
 
 
 (function($) {
+    baseURI = cdn_provider_base_url[cdn_provider] + $('h1#libraryName').html() + '/' + $('select.version-selector :selected').val() + '/';
     function selectText(element) {
       var doc = document;
       var text = element;
@@ -54,11 +55,13 @@
   var toggleButton = $('<button/>').attr('data-toggle', 'dropdown').attr('type', 'button').addClass('btn btn-primary btn-sm dropdown-toggle').append($('<span/>').addClass('caret'));
   copyElButton.appendTo(copyEl);
   toggleButton.appendTo(copyEl);
+  var SRIcopyButton = (typeof(SRI) != "undefined") ? ('<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy Script Tag with SRI</a></li>' +
+                    '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy Link Tag with SRI</a></li>') : '';
   copyEl.append('<ul class="dropdown-menu copy-options">' +
                     '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="#">Copy Url</a></li>' +
                     '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy Script Tag</a></li>' +
-                    '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy Link Tag</a></li>' +
-                 '</ul>');
+                    '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy Link Tag</a></li>' + SRIcopyButton +
+                    '</ul>');
 
   var copyContainer = $('<div/>');
   copyEl.attr('style', 'display: none;');
@@ -86,10 +89,21 @@
         var button = $(trigger);
         var embed = button.attr('data-copy-embed');
         var url = $('.library-url', button.parents('.library-column')).text();
+        var fileSRI;
+        if (typeof(SRI) != "undefined") {
+          fileSRI = SRI[url.replace(baseURI,'')] ;
+        }
         if(embed === 'script') {
           url = '<script type="text/javascript" src="' + url + '"></script>';
-        } else if (embed === 'link') {
+        }
+        else if (embed === 'script-sri') {
+          url = '<script type="text/javascript" src="' + url + '" integrity="' + fileSRI + '" crossorigin="anonymous"></script>';
+        }
+        else if (embed === 'link') {
           url = '<link rel="stylesheet" href="' + url + '">';
+        }
+        else if (embed === 'link-sri') {
+          url = '<link rel="stylesheet" href="' + url + '" integrity="' + fileSRI + '"crossorigin="anonymous">';
         }
         return url;
       }
