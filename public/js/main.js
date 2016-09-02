@@ -100,10 +100,10 @@
           url = '<script type="text/javascript" src="' + url + '" integrity="' + fileSRI + '" crossorigin="anonymous"></script>';
         }
         else if (embed === 'link') {
-          url = '<link rel="stylesheet" href="' + url + '">';
+          url = '<link rel="stylesheet" href="' + url + '" />';
         }
         else if (embed === 'link-sri') {
-          url = '<link rel="stylesheet" href="' + url + '" integrity="' + fileSRI + '"crossorigin="anonymous">';
+          url = '<link rel="stylesheet" href="' + url + '" integrity="' + fileSRI + '"crossorigin="anonymous" />';
         }
         return url;
       }
