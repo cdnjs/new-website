@@ -307,7 +307,12 @@ function start() {
             return res.status(404).send(libraryName + ' version not found!');
         }
 
-        var SRI = fs.readFileSync('sri/' + libraryName + '/' + version + '.json');
+        var SRI;
+        try {
+          SRI = fs.readFileSync('sri/' + libraryName + '/' + version + '.json');
+        } catch (e) {
+          SRI = {};
+        }
         var licenses = librarylicensesList(library);
         var assets = libraryAssetsList(library, version);
         if (!library.urls) {
