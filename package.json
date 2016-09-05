@@ -30,7 +30,7 @@
     "compression": "^1.6",
     "condense-whitespace": "^1.0.0",
     "express": "^4.13",
-    "git-url-parse": "^5.0.1",
+    "git-url-parse": "^6.0.2",
     "github": "^0.2",
     "gravatar": "^1.4.0",
     "highlight.js": "^9.1.0",
@@ -41,6 +41,6 @@
     "newline-remove": "^1.0.2",
     "newrelic": "^1.25.1",
     "replaceall": "^0.1.6",
-    "throng": "^1.0.1"
+    "throng": "^4.0.0"
   }
 }
