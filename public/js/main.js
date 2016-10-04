@@ -291,7 +291,7 @@
       }
     }
   }
-  
+
   searchByHash();
   // Put favorite libraries at the top of the list
   //putClassOnFavorites(getFavorites());
@@ -312,6 +312,17 @@
     var newURL = window.location.origin + '/libraries/' + libraryName + '/' + libraryVersion;
     window.location.href = newURL;
   });
-
+  $('.hired-banner .header').on('click', function (ev) {
+    $('.hired-banner').toggleClass('maximised');
+  });
+  $('.hired-banner .close-banner').on('click', function (ev) {
+    $('.hired-banner').toggleClass('maximised');
+  });
+  $('.hired-form').on('submit', function () {
+    var email = $('.email-input').val();
+    var hiredUrl = 'https://hired.com/signup/' + email + '?utm_source=sponsor&utm_medium=cdnjs&utm_campaign=q3-16';
+    window.location.href = hiredUrl;
+    return false;
+  })
 
 })(jQuery);
