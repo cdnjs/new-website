@@ -313,12 +313,22 @@
     window.location.href = newURL;
   });
   $('.hired-banner .header').on('click', function (ev) {
+    if(!$('.hired-banner').hasClass('maximised')) {
+     
+      if (ga) { ga('send', 'event', 'hired', 'opened_banner'); };
+    }
     $('.hired-banner').toggleClass('maximised');
+    
+      if (ga) { ga('send', 'event', 'hired', 'opened_banner'); };
   });
   $('.hired-banner .close-banner').on('click', function (ev) {
     $('.hired-banner').toggleClass('maximised');
+   
+      if (ga) { ga('send', 'event', 'hired', 'closed_banner'); };
   });
   $('.hired-form').on('submit', function () {
+   
+      if (ga) { ga('send', 'event', 'hired', 'submitted_banner'); };
     var email = $('.email-input').val();
     var hiredUrl = 'https://hired.com/signup/' + email + '?utm_source=sponsor&utm_medium=cdnjs&utm_campaign=q4-16-banner';
     window.location.href = hiredUrl;
