@@ -320,7 +320,7 @@
   });
   $('.hired-form').on('submit', function () {
     var email = $('.email-input').val();
-    var hiredUrl = 'https://hired.com/signup/' + email + '?utm_source=sponsor&utm_medium=cdnjs&utm_campaign=q3-16';
+    var hiredUrl = 'https://hired.com/signup/' + email + '?utm_source=sponsor&utm_medium=cdnjs&utm_campaign=q4-16-banner';
     window.location.href = hiredUrl;
     return false;
   })
