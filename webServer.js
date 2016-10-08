@@ -1,21 +1,20 @@
 #!/usr/bin/env node
 require('newrelic');
-var throng = require('throng'),
-  gravatar = require('gravatar'),
-  GitUrlParse = require("git-url-parse"),
-  removeNewline = require('newline-remove'),
-  replaceall = require("replaceall"),
-  condenseWhitespace = require('condense-whitespace'),
-  fs = require('fs'),
-  licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8')),
-  WORKERS = process.env.WEB_CONCURRENCY || 1,
-  PORT = Number(process.env.PORT || 5500),
-  TITLE = 'cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!',
-  request = 'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20_library_name_%20&body=**Library%20name%3A**%20%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?%20Leave%20message%20here%3A**%0A%0A=====================%0ANotes%20from%20cdnjs%20maintainer%3A%0APlease%20read%20the%20README.md%20and%20CONTRIBUTING.md%20document%20first.%0A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending%20pull%20request%2C%0Ait%27ll%20be%20faster%20than%20just%20opening%20a%20request%20issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!',
-  args = process.argv.slice(2),
-  localMode = false;
+var throng = require('throng');
+var gravatar = require('gravatar');
+var gitUrlParse = require("git-url-parse");
+var removeNewline = require('newline-remove');
+var condenseWhitespace = require('condense-whitespace');
+var fs = require('fs');
+var licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8'));
+var WORKERS = process.env.WEB_CONCURRENCY || 1;
+var PORT = Number(process.env.PORT || 5500);
+var TITLE = 'cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!';
+var request = 'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20_library_name_%20&body=**Library%20name%3A**%20%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?%20Leave%20message%20here%3A**%0A%0A=====================%0ANotes%20from%20cdnjs%20maintainer%3A%0APlease%20read%20the%20README.md%20and%20CONTRIBUTING.md%20document%20first.%0A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending%20pull%20request%2C%0Ait%27ll%20be%20faster%20than%20just%20opening%20a%20request%20issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!';
+var args = process.argv.slice(2);
+var localMode = false;
 
-if (args.length > 0 && (args[0] == '--local' || args[2] == '--local') ) {
+if (args.length > 0 && (args[0] === '--local' || args[2] === '--local')) {
   console.log("local mode: on, gc(), CSP and Public-Key-Pins headers disabled!");
   localMode = true;
 } else {
@@ -23,456 +22,443 @@ if (args.length > 0 && (args[0] == '--local' || args[2] == '--local') ) {
 }
 
 throng(start, {
-    workers: WORKERS,
-    lifetime: Infinity
+  workers: WORKERS,
+  lifetime: Infinity
 });
 
 function start() {
-    var express = require("express"),
-      fs = require("fs"),
-      _ = require("lodash"),
-      Mustache = require("mustache"),
-      app = express(),
-      compress = require('compression'),
-      highlight = require('highlight.js'),
-      marked = require( "marked" ),
-      path = require('path');
-    highlight.configure({
-      tabReplace: '  '
-                          // … other options aren't changed
-    })
-    app.disable('x-powered-by');
-    app.use(function(req, res, next) {
-        res.setHeader('X-Frame-Options', 'deny');
-        res.setHeader('X-Content-Type-Options', 'nosniff');
-        res.setHeader('X-XSS-Protection', '1; mode=block');
-        if(!localMode) {
-          res.setHeader('Public-Key-Pins', 'pin-sha256="EULHwYvGhknyznoBvyvgbidiBH3JX3eFHHlIO3YK8Ek=";pin-sha256="x9SZw6TwIqfmvrLZ/kz1o0Ossjmn728BnBKpUFqGNVM=";max-age=3456000;report-uri="https://cdnjs.report-uri.io/r/default/hpkp/enforce');
-          res.setHeader('Content-Security-Policy', "upgrade-insecure-requests; default-src 'unsafe-eval' 'self' *.carbonads.com *.getclicky.com fonts.gstatic.com www.google-analytics.com fonts.googleapis.com cdnjs.cloudflare.com 'unsafe-inline' https: data: ;report-uri https://cdnjs.report-uri.io/r/default/hpkp/enforce");
-        }
-        next();
-    });
-    app.use(compress());
-
-    if (!localMode && (typeof global.gc != 'undefined')) {
-      global.gc();
+  var express = require("express");
+  var fs = require("fs");
+  var _ = require("lodash");
+  var Mustache = require("mustache");
+  var app = express();
+  var compress = require('compression');
+  var highlight = require('highlight.js');
+  var marked = require("marked");
+  var path = require('path');
+  highlight.configure({
+    tabReplace: '  '
+  });
+  app.disable('x-powered-by');
+  app.use(function(req, res, next) {
+    res.setHeader('X-Frame-Options', 'deny');
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('X-XSS-Protection', '1; mode=block');
+    if (!localMode) {
+      res.setHeader('Public-Key-Pins', 'pin-sha256="EULHwYvGhknyznoBvyvgbidiBH3JX3eFHHlIO3YK8Ek=";pin-sha256="x9SZw6TwIqfmvrLZ/kz1o0Ossjmn728BnBKpUFqGNVM=";max-age=3456000;report-uri="https://cdnjs.report-uri.io/r/default/hpkp/enforce');
+      res.setHeader('Content-Security-Policy', "upgrade-insecure-requests; default-src 'unsafe-eval' 'self' *.carbonads.com *.getclicky.com fonts.gstatic.com www.google-analytics.com fonts.googleapis.com cdnjs.cloudflare.com 'unsafe-inline' https: data: ;report-uri https://cdnjs.report-uri.io/r/default/hpkp/enforce");
     }
+    next();
+  });
+  app.use(compress());
+
+  if (!localMode && (typeof global.gc !== 'undefined')) {
+    global.gc();
+  }
 
     // Serve public folder
-    app.use(express.static(__dirname + '/public', {
-        maxAge: 7200 * 1000
-    }));
+  app.use(express.static(__dirname + '/public', {
+    maxAge: 7200 * 1000
+  }));
 
     // Load libraries into ram
-    var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
+  var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
 
     // Map libraries array into object for easy access
-    var LIBRARIES_MAP = {};
-    _.each(LIBRARIES, function(library) {
-        library.originalName = library.name;
-        library.id = library.name;
+  var LIBRARIES_MAP = {};
+  _.each(LIBRARIES, function(library) {
+    library.originalName = library.name;
+    library.id = library.name;
 
-        if (library.filename && library.filename.substr(library.filename.length - 3, library.filename.length) === 'css') {
-            library.fileType = 'css';
-        } else {
-            library.fileType = 'js';
-        }
-        library.keywords = library.keywords && library.keywords.join(', ');
-        LIBRARIES_MAP[library.name] = library;
-
-    });
-    delete LIBRARIES;
-    function generateSlug(value) {
-        return value.replace(/-+/g, '').replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-    };
-
-    function getTemplate(templateURL, simple) {
-        if (simple === true) {
-            return fs.readFileSync(templateURL, 'utf8');
-        }
-        return removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')));
-
+    if (library.filename && library.filename.substr(library.filename.length - 3, library.filename.length) === 'css') {
+      library.fileType = 'css';
+    } else {
+      library.fileType = 'js';
     }
+    library.keywords = library.keywords && library.keywords.join(', ');
+    LIBRARIES_MAP[library.name] = library;
+  });
+  LIBRARIES = null;
+
+  function getTemplate(templateURL, simple) {
+    if (simple === true) {
+      return fs.readFileSync(templateURL, 'utf8');
+    }
+    return removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')));
+  }
 
     // Templates
-    var templates = {
-        layout: getTemplate('templates/layout.html'),
-        home: getTemplate('templates/home.html'),
-        libraries: getTemplate('templates/libraries.html'),
-        library: getTemplate('templates/library.html'),
-        login: getTemplate('templates/login.html'),
-        register: getTemplate('templates/register.html'),
-        profile: getTemplate('templates/profile.html'),
-        members: getTemplate('templates/members.html'),
-        news: getTemplate('templates/news.html'),
-        newsfeed_item: getTemplate('templates/newsfeed_item.html'),
-        newsfeed: getTemplate('templates/newsfeed.html'),
-        about: getTemplate('templates/about.html'),
-        tutorials: getTemplate('templates/tutorials.html', true),
-        tutorial: getTemplate('templates/tutorial.html', true)
+  var templates = {
+    layout: getTemplate('templates/layout.html'),
+    home: getTemplate('templates/home.html'),
+    libraries: getTemplate('templates/libraries.html'),
+    library: getTemplate('templates/library.html'),
+    login: getTemplate('templates/login.html'),
+    register: getTemplate('templates/register.html'),
+    profile: getTemplate('templates/profile.html'),
+    members: getTemplate('templates/members.html'),
+    news: getTemplate('templates/news.html'),
+    newsfeed_item: getTemplate('templates/newsfeed_item.html'),
+    newsfeed: getTemplate('templates/newsfeed.html'),
+    about: getTemplate('templates/about.html'),
+    tutorials: getTemplate('templates/tutorials.html', true),
+    tutorial: getTemplate('templates/tutorial.html', true)
+  };
+
+  var generatePage = function(options) {
+    var layout = options.layout || templates.layout;
+    var title = options.title || TITLE;
+    var keywords = options.page.data && options.page.data.library && options.page.data.library.keywords || 'CDN,CDNJS,js,css,library,web,front-end,free,open-source,png,plugin,ng,jQuery,angular';
+    var description = (options.page && options.page.description) ? options.page.description + ' - ' + TITLE : TITLE;
+    var page = {
+      data: options.page && options.page.data || {},
+      template: options.page && options.page.template || 'No content'
+    };
+    var pageContent = Mustache.render(page.template, page.data);
+    var fullContent = Mustache.render(layout, {
+      url: options.reqUrl,
+      title: title,
+      keywords: keywords,
+      description: description,
+      page: pageContent,
+      request: request,
+      wrapperClass: options.wrapperClass || ''
+    });
+    return fullContent;
+  };
+  var setCache = function(res, hours) {
+    res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours); // 4 days
+    res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
+  };
+
+  var serverPush = function(res, uri) {
+    var temp = uri.split('.');
+    var ext = temp[temp.length - 1];
+    var as = -1;
+    switch (ext) {
+      case 'js':
+        as = 'script';
+        break;
+      case 'css':
+        as = 'style';
+        break;
+      case 'png' :
+      case 'jpg' :
+      case 'jpeg':
+      case 'gif' :
+      case 'ico' :
+        as = 'image';
+        break;
+      case 'xml' :
+        as = '';
+        break;
+      default:
+        break;
+    }
+    if (as !== -1) {
+      res.append("Link", "<" + uri + ">; rel=preload; as=" + as);
+    }
+    temp = null;
+    ext = null;
+    as = null;
+  };
+
+  function pushAssets(res) {
+    serverPush(res, '/css/theme.css');
+    serverPush(res, '/css/main.css');
+    serverPush(res, '/js/main.js');
+  }
+
+  app.get('/request-new-lib', function(req, res) {
+    return res.redirect(302, request);
+  });
+
+  app.get('/cdnjs.cloudflare.com/*', function(req, res) {
+    return res.redirect(301, 'https:/' + req.url);
+  });
+
+  app.get('/', function(req, res) {
+    pushAssets(res);
+    serverPush(res, '/img/algolia64x20.png');
+    setCache(res, 2);
+    res.send(generatePage({
+      reqUrl: req.url,
+      page: {
+        template: templates.home,
+        data: {
+          libCount: Object.keys(LIBRARIES_MAP).length
+        }
+      },
+      wrapperClass: 'home'
+    }));
+  });
+
+  function libraryGitRepoList(library) {
+    var urls = [];
+
+    if (library.repository === undefined) {
+      return null;
     }
 
-    var generatePage = function(options) {
-        var layout = options.layout || templates.layout,
-          title = options.title || TITLE,
-          keywords = options.page.data && options.page.data.library && options.page.data.library.keywords || 'CDN,CDNJS,js,css,library,web,front-end,free,open-source,png,plugin,ng,jQuery,angular',
-          description = (options.page && options.page.description) ? options.page.description + ' - ' + TITLE : TITLE,
+    if (library.repository.type === 'git') {
+      urls.push({url: gitUrlParse(library.repository.url).toString("https")});
+    }
+    library.urls = urls;
+    return urls;
+  }
 
-          page = {
-            data: options.page && options.page.data || {},
-            template: options.page && options.page.template || 'No content'
+  function librarylicensesList(library) {
+    if (library.license === undefined && library.licenses === undefined) {
+      return null;
+    }
+    if (library.license !== undefined) {
+      library.licenses = [];
+      library.licenses[0] = library.license;
+      delete library.license;
+    }
+    for (var license in library.licenses) {
+      if (typeof (library.licenses[license]) !== 'object') {
+        var temp = library.licenses[license];
+        library.licenses[license] = {};
+        library.licenses[license].type = temp;
+        library.licenses[license].url = '#';
+      }
+      if (licenses.indexOf(library.licenses[license].type) !== -1) {
+        library.licenses[license].url = 'https://spdx.org/licenses/' + library.licenses[license].type + '.html';
+      }
+    }
+    return library.licenses;
+  }
+
+  function libraryAssetsList(library, version) {
+    return _.map(library.assets, function(assets) {
+      if (assets.version === version) {
+        assets.selected = 'selected';
+      } else {
+        assets.selected = '';
+      }
+      if (assets.gennedFileNames === undefined) {
+        var fileArray = [];
+        assets.files.map(function(fileName, index) {
+          var fileExtension = path.extname(fileName);
+          var fileType = fileExtension.substring(1) || 'unknown';
+          fileArray.push({name: fileName, fileType: fileType});
+        });
+        assets.files = fileArray;
+        assets.gennedFileNames = true;
+      }
+      return assets;
+    });
+  }
+
+  function libraryResponse(req, res) {
+    setCache(res, 1);
+    var libraryName = req.params.library;
+    var library = LIBRARIES_MAP[libraryName];
+    var srcpath = path.resolve(__dirname, 'tutorials', libraryName);
+    var tutorialPackages = [];
+
+    if (fs.existsSync(srcpath)) {
+      var directories = fs.readdirSync(srcpath).filter(function(file) {
+        return fs.statSync(path.resolve(srcpath, file)).isDirectory();
+      });
+
+      tutorialPackages = _.map(directories, function(tutorial) {
+        var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
+        tutorialPackage.slug = tutorial;
+        return tutorialPackage;
+      });
+    }
+    var tutorialsPresent = tutorialPackages.length > 0;
+    if (!library) {
+      return res.redirect(307, '/#q=' + libraryName);
+    }
+
+    if (library.autoupdate && !library.autoupdate.url) {
+      library.autoupdate.string = library.autoupdate.type ? library.autoupdate.type + ' autoupdate enabled' : '';
+      switch (library.autoupdate.type) {
+        case 'npm':
+          library.autoupdate.url = 'https://npmjs.com/package/' + library.autoupdate.target;
+          break;
+        case 'git':
+          library.autoupdate.url = gitUrlParse(library.autoupdate.target).toString("https");
+          break;
+        default:
+          break;
+      }
+    }
+    if (!library.homepage && library.repository && library.repository.type === 'git') {
+      library.homepage = gitUrlParse(library.repository.url).toString("https");
+    }
+    var version = req.params.version || library.version;
+
+    if (!_.find(library.assets, {version: version})) {
+      return res.status(404).send(libraryName + ' version not found!');
+    }
+
+    var SRI;
+    try {
+      SRI = fs.readFileSync('sri/' + libraryName + '/' + version + '.json');
+    } catch (e) {
+      SRI = {};
+    }
+    var licenses = librarylicensesList(library);
+    var assets = libraryAssetsList(library, version);
+    if (!library.urls) {
+      library.urls = libraryGitRepoList(library);
+    }
+    res.send(generatePage({
+      reqUrl: req.url,
+      title: libraryName + ' - ' + TITLE,
+      page: {
+        template: templates.library,
+        data: {
+          library: library,
+          assets: assets,
+          SRI: SRI,
+          licenses: licenses,
+          selectedAssets: _.find(assets, {version: version}),
+          tutorials: tutorialPackages,
+          libraryRealName: libraryName,
+          tutorialsPresent: tutorialsPresent
         },
-          pageContent = Mustache.render(page.template, page.data),
-
-          fullContent = Mustache.render(layout, {
-            url: options.reqUrl,
-            title: title,
-            keywords: keywords,
-            description: description,
-            page: pageContent,
-            request: request,
-            wrapperClass: options.wrapperClass || ''
-        });
-        return fullContent;
-
-    }
-    var setCache = function(res, hours) {
-        res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours); // 4 days
-        res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
-    }
-
-    var serverPush = function(res, uri) {
-      var temp = uri.split('.'), ext = temp[temp.length-1], as = -1;
-      switch (ext) {
-        case 'js':
-          as='script';
-          break;
-        case 'css':
-          as='style';
-          break;
-        case 'png' :
-        case 'jpg' :
-        case 'jpeg':
-        case 'gif' :
-        case 'ico' :
-          as='image';
-          break;
-        case 'xml' :
-          as='';
-          break;
+        description: library && (library.name + " - " + library.description)
       }
-      delete temp;
-      if (as != -1) {
-        res.append("Link", "<" + uri + ">; rel=preload; as=" + as );
+    }));
+  }
+
+  app.get('/libraries/:library/tutorials', function(req, res) {
+    var library = req.params.library;
+    var srcpath = path.resolve(__dirname, 'tutorials', library);
+
+    var directories = fs.readdirSync(srcpath).filter(function(file) {
+      return fs.statSync(path.resolve(srcpath, file)).isDirectory();
+    });
+
+    var tutorialPackages = _.map(directories, function(tutorial) {
+      var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
+      tutorialPackage.slug = tutorial;
+      return tutorialPackage;
+    });
+
+    setCache(res, 72);
+    res.send(generatePage({
+      reqUrl: req.url,
+      page: {
+        template: templates.tutorials,
+        title: library + ' tutorials - ' + TITLE,
+        data: {
+          tutorials: tutorialPackages,
+          library: library
+        }
       }
-      delete temp;
-      delete ext;
-      delete as;
+    }));
+  });
+
+  app.get('/libraries/:library/tutorials/:tutorial', function(req, res) {
+    var library = req.params.library;
+    var tutorial = req.params.tutorial;
+    var srcpath = path.resolve(__dirname, 'tutorials', library);
+    var indexPath = path.resolve(srcpath, tutorial, 'index.md');
+
+    if (!fs.existsSync(indexPath)) {
+      return res.status(404).send('Tutorial not found!');
     }
 
-    function pushAssets(res) {
-        serverPush(res, '/css/theme.css');
-        serverPush(res, '/css/main.css');
-        serverPush(res, '/js/main.js');
-    }
-
-    app.get('/request-new-lib', function(req, res) {
-        return res.redirect(302, request);
+    var tutorialFile = fs.readFileSync(indexPath, 'utf8');
+    var directories = fs.readdirSync(srcpath).filter(function(file) {
+      return fs.statSync(path.resolve(srcpath, file)).isDirectory();
     });
 
-    app.get('/cdnjs.cloudflare.com/*', function(req, res) {
-        return res.redirect(301, 'https:/' + req.url);
+    var tutorialPackages = _.map(directories, function(tutorial) {
+      var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
+      tutorialPackage.slug = tutorial;
+      return tutorialPackage;
     });
 
-    app.get('/', function(req, res) {
-        pushAssets(res);
-        serverPush(res, '/img/algolia64x20.png');
-        setCache(res, 2);
-        res.send(generatePage({
-            reqUrl: req.url,
-            page: {
-                template: templates.home,
-                data: {
-                    libCount: Object.keys(LIBRARIES_MAP).length
-                }
-            },
-            wrapperClass: 'home'
-        }));
-    });
+    var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
+    var avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'});
 
-    function libraryGitRepoList(library) {
-        urls = [];
-
-        if (library.repository == undefined) {
-            return null;
-        }
-
-        if (library.repository.type === 'git') {
-            urls.push({'url': GitUrlParse(library.repository.url).toString("https")});
-        }
-        library.urls = urls;
-        return urls;
-    }
-
-    function librarylicensesList(library) {
-        if (library.license == undefined && library.licenses == undefined) {
-            return null;
-        }
-        if (library.license != undefined) {
-            library.licenses = [];
-            library.licenses[0] = library.license;
-            delete library.license;
-        }
-        for (license in library.licenses) {
-            if (typeof(library.licenses[license]) !== 'object') {
-                var temp = library.licenses[license];
-                library.licenses[license] = {};
-                library.licenses[license].type = temp;
-                library.licenses[license].url = '#';
-            }
-            if (licenses.indexOf(library.licenses[license].type) !== -1) {
-                library.licenses[license].url = 'https://spdx.org/licenses/' + library.licenses[license].type + '.html';
-            }
-        }
-        return library.licenses;
-    }
-
-    function libraryAssetsList(library, version) {
-        return _.map(library.assets, function(assets) {
-            if (assets.version === version) {
-                assets.selected = 'selected';
-            } else {
-                assets.selected = '';
-            }
-            if (assets.gennedFileNames === undefined) {
-                var fileArray = [];
-                assets.files.map(function(fileName, index) {
-                    var fileExtension = path.extname(fileName);
-                    var fileType = fileExtension.substring(1) || 'unknown';
-
-                    fileArray.push({"name": fileName, "fileType": fileType});
-                });
-                assets.files = fileArray;
-                assets.gennedFileNames = true;
-            }
-            return assets;
-        });
-    }
-
-    function checkVersion(library, version) {
-        return _.find(library.assets, { version: version });
-    }
-
-
-    function libraryResponse(req, res) {
-        setCache(res, 1);
-        var libraryName = req.params.library,
-          library = LIBRARIES_MAP[libraryName],
-          srcpath = path.resolve(__dirname, 'tutorials', libraryName),
-          tutorialPackages = [];
-
-        if(fs.existsSync(srcpath)){
-            var directories = fs.readdirSync(srcpath).filter(function(file) {
-                return fs.statSync(path.resolve(srcpath, file)).isDirectory();
-            });
-
-            var tutorialPackages = _.map(directories, function(tutorial) {
-                var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
-                tutorialPackage.slug = tutorial;
-                return tutorialPackage;
-            });
-        }
-        var tutorialsPresent = tutorialPackages.length > 0 ? true : false;
-        if(!library) {
-            return res.redirect(307, '/#q=' + libraryName);
-        }
-
-        if (library.autoupdate && !library.autoupdate.url) {
-            library.autoupdate.string = library.autoupdate.type ? library.autoupdate.type + ' autoupdate enabled' : '';
-            switch (library.autoupdate.type) {
-              case 'npm':
-                library.autoupdate.url = 'https://npmjs.com/package/' + library.autoupdate.target;
-                break;
-              case 'git':
-                library.autoupdate.url = GitUrlParse(library.autoupdate.target).toString("https");
-                break;
-            }
-        }
-        if (!library.homepage && library.repository && library.repository.type == 'git') {
-            library.homepage = GitUrlParse(library.repository.url).toString("https");
-        }
-        var version = req.params.version || library.version;
-
-        if(!_.find(library.assets, { version: version })) {
-            return res.status(404).send(libraryName + ' version not found!');
-        }
-
-        var SRI;
-        try {
-          SRI = fs.readFileSync('sri/' + libraryName + '/' + version + '.json');
-        } catch (e) {
-          SRI = {};
-        }
-        var licenses = librarylicensesList(library);
-        var assets = libraryAssetsList(library, version);
-        if (!library.urls) {
-            library.urls = libraryGitRepoList(library);
-        }
-        res.send(generatePage({
-            reqUrl: req.url,
-            title: libraryName + ' - ' + TITLE,
-            page: {
-                template: templates.library,
-                data: {
-                    library: library,
-                    assets: assets,
-                    SRI: SRI,
-                    licenses: licenses,
-                    selectedAssets: _.find(assets, {version: version}),
-                    tutorials: tutorialPackages,
-                    libraryRealName: libraryName,
-                    tutorialsPresent: tutorialsPresent
-                },
-                description: library && (library.name + " - " + library.description)
-            }
-        }));
-    }
-
-    app.get('/libraries/:library/tutorials', function (req, res) {
-        var library = req.params.library,
-          srcpath = path.resolve(__dirname, 'tutorials', library),
-
-          directories = fs.readdirSync(srcpath).filter(function(file) {
-            return fs.statSync(path.resolve(srcpath, file)).isDirectory();
-        });
-
-        var tutorialPackages = _.map(directories, function(tutorial) {
-            var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
-            tutorialPackage.slug = tutorial;
-            return tutorialPackage;
-        });
-
-        setCache(res, 72);
-        res.send(generatePage({
-            reqUrl: req.url,
-            page: {
-                template: templates.tutorials,
-                title: library + ' tutorials - ' + TITLE,
-                data: {
-                    tutorials: tutorialPackages,
-                    library: library
-                }
-            }
-        }));
-    });
-
-    app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
-        var library = req.params.library,
-          tutorial = req.params.tutorial,
-
-          srcpath = path.resolve(__dirname, 'tutorials', library),
-          indexPath = path.resolve(srcpath, tutorial, 'index.md');
-
-        if(!fs.existsSync(indexPath)) {
-            return res.status(404).send('Tutorial not found!');
-        }
-
-        var tutorialFile = fs.readFileSync(indexPath, 'utf8'),
-
-          directories = fs.readdirSync(srcpath).filter(function(file) {
-            return fs.statSync(path.resolve(srcpath, file)).isDirectory();
-        });
-
-        var tutorialPackages = _.map(directories, function(tutorial) {
-            var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
-            tutorialPackage.slug = tutorial;
-            return tutorialPackage;
-        });
-
-        var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8')),
-          avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'}),
-          marked = require( "marked" );
-
-        marked.setOptions({
-          renderer: new marked.Renderer(),
-          gfm: true,
-          tables: true,
-          breaks: false,
-          pedantic: false,
-          sanitize: false,
-          smartLists: false,
-          smartypants: false,
-          langPrefix: '',
-          //highlight: function (code, lang) {
+    marked.setOptions({
+      renderer: new marked.Renderer(),
+      gfm: true,
+      tables: true,
+      breaks: false,
+      pedantic: false,
+      sanitize: false,
+      smartLists: false,
+      smartypants: false,
+      langPrefix: ''
+          // highlight: function (code, lang) {
           //  var language = lang || 'html';
           //  return highlight.highlightAuto(code).value;
-          //}
-        });
-
-        setCache(res, 72);
-        res.send(generatePage({
-            reqUrl: req.url,
-            title:  tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
-            page: {
-                template: templates.tutorial,
-                data: {
-                    tute: marked( tutorialFile ),
-                    avatar: avatar,
-                    tutorial: tutorialPackage,
-                    disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
-                    disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
-                    disqus_id: tutorialPackage.disqus_url || req.originalUrl,
-                    author: tutorialPackage.author,
-                    tutorials: tutorialPackages,
-                    library: library
-                }
-            }
-        }));
+          // }
     });
 
-    app.get('/libraries/:library/:version', libraryResponse);
+    setCache(res, 72);
+    res.send(generatePage({
+      reqUrl: req.url,
+      title: tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
+      page: {
+        template: templates.tutorial,
+        data: {
+          tute: marked(tutorialFile),
+          avatar: avatar,
+          tutorial: tutorialPackage,
+          disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
+          disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
+          disqus_id: tutorialPackage.disqus_url || req.originalUrl,
+          author: tutorialPackage.author,
+          tutorials: tutorialPackages,
+          library: library
+        }
+      }
+    }));
+  });
 
-    app.get('/libraries/:library', libraryResponse);
+  app.get('/libraries/:library/:version', libraryResponse);
 
-    app.get('/libraries', function(req, res) {
-        setCache(res, 2);
+  app.get('/libraries/:library', libraryResponse);
 
-        res.send(generatePage({
-            reqUrl: req.url,
-            title: 'libraries - ' + TITLE,
-            page: {
-                template: templates.libraries,
-                data: {
-                    packages: _.toArray(LIBRARIES_MAP),
-                    libCount: Object.keys(LIBRARIES_MAP).length
-                }
-            }
-        }));
-    });
+  app.get('/libraries', function(req, res) {
+    setCache(res, 2);
 
+    res.send(generatePage({
+      reqUrl: req.url,
+      title: 'libraries - ' + TITLE,
+      page: {
+        template: templates.libraries,
+        data: {
+          packages: _.toArray(LIBRARIES_MAP),
+          libCount: Object.keys(LIBRARIES_MAP).length
+        }
+      }
+    }));
+  });
 
-    app.get('/gitstats', function(req, res) { return res.redirect(301, '/gitstats/cdnjs'); });
-    app.get('/git_stats', function(req, res) { return res.redirect(301, '/git_stats/cdnjs'); });
-    app.get('/about', function(req, res) {
+  app.get('/gitstats', function(req, res) {
+    return res.redirect(301, '/gitstats/cdnjs');
+  });
+  app.get('/git_stats', function(req, res) {
+    return res.redirect(301, '/git_stats/cdnjs');
+  });
+  app.get('/about', function(req, res) {
+    setCache(res, 72);
+    res.send(generatePage({
+      reqUrl: req.url,
+      page: {
+        template: templates.about,
+        title: 'about - ' + TITLE
+      }
+    }));
+  });
 
-        setCache(res, 72);
-        res.send(generatePage({
-            reqUrl: req.url,
-            page: {
-                template: templates.about,
-                title: 'about - ' + TITLE
-            }
-        }));
-    });
+  app.use(function(err, req, res, next) {
+    console.error(err.stack);
+    res.status(500).send('Something broke!');
+  });
 
-
-    app.use(function(err, req, res, next) {
-        console.error(err.stack);
-        res.status(500).send('Something broke!');
-    });
-
-
-    app.listen(PORT, function() {
-        console.log("Listening on " + PORT);
-    });
+  app.listen(PORT, function() {
+    console.log("Listening on " + PORT);
+  });
 }
