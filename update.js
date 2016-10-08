@@ -1,12 +1,10 @@
 #!/usr/bin/env node
-var _    = require('lodash'),
-  fs   = require('fs'),
-  http = require('http'),
-
-  pkgMeta = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages,
+var _ = require('lodash');
+var fs = require('fs');
+var pkgMeta = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
 
 // Generate sitemap
-  pages = [
+var pages = [
   'https://cdnjs.com/',
   'https://cdnjs.com/about',
   'https://cdnjs.com/login',
@@ -15,19 +13,19 @@ var _    = require('lodash'),
 
 var xml = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
 
-var librariePages = _.map(pkgMeta, function (package) {
-  return 'https://cdnjs.com/libraries/' + package.name;
+var librariePages = _.map(pkgMeta, function(library) {
+  return 'https://cdnjs.com/libraries/' + library.name;
 });
 
 pages = pages.concat(librariePages);
 
-var librarieNewsPages = _.map(pkgMeta, function (package) {
-  return 'https://cdnjs.com/libraries/' + package.name + '/news';
+var librarieNewsPages = _.map(pkgMeta, function(library) {
+  return 'https://cdnjs.com/libraries/' + library.name + '/news';
 });
 
 pages = pages.concat(librarieNewsPages);
 
-_.each(pages, function(page){
+_.each(pages, function(page) {
   xml += '<url><loc>' + page + '</loc></url>';
 });
 
