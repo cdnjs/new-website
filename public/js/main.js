@@ -1,61 +1,58 @@
- currentUser = null; // This will contain the logged in user
- appLoading.setColor('#FF9900');
- var cdn_provider_base_url = [], cdn_provider, urlSetDecided = false;
- cdn_provider_base_url['cloudflare'] = 'https://cdnjs.cloudflare.com/ajax/libs/';
+appLoading.setColor('#FF9900');
+var cdn_provider_base_url = [];
+var cdn_provider;
+var urlSetDecided = false;
+cdn_provider_base_url.cloudflare = 'https://cdnjs.cloudflare.com/ajax/libs/';
 
- function decideCDNProvider()
- {
-   target_cdn_provider = location.hash.substr(1,location.hash.length).toLowerCase();
-   if (!cdn_provider_base_url[target_cdn_provider]) target_cdn_provider = 'cloudflare';
-   return target_cdn_provider;
- }
+function decideCDNProvider() {
+  var target_cdn_provider = location.hash.substr(1, location.hash.length).toLowerCase();
+  if (!cdn_provider_base_url[target_cdn_provider]) target_cdn_provider = 'cloudflare';
+  return target_cdn_provider;
+}
 
- cdn_provider = decideCDNProvider();
- setFileURLs();
+cdn_provider = decideCDNProvider();
+setFileURLs();
 
- function setFileURLs(new_provider)
- {
-   if (urlSetDecided === false) {
-     $('p.library-url').each(function() {
-       $(this).html(cdn_provider_base_url[cdn_provider] + $(this).html());
-     });
-     urlSetDecided = true;
-   } else {
-     $('p.library-url').each(function() {
-       $(this).html($(this).html().replace(cdn_provider_base_url[cdn_provider], cdn_provider_base_url[new_provider]));
-     });
-     cdn_provider = new_provider;
-   }
- }
-
+function setFileURLs(new_provider) {
+  if (urlSetDecided === false) {
+    $('p.library-url').each(function() {
+      $(this).html(cdn_provider_base_url[cdn_provider] + $(this).html());
+    });
+    urlSetDecided = true;
+  } else {
+    $('p.library-url').each(function() {
+      $(this).html($(this).html().replace(cdn_provider_base_url[cdn_provider], cdn_provider_base_url[new_provider]));
+    });
+    cdn_provider = new_provider;
+  }
+}
 
 (function($) {
-    baseURI = cdn_provider_base_url[cdn_provider] + $('h1#libraryName').html() + '/' + $('select.version-selector :selected').val() + '/';
-    function selectText(element) {
-      var doc = document;
-      var text = element;
-      var range;
+  baseURI = cdn_provider_base_url[cdn_provider] + $('h1#libraryName').html() + '/' + $('select.version-selector :selected').val() + '/';
+  function selectText(element) {
+    var doc = document;
+    var text = element;
+    var range;
 
-      if (doc.body.createTextRange) { // ms
-        range = doc.body.createTextRange();
-        range.moveToElementText(text);
-        range.select();
-      } else if (window.getSelection) { // moz, opera, webkit
-        var selection = window.getSelection();
-        range = doc.createRange();
-        range.selectNodeContents(text);
-        selection.removeAllRanges();
-        selection.addRange(range);
-      }
+    if (doc.body.createTextRange) { // ms
+      range = doc.body.createTextRange();
+      range.moveToElementText(text);
+      range.select();
+    } else if (window.getSelection) { // moz, opera, webkit
+      var selection = window.getSelection();
+      range = doc.createRange();
+      range.selectNodeContents(text);
+      selection.removeAllRanges();
+      selection.addRange(range);
     }
-
+  }
 
   var copyEl = $('<div/>').addClass('btn-group copy-button-group');
-  var copyElButton = $('<button/>').attr('data-copy-type','').attr('type', 'button').addClass('btn btn-primary btn-sm copy-button').text('Copy');
+  var copyElButton = $('<button/>').attr('data-copy-type', '').attr('type', 'button').addClass('btn btn-primary btn-sm copy-button').text('Copy');
   var toggleButton = $('<button/>').attr('data-toggle', 'dropdown').attr('type', 'button').addClass('btn btn-primary btn-sm dropdown-toggle').append($('<span/>').addClass('caret'));
   copyElButton.appendTo(copyEl);
   toggleButton.appendTo(copyEl);
-  var SRIcopyButton = (typeof(SRI) != "undefined") ? ('<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy Script Tag with SRI</a></li>' +
+  var SRIcopyButton = (typeof (SRI) !== "undefined") ? ('<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class=" copy-https-script copy-button" href="#">Copy Script Tag with SRI</a></li>' +
                     '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" class=" copy-https-link copy-button" href="#">Copy Link Tag with SRI</a></li>') : '';
   copyEl.append('<ul class="dropdown-menu copy-options">' +
                     '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="#">Copy Url</a></li>' +
@@ -70,8 +67,8 @@
 
   function setupMouseEvents() {
     // Currently not showing the copy button for iOS, check clipboard.js support
-    if(!(/iPhone|iPad/i.test(navigator.userAgent))) {
-      $('.library-column').on( "mouseenter", function(ev) {
+    if (!(/iPhone|iPad/i.test(navigator.userAgent))) {
+      $('.library-column').on("mouseenter", function(ev) {
         var cont = $(ev.currentTarget);
         copyEl.show();
         copyEl.appendTo(cont);
@@ -90,10 +87,10 @@
         var embed = button.attr('data-copy-embed');
         var url = $('.library-url', button.parents('.library-column')).text();
         var fileSRI;
-        if (typeof(SRI) != "undefined") {
-          fileSRI = SRI[url.replace(baseURI,'')] ;
+        if (typeof (SRI) !== "undefined") {
+          fileSRI = SRI[url.replace(baseURI, '')];
         }
-        if(embed === 'script') {
+        if (embed === 'script') {
           url = '<script type="text/javascript" src="' + url + '"></script>';
         }
         else if (embed === 'script-sri') {
@@ -117,7 +114,7 @@
         title: 'Copied!'
       });
       btContainer.tooltip('show');
-      setTimeout(function(){
+      setTimeout(function() {
         btContainer.tooltip('hide');
         btContainer.tooltip('destroy');
       }, 1000);
@@ -139,7 +136,7 @@
         title: msg
       });
       btContainer.tooltip('show');
-      setTimeout(function(){
+      setTimeout(function() {
         btContainer.tooltip('hide');
         btContainer.tooltip('destroy');
       }, 1000);
@@ -166,7 +163,8 @@
       return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
     }
 
-    var html = '', match = false;
+    var html = '';
+    var match = false;
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
       if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
@@ -187,7 +185,7 @@
       var description = getSafeHighlightedValue(hit._highlightResult.description);
       var row = '<tr id="' + hit.objectID + '">' +
         '<td>' +
-          '<p><a itemprop="name" href="/libraries/'+ hit.name + '">' +
+          '<p><a itemprop="name" href="/libraries/' + hit.name + '">' +
             hit._highlightResult.name.value +
           '</a></p>' +
           '<p class="text-muted">' + description + '</p>' +
@@ -209,7 +207,7 @@
     }
     var libraryName = escape(content.query);
 
-    var tempText  = ( match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
+    var tempText = (match ? 'Could not found the lib you\'re looking for?' : 'The library you\'re searching for cannot be found.');
     var tempText2 =
       '<br /><td class="text-center well" colspan="2">' +
       tempText + ' Would you like to ' +
@@ -218,7 +216,7 @@
         libraryName +
         '%20&body=**Library%20name%3A**%20' +
         libraryName +
-        '%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**'+
+        '%0A**Git%20repository%20url%3A**%0A**npm%20package%20url(optional)%3A**%20%0A**' +
         'License(s)%3A**%0A**Official%20homepage%3A**%0A**Wanna%20say%20something?' +
         '%20Leave%20message%20here%3A**%0A%0A%0A%0A=====================%0ANotes%20from' +
         '%20cdnjs%20maintainer%3A%0AYou%20are%20welcome%20to%20add%20a%20library%20via%20sending' +
@@ -236,7 +234,7 @@
   }
 
   var animateTop = _.once(function() {
-    $('.container.home').animate({ 'marginTop': '0px' }, 200);
+    $('.container.home').animate({marginTop: '0px'}, 200);
   });
 
   var clearHash = _.once(function() {
@@ -246,7 +244,7 @@
   var lastHashQuery;
   function replaceHash(ev, val) {
     // Only replace the hash if we press enter
-    if(val && val !== lastHashQuery
+    if (val && val !== lastHashQuery
         && ev.keyCode === 13
         && 'replaceState' in history) {
       var encodedVal = encodeURIComponent(val).replace(/%20/g, '+');
@@ -294,10 +292,10 @@
 
   searchByHash();
   // Put favorite libraries at the top of the list
-  //putClassOnFavorites(getFavorites());
+  // putClassOnFavorites(getFavorites());
   $('#search-box').focus();
 
-  $('.cdn-provider-selector').on('change', function (ev) {
+  $('.cdn-provider-selector').on('change', function(ev) {
     location.hash = $(ev.currentTarget).val();
     setFileURLs(decideCDNProvider());
   });
@@ -306,33 +304,29 @@
     $('.cdn-provider-selector').val(decideCDNProvider());
     setFileURLs(decideCDNProvider());
   });
-  $('.version-selector').on('change', function (ev) {
+  $('.version-selector').on('change', function(ev) {
     var libraryVersion = $(ev.currentTarget).val();
     var libraryName = $('#library-name').text();
     var newURL = window.location.origin + '/libraries/' + libraryName + '/' + libraryVersion;
     window.location.href = newURL;
   });
-  $('.hired-banner .header').on('click', function (ev) {
-    if(!$('.hired-banner').hasClass('maximised')) {
-     
-      if (ga) { ga('send', 'event', 'hired', 'opened_banner'); };
+  $('.hired-banner .header').on('click', function(ev) {
+    if (!$('.hired-banner').hasClass('maximised')) {
+      if (ga) { ga('send', 'event', 'hired', 'opened_banner'); }
     }
     $('.hired-banner').toggleClass('maximised');
-    
-      if (ga) { ga('send', 'event', 'hired', 'opened_banner'); };
+
+    if (ga) { ga('send', 'event', 'hired', 'opened_banner'); }
   });
-  $('.hired-banner .close-banner').on('click', function (ev) {
+  $('.hired-banner .close-banner').on('click', function(ev) {
     $('.hired-banner').toggleClass('maximised');
-   
-      if (ga) { ga('send', 'event', 'hired', 'closed_banner'); };
+    if (ga) { ga('send', 'event', 'hired', 'closed_banner'); }
   });
-  $('.hired-form').on('submit', function () {
-   
-      if (ga) { ga('send', 'event', 'hired', 'submitted_banner'); };
+  $('.hired-form').on('submit', function() {
+    if (ga) { ga('send', 'event', 'hired', 'submitted_banner'); }
     var email = $('.email-input').val();
     var hiredUrl = 'https://hired.com/signup/' + email + '?utm_source=sponsor&utm_medium=cdnjs&utm_campaign=q4-16-banner';
     window.location.href = hiredUrl;
     return false;
-  })
-
+  });
 })(jQuery);
