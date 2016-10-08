@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
-var _ = require("lodash"),
-  fs = require("fs"),
-  algoliasearch = require("algoliasearch"),
-  GitHubApi = require("github"),
-  async = require("async"),
-  colors = require('colors'),
-  metas = Object();
-
+var _ = require("lodash");
+var fs = require("fs");
+var algoliasearch = require("algoliasearch");
+var GitHubApi = require("github");
+var async = require("async");
+var colors = require('colors');
+var metas = Object();
 
 /*
  * This script is in charge of the libraries indexing
@@ -28,9 +27,9 @@ var _ = require("lodash"),
  *
 */
 
-//////
-////// Fetch all libraries from the generated public/packages.min.json file
-//////
+// ////
+// //// Fetch all libraries from the generated public/packages.min.json file
+// ////
 var LIBRARIES = [];
 function load(next) {
   console.log('* Loading GitHub repositories meta data');
@@ -46,14 +45,14 @@ function load(next) {
       library.name.split(/[^a-zA-Z]/).join(''),         // font-awesome <=> fontawesome
       library.name.replace(/([a-z](?=[A-Z]))/g, '$1 ')  // camelCase <=> camel case
     ];
-    if(library.filename) {
-      if(library.filename[0] == '/') {
+    if (library.filename) {
+      if (library.filename[0] === '/') {
         library.filename = library.filename.substr(1);
       }
     } else {
       console.log("No filename field in " + library.name + ": " + library.filename);
     }
-    if(library.filename && library.filename.substr(library.filename.length-3, library.filename.length) === 'css') {
+    if (library.filename && library.filename.substr(library.filename.length - 3, library.filename.length) === 'css') {
       library.fileType = 'css';
     } else {
       library.fileType = 'js';
@@ -63,10 +62,10 @@ function load(next) {
   next();
 }
 
-//////
-////// Enrich libraries with GitHub stats
-//////
-var github = new GitHubApi({ version: "3.0.0" });
+// ////
+// //// Enrich libraries with GitHub stats
+// ////
+var github = new GitHubApi({version: "3.0.0"});
 
 function authenticate(next) {
   github.authenticate({
@@ -97,19 +96,20 @@ function crawl(gnext) {
       if (!m) {
         return null;
       }
-      return { user: m[1], repo: m[2].replace(/.git$/, '') };
+      return {user: m[1], repo: m[2].replace(/.git$/, '')};
     }));
 
     if (repos.length > 0) {
       var repo = repos[0]; // fetch only the first repository
-      if (metas[repo.user + '/' + repo.repo] != undefined) {
-        library.github = metas[repo.user + '/' + repo.repo];
-      } else {
+      if (metas[repo.user + '/' + repo.repo] === undefined) {
         github.repos.get(repo, function(err, res) {
-          if (!err && res.stargazers_count == undefined) {
+          if (!err && res.stargazers_count === undefined) {
             err = "Didn't fetch the meta data properly!!!";
           }
-          if (!err) {
+          if (err) {
+            console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + '(' + library.name + ') !!!'));
+            console.log(colors.red(err));
+          } else {
             // enchrich the library
             console.log('** Enrich ' + repo.user + '/' + repo.repo + ', ' + res.stargazers_count + ' star(s) ...');
             library.github = {
@@ -118,28 +118,27 @@ function crawl(gnext) {
               stargazers_count: res.stargazers_count,
               forks: res.forks,
               subscribers_count: res.subscribers_count
-            }
+            };
             metas[repo.user + '/' + repo.repo] = library.github;
-          } else {
-              console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + '(' + library.name + ') !!!'));
-              console.log(colors.red(err));
           }
         });
+      } else {
+        library.github = metas[repo.user + '/' + repo.repo];
       }
-      async.setImmediate(function () {
+      async.setImmediate(function() {
         next();
       });
     } else {
-      async.setImmediate(function () {
+      async.setImmediate(function() {
         next();
       });
     }
   }, gnext);
 }
 
-//////
-////// Push libraries to Algolia for the indexing
-//////
+// ////
+// //// Push libraries to Algolia for the indexing
+// ////
 var client = algoliasearch('2QWLVLXZB6', process.env.ALGOLIA_API_KEY);
 var index = client.initIndex('libraries.tmp');
 
@@ -157,7 +156,7 @@ function initIndex(next) {
       'unordered(github.user)',
       'unordered(maintainers.name)'
     ],
-    customRanking: [ 'desc(github.stargazers_count)', 'asc(name)' ],
+    customRanking: ['desc(github.stargazers_count)', 'asc(name)'],
     attributesForFaceting: ['fileType', 'keywords'],
     optionalWords: ['js', 'css'], // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
     ranking: ['typo', 'words', 'proximity', 'attribute', 'custom'] // removed the "exact" criteria conflicting with the "keywords" array containing exact forms
@@ -181,17 +180,16 @@ function commit(next) {
 }
 
 function saveMeta(next) {
-    fs.writeFile('GitHub.repos.meta.json', JSON.stringify(metas, null, 2) + '\n', 'utf8', function(err){
-      if (err) throw err;
-      console.log('GitHub repositories meta data saved!');
-      next();
-    });
-
+  fs.writeFile('GitHub.repos.meta.json', JSON.stringify(metas, null, 2) + '\n', 'utf8', function(err) {
+    if (err) throw err;
+    console.log('GitHub repositories meta data saved!');
+    next();
+  });
 }
 
-//////
-////// Orchestrate it!
-//////
+// ////
+// //// Orchestrate it!
+// ////
 async.series([
   load,
   authenticate,
