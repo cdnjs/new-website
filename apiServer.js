@@ -118,6 +118,8 @@ app.get('/libraries', function(req, res) {
 });
 app.get('/libraries/:library', function(req, res) {
   var results;
+  var fields = (req.query.fields && req.query.fields.split(',')) || false;
+  var ret = {};
 
   app.set('json spaces', 0);
 
@@ -128,6 +130,12 @@ app.get('/libraries/:library', function(req, res) {
     }
     return false;
   });
+  if (fields && results.length > 0) {
+    _.each(fields, function(field) {
+      ret[field] = results[0][field] || null;
+    });
+    results[0] = ret;
+  }
   if (results.length > 0) {
     if (req.query.output && req.query.output === 'human') {
       humanOutput(res, results[0]);
