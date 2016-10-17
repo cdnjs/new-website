@@ -121,13 +121,16 @@ function crawl(gnext) {
             };
             metas[repo.user + '/' + repo.repo] = library.github;
           }
+          async.setImmediate(function() {
+            next();
+          });
         });
       } else {
         library.github = metas[repo.user + '/' + repo.repo];
+        async.setImmediate(function() {
+          next();
+        });
       }
-      async.setImmediate(function() {
-        next();
-      });
     } else {
       async.setImmediate(function() {
         next();
