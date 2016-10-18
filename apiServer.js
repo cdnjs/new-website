@@ -30,15 +30,18 @@ app.use(compress());
 
 function humanOutput(res, json) {
   res.header('Content-Type', 'text/html');
-  res.write('<!doctype><html>');
-  res.write('<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css" integrity="sha256-WfR+t4V9jUEtco303JmeVqRbf/++XunklhaJkoTp8u0=" crossorigin="anonymous"/></head>');
-  res.write('<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js" integrity="sha256-fkOAs5tViC8MpG+5VCOqdlSpLL8htz4mdL2VZlWGoMA=" crossorigin="anonymous"></script>');
-  res.write('<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/languages/json.min.js" integrity="sha256-D0YfZN5nP+2bF+7odQ7OaQcJXqMhax4a4sOYrZPf32k=" crossorigin="anonymous" defer></script>');
-  res.write('<script defer>hljs.initHighlightingOnLoad();</script>');
-  res.write('<pre><code class="json">');
-  res.write(JSON.stringify(json, null, 2));
-  res.write('</code></pre></body></html>');
+  var htmlOutput = '<!doctype><html>' +
+      '<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/default.min.css" integrity="sha256-WfR+t4V9jUEtco303JmeVqRbf/++XunklhaJkoTp8u0=" crossorigin="anonymous"/></head>' +
+      '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js" integrity="sha256-fkOAs5tViC8MpG+5VCOqdlSpLL8htz4mdL2VZlWGoMA=" crossorigin="anonymous"></script>' +
+      '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/languages/json.min.js" integrity="sha256-D0YfZN5nP+2bF+7odQ7OaQcJXqMhax4a4sOYrZPf32k=" crossorigin="anonymous" defer></script>' +
+      '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/json2/20160511/json2.min.js" integrity="sha256-Fsw5X9ZUnlJb302irkG8pKCRwerGfxSArAw22uG/QkQ=" crossorigin="anonymous"></script>' +
+      '<script defer>hljs.initHighlightingOnLoad();</script>' +
+      '<script defer>var output=' + JSON.stringify(json) + '; ' +
+      'document.write("<pre><code class=\'json\'>" + JSON.stringify(output,null,2) + "</code></pre>");</script>' +
+      '</body></html>';
+  res.write(htmlOutput);
   res.end();
+  htmlOutput = null;
 }
 
 var packages = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
