@@ -200,5 +200,13 @@ $('.post').show();
 </div>
     </div>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gitter-sidecar/1.1.3/sidecar.js" integrity="sha256-vhFaRz2RSnQJsCGKCZ415wAHuap2cOxOi1oJTE+xGAo=" crossorigin="anonymous" async></script> -->
+<div itemscope itemtype="http://schema.org/WebSite">
+  <meta itemprop="url" content="https://cdnjs.com/"/>
+  <form itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+    <meta itemprop="target" content="https://cdnjs.com/#q={search_term_string}"/>
+    <input itemprop="query-input" type="text" name="search_term_string" required/>
+    <input type="submit"/>
+  </form>
+</div>
 </body>
 </html>
