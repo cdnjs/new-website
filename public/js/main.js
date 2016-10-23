@@ -91,10 +91,10 @@ function setFileURLs(new_provider) {
           fileSRI = SRI[url.replace(baseURI, '')];
         }
         if (embed === 'script') {
-          url = '<script type="text/javascript" src="' + url + '"></script>';
+          url = '<script src="' + url + '"></script>';
         }
         else if (embed === 'script-sri') {
-          url = '<script type="text/javascript" src="' + url + '" integrity="' + fileSRI + '" crossorigin="anonymous"></script>';
+          url = '<script src="' + url + '" integrity="' + fileSRI + '" crossorigin="anonymous"></script>';
         }
         else if (embed === 'link') {
           url = '<link rel="stylesheet" href="' + url + '" />';
