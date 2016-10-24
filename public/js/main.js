@@ -92,24 +92,26 @@ function setFileURLs(new_provider) {
         var button = $(trigger);
         var embed = button.attr('data-copy-embed');
         var url = $('.library-url', button.parents('.library-column')).text();
-        var fileSRI;
+        var fileSRI = '';
         if (typeof (SRI) !== "undefined") {
           fileSRI = SRI[url.replace(baseURI, '')];
         }
-        if (embed === 'script') {
-          url = '<script src="' + url + '"></script>';
-        }
-        else if (embed === 'script-sri') {
-          url = '<script src="' + url + '" integrity="' + fileSRI + '" crossorigin="anonymous"></script>';
-        }
-        else if (embed === 'link') {
-          url = '<link rel="stylesheet" href="' + url + '" />';
-        }
-        else if (embed === 'link-sri') {
-          url = '<link rel="stylesheet" href="' + url + '" integrity="' + fileSRI + '" crossorigin="anonymous" />';
-        }
-        else if (embed === 'file-sri' && typeof (SRI) !== "undefined") {
-          url = fileSRI;
+        switch (embed) {
+          case 'script':
+            url = '<script src="' + url + '"></script>';
+            break;
+          case 'script-sri':
+            url = '<script src="' + url + '" integrity="' + fileSRI + '" crossorigin="anonymous"></script>';
+            break;
+          case 'link':
+            url = '<link rel="stylesheet" href="' + url + '" />';
+            break;
+          case 'link-sri':
+            url = '<link rel="stylesheet" href="' + url + '" integrity="' + fileSRI + '" crossorigin="anonymous" />';
+            break;
+          case 'file-sri':
+            url = fileSRI;
+            break;
         }
         return url;
       }
