@@ -234,7 +234,7 @@ function setFileURLs(new_provider) {
         '%20pull%20request%2C%0Ait%27ll%20be%20faster%20then%20just%20opening%20a%20request%20' +
         'issue%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!' +
         '" target="_blank">request it?</a>' +
-        ' Or just <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank">search if there is already an issue for it.</a>' +
+        ' Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank">search if there is already an issue for it</a> before adding a request.' +
       '</td>';
     html += tempText2;
 
