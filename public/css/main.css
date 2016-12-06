@@ -76,3 +76,78 @@
 ul.dropdown-menu > li {
     float: left;
 }
+
+
+/* New CarbonAds styles */
+#default_demo #_default_ {
+    position: relative;
+    margin: 1em 0;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#default_demo .default-ad {
+    display: none;
+}
+
+#default_demo ._default_ {
+    display: block;
+    overflow: hidden;
+    padding: .5em 2em;
+    line-height: 1.5;
+}
+
+#default_demo ._default_ > * {
+    vertical-align: middle;
+}
+
+#default_demo a {
+    color: #9a9a9a;
+    text-decoration: none;
+    transition: color .15s ease-in-out;
+}
+
+#default_demo a:hover {
+    color: #dd4814;
+}
+
+#default_demo .default-image {
+    display: inline-block;
+    margin-right: 6px;
+    line-height: 0;
+}
+
+#default_demo .default-image img {
+    height: 20px;
+    border-radius: 3px;
+}
+
+#default_demo .default-title:after {
+    content: " — ";
+}
+
+#default_demo .default-title,
+#default_demo .default-description {
+    display: inline;
+}
+
+#default_demo .default-title {
+    position: relative;
+    font-weight: 600;
+}
+
+#default_demo .default-description:after {
+    position: relative;
+    top: -1px;
+    right: -8px;
+    padding: 1px 4px;
+    border: solid 1px #dd4814;
+    border-radius: 3px;
+    color: #dd4814;
+    content: "Ad";
+    text-transform: uppercase;
+    font-size: 9px;
+    font-family: Verdana, sans-serif;
+}
