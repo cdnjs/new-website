@@ -102,7 +102,8 @@ function start() {
     newsfeed: getTemplate('templates/newsfeed.html'),
     about: getTemplate('templates/about.html'),
     tutorials: getTemplate('templates/tutorials.html', true),
-    tutorial: getTemplate('templates/tutorial.html', true)
+    tutorial: getTemplate('templates/tutorial.html', true),
+    api: getTemplate('templates/api.html', true)
   };
 
   var generatePage = function(options) {
@@ -449,6 +450,17 @@ function start() {
       page: {
         template: templates.about,
         title: 'about - ' + TITLE
+      }
+    }));
+  });
+
+  app.get('/api', function(req, res) {
+    setCache(res, 72);
+    res.send(generatePage({
+      reqUrl: req.url,
+      page: {
+        template: templates.api,
+        title: 'API - ' + TITLE
       }
     }));
   });
