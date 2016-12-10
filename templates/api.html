@@ -1,0 +1,185 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<p style="margin-top: 6px;">
+				<div class="logged-in" style="display: none;">
+					<p>
+						<img id="gravatar" src="" style="float: left; width: 64px; height: 64px; border: 1px solid #ccc; margin-right: 10px;"/>
+						<span id="name" style="font-weight: bold;">
+						</span>
+					</p>
+					<ul style="list-style: none;">
+						<li>
+							Hover over rows and click on the +/- symbols to change your favorites(yellow)
+						</li>
+					</ul>
+				</div>
+				<h3>
+				API
+				</h3>
+				<div class="api">
+					<p>
+						You can query cdnjs via our API as below
+						<br><br>
+						Without any query parameters it will return the name and main file URL of every library on cdnjs:<br><br>
+						<code>https://api.cdnjs.com/libraries</code>
+					<br><br>
+					To search, use:
+					<br><br>
+				<code>https://api.cdnjs.com/libraries?search=[query]</code>
+				<br><br>
+				You can also "select" a certain library if you already know its name on CDNJS, e.g.
+				<br><br>
+			<code>https://api.cdnjs.com/libraries/[name]</code>
+			<br><br>
+			Without any query parameters it will return the whole meta data of the library, if you want to specify the info you want (recommended), use "fields" query:
+			<br><br>
+		<code>https://api.cdnjs.com/libraries/jquery?fields=name,filename,version</code><br><br>
+		All the usable fields is the same as the library's package.json on
+		<a href="https://github.com/cdnjs/cdnjs/blob/master/ajax/libs/jquery/package.json">
+			CDNJS
+		</a>(except auto-update config, we'll only return the auto-update type (currently <code>npm or git</code>)
+		<br><br>
+		API will reture minified result by default, if you wanna have a human readable result, try
+		<code>output=human</code>
+		like so:
+		<br><br>
+		<code>https://api.cdnjs.com/libraries?output=human</code><br><br>
+		<code>https://api.cdnjs.com/libraries?search=[query]?output=human</code>
+		<br><br>
+		If you would like more data, use the fields parameter which takes comma-separated values:
+		<br><br>
+		<code>https://api.cdnjs.com/libraries?search=[query]&fields=version,description</code>
+	<br><br>
+	To get a list of all files for that library, use the assets field:
+	<br><br>
+<code>https://api.cdnjs.com/libraries?search=[query]&fields=assets</code>
+<br><br>
+Other fields available are:
+<br>
+<pre><code>version
+description
+homepage
+keywords
+license
+repository
+autoupdate
+author
+assets
+</code></pre>
+<br>
+The API is served over Cloudflare with a hour expiry for requests.
+</p><br>
+<h1>Examples</h1>
+All Libraries (Cut down a bit)<br>
+<a href="https://api.cdnjs.com/libraries">https://api.cdnjs.com/libraries</a><br>
+<pre><code class="json">{"results":[{"name":"1140","latest":"https://cdnjs.cloudflare.com/ajax/libs/1140/2.0/1140.min.css"},{"name":"1000hz-bootstrap-validator","latest":"https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.6/validator.min.js"},{"name":"10up-sanitize.css","latest":"https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css"},{"name":"16pixels","latest":"https://cdnjs.cloudflare.com/ajax/libs/16pixels/0.1.8/16pixels.min.css"},
+</code></pre>
+<br>
+All Libraries Human Readable output (Cut down a bit)<br>
+<a href="https://api.cdnjs.com/libraries?output=human">https://api.cdnjs.com/libraries?output=human</a><br>
+<pre><code class="json">{
+  "results": [
+    {
+      "name": "1140",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/1140/2.0/1140.min.css"
+    },
+    {
+      "name": "1000hz-bootstrap-validator",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.8/validator.min.js"
+    },
+    {
+      "name": "10up-sanitize.css",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/4.1.0/sanitize.min.css"
+    },
+    {
+      "name": "16pixels",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/16pixels/0.1.8/16pixels.min.css"
+    },
+</code></pre>
+<br>
+Search<br>
+<a href="https://api.cdnjs.com/libraries?search=ractive">https://api.cdnjs.com/libraries?search=ractive</a><br>
+<pre><code class="json">{"results":[{"name":"ractive","latest":"https://cdnjs.cloudflare.com/ajax/libs/ractive/0.8.5/ractive.min.js"},{"name":"ractive.js","latest":"https://cdnjs.cloudflare.com/ajax/libs/ractive.js/0.3.7/ractive.min.js"},{"name":"ractive-require","latest":"https://cdnjs.cloudflare.com/ajax/libs/ractive-require/0.6.12/ractive-require.min.js"}],"total":3}</code></pre>
+<br>
+Search Human Readable output<br>
+<a href="https://api.cdnjs.com/libraries?search=jquery&output=human">https://api.cdnjs.com/libraries?search=jquery&output=human</a><br>
+<pre><code class="json">{
+  "results": [
+    {
+      "name": "ractive",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/ractive/0.8.5/ractive.min.js"
+    },
+    {
+      "name": "ractive.js",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/ractive.js/0.3.7/ractive.min.js"
+    },
+    {
+      "name": "ractive-require",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/ractive-require/0.6.12/ractive-require.min.js"
+    }
+  ],
+  "total": 3
+}
+</code></pre>
+Search with specific fields<br>
+<a href="https://api.cdnjs.com/libraries?search=ractive&fields=version,description">https://api.cdnjs.com/libraries?search=ractive&fields=version,description</a><br>
+<pre><code class="json">{"results":[{"name":"ractive","latest":"https://cdnjs.cloudflare.com/ajax/libs/ractive/0.8.5/ractive.min.js","version":"0.8.5","description":"Next-generation DOM manipulation"},{"name":"ractive.js","latest":"https://cdnjs.cloudflare.com/ajax/libs/ractive.js/0.3.7/ractive.min.js","version":"0.3.7","description":"Next-generation DOM manipulation"},{"name":"ractive-require","latest":"https://cdnjs.cloudflare.com/ajax/libs/ractive-require/0.6.12/ractive-require.min.js","version":"0.6.12","description":"Require Ractive views on demand in Package by Feature way"}],"total":3}
+</code></pre>
+Search with specific fields Human Readable output<br>
+<a href="https://api.cdnjs.com/libraries?search=ractive&output=human&fields=version,description">https://api.cdnjs.com/libraries?search=ractive&output=human&fields=version,description</a><br>
+<pre><code class="json">{
+  "results": [
+    {
+      "name": "ractive",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/ractive/0.8.5/ractive.min.js",
+      "version": "0.8.5",
+      "description": "Next-generation DOM manipulation"
+    },
+    {
+      "name": "ractive.js",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/ractive.js/0.3.7/ractive.min.js",
+      "version": "0.3.7",
+      "description": "Next-generation DOM manipulation"
+    },
+    {
+      "name": "ractive-require",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/ractive-require/0.6.12/ractive-require.min.js",
+      "version": "0.6.12",
+      "description": "Require Ractive views on demand in Package by Feature way"
+    }
+  ],
+  "total": 3
+}
+</code></pre>
+Specific Library Assets<br>
+<a href="https://api.cdnjs.com/libraries?search=1140&fields=assets">https://api.cdnjs.com/libraries?search=1140&fields=assets</a>
+<pre><code class="json">{"results":[{"name":"1140","latest":"https://cdnjs.cloudflare.com/ajax/libs/1140/2.0/1140.min.css","assets":[{"version":"2.0","files":["1140.css","1140.min.css"]}]}],"total":1}
+</code></pre>
+Specific Library Assets Human Readable output<br>
+<a href="https://api.cdnjs.com/libraries?search=1140&fields=assets&output=human">https://api.cdnjs.com/libraries?search=1140&fields=assets&output=human</a>
+<pre><code class="json">{
+  "results": [
+    {
+      "name": "1140",
+      "latest": "https://cdnjs.cloudflare.com/ajax/libs/1140/2.0/1140.min.css",
+      "assets": [
+        {
+          "version": "2.0",
+          "files": [
+            "1140.css",
+            "1140.min.css"
+          ]
+        }
+      ]
+    }
+  ],
+  "total": 1
+}
+</code></pre>
+</div></div>
+</div>
+</p>
+<script async="">
+window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+</script>

@@ -151,7 +151,7 @@ app.get('/libraries/:library', function(req, res) {
 });
 
 app.get('/', function(req, res) {
-  res.redirect('https://github.com/cdnjs/cdnjs#api');
+  res.redirect('https://cdnjs.com/api');
 });
 
 var port = process.env.PORT || 5050;
