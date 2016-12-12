@@ -336,7 +336,7 @@ function setFileURLs(new_provider) {
   $('.hired-form').on('submit', function() {
     if (ga) { ga('send', 'event', 'hired', 'submitted_banner'); }
     var email = $('.email-input').val();
-    var hiredUrl = 'https://hired.com/signup/' + email + '?utm_source=sponsor&utm_medium=cdnjs&utm_campaign=q4-16-banner';
+    var hiredUrl = 'https://hired.com/signup/' + email + '?utm_source=partner&utm_medium=cdnjs&utm_campaign=q4-16-banner';
     window.location.href = hiredUrl;
     return false;
   });
