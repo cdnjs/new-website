@@ -45,17 +45,11 @@ function load(next) {
       library.name.split(/[^a-zA-Z]/).join(''),         // font-awesome <=> fontawesome
       library.name.replace(/([a-z](?=[A-Z]))/g, '$1 ')  // camelCase <=> camel case
     ];
-    if (library.filename) {
-      if (library.filename[0] === '/') {
-        library.filename = library.filename.substr(1);
-      }
-    } else {
+    if (!library.filename) {
       console.log("No filename field in " + library.name + ": " + library.filename);
     }
-    if (library.filename && library.filename.substr(library.filename.length - 3, library.filename.length) === 'css') {
-      library.fileType = 'css';
-    } else {
-      library.fileType = 'js';
+    if (library.filename) {
+      library.fileType = library.filename.split('.').pop();
     }
     return library;
   });
