@@ -179,6 +179,9 @@ function start() {
   });
 
   app.get('/', function(req, res) {
+    if (req.query.q) {
+      return res.redirect(301, '/#q=' + req.query.q);
+    }
     pushAssets(res);
     serverPush(res, '/img/algolia64x20.png');
     setCache(res, 2);
