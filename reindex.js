@@ -39,7 +39,7 @@ function load(next) {
     delete library.assets;
     delete library.autoupdate;
     library.originalName = library.name;
-    library.objectID = library.name.replace(/\./g, '');
+    library.objectID = library.name;
     // add some alternative name forms to improve the search relevance
     library.alternativeNames = [
       library.name.split(/[^a-zA-Z]/).join(''),         // font-awesome <=> fontawesome
