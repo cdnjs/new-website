@@ -7,6 +7,13 @@
         <div class="col-md-8">
 
     <h1 style="margin-top: 00px;" id="libraryName">{{library.name}}</h1>
+    {{#watch}}
+    <ul class="list-inline">
+      <li><i class="fa fa-eye"><strong> {{watch}}</strong></i></li>
+      <li><i class="fa fa-star"><strong> {{star}}</strong></i></li>
+      <li><i class="fa fa-code-fork"><strong> {{fork}}</strong></i></li>
+    </ul>
+    {{/watch}}
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
       <span id="library-name" style="display: none;" hidden>{{library.name}}</span>
       <p>

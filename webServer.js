@@ -63,6 +63,8 @@ function start() {
 
     // Load libraries into ram
   var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
+    // Load GitHub repositories meta data
+  var GITHUB_METAS = JSON.parse(fs.readFileSync('GitHub.repos.meta.json', 'utf8'));
 
     // Map libraries array into object for easy access
   var LIBRARIES_MAP = {};
@@ -255,6 +257,15 @@ function start() {
     });
   }
 
+  function GitHubMetaInfo(library) {
+    if (library.repository !== undefined && /github.com/.test(library.repository.url)) {
+      var pathname = gitUrlParse(library.repository.url).pathname.replace(/^\/|.git/g , "").toString();
+      return GITHUB_METAS[pathname];
+    } else {
+      return null;
+    }
+  }
+
   function libraryResponse(req, res) {
     setCache(res, 1);
     var libraryName = req.params.library;
@@ -308,6 +319,13 @@ function start() {
     }
     var licenses = librarylicensesList(library);
     var assets = libraryAssetsList(library, version);
+    var stargazers_count = null, forks = null, subscribers_count = null;
+    var metaInfo = GitHubMetaInfo(library);
+    if (metaInfo !== null && metaInfo !== undefined) {
+      stargazers_count = metaInfo.stargazers_count;
+      forks = metaInfo.forks;
+      subscribers_count = metaInfo.subscribers_count;
+    }
     if (!library.urls) {
       library.urls = libraryGitRepoList(library);
     }
@@ -324,7 +342,10 @@ function start() {
           selectedAssets: _.find(assets, {version: version}),
           tutorials: tutorialPackages,
           libraryRealName: libraryName,
-          tutorialsPresent: tutorialsPresent
+          tutorialsPresent: tutorialsPresent,
+          star: stargazers_count,
+          fork: forks,
+          watch: subscribers_count
         },
         description: library && (library.name + " - " + library.description)
       }
