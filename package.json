@@ -23,7 +23,7 @@
     "node": "^6.1.0"
   },
   "dependencies": {
-    "algoliasearch": "^3.18",
+    "algoliasearch": "^3.21",
     "async": "^2.0.1",
     "body-parser": "^1.15",
     "colors": "^1.1.2",
