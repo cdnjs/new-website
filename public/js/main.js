@@ -283,6 +283,10 @@ function setFileURLs(new_provider) {
 
   $('#search-box').on('input', searchHandler);
 
+  if ($('#search-box').val() !== '') {
+    $('#search-box').trigger('input');
+  }
+
   function searchByHash() {
     // Perform searches automatically based on the URL hash
     if (location.hash.length > 1) {
