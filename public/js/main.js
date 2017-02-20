@@ -288,11 +288,9 @@ function setFileURLs(new_provider) {
     if (location.hash.length > 1) {
       var query = location.hash.match(/q=([^&]+)/);
       if (query) {
-        appLoading.start();
         query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
         $('#search-box').val(query);
-        animateTop();
-        index.search(query, displayMatchingLibraries);
+        $('#search-box').trigger('input');
       }
     }
   }
