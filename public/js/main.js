@@ -235,9 +235,13 @@ function setFileURLs(new_provider) {
     appLoading.stop();
   }
 
-  var animateTop = _.once(function() {
+  function animateTop() {
     $('.container.home').animate({marginTop: '0px'}, 200);
-  });
+  }
+
+  function animateTopReverse() {
+    $('.container.home').animate({marginTop: '200px'}, 200);
+  }
 
   var clearHash = _.once(function() {
     location.hash = '';
@@ -260,7 +264,6 @@ function setFileURLs(new_provider) {
   var lastQuery;
   function searchHandler(ev) {
     appLoading.start();
-    animateTop();
     clearHash();
 
     var val = $(ev.currentTarget).val();
@@ -268,9 +271,11 @@ function setFileURLs(new_provider) {
 
     if (val === '') {
       $hits.html($allRows);
-      $('.home .packages-table-container').hide();
+      $('.packages-table-container').hide();
+      animateTopReverse();
       appLoading.stop();
     } else if (lastQuery !== val) {
+      animateTop();
       index.search(val, displayMatchingLibraries);
     }
     lastQuery = val;
