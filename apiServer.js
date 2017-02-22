@@ -24,6 +24,7 @@ if (args.length > 0 && (args[0] === '--local' || args[2] === '--local')) {
   console.log("local mode: off");
 }
 
+app.disable('x-powered-by');
 app.use(bodyParser());
 app.use(allowCrossDomain);
 app.use(compress());
