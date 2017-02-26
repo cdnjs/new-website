@@ -176,6 +176,11 @@ function setFileURLs(new_provider) {
 
     var html = '';
     var match = false;
+    if (content.hits.length < 1) {
+      $('.packages-table-container > table > thead').hide();
+    } else {
+      $('.packages-table-container > table > thead').show();
+    }
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
       if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
