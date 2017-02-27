@@ -41,6 +41,7 @@ function start() {
   });
   app.disable('x-powered-by');
   app.use(function(req, res, next) {
+    res.setHeader('Referrer-Policy', 'no-referrer-when-downgrade');
     res.setHeader('X-Frame-Options', 'deny');
     res.setHeader('X-Content-Type-Options', 'nosniff');
     res.setHeader('X-XSS-Protection', '1; mode=block');
