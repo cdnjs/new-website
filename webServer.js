@@ -331,6 +331,7 @@ function start() {
     if (!library.urls) {
       library.urls = libraryGitRepoList(library);
     }
+
     res.send(generatePage({
       reqUrl: req.url,
       title: libraryName + ' - ' + TITLE,
@@ -347,11 +348,44 @@ function start() {
           tutorialsPresent: tutorialsPresent,
           star: stargazers_count,
           fork: forks,
-          watch: subscribers_count
+          watch: subscribers_count,
+          githubNewIssueUpdateUrl: genGitHubNewIssueUrl('update', library, assets[0].version)
         },
         description: library && (library.name + " - " + library.description)
       }
     }));
+  }
+
+  function genGitHubNewIssueUrl(type, library, version) {
+    var licensesStr = library.licenses.map(function(el) { return el.type });
+    var title;
+    var bodyLines = [];
+
+    title = "[Request] Update " + library.name;
+    bodyLines = [
+      "**Library name:** " + library.name,
+      "**CDNJS version:** " + version,
+      "**Git repository url:** " + library.repository.url,
+      // "**npm package name or url** (if there is one): " + library.autoupdate.url,
+      "**Need update items and description:**",
+      "- [ ] **description:** " + library.description      + " -->",
+      "- [ ] **version:** "     + version                  + " -->",
+      "- [ ] **filename:** "    + library.filename         + " -->",
+      "- [ ] **homepage:** "    + library.homepage         + " -->",
+      "- [ ] **repository:** "  + library.repository.url   + " -->",
+      "- [ ] **keywords:** "    + library.keywords         + " -->",
+      "- [ ] **license(s):** "  + _.join(licensesStr, ' ') + " -->",
+      "",
+      "**Wanna say something? Leave message here:**"
+    ]
+
+    var body = _.join(bodyLines, '\n');
+
+    var url = "https://github.com/cdnjs/cdnjs/issues/new" +
+    "?title=" + escape(title) +
+    "&body=" + escape(body);
+
+    return url;
   }
 
   app.get('/libraries/:library/tutorials', function(req, res) {
