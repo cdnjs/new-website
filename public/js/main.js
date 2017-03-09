@@ -74,10 +74,11 @@ function setFileURLs(new_provider) {
   function setupMouseEvents() {
     // Currently not showing the copy button for iOS, check clipboard.js support
     if (!(/iPhone|iPad/i.test(navigator.userAgent))) {
-      $('.library-column').hover(function(ev) {
+      $('.packages-table-container table tbody tr').hover(function(ev) {
         var cont = $(ev.currentTarget);
+        var libraryColumn = cont.find('.library-column');
         copyEl.show();
-        copyEl.appendTo(cont);
+        copyEl.appendTo(libraryColumn);
       }, function(e){
         copyEl.hide();
       });
