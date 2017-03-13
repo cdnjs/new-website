@@ -279,9 +279,9 @@ function setFileURLs(new_provider) {
 
     if (val === '') {
       $hits.html($allRows);
-      if(location.pathname === '/libraries'){
+      if (location.pathname === '/libraries') {
         $('.packages-table-container').show();
-      }else{
+      } else {
         $('.packages-table-container').hide();
       }
       animateTopReverse();
