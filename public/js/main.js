@@ -279,7 +279,11 @@ function setFileURLs(new_provider) {
 
     if (val === '') {
       $hits.html($allRows);
-      $('.packages-table-container').hide();
+      if (location.pathname === '/libraries') {
+        $('.packages-table-container').show();
+      } else {
+        $('.packages-table-container').hide();
+      }
       animateTopReverse();
       appLoading.stop();
     } else if (lastQuery !== val) {
