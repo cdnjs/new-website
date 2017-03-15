@@ -39,7 +39,6 @@
     "marked": "^0.3.6",
     "mustache": "^2.2.1",
     "newline-remove": "^1.0.2",
-    "newrelic": "^1.30.1",
     "throng": "^1.0.1"
   }
 }

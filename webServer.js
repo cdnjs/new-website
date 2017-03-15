@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-require('newrelic');
 var throng = require('throng');
 var gravatar = require('gravatar');
 var gitUrlParse = require("git-url-parse");

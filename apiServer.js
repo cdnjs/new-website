@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-require('newrelic');
 var fs = require('fs');
 var express = require('express');
 var algoliasearch = require("algoliasearch");
