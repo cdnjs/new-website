@@ -13,7 +13,7 @@ var request = 'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20A
 var args = process.argv.slice(2);
 var localMode = false;
 
-if (args.length > 0 && (args[0] === '--local' || args[2] === '--local')) {
+if (process.env.LOCAL === 'true' || (args.length > 0 && (args[0] === '--local' || args[2] === '--local'))) {
   console.log("local mode: on, gc(), CSP and Public-Key-Pins headers disabled!");
   localMode = true;
 } else {

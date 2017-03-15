@@ -16,7 +16,7 @@ var allowCrossDomain = function(req, res, next) {
   next();
 };
 
-if (args.length > 0 && (args[0] === '--local' || args[2] === '--local')) {
+if (process.env.LOCAL === 'true' || (args.length > 0 && (args[0] === '--local' || args[2] === '--local'))) {
   console.log("local mode: on, gc() disabled!");
   localMode = true;
 } else {
