@@ -167,7 +167,6 @@ function start() {
   };
 
   function pushAssets(res) {
-    serverPush(res, '/css/theme.css');
     serverPush(res, '/css/main.css');
     serverPush(res, '/js/main.js');
   }
