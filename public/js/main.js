@@ -331,4 +331,5 @@ function setFileURLs(new_provider) {
     var newURL = window.location.origin + '/libraries/' + libraryName + '/' + libraryVersion;
     window.location.href = newURL;
   });
+  console.log("%cThanks for using CDNJS!", "font: 5em roboto; color: #dd4814;");
 })(jQuery);
