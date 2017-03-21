@@ -38,7 +38,7 @@ function humanOutput(res, json) {
       '<script defer>hljs.initHighlightingOnLoad();</script>' +
       '<script defer>var output=' + JSON.stringify(json) + '; ' +
       'document.write("<pre><code class=\'json\'>" + JSON.stringify(output,null,2) + "</code></pre>");</script>' +
-      '<script defer>console.log("%cThanks for using CDNJS!", "font: 5em roboto; color: #dd4814;");</script>' +
+      '<script defer>console.log("%cThanks for using CDNJS! 😊", "font: 5em roboto; color: #dd4814;");</script>' +
       '</body></html>';
   res.write(htmlOutput);
   res.end();
