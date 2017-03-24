@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var fs = require('fs');
 var express = require('express');
-var algoliasearch = require("algoliasearch");
+var algoliasearch = require("algoliasearch/lite");
 var _ = require('lodash');
 var app = express();
 var args = process.argv.slice(2);
