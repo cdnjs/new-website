@@ -52,18 +52,37 @@
       <br />
       {{#selectedAssets}}
       <div data-library-version="{{version}}" class="assets library-table-container">
-          <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
-            <tbody>
-              {{#files}}
-              <tr class="library {{fileType}}-type">
-                <td class="library-column"  data-lib-name="{{library.name}}" style="position: relative;">
-                  <p class='library-url'>{{library.originalName}}/{{version}}/{{name}}</p>
-                </td>
-              </tr>
-              {{/files}}
-            </tbody>
-          </table>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          {{#fileArray}}
+            <li role="presentation" {{#isActive}} class="active" {{/isActive}}><a href="#{{fileType}}" aria-controls="{{fileType}}" role="tab" data-toggle="tab">{{fileType}}</a></li>
+          {{/fileArray}}
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          {{#fileArray}}
+            <div role="tabpanel" class="tab-pane {{#isActive}} active {{/isActive}}" id="{{fileType}}">
+              <table style="margin-top: 20px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
+                <thead>
+                  <th>
+                    {{fileType}} files
+                  </th>
+                </thead>
+                 <tbody>
+                   {{#files}}
+                     <tr class="library {{fileType}}-type">
+                       <td class="library-column"  data-lib-name="{{library.name}}" style="position: relative;">
+                         <p class='library-url'>{{library.originalName}}/{{version}}/{{name}}</p>
+                       </td>
+                     </tr>
+                  {{/files}}
+                </tbody>
+              </table>
+            </div>
+          {{/fileArray}}
         </div>
+      </div>
       {{/selectedAssets}}
         <h3>Related Tutorials</h3>
             <p style="margin-bottom: 50px;">Write your own awesome web development tutorials for the libraries on CDNJS! <a href="https://github.com/cdnjs/tutorials" target="_blank">Submit your community driven tutorials now!</a></p>

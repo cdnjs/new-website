@@ -239,6 +239,38 @@ function start() {
   }
 
   function libraryAssetsList(library, version) {
+    function getGroupByExtension(extension) {
+      switch (extension) {
+        case 'css':
+        case 'js':
+        case 'map':
+          return extension;
+        case 'png':
+        case 'jpg':
+        case 'jpeg':
+        case 'gif':
+        case 'ico':
+        case 'svg':
+        case 'webp':
+          return 'image';
+        case 'eot':
+        case 'otf':
+        case 'ttf':
+        case 'woff':
+        case 'woff2':
+          return 'font';
+        case 'aac':
+        case 'mp3':
+        case 'wav':
+        case 'ogg':
+          return 'sound';
+        case 'swf':
+          return 'flash';
+        default:
+          return 'other';
+      }
+    }
+
     return _.map(library.assets, function(assets) {
       if (assets.version === version) {
         assets.selected = 'selected';
@@ -246,13 +278,70 @@ function start() {
         assets.selected = '';
       }
       if (assets.gennedFileNames === undefined) {
-        var fileArray = [];
-        assets.files.map(function(fileName, index) {
+        var fileMap = new Map();
+        // This map holds files by type.
+        // We will use this to order them by type in the response
+        fileMap.set('css', []);
+        fileMap.set('js', []);
+        fileMap.set('image', []);
+        fileMap.set('font', []);
+        fileMap.set('sound', []);
+        fileMap.set('flash', []);
+        fileMap.set('other', []);
+        fileMap.set('map', []);
+        var mapFiles = [];
+        assets.files.forEach( function(fileName, index) {
           var fileExtension = path.extname(fileName);
-          var fileType = fileExtension.substring(1) || 'unknown';
-          fileArray.push({name: fileName, fileType: fileType});
+          var fileType = getGroupByExtension(fileExtension.substring(1));
+          if (fileType == 'map') {
+            mapFiles.push(fileName);
+            return;
+          }
+          fileMap.get(fileType).push({
+            name : fileName,
+            type : fileType
+          });
         });
-        assets.files = fileArray;
+        if (mapFiles.length) {
+          // The map files put along with their sources
+          mapFiles.forEach(function(fileName) {
+             var sourceFileParts = fileName.split('.map');
+             var sourceFileName = sourceFileParts.join("");
+             var sourceFileType = getGroupByExtension(path.extname(sourceFileName).substring(1));
+             if (sourceFileType === 'css' || sourceFileType === 'js') {
+                const sourceFileIndex = fileMap.get(sourceFileType).findIndex( function(file) {
+                  return file.name.includes(sourceFileParts[0]);
+                });
+                if (sourceFileIndex >= 0) {
+                  // Finding source file and push the map file right after it
+                  return fileMap.get(sourceFileType).splice(sourceFileIndex + 1,0,{
+                    name : fileName,
+                    type : sourceFileType
+                  });
+                }
+             } else {
+               // If a corresponding source file for a map file is not found,
+               // push it to the "map" file list
+               fileMap.get('map').push({
+                 name : fileName,
+                 type : 'map'
+               });
+              }
+          });
+        }
+        var fileArray = Array.prototype.concat.apply([], ['js', 'css', 'map', 'image', 'font', 'flash', 'sound', 'other'].filter(function(fileType) {
+          return fileMap.get(fileType).length > 0;
+        })
+        .map(function(fileType, index) {
+          return {
+            fileType : fileType,
+            // Mustache does not handle complex if else statments
+            // isActive determines the tab in view
+            isActive : index === 0,
+            files : fileMap.get(fileType)
+          };
+        }));
+        assets.fileArray = fileArray;
         assets.gennedFileNames = true;
       }
       return assets;
