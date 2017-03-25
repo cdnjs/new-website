@@ -251,15 +251,15 @@ function start() {
           if(fileTypeArray.indexOf(fileType) < 0){
             fileTypeArray.push(fileType);
             fileArray.push({
-							fileType : fileType,
-							files : []
-						});
+              fileType : fileType,
+              files : []
+            });
           }
           var index = fileTypeArray.indexOf(fileType);
           fileArray[index]['files'].push({
-						name : fileName,
-						type : fileType
-					});
+            name : fileName,
+            type : fileType
+          });
         });
         assets.fileArray = fileArray;
         assets.gennedFileNames = true;
