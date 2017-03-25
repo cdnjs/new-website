@@ -244,12 +244,24 @@ function start() {
       }
       if (assets.gennedFileNames === undefined) {
         var fileArray = [];
+        var fileTypeArray = [];
         assets.files.map(function(fileName, index) {
           var fileExtension = path.extname(fileName);
           var fileType = fileExtension.substring(1) || 'unknown';
-          fileArray.push({name: fileName, fileType: fileType});
+          if(fileTypeArray.indexOf(fileType) < 0){
+            fileTypeArray.push(fileType);
+            fileArray.push({
+							fileType : fileType,
+							files : []
+						});
+          }
+          var index = fileTypeArray.indexOf(fileType);
+          fileArray[index]['files'].push({
+						name : fileName,
+						type : fileType
+					});
         });
-        assets.files = fileArray;
+        assets.fileArray = fileArray;
         assets.gennedFileNames = true;
       }
       return assets;

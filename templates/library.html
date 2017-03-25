@@ -52,15 +52,28 @@
       <br />
       {{#selectedAssets}}
       <div data-library-version="{{version}}" class="assets library-table-container">
-          <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
+          <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table" id="library-type">
             <tbody>
-              {{#files}}
-              <tr class="library {{fileType}}-type">
-                <td class="library-column"  data-lib-name="{{library.name}}" style="position: relative;">
-                  <p class='library-url'>{{library.originalName}}/{{version}}/{{name}}</p>
-                </td>
-              </tr>
-              {{/files}}
+              {{#fileArray}}
+							 <tr class="library-type {{fileType}}-type">
+								  <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
+										<thead>
+											<th>
+												{{fileType}}
+											</th>
+										</thead>
+				            <tbody>
+												{{#files}}
+		                    <tr class="library {{fileType}}-type">
+					                <td class="library-column"  data-lib-name="{{library.name}}" style="position: relative;">
+					                  <p class='library-url'>{{library.originalName}}/{{version}}/{{name}}</p>
+					                </td>
+					              </tr>
+												{{/files}}
+										</tbody>
+				          </table>
+							 </tr>
+              {{/fileArray}}
             </tbody>
           </table>
         </div>
