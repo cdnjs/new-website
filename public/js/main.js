@@ -332,4 +332,11 @@ function setFileURLs(new_provider) {
     window.location.href = newURL;
   });
   console.log("%cThanks for using CDNJS! 😊", "font: 5em roboto; color: #dd4814;");
+  $(function () {
+    $.scrollUp({
+      animation: 'slide',
+      scrollDistance: 800,
+      activeOverlay: false,
+    });
+  });
 })(jQuery);
