@@ -236,6 +236,27 @@ function start() {
   }
 
   function libraryAssetsList(library, version) {
+    function getGroupByExtension(extension) {
+      switch(extension){
+        case 'css':
+        case 'js' :
+        case 'map':
+          return extension;
+        case 'png':
+        case 'jpg':
+        case 'jpeg':
+        case 'gif':
+          return 'image';
+        case 'eot':
+        case 'ttf':
+        case 'woff':
+        case 'woff2':
+          return 'font';
+        default:
+          return 'other';
+      }
+    }
+
     return _.map(library.assets, function(assets) {
       if (assets.version === version) {
         assets.selected = 'selected';
@@ -243,29 +264,73 @@ function start() {
         assets.selected = '';
       }
       if (assets.gennedFileNames === undefined) {
-        var fileArray = [];
-        var fileTypeArray = [];
-        assets.files.map(function(fileName, index) {
+        var fileMap = new Map();
+        //We need this structure for ordering
+        // Ideally other should come at last
+        fileMap.set('css',[]);
+        fileMap.set('js',[]);
+        fileMap.set('image',[]);
+        fileMap.set('font',[]);
+				fileMap.set('other',[]);
+				fileMap.set('mapfile',[]);
+        var mapFiles = [];
+        assets.files.forEach( function(fileName, index) {
           var fileExtension = path.extname(fileName);
-          var fileType = fileExtension.substring(1) || 'unknown';
-          if(fileTypeArray.indexOf(fileType) < 0){
-            fileTypeArray.push(fileType);
-            fileArray.push({
-              fileType : fileType,
-              files : []
-            });
+          var fileType = getGroupByExtension(fileExtension.substring(1));
+          if (fileType == 'map') {
+            mapFiles.push(fileName);
+            return;
           }
-          var index = fileTypeArray.indexOf(fileType);
-          fileArray[index]['files'].push({
+          fileMap.get(fileType).push({
             name : fileName,
             type : fileType
           });
         });
+        if (mapFiles.length) {
+          //there are map files which need to be put along with their sources
+          mapFiles.forEach( function(fileName) {
+             var sourceFileParts = fileName.split('.map');
+             var sourceFileName = sourceFileParts.join("");
+             var sourceFileType = getGroupByExtension(path.extname(sourceFileName).substring(1));
+             if ( sourceFileType === 'cs' || sourceFileType === 'js' ) {
+                const sourceFileIndex = fileMap.get(sourceFileType).findIndex( function(file) {
+                  console.log(file.name, sourceFileParts, file.name.includes(sourceFileParts[0]));
+                  return file.name.includes(sourceFileParts[0]);
+                });
+                if (sourceFileIndex >= 0) {
+                  //find source file and push the map file right after it
+                  return fileMap.get(sourceFileType).splice(sourceFileIndex + 1,0,{
+                    name : fileName,
+                    type : sourceFileType
+                  });
+                }
+             } else {
+               // could not find corresponding source file  - indeterminate map file
+               fileMap.get('mapfile').push({
+                 name : fileName,
+                 type : 'mapfile'
+               });
+              }
+          });
+        }
+        var fileArray = Array.prototype.concat.apply([], ['css','js','image','font','other','mapfile'].filter( function(fileType) {
+          return fileMap.get(fileType).length > 0;
+        })
+        .map( function(fileType) {
+          return {
+            fileType : fileType,
+            files : fileMap.get(fileType)
+          };
+        }));
         assets.fileArray = fileArray;
         assets.gennedFileNames = true;
+
       }
       return assets;
     });
+    //console.log("===")
+    //console.log(library.id,assets,fileArray);
+
   }
 
   function GitHubMetaInfo(library) {
