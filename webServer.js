@@ -292,9 +292,8 @@ function start() {
              var sourceFileParts = fileName.split('.map');
              var sourceFileName = sourceFileParts.join("");
              var sourceFileType = getGroupByExtension(path.extname(sourceFileName).substring(1));
-             if ( sourceFileType === 'cs' || sourceFileType === 'js' ) {
+             if ( sourceFileType === 'css' || sourceFileType === 'js' ) {
                 const sourceFileIndex = fileMap.get(sourceFileType).findIndex( function(file) {
-                  console.log(file.name, sourceFileParts, file.name.includes(sourceFileParts[0]));
                   return file.name.includes(sourceFileParts[0]);
                 });
                 if (sourceFileIndex >= 0) {
@@ -316,9 +315,11 @@ function start() {
         var fileArray = Array.prototype.concat.apply([], ['css','js','image','font','other','mapfile'].filter( function(fileType) {
           return fileMap.get(fileType).length > 0;
         })
-        .map( function(fileType) {
+        .map( function(fileType, index) {
           return {
             fileType : fileType,
+            // we need this because mustache is limiting with if-else
+            isActive : index === 0,
             files : fileMap.get(fileType)
           };
         }));
