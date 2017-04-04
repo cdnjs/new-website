@@ -237,7 +237,7 @@ function start() {
 
   function libraryAssetsList(library, version) {
     function getGroupByExtension(extension) {
-      switch(extension){
+      switch (extension) {
         case 'css':
         case 'js' :
         case 'map':
@@ -267,12 +267,12 @@ function start() {
         var fileMap = new Map();
         //We need this structure for ordering
         // Ideally other should come at last
-        fileMap.set('css',[]);
-        fileMap.set('js',[]);
-        fileMap.set('image',[]);
-        fileMap.set('font',[]);
-				fileMap.set('other',[]);
-				fileMap.set('mapfile',[]);
+        fileMap.set('css', []);
+        fileMap.set('js', []);
+        fileMap.set('image', []);
+        fileMap.set('font', []);
+        fileMap.set('other', []);
+        fileMap.set('mapfile', []);
         var mapFiles = [];
         assets.files.forEach( function(fileName, index) {
           var fileExtension = path.extname(fileName);
@@ -292,7 +292,7 @@ function start() {
              var sourceFileParts = fileName.split('.map');
              var sourceFileName = sourceFileParts.join("");
              var sourceFileType = getGroupByExtension(path.extname(sourceFileName).substring(1));
-             if ( sourceFileType === 'css' || sourceFileType === 'js' ) {
+             if (sourceFileType === 'css' || sourceFileType === 'js') {
                 const sourceFileIndex = fileMap.get(sourceFileType).findIndex( function(file) {
                   return file.name.includes(sourceFileParts[0]);
                 });
@@ -312,7 +312,7 @@ function start() {
               }
           });
         }
-        var fileArray = Array.prototype.concat.apply([], ['css','js','image','font','other','mapfile'].filter( function(fileType) {
+        var fileArray = Array.prototype.concat.apply([], ['css', 'js', 'image', 'font', 'other', 'mapfile'].filter( function(fileType) {
           return fileMap.get(fileType).length > 0;
         })
         .map( function(fileType, index) {
@@ -325,13 +325,9 @@ function start() {
         }));
         assets.fileArray = fileArray;
         assets.gennedFileNames = true;
-
       }
       return assets;
     });
-    //console.log("===")
-    //console.log(library.id,assets,fileArray);
-
   }
 
   function GitHubMetaInfo(library) {
