@@ -1,0 +1,586 @@
+*{margin:0;padding:0;}
+#overlay{ /* we set all of the properties for are overlay */
+    height:80%;
+    width:80%;
+    margin:0 auto;
+    background:white;
+    color:black;
+    padding:10px;
+    position:absolute;
+    top:5%;
+    left:10%;
+    z-index:1000;
+    display:none;
+    /* CSS 3 */
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+}
+
+#mask{ /* create are mask */
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    z-index:500;
+    width:100%;
+    height:100%;
+    display:none;
+}
+/* use :target to look for a link to the overlay then we find are mask */
+#overlay:target, #overlay:target + #mask{
+    display:block;
+    opacity:1;
+}
+.close{ /* to make a nice looking pure CSS3 close button */
+    display:block;
+    position:absolute;
+    top:-20px;
+    right:-20px;
+    background:red;
+    color:white;
+    height:40px;
+    width:40px;
+    line-height:40px;
+    font-size:35px;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -o-border-radius:40px;
+    border-radius:40px;
+}
+#open-overlay{ /* open the overlay */
+    padding:10px 5px;
+    background:blue;
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+    margin:20px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.letterpress {
+	text-shadow: 0px 0.4vw 0.4vw #e9e9e9;
+	color: #009999;
+	font: 1.6vw 'arial' 'italic';
+letter-spacing:0.7px
+}
+
+
+
+@-ms-viewport{
+  width: device-width;
+}
+
+b {
+  font-size: 3vmin;
+}
+
+.menu1 nav ul ul {
+	position: absolute; left: 10%; top:0;
+}
+
+.menu1 nav ul ul ul {
+	position: absolute; left: 60%; top:0;
+	
+}
+            nav ul ul ul li {
+		float: left; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul ul li a {
+			padding: 5px 40px;
+			color: #fff;
+		}	
+			nav ul ul ul li a:hover {
+				background: #4b545f;
+			}
+
+.menu1 nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	
+	nav ul ul li {
+		float: left; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 10px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+	
+			
+.menu1 nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+	
+	nav ul li a {
+		display: block; padding: 2px 40px;
+		color: #757575; text-decoration: none;
+	}
+	
+.menu1 nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 2px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	margin-left:20%;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+	
+.menu1 nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+/*menu position css------------------*/
+
+*, *::after, *::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+ html * {
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+ }
+
+
+ .cd-words-wrapper {
+     display: inline-block;
+     position: relative;
+     text-align: center;
+ }
+ .cd-words-wrapper b {
+     display: inline-block;
+     position: absolute;
+     white-space: nowrap;
+     left: 0;
+     top: 0;
+	 
+ }
+ .cd-words-wrapper b.is-visible {
+     position: relative;
+ }
+ .no-js .cd-words-wrapper b {
+     opacity: 0;
+ }
+ .no-js .cd-words-wrapper b.is-visible {
+     opacity: 1;
+ }
+ /* --------------------------------  
+
+xzoom 
+
+-------------------------------- */
+ .cd-headline.zoom .cd-words-wrapper {
+     -webkit-perspective: 5vmin;
+     -moz-perspective: 5vmin;
+     perspective: 5vmin;
+ }
+ .cd-headline.zoom b {
+     opacity: 0;
+ }
+ .cd-headline.zoom b.is-visible {
+     opacity: 1;
+     -webkit-animation: zoom-in 0.8s;
+     -moz-animation: zoom-in 0.8s;
+     animation: zoom-in 0.8s;
+ }
+ .cd-headline.zoom b.is-hidden {
+     -webkit-animation: zoom-out 0.8s;
+     -moz-animation: zoom-out 0.8s;
+     animation: zoom-out 0.8s;
+ }
+ @-webkit-keyframes zoom-in {
+     0% {
+         opacity: 0;
+         -webkit-transform: translateZ(2vmin);
+     }
+     100% {
+         opacity: 1;
+         -webkit-transform: translateZ(0);
+     }
+ }
+ @-moz-keyframes zoom-in {
+     0% {
+         opacity: 0;
+         -moz-transform: translateZ(2vmin);
+     }
+     100% {
+         opacity: 1;
+         -moz-transform: translateZ(0);
+     }
+ }
+ @keyframes zoom-in {
+     0% {
+         opacity: 0;
+         -webkit-transform: translateZ(2vmin);
+         -moz-transform: translateZ(2vmin);
+         -ms-transform: translateZ(2vmin);
+         -o-transform: translateZ(2vmin);
+         transform: translateZ(2vmin);
+     }
+     100% {
+         opacity: 1;
+         -webkit-transform: translateZ(0);
+         -moz-transform: translateZ(0);
+         -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+         transform: translateZ(0);
+     }
+ }
+ @-webkit-keyframes zoom-out {
+     0% {
+         opacity: 1;
+         -webkit-transform: translateZ(0);
+     }
+     100% {
+         opacity: 0;
+         -webkit-transform: translateZ(-2vmin);
+     }
+ }
+ @-moz-keyframes zoom-out {
+     0% {
+         opacity: 1;
+         -moz-transform: translateZ(0);
+     }
+     100% {
+         opacity: 0;
+         -moz-transform: translateZ(-2vmin);
+     }
+ }
+ @keyframes zoom-out {
+     0% {
+         opacity: 1;
+         -webkit-transform: translateZ(0);
+         -moz-transform: translateZ(0);
+         -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+         transform: translateZ(0);
+     }
+     100% {
+         opacity: 0;
+         -webkit-transform: translateZ(-2vmin);
+         -moz-transform: translateZ(-2vmin);
+         -ms-transform: translateZ(-2vmin);
+         -o-transform: translateZ(-2vmin);
+         transform: translateZ(-2vmin);
+     }
+ }
+ /* -------------------------------- */
+/*=========================================================TEXT ANIMATION CSS BIG==============================================*/
+
+.next3 {right:1vw;
+top:2vh;
+        position: absolute;
+white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;  
+}
+
+.next2 {font-size:1.9vmin;
+    font-style: italic;
+    font-family:"Courier New", Courier, monospace;
+     color:brown;
+opacity:0.6;
+left:6.8vw;
+top:95.5vh;
+        position: absolute;
+		animation-iteration-count: 0;
+}
+
+.next1 {font-size:2.3vmin;
+     
+opacity:0.5;
+right:2%;
+top:0%;
+        position: absolute;
+}
+.next {
+left: 0vw;
+top:90vh;
+        position: absolute;
+}
+
+/*menu position css------------------*/
+.menu2 nav {
+  max-width: 9vmin;
+  /* The mask-image gives us some extra fading. It is not necessary but without this, you can't face out the box-shadows. This clips our menu */
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  /* Using padding instead of margin for the top and bottom here will keep our box-shadow visible and not affected by the mask-image */
+  padding: 0.0vmin 0px ;
+}
+
+.menu2 nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.0), inset 0 0 1px rgba(255, 255, 255, 0.0);
+}
+
+.menu2 nav ul li {
+  display: inline-block;
+}
+
+.menu2 nav ul li a {
+  padding: 10px;
+  font-family: "Roboto";
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.4);
+  font-size: 3.7vmin;
+  text-decoration: none;
+  display: block;
+}
+
+.menu2 nav ul li a:hover {
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(246, 248, 249, 1);   //bodybackground
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*<!-- http://creative-punch.net/2014/02/make-transparent-glass-menu-bar-css3/  ----------------CSSGLASSMENUCSSGLASSMENUCSSGLASSMENUCSSGLASSMENU-->*/
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: auto;
+  height: 3vmin;
+  border: none;
+  font: normal 2.8vmin/1 "Times New Roman", Times, serif;
+  color: #grey;
+  text-align: center;
+  text-indent: 0vmin;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-repeating-linear-gradient(-90deg, rgba(219,214,175,1) 0, rgba(219,214,175,1) 41%, rgba(191,182,154,1) 99%, rgba(191,182,154,1) 100%);
+  background: -moz-repeating-linear-gradient(180deg, rgba(219,214,175,1) 0, rgba(219,214,175,1) 41%, rgba(191,182,154,1) 99%, rgba(191,182,154,1) 100%);
+  background: repeating-linear-gradient(180deg, rgba(219,214,175,1) 0, rgba(219,214,175,1) 41%, rgba(191,182,154,1) 99%, rgba(191,182,154,1) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) , 0 0 2px 2px rgba(0,0,0,0.5) ;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) , 0 0 2px 2px rgba(0,0,0,0.5) ;
+  text-shadow: 4px 4px 6px rgba(0,0,0,0.5) ;
+}
+
+
+
+/*<!--http://enjoycss.com/59e/1/code/0/#text------------------LABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSSLABLECSS-->*/
+body{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,f5f7f9+100 */
+background: #f6f8f9; /* Old browsers */
+background: -moz-linear-gradient(left,  #f6f8f9 0%, #f5f7f9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #f6f8f9 0%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #f6f8f9 0%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 */
+}
+a {
+   outline: 0;
+}
+
+body {
+height:100vmin;
+width:100vw;
+    overflow:hidden;
+}
+
+
+.overr {
+    background: rgba(255, 245, 255, 0.1);
+    float: right;
+    height: 75vmin;
+    margin-top: -72vmin;
+    margin-right:-1.5vmin;
+    overflow: visible;
+    position: relative;
+    width: 32vmin;
+    color:#FFFFFF;
+    z-index: 1000;
+    padding:5vmin;
+	
+}
+.overr span {
+    position: relative;
+    top: 5vmin;
+}
+.overrr {
+    background: rgba(255, 245, 255, 0.1);
+    float: left;
+    height: 75vmin;
+    margin-top: -72vmin;
+    margin-left:-1.5vmin;
+    overflow: visible;
+    position: relative;
+    width: 19vmin;
+    color:#FFFFFF;
+    z-index: 1000;
+    padding:5vmin;
+}
+.overrr span {
+    position: relative;
+    top: 5vmin;
+}
+
+
+a:hover {color:#cc3399;}
+a{color:transparent; font-size:2.9vmin;}
+
+.clearfix:before,
+.clearfix:after {
+    content: ".";    
+    display: block;    
+    height: 0;    
+    overflow: hidden; 
+}
+
+.clearfix:after { clear: both; }
+.clearfix { zoom: 0; }
+
+
+.marquee { 
+   /* the plugin works for responsive layouts so width is not necessary */
+  border:0px solid #ccc;
+}
+@-webkit-keyframes changes {
+0% {box-shadow: 0px 0px 60px #FFFFFF; background-color: ##ffffff;}
+10% {box-shadow: 0px 0px 60px #2F4F4F; background-color: ##ffffcc;}
+20% {box-shadow: 0px 0px 60px #008080; background-color: ##ffffff;}
+30% {box-shadow: 0px 0px 60px #FF0000; background-color: ##ffffcc;}
+40% {box-shadow: 0px 0px 60px ##fffdeb; background-color: ##ffffcc;}
+50% {box-shadow: 0px 0px 60px #000000; background-color: #FFFFFF;}
+60% {box-shadow: 0px 0px 60px #0000FF; background-color: ##ffffcc;}
+70% {box-shadow: 0px 0px 60px #FF00FF; background-color: ##ffffff;}
+80% {box-shadow: 0px 0px 60px #008080; background-color: ##ffffff;}
+90% {box-shadow: 0px 0px 60px #00FF00; background-color: ##ffffcc;}
+100% {box-shadow: 0px 0px 60px #FFFFFF; background-color: ##ffffcc;}
+}
+@keyframes changes {
+0% {box-shadow: 0px 0px 60px #FFFFFF; background-color: ##ffffff;}
+10% {box-shadow: 0px 0px 60px #2F4F4F; background-color: ##ffffcc;}
+20% {box-shadow: 0px 0px 60px #008080; background-color: ##ffffff;}
+30% {box-shadow: 0px 0px 60px #FF0000; background-color: ##ffffcc;}
+40% {box-shadow: 0px 0px 60px ##fffdeb; background-color: ##ffffcc;}
+50% {box-shadow: 0px 0px 60px #000000; background-color: #FFFFFF;}
+60% {box-shadow: 0px 0px 60px #0000FF; background-color: ##ffffcc;}
+70% {box-shadow: 0px 0px 60px #FF00FF; background-color: ##ffffff;}
+80% {box-shadow: 0px 0px 60px #008080; background-color: ##ffffff;}
+90% {box-shadow: 0px 0px 60px #00FF00; background-color: ##ffffcc;}
+100% {box-shadow: 0px 0px 60px #FFFFFF; background-color: ##ffffcc;}
+}
+.changes:hover {
+-webkit-animation-name: changes;
+-webkit-animation-duration: 10s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-name: changes;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+border-radius: 8px;
+text-align:auto;
+padding:4px;
+}
+
+
+
+.tooltip span
+{
+  display:none;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  color:black;
+  background:white;
+  
+
+}
+ 
+ 
+.tooltip span img
+{
+  float:left;
+  margin:0px 8px 8px 0;
+}
+ 
+ 
+.tooltip:hover span
+{
+  display:inline;
+  position:absolute;
+  top:13px;
+  left:0;
+  z-index:1000;
+  width:auto;
+  min-width:30vmin;
+  max-width:45vmin;
+  min-height:20vmin;
+  border:1px solid black;
+  margin-top:2vh;
+  margin-left:-5px;
+  overflow:hidden;
+  padding:0.1vmin;
+  background:#FFFF99;  
+  text-align:center;
+}
+
+.tooltip
+{  text-decoration:none;
+    
+}
+ .tooltip {
+    position: relative;
+}
+@-moz-keyframes marqueeAnimation-8165306  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-5324247  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-3704604  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-3752292  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-9899391  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-2189302  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-1349660  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-5451161  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-8623925  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-758372  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-7691941  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-6843272  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-7047153  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-5880172  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-5107004  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-608679  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-9620672  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-920968  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-5700443  { 100%  {margin-left:-7085px}}@-moz-keyframes marqueeAnimation-7146923  { 100%  {margin-left:-7085px}}</style>
