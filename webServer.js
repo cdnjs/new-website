@@ -125,7 +125,6 @@ function start() {
       keywords: keywords,
       description: description,
       page: pageContent,
-      request: request,
       wrapperClass: options.wrapperClass || ''
     });
     return fullContent;
