@@ -239,19 +239,28 @@ function start() {
     function getGroupByExtension(extension) {
       switch (extension) {
         case 'css':
-        case 'js' :
+        case 'js':
         case 'map':
           return extension;
         case 'png':
         case 'jpg':
         case 'jpeg':
         case 'gif':
+        case 'ico':
+        case 'svg':
+        case 'webp':
           return 'image';
         case 'eot':
+        case 'otf':
         case 'ttf':
         case 'woff':
         case 'woff2':
           return 'font';
+        case 'aac':
+        case 'mp3':
+        case 'wav':
+        case 'ogg':
+          return 'sound';
         default:
           return 'other';
       }
@@ -271,6 +280,7 @@ function start() {
         fileMap.set('js', []);
         fileMap.set('image', []);
         fileMap.set('font', []);
+        fileMap.set('sound', []);
         fileMap.set('other', []);
         fileMap.set('mapfile', []);
         var mapFiles = [];
@@ -312,7 +322,7 @@ function start() {
               }
           });
         }
-        var fileArray = Array.prototype.concat.apply([], ['css', 'js', 'image', 'font', 'other', 'mapfile'].filter( function(fileType) {
+        var fileArray = Array.prototype.concat.apply([], ['css', 'js', 'image', 'font', 'sound', 'other', 'mapfile'].filter( function(fileType) {
           return fileMap.get(fileType).length > 0;
         })
         .map( function(fileType, index) {
