@@ -160,21 +160,39 @@ function initIndex(next) {
     optionalWords: ['js', 'css'], // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
     ranking: ['typo', 'words', 'proximity', 'attribute', 'custom'] // removed the "exact" criteria conflicting with the "keywords" array containing exact forms
   }, function(error, content) {
-    next();
+    if (error) {
+      console.log(error.message);
+      console.log(error.debugData);
+      return;
+    } else {
+      next();
+    }
   });
 }
 
 function push(next) {
   console.log('* Indexing ' + LIBRARIES.length + ' libraries');
   index.addObjects(LIBRARIES, function(error, content) {
-    next();
+    if (error) {
+      console.log(error.message);
+      console.log(error.debugData);
+      return;
+    } else {
+      next();
+    }
   });
 }
 
 function commit(next) {
   console.log('* Moving index to production');
   client.moveIndex('libraries.tmp', 'libraries', function(error, content) {
-    next();
+    if (error) {
+      console.log(error.message);
+      console.log(error.debugData);
+      return;
+    } else {
+      next();
+    }
   });
 }
 
