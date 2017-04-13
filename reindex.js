@@ -136,7 +136,9 @@ function crawl(gnext) {
 // ////
 // //// Push libraries to Algolia for the indexing
 // ////
-var client = algoliasearch('2QWLVLXZB6', process.env.ALGOLIA_API_KEY);
+var client = algoliasearch('2QWLVLXZB6', process.env.ALGOLIA_API_KEY, {
+  timeout: 20000
+});
 var index = client.initIndex('libraries.tmp');
 
 function initIndex(next) {
