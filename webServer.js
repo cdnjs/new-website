@@ -261,6 +261,8 @@ function start() {
         case 'wav':
         case 'ogg':
           return 'sound';
+        case 'swf':
+          return 'flash';
         default:
           return 'other';
       }
@@ -281,6 +283,7 @@ function start() {
         fileMap.set('image', []);
         fileMap.set('font', []);
         fileMap.set('sound', []);
+        fileMap.set('flash', []);
         fileMap.set('other', []);
         fileMap.set('mapfile', []);
         var mapFiles = [];
@@ -322,7 +325,7 @@ function start() {
               }
           });
         }
-        var fileArray = Array.prototype.concat.apply([], ['css', 'js', 'image', 'font', 'sound', 'other', 'mapfile'].filter( function(fileType) {
+        var fileArray = Array.prototype.concat.apply([], ['css', 'js', 'image', 'font', 'sound', 'flash', 'other', 'mapfile'].filter( function(fileType) {
           return fileMap.get(fileType).length > 0;
         })
         .map( function(fileType, index) {
