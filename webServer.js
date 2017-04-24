@@ -186,7 +186,7 @@ function start() {
       return res.redirect(301, '/#q=' + req.query.q);
     }
     pushAssets(res);
-    serverPush(res, '/img/algolia64x20.png');
+    serverPush(res, '/img/algolia.svg');
     setCache(res, 2);
     res.send(generatePage({
       reqUrl: req.url,
