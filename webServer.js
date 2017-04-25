@@ -285,7 +285,7 @@ function start() {
         fileMap.set('sound', []);
         fileMap.set('flash', []);
         fileMap.set('other', []);
-        fileMap.set('mapfile', []);
+        fileMap.set('map', []);
         var mapFiles = [];
         assets.files.forEach( function(fileName, index) {
           var fileExtension = path.extname(fileName);
@@ -318,14 +318,14 @@ function start() {
                 }
              } else {
                // could not find corresponding source file  - indeterminate map file
-               fileMap.get('mapfile').push({
+               fileMap.get('map').push({
                  name : fileName,
-                 type : 'mapfile'
+                 type : 'map'
                });
               }
           });
         }
-        var fileArray = Array.prototype.concat.apply([], ['css', 'js', 'image', 'font', 'sound', 'flash', 'other', 'mapfile'].filter( function(fileType) {
+        var fileArray = Array.prototype.concat.apply([], ['js', 'css', 'map', 'image', 'font', 'flash', 'sound', 'other'].filter( function(fileType) {
           return fileMap.get(fileType).length > 0;
         })
         .map( function(fileType, index) {
