@@ -57,7 +57,9 @@ body {
   display: none !important;
 }
 
-
+.major-color {
+  color: #dd4814;
+}
 
 p#name a{
     text-decoration: none;
