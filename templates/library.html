@@ -5,6 +5,16 @@
   <div class="col-md-12">
       <div class="row">
         <div class="col-md-8">
+    <p>
+      <ol class="mybreadcrumb text-muted">
+        {{#breadcrumbList}}
+        <li>
+          {{#last}}<span>{{index}}</span>{{/last}}
+          {{^last}}<a href="{{url}}">{{index}}</a>{{/last}}
+        </li>
+        {{/breadcrumbList}}
+      </ol>
+    </p>
 
     <h1 style="margin-top: 00px;" id="libraryName">{{library.name}}</h1>
     {{#watch}}

@@ -1,6 +1,18 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
+      <ol class="mybreadcrumb text-muted">
+        {{#breadcrumbList}}
+        <li>
+          {{#last}}<span>{{index}}</span>{{/last}}
+          {{^last}}<a href="{{url}}">{{index}}</a>{{/last}}
+        </li>
+        {{/breadcrumbList}}
+      </ol>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
       <p style="margin-top: 6px;">
         <div class="logged-in" style="display: none;">
           <p>

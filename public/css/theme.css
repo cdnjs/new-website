@@ -57,7 +57,22 @@ body {
   display: none !important;
 }
 
+.mybreadcrumb {
+  padding-left: 0;
+  display: inline;
+}
 
+.mybreadcrumb > li {
+  display: inline;
+}
+
+.mybreadcrumb > li + li:before {
+  content: "/\00a0";
+}
+
+.label-algolia {
+  float: right;
+}
 
 p#name a{
     text-decoration: none;

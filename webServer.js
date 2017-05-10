@@ -61,6 +61,39 @@ function start() {
     maxAge: 7200 * 1000
   }));
 
+  // generating breadcrumb information
+  app.use(function(req, res, next) {
+    function getBreadcrumbList(req) {
+      var lastIndex, nowUrl, breadcrumbList;
+
+      breadcrumbList = req.originalUrl
+        .split('?')[0]  // eliminate query string
+        .split('/');
+
+      // if orignalUrl end of '/', pop last item
+      lastIndex = breadcrumbList.length -1;
+      if (breadcrumbList[lastIndex] == '')
+        breadcrumbList.pop();
+
+      nowUrl = '';
+      breadcrumbList = breadcrumbList.map(function(path) {
+        nowUrl += path + '/';
+        return {
+          index: path || 'Home',  // empty when it is root
+          url: nowUrl
+        }
+      });
+
+      // mark the last item
+      lastIndex = breadcrumbList.length -1;
+      breadcrumbList[lastIndex].last = true;
+
+      return breadcrumbList;
+    }
+    res.breadcrumbList = getBreadcrumbList(req);
+    next();
+  });
+
     // Load libraries into ram
   var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
     // Load GitHub repositories meta data
@@ -196,7 +229,8 @@ function start() {
         template: templates.home,
         data: {
           libCount: Object.keys(LIBRARIES_MAP).length,
-          libVerCount: LIBRARIES_VERSIONS
+          libVerCount: LIBRARIES_VERSIONS,
+          breadcrumbList: res.breadcrumbList
         }
       },
       wrapperClass: 'home'
@@ -349,7 +383,8 @@ function start() {
           tutorialsPresent: tutorialsPresent,
           star: stargazers_count,
           fork: forks,
-          watch: subscribers_count
+          watch: subscribers_count,
+          breadcrumbList: res.breadcrumbList
         },
         description: library && (library.name + " - " + library.description)
       }
@@ -466,7 +501,8 @@ function start() {
         data: {
           packages: _.toArray(LIBRARIES_MAP),
           libCount: Object.keys(LIBRARIES_MAP).length,
-          libVerCount: LIBRARIES_VERSIONS
+          libVerCount: LIBRARIES_VERSIONS,
+          breadcrumbList: res.breadcrumbList
         }
       }
     }));
@@ -484,7 +520,10 @@ function start() {
       reqUrl: req.url,
       title: 'about - ' + TITLE,
       page: {
-        template: templates.about
+        template: templates.about,
+        data: {
+          breadcrumbList: res.breadcrumbList
+        }
       }
     }));
   });
@@ -495,7 +534,10 @@ function start() {
       reqUrl: req.url,
       title: 'API - ' + TITLE,
       page: {
-        template: templates.api
+        template: templates.api,
+        data: {
+          breadcrumbList: res.breadcrumbList
+        }
       }
     }));
   });
