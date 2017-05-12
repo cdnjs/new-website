@@ -4,7 +4,7 @@
 <div class="library-container">
   <div class="col-md-12">
       <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-9">
 
     <h1 style="margin-top: 00px;" id="libraryName">{{library.name}}</h1>
     {{#watch}}
@@ -24,7 +24,9 @@
         {{#library.urls}}
         &nbsp;<li class="label label-default label-highlight"><a href="{{url}}" title="Link to {{library.name}}'s source code page.">repository</a></li>
         {{/library.urls}}
-        {{#licenses}}<li class="label label-default label-highlight"><a href="{{url}}" title="License info of {{library.name}}, click to see datail.">{{type}} license</a>&nbsp;</li>{{/licenses}}
+        {{#licenses}}&nbsp;<li class="label label-default label-highlight"><a href="{{url}}" title="License info of {{library.name}}, click to see datail.">{{type}} license</a>&nbsp;</li>{{/licenses}}&nbsp;
+        <li class="label label-default label-highlight"><a href="{{githubNewIssueUpdateUrl}}" target="_blank" title="We are sorry that if the version of this library you're searching for cannot be found. Please request for library update. ">request update</a></li>&nbsp;
+        <li class="label label-default label-highlight"><a href="{{githubNewIssueOutdateUrl}}" target="_blank" title="We are sorry that if the version of this library you're searching for cannot be found. Please request for library update. ">report outdate</a></li>&nbsp;
       </p>
       <p>{{library.description}}</p>
       <em>{{library.keywords}}</em>
@@ -34,7 +36,7 @@
       <a href="https://gratipay.com/{{library.gratipay}}/"><img src="https://img.shields.io/gratipay/{{library.gratipay}}.svg" /></a>
       {{/library.gratipay}}
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3 col-md-pull-1">
           <script type="text/javascript" src="https://cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=cdnjscom" id="_carbonads_js" defer></script>
         </div>
       </div>
@@ -43,7 +45,6 @@
           <select class="form-control version-selector" style="float: right;">
             {{#assets}}<option value="{{version}}" {{selected}}>{{version}}</option>{{/assets}}
           </select>
-          <div class="input-group-addon"><a href="{{githubNewIssueUpdateUrl}}" target="_blank" title="We are sorry that if the version of this library you're searching for cannot be found. Please request for library update. ">request update</a></div>
           <div class="input-group-addon">CDN provider</div>
           <select class="form-control cdn-provider-selector" style="float: right;" disabled>
             <option value="cloudflare" selected>Cloudflare</option>

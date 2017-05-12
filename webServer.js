@@ -349,7 +349,8 @@ function start() {
           star: stargazers_count,
           fork: forks,
           watch: subscribers_count,
-          githubNewIssueUpdateUrl: genGitHubNewIssueUrl('update', library, assets[0].version)
+          githubNewIssueUpdateUrl: genGitHubNewIssueUrl('update', library, assets[0].version),
+          githubNewIssueOutdateUrl: genGitHubNewIssueUrl('outdate', library, assets[0].version)
         },
         description: library && (library.name + " - " + library.description)
       }
@@ -361,26 +362,17 @@ function start() {
     var title;
     var bodyLines = [];
 
-    title = "[Request] Update " + library.name;
+    if (type == 'update') {
+      title = "[Request] Update " + library.name;
+    } else if (type == 'outdate') {
+      title = "[Report] Outdate " + library.name;
+    }
     bodyLines = [
       "**Library name:** " + library.name,
       "**CDNJS version:** " + version,
       "**Git repository url:** " + library.repository.url,
-      // "**npm package name or url** (if there is one): " + library.autoupdate.url,
-      "**Need update items and description:**",
-      "- [ ] **description:** " + library.description      + " -->",
-      "- [ ] **version:** "     + version                  + " -->",
-      "- [ ] **filename:** "    + library.filename         + " -->",
-      "- [ ] **homepage:** "    + library.homepage         + " -->",
-      "- [ ] **repository:** "  + library.repository.url   + " -->",
-      "- [ ] **keywords:** "    + library.keywords         + " -->",
-      "- [ ] **license(s):** "  + _.join(licensesStr, ' ') + " -->",
-      "",
-      "**Wanna say something? Leave message here:**"
     ]
-
     var body = _.join(bodyLines, '\n');
-
     var url = "https://github.com/cdnjs/cdnjs/issues/new" +
     "?title=" + escape(title) +
     "&body=" + escape(body);
