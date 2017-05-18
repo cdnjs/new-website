@@ -276,8 +276,8 @@ function start() {
       }
       if (assets.gennedFileNames === undefined) {
         var fileMap = new Map();
-        //We need this structure for ordering
-        // Ideally other should come at last
+        // This map holds files by type.
+        // We will use this to order them by type in the response
         fileMap.set('css', []);
         fileMap.set('js', []);
         fileMap.set('image', []);
@@ -300,8 +300,8 @@ function start() {
           });
         });
         if (mapFiles.length) {
-          //there are map files which need to be put along with their sources
-          mapFiles.forEach( function(fileName) {
+          // The map files put along with their sources
+          mapFiles.forEach(function(fileName) {
              var sourceFileParts = fileName.split('.map');
              var sourceFileName = sourceFileParts.join("");
              var sourceFileType = getGroupByExtension(path.extname(sourceFileName).substring(1));
@@ -310,14 +310,15 @@ function start() {
                   return file.name.includes(sourceFileParts[0]);
                 });
                 if (sourceFileIndex >= 0) {
-                  //find source file and push the map file right after it
+                  // Finding source file and push the map file right after it
                   return fileMap.get(sourceFileType).splice(sourceFileIndex + 1,0,{
                     name : fileName,
                     type : sourceFileType
                   });
                 }
              } else {
-               // could not find corresponding source file  - indeterminate map file
+               // If a corresponding source file for a map file is not found,
+               // push it to the "map" file list
                fileMap.get('map').push({
                  name : fileName,
                  type : 'map'
@@ -325,13 +326,14 @@ function start() {
               }
           });
         }
-        var fileArray = Array.prototype.concat.apply([], ['js', 'css', 'map', 'image', 'font', 'flash', 'sound', 'other'].filter( function(fileType) {
+        var fileArray = Array.prototype.concat.apply([], ['js', 'css', 'map', 'image', 'font', 'flash', 'sound', 'other'].filter(function(fileType) {
           return fileMap.get(fileType).length > 0;
         })
-        .map( function(fileType, index) {
+        .map(function(fileType, index) {
           return {
             fileType : fileType,
-            // we need this because mustache is limiting with if-else
+            // Mustache does not handle complex if else statments
+            // isActive determines the tab in view
             isActive : index === 0,
             files : fileMap.get(fileType)
           };
