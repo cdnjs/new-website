@@ -132,7 +132,7 @@ function start() {
     return fullContent;
   };
   var setCache = function(res, hours) {
-    res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours);
+    res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours + ", immutable");
     res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
   };
 
