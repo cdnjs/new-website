@@ -66,6 +66,15 @@
 }
 .copy-button-group .copy-button {
     padding-left: 4px;
+    font-size: 15px;
+}
+
+button.dropdown-toggle {
+    font-size: 15px;
+}
+
+.copy-button-group {
+    padding-top: 10px;
 }
 .dropdown-menu > li > a, .btn:hover, .btn:focus, .btn.focus {
     color: #dd4814
@@ -152,10 +161,40 @@ ul.dropdown-menu > li {
     font-family: Verdana, sans-serif;
 }
 
-/* Selection helper */
+tr {
+    font-size: 16px;
+}
+
 .library-url {
+    margin: 5px 0 5px;
+
+    /* Selection helper */
     -webkit-user-select: all;
     -moz-user-select: all;
     -ms-user-select: all;
     user-select: all;
+}
+
+/* scrollUp - Pill style */
+#scrollUp {
+    bottom: 22px;
+    right: 22px;
+    background-color: #555;
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    opacity: .9;
+    padding: 10px 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-transition: background 200ms linear;
+    -moz-transition: background 200ms linear;
+    -o-transition: background 200ms linear;
+    transition: background 200ms linear;
+    -webkit-backface-visibility: hidden;
+}
+#scrollUp:hover {
+    background-color: #000;
 }

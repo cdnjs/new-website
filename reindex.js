@@ -136,7 +136,9 @@ function crawl(gnext) {
 // ////
 // //// Push libraries to Algolia for the indexing
 // ////
-var client = algoliasearch('2QWLVLXZB6', process.env.ALGOLIA_API_KEY);
+var client = algoliasearch('2QWLVLXZB6', process.env.ALGOLIA_API_KEY, {
+  timeout: 20000
+});
 var index = client.initIndex('libraries.tmp');
 
 function initIndex(next) {
@@ -158,21 +160,39 @@ function initIndex(next) {
     optionalWords: ['js', 'css'], // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
     ranking: ['typo', 'words', 'proximity', 'attribute', 'custom'] // removed the "exact" criteria conflicting with the "keywords" array containing exact forms
   }, function(error, content) {
-    next();
+    if (error) {
+      console.log(error.message);
+      console.log(error.debugData);
+      return;
+    } else {
+      next();
+    }
   });
 }
 
 function push(next) {
   console.log('* Indexing ' + LIBRARIES.length + ' libraries');
   index.addObjects(LIBRARIES, function(error, content) {
-    next();
+    if (error) {
+      console.log(error.message);
+      console.log(error.debugData);
+      return;
+    } else {
+      next();
+    }
   });
 }
 
 function commit(next) {
   console.log('* Moving index to production');
   client.moveIndex('libraries.tmp', 'libraries', function(error, content) {
-    next();
+    if (error) {
+      console.log(error.message);
+      console.log(error.debugData);
+      return;
+    } else {
+      next();
+    }
   });
 }
 

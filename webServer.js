@@ -66,6 +66,7 @@ function start() {
     // Load GitHub repositories meta data
   var GITHUB_METAS = JSON.parse(fs.readFileSync('GitHub.repos.meta.json', 'utf8'));
 
+  var LIBRARIES_VERSIONS = 0;
     // Map libraries array into object for easy access
   var LIBRARIES_MAP = {};
   _.each(LIBRARIES, function(library) {
@@ -79,6 +80,7 @@ function start() {
     }
     library.keywords = library.keywords && library.keywords.join(', ');
     LIBRARIES_MAP[library.name] = library;
+    LIBRARIES_VERSIONS += library.assets.length;
   });
   LIBRARIES = null;
 
@@ -130,7 +132,7 @@ function start() {
     return fullContent;
   };
   var setCache = function(res, hours) {
-    res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours); // 4 days
+    res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours + ", immutable");
     res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
   };
 
@@ -184,14 +186,15 @@ function start() {
       return res.redirect(301, '/#q=' + req.query.q);
     }
     pushAssets(res);
-    serverPush(res, '/img/algolia64x20.png');
+    serverPush(res, '/img/algolia.svg');
     setCache(res, 2);
     res.send(generatePage({
       reqUrl: req.url,
       page: {
         template: templates.home,
         data: {
-          libCount: Object.keys(LIBRARIES_MAP).length
+          libCount: Object.keys(LIBRARIES_MAP).length,
+          libVerCount: LIBRARIES_VERSIONS
         }
       },
       wrapperClass: 'home'
@@ -543,7 +546,8 @@ function start() {
         template: templates.libraries,
         data: {
           packages: _.toArray(LIBRARIES_MAP),
-          libCount: Object.keys(LIBRARIES_MAP).length
+          libCount: Object.keys(LIBRARIES_MAP).length,
+          libVerCount: LIBRARIES_VERSIONS
         }
       }
     }));
