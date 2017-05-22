@@ -194,7 +194,7 @@ function setFileURLs(new_provider) {
         var user = getSafeHighlightedValue(hit._highlightResult.github.user);
         var repo = getSafeHighlightedValue(hit._highlightResult.github.repo);
         githubDetails = '<ul class="list-inline">' +
-          '<li><i class="fa fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '">' + user + '/' + repo + '</a></li>' +
+          '<li><i class="fa fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '" target="_blank">' + user + '/' + repo + '</a></li>' +
           '<li><i class="fa fa-eye"></i> ' + hit.github.subscribers_count + '</li>' +
           '<li><i class="fa fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
           '<li><i class="fa fa-code-fork"></i> ' + hit.github.forks + '</li>' +
