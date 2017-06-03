@@ -107,7 +107,8 @@ function start() {
     about: getTemplate('templates/about.html'),
     tutorials: getTemplate('templates/tutorials.html', true),
     tutorial: getTemplate('templates/tutorial.html', true),
-    api: getTemplate('templates/api.html', true)
+    api: getTemplate('templates/api.html', true),
+    notfound: getTemplate('templates/notfound.html', true)
   };
 
   var generatePage = function(options) {
@@ -488,6 +489,16 @@ function start() {
       title: 'API - ' + TITLE,
       page: {
         template: templates.api
+      }
+    }));
+  });
+
+  app.use(function(req, res) {
+    res.status(404).send(generatePage({
+      reqUrl: req.url,
+      title: '404: Page Not Found - ' + TITLE,
+      page: {
+        template: templates.notfound
       }
     }));
   });
