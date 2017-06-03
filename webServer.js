@@ -371,9 +371,9 @@ function start() {
     setCache(res, 72);
     res.send(generatePage({
       reqUrl: req.url,
+      title: library + ' tutorials - ' + TITLE,
       page: {
         template: templates.tutorials,
-        title: library + ' tutorials - ' + TITLE,
         data: {
           tutorials: tutorialPackages,
           library: library
@@ -474,9 +474,9 @@ function start() {
     setCache(res, 72);
     res.send(generatePage({
       reqUrl: req.url,
+      title: 'about - ' + TITLE,
       page: {
-        template: templates.about,
-        title: 'about - ' + TITLE
+        template: templates.about
       }
     }));
   });
@@ -485,9 +485,9 @@ function start() {
     setCache(res, 72);
     res.send(generatePage({
       reqUrl: req.url,
+      title: 'API - ' + TITLE,
       page: {
-        template: templates.api,
-        title: 'API - ' + TITLE
+        template: templates.api
       }
     }));
   });
