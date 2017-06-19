@@ -134,25 +134,24 @@ p#date{
 .container.home {
   margin-top: 200px;
 }
+
 .menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  font-size: 18px;
+  display: block;
+}
+
+.dropdown-menu li {
   width: 100%;
 }
-.menu li {
-  float: right;
-  margin-left: 15px;
-  font-size: 18px;
-}
+
 .logo {
-  float: left !important;
-  margin-left: 0 !important;
-}
-.logo a {
   font-weight: bold;
+}
+
+.btn-group .btn-space {
+  display: inline-block;
+  float: right;
+  margin-left: 1em !important;
 }
 
 .version-dropdown {
