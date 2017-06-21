@@ -44,76 +44,67 @@
     <div class="container {{wrapperClass}}">
       <div class="row">
         <div class="col-md-12">
-          <ul class="menu">
-            <li class="logo"><a href="/">cdnjs</a></li>
-            <li><a href="https://www.cloudflare.com/network-map" target="_blank">Network</a></li>
-            <li><a href="http://stats.pingdom.com/4jg86a2wqei0" target="_blank">Uptime</a></li>
-            <li class="">
-              <div class="btn-group">
-                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                  git stats
-                <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown-header">main repo</li>
-                  <li><a href="/git_stats/cdnjs/general.html" title="~201703" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/cdnjs/" title="~201703" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">new-website</li>
-                  <li><a href="/git_stats/new-website/general.html" title="~201703" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/new-website/" title="~201703" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">auto-updater</li>
-                  <li><a href="/git_stats/autoupdate/general.html" title="~201612" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/autoupdate/" title="~201612" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">importer</li>
-                  <li><a href="/git_stats/cdnjs-importer/general.html" title="~201602" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/cdnjs-importer/" title="~201602" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">buildScript</li>
-                  <li><a href="/git_stats/buildScript/general.html" title="~201612" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/buildScript/" title="~201612" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">atom-extension</li>
-                  <li><a href="/git_stats/atom-extension/general.html" title="~201602" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/atom-extension/" title="~201602" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">tutorials</li>
-                  <li><a href="/git_stats/tutorials/general.html" title="~201602" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/tutorials/" title="~201602" target="_blank">gitstats</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="">
-              <div class="btn-group">
-                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                  gource
-                <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a href="https://youtu.be/ehwK-KM4uYQ" target="_blank">main repo</a></li>
-                  <li><a href="https://youtu.be/GLH7Ovzi5z8" target="_blank">new-website</a></li>
-                  <li><a href="https://youtu.be/Xe5s7fQQdwc" target="_blank">auto-updater</a></li>
-                  <li><a href="https://youtu.be/RUYALTcLkyU" target="_blank">importer</a></li>
-                  <li><a href="https://youtu.be/kc0DZWJAZm4" target="_blank">buildScript</a></li>
-                  <li><a href="https://youtu.be/OHQC1saKU_A" target="_blank">atom-extension</a></li>
-                  <li><a href="https://youtu.be/T6ZoTbRX1-A" target="_blank">tutorials</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="">
-              <div class="btn-group">
-                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                  Support us!
-                <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a href="https://www.bountysource.com/teams/cdnjs" target="_blank">via Bountysource</a></li>
-                  <li><a href="https://gratipay.com/cdnjs/" target="_blank">via Gratipay</a></li>
-                  <li><a href="https://tip4commit.com/github/cdnjs/cdnjs" target="_blank">via tip4commit</a></li>
-                  <li><a href="https://twitter.com/cdnjs" target="_blank">Contact us!</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="/libraries">Browse Libraries</a></li>
-            <li><a href="/api">API</a></li>
-            <li><a href="/about">About</a></li>
-            </ul>
+          <div class="menu btn-group">
+            <a class="btn btn-link logo" href="/">cdnjs</a>
+            <a class="btn btn-link btn-space" href="https://www.cloudflare.com/network-map" target="_blank">Network</a>
+            <a class="btn btn-link btn-space" href="http://stats.pingdom.com/4jg86a2wqei0" target="_blank">Uptime</a>
+            <div class="btn-group btn-space">
+              <a id="gitStatsGroupDrop" class="btn btn-link dropdown-toggle" data-toggle="dropdown" href="#">
+                git stats <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="gitStatsGroupDrop">
+                <li class="dropdown-header">main repo</li>
+                <li><a href="/git_stats/cdnjs/general.html" title="~201703" target="_blank">git_stats</a></li>
+                <li><a href="/gitstats/cdnjs/" title="~201703" target="_blank">gitstats</a></li>
+                <li class="dropdown-header">new-website</li>
+                <li><a href="/git_stats/new-website/general.html" title="~201703" target="_blank">git_stats</a></li>
+                <li><a href="/gitstats/new-website/" title="~201703" target="_blank">gitstats</a></li>
+                <li class="dropdown-header">auto-updater</li>
+                <li><a href="/git_stats/autoupdate/general.html" title="~201612" target="_blank">git_stats</a></li>
+                <li><a href="/gitstats/autoupdate/" title="~201612" target="_blank">gitstats</a></li>
+                <li class="dropdown-header">importer</li>
+                <li><a href="/git_stats/cdnjs-importer/general.html" title="~201602" target="_blank">git_stats</a></li>
+                <li><a href="/gitstats/cdnjs-importer/" title="~201602" target="_blank">gitstats</a></li>
+                <li class="dropdown-header">buildScript</li>
+                <li><a href="/git_stats/buildScript/general.html" title="~201612" target="_blank">git_stats</a></li>
+                <li><a href="/gitstats/buildScript/" title="~201612" target="_blank">gitstats</a></li>
+                <li class="dropdown-header">atom-extension</li>
+                <li><a href="/git_stats/atom-extension/general.html" title="~201602" target="_blank">git_stats</a></li>
+                <li><a href="/gitstats/atom-extension/" title="~201602" target="_blank">gitstats</a></li>
+                <li class="dropdown-header">tutorials</li>
+                <li><a href="/git_stats/tutorials/general.html" title="~201602" target="_blank">git_stats</a></li>
+                <li><a href="/gitstats/tutorials/" title="~201602" target="_blank">gitstats</a></li>
+              </ul>
+            </div>
+            <div class="btn-group btn-space">
+              <a id="gourceGroupDrop" class="btn btn-link dropdown-toggle" data-toggle="dropdown" href="#">
+                gource <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="gourceGroupDrop">
+                <li><a href="https://youtu.be/ehwK-KM4uYQ" target="_blank">main repo</a></li>
+                <li><a href="https://youtu.be/GLH7Ovzi5z8" target="_blank">new-website</a></li>
+                <li><a href="https://youtu.be/Xe5s7fQQdwc" target="_blank">auto-updater</a></li>
+                <li><a href="https://youtu.be/RUYALTcLkyU" target="_blank">importer</a></li>
+                <li><a href="https://youtu.be/kc0DZWJAZm4" target="_blank">buildScript</a></li>
+                <li><a href="https://youtu.be/OHQC1saKU_A" target="_blank">atom-extension</a></li>
+                <li><a href="https://youtu.be/T6ZoTbRX1-A" target="_blank">tutorials</a></li>
+              </ul>
+            </div>
+            <div class="btn-group btn-space">
+              <a id="supportGroupDrop" class="btn btn-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Support us! <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="supportGroupDrop">
+                <li><a href="https://www.bountysource.com/teams/cdnjs" target="_blank">via Bountysource</a></li>
+                <li><a href="https://gratipay.com/cdnjs/" target="_blank">via Gratipay</a></li>
+                <li><a href="https://tip4commit.com/github/cdnjs/cdnjs" target="_blank">via tip4commit</a></li>
+                <li><a href="https://twitter.com/cdnjs" target="_blank">Contact us!</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-link btn-space" href="/libraries">Browse Libraries</a>
+            <a class="btn btn-link btn-space" href="/api">API</a>
+            <a class="btn btn-link btn-space" href="/about">About</a>
+          </div>
        </div>
        </div>
 
