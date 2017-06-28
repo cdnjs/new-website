@@ -184,6 +184,7 @@ function setFileURLs(new_provider) {
     } else {
       $('.packages-table-container > table > thead').show();
     }
+    scrollProgress.update();
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
       if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
@@ -241,6 +242,7 @@ function setFileURLs(new_provider) {
 
     setupMouseEvents();
     appLoading.stop();
+    scrollProgress.update();
   }
 
   function animateTop() {
@@ -286,6 +288,7 @@ function setFileURLs(new_provider) {
       }
       animateTopReverse();
       appLoading.stop();
+      scrollProgress.update();
     } else if (lastQuery !== val) {
       animateTop();
       index.search(val, displayMatchingLibraries);
@@ -339,4 +342,12 @@ function setFileURLs(new_provider) {
       activeOverlay: false,
     });
   });
+  scrollProgress.set({
+    color: '#DD4814',
+    height: '2px',
+    bottom: false
+  });
+  window.onresize = function() {
+    scrollProgress.update();
+  };
 })(jQuery);
