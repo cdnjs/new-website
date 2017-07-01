@@ -160,6 +160,10 @@ function setFileURLs(new_provider) {
 
   setupMouseEvents();
 
+  var displayPage = 1;
+  var queryItems = 20;
+  var cachedQueryResult = {};
+  var lazyScroll = false;
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
   function displayMatchingLibraries(err, content) {
@@ -177,6 +181,9 @@ function setFileURLs(new_provider) {
       return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
     }
 
+    if (displayPage * queryItems >= content.nbHits) {
+      lazyScroll = false;
+    }
     var html = '';
     var match = false;
     if (content.hits.length < 1) {
@@ -291,11 +298,31 @@ function setFileURLs(new_provider) {
       scrollProgress.update();
     } else if (lastQuery !== val) {
       animateTop();
-      index.search(val, displayMatchingLibraries);
+      displayPage = 1;
+      lazyScroll = true;
+      index.search(val, {hitsPerPage: queryItems, page: displayPage}, function(err, content) {
+        if (!err) {
+          cachedQueryResult = content;          
+        }
+        displayMatchingLibraries(err, content);
+      });
     }
     lastQuery = val;
   }
 
+  var windowSelector = $(window);
+  windowSelector.scroll(_.debounce(function() {
+    if (lazyScroll && windowSelector.scrollTop() + windowSelector.height() * 2 >= $(document).height()) {
+      displayPage += 1; 
+      index.search(lastQuery, {hitsPerPage: queryItems, page: displayPage}, function(err, content) {
+        if (!err) {
+          content.hits = cachedQueryResult.hits.concat(content.hits);
+          cachedQueryResult = content;
+        }
+        displayMatchingLibraries(err, content);
+      });
+    }
+  }, 100));
   $('#search-box').on('input', searchHandler);
 
   if ($('#search-box').val() !== '') {
