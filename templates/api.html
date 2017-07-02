@@ -1,58 +1,58 @@
 <div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<p style="margin-top: 6px;">
-				<div class="logged-in" style="display: none;">
-					<p>
-						<img id="gravatar" src="" style="float: left; width: 64px; height: 64px; border: 1px solid #ccc; margin-right: 10px;"/>
-						<span id="name" style="font-weight: bold;">
-						</span>
-					</p>
-					<ul style="list-style: none;">
-						<li>
-							Hover over rows and click on the +/- symbols to change your favorites(yellow)
-						</li>
-					</ul>
-				</div>
-				<h3>
-				API
-				</h3>
-				<div class="api">
-					<p>
-						You can query cdnjs via our API as below
-						<br><br>
-						Without any query parameters it will return the name and main file URL of every library on cdnjs:<br><br>
-						<code>https://api.cdnjs.com/libraries</code>
-					<br><br>
-					To search, use:
-					<br><br>
-				<code>https://api.cdnjs.com/libraries?search=[query]</code>
-				<br><br>
-				You can also "select" a certain library if you already know its name on CDNJS, e.g.
-				<br><br>
-			<code>https://api.cdnjs.com/libraries/[name]</code>
-			<br><br>
-			Without any query parameters it will return the whole meta data of the library, if you want to specify the info you want (recommended), use "fields" query:
-			<br><br>
-		<code>https://api.cdnjs.com/libraries/jquery?fields=name,filename,version</code><br><br>
-		All the usable fields is the same as the library's package.json on
-		<a href="https://github.com/cdnjs/cdnjs/blob/master/ajax/libs/jquery/package.json">
-			CDNJS
-		</a>(except auto-update config, we'll only return the auto-update type (currently <code>npm or git</code>)
-		<br><br>
-		API will return minified result by default, if you wanna have a human readable result, try
-		<code>output=human</code>
-		like so:
-		<br><br>
-		<code>https://api.cdnjs.com/libraries?output=human</code><br><br>
-		<code>https://api.cdnjs.com/libraries?search=[query]?output=human</code>
-		<br><br>
-		If you would like more data, use the fields parameter which takes comma-separated values:
-		<br><br>
-		<code>https://api.cdnjs.com/libraries?search=[query]&fields=version,description</code>
-	<br><br>
-	To get a list of all files for that library, use the assets field:
-	<br><br>
+  <div class="row">
+    <div class="col-md-12">
+      <p style="margin-top: 6px;">
+        <div class="logged-in" style="display: none;">
+          <p>
+            <img id="gravatar" src="" style="float: left; width: 64px; height: 64px; border: 1px solid #ccc; margin-right: 10px;"/>
+            <span id="name" style="font-weight: bold;">
+            </span>
+          </p>
+          <ul style="list-style: none;">
+            <li>
+              Hover over rows and click on the +/- symbols to change your favorites(yellow)
+            </li>
+          </ul>
+        </div>
+        <h3>
+        API
+        </h3>
+        <div class="api">
+          <p>
+            You can query cdnjs via our API as below
+            <br><br>
+            Without any query parameters it will return the name and main file URL of every library on cdnjs:<br><br>
+            <code>https://api.cdnjs.com/libraries</code>
+          <br><br>
+          To search, use:
+          <br><br>
+        <code>https://api.cdnjs.com/libraries?search=[query]</code>
+        <br><br>
+        You can also "select" a certain library if you already know its name on CDNJS, e.g.
+        <br><br>
+      <code>https://api.cdnjs.com/libraries/[name]</code>
+      <br><br>
+      Without any query parameters it will return the whole meta data of the library, if you want to specify the info you want (recommended), use "fields" query:
+      <br><br>
+    <code>https://api.cdnjs.com/libraries/jquery?fields=name,filename,version</code><br><br>
+    All the usable fields is the same as the library's package.json on
+    <a href="https://github.com/cdnjs/cdnjs/blob/master/ajax/libs/jquery/package.json">
+      CDNJS
+    </a>(except auto-update config, we'll only return the auto-update type (currently <code>npm or git</code>)
+    <br><br>
+    API will return minified result by default, if you wanna have a human readable result, try
+    <code>output=human</code>
+    like so:
+    <br><br>
+    <code>https://api.cdnjs.com/libraries?output=human</code><br><br>
+    <code>https://api.cdnjs.com/libraries?search=[query]?output=human</code>
+    <br><br>
+    If you would like more data, use the fields parameter which takes comma-separated values:
+    <br><br>
+    <code>https://api.cdnjs.com/libraries?search=[query]&fields=version,description</code>
+  <br><br>
+  To get a list of all files for that library, use the assets field:
+  <br><br>
 <code>https://api.cdnjs.com/libraries?search=[query]&fields=assets</code>
 <br><br>
 Other fields available are:
