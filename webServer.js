@@ -332,6 +332,7 @@ function start() {
     if (!library.urls) {
       library.urls = libraryGitRepoList(library);
     }
+
     res.send(generatePage({
       reqUrl: req.url,
       title: libraryName + ' - ' + TITLE,
@@ -348,11 +349,36 @@ function start() {
           tutorialsPresent: tutorialsPresent,
           star: stargazers_count,
           fork: forks,
-          watch: subscribers_count
+          watch: subscribers_count,
+          githubNewIssueUpdateUrl: genGitHubNewIssueUrl('update', library, assets[0].version),
+          githubNewIssueOutdateUrl: genGitHubNewIssueUrl('outdate', library, assets[0].version)
         },
         description: library && (library.name + " - " + library.description)
       }
     }));
+  }
+
+  function genGitHubNewIssueUrl(type, library, version) {
+    var licensesStr = library.licenses.map(function(el) { return el.type });
+    var title;
+    var bodyLines = [];
+
+    if (type == 'update') {
+      title = "[Request] Update " + library.name;
+    } else if (type == 'outdate') {
+      title = "[Report] Outdate " + library.name;
+    }
+    bodyLines = [
+      "**Library name:** " + library.name,
+      "**CDNJS version:** " + version,
+      "**Git repository url:** " + library.repository.url,
+    ]
+    var body = _.join(bodyLines, '\n');
+    var url = "https://github.com/cdnjs/cdnjs/issues/new" +
+    "?title=" + escape(title) +
+    "&body=" + escape(body);
+
+    return url;
   }
 
   app.get('/libraries/:library/tutorials', function(req, res) {
