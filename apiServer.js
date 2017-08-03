@@ -71,7 +71,10 @@ app.get('/libraries', function(req, res) {
   app.set('json spaces', 0);
 
   // format the results including optional `fields`
-  function formatResults(packagesByName, { fields, latest, assetFilter } = {}) {
+  function formatResults(packagesByName, options) {
+    var fields = options.fields; // required
+    var latest = options.latest;
+    var assetFilter = options.assetFilter;
     return _.map(packagesByName, function(library) {
       var data = {
         name: library.name,
