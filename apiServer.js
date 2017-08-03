@@ -8,6 +8,9 @@ var args = process.argv.slice(2);
 var localMode = false;
 var compress = require('compression');
 var bodyParser = require('body-parser');
+
+var filterAssets = require('./filter-assets');
+
 var allowCrossDomain = function(req, res, next) {
   res.header('Access-Control-Allow-Credentials', true);
   res.header('Access-Control-Allow-Origin', '*');
@@ -68,14 +71,18 @@ app.get('/libraries', function(req, res) {
   app.set('json spaces', 0);
 
   // format the results including optional `fields`
-  function formatResults(fields, packagesByName) {
+  function formatResults(packagesByName, { fields, latest, assetFilter } = {}) {
     return _.map(packagesByName, function(library) {
       var data = {
         name: library.name,
         latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + library.name + '/' + library.version + '/' + library.filename
       };
       _.each(fields, function(field) {
-        data[field] = library[field] || null;
+        if (field === 'assets' && library[field]) {
+          data[field] = filterAssets(library, { latest: !!latest, filter: assetFilter });
+        } else {
+          data[field] = library[field] || null;
+        }
       });
       return data;
     });
@@ -83,6 +90,11 @@ app.get('/libraries', function(req, res) {
 
   res.setHeader("Expires", new Date(Date.now() + 360 * 60 * 1000).toUTCString());
   var fields = (req.query.fields && req.query.fields.split(',')) || [];
+  var latest = req.query.latest || null;
+  var assetFilter = req.query.assetFilter || '';
+
+  var options = { fields: fields, latest: latest, assetFilter: assetFilter };
+
   if (req.query.search) {
     var searchParams = {
       typoTolerance: 'min', // only keep the minimum typos
@@ -98,7 +110,7 @@ app.get('/libraries', function(req, res) {
         return packagesByName[hit.originalName] || hit;
       });
       var json = {
-        results: formatResults(fields, results),
+        results: formatResults(results, options),
         total: content.hits.length
       };
       if (req.query.output && req.query.output === 'human') {
@@ -108,7 +120,7 @@ app.get('/libraries', function(req, res) {
       }
     });
   } else {
-    results = formatResults(fields, packagesByName);
+    results = formatResults(packagesByName, options);
     var json = {
       results: results,
       total: results.length
