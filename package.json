@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "startWeb": "node webServer.js",
-    "startAPI": "node apiServer.js",
+    "start": "node apiServer.js",
     "reindex": "node reindex.js"
   },
   "repository": {
