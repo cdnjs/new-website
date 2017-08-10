@@ -19,7 +19,7 @@
         </h3>
         <div class="api">
           <p>
-            You can query cdnjs via our API as below
+            You can query cdnjs via our API as belows
             <br><br>
             Without any query parameters it will return the name and main file URL of every library on cdnjs:<br><br>
             <code>https://api.cdnjs.com/libraries</code>
@@ -39,6 +39,14 @@
     <a href="https://github.com/cdnjs/cdnjs/blob/master/ajax/libs/jquery/package.json">
       CDNJS
     </a>(except auto-update config, we'll only return the auto-update type (currently <code>npm or git</code>)
+    <br><br>
+    The API will return the maximum results by default (1000), but you can limit these the "hitsPerPage" query
+    <br><br>
+    <code>https://api.cdnjs.com/libraries?search=[query]&hitsPerPage=10</code>
+    <br><br>
+    If you are using the "hitsPerPage" query, you can also use "page" to paginate (defaulting at 0)
+    <br><br>
+    <code>https://api.cdnjs.com/libraries?search=[query]&hitsPerPage=10&page=2</code>
     <br><br>
     API will return minified result by default, if you wanna have a human readable result, try
     <code>output=human</code>
