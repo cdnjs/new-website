@@ -108,7 +108,7 @@ function start() {
     tutorials: getTemplate('templates/tutorials.html', true),
     tutorial: getTemplate('templates/tutorial.html', true),
     api: getTemplate('templates/api.html', true),
-    notfound: getTemplate('templates/notfound.html', true)
+    notfound: getTemplate('templates/404.html', true)
   };
 
   var generatePage = function(options) {
