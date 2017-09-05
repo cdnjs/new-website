@@ -108,7 +108,8 @@ function start() {
     tutorials: getTemplate('templates/tutorials.html', true),
     tutorial: getTemplate('templates/tutorial.html', true),
     api: getTemplate('templates/api.html', true),
-    notfound: getTemplate('templates/404.html', true)
+    notfound: getTemplate('templates/404.html', true),
+    error: getTemplate('templates/500.html', true)
   };
 
   var generatePage = function(options) {
@@ -505,7 +506,13 @@ function start() {
 
   app.use(function(err, req, res, next) {
     console.error(err.stack);
-    res.status(500).send('Something broke!');
+    res.status(500).send(generatePage({
+      reqUrl: req.url,
+      title: '500 error - ' + TITLE,
+      page: {
+        template: templates.error
+      }
+    }));
   });
 
   app.listen(PORT, function() {
