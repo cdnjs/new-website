@@ -391,7 +391,13 @@ function start() {
     var indexPath = path.resolve(srcpath, tutorial, 'index.md');
 
     if (!fs.existsSync(indexPath)) {
-      return res.status(404).send('Tutorial not found!');
+      return res.status(404).send(generatePage({
+        reqUrl: req.url,
+        title: '404: Tutorial Not Found - ' + TITLE,
+        page: {
+          template: templates.notfound
+        }
+      }));
     }
 
     var tutorialFile = fs.readFileSync(indexPath, 'utf8');
