@@ -78,10 +78,10 @@ p > code.hljs {
           <p><strong>{{author.name}}</strong>
           <p>{{author.description}}</p>
           <p>
-          <a href="{{author.homepage}}">{{author.homepage}}</a><br />
+          <a href="{{author.homepage}}" target="_blank">{{author.homepage}}</a><br />
 
           {{#author.twitter}}
-            <a href="https://twitter.com/{{author.twitter}}"><i class="fa fa-twitter"></i></a>
+            <a href="https://twitter.com/{{author.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
           {{/author.twitter}}
           </p>
         </div>
@@ -116,7 +116,7 @@ p > code.hljs {
                 {{#tutorials}}
                     <tr>
                         <td style="padding-left: 0;"><a href="/libraries/{{library}}/tutorials/{{slug}}">{{name}}</a></td>
-                        <td><a href="{{author.homepage}}">{{author.name}}</a></td>
+                        <td><a href="{{author.homepage}}" target="_blank">{{author.name}}</a></td>
                     </tr>
                 {{/tutorials}}
                 </tbody>
