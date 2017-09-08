@@ -83,15 +83,12 @@ app.get('/libraries', function(req, res) {
 
   res.setHeader("Expires", new Date(Date.now() + 360 * 60 * 1000).toUTCString());
   var fields = (req.query.fields && req.query.fields.split(',')) || [];
-  
   if (req.query.search) {
-    
     var searchParams = {
       typoTolerance: 'min', // only keep the minimum typos
       page: req.query.page || 0, // default
       hitsPerPage: req.query.hitsPerPage || 1000 // maximum
     };
-
     algoliaIndex.search(req.query.search, searchParams, function(error, content) {
       if (error) {
         res.status(500).send(error.message);
@@ -124,7 +121,6 @@ app.get('/libraries', function(req, res) {
     }
   }
 });
-
 app.get('/libraries/:library', function(req, res) {
   var results;
   var fields = (req.query.fields && req.query.fields.split(',')) || false;
