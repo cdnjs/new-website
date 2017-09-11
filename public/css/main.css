@@ -198,3 +198,6 @@ tr {
 #scrollUp:hover {
     background-color: #000;
 }
+.container {
+    width: 87%;
+}
