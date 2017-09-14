@@ -177,6 +177,10 @@ function setFileURLs(new_provider) {
       return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
     }
 
+    // set total hits and time found, if not set to 0.
+    $('#nb-hits-field').text(content.nbHits || 0);
+    $('#nb-hits-time').text(content.processingTimeMS / 1000 || 0);
+
     var html = '';
     var match = false;
     if (content.hits.length < 1) {
