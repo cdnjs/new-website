@@ -57,7 +57,16 @@ body {
   display: none !important;
 }
 
+.right {
+    float: right;
+}
 
+.verbiage-text {
+    color: #9a9a9a;
+}
+.text-inline{
+    display:inline-block;
+}
 
 p#name a{
     text-decoration: none;

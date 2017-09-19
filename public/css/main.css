@@ -161,6 +161,10 @@ ul.dropdown-menu > li {
     font-family: Verdana, sans-serif;
 }
 
+#nb-hits-field{
+    padding-left:10px;
+}
+
 tr {
     font-size: 16px;
 }
