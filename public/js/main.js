@@ -234,6 +234,7 @@ function setFileURLs(new_provider) {
     }
     var libraryName = escape(content.query);
 
+    var scrollToEndText = '<br /><tr><td class="text-center well" colspan="2">Scroll down to the end to load more search result!</td></tr>';
     var tempText = (match ? 'Could not found the lib you\'re looking for?' : 'We are sorry, the library you\'re searching for cannot be found.');
     var tempText2 =
       '<br /><td class="text-center well" colspan="2">' +
@@ -243,6 +244,9 @@ function setFileURLs(new_provider) {
         '" target="_blank">request it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank">requirement</a>.' +
         ' Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
       '</td>';
+    if (lazyScroll) {
+      html += scrollToEndText;
+    }
     html += tempText2;
 
     $hits.html(html);
@@ -311,17 +315,21 @@ function setFileURLs(new_provider) {
     lastQuery = val;
   }
 
+  function loadMoreSearchResult() {
+    displayPage += 1;
+    index.search(lastQuery, {hitsPerPage: queryItems, page: displayPage}, function(err, content) {
+      if (!err && cachedQueryResult.hits) {
+        content.hits = cachedQueryResult.hits.concat(content.hits);
+        cachedQueryResult = content;
+        displayMatchingLibraries(err, content);
+      }
+    });
+  }
+
   var windowSelector = $(window);
   windowSelector.scroll(_.debounce(function() {
-    if (lazyScroll && windowSelector.scrollTop() + windowSelector.height() * 2 >= $(document).height()) {
-      displayPage += 1;
-      index.search(lastQuery, {hitsPerPage: queryItems, page: displayPage}, function(err, content) {
-        if (!err) {
-          content.hits = cachedQueryResult.hits.concat(content.hits);
-          cachedQueryResult = content;
-        }
-        displayMatchingLibraries(err, content);
-      });
+    if (lazyScroll && windowSelector.scrollTop() + windowSelector.height() == $(document).height()) {
+      loadMoreSearchResult();
     }
   }, 100));
   $('#search-box').on('input', searchHandler);
