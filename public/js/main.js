@@ -181,7 +181,7 @@ function setFileURLs(new_provider) {
       return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
     }
 
-    if (displayPage * queryItems >= content.nbHits) {
+    if ((displayPage + 1) * queryItems >= content.nbHits) {
       lazyScroll = false;
     }
     var html = '';
