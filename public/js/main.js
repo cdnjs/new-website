@@ -164,6 +164,7 @@ function setFileURLs(new_provider) {
   var queryItems = 20;
   var cachedQueryResult = {};
   var lazyScroll = false;
+  var $nbHitsField = $('#nb-hits-field');
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
   function displayMatchingLibraries(err, content) {
@@ -184,6 +185,10 @@ function setFileURLs(new_provider) {
     if ((displayPage + 1) * queryItems >= content.nbHits) {
       lazyScroll = false;
     }
+
+    // set total hits found, if not set to 0.
+    $nbHitsField.text(content.nbHits || 0);
+
     var html = '';
     var match = false;
     if (content.hits.length < 1) {
