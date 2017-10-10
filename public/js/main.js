@@ -193,8 +193,10 @@ function setFileURLs(new_provider) {
     var match = false;
     if (content.hits.length < 1) {
       $('.packages-table-container > table > thead').hide();
+      $nbHitsField.parent().hide();
     } else {
       $('.packages-table-container > table > thead').show();
+      $nbHitsField.parent().show();
     }
     scrollProgress.update();
     for (var i = 0; i < content.hits.length; ++i) {
@@ -302,6 +304,7 @@ function setFileURLs(new_provider) {
       } else {
         $('.packages-table-container').hide();
       }
+      $nbHitsField.parent().hide();
       animateTopReverse();
       appLoading.stop();
       scrollProgress.update();
