@@ -165,6 +165,7 @@ function setFileURLs(new_provider) {
   var cachedQueryResult = {};
   var lazyScroll = false;
   var $nbHitsField = $('#nb-hits-field');
+  var $processingTimeMS = $('#processingTimeMS');
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
   function displayMatchingLibraries(err, content) {
@@ -188,6 +189,7 @@ function setFileURLs(new_provider) {
 
     // set total hits found, if not set to 0.
     $nbHitsField.text(content.nbHits || 0);
+    $processingTimeMS.text(content.processingTimeMS || 0);
 
     var html = '';
     var match = false;
