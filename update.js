@@ -11,7 +11,7 @@ var pages = [
   'https://cdnjs.com/register'
 ];
 
-var xml = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+var xml = '<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">';
 
 var librariePages = _.map(pkgMeta, function(library) {
   return 'https://cdnjs.com/libraries/' + library.name;
