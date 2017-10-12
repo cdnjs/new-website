@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/cdnjs/new-website",
   "engines": {
-    "node": "^6.1.0"
+    "node": "^8"
   },
   "dependencies": {
     "algoliasearch": "^3.23",
