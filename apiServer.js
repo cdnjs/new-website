@@ -123,6 +123,7 @@ app.get('/libraries', function(req, res) {
 app.get('/libraries/:library', function(req, res) {
   var results;
   var fields = (req.query.fields && req.query.fields.split(',')) || false;
+  var includeSri = req.query.includeSri && req.query.includeSri === 'true';
   var ret = {};
 
   app.set('json spaces', 0);
@@ -139,6 +140,16 @@ app.get('/libraries/:library', function(req, res) {
       ret[field] = results[0][field] || null;
     });
     results[0] = ret;
+  }
+  if (includeSri && results[0].assets) {
+    _.each(results[0].assets, function(asset) {
+      console.log('sri/' + req.params.library + '/' + asset.version + '.json');
+      try {
+        asset.sri = JSON.parse(fs.readFileSync('sri/' + req.params.library + '/' + asset.version + '.json'));
+      } catch (e) {
+        asset.sri = {};
+      }
+    });
   }
   if (results.length > 0) {
     if (req.query.output && req.query.output === 'human') {
