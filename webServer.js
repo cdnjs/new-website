@@ -27,7 +27,6 @@ throng(start, {
 
 function start() {
   var express = require("express");
-  var fs = require("fs");
   var _ = require("lodash");
   var Mustache = require("mustache");
   var app = express();
