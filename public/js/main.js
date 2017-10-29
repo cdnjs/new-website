@@ -257,8 +257,9 @@ function setFileURLs(new_provider) {
         "=====================",
         "",
         "Notes from cdnjs maintainer(please remove this section after you read it):",
-        "Please read the [README.md](https://github.com/cdnjs/cdnjs#cdnjs-library-repository) and " +
+        "1. Please read the [README.md](https://github.com/cdnjs/cdnjs#cdnjs-library-repository) and " +
         "[CONTRIBUTING.md](https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md) document first.",
+        "2. For the new library request issue, please make sure it's not a personal project, we have a basic requirement for the popularity, like 200 stars on GitHub or 800 downloads/month on npm registry.",
         "",
         "We encourage you to add a library via sending pull request,",
         "it'll be faster than just opening a request issue,",
