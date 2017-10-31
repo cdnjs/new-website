@@ -279,7 +279,7 @@ function setFileURLs(new_provider) {
     var tempText2 =
       '<br /><td class="text-center well" colspan="2">' +
       tempText + '<br /> You can ' +
-      '<a href="' + getReqLibTmplUrl(content.query) +'" target="_blank">request it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank">requirement</a>.' +
+      '<a href="' + getReqLibTmplUrl(content.query) +'" target="_blank">request it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank"><strong>requirement</strong></a>.' +
         ' Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
       '</td>';
     if (lazyScroll) {
