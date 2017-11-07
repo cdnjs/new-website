@@ -21964,5 +21964,131 @@
     "stargazers_count": 1435,
     "forks": 119,
     "subscribers_count": 40
+  },
+  "jwaliszko/ExpressiveAnnotations": {
+    "user": "jwaliszko",
+    "repo": "ExpressiveAnnotations",
+    "stargazers_count": 210,
+    "forks": 76,
+    "subscribers_count": 21
+  },
+  "mbielanczuk/jQuery.Gantt": {
+    "user": "mbielanczuk",
+    "repo": "jQuery.Gantt",
+    "stargazers_count": 282,
+    "forks": 430,
+    "subscribers_count": 36
+  },
+  "numbers/numbers.js": {
+    "user": "numbers",
+    "repo": "numbers.js",
+    "stargazers_count": 1436,
+    "forks": 145,
+    "subscribers_count": 79
+  },
+  "521dimensions/amplitudejs": {
+    "user": "521dimensions",
+    "repo": "amplitudejs",
+    "stargazers_count": 1866,
+    "forks": 160,
+    "subscribers_count": 57
+  },
+  "shakee93/vue-toasted": {
+    "user": "shakee93",
+    "repo": "vue-toasted",
+    "stargazers_count": 297,
+    "forks": 37,
+    "subscribers_count": 8
+  },
+  "ctd1500/videojs-hotkeys": {
+    "user": "ctd1500",
+    "repo": "videojs-hotkeys",
+    "stargazers_count": 81,
+    "forks": 58,
+    "subscribers_count": 8
+  },
+  "brutusin/json-forms": {
+    "user": "brutusin",
+    "repo": "json-forms",
+    "stargazers_count": 224,
+    "forks": 68,
+    "subscribers_count": 33
+  },
+  "ApoorvSaxena/lozad.js": {
+    "user": "ApoorvSaxena",
+    "repo": "lozad.js",
+    "stargazers_count": 3215,
+    "forks": 152,
+    "subscribers_count": 91
+  },
+  "konpa/devicon": {
+    "user": "konpa",
+    "repo": "devicon",
+    "stargazers_count": 1346,
+    "forks": 134,
+    "subscribers_count": 50
+  },
+  "Pagawa/PgwSlider": {
+    "user": "Pagawa",
+    "repo": "PgwSlider",
+    "stargazers_count": 156,
+    "forks": 136,
+    "subscribers_count": 30
+  },
+  "LeaVerou/stretchy": {
+    "user": "LeaVerou",
+    "repo": "stretchy",
+    "stargazers_count": 1158,
+    "forks": 81,
+    "subscribers_count": 37
+  },
+  "plotly/plotly.js": {
+    "user": "plotly",
+    "repo": "plotly.js",
+    "stargazers_count": 7029,
+    "forks": 771,
+    "subscribers_count": 231
+  },
+  "mickey/videojs-ga": {
+    "user": "mickey",
+    "repo": "videojs-ga",
+    "stargazers_count": 113,
+    "forks": 99,
+    "subscribers_count": 23
+  },
+  "Shopify/js-buy-sdk": {
+    "user": "Shopify",
+    "repo": "js-buy-sdk",
+    "stargazers_count": 267,
+    "forks": 86,
+    "subscribers_count": 170
+  },
+  "lgarron/clipboard-polyfill": {
+    "user": "lgarron",
+    "repo": "clipboard-polyfill",
+    "stargazers_count": 235,
+    "forks": 50,
+    "subscribers_count": 7
+  },
+  "corysimmons/ie-love": {
+    "user": "corysimmons",
+    "repo": "ie-love",
+    "stargazers_count": 17,
+    "forks": 4,
+    "subscribers_count": 1
+  },
+  "collab-project/videojs-record": {
+    "user": "collab-project",
+    "repo": "videojs-record",
+    "stargazers_count": 380,
+    "forks": 90,
+    "subscribers_count": 20
+  },
+  "froala/design-blocks": {
+    "user": "froala",
+    "repo": "design-blocks",
+    "stargazers_count": 7272,
+    "forks": 484,
+    "subscribers_count": 200
   }
 }
