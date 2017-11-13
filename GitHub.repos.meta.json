@@ -22090,5 +22090,33 @@
     "stargazers_count": 7272,
     "forks": 484,
     "subscribers_count": 200
+  },
+  "vkbansal/react-contextmenu": {
+    "user": "vkbansal",
+    "repo": "react-contextmenu",
+    "stargazers_count": 367,
+    "forks": 98,
+    "subscribers_count": 11
+  },
+  "frappe/charts": {
+    "user": "frappe",
+    "repo": "charts",
+    "stargazers_count": 7386,
+    "forks": 217,
+    "subscribers_count": 132
+  },
+  "Keyamoon/svgxuse": {
+    "user": "Keyamoon",
+    "repo": "svgxuse",
+    "stargazers_count": 447,
+    "forks": 36,
+    "subscribers_count": 18
+  },
+  "zhuker/lamejs": {
+    "user": "zhuker",
+    "repo": "lamejs",
+    "stargazers_count": 205,
+    "forks": 42,
+    "subscribers_count": 14
   }
 }
