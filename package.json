@@ -38,6 +38,7 @@
     "express": "^4.16.4",
     "git-url-parse": "^11.1.2",
     "github": "^13.1.0",
+    "glob-to-regexp": "^0.3.0",
     "gravatar": "^1.8.0",
     "highlight.js": "^9.14.2",
     "lodash": "^4.17.11",
