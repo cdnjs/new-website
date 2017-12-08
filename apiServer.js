@@ -143,7 +143,6 @@ app.get('/libraries/:library', function(req, res) {
   }
   if (includeSri && results[0].assets) {
     _.each(results[0].assets, function(asset) {
-      console.log('sri/' + req.params.library + '/' + asset.version + '.json');
       try {
         asset.sri = JSON.parse(fs.readFileSync('sri/' + req.params.library + '/' + asset.version + '.json'));
       } catch (e) {
