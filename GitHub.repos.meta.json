@@ -22496,5 +22496,117 @@
     "stargazers_count": 105,
     "forks": 44,
     "subscribers_count": 21
+  },
+  "guyonroche/exceljs": {
+    "user": "guyonroche",
+    "repo": "exceljs",
+    "stargazers_count": 2152,
+    "forks": 295,
+    "subscribers_count": 99
+  },
+  "ankane/react-chartkick": {
+    "user": "ankane",
+    "repo": "react-chartkick",
+    "stargazers_count": 854,
+    "forks": 29,
+    "subscribers_count": 17
+  },
+  "source-foundry/Hack": {
+    "user": "source-foundry",
+    "repo": "Hack",
+    "stargazers_count": 10511,
+    "forks": 352,
+    "subscribers_count": 259
+  },
+  "running-coder/jquery-typeahead": {
+    "user": "running-coder",
+    "repo": "jquery-typeahead",
+    "stargazers_count": 387,
+    "forks": 97,
+    "subscribers_count": 36
+  },
+  "nuysoft/Mock": {
+    "user": "nuysoft",
+    "repo": "Mock",
+    "stargazers_count": 6130,
+    "forks": 952,
+    "subscribers_count": 252
+  },
+  "briangonzalez/jquery.adaptive-backgrounds.js": {
+    "user": "briangonzalez",
+    "repo": "jquery.adaptive-backgrounds.js",
+    "stargazers_count": 6375,
+    "forks": 483,
+    "subscribers_count": 197
+  },
+  "marmelab/EventDrops": {
+    "user": "marmelab",
+    "repo": "EventDrops",
+    "stargazers_count": 837,
+    "forks": 162,
+    "subscribers_count": 42
+  },
+  "tempusdominus/bootstrap-4": {
+    "user": "tempusdominus",
+    "repo": "bootstrap-4",
+    "stargazers_count": 92,
+    "forks": 29,
+    "subscribers_count": 15
+  },
+  "sweetalert2/sweetalert2": {
+    "user": "sweetalert2",
+    "repo": "sweetalert2",
+    "stargazers_count": 4127,
+    "forks": 659,
+    "subscribers_count": 136
+  },
+  "theonion/videojs-vast-plugin": {
+    "user": "theonion",
+    "repo": "videojs-vast-plugin",
+    "stargazers_count": 216,
+    "forks": 140,
+    "subscribers_count": 34
+  },
+  "yuanchuan/css-doodle": {
+    "user": "yuanchuan",
+    "repo": "css-doodle",
+    "stargazers_count": 321,
+    "forks": 23,
+    "subscribers_count": 7
+  },
+  "ankurk91/vue-bootstrap-datetimepicker": {
+    "user": "ankurk91",
+    "repo": "vue-bootstrap-datetimepicker",
+    "stargazers_count": 70,
+    "forks": 14,
+    "subscribers_count": 3
+  },
+  "russellgoldenberg/scrollama": {
+    "user": "russellgoldenberg",
+    "repo": "scrollama",
+    "stargazers_count": 2990,
+    "forks": 95,
+    "subscribers_count": 55
+  },
+  "tipsy/bubbly-bg": {
+    "user": "tipsy",
+    "repo": "bubbly-bg",
+    "stargazers_count": 1185,
+    "forks": 66,
+    "subscribers_count": 24
+  },
+  "patternfly/angular-patternfly": {
+    "user": "patternfly",
+    "repo": "angular-patternfly",
+    "stargazers_count": 110,
+    "forks": 88,
+    "subscribers_count": 31
+  },
+  "milojs/milo": {
+    "user": "milojs",
+    "repo": "milo",
+    "stargazers_count": 63,
+    "forks": 7,
+    "subscribers_count": 45
   }
 }
