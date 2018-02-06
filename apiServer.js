@@ -46,6 +46,19 @@ function humanOutput(res, json) {
 }
 
 var packages = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
+// append SRI data to each pacakge
+_.each(packages, function(library) {
+  // read SRI values for all assets in all versions
+  _.each(library.assets, function (asset) {
+    try {
+      asset.sri = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + asset.version + '.json'));
+    } catch (e) {
+      asset.sri = {};
+    }
+  });
+  // set library SRI value to SRI of current version of the library filename
+  library.sri = library.assets[0].sri[library.filename];
+});
 // build an indexed version of the packages (speed up lookup)
 var packagesByName = {};
 _.each(packages, function(library) {
@@ -72,7 +85,8 @@ app.get('/libraries', function(req, res) {
     return _.map(packagesByName, function(library) {
       var data = {
         name: library.name,
-        latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + library.name + '/' + library.version + '/' + library.filename
+        latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + library.name + '/' + library.version + '/' + library.filename,
+        sri: library.sri
       };
       _.each(fields, function(field) {
         data[field] = library[field] || null;
