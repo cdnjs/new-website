@@ -367,7 +367,7 @@ function setFileURLs(new_provider) {
 
   var windowSelector = $(window);
   windowSelector.scroll(_.debounce(function() {
-    if (lazyScroll && windowSelector.scrollTop() + windowSelector.height() >= $(document).height()) {
+    if (lazyScroll && windowSelector.scrollTop() + windowSelector.height() >= $(document).height() - 1) {
       loadMoreSearchResult();
     }
   }, 100));
