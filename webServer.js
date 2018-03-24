@@ -296,7 +296,7 @@ function start() {
       library.autoupdate.string = library.autoupdate.type ? library.autoupdate.type + ' autoupdate enabled' : '';
       switch (library.autoupdate.type) {
         case 'npm':
-          library.autoupdate.url = 'https://npmjs.com/package/' + library.autoupdate.target;
+          library.autoupdate.url = 'https://www.npmjs.com/package/' + library.autoupdate.target;
           break;
         case 'git':
           library.autoupdate.url = gitUrlParse(library.autoupdate.target).toString("https");
