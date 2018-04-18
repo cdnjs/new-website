@@ -90,37 +90,37 @@ function crawl(gnext) {
       if (!m) {
         return null;
       }
-      return {user: m[1], repo: m[2].replace(/.git$/, '')};
+      return {owner: m[1], repo: m[2].replace(/.git$/, '')};
     }));
 
     if (repos.length > 0) {
       var repo = repos[0]; // fetch only the first repository
-      if (metas[repo.user + '/' + repo.repo] === undefined) {
+      if (metas[repo.owner + '/' + repo.repo] === undefined) {
         github.repos.get(repo, function(err, res) {
-          if (!err && res.stargazers_count === undefined) {
+          if (!err && res.data.stargazers_count === undefined) {
             err = "Didn't fetch the meta data properly!!!";
           }
           if (err) {
-            console.log(colors.yellow('Got a problem on ' + repo.user + '/' + repo.repo + '(' + library.name + ') !!!'));
+            console.log(colors.yellow('Got a problem on ' + repo.owner + '/' + repo.repo + '(' + library.name + ') !!!'));
             console.log(colors.red(err));
           } else {
             // enchrich the library
-            console.log('** Enrich ' + repo.user + '/' + repo.repo + ', ' + res.stargazers_count + ' star(s) ...');
+            console.log('** Enrich ' + repo.owner + '/' + repo.repo + ', ' + res.data.stargazers_count + ' star(s) ...');
             library.github = {
-              user: repo.user,
+              user: repo.owner,
               repo: repo.repo,
-              stargazers_count: res.stargazers_count,
-              forks: res.forks,
-              subscribers_count: res.subscribers_count
+              stargazers_count: res.data.stargazers_count,
+              forks: res.data.forks,
+              subscribers_count: res.data.watchers_count
             };
-            metas[repo.user + '/' + repo.repo] = library.github;
+            metas[repo.owner + '/' + repo.repo] = library.github;
           }
           async.setImmediate(function() {
             next();
           });
         });
       } else {
-        library.github = metas[repo.user + '/' + repo.repo];
+        library.github = metas[repo.owner + '/' + repo.repo];
         async.setImmediate(function() {
           next();
         });
