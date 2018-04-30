@@ -1,0 +1,21 @@
+language: node_js
+sudo: false
+dist: trusty
+
+node_js:
+  - "8"
+
+cache:
+  directories:
+    - node_modules
+
+git:
+  depth: 10
+
+jobs:
+  include:
+    - stage: Static Test
+      env:
+        - test: Editor Config check
+      script:
+      - echint -i "sri/**/*" -i "public/**/*" -v
