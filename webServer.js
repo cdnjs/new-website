@@ -423,10 +423,6 @@ function start() {
       smartLists: false,
       smartypants: false,
       langPrefix: ''
-          // highlight: function (code, lang) {
-          //  var language = lang || 'html';
-          //  return highlight.highlightAuto(code).value;
-          // }
     });
 
     setCache(res, 72);
