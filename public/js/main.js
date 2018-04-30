@@ -15,19 +15,21 @@ setFileURLs();
 
 function setFileURLs(new_provider) {
   if (urlSetDecided === false) {
-    $('p.library-url').each(function() {
+    $('p.library-url').each(function () {
       $(this).html(cdn_provider_base_url[cdn_provider] + $(this).html());
     });
+
     urlSetDecided = true;
   } else {
-    $('p.library-url').each(function() {
+    $('p.library-url').each(function () {
       $(this).html($(this).html().replace(cdn_provider_base_url[cdn_provider], cdn_provider_base_url[new_provider]));
     });
+
     cdn_provider = new_provider;
   }
 }
 
-(function($) {
+(function ($) {
   baseURI = cdn_provider_base_url[cdn_provider] + $('h1#libraryName').html() + '/' + $('select.version-selector :selected').val() + '/';
   function selectText(element) {
     var doc = document;
@@ -54,13 +56,14 @@ function setFileURLs(new_provider) {
   toggleButton.appendTo(copyEl);
   var SRIcopyButton = '';
   var SRIcopyWithoutTagButton = '';
-  if (typeof (SRI) !== "undefined") {
+  if (typeof (SRI) !== 'undefined') {
     SRIcopyButton =
       '<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag with SRI</a></li>' +
       '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag with SRI</a></li>';
     SRIcopyWithoutTagButton =
       '<li class="js css"><a data-copy-embed="file-sri" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
   }
+
   copyEl.append('<ul class="dropdown-menu copy-options">' +
                 '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
                 '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
@@ -74,31 +77,35 @@ function setFileURLs(new_provider) {
   function setupMouseEvents() {
     // Currently not showing the copy button for iOS, check clipboard.js support
     if (!(/iPhone|iPad/i.test(navigator.userAgent))) {
-      $('.packages-table-container table tbody tr, .library-table-container table tbody tr').hover(function(ev) {
+      $('.packages-table-container table tbody tr, .library-table-container table tbody tr').hover(function (ev) {
         var cont = $(ev.currentTarget);
         var libraryColumn = cont.find('.library-column');
         copyEl.show();
         copyEl.appendTo(libraryColumn);
-      }, function(e){
+      }, function (e) {
+
         copyEl.hide();
       });
+
       if (clipboard) {
         clipboard.destroy();
       }
+
       setupCopyButton();
     }
   }
 
   function setupCopyButton() {
-    clipboard = new Clipboard(".copy-button", {
-      text: function(trigger) {
+    clipboard = new Clipboard('.copy-button', {
+      text: function (trigger) {
         var button = $(trigger);
         var embed = button.attr('data-copy-embed');
         var url = $('.library-url', button.parents('.library-column')).text();
         var fileSRI = '';
-        if (typeof (SRI) !== "undefined") {
+        if (typeof (SRI) !== 'undefined') {
           fileSRI = SRI[url.replace(baseURI, '')];
         }
+
         switch (embed) {
           case 'script':
             url = '<script src="' + url + '"></script>';
@@ -120,7 +127,7 @@ function setFileURLs(new_provider) {
       }
     });
 
-    clipboard.on("success", function(e) {
+    clipboard.on('success', function (e) {
       var button = $(e.trigger);
       var btContainer = button.parents('.copy-button-group').tooltip({
         trigger: 'manual',
@@ -128,32 +135,34 @@ function setFileURLs(new_provider) {
         title: 'Copied!'
       });
       btContainer.tooltip('show');
-      setTimeout(function() {
+      setTimeout(function () {
         btContainer.tooltip('hide');
         btContainer.tooltip('destroy');
       }, 1000);
+
       ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
     });
 
-    clipboard.on("error", function(e) {
+    clipboard.on('error', function (e) {
       var button = $(e.trigger);
       var msg;
       if (/Mac/i.test(navigator.userAgent)) {
         msg = 'Press ⌘-C to copy';
-      }
-      else {
+      } else {
         msg = 'Press Ctrl-C to copy';
       }
+
       var btContainer = button.parents('.copy-button-group').tooltip({
         trigger: 'manual',
         placement: 'bottom',
         title: msg
       });
       btContainer.tooltip('show');
-      setTimeout(function() {
+      setTimeout(function () {
         btContainer.tooltip('hide');
         btContainer.tooltip('destroy');
       }, 1000);
+
       ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
     });
   }
@@ -173,6 +182,7 @@ function setFileURLs(new_provider) {
     if (err) {
       appLoading.stop();
     }
+
     if (err || content.query !== $('#search-box').val()) {
       return;
     }
@@ -200,12 +210,14 @@ function setFileURLs(new_provider) {
       $('.packages-table-container > table > thead').show();
       $nbHitsField.parent().show();
     }
+
     scrollProgress.update();
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
       if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
         match = true;
       }
+
       var githubDetails = '';
       if (hit.github) {
         var user = getSafeHighlightedValue(hit._highlightResult.github.user);
@@ -226,7 +238,7 @@ function setFileURLs(new_provider) {
           '</a></p>' +
           '<p class="text-muted">' + description + '</p>' +
           '<ul class="list-inline">' +
-            $.map(hit._highlightResult.keywords || [], function(e) {
+            $.map(hit._highlightResult.keywords || [], function (e) {
               var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
               return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>';
             }).join(' ') +
@@ -244,32 +256,32 @@ function setFileURLs(new_provider) {
 
     function getReqLibTmplUrl(libraryName) {
       var issueUrlPrefix = 'https://github.com/cdnjs/cdnjs/issues/new';
-      var title = "[Request] Add " + libraryName;
+      var title = '[Request] Add ' + libraryName;
       var bodys = [
-        "**Library name:** " + libraryName,
-        "**Library description:** ",
-        "**Git repository url:** ",
-        "**npm package name or url** (if there is one): ",
+        '**Library name:** ' + libraryName,
+        '**Library description:** ',
+        '**Git repository url:** ',
+        '**npm package name or url** (if there is one): ',
         "**License (List them all if it's multiple):** ",
-        "**Official homepage:** ",
-        "**Wanna say something? Leave message here:** ",
-        "",
-        "=====================",
-        "",
-        "Notes from cdnjs maintainer(please remove this section after you read it):",
-        "1. Please read the [README.md](https://github.com/cdnjs/cdnjs#cdnjs-library-repository) and " +
-        "[CONTRIBUTING.md](https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md) document first.",
+        '**Official homepage:** ',
+        '**Wanna say something? Leave message here:** ',
+        '',
+        '=====================',
+        '',
+        'Notes from cdnjs maintainer(please remove this section after you read it):',
+        '1. Please read the [README.md](https://github.com/cdnjs/cdnjs#cdnjs-library-repository) and ' +
+        '[CONTRIBUTING.md](https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md) document first.',
         "2. For the new library request issue, please make sure it's not a personal project, we have a basic requirement for the popularity, like 200 stars on GitHub or 800 downloads/month on npm registry.",
-        "",
-        "We encourage you to add a library via sending pull request,",
+        '',
+        'We encourage you to add a library via sending pull request,',
         "it'll be faster than just opening a request issue,",
-        "since there are tons of issues, please wait with patience,",
+        'since there are tons of issues, please wait with patience,',
         "and please don't forget to read the guidelines for contributing, thanks!!"
-      ]
+      ];
 
       return issueUrlPrefix +
         '?title=' + escape(title) +
-        '&body=' + escape(_.join(bodys, '\n'))
+        '&body=' + escape(_.join(bodys, '\n'));
     }
 
     var libraryName = escape(content.query);
@@ -279,12 +291,13 @@ function setFileURLs(new_provider) {
     var tempText2 =
       '<br /><td class="text-center well" colspan="2">' +
       tempText + '<br /> You can ' +
-      '<a href="' + getReqLibTmplUrl(content.query) +'" target="_blank">request it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank"><strong>requirement</strong></a>.' +
+      '<a href="' + getReqLibTmplUrl(content.query) + '" target="_blank">request it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank"><strong>requirement</strong></a>.' +
         ' Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
       '</td>';
     if (lazyScroll) {
       html += scrollToEndText;
     }
+
     html += tempText2;
 
     $hits.html(html);
@@ -295,14 +308,14 @@ function setFileURLs(new_provider) {
   }
 
   function animateTop() {
-    $('.container.home').animate({marginTop: '0px'}, 200);
+    $('.container.home').animate({ marginTop: '0px' }, 200);
   }
 
   function animateTopReverse() {
-    $('.container.home').animate({marginTop: '200px'}, 200);
+    $('.container.home').animate({ marginTop: '200px' }, 200);
   }
 
-  var clearHash = _.once(function() {
+  var clearHash = _.once(function () {
     location.hash = '';
   });
 
@@ -335,6 +348,7 @@ function setFileURLs(new_provider) {
       } else {
         $('.packages-table-container').hide();
       }
+
       $nbHitsField.parent().hide();
       animateTopReverse();
       appLoading.stop();
@@ -344,19 +358,21 @@ function setFileURLs(new_provider) {
       displayPage = 0;
       lazyScroll = true;
       cachedQueryResult = {};
-      index.search(val, {hitsPerPage: queryItems, page: displayPage}, function(err, content) {
+      index.search(val, { hitsPerPage: queryItems, page: displayPage }, function (err, content) {
         if (!err) {
           cachedQueryResult = content;
         }
+
         displayMatchingLibraries(err, content);
       });
     }
+
     lastQuery = val;
   }
 
   function loadMoreSearchResult() {
     displayPage += 1;
-    index.search(lastQuery, {hitsPerPage: queryItems, page: displayPage}, function(err, content) {
+    index.search(lastQuery, { hitsPerPage: queryItems, page: displayPage }, function (err, content) {
       if (!err && cachedQueryResult.hits) {
         content.hits = cachedQueryResult.hits.concat(content.hits);
         cachedQueryResult = content;
@@ -366,11 +382,12 @@ function setFileURLs(new_provider) {
   }
 
   var windowSelector = $(window);
-  windowSelector.scroll(_.debounce(function() {
+  windowSelector.scroll(_.debounce(function () {
     if (lazyScroll && windowSelector.scrollTop() + windowSelector.height() >= $(document).height() - 1) {
       loadMoreSearchResult();
     }
   }, 100));
+
   $('#search-box').on('input', searchHandler);
 
   if ($('#search-box').val() !== '') {
@@ -394,22 +411,25 @@ function setFileURLs(new_provider) {
   // putClassOnFavorites(getFavorites());
   $('#search-box').focus();
 
-  $('.cdn-provider-selector').on('change', function(ev) {
+  $('.cdn-provider-selector').on('change', function (ev) {
     location.hash = $(ev.currentTarget).val();
     setFileURLs(decideCDNProvider());
   });
-  $(window).on('hashchange', function() {
+
+  $(window).on('hashchange', function () {
     searchByHash();
     $('.cdn-provider-selector').val(decideCDNProvider());
     setFileURLs(decideCDNProvider());
   });
-  $('.version-selector').on('change', function(ev) {
+
+  $('.version-selector').on('change', function (ev) {
     var libraryVersion = $(ev.currentTarget).val();
     var libraryName = $('#library-name').text();
     var newURL = window.location.origin + '/libraries/' + libraryName + '/' + libraryVersion;
     window.location.href = newURL;
   });
-  console.log("%cThanks for using CDNJS! 😊", "font: 5em roboto; color: #dd4814;");
+
+  console.log('%cThanks for using CDNJS! 😊', 'font: 5em roboto; color: #dd4814;');
   $(function () {
     $.scrollUp({
       animation: 'slide',
@@ -417,12 +437,13 @@ function setFileURLs(new_provider) {
       activeOverlay: false,
     });
   });
+
   scrollProgress.set({
     color: '#DD4814',
     height: '2px',
     bottom: false
   });
-  window.onresize = function() {
+  window.onresize = function () {
     scrollProgress.update();
   };
 })(jQuery);

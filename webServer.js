@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var throng = require('throng');
 var gravatar = require('gravatar');
-var gitUrlParse = require("git-url-parse");
+var gitUrlParse = require('git-url-parse');
 var removeNewline = require('newline-remove');
 var condenseWhitespace = require('condense-whitespace');
 var fs = require('fs');
@@ -9,15 +9,15 @@ var licenses = JSON.parse(fs.readFileSync('license-list.json', 'utf8'));
 var WORKERS = process.env.WEB_CONCURRENCY || 1;
 var PORT = Number(process.env.PORT || 5500);
 var TITLE = 'cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!';
-var request = 'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20library_name&body=**Library%20name%3A**%20%0A**Git%20repository%20url%3A**%20%0A**npm%20package%20name%20or%20url**%20(if%20there%20is%20one)%3A%20%0A**License%20(List%20them%20all%20if%20it%27s%20multiple)%3A**%20%0A**Official%20homepage%3A**%20%0A**Wanna%20say%20something%3F%20Leave%20message%20here%3A**%20%0A%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0A%0ANotes%20from%20cdnjs%20maintainer%3A%0APlease%20read%20the%20%5BREADME.md%5D(https%3A%2F%2Fgithub.com%2Fcdnjs%2Fcdnjs%23cdnjs-library-repository)%20and%20%5BCONTRIBUTING.md%5D(https%3A%2F%2Fgithub.com%2Fcdnjs%2Fcdnjs%2Fblob%2Fmaster%2F.github%2FCONTRIBUTING.md)%20document%20first.%0A%0AWe%20encourage%20you%20to%20add%20a%20library%20via%20sending%20pull%20request%2C%0Ait%27ll%20be%20faster%20than%20just%20opening%20a%20request%20issue%2C%0Asince%20there%20are%20tons%20of%20issues%2C%20please%20wait%20with%20patience%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!%0A'
+var request = 'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20library_name&body=**Library%20name%3A**%20%0A**Git%20repository%20url%3A**%20%0A**npm%20package%20name%20or%20url**%20(if%20there%20is%20one)%3A%20%0A**License%20(List%20them%20all%20if%20it%27s%20multiple)%3A**%20%0A**Official%20homepage%3A**%20%0A**Wanna%20say%20something%3F%20Leave%20message%20here%3A**%20%0A%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0A%0ANotes%20from%20cdnjs%20maintainer%3A%0APlease%20read%20the%20%5BREADME.md%5D(https%3A%2F%2Fgithub.com%2Fcdnjs%2Fcdnjs%23cdnjs-library-repository)%20and%20%5BCONTRIBUTING.md%5D(https%3A%2F%2Fgithub.com%2Fcdnjs%2Fcdnjs%2Fblob%2Fmaster%2F.github%2FCONTRIBUTING.md)%20document%20first.%0A%0AWe%20encourage%20you%20to%20add%20a%20library%20via%20sending%20pull%20request%2C%0Ait%27ll%20be%20faster%20than%20just%20opening%20a%20request%20issue%2C%0Asince%20there%20are%20tons%20of%20issues%2C%20please%20wait%20with%20patience%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!%0A';
 var args = process.argv.slice(2);
 var localMode = false;
 
 if (process.env.LOCAL === 'true' || (args.length > 0 && (args[0] === '--local' || args[2] === '--local'))) {
-  console.log("local mode: on, gc(), CSP and Public-Key-Pins headers disabled!");
+  console.log('local mode: on, gc(), CSP and Public-Key-Pins headers disabled!');
   localMode = true;
 } else {
-  console.log("local mode: off");
+  console.log('local mode: off');
 }
 
 throng(start, {
@@ -26,19 +26,19 @@ throng(start, {
 });
 
 function start() {
-  var express = require("express");
-  var _ = require("lodash");
-  var Mustache = require("mustache");
+  var express = require('express');
+  var _ = require('lodash');
+  var Mustache = require('mustache');
   var app = express();
   var compress = require('compression');
   var highlight = require('highlight.js');
-  var marked = require("marked");
+  var marked = require('marked');
   var path = require('path');
   highlight.configure({
     tabReplace: '  '
   });
   app.disable('x-powered-by');
-  app.use(function(req, res, next) {
+  app.use(function (req, res, next) {
     res.setHeader('Referrer-Policy', 'no-referrer-when-downgrade');
     res.setHeader('X-Frame-Options', 'deny');
     res.setHeader('X-Content-Type-Options', 'nosniff');
@@ -47,28 +47,32 @@ function start() {
       res.setHeader('Public-Key-Pins', 'pin-sha256="EULHwYvGhknyznoBvyvgbidiBH3JX3eFHHlIO3YK8Ek=";pin-sha256="x9SZw6TwIqfmvrLZ/kz1o0Ossjmn728BnBKpUFqGNVM=";max-age=3456000;report-uri="https://cdnjs.report-uri.io/r/default/hpkp/enforce');
       res.setHeader('Content-Security-Policy', "upgrade-insecure-requests; default-src 'unsafe-eval' 'self' *.carbonads.com *.getclicky.com fonts.gstatic.com www.google-analytics.com fonts.googleapis.com cdnjs.cloudflare.com 'unsafe-inline' https: data: ;report-uri https://cdnjs.report-uri.io/r/default/hpkp/enforce");
     }
+
     next();
   });
+
   app.use(compress());
 
   if (!localMode && (typeof global.gc !== 'undefined')) {
     global.gc();
   }
 
-    // Serve public folder
+  // Serve public folder
   app.use(express.static(__dirname + '/public', {
     maxAge: 7200 * 1000
   }));
 
-    // Load libraries into ram
+  // Load libraries into ram
   var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
-    // Load GitHub repositories meta data
+
+  // Load GitHub repositories meta data
   var GITHUB_METAS = JSON.parse(fs.readFileSync('GitHub.repos.meta.json', 'utf8'));
 
   var LIBRARIES_VERSIONS = 0;
-    // Map libraries array into object for easy access
+
+  // Map libraries array into object for easy access
   var LIBRARIES_MAP = {};
-  _.each(LIBRARIES, function(library) {
+  _.each(LIBRARIES, function (library) {
     library.originalName = library.name;
     library.id = library.name;
 
@@ -77,20 +81,23 @@ function start() {
     } else {
       library.fileType = 'js';
     }
+
     library.keywords = library.keywords && library.keywords.join(', ');
     LIBRARIES_MAP[library.name] = library;
     LIBRARIES_VERSIONS += library.assets.length;
   });
+
   LIBRARIES = null;
 
   function getTemplate(templateURL, simple) {
     if (simple === true) {
       return fs.readFileSync(templateURL, 'utf8');
     }
+
     return removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')));
   }
 
-    // Templates
+  // Templates
   var templates = {
     layout: getTemplate('templates/layout.html'),
     home: getTemplate('templates/home.html'),
@@ -111,7 +118,7 @@ function start() {
     error: getTemplate('templates/500.html', true)
   };
 
-  var generatePage = function(options) {
+  var generatePage = function (options) {
     var layout = options.layout || templates.layout;
     var title = options.title || TITLE;
     var keywords = options.page.data && options.page.data.library && options.page.data.library.keywords || 'CDN,CDNJS,js,css,library,web,front-end,free,open-source,png,plugin,ng,jQuery,angular';
@@ -132,12 +139,13 @@ function start() {
     });
     return fullContent;
   };
-  var setCache = function(res, hours) {
-    res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours + ", immutable");
-    res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
+
+  var setCache = function (res, hours) {
+    res.setHeader('Cache-Control', 'public, max-age=' + 60 * 60 * hours + ', immutable');
+    res.setHeader('Expires', new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
   };
 
-  var serverPush = function(res, uri) {
+  var serverPush = function (res, uri) {
     var temp = uri.split('.');
     var ext = temp[temp.length - 1];
     var as = -1;
@@ -162,8 +170,9 @@ function start() {
         break;
     }
     if (as !== -1) {
-      res.append("Link", "<" + uri + ">; rel=preload; as=" + as);
+      res.append('Link', '<' + uri + '>; rel=preload; as=' + as);
     }
+
     temp = null;
     ext = null;
     as = null;
@@ -174,18 +183,19 @@ function start() {
     serverPush(res, '/js/main.js');
   }
 
-  app.get('/request-new-lib', function(req, res) {
+  app.get('/request-new-lib', function (req, res) {
     return res.redirect(302, request);
   });
 
-  app.get('/cdnjs.cloudflare.com/*', function(req, res) {
+  app.get('/cdnjs.cloudflare.com/*', function (req, res) {
     return res.redirect(301, 'https:/' + req.url);
   });
 
-  app.get('/', function(req, res) {
+  app.get('/', function (req, res) {
     if (req.query.q) {
       return res.redirect(301, '/#q=' + req.query.q);
     }
+
     pushAssets(res);
     serverPush(res, '/img/algolia.svg');
     setCache(res, 2);
@@ -210,8 +220,9 @@ function start() {
     }
 
     if (library.repository.type === 'git') {
-      urls.push({url: gitUrlParse(library.repository.url).toString("https")});
+      urls.push({ url: gitUrlParse(library.repository.url).toString('https') });
     }
+
     library.urls = urls;
     return urls;
   }
@@ -220,11 +231,13 @@ function start() {
     if (library.license === undefined && library.licenses === undefined) {
       return null;
     }
+
     if (library.license !== undefined) {
       library.licenses = [];
       library.licenses[0] = library.license;
       delete library.license;
     }
+
     for (var license in library.licenses) {
       if (typeof (library.licenses[license]) !== 'object') {
         var temp = library.licenses[license];
@@ -232,37 +245,42 @@ function start() {
         library.licenses[license].type = temp;
         library.licenses[license].url = '#';
       }
+
       if (licenses.indexOf(library.licenses[license].type) !== -1) {
         library.licenses[license].url = 'https://spdx.org/licenses/' + library.licenses[license].type + '.html';
       }
     }
+
     return library.licenses;
   }
 
   function libraryAssetsList(library, version) {
-    return _.map(library.assets, function(assets) {
+    return _.map(library.assets, function (assets) {
       if (assets.version === version) {
         assets.selected = 'selected';
       } else {
         assets.selected = '';
       }
+
       if (assets.gennedFileNames === undefined) {
         var fileArray = [];
-        assets.files.map(function(fileName, index) {
+        assets.files.map(function (fileName, index) {
           var fileExtension = path.extname(fileName);
           var fileType = fileExtension.substring(1) || 'unknown';
-          fileArray.push({name: fileName, fileType: fileType});
+          fileArray.push({ name: fileName, fileType: fileType });
         });
+
         assets.files = fileArray;
         assets.gennedFileNames = true;
       }
+
       return assets;
     });
   }
 
   function GitHubMetaInfo(library) {
     if (library.repository !== undefined && /github.com/.test(library.repository.url)) {
-      var pathname = gitUrlParse(library.repository.url).pathname.replace(/^\/|.git/g , "").toString();
+      var pathname = gitUrlParse(library.repository.url).pathname.replace(/^\/|.git/g, '').toString();
       return GITHUB_METAS[pathname];
     } else {
       return null;
@@ -277,16 +295,17 @@ function start() {
     var tutorialPackages = [];
 
     if (fs.existsSync(srcpath)) {
-      var directories = fs.readdirSync(srcpath).filter(function(file) {
+      var directories = fs.readdirSync(srcpath).filter(function (file) {
         return fs.statSync(path.resolve(srcpath, file)).isDirectory();
       });
 
-      tutorialPackages = _.map(directories, function(tutorial) {
+      tutorialPackages = _.map(directories, function (tutorial) {
         var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
         tutorialPackage.slug = tutorial;
         return tutorialPackage;
       });
     }
+
     var tutorialsPresent = tutorialPackages.length > 0;
     if (!library) {
       return res.redirect(307, '/#q=' + libraryName);
@@ -299,18 +318,20 @@ function start() {
           library.autoupdate.url = 'https://www.npmjs.com/package/' + library.autoupdate.target;
           break;
         case 'git':
-          library.autoupdate.url = gitUrlParse(library.autoupdate.target).toString("https");
+          library.autoupdate.url = gitUrlParse(library.autoupdate.target).toString('https');
           break;
         default:
           break;
       }
     }
+
     if (!library.homepage && library.repository && library.repository.type === 'git') {
-      library.homepage = gitUrlParse(library.repository.url).toString("https");
+      library.homepage = gitUrlParse(library.repository.url).toString('https');
     }
+
     var version = req.params.version || library.version;
 
-    if (!_.find(library.assets, {version: version})) {
+    if (!_.find(library.assets, { version: version })) {
       return res.status(404).send(libraryName + ' version not found!');
     }
 
@@ -320,6 +341,7 @@ function start() {
     } catch (e) {
       SRI = {};
     }
+
     var licenses = librarylicensesList(library);
     var assets = libraryAssetsList(library, version);
     var stargazers_count = null, forks = null, subscribers_count = null;
@@ -329,9 +351,11 @@ function start() {
       forks = metaInfo.forks;
       subscribers_count = metaInfo.subscribers_count;
     }
+
     if (!library.urls) {
       library.urls = libraryGitRepoList(library);
     }
+
     res.send(generatePage({
       reqUrl: req.url,
       title: libraryName + ' - ' + TITLE,
@@ -342,7 +366,7 @@ function start() {
           assets: assets,
           SRI: SRI,
           licenses: licenses,
-          selectedAssets: _.find(assets, {version: version}),
+          selectedAssets: _.find(assets, { version: version }),
           tutorials: tutorialPackages,
           libraryRealName: libraryName,
           tutorialsPresent: tutorialsPresent,
@@ -350,20 +374,20 @@ function start() {
           fork: forks,
           watch: subscribers_count
         },
-        description: library && (library.name + " - " + library.description)
+        description: library && (library.name + ' - ' + library.description)
       }
     }));
   }
 
-  app.get('/libraries/:library/tutorials', function(req, res) {
+  app.get('/libraries/:library/tutorials', function (req, res) {
     var library = req.params.library;
     var srcpath = path.resolve(__dirname, 'tutorials', library);
 
-    var directories = fs.readdirSync(srcpath).filter(function(file) {
+    var directories = fs.readdirSync(srcpath).filter(function (file) {
       return fs.statSync(path.resolve(srcpath, file)).isDirectory();
     });
 
-    var tutorialPackages = _.map(directories, function(tutorial) {
+    var tutorialPackages = _.map(directories, function (tutorial) {
       var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
       tutorialPackage.slug = tutorial;
       return tutorialPackage;
@@ -383,7 +407,7 @@ function start() {
     }));
   });
 
-  app.get('/libraries/:library/tutorials/:tutorial', function(req, res) {
+  app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
     var library = req.params.library;
     var tutorial = req.params.tutorial;
     var srcpath = path.resolve(__dirname, 'tutorials', library);
@@ -400,18 +424,18 @@ function start() {
     }
 
     var tutorialFile = fs.readFileSync(indexPath, 'utf8');
-    var directories = fs.readdirSync(srcpath).filter(function(file) {
+    var directories = fs.readdirSync(srcpath).filter(function (file) {
       return fs.statSync(path.resolve(srcpath, file)).isDirectory();
     });
 
-    var tutorialPackages = _.map(directories, function(tutorial) {
+    var tutorialPackages = _.map(directories, function (tutorial) {
       var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
       tutorialPackage.slug = tutorial;
       return tutorialPackage;
     });
 
     var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
-    var avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'});
+    var avatar = gravatar.url(tutorialPackage.author.email, { s: '200', r: 'pg', d: '404' });
 
     marked.setOptions({
       renderer: new marked.Renderer(),
@@ -450,7 +474,7 @@ function start() {
 
   app.get('/libraries/:library', libraryResponse);
 
-  app.get('/libraries', function(req, res) {
+  app.get('/libraries', function (req, res) {
     setCache(res, 2);
 
     res.send(generatePage({
@@ -467,13 +491,15 @@ function start() {
     }));
   });
 
-  app.get('/gitstats', function(req, res) {
+  app.get('/gitstats', function (req, res) {
     return res.redirect(301, '/gitstats/cdnjs');
   });
-  app.get('/git_stats', function(req, res) {
+
+  app.get('/git_stats', function (req, res) {
     return res.redirect(301, '/git_stats/cdnjs');
   });
-  app.get('/about', function(req, res) {
+
+  app.get('/about', function (req, res) {
     setCache(res, 72);
     res.send(generatePage({
       reqUrl: req.url,
@@ -484,7 +510,7 @@ function start() {
     }));
   });
 
-  app.get('/api', function(req, res) {
+  app.get('/api', function (req, res) {
     setCache(res, 72);
     res.send(generatePage({
       reqUrl: req.url,
@@ -495,7 +521,7 @@ function start() {
     }));
   });
 
-  app.use(function(req, res) {
+  app.use(function (req, res) {
     res.status(404).send(generatePage({
       reqUrl: req.url,
       title: '404: Page Not Found - ' + TITLE,
@@ -505,7 +531,7 @@ function start() {
     }));
   });
 
-  app.use(function(err, req, res, next) {
+  app.use(function (err, req, res, next) {
     console.error(err.stack);
     res.status(500).send(generatePage({
       reqUrl: req.url,
@@ -516,7 +542,7 @@ function start() {
     }));
   });
 
-  app.listen(PORT, function() {
-    console.log("Listening on " + PORT);
+  app.listen(PORT, function () {
+    console.log('Listening on ' + PORT);
   });
 }

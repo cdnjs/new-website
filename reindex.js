@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-var _ = require("lodash");
-var fs = require("fs");
-var algoliasearch = require("algoliasearch");
-var GitHubApi = require("github");
-var async = require("async");
+var _ = require('lodash');
+var fs = require('fs');
+var algoliasearch = require('algoliasearch');
+var GitHubApi = require('github');
+var async = require('async');
 var colors = require('colors');
 var metas = Object();
 
@@ -35,35 +35,39 @@ function load(next) {
   console.log('* Loading GitHub repositories meta data');
   metas = JSON.parse(fs.readFileSync('GitHub.repos.meta.json', 'utf8'));
   console.log('* Loading libraries');
-  LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages, function(library) {
+  LIBRARIES = _.map(JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages, function (library) {
     delete library.assets;
     delete library.autoupdate;
     library.originalName = library.name;
     library.objectID = library.name;
+
     // add some alternative name forms to improve the search relevance
     library.alternativeNames = [
       library.name.split(/[^a-zA-Z]/).join(''),         // font-awesome <=> fontawesome
       library.name.replace(/([a-z](?=[A-Z]))/g, '$1 ')  // camelCase <=> camel case
     ];
     if (!library.filename) {
-      console.log("No filename field in " + library.name + ": " + library.filename);
+      console.log('No filename field in ' + library.name + ': ' + library.filename);
     }
+
     if (library.filename) {
       library.fileType = library.filename.split('.').pop();
     }
+
     return library;
   });
+
   next();
 }
 
 // ////
 // //// Enrich libraries with GitHub stats
 // ////
-var github = new GitHubApi({version: "3.0.0"});
+var github = new GitHubApi({ version: '3.0.0' });
 
 function authenticate(next) {
   github.authenticate({
-    type: "oauth",
+    type: 'oauth',
     token: process.env.GITHUB_OAUTH_TOKEN // scope=public_repos only (not secret)
   });
   next();
@@ -71,8 +75,9 @@ function authenticate(next) {
 
 function crawl(gnext) {
   console.log('* Enriching libraries with GitHub');
-  async.eachLimit(LIBRARIES, 16, function(library, next) {
+  async.eachLimit(LIBRARIES, 16, function (library, next) {
     var urls = [];
+
     // collect all repository urls
     if (library.repository) {
       if (_.isObject(library.repository)) {
@@ -81,25 +86,29 @@ function crawl(gnext) {
         urls.push(library.repository);
       }
     }
+
     // for each collected URL, try to find the associated github repo
-    var repos = _.compact(_.map(urls, function(url) {
+    var repos = _.compact(_.map(urls, function (url) {
       if (!url || !_.isString(url)) {
         return null;
       }
+
       var m = url.match(/.*github\.com[\/:]([^\/]+)\/([^\/]+)(\/.*|\.git)?$/);
       if (!m) {
         return null;
       }
-      return {owner: m[1], repo: m[2].replace(/.git$/, '')};
+
+      return { owner: m[1], repo: m[2].replace(/.git$/, '') };
     }));
 
     if (repos.length > 0) {
       var repo = repos[0]; // fetch only the first repository
       if (metas[repo.owner + '/' + repo.repo] === undefined) {
-        github.repos.get(repo, function(err, res) {
+        github.repos.get(repo, function (err, res) {
           if (!err && res.data.stargazers_count === undefined) {
             err = "Didn't fetch the meta data properly!!!";
           }
+
           if (err) {
             console.log(colors.yellow('Got a problem on ' + repo.owner + '/' + repo.repo + '(' + library.name + ') !!!'));
             console.log(colors.red(err));
@@ -115,18 +124,19 @@ function crawl(gnext) {
             };
             metas[repo.owner + '/' + repo.repo] = library.github;
           }
-          async.setImmediate(function() {
+
+          async.setImmediate(function () {
             next();
           });
         });
       } else {
         library.github = metas[repo.owner + '/' + repo.repo];
-        async.setImmediate(function() {
+        async.setImmediate(function () {
           next();
         });
       }
     } else {
-      async.setImmediate(function() {
+      async.setImmediate(function () {
         next();
       });
     }
@@ -159,7 +169,7 @@ function initIndex(next) {
     attributesForFaceting: ['fileType', 'keywords'],
     optionalWords: ['js', 'css'], // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
     ranking: ['typo', 'words', 'proximity', 'attribute', 'custom'] // removed the "exact" criteria conflicting with the "keywords" array containing exact forms
-  }, function(error, content) {
+  }, function (error, content) {
     if (error) {
       console.log(error.message);
       console.log(error.debugData);
@@ -172,7 +182,7 @@ function initIndex(next) {
 
 function push(next) {
   console.log('* Indexing ' + LIBRARIES.length + ' libraries');
-  index.addObjects(LIBRARIES, function(error, content) {
+  index.addObjects(LIBRARIES, function (error, content) {
     if (error) {
       console.log(error.message);
       console.log(error.debugData);
@@ -185,7 +195,7 @@ function push(next) {
 
 function commit(next) {
   console.log('* Moving index to production');
-  client.moveIndex('libraries.tmp', 'libraries', function(error, content) {
+  client.moveIndex('libraries.tmp', 'libraries', function (error, content) {
     if (error) {
       console.log(error.message);
       console.log(error.debugData);
@@ -197,7 +207,7 @@ function commit(next) {
 }
 
 function saveMeta(next) {
-  fs.writeFile('GitHub.repos.meta.json', JSON.stringify(metas, null, 2) + '\n', 'utf8', function(err) {
+  fs.writeFile('GitHub.repos.meta.json', JSON.stringify(metas, null, 2) + '\n', 'utf8', function (err) {
     if (err) throw err;
     console.log('GitHub repositories meta data saved!');
     next();
@@ -215,7 +225,7 @@ async.series([
   push,
   commit,
   saveMeta
-], function(err) {
+], function (err) {
   if (err) {
     console.error(err);
     process.exit(1);
