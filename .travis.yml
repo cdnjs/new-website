@@ -20,4 +20,4 @@ jobs:
       install:
       - npm i -g echint
       script:
-      - echint -i "sri/**/*" -i "public/**/*" -v
+      - echint -i "sri/**/*" -i "public/**/*" -v "tutorials/**/*" -v
