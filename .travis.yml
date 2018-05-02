@@ -17,5 +17,7 @@ jobs:
     - stage: Static Test
       env:
         - test: Editor Config check
+      install:
+      - npm i -g echint
       script:
       - echint -i "sri/**/*" -i "public/**/*" -v
