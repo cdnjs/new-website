@@ -28,5 +28,3 @@ export LOCAL=true           # local mode will disable the global.gc() function a
 **Note**:
 
   * The artifacts/meta data is on the [meta](https://github.com/cdnjs/new-website/tree/meta) branch.
-
-**Heads up**: `runServer.sh` script only works on Bash. If you're using another shell run `node --expose-gc [webServer|apiServer].js [--local]` instead.
