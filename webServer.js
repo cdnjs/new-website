@@ -89,6 +89,12 @@ function start() {
 
   LIBRARIES = null;
 
+  function getDirectories(srcpath) {
+    return fs.readdirSync(srcpath).filter(function (file) {
+      return fs.statSync(path.resolve(srcpath, file)).isDirectory();
+    });
+  }
+
   function getTemplate(templateURL, simple) {
     if (simple === true) {
       return fs.readFileSync(templateURL, 'utf8');
@@ -295,9 +301,7 @@ function start() {
     var tutorialPackages = [];
 
     if (fs.existsSync(srcpath)) {
-      var directories = fs.readdirSync(srcpath).filter(function (file) {
-        return fs.statSync(path.resolve(srcpath, file)).isDirectory();
-      });
+      var directories = getDirectories(srcpath);
 
       tutorialPackages = _.map(directories, function (tutorial) {
         var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
@@ -382,11 +386,7 @@ function start() {
   app.get('/libraries/:library/tutorials', function (req, res) {
     var library = req.params.library;
     var srcpath = path.resolve(__dirname, 'tutorials', library);
-
-    var directories = fs.readdirSync(srcpath).filter(function (file) {
-      return fs.statSync(path.resolve(srcpath, file)).isDirectory();
-    });
-
+    var directories = getDirectories(srcpath);
     var tutorialPackages = _.map(directories, function (tutorial) {
       var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
       tutorialPackage.slug = tutorial;
@@ -424,10 +424,7 @@ function start() {
     }
 
     var tutorialFile = fs.readFileSync(indexPath, 'utf8');
-    var directories = fs.readdirSync(srcpath).filter(function (file) {
-      return fs.statSync(path.resolve(srcpath, file)).isDirectory();
-    });
-
+    var directories = getDirectories(srcpath);
     var tutorialPackages = _.map(directories, function (tutorial) {
       var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
       tutorialPackage.slug = tutorial;
