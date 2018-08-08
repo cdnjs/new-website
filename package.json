@@ -11,7 +11,8 @@
     "dev:web": "LOCAL=true node webServer.js",
     "startWeb": "node webServer.js",
     "startAPI": "node apiServer.js",
-    "reindex": "node reindex.js"
+    "reindex": "node reindex.js",
+    "clean": "rm -rf node_modules"
   },
   "repository": {
     "type": "git",
