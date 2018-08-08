@@ -5,6 +5,10 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start:api": "node --expose-gc apiServer.js",
+    "start:web": "node --expose-gc webServer.js",
+    "dev:api": "LOCAL=true node apiServer.js",
+    "dev:web": "LOCAL=true node webServer.js",
     "startWeb": "node webServer.js",
     "startAPI": "node apiServer.js",
     "reindex": "node reindex.js"
