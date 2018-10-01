@@ -1,7 +1,7 @@
 /*fork me on GitHub*/
 #forkongithub a {
     background: #dd4814;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-family: arial, sans-serif;
     text-align: center;
@@ -14,7 +14,7 @@
 }
 #forkongithub a:hover {
     background: orange;
-    color: #fff;
+    color: #ffffff;
 }
 #forkongithub a::before, #forkongithub a::after {
     content: "";
@@ -24,7 +24,7 @@
     top: 1px;
     left: 0;
     height: 1px;
-    background: #fff;
+    background: #ffffff;
 }
 #forkongithub a::after {
     bottom: 1px;
@@ -184,7 +184,7 @@ tr {
     bottom: 22px;
     right: 22px;
     background-color: #555;
-    color: #fff;
+    color: #ffffff;
     font-size: 14px;
     font-family: sans-serif;
     text-decoration: none;
