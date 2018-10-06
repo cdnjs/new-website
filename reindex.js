@@ -54,6 +54,15 @@ function load(next) {
       library.fileType = library.filename.split('.').pop();
     }
 
+    var SRI;
+      try {
+        json = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + library.version + '.json', "utf8"));
+        SRI = json[library.filename];
+      } catch (e) {
+        SRI = "";
+      }
+    library.sri = SRI;
+
     return library;
   });
 
