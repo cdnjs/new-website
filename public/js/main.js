@@ -78,6 +78,24 @@ function setFileURLs(new_provider) {
     // Currently not showing the copy button for iOS, check clipboard.js support
     if (!(/iPhone|iPad/i.test(navigator.userAgent))) {
       $('.packages-table-container table tbody tr, .library-table-container table tbody tr').hover(function (ev) {
+        if ($(".packages-table-container")[0]) {
+          var SRIcopyButton = '';
+          var SRIcopyWithoutTagButton = '';
+          if (this.dataset.sri !== 'undefined' && this.dataset.sri !== "") {
+            SRIcopyButton =
+              '<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag with SRI</a></li>' +
+              '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag with SRI</a></li>';
+            SRIcopyWithoutTagButton =
+              '<li class="js css"><a data-copy-embed="file-sri" data-sri="' + this.dataset.sri + '" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
+          }
+
+          copyEl.children('ul').remove();
+          copyEl.append('<ul class="dropdown-menu copy-options">' +
+            '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
+            '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
+            '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>' +
+            SRIcopyButton + '</ul>');
+        }
         var cont = $(ev.currentTarget);
         var libraryColumn = cont.find('.library-column');
         copyEl.show();
@@ -104,6 +122,8 @@ function setFileURLs(new_provider) {
         var fileSRI = '';
         if (typeof (SRI) !== 'undefined') {
           fileSRI = SRI[url.replace(baseURI, '')];
+        } else if (button.attr('data-sri') !== 'undefined') {
+          fileSRI = button.attr('data-sri');
         }
 
         switch (embed) {
@@ -231,7 +251,7 @@ function setFileURLs(new_provider) {
       }
 
       var description = getSafeHighlightedValue(hit._highlightResult.description);
-      var row = '<tr id="' + hit.objectID + '">' +
+      var row = '<tr id="' + hit.objectID + '" data-sri="' + hit.sri + '">' +
         '<td>' +
           '<p><a itemprop="name" href="/libraries/' + hit.name + '">' +
             hit._highlightResult.name.value +
