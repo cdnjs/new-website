@@ -429,7 +429,7 @@ function setFileURLs(new_provider) {
     window.location.href = newURL;
   });
 
-  console.log('%cThanks for using CDNJS! 😊', 'font: 5em roboto; color: #dd4814;');
+  console.log('%cThanks for using CDNJS! 😊', 'font: 5em roboto; color: #ffffff;');
   $(function () {
     $.scrollUp({
       animation: 'slide',
