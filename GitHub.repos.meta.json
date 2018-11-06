@@ -23014,5 +23014,474 @@
     "stargazers_count": 279,
     "forks": 53,
     "subscribers_count": 279
+  },
+  "ant-design/ant-design-pro": {
+    "user": "ant-design",
+    "repo": "ant-design-pro",
+    "stargazers_count": 9130,
+    "forks": 1519,
+    "subscribers_count": 9130
+  },
+  "nazar-pc/PickMeUp": {
+    "user": "nazar-pc",
+    "repo": "PickMeUp",
+    "stargazers_count": 557,
+    "forks": 167,
+    "subscribers_count": 557
+  },
+  "octokit/rest.js": {
+    "user": "octokit",
+    "repo": "rest.js",
+    "stargazers_count": 2461,
+    "forks": 575,
+    "subscribers_count": 2461
+  },
+  "filamentgroup/loadCSS": {
+    "user": "filamentgroup",
+    "repo": "loadCSS",
+    "stargazers_count": 5262,
+    "forks": 451,
+    "subscribers_count": 5262
+  },
+  "RitsC/PrintArea": {
+    "user": "RitsC",
+    "repo": "PrintArea",
+    "stargazers_count": 222,
+    "forks": 143,
+    "subscribers_count": 222
+  },
+  "bradley/blotter": {
+    "user": "bradley",
+    "repo": "blotter",
+    "stargazers_count": 1818,
+    "forks": 72,
+    "subscribers_count": 1818
+  },
+  "adgsm/multi-level-push-menu": {
+    "user": "adgsm",
+    "repo": "multi-level-push-menu",
+    "stargazers_count": 788,
+    "forks": 213,
+    "subscribers_count": 788
+  },
+  "opoloo/androidicons": {
+    "user": "opoloo",
+    "repo": "androidicons",
+    "stargazers_count": 678,
+    "forks": 122,
+    "subscribers_count": 678
+  },
+  "NicolasCARPi/jquery_jeditable": {
+    "user": "NicolasCARPi",
+    "repo": "jquery_jeditable",
+    "stargazers_count": 1643,
+    "forks": 461,
+    "subscribers_count": 1643
+  },
+  "times/cardkit": {
+    "user": "times",
+    "repo": "cardkit",
+    "stargazers_count": 513,
+    "forks": 116,
+    "subscribers_count": 513
+  },
+  "dollarshaveclub/reframe.js": {
+    "user": "dollarshaveclub",
+    "repo": "reframe.js",
+    "stargazers_count": 1509,
+    "forks": 59,
+    "subscribers_count": 1509
+  },
+  "pshihn/rough": {
+    "user": "pshihn",
+    "repo": "rough",
+    "stargazers_count": 8051,
+    "forks": 240,
+    "subscribers_count": 8051
+  },
+  "muicss/sentineljs": {
+    "user": "muicss",
+    "repo": "sentineljs",
+    "stargazers_count": 938,
+    "forks": 42,
+    "subscribers_count": 938
+  },
+  "transferwise/ng-browser-info": {
+    "user": "transferwise",
+    "repo": "ng-browser-info",
+    "stargazers_count": 35,
+    "forks": 4,
+    "subscribers_count": 35
+  },
+  "sindresorhus/modern-normalize": {
+    "user": "sindresorhus",
+    "repo": "modern-normalize",
+    "stargazers_count": 1957,
+    "forks": 52,
+    "subscribers_count": 1957
+  },
+  "developit/snarkdown": {
+    "user": "developit",
+    "repo": "snarkdown",
+    "stargazers_count": 952,
+    "forks": 58,
+    "subscribers_count": 952
+  },
+  "KoRiGaN/Vue2Leaflet": {
+    "user": "KoRiGaN",
+    "repo": "Vue2Leaflet",
+    "stargazers_count": 440,
+    "forks": 107,
+    "subscribers_count": 440
+  },
+  "wikimedia/jquery.ime": {
+    "user": "wikimedia",
+    "repo": "jquery.ime",
+    "stargazers_count": 122,
+    "forks": 133,
+    "subscribers_count": 122
+  },
+  "Tencent/vConsole": {
+    "user": "Tencent",
+    "repo": "vConsole",
+    "stargazers_count": 5113,
+    "forks": 1023,
+    "subscribers_count": 5113
+  },
+  "jvilk/BrowserFS": {
+    "user": "jvilk",
+    "repo": "BrowserFS",
+    "stargazers_count": 1026,
+    "forks": 91,
+    "subscribers_count": 1026
+  },
+  "isomorphic-git/isomorphic-git": {
+    "user": "isomorphic-git",
+    "repo": "isomorphic-git",
+    "stargazers_count": 1844,
+    "forks": 38,
+    "subscribers_count": 1844
+  },
+  "sdepold/jquery-rss": {
+    "user": "sdepold",
+    "repo": "jquery-rss",
+    "stargazers_count": 372,
+    "forks": 127,
+    "subscribers_count": 372
+  },
+  "westonganger/input-autogrow": {
+    "user": "westonganger",
+    "repo": "input-autogrow",
+    "stargazers_count": 6,
+    "forks": 1,
+    "subscribers_count": 6
+  },
+  "quasarframework/quasar": {
+    "user": "quasarframework",
+    "repo": "quasar",
+    "stargazers_count": 6050,
+    "forks": 562,
+    "subscribers_count": 6050
+  },
+  "rsuite/rsuite": {
+    "user": "rsuite",
+    "repo": "rsuite",
+    "stargazers_count": 1419,
+    "forks": 79,
+    "subscribers_count": 1419
+  },
+  "KingSora/OverlayScrollbars": {
+    "user": "KingSora",
+    "repo": "OverlayScrollbars",
+    "stargazers_count": 163,
+    "forks": 14,
+    "subscribers_count": 163
+  },
+  "recharts/recharts": {
+    "user": "recharts",
+    "repo": "recharts",
+    "stargazers_count": 8989,
+    "forks": 672,
+    "subscribers_count": 8989
+  },
+  "probil/v-mask": {
+    "user": "probil",
+    "repo": "v-mask",
+    "stargazers_count": 224,
+    "forks": 64,
+    "subscribers_count": 224
+  },
+  "xx45/dayjs": {
+    "user": "xx45",
+    "repo": "dayjs",
+    "stargazers_count": 11306,
+    "forks": 388,
+    "subscribers_count": 11306
+  },
+  "beastaugh/firmin": {
+    "user": "beastaugh",
+    "repo": "firmin",
+    "stargazers_count": 201,
+    "forks": 14,
+    "subscribers_count": 201
+  },
+  "kamranahmedse/driver.js": {
+    "user": "kamranahmedse",
+    "repo": "driver.js",
+    "stargazers_count": 8248,
+    "forks": 342,
+    "subscribers_count": 8248
+  },
+  "franciscop/superdom.js": {
+    "user": "franciscop",
+    "repo": "superdom.js",
+    "stargazers_count": 311,
+    "forks": 14,
+    "subscribers_count": 311
+  },
+  "chrisben/imgcache.js": {
+    "user": "chrisben",
+    "repo": "imgcache.js",
+    "stargazers_count": 759,
+    "forks": 199,
+    "subscribers_count": 759
+  },
+  "mihaifm/linq": {
+    "user": "mihaifm",
+    "repo": "linq",
+    "stargazers_count": 594,
+    "forks": 102,
+    "subscribers_count": 594
+  },
+  "gfranko/jquery.selectBoxIt.js": {
+    "user": "gfranko",
+    "repo": "jquery.selectBoxIt.js",
+    "stargazers_count": 874,
+    "forks": 322,
+    "subscribers_count": 874
+  },
+  "Automattic/expect.js": {
+    "user": "Automattic",
+    "repo": "expect.js",
+    "stargazers_count": 1880,
+    "forks": 193,
+    "subscribers_count": 1880
+  },
+  "zurb/foundation-icons": {
+    "user": "zurb",
+    "repo": "foundation-icons",
+    "stargazers_count": 432,
+    "forks": 79,
+    "subscribers_count": 432
+  },
+  "devinhunt/typebase.css": {
+    "user": "devinhunt",
+    "repo": "typebase.css",
+    "stargazers_count": 1727,
+    "forks": 109,
+    "subscribers_count": 1727
+  },
+  "pixelsign/html5-device-mockups": {
+    "user": "pixelsign",
+    "repo": "html5-device-mockups",
+    "stargazers_count": 3318,
+    "forks": 355,
+    "subscribers_count": 3318
+  },
+  "brightcove/videojs-thumbnails": {
+    "user": "brightcove",
+    "repo": "videojs-thumbnails",
+    "stargazers_count": 128,
+    "forks": 67,
+    "subscribers_count": 128
+  },
+  "pnp/pnp": {
+    "user": "pnp",
+    "repo": "pnp",
+    "stargazers_count": 53,
+    "forks": 31,
+    "subscribers_count": 53
+  },
+  "websemantics/Image-Select": {
+    "user": "websemantics",
+    "repo": "Image-Select",
+    "stargazers_count": 124,
+    "forks": 41,
+    "subscribers_count": 124
+  },
+  "loov/jsfx": {
+    "user": "loov",
+    "repo": "jsfx",
+    "stargazers_count": 520,
+    "forks": 47,
+    "subscribers_count": 520
+  },
+  "0xfe/vexflow": {
+    "user": "0xfe",
+    "repo": "vexflow",
+    "stargazers_count": 2105,
+    "forks": 427,
+    "subscribers_count": 2105
+  },
+  "Dimox/jQueryFormStyler": {
+    "user": "Dimox",
+    "repo": "jQueryFormStyler",
+    "stargazers_count": 235,
+    "forks": 134,
+    "subscribers_count": 235
+  },
+  "cazala/mnist": {
+    "user": "cazala",
+    "repo": "mnist",
+    "stargazers_count": 151,
+    "forks": 23,
+    "subscribers_count": 151
+  },
+  "waylonflinn/weblas": {
+    "user": "waylonflinn",
+    "repo": "weblas",
+    "stargazers_count": 589,
+    "forks": 49,
+    "subscribers_count": 589
+  },
+  "coverflowjs/coverflow": {
+    "user": "coverflowjs",
+    "repo": "coverflow",
+    "stargazers_count": 315,
+    "forks": 99,
+    "subscribers_count": 315
+  },
+  "mikeal/webtorrent-element": {
+    "user": "mikeal",
+    "repo": "webtorrent-element",
+    "stargazers_count": 507,
+    "forks": 23,
+    "subscribers_count": 507
+  },
+  "bvaughn/redux-search": {
+    "user": "bvaughn",
+    "repo": "redux-search",
+    "stargazers_count": 1189,
+    "forks": 63,
+    "subscribers_count": 1189
+  },
+  "iamkun/dayjs": {
+    "user": "iamkun",
+    "repo": "dayjs",
+    "stargazers_count": 12729,
+    "forks": 491,
+    "subscribers_count": 12729
+  },
+  "framework7io/framework7": {
+    "user": "framework7io",
+    "repo": "framework7",
+    "stargazers_count": 12712,
+    "forks": 2733,
+    "subscribers_count": 12712
+  },
+  "bas2k/jquery.appear": {
+    "user": "bas2k",
+    "repo": "jquery.appear",
+    "stargazers_count": 227,
+    "forks": 76,
+    "subscribers_count": 227
+  },
+  "xCss/Valine": {
+    "user": "xCss",
+    "repo": "Valine",
+    "stargazers_count": 513,
+    "forks": 63,
+    "subscribers_count": 513
+  },
+  "nhnent/tui.calendar": {
+    "user": "nhnent",
+    "repo": "tui.calendar",
+    "stargazers_count": 6123,
+    "forks": 316,
+    "subscribers_count": 6123
+  },
+  "nathco/jQuery.scrollSpeed": {
+    "user": "nathco",
+    "repo": "jQuery.scrollSpeed",
+    "stargazers_count": 302,
+    "forks": 84,
+    "subscribers_count": 302
+  },
+  "winjs/winstrap": {
+    "user": "winjs",
+    "repo": "winstrap",
+    "stargazers_count": 448,
+    "forks": 100,
+    "subscribers_count": 448
+  },
+  "choojs/choo": {
+    "user": "choojs",
+    "repo": "choo",
+    "stargazers_count": 5582,
+    "forks": 331,
+    "subscribers_count": 5582
+  },
+  "coderifous/jquery-localize": {
+    "user": "coderifous",
+    "repo": "jquery-localize",
+    "stargazers_count": 429,
+    "forks": 132,
+    "subscribers_count": 429
+  },
+  "mvasilkov/rssi": {
+    "user": "mvasilkov",
+    "repo": "rssi",
+    "stargazers_count": 111,
+    "forks": 7,
+    "subscribers_count": 111
+  },
+  "igorlino/angular-elevatezoom-plus": {
+    "user": "igorlino",
+    "repo": "angular-elevatezoom-plus",
+    "stargazers_count": 25,
+    "forks": 12,
+    "subscribers_count": 25
+  },
+  "apexcharts/apexcharts.js": {
+    "user": "apexcharts",
+    "repo": "apexcharts.js",
+    "stargazers_count": 3397,
+    "forks": 82,
+    "subscribers_count": 3397
+  },
+  "mfranzke/datalist-polyfill": {
+    "user": "mfranzke",
+    "repo": "datalist-polyfill",
+    "stargazers_count": 82,
+    "forks": 24,
+    "subscribers_count": 82
+  },
+  "kataras/iris": {
+    "user": "kataras",
+    "repo": "iris",
+    "stargazers_count": 11409,
+    "forks": 1159,
+    "subscribers_count": 11409
+  },
+  "Baremetrics/calendar": {
+    "user": "Baremetrics",
+    "repo": "calendar",
+    "stargazers_count": 603,
+    "forks": 80,
+    "subscribers_count": 603
+  },
+  "stefanerickson/covervid": {
+    "user": "stefanerickson",
+    "repo": "covervid",
+    "stargazers_count": 1049,
+    "forks": 195,
+    "subscribers_count": 1049
+  },
+  "arguiot/TheoremJS": {
+    "user": "arguiot",
+    "repo": "TheoremJS",
+    "stargazers_count": 800,
+    "forks": 28,
+    "subscribers_count": 800
   }
 }
