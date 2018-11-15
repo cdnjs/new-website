@@ -44,6 +44,6 @@
     "marked": "^0.3.12",
     "mustache": "^2.3.0",
     "newline-remove": "^1.0.2",
-    "throng": "^2.0.1"
+    "throng": "^4.0.0"
   }
 }
