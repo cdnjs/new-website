@@ -23483,5 +23483,117 @@
     "stargazers_count": 800,
     "forks": 28,
     "subscribers_count": 800
+  },
+  "airbnb/lottie-web": {
+    "user": "airbnb",
+    "repo": "lottie-web",
+    "stargazers_count": 14044,
+    "forks": 1183,
+    "subscribers_count": 14044
+  },
+  "video-dev/hls.js": {
+    "user": "video-dev",
+    "repo": "hls.js",
+    "stargazers_count": 4867,
+    "forks": 1118,
+    "subscribers_count": 4867
+  },
+  "nathancahill/split": {
+    "user": "nathancahill",
+    "repo": "split",
+    "stargazers_count": 3290,
+    "forks": 276,
+    "subscribers_count": 3290
+  },
+  "dieulot/idevice": {
+    "user": "dieulot",
+    "repo": "idevice",
+    "stargazers_count": 213,
+    "forks": 7,
+    "subscribers_count": 213
+  },
+  "defunkt/facebox": {
+    "user": "defunkt",
+    "repo": "facebox",
+    "stargazers_count": 1968,
+    "forks": 425,
+    "subscribers_count": 1968
+  },
+  "filamentgroup/tablesaw": {
+    "user": "filamentgroup",
+    "repo": "tablesaw",
+    "stargazers_count": 5159,
+    "forks": 429,
+    "subscribers_count": 5159
+  },
+  "nhnent/tui.editor": {
+    "user": "nhnent",
+    "repo": "tui.editor",
+    "stargazers_count": 7346,
+    "forks": 472,
+    "subscribers_count": 7346
+  },
+  "Orange-OpenSource/hasplayer.js": {
+    "user": "Orange-OpenSource",
+    "repo": "hasplayer.js",
+    "stargazers_count": 175,
+    "forks": 61,
+    "subscribers_count": 175
+  },
+  "canalplus/rx-player": {
+    "user": "canalplus",
+    "repo": "rx-player",
+    "stargazers_count": 347,
+    "forks": 52,
+    "subscribers_count": 347
+  },
+  "scribbletune/scribbletune": {
+    "user": "scribbletune",
+    "repo": "scribbletune",
+    "stargazers_count": 2853,
+    "forks": 199,
+    "subscribers_count": 2853
+  },
+  "ng-bootstrap/ng-bootstrap": {
+    "user": "ng-bootstrap",
+    "repo": "ng-bootstrap",
+    "stargazers_count": 6351,
+    "forks": 1051,
+    "subscribers_count": 6351
+  },
+  "pubkey/rxdb": {
+    "user": "pubkey",
+    "repo": "rxdb",
+    "stargazers_count": 8434,
+    "forks": 362,
+    "subscribers_count": 8434
+  },
+  "baidu/san": {
+    "user": "baidu",
+    "repo": "san",
+    "stargazers_count": 3430,
+    "forks": 386,
+    "subscribers_count": 3430
+  },
+  "react-tools/react-move": {
+    "user": "react-tools",
+    "repo": "react-move",
+    "stargazers_count": 5626,
+    "forks": 150,
+    "subscribers_count": 5626
+  },
+  "webkul/micron": {
+    "user": "webkul",
+    "repo": "micron",
+    "stargazers_count": 1949,
+    "forks": 86,
+    "subscribers_count": 1949
+  },
+  "webkul/vivid": {
+    "user": "webkul",
+    "repo": "vivid",
+    "stargazers_count": 1563,
+    "forks": 57,
+    "subscribers_count": 1563
   }
 }
