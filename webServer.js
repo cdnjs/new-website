@@ -127,7 +127,7 @@ function start() {
   var generatePage = function (options) {
     var layout = options.layout || templates.layout;
     var title = options.title || TITLE;
-    var keywords = options.page.data && options.page.data.library && options.page.data.library.keywords || 'CDN,CDNJS,js,css,library,web,front-end,free,open-source,png,plugin,ng,jQuery,angular';
+    var keywords = options.page.data && options.page.data.library && options.page.data.library.keywords || 'CDN,cdnjs,js,css,library,web,front-end,free,open-source,png,plugin,ng,jQuery,angular';
     var description = (options.page && options.page.description) ? options.page.description + ' - ' + TITLE : TITLE;
     var page = {
       data: options.page && options.page.data || {},
