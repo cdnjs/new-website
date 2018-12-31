@@ -308,12 +308,12 @@ function setFileURLs(new_provider) {
   }
 
   function animateTop() {
-    $('.container.home').animate({ marginTop: '0px' }, 200);
+    $('.container.home').animate({ marginTop: '0vh' }, 200);
     $('.row.home-info').hide(200);
   }
 
   function animateTopReverse() {
-    $('.container.home').animate({ marginTop: '200px' }, 200);
+    $('.container.home').animate({ marginTop: '25vh' }, 200);
     $('.row.home-info').show(200);
   }
 
