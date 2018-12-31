@@ -153,6 +153,7 @@ p#date {
 .menu {
   font-size: 18px;
   display: block;
+  margin-top: 5px;
 }
 
 .dropdown-menu li {
