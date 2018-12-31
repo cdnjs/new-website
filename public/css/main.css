@@ -35,29 +35,29 @@
   top: auto;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1280px) {
   #forkongithub {
     position: absolute;
     display: block;
+    overflow: hidden;
     top: 0;
     left: 0;
     width: 200px;
-    overflow: hidden;
     height: 200px;
-    z-index: 0;
-  }
-
-  #forkongithub a {
-    width: 200px;
-    position: absolute;
-    top: 30px;
-    left: -45px;
-    display: inline;
+    z-index: 99;
+    pointer-events: none;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
+  }
+
+  #forkongithub a {
+    width: 200px;
+    display: inline-block;
+    pointer-events: auto;
+    margin: 10px 0;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
   }
 }
