@@ -6,7 +6,9 @@
           <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
             {{#breadcrumbList}}
             <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <a itemprop="item" href="{{url}}"><span itemprop="name">{{index}}</span></a>
+              <a itemprop="item" href="{{url}}" {{#last}}class="text-muted"{{/last}}>
+              <span itemprop="name">{{index}}</span></a>
+              <meta itemprop="position" content="{{position}}" />
             </li>
             {{/breadcrumbList}}
           </ol>

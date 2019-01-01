@@ -65,7 +65,7 @@ function start() {
   // generating breadcrumb information
   app.use(function (req, res, next) {
     function getBreadcrumbList(req) {
-      var lastIndex, nowUrl, breadcrumbList;
+      var lastIndex, nowUrl, breadcrumbList, position;
 
       breadcrumbList = req.originalUrl
         .split('?')[0]  // eliminate query string
@@ -73,20 +73,22 @@ function start() {
 
       // if orignalUrl end of '/', pop last item
       lastIndex = breadcrumbList.length - 1;
-      if (breadcrumbList[lastIndex] == '')
+      if (breadcrumbList[lastIndex] === '')
         breadcrumbList.pop();
+      lastIndex = breadcrumbList.length - 1;
 
       nowUrl = '';
       breadcrumbList = breadcrumbList.map(function (path) {
-        nowUrl += path + '/';
+        position = breadcrumbList.indexOf(path);
+        nowUrl += path + (position === lastIndex ? '' : '/');
         return {
           index: path || 'Home',  // empty when it is root
-          url: nowUrl
+          url: nowUrl,
+          position: position + 1
         }
       });
 
       // mark the last item
-      lastIndex = breadcrumbList.length - 1;
       breadcrumbList[lastIndex].last = true;
 
       return breadcrumbList;
