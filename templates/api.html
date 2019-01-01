@@ -2,6 +2,18 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
+      <ol class="breadcrumb text-muted" itemscope itemtype="http://schema.org/BreadcrumbList">
+        {{#breadcrumbList}}
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+          <a itemprop="item" href="{{url}}"><span itemprop="name">{{index}}</span></a>
+        </li>
+        {{/breadcrumbList}}
+      </ol>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
       <p style="margin-top: 6px;">
         <div class="logged-in" style="display: none;">
           <p>

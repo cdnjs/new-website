@@ -62,6 +62,40 @@ function start() {
     maxAge: 7200 * 1000
   }));
 
+  // generating breadcrumb information
+  app.use(function (req, res, next) {
+    function getBreadcrumbList(req) {
+      var lastIndex, nowUrl, breadcrumbList;
+
+      breadcrumbList = req.originalUrl
+        .split('?')[0]  // eliminate query string
+        .split('/');
+
+      // if orignalUrl end of '/', pop last item
+      lastIndex = breadcrumbList.length - 1;
+      if (breadcrumbList[lastIndex] == '')
+        breadcrumbList.pop();
+
+      nowUrl = '';
+      breadcrumbList = breadcrumbList.map(function (path) {
+        nowUrl += path + '/';
+        return {
+          index: path || 'Home',  // empty when it is root
+          url: nowUrl
+        }
+      });
+
+      // mark the last item
+      lastIndex = breadcrumbList.length - 1;
+      breadcrumbList[lastIndex].last = true;
+
+      return breadcrumbList;
+    }
+
+    res.breadcrumbList = getBreadcrumbList(req);
+    next();
+  });
+
   // Load libraries into ram
   var LIBRARIES = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
 
@@ -211,7 +245,8 @@ function start() {
         template: templates.home,
         data: {
           libCount: Object.keys(LIBRARIES_MAP).length,
-          libVerCount: LIBRARIES_VERSIONS
+          libVerCount: LIBRARIES_VERSIONS,
+          breadcrumbList: res.breadcrumbList
         }
       },
       wrapperClass: 'home'
@@ -226,7 +261,7 @@ function start() {
     }
 
     if (library.repository.type === 'git') {
-      urls.push({ url: gitUrlParse(library.repository.url).toString('https') });
+      urls.push({url: gitUrlParse(library.repository.url).toString('https')});
     }
 
     library.urls = urls;
@@ -273,7 +308,7 @@ function start() {
         assets.files.map(function (fileName, index) {
           var fileExtension = path.extname(fileName);
           var fileType = fileExtension.substring(1) || 'unknown';
-          fileArray.push({ name: fileName, fileType: fileType });
+          fileArray.push({name: fileName, fileType: fileType});
         });
 
         assets.files = fileArray;
@@ -335,7 +370,7 @@ function start() {
 
     var version = req.params.version || library.version;
 
-    if (!_.find(library.assets, { version: version })) {
+    if (!_.find(library.assets, {version: version})) {
       return res.status(404).send(libraryName + ' version not found!');
     }
 
@@ -370,13 +405,14 @@ function start() {
           assets: assets,
           SRI: SRI,
           licenses: licenses,
-          selectedAssets: _.find(assets, { version: version }),
+          selectedAssets: _.find(assets, {version: version}),
           tutorials: tutorialPackages,
           libraryRealName: libraryName,
           tutorialsPresent: tutorialsPresent,
           star: stargazers_count,
           fork: forks,
-          watch: subscribers_count
+          watch: subscribers_count,
+          breadcrumbList: res.breadcrumbList
         },
         description: library && (library.name + ' - ' + library.description)
       }
@@ -432,7 +468,7 @@ function start() {
     });
 
     var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
-    var avatar = gravatar.url(tutorialPackage.author.email, { s: '200', r: 'pg', d: '404' });
+    var avatar = gravatar.url(tutorialPackage.author.email, {s: '200', r: 'pg', d: '404'});
 
     marked.setOptions({
       renderer: new marked.Renderer(),
@@ -482,7 +518,8 @@ function start() {
         data: {
           packages: _.toArray(LIBRARIES_MAP),
           libCount: Object.keys(LIBRARIES_MAP).length,
-          libVerCount: LIBRARIES_VERSIONS
+          libVerCount: LIBRARIES_VERSIONS,
+          breadcrumbList: res.breadcrumbList
         }
       }
     }));
@@ -502,7 +539,10 @@ function start() {
       reqUrl: req.url,
       title: 'about - ' + TITLE,
       page: {
-        template: templates.about
+        template: templates.about,
+        data: {
+          breadcrumbList: res.breadcrumbList
+        }
       }
     }));
   });
@@ -513,7 +553,10 @@ function start() {
       reqUrl: req.url,
       title: 'API - ' + TITLE,
       page: {
-        template: templates.api
+        template: templates.api,
+        data: {
+          breadcrumbList: res.breadcrumbList
+        }
       }
     }));
   });
@@ -540,6 +583,6 @@ function start() {
   });
 
   app.listen(PORT, function () {
-    console.log('Listening on ' + PORT);
+    console.log('Listening on ' + (localMode ? 'http://localhost:' : '') + PORT);
   });
 }

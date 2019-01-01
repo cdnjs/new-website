@@ -2,7 +2,20 @@
 
     <div class="col-md-12">
         <input id="search-box" placeholder="Search from {{libCount}} libraries with {{libVerCount}} different versions ..." type="text" class="form-control col-md-7 search" aria-controls="example">
-        <div class="text-right text-muted">Realtime search by <a href="https://www.algolia.com/?utm_source=cdnjs&amp;utm_medium=link&amp;utm_campaign=cdnjs_search"><img src="/img/algolia.svg" style="height: 20px; width:75;" /></a></div>
+        <div class="text-muted">
+          <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+            {{#breadcrumbList}}
+            <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="{{url}}"><span itemprop="name">{{index}}</span></a>
+            </li>
+            {{/breadcrumbList}}
+          </ol>
+          <span class="pull-right">
+            Realtime search by <a
+            href="https://www.algolia.com/?utm_source=cdnjs&amp;utm_medium=link&amp;utm_campaign=cdnjs_search"
+            target="_blank"><img src="/img/algolia.svg" alt="Algolia" style="height: 20px; width: 75px;" /></a>
+          </span>
+        </div>
     </div>
 </div>
 <div class="container">

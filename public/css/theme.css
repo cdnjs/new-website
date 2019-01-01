@@ -219,3 +219,15 @@ p#date {
 .home-info ul li:not(:first-child) i {
   margin-left: 0.5em;
 }
+
+.breadcrumb {
+  display: inline;
+}
+
+.breadcrumb > li {
+  display: inline;
+}
+
+.breadcrumb > li + li:before {
+  content: "/\00a0";
+}
