@@ -20,10 +20,10 @@ if (process.env.LOCAL === 'true' || (args.length > 0 && (args[0] === '--local' |
   console.log('local mode: off');
 }
 
-throng(start, {
+throng({
   workers: WORKERS,
   lifetime: Infinity
-});
+}, start);
 
 function start() {
   var express = require('express');
