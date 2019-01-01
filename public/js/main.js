@@ -31,6 +31,7 @@ function setFileURLs(new_provider) {
 
 (function ($) {
   baseURI = cdn_provider_base_url[cdn_provider] + $('h1#libraryName').html() + '/' + $('select.version-selector :selected').val() + '/';
+
   function selectText(element) {
     var doc = document;
     var text = element;
@@ -65,10 +66,10 @@ function setFileURLs(new_provider) {
   }
 
   copyEl.append('<ul class="dropdown-menu copy-options">' +
-                '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
-                '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
-                '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>' +
-                SRIcopyButton + '</ul>');
+    '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
+    '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
+    '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>' +
+    SRIcopyButton + '</ul>');
   var copyContainer = $('<div/>');
   copyEl.attr('style', 'display: none;');
   copyEl.appendTo('body');
@@ -197,6 +198,7 @@ function setFileURLs(new_provider) {
   var $processingTimeMS = $('#processingTimeMS');
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
+
   function displayMatchingLibraries(err, content) {
     $('.packages-table-container').show();
     if (err) {
@@ -247,30 +249,30 @@ function setFileURLs(new_provider) {
           '<li><i class="fa fa-eye"></i> ' + hit.github.subscribers_count + '</li>' +
           '<li><i class="fa fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
           '<li><i class="fa fa-code-fork"></i> ' + hit.github.forks + '</li>' +
-        '</ul>';
+          '</ul>';
       }
 
       var description = getSafeHighlightedValue(hit._highlightResult.description);
       var row = '<tr id="' + hit.objectID + '" data-sri="' + hit.sri + '">' +
         '<td>' +
-          '<p><a itemprop="name" href="/libraries/' + hit.name + '">' +
-            hit._highlightResult.name.value +
-          '</a></p>' +
-          '<p class="text-muted">' + description + '</p>' +
-          '<ul class="list-inline">' +
-            $.map(hit._highlightResult.keywords || [], function (e) {
-              var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
-              return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>';
-            }).join(' ') +
-          '</ul>' +
-          githubDetails +
+        '<p><a itemprop="name" href="/libraries/' + hit.name + '">' +
+        hit._highlightResult.name.value +
+        '</a></p>' +
+        '<p class="text-muted">' + description + '</p>' +
+        '<ul class="list-inline">' +
+        $.map(hit._highlightResult.keywords || [], function (e) {
+          var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
+          return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>';
+        }).join(' ') +
+        '</ul>' +
+        githubDetails +
         '</td>' +
         '<td style="white-space: nowrap;">' +
-          '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
-            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url[cdn_provider] + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
-          '</div>' +
+        '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
+        '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url[cdn_provider] + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
+        '</div>' +
         '</td>' +
-      '</tr>';
+        '</tr>';
       html += row;
     }
 
@@ -312,7 +314,7 @@ function setFileURLs(new_provider) {
       '<br /><td class="text-center well" colspan="2">' +
       tempText + '<br /> You can ' +
       '<a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md" target="_blank">contribute it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank"><strong>requirement</strong></a>.' +
-        ' Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
+      ' Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
       '</td>';
     if (lazyScroll) {
       html += scrollToEndText;
@@ -328,12 +330,14 @@ function setFileURLs(new_provider) {
   }
 
   function animateTop() {
-    $('.container.home').animate({ marginTop: '0vh' }, 200);
+    $('.container.home').animate({marginTop: '0vh'}, 200);
     $('.row.home-info').hide(200);
   }
 
+  var normalMarginTop = $('.container.home').css("marginTop");
+
   function animateTopReverse() {
-    $('.container.home').animate({ marginTop: '25vh' }, 200);
+    $('.container.home').animate({marginTop: normalMarginTop}, 200);
     $('.row.home-info').show(200);
   }
 
@@ -342,11 +346,12 @@ function setFileURLs(new_provider) {
   });
 
   var lastHashQuery;
+
   function replaceHash(ev, val) {
     // Only replace the hash if we press enter
     if (val && val !== lastHashQuery
-        && ev.keyCode === 13
-        && 'replaceState' in history) {
+      && ev.keyCode === 13
+      && 'replaceState' in history) {
       var encodedVal = encodeURIComponent(val).replace(/%20/g, '+');
       history.replaceState('', '', '#q=' + encodedVal);
       lastHashQuery = val;
@@ -356,6 +361,7 @@ function setFileURLs(new_provider) {
   var algolia = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'); // public/search-only credentials
   var index = algolia.initIndex('libraries');
   var lastQuery;
+
   function searchHandler(ev) {
     appLoading.start();
     clearHash();
@@ -380,7 +386,7 @@ function setFileURLs(new_provider) {
       displayPage = 0;
       lazyScroll = true;
       cachedQueryResult = {};
-      index.search(val, { hitsPerPage: queryItems, page: displayPage }, function (err, content) {
+      index.search(val, {hitsPerPage: queryItems, page: displayPage}, function (err, content) {
         if (!err) {
           cachedQueryResult = content;
         }
@@ -394,7 +400,7 @@ function setFileURLs(new_provider) {
 
   function loadMoreSearchResult() {
     displayPage += 1;
-    index.search(lastQuery, { hitsPerPage: queryItems, page: displayPage }, function (err, content) {
+    index.search(lastQuery, {hitsPerPage: queryItems, page: displayPage}, function (err, content) {
       if (!err && cachedQueryResult.hits) {
         content.hits = cachedQueryResult.hits.concat(content.hits);
         cachedQueryResult = content;
