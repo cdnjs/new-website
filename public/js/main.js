@@ -329,10 +329,12 @@ function setFileURLs(new_provider) {
 
   function animateTop() {
     $('.container.home').animate({ marginTop: '0px' }, 200);
+    $('.row.home-info').hide(200);
   }
 
   function animateTopReverse() {
     $('.container.home').animate({ marginTop: '200px' }, 200);
+    $('.row.home-info').show(200);
   }
 
   var clearHash = _.once(function () {

@@ -183,3 +183,22 @@ p#date{
   font-weight: 500;
   font-style: normal;
 }
+
+.home-info {
+  color: #dd4814;
+  padding: 20px 0;
+}
+
+.home-info ul {
+  list-style: none;
+  font-size: 16px;
+  padding: 0;
+}
+
+.home-info ul li {
+  display: inline-block;
+}
+
+.home-info ul li:not(:first-child) i {
+  margin-left: 0.5em;
+}
