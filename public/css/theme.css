@@ -144,7 +144,21 @@ p#date{
 }
 
 .container.home {
-  margin-top: 200px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 330px) {
+
+  .container.home {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  .container.home {
+    margin-top: 25vh;
+  }
 }
 
 .menu {
