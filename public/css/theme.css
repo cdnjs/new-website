@@ -150,6 +150,7 @@ p#date{
 .menu {
   display: block;
   font-size: 18px;
+  margin-top: 5px;
 }
 
 .dropdown-menu li {
