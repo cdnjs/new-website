@@ -3,8 +3,9 @@
 #fork-on-github a {
   background: #e95420;
   color: #fff;
+  display: block;
   font-family: arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: bold;
   line-height: 2rem;
   padding: 5px 40px;
@@ -19,45 +20,29 @@
   color: #fff;
 }
 
-#fork-on-github a::before,
-#fork-on-github a::after {
-  background: #fff;
-  content: "";
-  display: block;
-  height: 1px;
-  left: 0;
-  position: absolute;
-  top: 1px;
-  width: 100%;
-}
-
-#fork-on-github a::after {
-  bottom: 1px;
-  top: auto;
-}
-@media screen and (min-width:1333px) {
+@media screen and (min-width: 1280px) {
 
   #fork-on-github {
     display: block;
     height: 200px;
     left: 0;
     overflow: hidden;
+    pointer-events: none;
     position: absolute;
     top: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     width: 200px;
-    z-index: 0;
+    z-index: 99;
   }
 
   #fork-on-github a {
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, .8);
-    left: -45px;
-    position: absolute;
-    top: 30px;
-    -webkit-transform: rotate(315deg);
-    -ms-transform: rotate(315deg);
-    -moz-transform: rotate(315deg);
-    -o-transform: rotate(315deg);
-    transform: rotate(315deg);
+    display: inline-block;
+    margin: 10px 0;
+    pointer-events: auto;
     width: 200px;
   }
 }
