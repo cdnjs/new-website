@@ -334,7 +334,11 @@ function start() {
         assets.files.map(function (fileName) {
           var fileExtension = path.extname(fileName);
           var fileType = fileExtension.substring(1) || 'unknown';
-          fileArray.push({ name: fileName, fileType: fileType });
+          fileArray.push({
+            name: fileName,
+            fileType: fileType,
+            defaultFile: fileName === library.filename ? 'defaultFile' : ''
+          });
         });
 
         assets.files = fileArray;
