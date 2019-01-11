@@ -4,11 +4,17 @@ html {
 }
 
 .footer {
-  background-color: #f5f5f5;
+  background-color: #ebebeb; /* same as logo */
+  border-top: 2px solid #dd4814;
   bottom: 0;
-  padding-top: 7px;
+  color: #6b6b6b;
+  padding: 10px 0;
   position: absolute;
   width: 100%;
+}
+
+.footer p {
+  margin: 0;
 }
 
 body {
