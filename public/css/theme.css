@@ -140,6 +140,8 @@ p#date{
 }
 
 #search-box {
+  font-size: 16px;
+  height: 46px;
   margin: 0 0 15px 0;
 }
 
