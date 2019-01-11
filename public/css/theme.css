@@ -111,6 +111,10 @@ p#date{
   color: #ffdead;
 }
 
+tbody {
+  border: 1px solid #ddd;
+}
+
 .label-highlight a {
   color: white !important;
 }
