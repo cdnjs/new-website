@@ -23595,5 +23595,61 @@
     "stargazers_count": 1563,
     "forks": 57,
     "subscribers_count": 1563
+  },
+  "stamen/modestmaps-js": {
+    "user": "stamen",
+    "repo": "modestmaps-js",
+    "stargazers_count": 574,
+    "forks": 161,
+    "subscribers_count": 574
+  },
+  "nostalgic-css/NES.css": {
+    "user": "nostalgic-css",
+    "repo": "NES.css",
+    "stargazers_count": 8625,
+    "forks": 695,
+    "subscribers_count": 8625
+  },
+  "charliekassel/vuejs-datepicker": {
+    "user": "charliekassel",
+    "repo": "vuejs-datepicker",
+    "stargazers_count": 1600,
+    "forks": 462,
+    "subscribers_count": 1600
+  },
+  "alferov/angular-file-saver": {
+    "user": "alferov",
+    "repo": "angular-file-saver",
+    "stargazers_count": 211,
+    "forks": 58,
+    "subscribers_count": 211
+  },
+  "sarahdayan/dinero.js": {
+    "user": "sarahdayan",
+    "repo": "dinero.js",
+    "stargazers_count": 2483,
+    "forks": 72,
+    "subscribers_count": 2483
+  },
+  "unsplash/react-trend": {
+    "user": "unsplash",
+    "repo": "react-trend",
+    "stargazers_count": 2151,
+    "forks": 72,
+    "subscribers_count": 2151
+  },
+  "brunjo/rowGrid.js": {
+    "user": "brunjo",
+    "repo": "rowGrid.js",
+    "stargazers_count": 670,
+    "forks": 93,
+    "subscribers_count": 670
+  },
+  "eKoopmans/html2pdf.js": {
+    "user": "eKoopmans",
+    "repo": "html2pdf.js",
+    "stargazers_count": 615,
+    "forks": 256,
+    "subscribers_count": 615
   }
 }
