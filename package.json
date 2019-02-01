@@ -35,7 +35,7 @@
     "compression": "^1.7",
     "condense-whitespace": "^1.0.0",
     "express": "^4.16",
-    "git-url-parse": "^7.0.2",
+    "git-url-parse": "^11.1.2",
     "github": "^13.1.0",
     "gravatar": "^1.6.0",
     "highlight.js": "^9.12.0",
