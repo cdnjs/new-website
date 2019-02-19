@@ -451,7 +451,7 @@ function setFileURLs(new_provider) {
     window.location.href = newURL;
   });
 
-  console.log('%cThanks for using cdnjs! 😊', 'font: 5em roboto; color: #dd4814;');
+  console.log('%cThanks for using cdnjs! 😊', 'font: 5em roboto; color: #e95420;');
   $(function () {
     $.scrollUp({
       animation: 'slide',
