@@ -52,7 +52,11 @@
                 <li><a href="https://www.cloudflare.com/network-map" target="_blank">Network Map</a></li>
                 <li class="dropdown-header">cdnjs.com &amp; CDN service</li>
                 <li><a href="http://stats.pingdom.com/4jg86a2wqei0" target="_blank">CDN Uptime</a></li>
-                <li><a href="https://status.cdnjs.com" target="_blank">Status Page</a></li>
+                <li>
+                  <a href="https://status.cdnjs.com" target="_blank">
+                    Status Page <span class="status-color-dot"></span>
+                  </a>
+                </li>
                 <li><a href="https://twitter.com/cdnjsStatus" target="_blank">cdnjsStatus on Twitter</a></li>
               </ul>
             </div>
@@ -158,6 +162,16 @@ $('.post code').addClass('hljs');
 $('.post').show();
     </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js" integrity="sha256-t2YrqZoTLq/Qt8zIw0BMiuRC2X5+a3O7PODU8RwoyYw=" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.statuspage.io/se-v2.js"></script>
+  <script defer>
+    var sp = new StatusPage.page({page: '1fkb7yl9sw87'});
+    sp.status({
+      success: function(data) {
+        $('.status-color-dot').addClass(data.status.indicator);
+      }
+    });
+  </script>
 
 <script defer>hljs.initHighlightingOnLoad();</script>
 <div itemscope itemtype="https://schema.org/WebSite" style="display:none">

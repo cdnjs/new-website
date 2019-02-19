@@ -205,3 +205,28 @@ tr {
 .container {
     width: 87%;
 }
+
+/* statuspage indicator */
+.status-color-dot {
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.status-color-dot.critical {
+  background-color: #e74c3c;
+}
+
+.status-color-dot.major {
+  background-color: #e67e22;
+}
+
+.status-color-dot.minor {
+  background-color: #f1c40f;
+}
+
+.status-color-dot.none {
+  background-color: #2ecc71;
+}
