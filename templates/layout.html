@@ -43,8 +43,19 @@
         <div class="col-md-12">
           <div class="menu btn-group">
             <a class="btn btn-link logo" href="/">cdnjs</a>
-            <a class="btn btn-link btn-space" href="https://www.cloudflare.com/network-map" target="_blank">Network</a>
-            <a class="btn btn-link btn-space" href="http://stats.pingdom.com/4jg86a2wqei0" target="_blank">Uptime</a>
+            <div class="btn-group btn-space">
+              <a id="networkStatusGroupDrop" class="btn btn-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Network &amp; Status<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="networkStatusGroupDrop">
+                <li class="dropdown-header">Cloudflare Network</li>
+                <li><a href="https://www.cloudflare.com/network-map" target="_blank">Network Map</a></li>
+                <li class="dropdown-header">cdnjs.com &amp; CDN service</li>
+                <li><a href="http://stats.pingdom.com/4jg86a2wqei0" target="_blank">CDN Uptime</a></li>
+                <li><a href="https://status.cdnjs.com" target="_blank">Status Page</a></li>
+                <li><a href="https://twitter.com/cdnjsStatus" target="_blank">cdnjsStatus on Twitter</a></li>
+              </ul>
+            </div>
             <div class="btn-group btn-space">
               <a id="gitStatsGroupDrop" class="btn btn-link dropdown-toggle" data-toggle="dropdown" href="#">
                 git stats <span class="caret"></span>
