@@ -120,7 +120,7 @@ function crawl(gnext) {
               repo: repo.repo,
               stargazers_count: res.data.stargazers_count,
               forks: res.data.forks,
-              subscribers_count: res.data.watchers_count
+              subscribers_count: res.data.subscribers_count
             };
             metas[repo.owner + '/' + repo.repo] = library.github;
           }
