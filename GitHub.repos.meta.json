@@ -23672,5 +23672,68 @@
     "stargazers_count": 6151,
     "forks": 199,
     "subscribers_count": 87
+  },
+  "RobinHerbots/Inputmask": {
+    "user": "RobinHerbots",
+    "repo": "Inputmask",
+    "stargazers_count": 4234,
+    "forks": 1446,
+    "subscribers_count": 188
+  },
+  "AaronCCWong/react-card-flip": {
+    "user": "AaronCCWong",
+    "repo": "react-card-flip",
+    "stargazers_count": 69,
+    "forks": 25,
+    "subscribers_count": 3
+  },
+  "nextapps-de/flexsearch": {
+    "user": "nextapps-de",
+    "repo": "flexsearch",
+    "stargazers_count": 4251,
+    "forks": 100,
+    "subscribers_count": 48
+  },
+  "istvan-ujjmeszaros/bootstrap-duallistbox": {
+    "user": "istvan-ujjmeszaros",
+    "repo": "bootstrap-duallistbox",
+    "stargazers_count": 492,
+    "forks": 216,
+    "subscribers_count": 46
+  },
+  "codex-team/editor.js": {
+    "user": "codex-team",
+    "repo": "editor.js",
+    "stargazers_count": 3397,
+    "forks": 99,
+    "subscribers_count": 61
+  },
+  "williamngan/pts": {
+    "user": "williamngan",
+    "repo": "pts",
+    "stargazers_count": 3474,
+    "forks": 107,
+    "subscribers_count": 58
+  },
+  "zemirco/json2csv": {
+    "user": "zemirco",
+    "repo": "json2csv",
+    "stargazers_count": 1690,
+    "forks": 278,
+    "subscribers_count": 35
+  },
+  "aspnet/AspNetCore": {
+    "user": "aspnet",
+    "repo": "AspNetCore",
+    "stargazers_count": 11320,
+    "forks": 2724,
+    "subscribers_count": 1305
+  },
+  "material-components/material-components-web": {
+    "user": "material-components",
+    "repo": "material-components-web",
+    "stargazers_count": 12326,
+    "forks": 1562,
+    "subscribers_count": 415
   }
 }
