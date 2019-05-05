@@ -103,7 +103,7 @@ function crawl(gnext) {
 
     if (repos.length > 0) {
       var repo = repos[0]; // fetch only the first repository
-      if (metas[repo.owner + '/' + repo.repo] === undefined) {
+      if (metas[repo.owner + '/' + repo.repo] === undefined || Math.random() > 0.98) {
         github.repos.get(repo, function (err, res) {
           if (!err && res.data.stargazers_count === undefined) {
             err = "Didn't fetch the meta data properly!!!";
