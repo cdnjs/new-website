@@ -56,7 +56,7 @@ function load(next) {
 
     var SRI;
     try {
-      json = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + library.version + '.json', "utf8"));
+      var json = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + library.version + '.json', "utf8"));
       SRI = json[library.filename];
     } catch (e) {
       SRI = "";
@@ -102,7 +102,7 @@ function crawl(gnext) {
         return null;
       }
 
-      var m = url.match(/.*github\.com[\/:]([^\/]+)\/([^\/]+)(\/.*|\.git)?$/);
+      var m = url.match(/.*github\.com[/:]([^/]+)\/([^/]+)(\/.*|\.git)?$/);
       if (!m) {
         return null;
       }
@@ -178,7 +178,7 @@ function initIndex(next) {
     attributesForFaceting: ['fileType', 'keywords'],
     optionalWords: ['js', 'css'], // those words are optional (jquery.colorbox.js <=> jquery.colorbox)
     ranking: ['typo', 'words', 'proximity', 'attribute', 'custom'] // removed the "exact" criteria conflicting with the "keywords" array containing exact forms
-  }, function (error, content) {
+  }, function (error) {
     if (error) {
       printError(error);
       return;
@@ -190,7 +190,7 @@ function initIndex(next) {
 
 function push(next) {
   console.log('* Indexing ' + LIBRARIES.length + ' libraries');
-  index.addObjects(LIBRARIES, function (error, content) {
+  index.addObjects(LIBRARIES, function (error) {
     if (error) {
       printError(error);
       return;
@@ -202,7 +202,7 @@ function push(next) {
 
 function commit(next) {
   console.log('* Moving index to production');
-  client.moveIndex('libraries.tmp', 'libraries', function (error, content) {
+  client.moveIndex('libraries.tmp', 'libraries', function (error) {
     if (error) {
       printError(error);
       return;

@@ -270,7 +270,7 @@ function start() {
 
       if (assets.gennedFileNames === undefined) {
         var fileArray = [];
-        assets.files.map(function (fileName, index) {
+        assets.files.map(function (fileName) {
           var fileExtension = path.extname(fileName);
           var fileType = fileExtension.substring(1) || 'unknown';
           fileArray.push({ name: fileName, fileType: fileType });
@@ -528,7 +528,7 @@ function start() {
     }));
   });
 
-  app.use(function (err, req, res, next) {
+  app.use(function (err, req, res) {
     console.error(err.stack);
     res.status(500).send(generatePage({
       reqUrl: req.url,
