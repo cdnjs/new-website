@@ -307,7 +307,7 @@ function setFileURLs(new_provider) {
     var libraryName = escape(content.query);
 
     var scrollToEndText = '<br /><tr><td class="text-center well" colspan="2">Scroll down to the end to load more search result!</td></tr>';
-    var tempText = (match ? 'Could not found the lib you\'re looking for?' : 'We are sorry, the library you\'re searching for cannot be found.');
+    var tempText = (match ? 'Could not find the lib you\'re looking for?' : 'We are sorry, the library you\'re searching for cannot be found.');
     var tempText2 =
       '<br /><td class="text-center well" colspan="2">' +
       tempText + '<br /> You can ' +
