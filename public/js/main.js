@@ -58,17 +58,18 @@ function setFileURLs(new_provider) {
   var SRIcopyWithoutTagButton = '';
   if (typeof (SRI) !== 'undefined') {
     SRIcopyButton =
-      '<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag with SRI</a></li>' +
-      '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag with SRI</a></li>';
+      '<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
+      '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
     SRIcopyWithoutTagButton =
       '<li class="js css"><a data-copy-embed="file-sri" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
   }
 
   copyEl.append('<ul class="dropdown-menu copy-options">' +
                 '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
-                '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
-                '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>' +
-                SRIcopyButton + '</ul>');
+                SRIcopyButton +
+                '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
+                '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Ta without SRIg</a></li>' +
+                '</ul>');
   var copyContainer = $('<div/>');
   copyEl.attr('style', 'display: none;');
   copyEl.appendTo('body');
@@ -83,8 +84,8 @@ function setFileURLs(new_provider) {
           var SRIcopyWithoutTagButton = '';
           if (this.dataset.sri !== 'undefined' && this.dataset.sri !== "") {
             SRIcopyButton =
-              '<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag with SRI</a></li>' +
-              '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag with SRI</a></li>';
+              '<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
+              '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
             SRIcopyWithoutTagButton =
               '<li class="js css"><a data-copy-embed="file-sri" data-sri="' + this.dataset.sri + '" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
           }
@@ -92,9 +93,10 @@ function setFileURLs(new_provider) {
           copyEl.children('ul').remove();
           copyEl.append('<ul class="dropdown-menu copy-options">' +
             '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
-            '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
-            '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>' +
-            SRIcopyButton + '</ul>');
+              SRIcopyButton + 
+            '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
+            '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
+            '</ul>');
         }
         var cont = $(ev.currentTarget);
         var libraryColumn = cont.find('.library-column');
