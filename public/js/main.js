@@ -68,7 +68,7 @@ function setFileURLs(new_provider) {
                 '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
                 SRIcopyButton +
                 '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
-                '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Ta without SRIg</a></li>' +
+                '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
                 '</ul>');
   var copyContainer = $('<div/>');
   copyEl.attr('style', 'display: none;');
