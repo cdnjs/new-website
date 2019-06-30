@@ -166,6 +166,8 @@ app.get('/', function (req, res) {
   res.redirect('https://cdnjs.com/api');
 });
 
-var port = process.env.PORT || 5050;
+var PORT = process.env.PORT || 5050;
 
-app.listen(port);
+app.listen(PORT, function () {
+  console.log('Listening on ' + PORT);
+});
