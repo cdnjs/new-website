@@ -41,7 +41,7 @@
     "highlight.js": "^9.14.2",
     "lodash": "^4.17.11",
     "markdown": "^0.5.0",
-    "marked": "^0.3.19",
+    "marked": "^0.7.0",
     "mustache": "^2.3.2",
     "newline-remove": "^1.0.2",
     "throng": "^4.0.0"
