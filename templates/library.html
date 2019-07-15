@@ -9,9 +9,9 @@
     <h1 style="margin-top: 00px;" id="libraryName">{{library.name}}</h1>
     {{#watch}}
     <ul class="list-inline">
-      <li><i class="fa fa-eye"></i><strong> {{watch}}</strong></li>
-      <li><i class="fa fa-star"></i><strong> {{star}}</strong></li>
-      <li><i class="fa fa-code-fork"></i><strong> {{fork}}</strong></li>
+      <li><i class="fas fa-eye"></i><strong> {{watch}}</strong></li>
+      <li><i class="fas fa-star"></i><strong> {{star}}</strong></li>
+      <li><i class="fas fa-code-branch"></i><strong> {{fork}}</strong></li>
     </ul>
     {{/watch}}
     <p><a href="{{library.homepage}}">{{library.homepage}}</a>
@@ -19,7 +19,7 @@
       <p>
         <li class="label" style="color:Black">Links/Tags:</li>
         <li class="label label-default label-highlight"><a href="https://github.com/cdnjs/cdnjs/commits/master/ajax/libs/{{library.name}}" title="Commit history of {{library.name}} on cdnjs">commits/history</a></li>&nbsp;
-        <li class="label label-default label-highlight"><a href="https://api.cdnjs.com/libraries/{{library.name}}" title="api url of {{library.name}} on cdnjs">cdnjs api</a>&nbsp;<a href="https://api.cdnjs.com/libraries/{{library.name}}?output=human" title="Human readable api output of {{library.name}}">&nbsp;<i class="fa fa-user"></i></a></li>&nbsp;
+        <li class="label label-default label-highlight"><a href="https://api.cdnjs.com/libraries/{{library.name}}" title="api url of {{library.name}} on cdnjs">cdnjs api</a>&nbsp;<a href="https://api.cdnjs.com/libraries/{{library.name}}?output=human" title="Human readable api output of {{library.name}}">&nbsp;<i class="fas fa-user"></i></a></li>&nbsp;
         <a href="{{library.autoupdate.url}}" title="{{library.name}} has auto-update config, this is the link to upstream, click to checkout lastest version on official page."><li class="label label-default label-highlight">{{library.autoupdate.string}}</li></a>
         {{#library.urls}}
         &nbsp;<li class="label label-default label-highlight"><a href="{{url}}" title="Link to {{library.name}}'s source code page.">repository</a></li>
