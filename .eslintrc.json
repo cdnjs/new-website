@@ -1,0 +1,21 @@
+{
+  "env": {
+    "commonjs": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015
+  },
+  "rules": {
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "no-console": "off"
+  },
+  "extends": "eslint:recommended"
+}

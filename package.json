@@ -4,7 +4,9 @@
   "description": "new-website ===========",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run test:echint && npm run test:eslint",
+    "test:echint": "echint -i \"sri/**/*\" -i \"public/**/*\" -v \"tutorials/**/*\" -v",
+    "test:eslint": "eslint *.js",
     "start:api": "node --expose-gc apiServer.js",
     "start:web": "node --expose-gc webServer.js",
     "dev:api": "LOCAL=true node apiServer.js",
@@ -45,5 +47,9 @@
     "mustache": "^2.3.2",
     "newline-remove": "^1.0.2",
     "throng": "^4.0.0"
+  },
+  "devDependencies": {
+    "echint": "^4.0.2",
+    "eslint": "^5.16.0"
   }
 }
