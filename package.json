@@ -4,10 +4,11 @@
   "description": "new-website ===========",
   "main": "server.js",
   "scripts": {
-    "test": "npm run test:echint && npm run test:eslint && npm run test:stylelint",
+    "test": "npm run test:echint && npm run test:eslint && npm run test:stylelint && npm run test:html-validate",
     "test:echint": "echint -i \"sri/**/*\" -i \"public/**/*\" -v \"tutorials/**/*\" -v",
     "test:eslint": "eslint *.js",
     "test:stylelint": "stylelint public/css/*.css",
+    "test:html-validate": "html-validate templates/*.html",
     "dev:api": "LOCAL=true node apiServer.js",
     "dev:web": "LOCAL=true node webServer.js",
     "reindex": "node reindex.js",
@@ -49,6 +50,7 @@
     "echint": "^4.0.2",
     "eslint": "^5.16.0",
     "eslint-plugin-unicorn": "^13.0.0",
+    "html-validate": "^1.7.0",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0",
     "stylelint-order": "^3.1.0"

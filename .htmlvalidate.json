@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "htmlvalidate:recommended"
+  ],
+
+  "rules": {
+    "element-permitted-content": "warn",
+    "no-conditional-comment": "off",
+    "no-deprecated-attr": "off",
+    "no-inline-style": "off",
+    "prefer-button": "off",
+    "void": [
+      "error",
+      {
+        "style": "selfclose"
+      }
+    ]
+  }
+}
