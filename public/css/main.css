@@ -1,6 +1,6 @@
 /*fork me on GitHub*/
 
-#forkongithub a {
+#fork-on-github a {
   background: #e95420;
   color: #fff;
   font-family: arial, sans-serif;
@@ -14,13 +14,13 @@
   transition: .5s;
 }
 
-#forkongithub a:hover {
+#fork-on-github a:hover {
   background: orange;
   color: #fff;
 }
 
-#forkongithub a::before,
-#forkongithub a::after {
+#fork-on-github a::before,
+#fork-on-github a::after {
   background: #fff;
   content: "";
   display: block;
@@ -31,13 +31,13 @@
   width: 100%;
 }
 
-#forkongithub a::after {
+#fork-on-github a::after {
   bottom: 1px;
   top: auto;
 }
 @media screen and (min-width:1333px) {
 
-  #forkongithub {
+  #fork-on-github {
     display: block;
     height: 200px;
     left: 0;
@@ -48,7 +48,7 @@
     z-index: 0;
   }
 
-  #forkongithub a {
+  #fork-on-github a {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, .8);
     left: -45px;
     position: absolute;
