@@ -30,7 +30,7 @@ function setFileURLs(new_provider) {
 }
 
 (function ($) {
-  baseURI = cdn_provider_base_url[cdn_provider] + $('h1#libraryName').html() + '/' + $('select.version-selector :selected').val() + '/';
+  baseURI = cdn_provider_base_url[cdn_provider] + $('#library-name').text() + '/' + $('select.version-selector :selected').val() + '/';
   function selectText(element) {
     var doc = document;
     var text = element;

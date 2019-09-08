@@ -1,88 +1,143 @@
 <div class="container">
-      <div class="row">
+  <div class="row">
+    <div class="library-container">
+      <div class="col-md-12">
 
-<div class="library-container">
-  <div class="col-md-12">
-      <div class="row">
-        <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 style="margin-top: 0;" id="library-name">{{library.name}}</h1>
 
-    <h1 style="margin-top: 00px;" id="libraryName">{{library.name}}</h1>
-    {{#watch}}
-    <ul class="list-inline">
-      <li><i class="fas fa-eye"></i><strong> {{watch}}</strong></li>
-      <li><i class="fas fa-star"></i><strong> {{star}}</strong></li>
-      <li><i class="fas fa-code-branch"></i><strong> {{fork}}</strong></li>
-    </ul>
-    {{/watch}}
-    <p><a href="{{library.homepage}}">{{library.homepage}}</a>
-      <span id="library-name" style="display: none;" hidden>{{library.name}}</span>
-      <p>
-        <li class="label" style="color:Black">Links/Tags:</li>
-        <li class="label label-default label-highlight"><a href="https://github.com/cdnjs/cdnjs/commits/master/ajax/libs/{{library.name}}" title="Commit history of {{library.name}} on cdnjs">commits/history</a></li>&nbsp;
-        <li class="label label-default label-highlight"><a href="https://api.cdnjs.com/libraries/{{library.name}}" title="api url of {{library.name}} on cdnjs">cdnjs api</a>&nbsp;<a href="https://api.cdnjs.com/libraries/{{library.name}}?output=human" title="Human readable api output of {{library.name}}">&nbsp;<i class="fas fa-user"></i></a></li>&nbsp;
-        <a href="{{library.autoupdate.url}}" title="{{library.name}} has auto-update config, this is the link to upstream, click to checkout lastest version on official page."><li class="label label-default label-highlight">{{library.autoupdate.string}}</li></a>
-        {{#library.urls}}
-        &nbsp;<li class="label label-default label-highlight"><a href="{{url}}" title="Link to {{library.name}}'s source code page.">repository</a></li>
-        {{/library.urls}}
-        {{#licenses}}<li class="label label-default label-highlight"><a href="{{url}}" title="License info of {{library.name}}, click to see detail.">Current license: {{type}}</a>&nbsp;</li>{{/licenses}}
-      </p>
-      <p>{{library.description}}</p>
-      <em>{{library.keywords}}</em>
+            {{#watch}}
+            <ul class="list-inline">
+              <li><i class="fas fa-eye"></i><strong> {{watch}}</strong></li>
+              <li><i class="fas fa-star"></i><strong> {{star}}</strong></li>
+              <li><i class="fas fa-code-branch"></i><strong> {{fork}}</strong></li>
+            </ul>
+            {{/watch}}
 
-      <br />
+            <p><a href="{{library.homepage}}">{{library.homepage}}</a></p>
+
+            <ul class="list-inline">
+              <li class="label" style="color: #000;">Links/Tags:</li>
+              <li class="label label-default label-highlight">
+                <a href="https://github.com/cdnjs/cdnjs/commits/master/ajax/libs/{{library.name}}"
+                   title="Commit history of {{library.name}} on cdnjs">
+                  commits/history
+                </a>
+              </li>
+              <li class="label label-default label-highlight">
+                <a href="https://api.cdnjs.com/libraries/{{library.name}}" title="api url of {{library.name}} on cdnjs">
+                  cdnjs api
+                </a>
+                <a href="https://api.cdnjs.com/libraries/{{library.name}}?output=human"
+                   title="Human readable api output of {{library.name}}">
+                  &nbsp;<i class="fas fa-user"></i>
+                </a>
+              </li>&nbsp;
+              <li class="label label-default label-highlight">
+                <a href="{{library.autoupdate.url}}"
+                   title="{{library.name}} has auto-update config, this is the link to upstream, click to checkout lastest version on official page.">
+                  {{library.autoupdate.string}}
+                </a>
+              </li>
+
+              {{#library.urls}}
+              <li class="label label-default label-highlight">
+                <a href="{{url}}" title="Link to {{library.name}}'s source code page.">repository</a>
+              </li>
+              {{/library.urls}}
+
+              {{#licenses}}
+              <li class="label label-default label-highlight">
+                <a href="{{url}}" title="License info of {{library.name}}, click to see detail.">
+                  Current license: {{type}}
+                </a>&nbsp;
+              </li>
+              {{/licenses}}
+            </ul>
+
+            <p>{{library.description}}</p>
+            <p><em>{{library.keywords}}</em></p>
+          </div>
+
+          <div class="col-md-4">
+            <script src="https://cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=cdnjscom"
+                    id="_carbonads_js" defer></script>
+          </div>
         </div>
-        <div class="col-md-4">
-          <script src="https://cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=cdnjscom" id="_carbonads_js" defer></script>
+
+        <div class="row">
+          <div class="col-md-7">
+            <div class="input-group version-dropdown">
+              <div class="input-group-addon">Version</div>
+              <select class="form-control version-selector">
+                {{#assets}}
+                <!-- linthtml-configure attr-name-style="false" -->
+                <option value="{{version}}" {{selected}}>{{version}}</option>
+                <!-- linthtml-configure attr-name-style="$previous" -->
+                {{/assets}}
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="input-group version-dropdown">
+              <div class="input-group-addon">CDN provider</div>
+              <select class="form-control cdn-provider-selector" disabled>
+                <option value="cloudflare" selected>Cloudflare</option>
+              </select>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="input-group version-dropdown">
-          <div class="input-group-addon">Version</div>
-          <select class="form-control version-selector" style="float: right;margin-right: 10px;">
-            {{#assets}}<option value="{{version}}" {{selected}}>{{version}}</option>{{/assets}}
-          </select>
-          <div class="input-group-addon">CDN provider</div>
-          <select class="form-control cdn-provider-selector" style="float: right;" disabled>
-            <option value="cloudflare" selected>Cloudflare</option>
-          </select>
-        </div>
-      <div style="clear: both;"></div>
-      <br />
-      {{#selectedAssets}}
-      <div data-library-version="{{version}}" class="assets library-table-container">
-          <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
+
+        <div style="clear: both;"></div>
+        <br />
+
+        {{#selectedAssets}}
+        <div data-library-version="{{version}}" class="assets library-table-container">
+          <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped"
+                 id="example">
             <tbody>
-              {{#files}}
-              <tr class="library {{fileType}}-type">
-                <td class="library-column"  data-lib-name="{{library.name}}" style="position: relative;">
-                  <p class='library-url'>{{library.originalName}}/{{version}}/{{name}}</p>
-                </td>
-              </tr>
-              {{/files}}
+            {{#files}}
+            <tr class="library {{fileType}}-type">
+              <td class="library-column" data-lib-name="{{library.name}}" style="position: relative;">
+                <p class="library-url">{{library.originalName}}/{{version}}/{{name}}</p>
+              </td>
+            </tr>
+            {{/files}}
             </tbody>
           </table>
         </div>
-      {{/selectedAssets}}
+        {{/selectedAssets}}
+
         <h3>Related Tutorials</h3>
-            <p style="margin-bottom: 50px;">Write your own awesome web development tutorials for the libraries on cdnjs! <a href="https://github.com/cdnjs/tutorials" target="_blank">Submit your community driven tutorials now!</a></p>
-      {{#tutorialsPresent}}
-            <table class="table table-hover" style="margin-top: 25px;">
-                <thead>
-                  <tr>
-                    <td>Tutorial</td>
-                    <td>Author</td>
-                  </tr>
-                </thead>
-                <tbody>
-                {{#tutorials}}
-                    <tr>
-                      <td><a href="/libraries/{{libraryRealName}}/tutorials/{{slug}}">{{name}}</a></td>
-                      <td><a href="{{author.homepage}}">{{author.name}}</a></td>
-                    </tr>
-                {{/tutorials}}
-                </tbody>
-            </table>
-          {{/tutorialsPresent}}
+        <p style="margin-bottom: 50px;">
+          Write your own awesome web development tutorials for the libraries on cdnjs!
+          <a href="https://github.com/cdnjs/tutorials" target="_blank">Submit your community driven tutorials now!</a>
+        </p>
+
+        {{#tutorialsPresent}}
+        <table class="table table-hover" style="margin-top: 25px;">
+          <thead>
+          <tr>
+            <th scope="col">Tutorial</th>
+            <th scope="col">Author</th>
+          </tr>
+          </thead>
+          <tbody>
+          {{#tutorials}}
+          <tr>
+            <td><a href="/libraries/{{libraryRealName}}/tutorials/{{slug}}">{{name}}</a></td>
+            <td><a href="{{author.homepage}}">{{author.name}}</a></td>
+          </tr>
+          {{/tutorials}}
+          </tbody>
+        </table>
+        {{/tutorialsPresent}}
+
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
 <script>SRI={{{SRI}}}</script>
