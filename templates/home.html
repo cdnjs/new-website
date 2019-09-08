@@ -1,51 +1,62 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-        <input id="search-box" placeholder="Search from {{libCount}} libraries with {{libVerCount}} different versions ..." type="text" class="form-control col-md-7 search" aria-controls="example">
-        <div class="text-right text-muted">Realtime search by <a href="https://www.algolia.com/?utm_source=cdnjs&amp;utm_medium=link&amp;utm_campaign=cdnjs_search" target="_blank"><img src="/img/algolia.svg" style="height: 20px; width:75;" /></a></div>
-    </div>
-  </div>
-  <div class="row">
-  <div class="col-md-12">
-    <div>
-      <div class="packages-table-container" style="display: none;">
-        <div id="default_demo"></div>
-        <p style="display: none;">Found <span id="nb-hits-field" class="major-color">0</span> libraries in <span id="processingTimeMS">0</span>ms.</p>
-        <table style="margin-top: 10px; margin-bottom: 80px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped" id="example">
-          <thead>
-            <tr>
-              <th>Library</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
-          </tbody>
-        </table>
+      <input id="search-box"
+             placeholder="Search from {{libCount}} libraries with {{libVerCount}} different versions ..." type="text"
+             class="form-control col-md-7 search" aria-controls="example" />
+      <div class="text-right text-muted">
+        Realtime search by
+        <a href="https://www.algolia.com/?utm_source=cdnjs&amp;utm_medium=link&amp;utm_campaign=cdnjs_search"
+           target="_blank"><img src="/img/algolia.svg" style="height: 20px; width: 75px;" alt="Algolia" /></a>
       </div>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div>
+        <div class="packages-table-container" style="display: none;">
+          <div id="default-demo"></div>
+          <p style="display: none;">
+            Found <span id="nb-hits-field" class="major-color">0</span> libraries in
+            <span id="processing-time-ms">0</span>ms.
+          </p>
+          <table style="margin-top: 10px; margin-bottom: 80px;" cellpadding="0" cellspacing="0" border="0"
+                 class="table table-striped" id="example">
+            <thead>
+            <tr>
+              <th scope="col">Library</th>
+              <th scope="col">Link</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 <script src="//m.servedby-buysellads.com/monetization.js"></script>
 <script>
-(function(){
-  _bsa.init('default', 'CVAI653I', 'placement:demo', {
-    target: '#default_demo',
-    align: 'horizontal',
-    disable_css: 'true'
-  });
-})();
+    (function () {
+        _bsa.init('default', 'CVAI653I', 'placement:demo', {
+            target: '#default-demo',
+            align: 'horizontal',
+            disable_css: 'true'
+        });
+    })();
 </script>
 <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type": "WebSite",
-  "url": "https://cdnjs.com/",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://cdnjs.com/#q={search_term_string}",
-    "query-input": "required name=search_term_string"
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://cdnjs.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://cdnjs.com/#q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
   }
-}
 </script>

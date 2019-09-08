@@ -93,7 +93,7 @@ function setFileURLs(new_provider) {
           copyEl.children('ul').remove();
           copyEl.append('<ul class="dropdown-menu copy-options">' +
             '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
-              SRIcopyButton + 
+              SRIcopyButton +
             '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
             '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
             '</ul>');
@@ -196,7 +196,7 @@ function setFileURLs(new_provider) {
   var cachedQueryResult = {};
   var lazyScroll = false;
   var $nbHitsField = $('#nb-hits-field');
-  var $processingTimeMS = $('#processingTimeMS');
+  var $processingTimeMS = $('#processing-time-ms');
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
   function displayMatchingLibraries(err, content) {
