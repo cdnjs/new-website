@@ -118,7 +118,6 @@ function start() {
     library: getTemplate('templates/library.html'),
     register: getTemplate('templates/register.html'),
     profile: getTemplate('templates/profile.html'),
-    members: getTemplate('templates/members.html'),
     news: getTemplate('templates/news.html'),
     newsfeed_item: getTemplate('templates/newsfeed_item.html'),
     newsfeed: getTemplate('templates/newsfeed.html'),
