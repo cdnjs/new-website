@@ -6,8 +6,7 @@ var pkgMeta = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).pa
 // Generate sitemap
 var pages = [
   'https://cdnjs.com/',
-  'https://cdnjs.com/about',
-  'https://cdnjs.com/register'
+  'https://cdnjs.com/about'
 ];
 
 var xml = '<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">';
