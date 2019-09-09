@@ -1,171 +1,210 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css" integrity="sha256-k5mFes0QrsMTUCIg7sRlizkZIhMeL4fTABLlkjQmR0s=" crossorigin="anonymous" />
-<link href='https://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css"
+      integrity="sha256-k5mFes0QrsMTUCIg7sRlizkZIhMeL4fTABLlkjQmR0s=" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:400italic,700italic,700,400" rel="stylesheet"
+      type="text/css" />
 <style>
-.post {
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-}
-.post p, .post ul {
-  line-height: 30px;
+  .post {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
 
-}
-pre {
-  font-size: 18px;
-  display: block;
-  padding: 0;
-  margin: 50px 0 50px 0;
-  font-size: 18px;
-  word-wrap: break-word;
-  color: #333333;
-  border: none;
-  border-radius: 0;
+  .post p, .post ul {
+    line-height: 30px;
 
-}
-h1,h2,h3,h4,h5 {
-  margin: 20px 0 20px 0;
-}
-.divider {
-  background: #e95420;
-  color: #ebebeb;
-  padding: 5px;
-  margin: 40px 0;
-}
-.divider h3 {
-  font-size: 30px;
-  margin: 10px 0;
-}
-li > code.hljs,
-p > em > code.hljs,
-p > code.hljs {
-  display: inline;
-  padding: 0;
-  margin: 0;
-  border-radius: 0;
-  background-color: #fff;
-  line-height: 13px;
-  overflow: hidden;
-  color: #f92672;
-  height: auto;
-  font-family: 'Roboto', sans-serif;
-  font-size: 100%;
-  font-style: italic;
-}
+  }
+
+  pre {
+    font-size: 18px;
+    display: block;
+    padding: 0;
+    margin: 50px 0 50px 0;
+    word-wrap: break-word;
+    color: #333333;
+    border: none;
+    border-radius: 0;
+
+  }
+
+  h1, h2, h3, h4, h5 {
+    margin: 20px 0 20px 0;
+  }
+
+  .divider {
+    background: #e95420;
+    color: #ebebeb;
+    padding: 5px;
+    margin: 40px 0;
+  }
+
+  .divider h3 {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+
+  li > code.hljs,
+  p > em > code.hljs,
+  p > code.hljs {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: #fff;
+    line-height: 13px;
+    overflow: hidden;
+    color: #f92672;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    font-style: italic;
+  }
 </style>
-
 
 <div class="post" style="display: none;">
   {{{tute}}}
-<div>
 
-<div class="divider">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h3>Author</h3>
+  <div>
+    <div class="divider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h3>Author</h3>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
+
+    <div class="container">
       <div class="row">
-        <div class="col-md-2">
-          <img src="{{avatar}}" style="width: 100%; border-radius: 3px;" />
-        </div>
-        <div class="col-md-10">
-          <p><strong>{{author.name}}</strong>
-          <p>{{author.description}}</p>
-          <p>
-          <a href="{{author.homepage}}" target="_blank">{{author.homepage}}</a><br />
-
-          {{#author.twitter}}
-            <a href="https://twitter.com/{{author.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
-          {{/author.twitter}}
-          {{#author.github}}
-            <a href="https://github.com/{{author.github}}" target="_blank"><i class="fab fa-github"></i></a>
-          {{/author.github}}
-          {{#author.medium}}
-            <a href="https://medium.com/@{{author.medium}}" target="_blank"><i class="fab fa-medium"></i></a>
-          {{/author.medium}}
-          {{#author.facebook}}
-            <a href="https://facebook.com/{{author.facebook}}" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          {{/author.facebook}}
-          {{#author.reddit}}
-            <a href="https://reddit.com/user/{{author.reddit}}" target="_blank"><i class="fab fa-reddit"></i></a>
-          {{/author.reddit}}
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="divider">
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h3>Related Tutorials</h3>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container">
-    <div class="row">
         <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-2">
+              <img src="{{avatar}}" style="width: 100%; border-radius: 3px;" alt="{{author.name}}" />
+            </div>
 
-            <p style="margin-bottom: 50px;">Write your own awesome web development tutorials for the libraries on cdnjs! <a href="https://github.com/cdnjs/tutorials" target="_blank">Submit your community driven tutorials now!</a></p>
-            <table class="table table-hover" style="margin-top: 25px;">
-                <thead>
-                    <tr>
-                        <td style="padding-left: 0;">Tutorial</td>
-                        <td>Author</td>
-                    </tr>
-                </thead>
-                <tbody>
-                {{#tutorials}}
-                    <tr>
-                        <td style="padding-left: 0;"><a href="/libraries/{{library}}/tutorials/{{slug}}">{{name}}</a></td>
-                        <td><a href="{{author.homepage}}" target="_blank">{{author.name}}</a></td>
-                    </tr>
-                {{/tutorials}}
-                </tbody>
-            </table>
+            <div class="col-md-10">
+              <p><strong>{{author.name}}</strong></p>
+              <p>{{author.description}}</p>
+              <p>
+                <a href="{{author.homepage}}" target="_blank">{{author.homepage}}</a>
+                <br />
+
+                {{#author.twitter}}
+                <a href="https://twitter.com/{{author.twitter}}" target="_blank">
+                  <i aria-hidden="true" class="fab fa-twitter" title="Twitter"></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+                {{/author.twitter}}
+
+                {{#author.github}}
+                <a href="https://github.com/{{author.github}}" target="_blank">
+                  <i aria-hidden="true" class="fab fa-github" title="GitHub"></i>
+                  <span class="sr-only">GitHub</span>
+                </a>
+                {{/author.github}}
+
+                {{#author.medium}}
+                <a href="https://medium.com/@{{author.medium}}" target="_blank">
+                  <i aria-hidden="true" class="fab fa-medium" title="Medium"></i>
+                  <span class="sr-only">Medium</span>
+                </a>
+                {{/author.medium}}
+
+                {{#author.facebook}}
+                <a href="https://facebook.com/{{author.facebook}}" target="_blank">
+                  <i aria-hidden="true" class="fab fa-facebook-f" title="Facebook"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+                {{/author.facebook}}
+
+                {{#author.reddit}}
+                <a href="https://reddit.com/user/{{author.reddit}}" target="_blank">
+                  <i aria-hidden="true" class="fab fa-reddit" title="Reddit"></i>
+                  <span class="sr-only">Reddit</span>
+                </a>
+                {{/author.reddit}}
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<div class="divider">
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">
-        <h3>Comments</h3>
+    <div class="divider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h3>Related Tutorials</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <p style="margin-bottom: 50px;">
+            Write your own awesome web development tutorials for the libraries on cdnjs!
+            <a href="https://github.com/cdnjs/tutorials" target="_blank">Submit your community driven tutorials now!</a>
+          </p>
+          <table class="table table-hover" style="margin-top: 25px;">
+            <thead>
+            <tr>
+              <th style="padding-left: 0;" scope="col">Tutorial</th>
+              <th scope="col">Author</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#tutorials}}
+            <tr>
+              <td style="padding-left: 0;"><a href="/libraries/{{library}}/tutorials/{{slug}}">{{name}}</a></td>
+              <td><a href="{{author.homepage}}" target="_blank">{{author.name}}</a></td>
+            </tr>
+            {{/tutorials}}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h3>Comments</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <!-- linthtml-configure id-class-style="false" -->
+          <div id="disqus_thread"></div>
+          <!-- linthtml-configure id-class-style="$previous" -->
+          <script>
+              /* * * CONFIGURATION VARIABLES * * */
+              var disqus_shortname = '{{disqus_shortname}}';
+              var disqus_url = '{{{disqus_url}}}';
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function () {
+                  var dsq = document.createElement('script');
+                  dsq.type = 'text/javascript';
+                  dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>
+            Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments
+            powered by Disqus.</a>
+          </noscript>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-      <div id="disqus_thread"></div>
-      <script>
-          /* * * CONFIGURATION VARIABLES * * */
-          var disqus_shortname = '{{disqus_shortname}}';
-          var disqus_url = '{{{disqus_url}}}';
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-      <script>
-      </script>
-    </div>
-  </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"
+        integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
 <script defer>hljs.initHighlightingOnLoad();</script>
