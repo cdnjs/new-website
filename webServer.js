@@ -116,7 +116,6 @@ function start() {
     home: getTemplate('templates/home.html'),
     libraries: getTemplate('templates/libraries.html'),
     library: getTemplate('templates/library.html'),
-    login: getTemplate('templates/login.html'),
     register: getTemplate('templates/register.html'),
     profile: getTemplate('templates/profile.html'),
     members: getTemplate('templates/members.html'),

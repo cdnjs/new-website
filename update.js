@@ -7,7 +7,6 @@ var pkgMeta = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).pa
 var pages = [
   'https://cdnjs.com/',
   'https://cdnjs.com/about',
-  'https://cdnjs.com/login',
   'https://cdnjs.com/register'
 ];
 
