@@ -1,5 +1,5 @@
 /* eslint-env browser */
-/* global appLoading, Clipboard, SRI, ga, _, scrollProgress, algoliasearch, jQuery */
+/* global Clipboard, SRI, ga, algoliasearch, appLoading, scrollProgress, _, jQuery */
 
 (function ($) {
   /****
@@ -195,57 +195,47 @@
   }
 
   /****
-   * Main Scripting
+   * Search Scripting
    ****/
 
-  // Set the loading bar color
-  appLoading.setColor('#FF9900');
+  var displayPage = 0,
+    queryItems = 20,
+    cachedQueryResult = {},
+    lazyScroll = false,
+    $nbHitsField = $('#nb-hits-field'),
+    $processingTimeMS = $('#processing-time-ms'),
+    $hits = $('.packages-table-container tbody'),
+    $search = $('#search-box'),
+    lastHashQuery,
+    algolia = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'), // public/search-only credentials
+    index = algolia.initIndex('libraries'),
+    lastQuery;
 
-  // Setup the CDN provide preference
-  setupCDNProviders();
-
-  // Setup the copy button
-  createBaseCopyButton();
-  setupMouseEvents();
-
-  // TODO: below
-
-  var displayPage = 0;
-  var queryItems = 20;
-  var cachedQueryResult = {};
-  var lazyScroll = false;
-  var $nbHitsField = $('#nb-hits-field');
-  var $processingTimeMS = $('#processing-time-ms');
-  var $hits = $('.packages-table-container tbody');
-  var $allRows = $hits.html();
+  function getSafeHighlightedValue(highlight) {
+    // Extract & escape the attribute to prevent any XSS issue keeping the highlighting tags
+    return $('<div />').text(highlight && highlight.value || '').html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
+  }
 
   function displayMatchingLibraries(err, content) {
     $('.packages-table-container').show();
-    if (err) {
-      appLoading.stop();
-    }
 
-    if (err || content.query !== $('#search-box').val()) {
+    // If we had an error, or the results don't match the input, abort
+    if (err || content.query !== $search.val()) {
+      appLoading.stop();
       return;
     }
 
-    function getSafeHighlightedValue(highlight) {
-      // extract & escape the attribute to prevent any XSS issue keeping the highlighting tags
-      var v = highlight && highlight.value || '';
-      return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
-    }
-
+    // If we've got all the results, stop searching on scroll
     if ((displayPage + 1) * queryItems >= content.nbHits) {
       lazyScroll = false;
     }
 
-    // set total hits found, if not set to 0.
+    // Set total hits found, if not set to 0.
     $nbHitsField.text(content.nbHits || 0);
     $processingTimeMS.text(content.processingTimeMS || 0);
 
-    var html = '';
-    var match = false;
-    if (content.hits.length < 1) {
+    // If there are no results, hide the table
+    if (content.nbHits < 1) {
       $('.packages-table-container > table > thead').hide();
       $nbHitsField.parent().hide();
     } else {
@@ -253,10 +243,12 @@
       $nbHitsField.parent().show();
     }
 
-    scrollProgress.update();
+    // Generate all the entries
+    var html = '', match = false;
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
-      if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
+      if (hit._highlightResult.github &&
+        (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
         match = true;
       }
 
@@ -296,25 +288,29 @@
       html += row;
     }
 
-    var libraryName = escape(content.query);
+    // Tell the user to scroll for more if they can
+    if (lazyScroll) {
+      html += '<br /><tr><td class="text-center well" colspan="2">Scroll down to the end to load more search result!</td></tr>';
+    }
 
-    var scrollToEndText = '<br /><tr><td class="text-center well" colspan="2">Scroll down to the end to load more search result!</td></tr>';
-    var tempText = (match ? 'Could not find the lib you\'re looking for?' : 'We are sorry, the library you\'re searching for cannot be found.');
-    var tempText2 =
+    // Add a footer with some useful links
+    var libraryName = escape(content.query);
+    var message = (match ? 'Could not find the lib you\'re looking for?' : 'We are sorry, the library you\'re searching for cannot be found.');
+    var footer =
       '<br /><td class="text-center well" colspan="2">' +
-      tempText + '<br /> You can ' +
+      message + '<br /> You can ' +
       '<a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md" target="_blank">contribute it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank"><strong>requirement</strong></a>.' +
       'Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
       '</td>';
-    if (lazyScroll) {
-      html += scrollToEndText;
-    }
+    html += footer;
 
-    html += tempText2;
-
+    // Put the results in the DOM
     $hits.html(html);
 
+    // Register new copy buttons
     setupMouseEvents();
+
+    // Stop loading & update scroll position
     appLoading.stop();
     scrollProgress.update();
   }
@@ -331,8 +327,6 @@
     location.hash = '';
   });
 
-  var lastHashQuery;
-
   function replaceHash(ev, val) {
     // Only replace the hash if we press enter
     if (val && val !== lastHashQuery
@@ -344,44 +338,48 @@
     }
   }
 
-  var algolia = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'); // public/search-only credentials
-  var index = algolia.initIndex('libraries');
-  var lastQuery;
+  function doSearch(val) {
+    // Visual indicator that we're searching
+    appLoading.start();
+
+    // Move the search box to the top if on homepage
+    animateTop();
+
+    // Reset search status
+    displayPage = 0;
+    lazyScroll = true;
+    cachedQueryResult = {};
+
+    // Run the search
+    index.search(val, { hitsPerPage: queryItems, page: displayPage }, function (err, content) {
+      if (!err) {
+        cachedQueryResult = content;
+      }
+      displayMatchingLibraries(err, content);
+    });
+  }
 
   function searchHandler(ev) {
-    appLoading.start();
+    // Handle the hash
     clearHash();
-
     var val = $(ev.currentTarget).val();
     replaceHash(ev, val);
 
-    if (val === '') {
-      $hits.html($allRows);
-      if (location.pathname === '/libraries') {
-        $('.packages-table-container').show();
-      } else {
-        $('.packages-table-container').hide();
-      }
-
+    // If the search box is clear and we're on the homepage, hide the results and move down the input
+    if (val === '' && location.pathname !== '/libraries') {
+      $('.packages-table-container').hide();
       $nbHitsField.parent().hide();
       animateTopReverse();
-      appLoading.stop();
       scrollProgress.update();
-    } else if (lastQuery !== val) {
-      animateTop();
-      displayPage = 0;
-      lazyScroll = true;
-      cachedQueryResult = {};
-      index.search(val, { hitsPerPage: queryItems, page: displayPage }, function (err, content) {
-        if (!err) {
-          cachedQueryResult = content;
-        }
-
-        displayMatchingLibraries(err, content);
-      });
+      lastQuery = val;
+      return
     }
 
-    lastQuery = val;
+    // If this is a different search from the last, run the search
+    if (lastQuery !== val) {
+      doSearch(val);
+      lastQuery = val;
+    }
   }
 
   function loadMoreSearchResult() {
@@ -395,38 +393,65 @@
     });
   }
 
-  $(window).scroll(_.debounce(function () {
-    if (lazyScroll && $(window).scrollTop() + $(window).height() >= $(document).height() - 1) {
-      loadMoreSearchResult();
-    }
-  }, 100));
-
-  $('#search-box').on('input', searchHandler);
-
-  if ($('#search-box').val() !== '') {
-    $('#search-box').trigger('input');
-  }
-
   function searchByHash() {
     // Perform searches automatically based on the URL hash
     if (location.hash.length > 1) {
       var query = location.hash.match(/q=([^&]+)/);
       if (query) {
         query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
-        $('#search-box').val(query);
-        $('#search-box').trigger('input');
+        $search.val(query);
+        $search.trigger('input');
       }
     }
   }
 
-  searchByHash();
-  $('#search-box').focus();
+  function setupInitialSearch() {
+    // Load more results as the user scrolls
+    $(window).scroll(_.debounce(function () {
+      if (lazyScroll && $(window).scrollTop() + $(window).height() >= $(document).height() - 1) {
+        loadMoreSearchResult();
+      }
+    }, 100));
 
+    // Attach the handler to the search
+    $search.on('input', searchHandler);
+
+    // Do an initial search if there is a value or we're on the libraries page
+    if ($search.val() !== '' || location.pathname === '/libraries') {
+      $search.trigger('input');
+    }
+
+    // Do a second initial search if we have a hash value present
+    searchByHash();
+
+    // Focus the search box
+    $search.focus();
+  }
+
+  /****
+   * Main Scripting
+   ****/
+
+  // Set the loading bar color
+  appLoading.setColor('#FF9900');
+
+  // Setup the CDN provide preference
+  setupCDNProviders();
+
+  // If the user changes the CDN provider, update the hash and global value
   $('.cdn-provider-selector').on('change', function (ev) {
     location.hash = $(ev.currentTarget).val();
     updateCDNProvider(decideCDNProvider());
   });
 
+  // Setup the copy button
+  createBaseCopyButton();
+  setupMouseEvents();
+
+  // Do the initial search setup
+  setupInitialSearch();
+
+  // If the window hash changes, search again and update the CDN provider
   $(window).on('hashchange', function () {
     searchByHash();
     $('.cdn-provider-selector').val(decideCDNProvider());
