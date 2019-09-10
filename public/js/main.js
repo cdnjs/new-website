@@ -1,39 +1,53 @@
 /* eslint-env browser */
-/* global appLoading, $, Clipboard, SRI, ga, _, scrollProgress, algoliasearch, jQuery */
+/* global appLoading, Clipboard, SRI, ga, _, scrollProgress, algoliasearch, jQuery */
 
-appLoading.setColor('#FF9900');
-var cdn_provider_base_url = [];
-var cdn_provider;
-var urlSetDecided = false;
-cdn_provider_base_url.cloudflare = 'https://cdnjs.cloudflare.com/ajax/libs/';
+(function ($) {
+  /****
+   * CDN Provider Scripting
+   ****/
 
-function decideCDNProvider() {
-  var target_cdn_provider = location.hash.substr(1, location.hash.length).toLowerCase();
-  if (!cdn_provider_base_url[target_cdn_provider]) target_cdn_provider = 'cloudflare';
-  return target_cdn_provider;
-}
+  var cdn_provider = '', cdn_provider_base_url = {};
 
-cdn_provider = decideCDNProvider();
-setFileURLs();
+  function decideCDNProvider() {
+    var target_cdn_provider = location.hash.substr(1, location.hash.length).toLowerCase();
+    if (!cdn_provider_base_url[target_cdn_provider]) target_cdn_provider = 'cloudflare';
+    return target_cdn_provider;
+  }
 
-function setFileURLs(new_provider) {
-  if (urlSetDecided === false) {
+  function setupCDNProviders() {
+    // Define providers globally
+    cdn_provider_base_url = {
+      cloudflare: 'https://cdnjs.cloudflare.com/ajax/libs/'
+    };
+
+    // Define initial provider globally
+    cdn_provider = decideCDNProvider();
+
+    // Set library URLs to use provider
     $('p.library-url').each(function () {
       $(this).html(cdn_provider_base_url[cdn_provider] + $(this).html());
     });
+  }
 
-    urlSetDecided = true;
-  } else {
+  function updateCDNProvider(new_provider) {
+    // Set library URLs to use provider
     $('p.library-url').each(function () {
       $(this).html($(this).html().replace(cdn_provider_base_url[cdn_provider], cdn_provider_base_url[new_provider]));
     });
 
+    // Update the global provider
     cdn_provider = new_provider;
   }
-}
 
-(function ($) {
-  var baseURI = cdn_provider_base_url[cdn_provider] + $('#library-name').text() + '/' + $('select.version-selector :selected').val() + '/';
+  // Set the loading bar color
+  appLoading.setColor('#FF9900');
+
+  // Setup the CDN provide preference
+  setupCDNProviders();
+
+  var baseURI = cdn_provider_base_url[cdn_provider] +
+    $('#library-name').text() + '/' +
+    $('select.version-selector :selected').val() + '/';
 
   var copyEl = $('<div/>').addClass('btn-group copy-button-group');
   var copyElButton = $('<button/>').attr('data-copy-type', '').attr('type', 'button').addClass('btn btn-primary btn-sm copy-button').text('Copy');
@@ -96,7 +110,6 @@ function setFileURLs(new_provider) {
       if (clipboard) {
         clipboard.destroy();
       }
-
       setupCopyButton();
     }
   }
@@ -391,13 +404,13 @@ function setFileURLs(new_provider) {
 
   $('.cdn-provider-selector').on('change', function (ev) {
     location.hash = $(ev.currentTarget).val();
-    setFileURLs(decideCDNProvider());
+    updateCDNProvider(decideCDNProvider());
   });
 
   $(window).on('hashchange', function () {
     searchByHash();
     $('.cdn-provider-selector').val(decideCDNProvider());
-    setFileURLs(decideCDNProvider());
+    updateCDNProvider(decideCDNProvider());
   });
 
   $('.version-selector').on('change', function (ev) {
