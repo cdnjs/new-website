@@ -39,82 +39,62 @@
     cdn_provider = new_provider;
   }
 
-  // Set the loading bar color
-  appLoading.setColor('#FF9900');
+  /****
+   * Copy Button Scripting
+   ****/
 
-  // Setup the CDN provide preference
-  setupCDNProviders();
+  var baseURI, copyEl, clipboard;
 
-  var baseURI = cdn_provider_base_url[cdn_provider] +
-    $('#library-name').text() + '/' +
-    $('select.version-selector :selected').val() + '/';
+  function generateCopyDropdown(sri) {
+    var SRIcopyButton = '', SRIcopyWithoutTagButton = '';
 
-  var copyEl = $('<div/>').addClass('btn-group copy-button-group');
-  var copyElButton = $('<button/>').attr('data-copy-type', '').attr('type', 'button').addClass('btn btn-primary btn-sm copy-button').text('Copy');
-  var toggleButton = $('<button/>').attr('data-toggle', 'dropdown').attr('type', 'button').addClass('btn btn-primary btn-sm dropdown-toggle').append($('<span/>').addClass('caret'));
-  copyElButton.appendTo(copyEl);
-  toggleButton.appendTo(copyEl);
-  var SRIcopyButton = '';
-  var SRIcopyWithoutTagButton = '';
-  if (typeof (SRI) !== 'undefined') {
-    SRIcopyButton =
-      '  <li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
-      '  <li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
-    SRIcopyWithoutTagButton =
-      '  <li class="js css"><a data-copy-embed="file-sri" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
+    if (typeof (SRI) !== 'undefined' || typeof (sri) !== 'undefined') {
+      var SRIdata = typeof (sri) !== 'undefined' ? ' data-sri="' + sri + '"' : '';
+      SRIcopyButton =
+        '  <li class="js"><a data-copy-embed="script-sri" data-copy-type="https:"' + SRIdata + ' class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
+        '  <li class="css"><a data-copy-embed="link-sri" data-copy-type="https:"' + SRIdata + ' class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
+      SRIcopyWithoutTagButton =
+        '  <li class="js css"><a data-copy-embed="file-sri" class="copy-button"' + SRIdata + ' href="javascript:void(0);">Copy SRI</a></li>';
+    }
+
+    return '<ul class="dropdown-menu copy-options">' +
+      '  <li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' +
+      SRIcopyWithoutTagButton +
+      SRIcopyButton +
+      '  <li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
+      '  <li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
+      '</ul>';
   }
 
-  copyEl.append('<ul class="dropdown-menu copy-options">' +
-    '  <li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' +
-    SRIcopyWithoutTagButton +
-    SRIcopyButton +
-    '  <li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
-    '  <li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
-    '</ul>');
-  copyEl.attr('style', 'display: none;');
-  copyEl.appendTo('body');
-  var clipboard;
+  function createBaseCopyButton() {
+    baseURI = cdn_provider_base_url[cdn_provider] +
+      $('#library-name').text() + '/' +
+      $('select.version-selector :selected').val() + '/';
 
-  function setupMouseEvents() {
-    // Currently not showing the copy button for iOS, check clipboard.js support
-    if (!(/iPhone|iPad/i.test(navigator.userAgent))) {
-      $('.packages-table-container table tbody tr, .library-table-container table tbody tr').hover(function (ev) {
-        if ($(".packages-table-container")[0]) {
-          var SRIcopyButton = '';
-          var SRIcopyWithoutTagButton = '';
-          if (this.dataset.sri !== 'undefined' && this.dataset.sri !== "") {
-            SRIcopyButton =
-              '  <li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
-              '  <li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
-            SRIcopyWithoutTagButton =
-              '  <li class="js css"><a data-copy-embed="file-sri" data-sri="' + this.dataset.sri + '" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
-          }
+    copyEl = $('<div/>')
+      .addClass('btn-group copy-button-group');
 
-          copyEl.children('ul').remove();
-          copyEl.append('<ul class="dropdown-menu copy-options">' +
-            '  <li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' +
-            SRIcopyWithoutTagButton +
-            SRIcopyButton +
-            '  <li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
-            '  <li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
-            '</ul>');
-        }
-        var cont = $(ev.currentTarget);
-        var libraryColumn = cont.find('.library-column');
-        copyEl.show();
-        copyEl.appendTo(libraryColumn);
-      }, function () {
-        copyEl.hide();
-      });
+    $('<button/>')
+      .attr('data-copy-type', '')
+      .attr('type', 'button')
+      .addClass('btn btn-primary btn-sm copy-button')
+      .text('Copy')
+      .appendTo(copyEl);
 
-      if (clipboard) {
-        clipboard.destroy();
-      }
-      setupCopyButton();
-    }
+    $('<button/>')
+      .attr('data-toggle', 'dropdown')
+      .attr('type', 'button')
+      .addClass('btn btn-primary btn-sm dropdown-toggle')
+      .append($('<span/>').addClass('caret'))
+      .appendTo(copyEl);
+
+    copyEl.append(generateCopyDropdown());
+    copyEl.attr('style', 'display: none;');
+    copyEl.appendTo('body');
   }
 
   function setupCopyButton() {
+    // Create the clipboard handler
     clipboard = new Clipboard('.copy-button', {
       text: function (trigger) {
         var $button = $(trigger),
@@ -148,6 +128,7 @@
       }
     });
 
+    // Show copied tooltip on copy
     clipboard.on('success', function (e) {
       var button = $(e.trigger);
       var btContainer = button.parents('.copy-button-group').tooltip({
@@ -164,6 +145,7 @@
       ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
     });
 
+    // Revert to text box if copy fails
     clipboard.on('error', function (e) {
       var button = $(e.trigger);
       var msg;
@@ -188,7 +170,45 @@
     });
   }
 
+  function setupMouseEvents() {
+    // Currently not showing the copy button for iOS, check clipboard.js support
+    if (!(/iPhone|iPad/i.test(navigator.userAgent))) {
+      $('.packages-table-container table tbody tr, .library-table-container table tbody tr').hover(function (ev) {
+        // If we're on a search page, update the buttons for the right lib
+        if ($(".packages-table-container")[0]) {
+          copyEl.children('ul').remove();
+          copyEl.append(generateCopyDropdown(this.dataset.sri));
+        }
+
+        // Show the button
+        copyEl.appendTo($(ev.currentTarget).find('.library-column'));
+        copyEl.show();
+      }, function () {
+        // Hide the button when hover ends
+        copyEl.hide();
+      });
+
+      // Setup the clipboard handler
+      if (clipboard) clipboard.destroy();
+      setupCopyButton();
+    }
+  }
+
+  /****
+   * Main Scripting
+   ****/
+
+  // Set the loading bar color
+  appLoading.setColor('#FF9900');
+
+  // Setup the CDN provide preference
+  setupCDNProviders();
+
+  // Setup the copy button
+  createBaseCopyButton();
   setupMouseEvents();
+
+  // TODO: below
 
   var displayPage = 0;
   var queryItems = 20;
