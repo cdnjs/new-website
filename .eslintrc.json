@@ -15,6 +15,10 @@
         "asyncArrow": "always"
       }
     ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
     "no-console": "off"
   },
   "extends": "eslint:recommended"
