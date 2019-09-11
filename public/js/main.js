@@ -34,23 +34,6 @@ function setFileURLs(new_provider) {
 
 (function ($) {
   var baseURI = cdn_provider_base_url[cdn_provider] + $('#library-name').text() + '/' + $('select.version-selector :selected').val() + '/';
-  function selectText(element) {
-    var doc = document;
-    var text = element;
-    var range;
-
-    if (doc.body.createTextRange) { // ms
-      range = doc.body.createTextRange();
-      range.moveToElementText(text);
-      range.select();
-    } else if (window.getSelection) { // moz, opera, webkit
-      var selection = window.getSelection();
-      range = doc.createRange();
-      range.selectNodeContents(text);
-      selection.removeAllRanges();
-      selection.addRange(range);
-    }
-  }
 
   var copyEl = $('<div/>').addClass('btn-group copy-button-group');
   var copyElButton = $('<button/>').attr('data-copy-type', '').attr('type', 'button').addClass('btn btn-primary btn-sm copy-button').text('Copy');
@@ -73,7 +56,6 @@ function setFileURLs(new_provider) {
                 '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
                 '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
                 '</ul>');
-  var copyContainer = $('<div/>');
   copyEl.attr('style', 'display: none;');
   copyEl.appendTo('body');
   var clipboard;
@@ -105,8 +87,7 @@ function setFileURLs(new_provider) {
         var libraryColumn = cont.find('.library-column');
         copyEl.show();
         copyEl.appendTo(libraryColumn);
-      }, function (e) {
-
+      }, function () {
         copyEl.hide();
       });
 
@@ -121,17 +102,17 @@ function setFileURLs(new_provider) {
   function setupCopyButton() {
     clipboard = new Clipboard('.copy-button', {
       text: function (trigger) {
-        var button = $(trigger);
-        var embed = button.attr('data-copy-embed');
-        var url = $('.library-url', button.parents('.library-column')).text();
-        var fileSRI = '';
+        var $button = $(trigger),
+          url = $('.library-url', $button.parents('.library-column')).text(),
+          fileSRI = '';
+
         if (typeof (SRI) !== 'undefined') {
           fileSRI = SRI[url.replace(baseURI, '')];
-        } else if (button.attr('data-sri') !== 'undefined') {
-          fileSRI = button.attr('data-sri');
+        } else if ($button.attr('data-sri') !== 'undefined') {
+          fileSRI = $button.attr('data-sri');
         }
 
-        switch (embed) {
+        switch ($button.attr('data-copy-embed')) {
           case 'script':
             url = '<script src="' + url + '"></script>';
             break;
@@ -279,36 +260,6 @@ function setFileURLs(new_provider) {
       html += row;
     }
 
-    function getReqLibTmplUrl(libraryName) {
-      var issueUrlPrefix = 'https://github.com/cdnjs/cdnjs/issues/new';
-      var title = '[Request] Add ' + libraryName;
-      var bodys = [
-        '**Library name:** ' + libraryName,
-        '**Library description:** ',
-        '**Git repository url:** ',
-        '**npm package name or url** (if there is one): ',
-        "**License (List them all if it's multiple):** ",
-        '**Official homepage:** ',
-        '**Wanna say something? Leave message here:** ',
-        '',
-        '=====================',
-        '',
-        'Notes from cdnjs maintainer(please remove this section after you read it):',
-        '1. Please read the [README.md](https://github.com/cdnjs/cdnjs#cdnjs-library-repository) and ' +
-        '[CONTRIBUTING.md](https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md) document first.',
-        "2. For the new library request issue, please make sure it's not a personal project, we have a basic requirement for the popularity, like 200 stars on GitHub or 800 downloads/month on npm registry.",
-        '',
-        'We encourage you to add a library via sending pull request,',
-        "it'll be faster than just opening a request issue,",
-        'since there are tons of issues, please wait with patience,',
-        "and please don't forget to read the guidelines for contributing, thanks!!"
-      ];
-
-      return issueUrlPrefix +
-        '?title=' + escape(title) +
-        '&body=' + escape(_.join(bodys, '\n'));
-    }
-
     var libraryName = escape(content.query);
 
     var scrollToEndText = '<br /><tr><td class="text-center well" colspan="2">Scroll down to the end to load more search result!</td></tr>';
@@ -406,9 +357,8 @@ function setFileURLs(new_provider) {
     });
   }
 
-  var windowSelector = $(window);
-  windowSelector.scroll(_.debounce(function () {
-    if (lazyScroll && windowSelector.scrollTop() + windowSelector.height() >= $(document).height() - 1) {
+  $(window).scroll(_.debounce(function () {
+    if (lazyScroll && $(window).scrollTop() + $(window).height() >= $(document).height() - 1) {
       loadMoreSearchResult();
     }
   }, 100));
@@ -432,8 +382,6 @@ function setFileURLs(new_provider) {
   }
 
   searchByHash();
-  // Put favorite libraries at the top of the list
-  // putClassOnFavorites(getFavorites());
   $('#search-box').focus();
 
   $('.cdn-provider-selector').on('change', function (ev) {
@@ -448,10 +396,8 @@ function setFileURLs(new_provider) {
   });
 
   $('.version-selector').on('change', function (ev) {
-    var libraryVersion = $(ev.currentTarget).val();
-    var libraryName = $('#library-name').text();
-    var newURL = window.location.origin + '/libraries/' + libraryName + '/' + libraryVersion;
-    window.location.href = newURL;
+    window.location.href = window.location.origin + '/libraries/' +
+      $('#library-name').text() + '/' + $(ev.currentTarget).val(); // library name / library version
   });
 
   console.log('%cThanks for using cdnjs! 😊', 'font: 5em roboto; color: #e95420;');
