@@ -44,18 +44,19 @@ function setFileURLs(new_provider) {
   var SRIcopyWithoutTagButton = '';
   if (typeof (SRI) !== 'undefined') {
     SRIcopyButton =
-      '<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
-      '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
+      '  <li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
+      '  <li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
     SRIcopyWithoutTagButton =
-      '<li class="js css"><a data-copy-embed="file-sri" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
+      '  <li class="js css"><a data-copy-embed="file-sri" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
   }
 
   copyEl.append('<ul class="dropdown-menu copy-options">' +
-                '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
-                SRIcopyButton +
-                '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
-                '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
-                '</ul>');
+    '  <li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' +
+    SRIcopyWithoutTagButton +
+    SRIcopyButton +
+    '  <li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
+    '  <li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
+    '</ul>');
   copyEl.attr('style', 'display: none;');
   copyEl.appendTo('body');
   var clipboard;
@@ -69,18 +70,19 @@ function setFileURLs(new_provider) {
           var SRIcopyWithoutTagButton = '';
           if (this.dataset.sri !== 'undefined' && this.dataset.sri !== "") {
             SRIcopyButton =
-              '<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
-              '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
+              '  <li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
+              '  <li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" data-sri="' + this.dataset.sri + '" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
             SRIcopyWithoutTagButton =
-              '<li class="js css"><a data-copy-embed="file-sri" data-sri="' + this.dataset.sri + '" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
+              '  <li class="js css"><a data-copy-embed="file-sri" data-sri="' + this.dataset.sri + '" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
           }
 
           copyEl.children('ul').remove();
           copyEl.append('<ul class="dropdown-menu copy-options">' +
-            '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
-              SRIcopyButton +
-            '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
-            '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
+            '  <li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' +
+            SRIcopyWithoutTagButton +
+            SRIcopyButton +
+            '  <li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
+            '  <li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
             '</ul>');
         }
         var cont = $(ev.currentTarget);
@@ -183,6 +185,7 @@ function setFileURLs(new_provider) {
   var $processingTimeMS = $('#processing-time-ms');
   var $hits = $('.packages-table-container tbody');
   var $allRows = $hits.html();
+
   function displayMatchingLibraries(err, content) {
     $('.packages-table-container').show();
     if (err) {
@@ -229,33 +232,33 @@ function setFileURLs(new_provider) {
         var user = getSafeHighlightedValue(hit._highlightResult.github.user);
         var repo = getSafeHighlightedValue(hit._highlightResult.github.repo);
         githubDetails = '<ul class="list-inline">' +
-          '<li><i class="fab fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '" target="_blank">' + user + '/' + repo + '</a></li>' +
-          '<li><i class="fas fa-eye"></i> ' + hit.github.subscribers_count + '</li>' +
-          '<li><i class="fas fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
-          '<li><i class="fas fa-code-branch"></i> ' + hit.github.forks + '</li>' +
-        '</ul>';
+          '  <li><i class="fab fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '" target="_blank">' + user + '/' + repo + '</a></li>' +
+          '  <li><i class="fas fa-eye"></i> ' + hit.github.subscribers_count + '</li>' +
+          '  <li><i class="fas fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
+          '  <li><i class="fas fa-code-branch"></i> ' + hit.github.forks + '</li>' +
+          '</ul>';
       }
 
       var description = getSafeHighlightedValue(hit._highlightResult.description);
       var row = '<tr id="' + hit.objectID + '" data-sri="' + hit.sri + '">' +
-        '<td>' +
-          '<a id="libLink" href="/libraries/' + hit.name + '">' +
-            '<span itemprop="name">' + hit._highlightResult.name.value + '</span>' +
-            '<p class="text-muted">' + description + '</p>' +
-          '</a>' +
-          '<ul class="list-inline">' +
-            $.map(hit._highlightResult.keywords || [], function (e) {
-              var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
-              return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>';
-            }).join(' ') +
-          '</ul>' +
-          githubDetails +
-        '</td>' +
-        '<td style="white-space: nowrap;">' +
-          '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
-            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url[cdn_provider] + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
-          '</div>' +
-        '</td>' +
+      '  <td>' +
+      '    <a id="libLink" href="/libraries/' + hit.name + '">' +
+      '      <span itemprop="name">' + hit._highlightResult.name.value + '</span>' +
+      '      <p class="text-muted">' + description + '</p>' +
+      '    </a>' +
+      '    <ul class="list-inline">' +
+      $.map(hit._highlightResult.keywords || [], function (e) {
+        var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
+        return '      <li class="label label-default ' + extraClass + '">' + e.value + '</li>';
+      }).join(' ') +
+      '    </ul>' +
+      '    ' + githubDetails +
+      '  </td>' +
+      '  <td style="white-space: nowrap;">' +
+      '    <div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
+      '      <p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url[cdn_provider] + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
+      '    </div>' +
+      '  </td>' +
       '</tr>';
       html += row;
     }
@@ -268,7 +271,7 @@ function setFileURLs(new_provider) {
       '<br /><td class="text-center well" colspan="2">' +
       tempText + '<br /> You can ' +
       '<a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md" target="_blank">contribute it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank"><strong>requirement</strong></a>.' +
-        ' Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
+      'Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
       '</td>';
     if (lazyScroll) {
       html += scrollToEndText;
@@ -296,11 +299,12 @@ function setFileURLs(new_provider) {
   });
 
   var lastHashQuery;
+
   function replaceHash(ev, val) {
     // Only replace the hash if we press enter
     if (val && val !== lastHashQuery
-        && ev.keyCode === 13
-        && 'replaceState' in history) {
+      && ev.keyCode === 13
+      && 'replaceState' in history) {
       var encodedVal = encodeURIComponent(val).replace(/%20/g, '+');
       history.replaceState('', '', '#q=' + encodedVal);
       lastHashQuery = val;
@@ -310,6 +314,7 @@ function setFileURLs(new_provider) {
   var algolia = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'); // public/search-only credentials
   var index = algolia.initIndex('libraries');
   var lastQuery;
+
   function searchHandler(ev) {
     appLoading.start();
     clearHash();
