@@ -2,6 +2,9 @@
 /* global Clipboard, SRI, ga, algoliasearch, appLoading, scrollProgress, _, jQuery */
 
 (function ($) {
+  // Set the loading bar color
+  appLoading.setColor('#FF9900');
+
   /****
    * CDN Provider Scripting
    ****/
@@ -432,9 +435,6 @@
    * Main Scripting
    ****/
 
-  // Set the loading bar color
-  appLoading.setColor('#FF9900');
-
   // Setup the CDN provide preference
   setupCDNProviders();
 
@@ -458,25 +458,31 @@
     updateCDNProvider(decideCDNProvider());
   });
 
+  // If the user changes library version, go to that new version
   $('.version-selector').on('change', function (ev) {
     window.location.href = window.location.origin + '/libraries/' +
       $('#library-name').text() + '/' + $(ev.currentTarget).val(); // library name / library version
   });
 
+  // Thank the user in console, why not?
   console.log('%cThanks for using cdnjs! 😊', 'font: 5em roboto; color: #e95420;');
-  $(function () {
-    $.scrollUp({
-      animation: 'slide',
-      scrollDistance: 800,
-      activeOverlay: false,
-    });
+
+  // Enable the scroll to top button
+  $.scrollUp({
+    animation: 'slide',
+    scrollDistance: 800,
+    activeOverlay: false,
   });
 
+  // Position the scroll progress bar to be at the top & cdnjs theme
+  // Do this last so that the bar doesn't show till we're done
   scrollProgress.set({
     color: '#DD4814',
     height: '2px',
     bottom: false
   });
+
+  // If the user resizes the browser, update the scroll position
   window.onresize = function () {
     scrollProgress.update();
   };
