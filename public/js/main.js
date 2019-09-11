@@ -1,3 +1,6 @@
+/* eslint-env browser */
+/* global appLoading, $, Clipboard, SRI, ga, _, scrollProgress, algoliasearch, jQuery */
+
 appLoading.setColor('#FF9900');
 var cdn_provider_base_url = [];
 var cdn_provider;
@@ -30,7 +33,7 @@ function setFileURLs(new_provider) {
 }
 
 (function ($) {
-  baseURI = cdn_provider_base_url[cdn_provider] + $('#library-name').text() + '/' + $('select.version-selector :selected').val() + '/';
+  var baseURI = cdn_provider_base_url[cdn_provider] + $('#library-name').text() + '/' + $('select.version-selector :selected').val() + '/';
   function selectText(element) {
     var doc = document;
     var text = element;
