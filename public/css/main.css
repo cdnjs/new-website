@@ -103,7 +103,6 @@ ul.dropdown-menu > li {
   float: left;
 }
 
-
 /* New CarbonAds styles */
 
 #default_demo #_default_ {
@@ -254,11 +253,10 @@ tr {
 }
 
 #libLink {
-    text-decoration: none;
-    display: inline-block;
+  display: inline-block;
+  text-decoration: none;
 }
 
 #libLink:hover span {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
