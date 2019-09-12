@@ -70,7 +70,7 @@ body {
 p#name a{
   bottom: 8px;
   color: #007ba8;
-  font-family: arial, helvetica;
+  font-family: arial, helvetica, sans-serif;
   font-weight: bold;
   position: relative;
   text-decoration: none;
@@ -78,7 +78,7 @@ p#name a{
 
 p#date{
   color: #919191;
-  font-family: helvetica;
+  font-family: helvetica, sans-serif;
   font-size: .8em;
   margin: 0 25px 15px 0;
   position: relative;
