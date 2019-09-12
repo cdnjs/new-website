@@ -4,9 +4,10 @@
   "description": "new-website ===========",
   "main": "server.js",
   "scripts": {
-    "test": "npm run test:echint && npm run test:eslint",
+    "test": "npm run test:echint && npm run test:eslint && npm run test:stylelint",
     "test:echint": "echint -i \"sri/**/*\" -i \"public/**/*\" -v \"tutorials/**/*\" -v",
     "test:eslint": "eslint *.js",
+    "test:stylelint": "stylelint public/css/*.css",
     "start:api": "node --expose-gc apiServer.js",
     "start:web": "node --expose-gc webServer.js",
     "dev:api": "LOCAL=true node apiServer.js",
@@ -50,6 +51,9 @@
   },
   "devDependencies": {
     "echint": "^4.0.2",
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-order": "^3.1.0"
   }
 }
