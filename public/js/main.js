@@ -255,10 +255,12 @@ function setFileURLs(new_provider) {
       var description = getSafeHighlightedValue(hit._highlightResult.description);
       var row = '<tr id="' + hit.objectID + '" data-sri="' + hit.sri + '">' +
         '<td>' +
-          '<p><a itemprop="name" href="/libraries/' + hit.name + '">' +
-            hit._highlightResult.name.value +
-          '</a></p>' +
-          '<p class="text-muted">' + description + '</p>' +
+          '<div class="clickable" style="cursor:pointer;">' +
+            '<a itemprop="name" href="/libraries/' + hit.name + '">' +
+              hit._highlightResult.name.value +
+            '</a>' +
+            '<p class="text-muted">' + description + '</p>' +
+          '</div>' +
           '<ul class="list-inline">' +
             $.map(hit._highlightResult.keywords || [], function (e) {
               var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
@@ -443,6 +445,10 @@ function setFileURLs(new_provider) {
     $('.cdn-provider-selector').val(decideCDNProvider());
     setFileURLs(decideCDNProvider());
   });
+
+    $(document).on('click', '.clickable', function() {
+        window.location = $(this).find("a").attr("href");
+    })
 
   $('.version-selector').on('change', function (ev) {
     var libraryVersion = $(ev.currentTarget).val();
