@@ -231,6 +231,10 @@ tr {
   background-color: #2ecc71;
 }
 
-#libDesc {
+#libLink {
     text-decoration: none;
+}
+
+#libLink span:hover {
+    text-decoration: underline;
 }
