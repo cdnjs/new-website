@@ -233,8 +233,10 @@ tr {
 
 #libLink {
     text-decoration: none;
+    display: inline-block;
 }
 
-#libLink span:hover {
+#libLink:hover span {
     text-decoration: underline;
 }
+
