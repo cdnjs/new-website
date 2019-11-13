@@ -45,6 +45,19 @@ function humanOutput(res, json) {
   htmlOutput = null;
 }
 
+function escapeHtml(unsafe) {
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function safeFields(unsafe) {
+  return _.map(unsafe, escapeHtml);
+}
+
 var packages = JSON.parse(fs.readFileSync('public/packages.min.json', 'utf8')).packages;
 
 // build an indexed version of the packages (speed up lookup)
@@ -86,7 +99,7 @@ app.get('/libraries', function (req, res) {
   }
 
   res.setHeader('Expires', new Date(Date.now() + 360 * 60 * 1000).toUTCString());
-  var fields = (req.query.fields && req.query.fields.split(',')) || [];
+  var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
   if (req.query.search) {
     var searchParams = {
       typoTolerance: 'min', // only keep the minimum typos
@@ -129,7 +142,7 @@ app.get('/libraries', function (req, res) {
 
 app.get('/libraries/:library', function (req, res) {
   var results;
-  var fields = (req.query.fields && req.query.fields.split(',')) || false;
+  var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
   var ret = {};
 
   app.set('json spaces', 0);
@@ -143,7 +156,7 @@ app.get('/libraries/:library', function (req, res) {
     return false;
   });
 
-  if (fields && results.length > 0) {
+  if (fields.length && results.length) {
     _.each(fields, function (field) {
       ret[field] = results[0][field] || null;
     });
