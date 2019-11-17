@@ -231,3 +231,13 @@ tr {
 .status-color-dot.none {
   background-color: #2ecc71;
 }
+
+#libLink {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#libLink:hover span {
+    text-decoration: underline;
+}
+
