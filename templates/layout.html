@@ -9,15 +9,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{title}}</title>
-    <meta property="og:title" content="{{title}}" />
-    <meta property="og:site_name" content="cdnjs.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://cdnjs.com{{{url}}}" />
-    <meta property="og:image" content="/img/logotext.png" />
-    <meta property="og:description" content="{{description}}" />
+
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{{title}}" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="cdnjs.com" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://cdnjs.com{{{url}}}" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://cdnjs.com/img/cdnjs-banner.png" />
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{{description}}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@cdnjs" />
+    <meta name="twitter:url" content="https://cdnjs.com{{{url}}}" />
+    <meta name="twitter:title" content="cdnjs.com" />
+    <meta name="twitter:description" content="{{description}}" />
+    <meta name="twitter:image" content="https://cdnjs.com/img/cdnjs-banner.png" />
+
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="{{description}}" />
     <meta name="keywords" content="{{keywords}}" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/orange/pace-theme-minimal.min.css" integrity="sha256-kb8pRNu1sIwQEWAO/Mqt1S5PZ5xiLd4nBMoSsqdxKPs=" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous" async></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/united/bootstrap.min.css" integrity="sha256-IYGI0ovdtvTnw19p8rG6jZjmlX+5x+4rw9uAhk+5OC4=" crossorigin="anonymous" />
@@ -25,14 +35,14 @@
     <link rel="stylesheet" href="/css/theme.css" />
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/app-loading/0.0.51/app-loading.min.css" integrity="sha256-CYVY39mQQ+3yRKbAaPcIrOcRUUVw+L3BFBM1s/lRb0s=" crossorigin="anonymous" />
     <link rel="dns-prefetch" href="//cdn.carbonads.com" />
     <link rel="dns-prefetch" href="//static.getclicky.com" />
     <link rel="dns-prefetch" href="//www.google-analytics.com" />
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="cdnjs" />
-    <link rel="shortcut icon" href="https://cdnjs.com/favicon.ico" />
-    <link rel="icon" href="https://cdnjs.com/favicon.ico" />
+
+    <link rel="shortcut icon" type="image/png" href="https://cdnjs.com/img/cdnjs-icon.png" />
+    <link rel="icon" type="image/png" href="https://cdnjs.com/img/cdnjs-icon.png" />
     <link rel="canonical" href="https://cdnjs.com" />
   </head>
 

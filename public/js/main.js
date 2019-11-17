@@ -255,10 +255,10 @@ function setFileURLs(new_provider) {
       var description = getSafeHighlightedValue(hit._highlightResult.description);
       var row = '<tr id="' + hit.objectID + '" data-sri="' + hit.sri + '">' +
         '<td>' +
-          '<p><a itemprop="name" href="/libraries/' + hit.name + '">' +
-            hit._highlightResult.name.value +
-          '</a></p>' +
-          '<p class="text-muted">' + description + '</p>' +
+          '<a id="libLink" href="/libraries/' + hit.name + '">' +
+            '<span itemprop="name">' + hit._highlightResult.name.value + '</span>' +
+            '<p class="text-muted">' + description + '</p>' +
+          '</a>' +
           '<ul class="list-inline">' +
             $.map(hit._highlightResult.keywords || [], function (e) {
               var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
