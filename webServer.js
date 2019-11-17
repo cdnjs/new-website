@@ -96,11 +96,18 @@ function start() {
   }
 
   function getTemplate(templateURL, simple) {
+    var stats = fs.statSync(templateURL);
+    var mtime = stats.mtime;
     if (simple === true) {
-      return fs.readFileSync(templateURL, 'utf8');
+      return {
+        content: fs.readFileSync(templateURL, 'utf8'),
+        lastModified: mtime
+      };
     }
-
-    return removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8')));
+    return {
+      content: removeNewline(condenseWhitespace(fs.readFileSync(templateURL, 'utf8'))),
+      lastModified: mtime
+    };
   }
 
   // Templates
@@ -125,7 +132,7 @@ function start() {
   };
 
   var generatePage = function (options) {
-    var layout = options.layout || templates.layout;
+    var layout = (options.layout || templates.layout).content;
     var title = options.title || TITLE;
     var keywords = options.page.data && options.page.data.library && options.page.data.library.keywords || 'CDN,cdnjs,js,css,library,web,front-end,free,open-source,png,plugin,ng,jQuery,angular';
     var description = (options.page && options.page.description) ? options.page.description + ' - ' + TITLE : TITLE;
@@ -146,9 +153,29 @@ function start() {
     return fullContent;
   };
 
-  var setCache = function (res, hours) {
-    res.setHeader('Cache-Control', 'public, max-age=' + 60 * 60 * hours + ', immutable');
-    res.setHeader('Expires', new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
+  var cacheCheck = function (req, res, hours, lastModified) {
+    res.setHeader("Cache-Control", "public, max-age=" + 60 * 60 * hours + ", immutable");
+    res.setHeader("Expires", new Date(Date.now() + 60 * 60 * hours * 1000).toUTCString());
+
+    //Get the if-modified-since header from the request
+    var reqModDate = req.headers["if-modified-since"];
+
+    //check if if-modified-since header is the same as the mtime of the file
+    if (lastModified && reqModDate != null) {
+      reqModDate = new Date(reqModDate);
+
+      //compared dates to the nearest second as that is what the if modified since header is accurate to
+      if (Math.floor(reqModDate.getTime() / 1000) === Math.floor(lastModified.getTime() / 1000)) {
+        res.writeHead(304, {
+          "Last-Modified": lastModified.toUTCString()
+        });
+
+        res.end();
+        return true;
+      }
+    }
+
+    return false;
   };
 
   var serverPush = function (res, uri) {
@@ -202,20 +229,23 @@ function start() {
       return res.redirect(301, '/#q=' + req.query.q);
     }
 
-    pushAssets(res);
-    serverPush(res, '/img/algolia.svg');
-    setCache(res, 2);
-    res.send(generatePage({
-      reqUrl: req.url,
-      page: {
-        template: templates.home,
-        data: {
-          libCount: Object.keys(LIBRARIES_MAP).length,
-          libVerCount: LIBRARIES_VERSIONS
-        }
-      },
-      wrapperClass: 'home'
-    }));
+    var template = templates.home;
+    if (!cacheCheck(req, res, 2, template.lastModified)) {
+      pushAssets(res);
+      serverPush(res, '/img/algolia.svg');
+
+      res.send(generatePage({
+        reqUrl: req.url,
+        page: {
+          template: template.content,
+          data: {
+            libCount: Object.keys(LIBRARIES_MAP).length,
+            libVerCount: LIBRARIES_VERSIONS
+          }
+        },
+        wrapperClass: 'home'
+      }));
+    }
   });
 
   function libraryGitRepoList(library) {
@@ -294,7 +324,7 @@ function start() {
   }
 
   function libraryResponse(req, res) {
-    setCache(res, 1);
+    cacheCheck(req, res, 1);
     var libraryName = req.params.library;
     var library = LIBRARIES_MAP[libraryName];
     var srcpath = path.resolve(__dirname, 'tutorials', libraryName);
@@ -364,7 +394,7 @@ function start() {
       reqUrl: req.url,
       title: libraryName + ' - ' + TITLE,
       page: {
-        template: templates.library,
+        template: templates.library.content,
         data: {
           library: library,
           assets: assets,
@@ -393,18 +423,20 @@ function start() {
       return tutorialPackage;
     });
 
-    setCache(res, 72);
-    res.send(generatePage({
-      reqUrl: req.url,
-      title: library + ' tutorials - ' + TITLE,
-      page: {
-        template: templates.tutorials,
-        data: {
-          tutorials: tutorialPackages,
-          library: library
+    var template = templates.tutorials;
+    if (!cacheCheck(req, res, 72, template.lastModified)) {
+      res.send(generatePage({
+        reqUrl: req.url,
+        title: library + ' tutorials - ' + TITLE,
+        page: {
+          template: template.content,
+          data: {
+            tutorials: tutorialPackages,
+            library: library
+          }
         }
-      }
-    }));
+      }));
+    }
   });
 
   app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
@@ -418,7 +450,7 @@ function start() {
         reqUrl: req.url,
         title: '404: Tutorial Not Found - ' + TITLE,
         page: {
-          template: templates.notfound
+          template: templates.notfound.content
         }
       }));
     }
@@ -446,25 +478,27 @@ function start() {
       langPrefix: ''
     });
 
-    setCache(res, 72);
-    res.send(generatePage({
-      reqUrl: req.url,
-      title: tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
-      page: {
-        template: templates.tutorial,
-        data: {
-          tute: marked(tutorialFile),
-          avatar: avatar,
-          tutorial: tutorialPackage,
-          disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
-          disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
-          disqus_id: tutorialPackage.disqus_url || req.originalUrl,
-          author: tutorialPackage.author,
-          tutorials: tutorialPackages,
-          library: library
+    var template = templates.tutorial;
+    if (!cacheCheck(req, res, 72, template.lastModified)) {
+      res.send(generatePage({
+        reqUrl: req.url,
+        title: tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
+        page: {
+          template: template.content,
+          data: {
+            tute: marked(tutorialFile),
+            avatar: avatar,
+            tutorial: tutorialPackage,
+            disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
+            disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
+            disqus_id: tutorialPackage.disqus_url || req.originalUrl,
+            author: tutorialPackage.author,
+            tutorials: tutorialPackages,
+            library: library
+          }
         }
-      }
-    }));
+      }));
+    }
   });
 
   app.get('/libraries/:library/:version', libraryResponse);
@@ -472,20 +506,21 @@ function start() {
   app.get('/libraries/:library', libraryResponse);
 
   app.get('/libraries', function (req, res) {
-    setCache(res, 2);
-
-    res.send(generatePage({
-      reqUrl: req.url,
-      title: 'libraries - ' + TITLE,
-      page: {
-        template: templates.libraries,
-        data: {
-          packages: _.toArray(LIBRARIES_MAP),
-          libCount: Object.keys(LIBRARIES_MAP).length,
-          libVerCount: LIBRARIES_VERSIONS
+    var template = templates.libraries;
+    if (!cacheCheck(req, res, 2, null)) {
+      res.send(generatePage({
+        reqUrl: req.url,
+        title: 'libraries - ' + TITLE,
+        page: {
+          template: template.content,
+          data: {
+            packages: _.toArray(LIBRARIES_MAP),
+            libCount: Object.keys(LIBRARIES_MAP).length,
+            libVerCount: LIBRARIES_VERSIONS
+          }
         }
-      }
-    }));
+      }));
+    }
   });
 
   app.get('/gitstats', function (req, res) {
@@ -497,25 +532,29 @@ function start() {
   });
 
   app.get('/about', function (req, res) {
-    setCache(res, 72);
-    res.send(generatePage({
-      reqUrl: req.url,
-      title: 'about - ' + TITLE,
-      page: {
-        template: templates.about
-      }
-    }));
+    var template = templates.about;
+    if (!cacheCheck(req, res, 72, template.lastModified)) {
+      res.send(generatePage({
+        reqUrl: req.url,
+        title: 'about - ' + TITLE,
+        page: {
+          template: template.content
+        }
+      }));
+    }
   });
 
   app.get('/api', function (req, res) {
-    setCache(res, 72);
-    res.send(generatePage({
-      reqUrl: req.url,
-      title: 'API - ' + TITLE,
-      page: {
-        template: templates.api
-      }
-    }));
+    var template = templates.api;
+    if (!cacheCheck(req, res, 72, template.lastModified)) {
+      res.send(generatePage({
+        reqUrl: req.url,
+        title: 'API - ' + TITLE,
+        page: {
+          template: template.content
+        }
+      }));
+    }
   });
 
   app.use(function (req, res) {
