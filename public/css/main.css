@@ -66,6 +66,7 @@
 }
 .copy-button-group .copy-button {
     padding-left: 4px;
+    padding-right: 4px;
     font-size: 15px;
 }
 
