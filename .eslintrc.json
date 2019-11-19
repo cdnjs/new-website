@@ -19,7 +19,11 @@
       "error",
       "always"
     ],
-    "no-console": "off"
+    "no-console": "off",
+    "unicorn/explicit-length-check": "error"
   },
-  "extends": "eslint:recommended"
+  "extends": "eslint:recommended",
+  "plugins": [
+    "unicorn"
+  ]
 }

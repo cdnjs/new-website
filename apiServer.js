@@ -156,7 +156,7 @@ app.get('/libraries/:library', function (req, res) {
     return false;
   });
 
-  if (fields.length && results.length) {
+  if (fields.length > 0 && results.length > 0) {
     _.each(fields, function (field) {
       ret[field] = results[0][field] || null;
     });

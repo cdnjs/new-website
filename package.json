@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "echint": "^4.0.2",
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "eslint-plugin-unicorn": "^13.0.0"
   }
 }
