@@ -52,6 +52,7 @@
   "devDependencies": {
     "echint": "^4.0.2",
     "eslint": "^5.16.0",
+    "eslint-plugin-unicorn": "^13.0.0",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0",
     "stylelint-order": "^3.1.0"
