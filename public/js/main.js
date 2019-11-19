@@ -251,7 +251,8 @@
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
       if (hit._highlightResult.github &&
-        (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
+        (hit._highlightResult.github.repo.matchedWords.length > 0 ||
+          hit._highlightResult.name.matchedWords.length > 0)) {
         match = true;
       }
 
