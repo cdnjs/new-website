@@ -186,7 +186,7 @@ tr {
   font-size: 16px;
 }
 
-.library-url {
+.library-url, .script-tag {
   margin: 5px 0 5px;
 
   /* Selection helper */

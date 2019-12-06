@@ -253,6 +253,7 @@ function setFileURLs(new_provider) {
       }
 
       var description = getSafeHighlightedValue(hit._highlightResult.description);
+      var uri = cdn_provider_base_url[cdn_provider] + hit.originalName + '/' + hit.version + '/' + hit.filename;
       var row = '<tr id="' + hit.objectID + '" data-sri="' + hit.sri + '">' +
         '<td>' +
           '<a id="libLink" href="/libraries/' + hit.name + '">' +
@@ -267,9 +268,9 @@ function setFileURLs(new_provider) {
           '</ul>' +
           githubDetails +
         '</td>' +
-        '<td style="white-space: nowrap;">' +
+        '<td>' +
           '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
-            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url[cdn_provider] + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
+            '<p itemprop="scriptTag" class="script-tag" style="padding: 0; margin: 0">&lt;script src="' + uri + '" integrity="' + hit.sri + '">&lt;/script></p>' +
           '</div>' +
         '</td>' +
       '</tr>';
