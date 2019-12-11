@@ -140,44 +140,37 @@ app.get('/libraries', function (req, res) {
   }
 });
 
-function createTimer(name) {
-  const start = Date.now();
-  return function stop() {
-    const stop = Date.now();
-    console.log(name, "took", stop - start, "ms");
-  };
-}
-
 app.get('/libraries/:library', function (req, res) {
-  var result;
-  const stopTimer = createTimer("get lib");
-
+  var results;
   var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
   var ret = {};
 
   app.set('json spaces', 0);
 
   res.setHeader('Expires', new Date(Date.now() + 360 * 60 * 1000).toUTCString());
-  result = packagesByName[req.params.library];
+  results = _.filter(packagesByName, function (library) {
+    if (library.name === req.params.library) {
+      return library;
+    }
 
-  if (fields.length > 0 && result !== undefined) {
+    return false;
+  });
+
+  if (fields.length > 0 && results.length > 0) {
     _.each(fields, function (field) {
-      ret[field] = result[field] || null;
+      ret[field] = results[0][field] || null;
     });
 
-    result = ret;
+    results[0] = ret;
   }
 
-  if (result !== undefined) {
+  if (results.length > 0) {
     if (req.query.output && req.query.output === 'human') {
-      stopTimer();
-      humanOutput(res, result);
+      humanOutput(res, results[0]);
     } else {
-      stopTimer();
-      res.jsonp(result);
+      res.jsonp(results[0]);
     }
   } else {
-    stopTimer();
     res.jsonp({});
   }
 });

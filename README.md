@@ -19,10 +19,9 @@ npm install
 ## Running
 
 ```sh
-npm install                 # install nodejs dependencies
-export APP=[mainSite|api]   # chose which server you want to run
-export LOCAL=true           # local mode will disable the global.gc() function and CSP header
-./runServer.sh
+npm install          # install nodejs dependencies
+npm run dev:web      # for the website
+npm run dev:api      # for the API
 ```
 
 **Note**:
