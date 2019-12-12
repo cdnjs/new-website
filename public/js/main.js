@@ -354,7 +354,7 @@ function setFileURLs(new_provider) {
   }
 
   var algolia = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'); // public/search-only credentials
-  var index = algolia.initIndex('libraries');
+  var index = algolia.initIndex('libraries.tmp');
   var lastQuery;
   function searchHandler(ev) {
     appLoading.start();
