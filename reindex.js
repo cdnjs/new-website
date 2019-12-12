@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+/**
+ * FIXME(sven): this is an old script that can be removed
+ * See https://github.com/xtuc/cdnjs-go/tree/master/cmd/algolia instead
+ */
+
 var _ = require('lodash');
 var fs = require('fs');
 var algoliasearch = require('algoliasearch');
