@@ -103,7 +103,8 @@ app.get('/libraries', function (req, res) {
   if (req.query.search) {
     var searchParams = {
       typoTolerance: 'min', // only keep the minimum typos
-      hitsPerPage: 1000 // maximum
+      page: req.query.page || 0, // default
+      hitsPerPage: req.query.hitsPerPage || 1000 // maximum
     };
     algoliaIndex.search(req.query.search, searchParams, function (error, content) {
       if (error) {
