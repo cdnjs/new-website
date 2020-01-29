@@ -209,6 +209,36 @@ tbody {
   content: "/\00a0";
 }
 
+tr.defaultFile {
+  background: #fff5f2;
+  border-left: 4px solid #e95420;
+}
+
+tr.defaultFile td:first-child {
+  position: relative;
+}
+
+tr.defaultFile td:first-child::before {
+  background: rgba(0, 0, 0, .7);
+  border-radius: 5px;
+  color: #fff;
+  content: "This file has been marked as the default file for this library";
+  font-size: 12px;
+  left: .5em;
+  min-width: 300px;
+  opacity: 0;
+  padding: .25em .5em;
+  pointer-events: none;
+  position: absolute;
+  text-align: center;
+  top: -1em;
+  transition: opacity .2s;
+}
+
+tr.defaultFile:hover td:first-child::before {
+  opacity: 1;
+}
+
 @font-face {
   font-family: "GothamSSm";
   font-style: normal;
