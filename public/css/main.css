@@ -1,6 +1,6 @@
 /*fork me on GitHub*/
 
-#forkongithub a {
+#fork-on-github a {
   background: #e95420;
   color: #fff;
   font-family: arial, sans-serif;
@@ -14,13 +14,13 @@
   transition: .5s;
 }
 
-#forkongithub a:hover {
+#fork-on-github a:hover {
   background: orange;
   color: #fff;
 }
 
-#forkongithub a::before,
-#forkongithub a::after {
+#fork-on-github a::before,
+#fork-on-github a::after {
   background: #fff;
   content: "";
   display: block;
@@ -31,13 +31,13 @@
   width: 100%;
 }
 
-#forkongithub a::after {
+#fork-on-github a::after {
   bottom: 1px;
   top: auto;
 }
 @media screen and (min-width:1333px) {
 
-  #forkongithub {
+  #fork-on-github {
     display: block;
     height: 200px;
     left: 0;
@@ -48,7 +48,7 @@
     z-index: 0;
   }
 
-  #forkongithub a {
+  #fork-on-github a {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, .8);
     left: -45px;
     position: absolute;
@@ -105,7 +105,7 @@ ul.dropdown-menu > li {
 
 /* New CarbonAds styles */
 
-#default_demo #_default_ {
+#default-demo #_default_ {
   background-color: #f9f9f9;
   border-radius: 3px;
   line-height: 1.5;
@@ -114,57 +114,57 @@ ul.dropdown-menu > li {
   text-align: center;
 }
 
-#default_demo .default-ad {
+#default-demo .default-ad {
   display: none;
 }
 
-#default_demo ._default_ {
+#default-demo ._default_ {
   display: block;
   line-height: 1.5;
   overflow: hidden;
   padding: .5em 2em;
 }
 
-#default_demo ._default_ > * {
+#default-demo ._default_ > * {
   vertical-align: middle;
 }
 
-#default_demo a {
+#default-demo a {
   color: #9a9a9a;
   text-decoration: none;
   transition: color .15s ease-in-out;
 }
 
-#default_demo a:hover {
+#default-demo a:hover {
   color: #e95420;
 }
 
-#default_demo .default-image {
+#default-demo .default-image {
   display: inline-block;
   line-height: 0;
   margin-right: 6px;
 }
 
-#default_demo .default-image img {
+#default-demo .default-image img {
   border-radius: 3px;
   height: 20px;
 }
 
-#default_demo .default-title::after {
+#default-demo .default-title::after {
   content: " — ";
 }
 
-#default_demo .default-title,
-#default_demo .default-description {
+#default-demo .default-title,
+#default-demo .default-description {
   display: inline;
 }
 
-#default_demo .default-title {
+#default-demo .default-title {
   font-weight: 600;
   position: relative;
 }
 
-#default_demo .default-description::after {
+#default-demo .default-description::after {
   border: solid 1px #e95420;
   border-radius: 3px;
   color: #e95420;
