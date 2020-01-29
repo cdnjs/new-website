@@ -94,6 +94,23 @@ app.get('/libraries', function (req, res) {
         data[field] = library[field] || null;
       });
 
+      if (fields.indexOf('sri') > -1) {
+        try {
+          data.sri = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + library.version + '.json'))[library.filename];
+        } catch (err) {
+          data.sri = null;
+        }
+      }
+      if (fields.indexOf('assets') > -1) {
+        _.each(data.assets, function (asset) {
+          try {
+            asset.sri = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + asset.version + '.json'));
+          } catch (e) {
+            asset.sri = {};
+          }
+        })
+      }
+
       return data;
     });
   }
@@ -161,7 +178,37 @@ app.get('/libraries/:library', function (req, res) {
       ret[field] = results[0][field] || null;
     });
 
+    if (fields.indexOf('sri') > -1) {
+      try {
+        ret.sri = JSON.parse(fs.readFileSync('sri/' + req.params.library + '/' + results[0].version + '.json'))[results[0].filename];
+      } catch (err) {
+        ret.sri = null;
+      }
+    }
+    if (fields.indexOf('assets') > -1) {
+      _.each(ret.assets, function (asset) {
+        try {
+          asset.sri = JSON.parse(fs.readFileSync('sri/' + req.params.library + '/' + asset.version + '.json'));
+        } catch (e) {
+          asset.sri = {};
+        }
+      })
+    }
+
     results[0] = ret;
+  } else if (!fields && results.length > 0) {
+    try {
+      results[0].sri = JSON.parse(fs.readFileSync('sri/' + req.params.library + '/' + results[0].version + '.json'))[results[0].filename];
+    } catch (err) {
+      results[0].sri = null;
+    }
+    _.each(results[0].assets, function (asset) {
+      try {
+        asset.sri = JSON.parse(fs.readFileSync('sri/' + req.params.library + '/' + asset.version + '.json'));
+      } catch (e) {
+        asset.sri = {};
+      }
+    })
   }
 
   if (results.length > 0) {
