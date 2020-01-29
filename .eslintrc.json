@@ -1,0 +1,29 @@
+{
+  "env": {
+    "commonjs": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015
+  },
+  "rules": {
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "no-console": "off",
+    "unicorn/explicit-length-check": "error"
+  },
+  "extends": "eslint:recommended",
+  "plugins": [
+    "unicorn"
+  ]
+}

@@ -4,10 +4,16 @@
   "description": "new-website ===========",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "startWeb": "node webServer.js",
-    "startAPI": "node apiServer.js",
-    "reindex": "node reindex.js"
+    "test": "npm run test:echint && npm run test:eslint && npm run test:stylelint && npm run test:html-validate && npm run test:linthtml",
+    "test:echint": "echint -i \"sri/**/*\" -i \"public/**/*\" -v \"tutorials/**/*\" -v",
+    "test:eslint": "eslint *.js public/js/*.js",
+    "test:stylelint": "stylelint public/css/*.css",
+    "test:html-validate": "html-validate templates/*.html",
+    "test:linthtml": "linthtml templates/*.html",
+    "dev:api": "LOCAL=true node apiServer.js",
+    "dev:web": "LOCAL=true node webServer.js",
+    "reindex": "node reindex.js",
+    "clean": "rm -rf node_modules"
   },
   "repository": {
     "type": "git",
@@ -20,25 +26,36 @@
   },
   "homepage": "https://github.com/cdnjs/new-website",
   "engines": {
-    "node": "^6.1.0"
+    "node": "^10"
   },
   "dependencies": {
-    "algoliasearch": "^3.21",
-    "async": "^2.0.1",
-    "body-parser": "^1.15",
-    "colors": "^1.1.2",
-    "compression": "^1.6",
+    "algoliasearch": "^3.32.0",
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "colors": "^1.3.3",
+    "compression": "^1.7.3",
     "condense-whitespace": "^1.0.0",
-    "express": "^4.14",
-    "git-url-parse": "^6.0.5",
-    "github": "^3.0",
-    "gravatar": "^1.5.2",
-    "highlight.js": "^9.6.0",
-    "lodash": "^4.15",
+    "express": "^4.16.4",
+    "git-url-parse": "^11.1.2",
+    "github": "^13.1.0",
+    "glob-to-regexp": "^0.3.0",
+    "gravatar": "^1.8.0",
+    "highlight.js": "^9.14.2",
+    "lodash": "^4.17.11",
     "markdown": "^0.5.0",
-    "marked": "^0.3.6",
-    "mustache": "^2.2.1",
+    "marked": "^0.7.0",
+    "mustache": "^2.3.2",
     "newline-remove": "^1.0.2",
-    "throng": "^1.0.1"
+    "throng": "^4.0.0"
+  },
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.2.6",
+    "echint": "^4.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-unicorn": "^13.0.0",
+    "html-validate": "^1.7.0",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-order": "^3.1.0"
   }
 }

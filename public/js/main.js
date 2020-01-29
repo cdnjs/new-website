@@ -1,105 +1,116 @@
-appLoading.setColor('#FF9900');
-var cdn_provider_base_url = [];
-var cdn_provider;
-var urlSetDecided = false;
-cdn_provider_base_url.cloudflare = 'https://cdnjs.cloudflare.com/ajax/libs/';
+/* eslint-env browser */
+/* global Clipboard, SRI, ga, algoliasearch, appLoading, scrollProgress, _, jQuery */
 
-function decideCDNProvider() {
-  var target_cdn_provider = location.hash.substr(1, location.hash.length).toLowerCase();
-  if (!cdn_provider_base_url[target_cdn_provider]) target_cdn_provider = 'cloudflare';
-  return target_cdn_provider;
-}
+(function ($) {
+  // Set the loading bar color
+  appLoading.setColor('#FF9900');
 
-cdn_provider = decideCDNProvider();
-setFileURLs();
+  /****
+   * CDN Provider Scripting
+   ****/
 
-function setFileURLs(new_provider) {
-  if (urlSetDecided === false) {
-    $('p.library-url').each(function() {
+  var cdn_provider = '', cdn_provider_base_url = {};
+
+  function decideCDNProvider() {
+    var target_cdn_provider = location.hash.substr(1, location.hash.length).toLowerCase();
+    if (!cdn_provider_base_url[target_cdn_provider]) target_cdn_provider = 'cloudflare';
+    return target_cdn_provider;
+  }
+
+  function setupCDNProviders() {
+    // Define providers globally
+    cdn_provider_base_url = {
+      cloudflare: 'https://cdnjs.cloudflare.com/ajax/libs/'
+    };
+
+    // Define initial provider globally
+    cdn_provider = decideCDNProvider();
+
+    // Set library URLs to use provider
+    $('p.library-url').each(function () {
       $(this).html(cdn_provider_base_url[cdn_provider] + $(this).html());
     });
-    urlSetDecided = true;
-  } else {
-    $('p.library-url').each(function() {
+  }
+
+  function updateCDNProvider(new_provider) {
+    // Set library URLs to use provider
+    $('p.library-url').each(function () {
       $(this).html($(this).html().replace(cdn_provider_base_url[cdn_provider], cdn_provider_base_url[new_provider]));
     });
+
+    // Update the global provider
     cdn_provider = new_provider;
   }
-}
 
-(function($) {
-  baseURI = cdn_provider_base_url[cdn_provider] + $('h1#libraryName').html() + '/' + $('select.version-selector :selected').val() + '/';
-  function selectText(element) {
-    var doc = document;
-    var text = element;
-    var range;
+  /****
+   * Copy Button Scripting
+   ****/
 
-    if (doc.body.createTextRange) { // ms
-      range = doc.body.createTextRange();
-      range.moveToElementText(text);
-      range.select();
-    } else if (window.getSelection) { // moz, opera, webkit
-      var selection = window.getSelection();
-      range = doc.createRange();
-      range.selectNodeContents(text);
-      selection.removeAllRanges();
-      selection.addRange(range);
+  var baseURI, copyEl, clipboard;
+
+  function generateCopyDropdown(sri) {
+    var SRIcopyButton = '', SRIcopyWithoutTagButton = '';
+
+    if (typeof (SRI) !== 'undefined' || typeof (sri) !== 'undefined') {
+      var SRIdata = typeof (sri) !== 'undefined' ? ' data-sri="' + sri + '"' : '';
+      SRIcopyButton =
+        '  <li class="js"><a data-copy-embed="script-sri" data-copy-type="https:"' + SRIdata + ' class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
+        '  <li class="css"><a data-copy-embed="link-sri" data-copy-type="https:"' + SRIdata + ' class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>';
+      SRIcopyWithoutTagButton =
+        '  <li class="js css"><a data-copy-embed="file-sri" class="copy-button"' + SRIdata + ' href="javascript:void(0);">Copy SRI</a></li>';
     }
+
+    return '<ul class="dropdown-menu copy-options">' +
+      '  <li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' +
+      SRIcopyWithoutTagButton +
+      SRIcopyButton +
+      '  <li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag without SRI</a></li>' +
+      '  <li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag without SRI</a></li>' +
+      '</ul>';
   }
 
-  var copyEl = $('<div/>').addClass('btn-group copy-button-group');
-  var copyElButton = $('<button/>').attr('data-copy-type', '').attr('type', 'button').addClass('btn btn-primary btn-sm copy-button').text('Copy');
-  var toggleButton = $('<button/>').attr('data-toggle', 'dropdown').attr('type', 'button').addClass('btn btn-primary btn-sm dropdown-toggle').append($('<span/>').addClass('caret'));
-  copyElButton.appendTo(copyEl);
-  toggleButton.appendTo(copyEl);
-  var SRIcopyButton = '';
-  var SRIcopyWithoutTagButton = '';
-  if (typeof (SRI) !== "undefined") {
-    SRIcopyButton =
-      '<li class="js"><a data-copy-embed="script-sri" data-copy-type="https:" class="copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag with SRI</a></li>' +
-      '<li class="css"><a data-copy-embed="link-sri" data-copy-type="https:" class="copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag with SRI</a></li>';
-    SRIcopyWithoutTagButton =
-      '<li class="js css"><a data-copy-embed="file-sri" class="copy-button" href="javascript:void(0);">Copy SRI</a></li>';
-  }
-  copyEl.append('<ul class="dropdown-menu copy-options">' +
-                '<li><a data-copy-type="https:" class="copy-https-url copy-button" href="javascript:void(0);">Copy Url</a></li>' + SRIcopyWithoutTagButton +
-                '<li class="js"><a data-copy-embed="script" data-copy-type="https:" class=" copy-https-script copy-button" href="javascript:void(0);">Copy Script Tag</a></li>' +
-                '<li class="css"><a data-copy-embed="link" data-copy-type="https:" class=" copy-https-link copy-button" href="javascript:void(0);">Copy Link Tag</a></li>' +
-                SRIcopyButton + '</ul>');
-  var copyContainer = $('<div/>');
-  copyEl.attr('style', 'display: none;');
-  copyEl.appendTo('body');
-  var clipboard;
+  function createBaseCopyButton() {
+    baseURI = cdn_provider_base_url[cdn_provider] +
+      $('#library-name').text() + '/' +
+      $('select.version-selector :selected').val() + '/';
 
-  function setupMouseEvents() {
-    // Currently not showing the copy button for iOS, check clipboard.js support
-    if (!(/iPhone|iPad/i.test(navigator.userAgent))) {
-      $('.packages-table-container table tbody tr, .library-table-container table tbody tr').hover(function(ev) {
-        var cont = $(ev.currentTarget);
-        var libraryColumn = cont.find('.library-column');
-        copyEl.show();
-        copyEl.appendTo(libraryColumn);
-      }, function(e){
-        copyEl.hide();
-      });
-      if (clipboard) {
-        clipboard.destroy();
-      }
-      setupCopyButton();
-    }
+    copyEl = $('<div/>')
+      .addClass('btn-group copy-button-group');
+
+    $('<button/>')
+      .attr('data-copy-type', '')
+      .attr('type', 'button')
+      .addClass('btn btn-primary btn-sm copy-button')
+      .text('Copy')
+      .appendTo(copyEl);
+
+    $('<button/>')
+      .attr('data-toggle', 'dropdown')
+      .attr('type', 'button')
+      .addClass('btn btn-primary btn-sm dropdown-toggle')
+      .append($('<span/>').addClass('caret'))
+      .appendTo(copyEl);
+
+    copyEl.append(generateCopyDropdown());
+    copyEl.attr('style', 'display: none;');
+    copyEl.appendTo('body');
   }
 
   function setupCopyButton() {
-    clipboard = new Clipboard(".copy-button", {
-      text: function(trigger) {
-        var button = $(trigger);
-        var embed = button.attr('data-copy-embed');
-        var url = $('.library-url', button.parents('.library-column')).text();
-        var fileSRI = '';
-        if (typeof (SRI) !== "undefined") {
+    // Create the clipboard handler
+    clipboard = new Clipboard('.copy-button', {
+      text: function (trigger) {
+        var $button = $(trigger),
+          url = $('.library-url', $button.parents('.library-column')).text(),
+          fileSRI = '';
+
+        if (typeof (SRI) !== 'undefined') {
           fileSRI = SRI[url.replace(baseURI, '')];
+        } else if ($button.attr('data-sri') !== 'undefined') {
+          fileSRI = $button.attr('data-sri');
         }
-        switch (embed) {
+
+        switch ($button.attr('data-copy-embed')) {
           case 'script':
             url = '<script src="' + url + '"></script>';
             break;
@@ -120,7 +131,8 @@ function setFileURLs(new_provider) {
       }
     });
 
-    clipboard.on("success", function(e) {
+    // Show copied tooltip on copy
+    clipboard.on('success', function (e) {
       var button = $(e.trigger);
       var btContainer = button.parents('.copy-button-group').tooltip({
         trigger: 'manual',
@@ -128,175 +140,264 @@ function setFileURLs(new_provider) {
         title: 'Copied!'
       });
       btContainer.tooltip('show');
-      setTimeout(function() {
+      setTimeout(function () {
         btContainer.tooltip('hide');
         btContainer.tooltip('destroy');
       }, 1000);
+
       ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
     });
 
-    clipboard.on("error", function(e) {
+    // Revert to text box if copy fails
+    clipboard.on('error', function (e) {
       var button = $(e.trigger);
       var msg;
       if (/Mac/i.test(navigator.userAgent)) {
         msg = 'Press ⌘-C to copy';
-      }
-      else {
+      } else {
         msg = 'Press Ctrl-C to copy';
       }
+
       var btContainer = button.parents('.copy-button-group').tooltip({
         trigger: 'manual',
         placement: 'bottom',
         title: msg
       });
       btContainer.tooltip('show');
-      setTimeout(function() {
+      setTimeout(function () {
         btContainer.tooltip('hide');
         btContainer.tooltip('destroy');
       }, 1000);
+
       ga('send', 'event', 'library', 'copied', button.parents('.library-column').attr('data-lib-name'), 4);
     });
   }
 
-  setupMouseEvents();
+  function setupMouseEvents() {
+    // Currently not showing the copy button for iOS, check clipboard.js support
+    if (!(/iPhone|iPad/i.test(navigator.userAgent))) {
+      $('.packages-table-container table tbody tr, .library-table-container table tbody tr.library')
+        .hover(function (ev) {
+          // If we're on a search page, update the buttons for the right lib
+          if ($(".packages-table-container")[0]) {
+            copyEl.children('ul').remove();
+            copyEl.append(generateCopyDropdown(this.dataset.sri));
+          }
 
-  var $hits = $('.packages-table-container tbody');
-  var $allRows = $hits.html();
+          // Show the button
+          copyEl.appendTo($(ev.currentTarget).find('.library-column'));
+          copyEl.show();
+        }, function () {
+          // Hide the button when hover ends
+          copyEl.hide();
+        });
+
+      // Setup the clipboard handler
+      if (clipboard) clipboard.destroy();
+      setupCopyButton();
+    }
+  }
+
+  /****
+   * Search Scripting
+   ****/
+
+  var displayPage = 0,
+    queryItems = 20,
+    cachedQueryResult = {},
+    lazyScroll = false,
+    $nbHitsField = $('#nb-hits-field'),
+    $processingTimeMS = $('#processing-time-ms'),
+    $hits = $('.packages-table-container tbody'),
+    $search = $('#search-box'),
+    lastHashQuery,
+    algolia = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'), // public/search-only credentials
+    index = algolia.initIndex('libraries'),
+    lastQuery;
+
+  function getSafeHighlightedValue(highlight) {
+    // Extract & escape the attribute to prevent any XSS issue keeping the highlighting tags
+    return $('<div />').text(highlight && highlight.value || '').html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
+  }
+
   function displayMatchingLibraries(err, content) {
     $('.packages-table-container').show();
-    if (err) {
+
+    // If we had an error, or the results don't match the input, abort
+    if (err || content.query !== $search.val()) {
       appLoading.stop();
-    }
-    if (err || content.query !== $('#search-box').val()) {
       return;
     }
 
-    function getSafeHighlightedValue(highlight) {
-      // extract & escape the attribute to prevent any XSS issue keeping the highlighting tags
-      var v = highlight && highlight.value || '';
-      return $('<div />').text(v).html().replace(/&lt;(\/?)em&gt;/g, '<$1em>');
+    // If we've got all the results, stop searching on scroll
+    if ((displayPage + 1) * queryItems >= content.nbHits) {
+      lazyScroll = false;
     }
 
-    var html = '';
-    var match = false;
-    if (content.hits.length < 1) {
+    // Set total hits found, if not set to 0.
+    $nbHitsField.text(content.nbHits || 0);
+    $processingTimeMS.text(content.processingTimeMS || 0);
+
+    // If there are no results, hide the table
+    if (content.nbHits < 1) {
       $('.packages-table-container > table > thead').hide();
+      $nbHitsField.parent().hide();
     } else {
       $('.packages-table-container > table > thead').show();
+      $nbHitsField.parent().show();
     }
+
+    // Generate all the entries
+    var html = '', match = false;
     for (var i = 0; i < content.hits.length; ++i) {
       var hit = content.hits[i];
-      if (hit._highlightResult.github && (hit._highlightResult.github.repo.matchedWords.length || hit._highlightResult.name.matchedWords.length)) {
+      if (hit._highlightResult.github &&
+        (hit._highlightResult.github.repo.matchedWords.length > 0 ||
+          hit._highlightResult.name.matchedWords.length > 0)) {
         match = true;
       }
+
       var githubDetails = '';
       if (hit.github) {
         var user = getSafeHighlightedValue(hit._highlightResult.github.user);
         var repo = getSafeHighlightedValue(hit._highlightResult.github.repo);
         githubDetails = '<ul class="list-inline">' +
-          '<li><i class="fa fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '">' + user + '/' + repo + '</a></li>' +
-          '<li><i class="fa fa-eye"></i> ' + hit.github.subscribers_count + '</li>' +
-          '<li><i class="fa fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
-          '<li><i class="fa fa-code-fork"></i> ' + hit.github.forks + '</li>' +
-        '</ul>';
+          '  <li><i class="fab fa-github"></i> <a href="https://github.com/' + hit.github.user + '/' + hit.github.repo + '" target="_blank">' + user + '/' + repo + '</a></li>' +
+          '  <li><i class="fas fa-eye"></i> ' + hit.github.subscribers_count + '</li>' +
+          '  <li><i class="fas fa-star"></i> ' + hit.github.stargazers_count + '</li>' +
+          '  <li><i class="fas fa-code-branch"></i> ' + hit.github.forks + '</li>' +
+          '</ul>';
       }
 
       var description = getSafeHighlightedValue(hit._highlightResult.description);
-      var row = '<tr id="' + hit.objectID + '">' +
-        '<td>' +
-          '<p><a itemprop="name" href="/libraries/' + hit.name + '">' +
-            hit._highlightResult.name.value +
-          '</a></p>' +
-          '<p class="text-muted">' + description + '</p>' +
-          '<ul class="list-inline">' +
-            $.map(hit._highlightResult.keywords || [], function(e) {
-              var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
-              return '<li class="label label-default ' + extraClass + '">' + e.value + '</li>';
-            }).join(' ') +
-          '</ul>' +
-          githubDetails +
-        '</td>' +
-        '<td style="white-space: nowrap;">' +
-          '<div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
-            '<p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url[cdn_provider] + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
-          '</div>' +
-        '</td>' +
+      var row = '<tr id="' + hit.objectID + '" data-sri="' + hit.sri + '">' +
+      '  <td>' +
+      '    <a id="libLink" href="/libraries/' + hit.name + '">' +
+      '      <span itemprop="name">' + hit._highlightResult.name.value + '</span>' +
+      '      <p class="text-muted">' + description + '</p>' +
+      '    </a>' +
+      '    <ul class="list-inline">' +
+      $.map(hit._highlightResult.keywords || [], function (e) {
+        var extraClass = (e.matchLevel !== 'none') ? 'highlight' : '';
+        return '      <li class="label label-default ' + extraClass + '">' + e.value + '</li>';
+      }).join(' ') +
+      '    </ul>' +
+      '    ' + githubDetails +
+      '  </td>' +
+      '  <td style="white-space: nowrap;">' +
+      '    <div style="position: relative; padding: 8px;" data-lib-name="' + hit.name + '" class="library-column ' + hit.fileType + '-type">' +
+      '      <p itemprop="downloadUrl" class="library-url" style="padding: 0; margin: 0">' + cdn_provider_base_url[cdn_provider] + hit.originalName + '/' + hit.version + '/' + hit.filename + '</p>' +
+      '    </div>' +
+      '  </td>' +
       '</tr>';
       html += row;
     }
+
+    // Tell the user to scroll for more if they can
+    if (lazyScroll) {
+      html += '<br /><tr><td class="text-center well" colspan="2">Scroll down to the end to load more search result!</td></tr>';
+    }
+
+    // Add a footer with some useful links
     var libraryName = escape(content.query);
-
-    var tempText = (match ? 'Could not found the lib you\'re looking for?' : 'We are sorry, the library you\'re searching for cannot be found.');
-    var tempText2 =
+    var message = (match ? 'Could not find the lib you\'re looking for?' : 'We are sorry, the library you\'re searching for cannot be found.');
+    var footer =
       '<br /><td class="text-center well" colspan="2">' +
-      tempText + '<br /> You can ' +
-      '<a href="' +
-      'https://github.com/cdnjs/cdnjs/issues/new?title=%5BRequest%5D%20Add%20' + libraryName + '&body=**Library%20name%3A**%20' + libraryName + '%0A**Git%20repository%20url%3A**%20%0A**npm%20package%20name%20or%20url**%20(if%20there%20is%20one)%3A%20%0A**License%20(List%20them%20all%20if%20it%27s%20multiple)%3A**%20%0A**Official%20homepage%3A**%20%0A**Wanna%20say%20something%3F%20Leave%20message%20here%3A**%20%0A%0A%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%3D%0A%0ANotes%20from%20cdnjs%20maintainer%3A%0APlease%20read%20the%20%5BREADME.md%5D(https%3A%2F%2Fgithub.com%2Fcdnjs%2Fcdnjs%23cdnjs-library-repository)%20and%20%5BCONTRIBUTING.md%5D(https%3A%2F%2Fgithub.com%2Fcdnjs%2Fcdnjs%2Fblob%2Fmaster%2FCONTRIBUTING.md)%20document%20first.%0A%0AWe%20encourage%20you%20to%20add%20a%20library%20via%20sending%20pull%20request%2C%0Ait%27ll%20be%20faster%20than%20just%20opening%20a%20request%20issue%2C%0Asince%20there%20are%20tons%20of%20issues%2C%20please%20wait%20with%20patience%2C%0Aand%20please%20don%27t%20forget%20to%20read%20the%20guidelines%20for%20contributing%2C%20thanks!!%0A' +
-        '" target="_blank">request it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank">requirement</a>.' +
-        ' Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
+      message + '<br /> You can ' +
+      '<a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md" target="_blank">contribute it</a> if it fits our <a href="https://github.com/cdnjs/cdnjs/blob/master/CONTRIBUTING.md#a-issue" target="_blank"><strong>requirement</strong></a>.' +
+      'Please don\'t forget to <a href="https://github.com/cdnjs/cdnjs/issues?utf8=%E2%9C%93&q=' + libraryName + '" target="_blank"><strong>search if there is already an issue for it</strong></a> before adding a request.' +
       '</td>';
-    html += tempText2;
+    html += footer;
 
+    // Put the results in the DOM
     $hits.html(html);
 
+    // Register new copy buttons
     setupMouseEvents();
+
+    // Stop loading & update scroll position
     appLoading.stop();
+    scrollProgress.update();
   }
 
   function animateTop() {
-    $('.container.home').animate({marginTop: '0px'}, 200);
+    $('.container.home').animate({ marginTop: '0vh' }, 200);
   }
+
+  var normalMarginTop = $('.container.home').css("marginTop");
 
   function animateTopReverse() {
-    $('.container.home').animate({marginTop: '200px'}, 200);
+    $('.container.home').animate({ marginTop: normalMarginTop }, 200);
   }
 
-  var clearHash = _.once(function() {
+  var clearHash = _.once(function () {
     location.hash = '';
   });
 
-  var lastHashQuery;
   function replaceHash(ev, val) {
     // Only replace the hash if we press enter
     if (val && val !== lastHashQuery
-        && ev.keyCode === 13
-        && 'replaceState' in history) {
+      && ev.keyCode === 13
+      && 'replaceState' in history) {
       var encodedVal = encodeURIComponent(val).replace(/%20/g, '+');
       history.replaceState('', '', '#q=' + encodedVal);
       lastHashQuery = val;
     }
   }
 
-  var algolia = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010'); // public/search-only credentials
-  var index = algolia.initIndex('libraries');
-  var lastQuery;
-  function searchHandler(ev) {
+  function doSearch(val) {
+    // Visual indicator that we're searching
     appLoading.start();
-    clearHash();
 
+    // Move the search box to the top if on homepage
+    animateTop();
+
+    // Reset search status
+    displayPage = 0;
+    lazyScroll = true;
+    cachedQueryResult = {};
+
+    // Run the search
+    index.search(val, { hitsPerPage: queryItems, page: displayPage }, function (err, content) {
+      if (!err) {
+        cachedQueryResult = content;
+      }
+      displayMatchingLibraries(err, content);
+    });
+  }
+
+  function searchHandler(ev) {
+    // Handle the hash
+    clearHash();
     var val = $(ev.currentTarget).val();
     replaceHash(ev, val);
 
-    if (val === '') {
-      $hits.html($allRows);
-      if (location.pathname === '/libraries') {
-        $('.packages-table-container').show();
-      } else {
-        $('.packages-table-container').hide();
-      }
+    // If the search box is clear and we're on the homepage, hide the results and move down the input
+    if (val === '' && location.pathname !== '/libraries') {
+      $('.packages-table-container').hide();
+      $nbHitsField.parent().hide();
       animateTopReverse();
-      appLoading.stop();
-    } else if (lastQuery !== val) {
-      animateTop();
-      index.search(val, displayMatchingLibraries);
+      scrollProgress.update();
+      lastQuery = val;
+      return
     }
-    lastQuery = val;
+
+    // If this is a different search from the last, run the search
+    if (lastQuery !== val) {
+      doSearch(val);
+      lastQuery = val;
+    }
   }
 
-  $('#search-box').on('input', searchHandler);
-
-  if ($('#search-box').val() !== '') {
-    $('#search-box').trigger('input');
+  function loadMoreSearchResult() {
+    displayPage += 1;
+    index.search(lastQuery, { hitsPerPage: queryItems, page: displayPage }, function (err, content) {
+      if (!err && cachedQueryResult.hits) {
+        content.hits = cachedQueryResult.hits.concat(content.hits);
+        cachedQueryResult = content;
+        displayMatchingLibraries(err, content);
+      }
+    });
   }
 
   function searchByHash() {
@@ -305,38 +406,115 @@ function setFileURLs(new_provider) {
       var query = location.hash.match(/q=([^&]+)/);
       if (query) {
         query = decodeURIComponent(query[1]).replace(/\+/g, ' ');
-        $('#search-box').val(query);
-        $('#search-box').trigger('input');
+        $search.val(query);
+        $search.trigger('input');
       }
     }
   }
 
-  searchByHash();
-  // Put favorite libraries at the top of the list
-  // putClassOnFavorites(getFavorites());
-  $('#search-box').focus();
+  function setupInitialSearch() {
+    // Load more results as the user scrolls
+    $(window).scroll(_.debounce(function () {
+      if (lazyScroll && $(window).scrollTop() + $(window).height() >= $(document).height() - 1) {
+        loadMoreSearchResult();
+      }
+    }, 100));
 
-  $('.cdn-provider-selector').on('change', function(ev) {
+    // Attach the handler to the search
+    $search.on('input', searchHandler);
+
+    // Do an initial search if there is a value or we're on the libraries page
+    if ($search.val() !== '' || location.pathname === '/libraries') {
+      $search.trigger('input');
+    }
+
+    // Do a second initial search if we have a hash value present
+    searchByHash();
+
+    // Focus the search box
+    $search.focus();
+  }
+
+  /****
+   * Hidden Library Asset Scripting
+   ****/
+
+  function setupHiddenAssets() {
+    // If the user wants to view all the files on a library page, let them
+    $('a#show-hidden').click(function () {
+      $('tr.library.hiddenFile').each(function () {
+        $(this).show()
+      });
+      $('a#show-hidden').hide();
+      $('a#hide-hidden').show();
+    });
+
+    // Also let them reverse that decision
+    $('a#hide-hidden').click(function () {
+      $('tr.library.hiddenFile').each(function () {
+        $(this).hide()
+      });
+      $('a#hide-hidden').hide();
+      $('a#show-hidden').show();
+    });
+  }
+
+  /****
+   * Main Scripting
+   ****/
+
+  // Setup the CDN provide preference
+  setupCDNProviders();
+
+  // If the user changes the CDN provider, update the hash and global value
+  $('.cdn-provider-selector').on('change', function (ev) {
     location.hash = $(ev.currentTarget).val();
-    setFileURLs(decideCDNProvider());
+    updateCDNProvider(decideCDNProvider());
   });
-  $(window).on('hashchange', function() {
+
+  // Setup the copy button
+  createBaseCopyButton();
+  setupMouseEvents();
+
+  // Do the initial search setup
+  setupInitialSearch();
+
+  // Setup the logic for hidden library assets
+  setupHiddenAssets();
+
+  // If the window hash changes, search again and update the CDN provider
+  $(window).on('hashchange', function () {
     searchByHash();
     $('.cdn-provider-selector').val(decideCDNProvider());
-    setFileURLs(decideCDNProvider());
+    updateCDNProvider(decideCDNProvider());
   });
-  $('.version-selector').on('change', function(ev) {
-    var libraryVersion = $(ev.currentTarget).val();
-    var libraryName = $('#library-name').text();
-    var newURL = window.location.origin + '/libraries/' + libraryName + '/' + libraryVersion;
-    window.location.href = newURL;
+
+  // If the user changes library version, go to that new version
+  $('.version-selector').on('change', function (ev) {
+    window.location.href = window.location.origin + '/libraries/' +
+      $('#library-name').text() + '/' + $(ev.currentTarget).val(); // library name / library version
   });
-  console.log("%cThanks for using CDNJS! 😊", "font: 5em roboto; color: #dd4814;");
-  $(function () {
-    $.scrollUp({
-      animation: 'slide',
-      scrollDistance: 800,
-      activeOverlay: false,
-    });
+
+  // Thank the user in console, why not?
+  console.log('%cThanks for using cdnjs! 😊', 'font: 5em roboto; color: #e95420;');
+
+  // Enable the scroll to top button
+  $.scrollUp({
+    animation: 'slide',
+    scrollDistance: 800,
+    activeOverlay: false,
   });
+
+  // Position the scroll progress bar to be at the top & cdnjs theme
+  // Do this last so that the bar doesn't show till we're done
+  scrollProgress.set({
+    color: '#DD4814',
+    height: '2px',
+    bottom: false
+  });
+
+  // If the user resizes the browser, update the scroll position
+  window.onresize = function () {
+    scrollProgress.update();
+  };
 })(jQuery);

@@ -5,174 +5,163 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{title}}</title>
-    <meta property="og:title" content="{{title}}" />
-    <meta property="og:site_name" content="CDNJS.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://cdnjs.com{{{url}}}" />
-    <meta property="og:image" content="/img/logotext.png" />
-    <meta property="og:description" content="{{description}}" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="{{description}}" />
-    <meta name="keywords" content="{{keywords}}" />
-    <link rel="preconnect" href="//cdnjs.cloudflare.com" pr="1.0" />
-    <link rel="preconnect" href="//www.algolia.com" pr="0.85" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/default.min.css" integrity="sha256-Zd1icfZ72UBmsId/mUcagrmN7IN5Qkrvh75ICHIQVTk=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/orange/pace-theme-minimal.min.css" integrity="sha256-kb8pRNu1sIwQEWAO/Mqt1S5PZ5xiLd4nBMoSsqdxKPs=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous" async></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/united/bootstrap.min.css" integrity="sha256-mKuwI+x5TH/8YJ3N3ZHLGK0+IMRL4bZ1Me+2ylaxrwY=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha256-VBrFgheoreGl4pKmWgZh3J23pJrhNlSUOBek+8Z2Gv0=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/css/theme.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>{{title}}</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/app-loading/0.0.51/app-loading.min.css" integrity="sha256-CYVY39mQQ+3yRKbAaPcIrOcRUUVw+L3BFBM1s/lRb0s=" crossorigin="anonymous" />
-    <link rel="dns-prefetch" href="//cdn.carbonads.com" />
-    <link rel="dns-prefetch" href="//static.getclicky.com" />
-    <link rel="dns-prefetch" href="//www.google-analytics.com" />
-    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="cdnjs" />
-    <link rel="shortcut icon" href="https://cdnjs.com/favicon.ico" />
-    <link rel="icon" href="https://cdnjs.com/favicon.ico" />
-    <link rel="canonical" href="https://cdnjs.com" />
-  </head>
+  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{{title}}" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="cdnjs.com" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://cdnjs.com{{{url}}}" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://cdnjs.com/img/cdnjs-banner.png" />
+  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{{description}}" />
 
-  <body>
-  <span id="forkongithub"><a href="https://github.com/cdnjs/cdnjs" target="_blank">CDNJS on GitHub</a></span>
-    <div class="container {{wrapperClass}}">
-      <div class="row">
-        <div class="col-md-12">
-          <ul class="menu">
-            <li class="logo"><a href="/">cdnjs</a></li>
-            <li><a href="https://www.cloudflare.com/network-map" target="_blank">Network</a></li>
-            <li><a href="http://stats.pingdom.com/4jg86a2wqei0" target="_blank">Uptime</a></li>
-            <li class="">
-              <div class="btn-group">
-                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                  git stats
-                <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown-header">main repo</li>
-                  <li><a href="/git_stats/cdnjs/general.html" title="~201703" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/cdnjs/" title="~201703" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">new-website</li>
-                  <li><a href="/git_stats/new-website/general.html" title="~201703" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/new-website/" title="~201703" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">auto-updater</li>
-                  <li><a href="/git_stats/autoupdate/general.html" title="~201612" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/autoupdate/" title="~201612" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">importer</li>
-                  <li><a href="/git_stats/cdnjs-importer/general.html" title="~201602" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/cdnjs-importer/" title="~201602" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">buildScript</li>
-                  <li><a href="/git_stats/buildScript/general.html" title="~201612" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/buildScript/" title="~201612" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">atom-extension</li>
-                  <li><a href="/git_stats/atom-extension/general.html" title="~201602" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/atom-extension/" title="~201602" target="_blank">gitstats</a></li>
-                  <li class="dropdown-header">tutorials</li>
-                  <li><a href="/git_stats/tutorials/general.html" title="~201602" target="_blank">git_stats</a></li>
-                  <li><a href="/gitstats/tutorials/" title="~201602" target="_blank">gitstats</a></li>
-                </ul>
-              </div>
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@cdnjs" />
+  <meta name="twitter:url" content="https://cdnjs.com{{{url}}}" />
+  <meta name="twitter:title" content="cdnjs.com" />
+  <meta name="twitter:description" content="{{description}}" />
+  <meta name="twitter:image" content="https://cdnjs.com/img/cdnjs-banner.png" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="{{description}}" />
+  <meta name="keywords" content="{{keywords}}" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/orange/pace-theme-minimal.min.css" integrity="sha256-kb8pRNu1sIwQEWAO/Mqt1S5PZ5xiLd4nBMoSsqdxKPs=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js" integrity="sha256-EPrkNjGEmCWyazb3A/Epj+W7Qm2pB9vnfXw+X6LImPM=" crossorigin="anonymous" async></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/united/bootstrap.min.css" integrity="sha256-IYGI0ovdtvTnw19p8rG6jZjmlX+5x+4rw9uAhk+5OC4=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/theme.css" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/app-loading/0.0.51/app-loading.min.css" integrity="sha256-CYVY39mQQ+3yRKbAaPcIrOcRUUVw+L3BFBM1s/lRb0s=" crossorigin="anonymous" />
+  <link rel="dns-prefetch" href="//cdn.carbonads.com" />
+  <link rel="dns-prefetch" href="//static.getclicky.com" />
+  <link rel="dns-prefetch" href="//www.google-analytics.com" />
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="cdnjs" />
+
+  <link rel="shortcut icon" type="image/png" href="https://cdnjs.com/img/cdnjs-icon.png" />
+  <link rel="icon" type="image/png" href="https://cdnjs.com/img/cdnjs-icon.png" />
+  <link rel="canonical" href="https://cdnjs.com" />
+</head>
+
+<body data-instant-allow-query-string data-instant-allow-external-links>
+<span id="fork-on-github"><a href="https://github.com/cdnjs/cdnjs" target="_blank">cdnjs on GitHub</a></span>
+<div class="container {{wrapperClass}}">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="menu btn-group">
+        <a class="btn btn-link logo" href="/">cdnjs</a>
+        <div class="btn-group btn-space">
+          <a id="network-status-group-drop" class="btn btn-link dropdown-toggle" data-toggle="dropdown" href="#">
+            Network &amp; Status<span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="network-status-group-drop">
+            <li class="dropdown-header">Cloudflare Network</li>
+            <li><a href="https://www.cloudflare.com/network-map" target="_blank">Network Map</a></li>
+            <li class="dropdown-header">cdnjs.com &amp; CDN service</li>
+            <li><a href="http://stats.pingdom.com/4jg86a2wqei0" target="_blank">CDN Uptime</a></li>
+            <li>
+              <a href="https://status.cdnjs.com" target="_blank">
+                Status Page <span class="status-color-dot"></span>
+              </a>
             </li>
-            <li class="">
-              <div class="btn-group">
-                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                  gource
-                <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a href="https://youtu.be/ehwK-KM4uYQ" target="_blank">main repo</a></li>
-                  <li><a href="https://youtu.be/GLH7Ovzi5z8" target="_blank">new-website</a></li>
-                  <li><a href="https://youtu.be/Xe5s7fQQdwc" target="_blank">auto-updater</a></li>
-                  <li><a href="https://youtu.be/RUYALTcLkyU" target="_blank">importer</a></li>
-                  <li><a href="https://youtu.be/kc0DZWJAZm4" target="_blank">buildScript</a></li>
-                  <li><a href="https://youtu.be/OHQC1saKU_A" target="_blank">atom-extension</a></li>
-                  <li><a href="https://youtu.be/T6ZoTbRX1-A" target="_blank">tutorials</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class="">
-              <div class="btn-group">
-                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                  Support us!
-                <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a href="https://www.bountysource.com/teams/cdnjs" target="_blank">via Bountysource</a></li>
-                  <li><a href="https://gratipay.com/cdnjs/" target="_blank">via Gratipay</a></li>
-                  <li><a href="https://tip4commit.com/github/cdnjs/cdnjs" target="_blank">via tip4commit</a></li>
-                  <li><a href="https://twitter.com/cdnjs" target="_blank">Contact us!</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="/libraries">Browse Libraries</a></li>
-            <li><a href="/api">API</a></li>
-            <li><a href="/about">About</a></li>
-            </ul>
-       </div>
-       </div>
+            <li><a href="https://twitter.com/cdnjsStatus" target="_blank">cdnjsStatus on Twitter</a></li>
+          </ul>
+        </div>
 
-  </div>
-
-    <div class="page">
-      {{{page}}}
-
-    </div>
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">
-          Follow <a href="https://github.com/PeterDaveHello"><i class="fa fa-github"></i></a> <a href="https://twitter.com/intent/follow?region=follow_link&screen_name=peterdavehello&tw_p=followbutton"><i class="fa fa-twitter"></i></a> <a href="https://www.peterdavehello.org">@Peter Dave Hello</a> and <a href="https://twitter.com/intent/follow?region=follow_link&screen_name=cdnjs&tw_p=followbutton"><i class="fa fa-twitter"></i>@cdnjs</a> on GitHub and twitter to get the latest news about cdnjs!
-        </p>
+        <a class="btn btn-link btn-space" href="/api">API</a>
+        <a class="btn btn-link btn-space" href="/about">About</a>
+        <a class="btn btn-link btn-space" href="https://cdnjs.discourse.group/" target="_blank">Community</a>
+        <a class="btn btn-link btn-space" href="/libraries">Browse Libraries</a>
       </div>
-    </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js" integrity="sha256-Xxq2X+KtazgaGuA2cWR1v3jJsuMJUozyIXDB3e793L8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js" integrity="sha256-gOpnA1vUitDpr6qV2ONTzFxXQKgnwvBCOklJH6hHqyE=" crossorigin="anonymous" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js" integrity="sha256-el9b2jzAb306WCRULKaCAxJc30iuC68Bt+twLhWyDBk=" crossorigin="anonymous" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap-dropdown.min.js" integrity="sha256-rijzCU94p74J5qWPo8AYTAV0nSq9QgjOGe8GOPEy7tM=" crossorigin="anonymous" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap-tooltip.min.js" integrity="sha256-9AeT3HOnzBOXSYb0q6qrJzpDO/RB6RXZKyRCrA5dSkY=" crossorigin="anonymous" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap-tab.min.js" integrity="sha256-GVEVIuOVDXahWm+k5+9Mq/rq4f7R7eHVrCThkK1SDQM=" crossorigin="anonymous" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.5/clipboard.min.js" integrity="sha256-QEsBb1yaNpcm7sVqKAyTR42helLtDx/uEWg4Mwdy7HA=" crossorigin="anonymous" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.22.1/algoliasearchLite.min.js" integrity="sha256-af2RXe0fkPuUqhxbsRoVPlEumRNuCaJwDVBnAj2uZcI=" crossorigin="anonymous" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/app-loading/0.0.51/app-loading.min.js" integrity="sha256-YSI87JLSmNNNEzQ0YAIi3MWCVwrWJNSWe7u27Rs6c6c=" crossorigin="anonymous"></script>
-  <script src="/js/main.js" defer></script>
+    </div>
+  </div>
+</div>
 
-    <script src="//static.getclicky.com/js" defer></script>
-    <script type="text/javascript" defer>try{clicky.init(66376315);}catch(err){}</script>
-    <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66376315ns.gif" /></p></noscript>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-44291190-1', 'auto');
-      ga('require', 'linkid', 'linkid.js');
-      ga('require', 'displayfeatures');
-      ga('send', 'pageview');
-if($('.post').length > 0) {
-  $('.menu').parent().removeClass('col-md-12').addClass('col-md-10 col-md-offset-1');
-};
+<div class="page">
+  {{{page}}}
+</div>
 
-$('.post > p, .post  > h1, .post > h2, .post > ul, .post > h3, .post > blockquote').wrap('<div class="container"><div class="row"><div class="col-md-10 col-md-offset-1">');
-$('.post > pre > code').wrapInner('<div class="container"><div class="row"><div class="col-md-10 col-md-offset-1">');
-$('.post code').addClass('hljs');
-$('.post').show();
-    </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js" integrity="sha256-fkOAs5tViC8MpG+5VCOqdlSpLL8htz4mdL2VZlWGoMA=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js" integrity="sha256-t2YrqZoTLq/Qt8zIw0BMiuRC2X5+a3O7PODU8RwoyYw=" crossorigin="anonymous"></script>
+<footer class="footer">
+  <div class="container">
+    <p>
+      Donate $5 to cdnjs via <a href="https://www.bountysource.com/teams/cdnjs" target="_blank">Bountysource</a>,
+      <a href="https://opencollective.com/cdnjs" target="_blank">Open Collective</a> or
+      <a href="https://www.patreon.com/cdnjs" target="_blank">Patreon</a>, or contribute on
+      <a href="https://github.com/cdnjs/cdnjs" target="_blank"><i class="fab fa-github"></i> GitHub</a> to make
+      cdnjs sustainable!
+      <span class="pull-right">
+        <a href="https://twitter.com/cdnjs" target="_blank"><i class="fab fa-twitter-square"></i> Twitter</a>
+        &nbsp; <a href="https://cdnjs.discourse.group/" target="_blank"><i class="fab fa-discourse"></i> Discourse</a>
+      </span>
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"
+        integrity="sha256-8E6QUcFg1KTnpEU8TFGhpTGHw5fJqB9vCms3OhAYLqw=" crossorigin="anonymous" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.3.0/handlebars.min.js"
+        integrity="sha256-LcmhwhERhehbcSu6ONVL54dAzJrhoSigqDk+N3Z9ga4=" crossorigin="anonymous" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap-dropdown.min.js"
+        integrity="sha256-rijzCU94p74J5qWPo8AYTAV0nSq9QgjOGe8GOPEy7tM=" crossorigin="anonymous" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap-tooltip.min.js"
+        integrity="sha256-9AeT3HOnzBOXSYb0q6qrJzpDO/RB6RXZKyRCrA5dSkY=" crossorigin="anonymous" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap-tab.min.js"
+        integrity="sha256-GVEVIuOVDXahWm+k5+9Mq/rq4f7R7eHVrCThkK1SDQM=" crossorigin="anonymous" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"
+        integrity="sha256-Daf8GuI2eLKHJlOWLRR/zRy9Clqcj4TUSumbxYH9kGI=" crossorigin="anonymous" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.24.4/algoliasearchLite.min.js"
+        integrity="sha256-wbEgHd2yM8nVpWCe+opFpIPgmQhxytEHM+r+OW8PW/Q=" crossorigin="anonymous" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/app-loading/0.0.51/app-loading.min.js"
+        integrity="sha256-YSI87JLSmNNNEzQ0YAIi3MWCVwrWJNSWe7u27Rs6c6c=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollprogress/2.1.2/scrollProgress.min.js"
+        integrity="sha256-G9QkudSF5N+LvucdLGGiCZqtbgLkJ8p8bOyhN68atbM=" crossorigin="anonymous"></script>
+<script src="/js/main.js" defer></script>
+
+<script src="//static.getclicky.com/js" defer></script>
+<script defer>try{clicky.init(66376315);}catch(err){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66376315ns.gif" /></p></noscript>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-44291190-1', 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  $('.post > p, .post  > h1, .post > h2, .post > ul, .post > h3, .post > blockquote').wrap('<div class="container"><div class="row"><div class="col-md-10 col-md-offset-1">');
+  $('.post > pre > code').wrapInner('<div class="container"><div class="row"><div class="col-md-10 col-md-offset-1">');
+  $('.post code').addClass('hljs');
+  $('.post').show();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js"
+        integrity="sha256-t2YrqZoTLq/Qt8zIw0BMiuRC2X5+a3O7PODU8RwoyYw=" crossorigin="anonymous"></script>
+
+<script src="https://1fkb7yl9sw87.statuspage.io/embed/script.js"></script>
+<script src="https://cdn.statuspage.io/se-v2.js"></script>
+<script defer>
+  var sp = new StatusPage.page({page: '1fkb7yl9sw87'});
+  sp.status({
+    success: function(data) {
+      $('.status-color-dot').addClass(data.status.indicator);
+    }
+  });
+</script>
 
 <script defer>hljs.initHighlightingOnLoad();</script>
-<div itemscope itemtype="http://schema.org/WebSite" style="display:none">
+<div itemscope itemtype="https://schema.org/WebSite" style="display:none">
   <meta itemprop="url" content="https://cdnjs.com/"/>
-  <form itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+  <form itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
     <meta itemprop="target" content="https://cdnjs.com/#q={search_term_string}"/>
     <input itemprop="query-input" type="text" name="q" required/>
     <input type="submit"/>
   </form>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/1.2.1/instantpage.js" integrity="sha256-nwXN1TPiudCodASfUbvtgw4r8CLidLH2+j+kcM9rb9M=" crossorigin="anonymous"></script>
 </body>
 </html>

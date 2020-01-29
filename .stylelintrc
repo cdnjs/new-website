@@ -1,0 +1,42 @@
+{
+  "extends": "stylelint-config-recommended",
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "no-descending-specificity": null,
+    "color-hex-case": "lower",
+    "color-hex-length": "short",
+    "number-leading-zero": "never",
+    "number-no-trailing-zeros": true,
+    "string-quotes": "double",
+    "length-zero-no-unit": true,
+    "unit-case": "lower",
+    "value-keyword-case": "lower",
+    "value-list-comma-space-after": "always",
+    "value-list-max-empty-lines": 0,
+    "property-case": "lower",
+    "declaration-colon-space-after": "always",
+    "declaration-colon-space-before": "never",
+    "declaration-block-semicolon-newline-after": "always",
+    "declaration-block-trailing-semicolon": "always",
+    "selector-attribute-quotes": "always",
+    "selector-combinator-space-after": "always",
+    "selector-combinator-space-before": "always",
+    "selector-descendant-combinator-no-non-space": true,
+    "selector-pseudo-class-case": "lower",
+    "selector-pseudo-class-parentheses-space-inside": "never",
+    "selector-pseudo-element-case": "lower",
+    "selector-pseudo-element-colon-notation": "double",
+    "selector-type-case": "lower",
+    "selector-list-comma-newline-after": "always",
+    "rule-empty-line-before": "always",
+    "indentation": 2,
+    "linebreaks": "unix",
+    "max-empty-lines": 1,
+    "no-eol-whitespace": true,
+    "no-missing-end-of-source-newline": true,
+    "no-empty-first-line": true,
+    "order/properties-alphabetical-order": true
+  }
+}
