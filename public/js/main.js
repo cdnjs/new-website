@@ -176,20 +176,21 @@
   function setupMouseEvents() {
     // Currently not showing the copy button for iOS, check clipboard.js support
     if (!(/iPhone|iPad/i.test(navigator.userAgent))) {
-      $('.packages-table-container table tbody tr, .library-table-container table tbody tr').hover(function (ev) {
-        // If we're on a search page, update the buttons for the right lib
-        if ($(".packages-table-container")[0]) {
-          copyEl.children('ul').remove();
-          copyEl.append(generateCopyDropdown(this.dataset.sri));
-        }
+      $('.packages-table-container table tbody tr, .library-table-container table tbody tr.library')
+        .hover(function (ev) {
+          // If we're on a search page, update the buttons for the right lib
+          if ($(".packages-table-container")[0]) {
+            copyEl.children('ul').remove();
+            copyEl.append(generateCopyDropdown(this.dataset.sri));
+          }
 
-        // Show the button
-        copyEl.appendTo($(ev.currentTarget).find('.library-column'));
-        copyEl.show();
-      }, function () {
-        // Hide the button when hover ends
-        copyEl.hide();
-      });
+          // Show the button
+          copyEl.appendTo($(ev.currentTarget).find('.library-column'));
+          copyEl.show();
+        }, function () {
+          // Hide the button when hover ends
+          copyEl.hide();
+        });
 
       // Setup the clipboard handler
       if (clipboard) clipboard.destroy();
@@ -435,6 +436,30 @@
   }
 
   /****
+   * Hidden Library Asset Scripting
+   ****/
+
+  function setupHiddenAssets() {
+    // If the user wants to view all the files on a library page, let them
+    $('a#show-hidden').click(function () {
+      $('tr.library.hiddenFile').each(function () {
+        $(this).show()
+      });
+      $('a#show-hidden').hide();
+      $('a#hide-hidden').show();
+    });
+
+    // Also let them reverse that decision
+    $('a#hide-hidden').click(function () {
+      $('tr.library.hiddenFile').each(function () {
+        $(this).hide()
+      });
+      $('a#hide-hidden').hide();
+      $('a#show-hidden').show();
+    });
+  }
+
+  /****
    * Main Scripting
    ****/
 
@@ -453,6 +478,9 @@
 
   // Do the initial search setup
   setupInitialSearch();
+
+  // Setup the logic for hidden library assets
+  setupHiddenAssets();
 
   // If the window hash changes, search again and update the CDN provider
   $(window).on('hashchange', function () {

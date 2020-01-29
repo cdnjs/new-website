@@ -100,8 +100,21 @@
           <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped"
                  id="example">
             <tbody>
+            {{#hasHidden}}
+            <tr id="control-hidden">
+              <td colspan="2">
+                <a id="show-hidden" style="cursor: pointer;">
+                  Some files are hidden, click to show all files
+                </a>
+                <a id="hide-hidden" style="cursor: pointer; display: none;">
+                  All files are shown, click to hide non-essential files
+                </a>
+              </td>
+            </tr>
+            {{/hasHidden}}
             {{#files}}
-            <tr class="library {{fileType}}-type {{defaultFile}}">
+            <tr class="library {{fileType}}-type {{defaultFile}} {{#isHidden}}hiddenFile{{/isHidden}}"
+                style="/*{{#isHidden}}*/display: none;/*{{/isHidden}}*/">
               <td class="library-column" data-lib-name="{{library.name}}" style="position: relative;">
                 <p class="library-url">{{library.originalName}}/{{version}}/{{name}}</p>
               </td>

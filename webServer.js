@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+var globToRegExp = require('glob-to-regexp');
 var throng = require('throng');
 var gravatar = require('gravatar');
 var gitUrlParse = require('git-url-parse');
@@ -331,18 +332,31 @@ function start() {
 
       if (assets.gennedFileNames === undefined) {
         var fileArray = [];
+        var minFileRe = globToRegExp("*.min.*");
+        var hasMinFile = false;
+        assets.files.map(function (fileName) {
+          if (minFileRe.test(fileName)) hasMinFile = true;
+        });
+        var criticalFilesRegExpr = "{" + "*.min.js," + "*.min.css," + library.filename + "}";
+        var commonFileRegExpr = "{" + "*.js.*," + "*.css.*," + library.filename + "}";
+        var criticalRe = globToRegExp(criticalFilesRegExpr, { extended: true });
+        var commonRe = globToRegExp(commonFileRegExpr, { extended: true });
         assets.files.map(function (fileName) {
           var fileExtension = path.extname(fileName);
           var fileType = fileExtension.substring(1) || 'unknown';
+          var isHidden = false;
+          if (assets.files.length > 40) isHidden = !(hasMinFile ? criticalRe : commonRe).test(fileName);
           fileArray.push({
             name: fileName,
             fileType: fileType,
-            defaultFile: fileName === library.filename ? 'defaultFile' : ''
+            defaultFile: fileName === library.filename ? 'defaultFile' : '',
+            isHidden: isHidden
           });
         });
 
         assets.files = fileArray;
         assets.gennedFileNames = true;
+        assets.hasHidden = assets.files.length > 40;
       }
 
       return assets;
