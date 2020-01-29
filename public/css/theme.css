@@ -4,15 +4,21 @@ html {
 }
 
 .footer {
-  background-color: #f5f5f5;
+  background-color: #ebebeb; /* same as logo */
+  border-top: 2px solid #dd4814;
   bottom: 0;
-  padding-top: 7px;
+  color: #6b6b6b;
+  padding: 10px 0;
   position: absolute;
   width: 100%;
 }
 
+.footer p {
+  margin: 0;
+}
+
 body {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   overflow-y: scroll;
 }
 
@@ -105,6 +111,10 @@ p#date{
   color: #ffdead;
 }
 
+tbody {
+  border: 1px solid #ddd;
+}
+
 .label-highlight a {
   color: white !important;
 }
@@ -140,16 +150,33 @@ p#date{
 }
 
 #search-box {
+  font-size: 16px;
+  height: 46px;
   margin: 0 0 15px 0;
 }
 
 .container.home {
-  margin-top: 200px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 330px) {
+
+  .container.home {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  .container.home {
+    margin-top: 25vh;
+  }
 }
 
 .menu {
   display: block;
   font-size: 18px;
+  margin-top: 10px;
 }
 
 .dropdown-menu li {

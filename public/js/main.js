@@ -320,11 +320,13 @@
   }
 
   function animateTop() {
-    $('.container.home').animate({ marginTop: '0px' }, 200);
+    $('.container.home').animate({ marginTop: '0vh' }, 200);
   }
 
+  var normalMarginTop = $('.container.home').css("marginTop");
+
   function animateTopReverse() {
-    $('.container.home').animate({ marginTop: '200px' }, 200);
+    $('.container.home').animate({ marginTop: normalMarginTop }, 200);
   }
 
   var clearHash = _.once(function () {
