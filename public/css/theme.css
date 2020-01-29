@@ -196,6 +196,19 @@ tbody {
 .version-dropdown {
   margin-top: 20px;
 }
+
+.breadcrumb {
+  display: inline;
+}
+
+.breadcrumb > li {
+  display: inline;
+}
+
+.breadcrumb > li + li::before {
+  content: "/\00a0";
+}
+
 @font-face {
   font-family: "GothamSSm";
   font-style: normal;
