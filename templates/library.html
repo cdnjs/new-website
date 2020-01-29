@@ -98,16 +98,14 @@
         {{#selectedAssets}}
         <div data-library-version="{{version}}" class="assets library-table-container">
           {{#hasHidden}}
-          <tr id="control-hidden">
-            <td colspan="2">
-              <a id="show-hidden" style="cursor: pointer;">
-                Some files are hidden, click to show all files
-              </a>
-              <a id="hide-hidden" style="cursor: pointer; display: none;">
-                All files are shown, click to hide non-essential files
-              </a>
-            </td>
-          </tr>
+          <div id="control-hidden">
+            <a id="show-hidden" class="btn btn-primary">
+              Some files are hidden, click to show all files
+            </a>
+            <a id="hide-hidden" class="btn btn-primary" style="display: none;">
+              All files are shown, click to hide non-essential files
+            </a>
+          </div>
           {{/hasHidden}}
 
           <!-- Nav tabs -->
@@ -122,7 +120,9 @@
           <!-- Tab panes -->
           <div class="tab-content">
             {{#fileArray}}
+              <!-- linthtml-configure id-class-style="false" -->
               <div role="tabpanel" class="tab-pane {{#isActive}}active{{/isActive}}" id="{{fileType}}">
+                <!-- linthtml-configure id-class-style="$previous" -->
                 <table style="margin-top: 20px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped">
                    <tbody>
                    {{#files}}

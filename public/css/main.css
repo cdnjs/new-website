@@ -245,3 +245,18 @@ tr {
 #libLink:hover span {
   text-decoration: underline;
 }
+
+#control-hidden .btn {
+  background: #f5f5f5;
+  border: none;
+  color: #e95420;
+  cursor: pointer;
+  margin-bottom: 1em;
+  padding: .5em 1em;
+}
+
+#control-hidden .btn:hover,
+#control-hidden .btn:focus {
+  color: #ac3911;
+  text-decoration: underline;
+}

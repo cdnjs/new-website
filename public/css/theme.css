@@ -198,7 +198,8 @@ tbody {
 }
 
 .breadcrumb {
-  display: inline;
+  display: inline-block;
+  margin-bottom: 12px;
 }
 
 .breadcrumb > li {
