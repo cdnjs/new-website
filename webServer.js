@@ -407,32 +407,34 @@ function start() {
         // The map files put along with their sources
         if (mapFiles.length > 0) {
           mapFiles.forEach(function (data) {
-             var sourceFileParts = data.name.split('.map');
-             var sourceFileName = sourceFileParts.join("");
-             var sourceFileType = getGroupByExtension(path.extname(sourceFileName).substring(1));
-             if (sourceFileType === 'css' || sourceFileType === 'js') {
-                const sourceFileIndex = fileMap[sourceFileType].findIndex(function (file) {
-                  return file.name.includes(sourceFileParts[0]);
+            var sourceFileParts = data.name.split('.map');
+            var sourceFileName = sourceFileParts.join("");
+            var sourceFileType = getGroupByExtension(path.extname(sourceFileName).substring(1));
+            // TODO: If there is only one type of source file in fileMap, and the map file doesn't have an ext, assume it is for that
+            // TODO: jQuery is a good example of this: http://localhost:5500/libraries/jquery/2.2.0
+            if (sourceFileType === 'css' || sourceFileType === 'js') {
+              var sourceFileIndex = fileMap[sourceFileType].findIndex(function (file) {
+                return file.name.includes(sourceFileParts[0]);
+              });
+              if (sourceFileIndex >= 0) {
+                // Finding source file and push the map file right after it
+                return fileMap[sourceFileType].splice(sourceFileIndex + 1, 0, {
+                  name: data.name,
+                  type: sourceFileType,
+                  defaultFile: data.defaultFile,
+                  isHidden: data.isHidden
                 });
-                if (sourceFileIndex >= 0) {
-                  // Finding source file and push the map file right after it
-                  return fileMap[sourceFileType].splice(sourceFileIndex + 1, 0, {
-                    name: data.name,
-                    type: sourceFileType,
-                    defaultFile: data.defaultFile,
-                    isHidden: data.isHidden
-                  });
-                }
-             } else {
-               // If a corresponding source file for a map file is not found,
-               // push it to the "map" file list
-               fileMap.map.push({
-                 name: data.name,
-                 type: 'map',
-                 defaultFile: data.defaultFile,
-                 isHidden: data.isHidden
-               });
               }
+            } else {
+             // If a corresponding source file for a map file is not found,
+             // push it to the "map" file list
+             fileMap.map.push({
+               name: data.name,
+               type: 'map',
+               defaultFile: data.defaultFile,
+               isHidden: data.isHidden
+             });
+            }
           });
         }
 
