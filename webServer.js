@@ -322,6 +322,38 @@ function start() {
     return library.licenses;
   }
 
+  function getGroupByExtension(extension) {
+    switch (extension) {
+      case 'css':
+      case 'js':
+      case 'map':
+        return extension;
+      case 'png':
+      case 'jpg':
+      case 'jpeg':
+      case 'gif':
+      case 'ico':
+      case 'svg':
+      case 'webp':
+        return 'image';
+      case 'eot':
+      case 'otf':
+      case 'ttf':
+      case 'woff':
+      case 'woff2':
+        return 'font';
+      case 'aac':
+      case 'mp3':
+      case 'wav':
+      case 'ogg':
+        return 'sound';
+      case 'swf':
+        return 'flash';
+      default:
+        return 'other';
+    }
+  }
+
   function libraryAssetsList(library, version) {
     return _.map(library.assets, function (assets) {
       if (assets.version === version) {
@@ -331,7 +363,21 @@ function start() {
       }
 
       if (assets.gennedFileNames === undefined) {
-        var fileArray = [];
+        // This map holds files by type.
+        // We will use this to order them by type in the response
+        var fileMap = {
+          css: [],
+          js: [],
+          image: [],
+          font: [],
+          sound: [],
+          flash: [],
+          other: [],
+          map: []
+        };
+        var mapFiles = [];
+
+        // Minification / hidden asset vars
         var minFileRe = globToRegExp("*.min.*");
         var hasMinFile = false;
         assets.files.map(function (fileName) {
@@ -341,20 +387,75 @@ function start() {
         var commonFileRegExpr = "{" + "*.js.*," + "*.css.*," + library.filename + "}";
         var criticalRe = globToRegExp(criticalFilesRegExpr, { extended: true });
         var commonRe = globToRegExp(commonFileRegExpr, { extended: true });
-        assets.files.map(function (fileName) {
+
+        // Sort all the files into their categories
+        assets.files.forEach(function (fileName) {
           var fileExtension = path.extname(fileName);
-          var fileType = fileExtension.substring(1) || 'unknown';
+          var fileType = getGroupByExtension(fileExtension.substring(1));
           var isHidden = false;
           if (assets.files.length > 40) isHidden = !(hasMinFile ? criticalRe : commonRe).test(fileName);
-          fileArray.push({
+          var data = {
             name: fileName,
-            fileType: fileType,
+            type: fileType,
             defaultFile: fileName === library.filename ? 'defaultFile' : '',
             isHidden: isHidden
-          });
+          };
+          if (fileType === 'map') mapFiles.push(data);
+          else fileMap[fileType].push(data);
         });
 
-        assets.files = fileArray;
+        // The map files put along with their sources
+        if (mapFiles.length > 0) {
+          mapFiles.forEach(function (data) {
+            var sourceFileParts = data.name.split('.map');
+            var sourceFileName = sourceFileParts.join("");
+            var sourceFileType = getGroupByExtension(path.extname(sourceFileName).substring(1));
+            // TODO: If there is only one type of source file in fileMap, and the map file doesn't have an ext, assume it is for that
+            // TODO: jQuery is a good example of this: http://localhost:5500/libraries/jquery/2.2.0
+            if (sourceFileType === 'css' || sourceFileType === 'js') {
+              var sourceFileIndex = fileMap[sourceFileType].findIndex(function (file) {
+                return file.name.includes(sourceFileParts[0]);
+              });
+              if (sourceFileIndex >= 0) {
+                // Finding source file and push the map file right after it
+                return fileMap[sourceFileType].splice(sourceFileIndex + 1, 0, {
+                  name: data.name,
+                  type: sourceFileType,
+                  defaultFile: data.defaultFile,
+                  isHidden: data.isHidden
+                });
+              }
+            } else {
+             // If a corresponding source file for a map file is not found,
+             // push it to the "map" file list
+             fileMap.map.push({
+               name: data.name,
+               type: 'map',
+               defaultFile: data.defaultFile,
+               isHidden: data.isHidden
+             });
+            }
+          });
+        }
+
+        // Generate the final set of file tabs
+        var fileArray = Array.prototype.concat
+          .apply([], ['js', 'css', 'map', 'image', 'font', 'flash', 'sound', 'other']
+            .filter(function (fileType) {
+              return fileMap[fileType].length > 0;
+            })
+            .map(function (fileType, index) {
+              return {
+                fileType : fileType,
+                // Mustache does not handle complex if else statments
+                // isActive determines the tab in view
+                isActive : index === 0,
+                files : fileMap[fileType]
+              };
+            })
+          );
+
+        assets.fileArray = fileArray;
         assets.gennedFileNames = true;
         assets.hasHidden = assets.files.length > 40;
       }

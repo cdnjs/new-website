@@ -97,31 +97,47 @@
 
         {{#selectedAssets}}
         <div data-library-version="{{version}}" class="assets library-table-container">
-          <table style="margin-top: 10px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped"
-                 id="example">
-            <tbody>
-            {{#hasHidden}}
-            <tr id="control-hidden">
-              <td colspan="2">
-                <a id="show-hidden" style="cursor: pointer;">
-                  Some files are hidden, click to show all files
-                </a>
-                <a id="hide-hidden" style="cursor: pointer; display: none;">
-                  All files are shown, click to hide non-essential files
-                </a>
-              </td>
-            </tr>
-            {{/hasHidden}}
-            {{#files}}
-            <tr class="library {{fileType}}-type {{defaultFile}} {{#isHidden}}hiddenFile{{/isHidden}}"
-                style="/*{{#isHidden}}*/display: none;/*{{/isHidden}}*/">
-              <td class="library-column" data-lib-name="{{library.name}}" style="position: relative;">
-                <p class="library-url">{{library.originalName}}/{{version}}/{{name}}</p>
-              </td>
-            </tr>
-            {{/files}}
-            </tbody>
-          </table>
+          {{#hasHidden}}
+          <div id="control-hidden">
+            <a id="show-hidden" class="btn btn-primary">
+              Some files are hidden, click to show all files
+            </a>
+            <a id="hide-hidden" class="btn btn-primary" style="display: none;">
+              All files are shown, click to hide non-essential files
+            </a>
+          </div>
+          {{/hasHidden}}
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            {{#fileArray}}
+              <li role="presentation" class="{{#isActive}}active{{/isActive}}">
+                <a href="#{{fileType}}" aria-controls="{{fileType}}" role="tab" data-toggle="tab">{{fileType}}</a>
+              </li>
+            {{/fileArray}}
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            {{#fileArray}}
+              <!-- linthtml-configure id-class-style="false" -->
+              <div role="tabpanel" class="tab-pane {{#isActive}}active{{/isActive}}" id="{{fileType}}">
+                <!-- linthtml-configure id-class-style="$previous" -->
+                <table style="margin-top: 20px;" cellpadding="0" cellspacing="0" border="0" class="table table-striped">
+                   <tbody>
+                   {{#files}}
+                   <tr class="library {{fileType}}-type {{defaultFile}} {{#isHidden}}hiddenFile{{/isHidden}}"
+                       style="/*{{#isHidden}}*/display: none;/*{{/isHidden}}*/">
+                     <td class="library-column" data-lib-name="{{library.name}}" style="position: relative;">
+                       <p class="library-url">{{library.originalName}}/{{version}}/{{name}}</p>
+                     </td>
+                   </tr>
+                   {{/files}}
+                  </tbody>
+                </table>
+              </div>
+            {{/fileArray}}
+          </div>
         </div>
         {{/selectedAssets}}
 

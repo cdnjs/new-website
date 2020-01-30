@@ -424,7 +424,7 @@
     $search.on('input', searchHandler);
 
     // Do an initial search if there is a value or we're on the libraries page
-    if ($search.val() !== '' || location.pathname === '/libraries') {
+    if ($search.val() !== '' || location.pathname.replace(/\/$/,'') === '/libraries') {
       $search.trigger('input');
     }
 
