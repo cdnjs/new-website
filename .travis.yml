@@ -17,6 +17,6 @@ jobs:
       env:
         - test: Editor Config check
       install:
-      - npm i
+      - npm ci
       script:
       - npm test

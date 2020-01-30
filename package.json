@@ -2,18 +2,18 @@
   "name": "new-website",
   "version": "0.0.0",
   "description": "new-website ===========",
-  "main": "server.js",
+  "main": "webServer/main.js",
+  "private": true,
   "scripts": {
     "test": "npm run test:echint && npm run test:eslint && npm run test:stylelint && npm run test:html-validate && npm run test:linthtml",
     "test:echint": "echint -i \"sri/**/*\" -i \"public/**/*\" -v \"tutorials/**/*\" -v",
-    "test:eslint": "eslint *.js public/js/*.js",
+    "test:eslint": "eslint *.js webServer/*.js webServer/utils/*.js public/js/*.js",
     "test:stylelint": "stylelint public/css/*.css",
     "test:html-validate": "html-validate templates/*.html",
     "test:linthtml": "linthtml templates/*.html",
     "dev:api": "LOCAL=true node apiServer.js",
-    "dev:web": "LOCAL=true node webServer.js",
-    "reindex": "node reindex.js",
-    "clean": "rm -rf node_modules"
+    "dev:web": "LOCAL=true node webServer/main.js",
+    "reindex": "node reindex.js"
   },
   "repository": {
     "type": "git",
