@@ -1,3 +1,4 @@
+/* eslint-disable key-spacing */
 const typeMap = {
   'js':     'js',
   'map':    'map',
@@ -24,8 +25,9 @@ const typeMap = {
   'ogg':    'audio',
 
   'swf':    'flash',
-  'json':   'json',
+  'json':   'json'
 };
+/* eslint-enable key-spacing */
 
 const whitelist = Object.keys(typeMap);
 const categories = [...new Set(Object.values(typeMap))];

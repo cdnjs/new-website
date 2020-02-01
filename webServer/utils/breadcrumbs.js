@@ -11,14 +11,14 @@ module.exports = req => {
   const lastIndex = breadcrumbList.length - 1;
   let nowUrl = '';
   let position;
-  breadcrumbList = breadcrumbList.map(function (path) {
+  breadcrumbList = breadcrumbList.map(path => {
     position = breadcrumbList.indexOf(path);
     nowUrl += path + (position === lastIndex ? '' : '/'); // don't append / to last item
     return {
       index: path || 'Home',  // empty when it is root
       url: nowUrl,
       position: position + 1
-    }
+    };
   });
 
   // Mark the last item

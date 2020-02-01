@@ -7,7 +7,7 @@
   "scripts": {
     "test": "npm run test:echint && npm run test:eslint && npm run test:stylelint && npm run test:html-validate && npm run test:linthtml",
     "test:echint": "echint -i \"sri/**/*\" -i \"public/**/*\" -v \"tutorials/**/*\" -v",
-    "test:eslint": "eslint *.js webServer/*.js webServer/utils/*.js public/js/*.js",
+    "test:eslint": "eslint *.js \"webServer/**/*.js\" public/js/*.js",
     "test:stylelint": "stylelint public/css/*.css",
     "test:html-validate": "html-validate templates/*.html",
     "test:linthtml": "linthtml templates/*.html",
@@ -51,7 +51,8 @@
   "devDependencies": {
     "@linthtml/linthtml": "^0.2.6",
     "echint": "^4.0.2",
-    "eslint": "^5.16.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prefer-arrow": "^1.1.7",
     "eslint-plugin-unicorn": "^13.0.0",
     "html-validate": "^1.7.0",
     "stylelint": "^10.1.0",

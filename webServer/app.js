@@ -2,7 +2,6 @@
 const gravatar = require('gravatar');
 const fs = require('fs');
 const express = require('express');
-const _ = require('lodash');
 const compress = require('compression');
 const highlight = require('highlight.js');
 const marked = require('marked');
@@ -48,7 +47,7 @@ module.exports = () => {
   libraries.set(app);
 
   // Set all the relevant headers for the app
-  app.use(function (req, res, next) {
+  app.use((req, res, next) => {
     res.setHeader('Referrer-Policy', 'no-referrer-when-downgrade');
     res.setHeader('X-Frame-Options', 'deny');
     res.setHeader('X-Content-Type-Options', 'nosniff');
@@ -69,113 +68,115 @@ module.exports = () => {
   }));
 
   // Generate breadcrumb information
-  app.use(function (req, res, next) {
+  app.use((req, res, next) => {
     res.breadcrumbList = breadcrumbs(req);
     next();
   });
 
   // Home page
-  app.get('/', function (req, res) {
+  app.get('/', (req, res) => {
     if (req.query.q) res.redirect(301, '/#q=' + req.query.q);
 
-    var template = templating.templates.home;
-    if (!cache.check(req, res, 2, template.lastModified)) {
-      push.defaultAssets(res);
-      push.server(res, '/img/algolia.svg');
+    const template = templating.templates.home;
+    if (cache.check(req, res, 2, template.lastModified)) return;
 
-      res.send(templating.getPage({
-        reqUrl: req.url,
-        page: {
-          template: template.content,
-          data: {
-            libCount: Object.keys(app.get('LIBRARIES_MAP')).length,
-            libVerCount: app.get('LIBRARIES_VERSIONS'),
-            breadcrumbList: res.breadcrumbList
-          }
-        },
-        wrapperClass: 'home'
-      }));
-    }
+    push.defaultAssets(res);
+    push.server(res, '/img/algolia.svg');
+    res.send(templating.getPage({
+      reqUrl: req.url,
+      page: {
+        template: template.content,
+        data: {
+          libCount: Object.keys(app.get('LIBRARIES_MAP')).length,
+          libVerCount: app.get('LIBRARIES_VERSIONS'),
+          breadcrumbList: res.breadcrumbList
+        }
+      },
+      wrapperClass: 'home'
+    }));
   });
 
   // About page
-  app.get('/about', function (req, res) {
-    var template = templating.templates.about;
-    if (!cache.check(req, res, 72, template.lastModified)) {
-      res.send(templating.getPage({
-        reqUrl: req.url,
-        title: 'about - ' + constants.TITLE,
-        page: {
-          template: template.content,
-          data: {
-            breadcrumbList: res.breadcrumbList
-          }
+  app.get('/about', (req, res) => {
+    const template = templating.templates.about;
+    if (cache.check(req, res, 72, template.lastModified)) return;
+
+    res.send(templating.getPage({
+      reqUrl: req.url,
+      title: 'about - ' + constants.TITLE,
+      page: {
+        template: template.content,
+        data: {
+          breadcrumbList: res.breadcrumbList
         }
-      }));
-    }
+      }
+    }));
   });
 
   // API page
-  app.get('/api', function (req, res) {
-    var template = templating.templates.api;
-    if (!cache.check(req, res, 72, template.lastModified)) {
-      res.send(templating.getPage({
-        reqUrl: req.url,
-        title: 'API - ' + constants.TITLE,
-        page: {
-          template: template.content,
-          data: {
-            breadcrumbList: res.breadcrumbList
-          }
+  app.get('/api', (req, res) => {
+    const template = templating.templates.api;
+    if (cache.check(req, res, 72, template.lastModified)) return;
+
+    res.send(templating.getPage({
+      reqUrl: req.url,
+      title: 'API - ' + constants.TITLE,
+      page: {
+        template: template.content,
+        data: {
+          breadcrumbList: res.breadcrumbList
         }
-      }));
-    }
+      }
+    }));
   });
 
   // Lib request redirect
-  app.get('/request-new-lib', function (req, res) {
+  app.get('/request-new-lib', (req, res) => {
     return res.redirect(302, constants.REQUEST);
   });
 
   // CDN request redirect
-  app.get('/cdnjs.cloudflare.com/*', function (req, res) {
+  app.get('/cdnjs.cloudflare.com/*', (req, res) => {
     return res.redirect(301, 'https:/' + req.url);
   });
 
   // Library tutorials
-  app.get('/libraries/:library/tutorials', function (req, res) {
-    var library = req.params.library;
-    var srcpath = path.resolve(__dirname, 'tutorials', library);
-    var directories = getDirectories(srcpath);
-    var tutorialPackages = _.map(directories, function (tutorial) {
-      var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
+  app.get('/libraries/:library/tutorials', (req, res) => {
+    const template = templating.templates.tutorials;
+    if (cache.check(req, res, 72, template.lastModified)) return;
+
+    const library = req.params.library;
+    const src = path.resolve(__dirname, '..', 'tutorials', library);
+    const directories = getDirectories(src);
+    const tutorialPackages = directories.map(tutorial => {
+      const tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(src, tutorial, 'tutorial.json'), 'utf8'));
       tutorialPackage.slug = tutorial;
       return tutorialPackage;
     });
 
-    var template = templating.templates.tutorials;
-    if (!cache.check(req, res, 72, template.lastModified)) {
-      res.send(templating.getPage({
-        reqUrl: req.url,
-        title: library + ' tutorials - ' + constants.TITLE,
-        page: {
-          template: template.content,
-          data: {
-            tutorials: tutorialPackages,
-            library: library,
-            breadcrumbList: res.breadcrumbList
-          }
+    res.send(templating.getPage({
+      reqUrl: req.url,
+      title: library + ' tutorials - ' + constants.TITLE,
+      page: {
+        template: template.content,
+        data: {
+          tutorials: tutorialPackages,
+          library: library,
+          breadcrumbList: res.breadcrumbList
         }
-      }));
-    }
+      }
+    }));
   });
 
   // Library tutorial
-  app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
-    var library = req.params.library;
-    var tutorial = req.params.tutorial;
-    var srcpath = path.resolve(__dirname, 'tutorials', library);
-    var indexPath = path.resolve(srcpath, tutorial, 'index.md');
+  app.get('/libraries/:library/tutorials/:tutorial', (req, res) => {
+    const template = templating.templates.tutorial;
+    if (cache.check(req, res, 72, template.lastModified)) return;
+
+    const library = req.params.library;
+    const tutorial = req.params.tutorial;
+    const src = path.resolve(__dirname, '..', 'tutorials', library);
+    const indexPath = path.resolve(src, tutorial, 'index.md');
 
     if (!fs.existsSync(indexPath)) {
       return res.status(404).send(templating.getPage({
@@ -187,16 +188,16 @@ module.exports = () => {
       }));
     }
 
-    var tutorialFile = fs.readFileSync(indexPath, 'utf8');
-    var directories = getDirectories(srcpath);
-    var tutorialPackages = _.map(directories, function (tutorial) {
-      var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
+    const tutorialFile = fs.readFileSync(indexPath, 'utf8');
+    const directories = getDirectories(src);
+    const tutorialPackages = directories.map(tutorial => {
+      const tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(src, tutorial, 'tutorial.json'), 'utf8'));
       tutorialPackage.slug = tutorial;
       return tutorialPackage;
     });
 
-    var tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(srcpath, tutorial, 'tutorial.json'), 'utf8'));
-    var avatar = gravatar.url(tutorialPackage.author.email, { s: '200', r: 'pg', d: '404' });
+    const tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(src, tutorial, 'tutorial.json'), 'utf8'));
+    const avatar = gravatar.url(tutorialPackage.author.email, { s: '200', r: 'pg', d: '404' });
 
     marked.setOptions({
       renderer: new marked.Renderer(),
@@ -210,28 +211,25 @@ module.exports = () => {
       langPrefix: ''
     });
 
-    var template = templating.templates.tutorial;
-    if (!cache.check(req, res, 72, template.lastModified)) {
-      res.send(templating.getPage({
-        reqUrl: req.url,
-        title: tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
-        page: {
-          template: template.content,
-          data: {
-            tute: marked(tutorialFile),
-            avatar: avatar,
-            tutorial: tutorialPackage,
-            disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
-            disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
-            disqus_id: tutorialPackage.disqus_url || req.originalUrl,
-            author: tutorialPackage.author,
-            tutorials: tutorialPackages,
-            library: library,
-            breadcrumbList: res.breadcrumbList
-          }
+    res.send(templating.getPage({
+      reqUrl: req.url,
+      title: tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
+      page: {
+        template: template.content,
+        data: {
+          tute: marked(tutorialFile),
+          avatar: avatar,
+          tutorial: tutorialPackage,
+          disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
+          disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
+          disqus_id: tutorialPackage.disqus_url || req.originalUrl,
+          author: tutorialPackage.author,
+          tutorials: tutorialPackages,
+          library: library,
+          breadcrumbList: res.breadcrumbList
         }
-      }));
-    }
+      }
+    }));
   });
 
   // Library specific version
@@ -241,37 +239,37 @@ module.exports = () => {
   app.get('/libraries/:library', libraries.response);
 
   // All libraries
-  app.get('/libraries', function (req, res) {
-    var template = templating.templates.libraries;
-    if (!cache.check(req, res, 2, null)) {
-      res.send(templating.getPage({
-        reqUrl: req.url,
-        title: 'libraries - ' + constants.TITLE,
-        page: {
-          template: template.content,
-          data: {
-            packages: _.toArray(app.get('LIBRARIES_MAP')),
-            libCount: Object.keys(app.get('LIBRARIES_MAP')).length,
-            libVerCount: app.get('LIBRARIES_VERSIONS'),
-            breadcrumbList: res.breadcrumbList
-          }
+  app.get('/libraries', (req, res) => {
+    if (cache.check(req, res, 2, null)) return;
+
+    const template = templating.templates.libraries;
+    res.send(templating.getPage({
+      reqUrl: req.url,
+      title: 'libraries - ' + constants.TITLE,
+      page: {
+        template: template.content,
+        data: {
+          packages: Object.values(app.get('LIBRARIES_MAP')),
+          libCount: Object.keys(app.get('LIBRARIES_MAP')).length,
+          libVerCount: app.get('LIBRARIES_VERSIONS'),
+          breadcrumbList: res.breadcrumbList
         }
-      }));
-    }
+      }
+    }));
   });
 
   // Git stats
-  app.get('/gitstats', function (req, res) {
+  app.get('/gitstats', (req, res) => {
     return res.redirect(301, '/gitstats/cdnjs');
   });
 
   // Git stats 2
-  app.get('/git_stats', function (req, res) {
+  app.get('/git_stats', (req, res) => {
     return res.redirect(301, '/git_stats/cdnjs');
   });
 
   // 404 page
-  app.use(function (req, res) {
+  app.use((req, res) => {
     res.status(404).send(templating.getPage({
       reqUrl: req.url,
       title: '404: Page Not Found - ' + constants.TITLE,
@@ -282,7 +280,7 @@ module.exports = () => {
   });
 
   // 500 page
-  app.use(function (err, req, res) {
+  app.use((err, req, res) => {
     console.error(err.stack);
     res.status(500).send(templating.getPage({
       reqUrl: req.url,
@@ -294,7 +292,7 @@ module.exports = () => {
   });
 
   // START!
-  app.listen(PORT, function () {
+  app.listen(PORT, () => {
     console.log('Listening on ' + (localMode ? 'http://0.0.0.0:' : '') + PORT);
   });
 };

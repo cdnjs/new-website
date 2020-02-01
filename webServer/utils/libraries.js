@@ -71,7 +71,7 @@ const licensesList = (library, app) => {
       const name = license.toString();
       license = {
         type: name,
-        url: '#',
+        url: '#'
       };
     }
 
@@ -101,23 +101,23 @@ const assetsList = (library, version) => {
 
       // This map holds files by type.
       // We will use this to order them by type in the response
-      const fileMap = fileType.categories.reduce((o, key) => ({ ...o, [key]: []}), {});
-      let mapFiles = [];
+      const fileMap = fileType.categories.reduce((o, key) => ({ ...o, [key]: [] }), {});
+      const mapFiles = [];
 
       // Minification / hidden asset vars
-      const minFileRe = globToRegExp("*.min.*");
+      const minFileRe = globToRegExp('*.min.*');
       let hasMinFile = false;
-      assets.files.map(function (fileName) {
+      assets.files.map(fileName => {
         if (minFileRe.test(fileName)) hasMinFile = true;
       });
-      const criticalFilesRegExpr = "{" + "*.min.js," + "*.min.css," + library.filename + "}";
-      const commonFileRegExpr = "{" + "*.js.*," + "*.css.*," + library.filename + "}";
+      const criticalFilesRegExpr = '{' + '*.min.js,' + '*.min.css,' + library.filename + '}';
+      const commonFileRegExpr = '{' + '*.js.*,' + '*.css.*,' + library.filename + '}';
       const criticalRe = globToRegExp(criticalFilesRegExpr, { extended: true });
       const commonRe = globToRegExp(commonFileRegExpr, { extended: true });
       assets.hasHidden = assets.whitelistedFiles.length > 40;
 
       // Sort all the files into their categories
-      assets.whitelistedFiles.forEach(function (fileName) {
+      assets.whitelistedFiles.forEach(fileName => {
         // Get the extension and the category
         const fileExtension = path.extname(fileName);
         const fileCategory = fileType.category(fileExtension.substring(1));
@@ -141,7 +141,7 @@ const assetsList = (library, version) => {
       if (mapFiles.length > 0) {
         mapFiles.forEach(data => {
           const sourceFileParts = data.name.split('.map');
-          const sourceFileName = sourceFileParts.join("");
+          const sourceFileName = sourceFileParts.join('');
           const sourceFileType = fileType.category(path.extname(sourceFileName).substring(1));
           // TODO: If there is only one type of source file in fileMap, and the map file doesn't have an ext, assume it is for that
           // TODO: jQuery is a good example of this: http://localhost:5500/libraries/jquery/2.2.0
@@ -174,16 +174,16 @@ const assetsList = (library, version) => {
       // Generate the final set of file tabs
       assets.fileArray = Array.prototype.concat
         .apply([], fileType.categories
-          .filter(function (fileType) {
+          .filter(fileType => {
             return fileMap[fileType].length > 0;
           })
-          .map(function (fileType, index) {
+          .map((fileType, index) => {
             return {
-              fileType : fileType,
+              fileType: fileType,
               // Mustache does not handle complex if else statments
               // isActive determines the tab in view
-              isActive : index === 0,
-              files : fileMap[fileType]
+              isActive: index === 0,
+              files: fileMap[fileType]
             };
           })
         );
@@ -208,7 +208,7 @@ const githubMeta = (library, app) => {
 
 // Get library URLs based on the git repo
 const generateURLs = library => {
-  let urls = [];
+  const urls = [];
   if (library.repository && library.repository.type === 'git')
     urls.push({ url: gitUrlParse(library.repository.url).toString('https') });
   library.urls = urls;
@@ -265,7 +265,7 @@ const response = (req, res) => {
   let SRI;
   try {
     SRI = fs.readFileSync('sri/' + libraryName + '/' + version + '.json');
-  } catch {
+  } catch (_) {
     SRI = {};
   }
 
@@ -275,7 +275,7 @@ const response = (req, res) => {
 
   // Try to find the requested version
   // TODO: much nicer page here
-  if (!librarySelectedAssets.length) return res.status(404).send(libraryName + ' version not found!');
+  if (librarySelectedAssets.length === 0) return res.status(404).send(libraryName + ' version not found!');
 
   // Generate additional data for the library
   const libraryLicenses = licensesList(library, req.app);
