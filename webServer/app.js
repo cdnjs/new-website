@@ -1,10 +1,6 @@
 // Library imports
-const gravatar = require('gravatar');
-const fs = require('fs');
 const express = require('express');
 const compress = require('compression');
-const highlight = require('highlight.js');
-const marked = require('marked');
 const path = require('path');
 
 // Local imports
@@ -12,9 +8,10 @@ const constants = require('./constants');
 const breadcrumbs = require('./utils/breadcrumbs');
 const libraries = require('./utils/libraries');
 const templating = require('./utils/templating');
-const getDirectories = require('./utils/getDirectories');
-const cache = require('./utils/cache');
-const push = require('./utils/push');
+
+// Routes imports
+const indexRoutes = require('./routes/index');
+const librariesRotes = require('./routes/libraries');
 
 // App constants
 const PORT = Number(process.env.PORT || 5500);
@@ -35,12 +32,9 @@ if (!localMode && (typeof global.gc !== 'undefined')) {
 }
 
 // The app
-// TODO: clean all this
-// TODO: split routes into routers
 module.exports = () => {
   // Basic app configuration
   const app = express();
-  highlight.configure({ tabReplace: '  ' });
   app.disable('x-powered-by');
 
   // Load the library data
@@ -73,200 +67,9 @@ module.exports = () => {
     next();
   });
 
-  // Home page
-  app.get('/', (req, res) => {
-    if (req.query.q) res.redirect(301, '/#q=' + req.query.q);
-
-    const template = templating.templates.home;
-    if (cache.check(req, res, 2, template.lastModified)) return;
-
-    push.defaultAssets(res);
-    push.server(res, '/img/algolia.svg');
-    res.send(templating.getPage({
-      reqUrl: req.url,
-      page: {
-        template: template.content,
-        data: {
-          libCount: Object.keys(app.get('LIBRARIES_MAP')).length,
-          libVerCount: app.get('LIBRARIES_VERSIONS'),
-          breadcrumbList: res.breadcrumbList
-        }
-      },
-      wrapperClass: 'home'
-    }));
-  });
-
-  // About page
-  app.get('/about', (req, res) => {
-    const template = templating.templates.about;
-    if (cache.check(req, res, 72, template.lastModified)) return;
-
-    res.send(templating.getPage({
-      reqUrl: req.url,
-      title: 'about - ' + constants.TITLE,
-      page: {
-        template: template.content,
-        data: {
-          breadcrumbList: res.breadcrumbList
-        }
-      }
-    }));
-  });
-
-  // API page
-  app.get('/api', (req, res) => {
-    const template = templating.templates.api;
-    if (cache.check(req, res, 72, template.lastModified)) return;
-
-    res.send(templating.getPage({
-      reqUrl: req.url,
-      title: 'API - ' + constants.TITLE,
-      page: {
-        template: template.content,
-        data: {
-          breadcrumbList: res.breadcrumbList
-        }
-      }
-    }));
-  });
-
-  // Lib request redirect
-  app.get('/request-new-lib', (req, res) => {
-    return res.redirect(302, constants.REQUEST);
-  });
-
-  // CDN request redirect
-  app.get('/cdnjs.cloudflare.com/*', (req, res) => {
-    return res.redirect(301, 'https:/' + req.url);
-  });
-
-  // Library tutorials
-  app.get('/libraries/:library/tutorials', (req, res) => {
-    const template = templating.templates.tutorials;
-    if (cache.check(req, res, 72, template.lastModified)) return;
-
-    const library = req.params.library;
-    const src = path.resolve(__dirname, '..', 'tutorials', library);
-    const directories = getDirectories(src);
-    const tutorialPackages = directories.map(tutorial => {
-      const tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(src, tutorial, 'tutorial.json'), 'utf8'));
-      tutorialPackage.slug = tutorial;
-      return tutorialPackage;
-    });
-
-    res.send(templating.getPage({
-      reqUrl: req.url,
-      title: library + ' tutorials - ' + constants.TITLE,
-      page: {
-        template: template.content,
-        data: {
-          tutorials: tutorialPackages,
-          library: library,
-          breadcrumbList: res.breadcrumbList
-        }
-      }
-    }));
-  });
-
-  // Library tutorial
-  app.get('/libraries/:library/tutorials/:tutorial', (req, res) => {
-    const template = templating.templates.tutorial;
-    if (cache.check(req, res, 72, template.lastModified)) return;
-
-    const library = req.params.library;
-    const tutorial = req.params.tutorial;
-    const src = path.resolve(__dirname, '..', 'tutorials', library);
-    const indexPath = path.resolve(src, tutorial, 'index.md');
-
-    if (!fs.existsSync(indexPath)) {
-      return res.status(404).send(templating.getPage({
-        reqUrl: req.url,
-        title: '404: Tutorial Not Found - ' + constants.TITLE,
-        page: {
-          template: templating.templates.notfound.content
-        }
-      }));
-    }
-
-    const tutorialFile = fs.readFileSync(indexPath, 'utf8');
-    const directories = getDirectories(src);
-    const tutorialPackages = directories.map(tutorial => {
-      const tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(src, tutorial, 'tutorial.json'), 'utf8'));
-      tutorialPackage.slug = tutorial;
-      return tutorialPackage;
-    });
-
-    const tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(src, tutorial, 'tutorial.json'), 'utf8'));
-    const avatar = gravatar.url(tutorialPackage.author.email, { s: '200', r: 'pg', d: '404' });
-
-    marked.setOptions({
-      renderer: new marked.Renderer(),
-      gfm: true,
-      tables: true,
-      breaks: false,
-      pedantic: false,
-      sanitize: false,
-      smartLists: false,
-      smartypants: false,
-      langPrefix: ''
-    });
-
-    res.send(templating.getPage({
-      reqUrl: req.url,
-      title: tutorialPackage.name + ' - ' + library + ' tutorials - cdnjs.com',
-      page: {
-        template: template.content,
-        data: {
-          tute: marked(tutorialFile),
-          avatar: avatar,
-          tutorial: tutorialPackage,
-          disqus_shortname: tutorialPackage.disqus_shortname || 'cdnjstutorials',
-          disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
-          disqus_id: tutorialPackage.disqus_url || req.originalUrl,
-          author: tutorialPackage.author,
-          tutorials: tutorialPackages,
-          library: library,
-          breadcrumbList: res.breadcrumbList
-        }
-      }
-    }));
-  });
-
-  // Library specific version
-  app.get('/libraries/:library/:version', libraries.response);
-
-  // Library
-  app.get('/libraries/:library', libraries.response);
-
-  // All libraries
-  app.get('/libraries', (req, res) => {
-    if (cache.check(req, res, 2, null)) return;
-
-    const template = templating.templates.libraries;
-    res.send(templating.getPage({
-      reqUrl: req.url,
-      title: 'libraries - ' + constants.TITLE,
-      page: {
-        template: template.content,
-        data: {
-          packages: Object.values(app.get('LIBRARIES_MAP')),
-          libCount: Object.keys(app.get('LIBRARIES_MAP')).length,
-          libVerCount: app.get('LIBRARIES_VERSIONS'),
-          breadcrumbList: res.breadcrumbList
-        }
-      }
-    }));
-  });
-
-  // Git stats
-  app.get('/gitstats', (req, res) => {
-    return res.redirect(301, '/gitstats/cdnjs');
-  });
-
-  // Git stats 2
-  app.get('/git_stats', (req, res) => {
-    return res.redirect(301, '/git_stats/cdnjs');
-  });
+  // Load the routers
+  app.use('/', indexRoutes);
+  app.use('/libraries', librariesRotes);
 
   // 404 page
   app.use((req, res) => {
