@@ -373,7 +373,7 @@
     replaceHash(ev, val);
 
     // If the search box is clear and we're on the homepage, hide the results and move down the input
-    if (val === '' && location.pathname !== '/libraries') {
+    if (val === '' && location.pathname.replace(/(\/|#.*)$/g,'') === '') {
       $('.packages-table-container').hide();
       $nbHitsField.parent().hide();
       animateTopReverse();
@@ -424,7 +424,7 @@
     $search.on('input', searchHandler);
 
     // Do an initial search if there is a value or we're on the libraries page
-    if ($search.val() !== '' || location.pathname.replace(/\/$/,'') === '/libraries') {
+    if ($search.val() !== '' || location.pathname.replace(/(\/|#.*)$/g,'') === '/libraries') {
       $search.trigger('input');
     }
 

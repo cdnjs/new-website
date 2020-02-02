@@ -12,34 +12,6 @@ const templating = require('../utils/templating');
 const getDirectories = require('../utils/getDirectories');
 const cache = require('../utils/cache');
 
-// Library tutorials
-router.get('/:library/tutorials', (req, res) => {
-  const template = templating.templates.tutorials;
-  if (cache.check(req, res, 72, template.lastModified)) return;
-
-  const library = req.params.library;
-  const src = path.resolve(__dirname, '..', '..', 'tutorials', library);
-  const directories = getDirectories(src);
-  const tutorialPackages = directories.map(tutorial => {
-    const tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(src, tutorial, 'tutorial.json'), 'utf8'));
-    tutorialPackage.slug = tutorial;
-    return tutorialPackage;
-  });
-
-  res.send(templating.getPage({
-    reqUrl: req.url,
-    title: library + ' tutorials - ' + constants.TITLE,
-    page: {
-      template: template.content,
-      data: {
-        tutorials: tutorialPackages,
-        library: library,
-        breadcrumbList: res.breadcrumbList
-      }
-    }
-  }));
-});
-
 // Library tutorial
 router.get('/:library/tutorials/:tutorial', (req, res) => {
   const template = templating.templates.tutorial;
@@ -96,6 +68,34 @@ router.get('/:library/tutorials/:tutorial', (req, res) => {
         disqus_url: tutorialPackage.disqus_url || ('https://cdnjs.com/' + req.originalUrl),
         disqus_id: tutorialPackage.disqus_url || req.originalUrl,
         author: tutorialPackage.author,
+        tutorials: tutorialPackages,
+        library: library,
+        breadcrumbList: res.breadcrumbList
+      }
+    }
+  }));
+});
+
+// Library tutorials
+router.get('/:library/tutorials', (req, res) => {
+  const template = templating.templates.tutorials;
+  if (cache.check(req, res, 72, template.lastModified)) return;
+
+  const library = req.params.library;
+  const src = path.resolve(__dirname, '..', '..', 'tutorials', library);
+  const directories = getDirectories(src);
+  const tutorialPackages = directories.map(tutorial => {
+    const tutorialPackage = JSON.parse(fs.readFileSync(path.resolve(src, tutorial, 'tutorial.json'), 'utf8'));
+    tutorialPackage.slug = tutorial;
+    return tutorialPackage;
+  });
+
+  res.send(templating.getPage({
+    reqUrl: req.url,
+    title: library + ' tutorials - ' + constants.TITLE,
+    page: {
+      template: template.content,
+      data: {
         tutorials: tutorialPackages,
         library: library,
         breadcrumbList: res.breadcrumbList
