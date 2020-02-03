@@ -43,6 +43,6 @@
 [submodule "public/git_stats/new-website"]
 	path = public/git_stats/new-website
 	url = https://github.com/cdnjs/new-website-git_stats.git
-[submodule "SRIs"]
-	path = SRIs
+[submodule "sri"]
+	path = sri
 	url = https://github.com/cdnjs/SRIs.git
