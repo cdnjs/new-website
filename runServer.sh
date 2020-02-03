@@ -6,8 +6,11 @@ wget -O public/packages.min.json https://storage.googleapis.com/cdnjs-assets/pac
 
 git clone https://github.com/cdnjs/SRIs.git ./sri
 
-echo "SRIs at:"
-git log -n 1 ./sri | cat
+(
+    cd ./sri
+    echo "SRIs at:"
+    git log -n 1 | cat
+)
 
 if [ x"$APP" = x"mainSite" ]; then
     node --expose-gc --max-old-space-size=2048 webServer/main.js
