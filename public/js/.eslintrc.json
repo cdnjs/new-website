@@ -1,0 +1,10 @@
+{
+  "env": {
+    "node": false,
+    "es6": false,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015
+  }
+}
