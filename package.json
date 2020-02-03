@@ -11,8 +11,12 @@
     "test:stylelint": "stylelint public/css/*.css",
     "test:html-validate": "html-validate templates/*.html",
     "test:linthtml": "linthtml templates/*.html",
+    "scss:build": "node-sass scss/style.scss public/css/style.css",
+    "scss:watch": "npm run scss:build -- --watch",
     "dev:api": "LOCAL=true node apiServer.js",
     "dev:web": "LOCAL=true node webServer/main.js",
+    "prod:api": "node --expose-gc --max-old-space-size=2048 apiServer.js",
+    "prod:web": "npm run scss:build && node --expose-gc --max-old-space-size=2048 webServer/main.js",
     "reindex": "node reindex.js"
   },
   "repository": {
@@ -45,6 +49,7 @@
     "marked": "^0.7.0",
     "mustache": "^2.3.2",
     "newline-remove": "^1.0.2",
+    "node-sass": "^4.13.1",
     "throng": "^4.0.0"
   },
   "devDependencies": {
