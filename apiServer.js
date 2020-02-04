@@ -79,37 +79,19 @@ if (!localMode && (typeof global.gc !== 'undefined')) {
 }
 
 app.get('/libraries', function (req, res) {
-  var results;
-
   app.set('json spaces', 0);
 
   // format the results including optional `fields`
-  function formatResults(fields, packagesByName) {
-    return _.map(packagesByName, function (library) {
+  function formatResults(fields, hits) {
+    return _.map(hits, function (library) {
       var data = {
         name: library.name,
         latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + library.name + '/' + library.version + '/' + library.filename
       };
+
       _.each(fields, function (field) {
         data[field] = library[field] || null;
       });
-
-      if (fields.indexOf('sri') > -1) {
-        try {
-          data.sri = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + library.version + '.json'))[library.filename];
-        } catch (err) {
-          data.sri = null;
-        }
-      }
-      if (fields.indexOf('assets') > -1) {
-        _.each(data.assets, function (asset) {
-          try {
-            asset.sri = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + asset.version + '.json'));
-          } catch (e) {
-            asset.sri = {};
-          }
-        })
-      }
 
       return data;
     });
@@ -117,44 +99,30 @@ app.get('/libraries', function (req, res) {
 
   res.setHeader('Expires', new Date(Date.now() + 360 * 60 * 1000).toUTCString());
   var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
-  if (req.query.search) {
-    var searchParams = {
-      typoTolerance: 'min', // only keep the minimum typos
-      hitsPerPage: 1000 // maximum
-    };
-    algoliaIndex.search(req.query.search, searchParams, function (error, content) {
-      if (error) {
-        res.status(500).send(error.message);
-        return;
-      }
+  var searchParams = {
+    typoTolerance: 'min', // only keep the minimum typos
+    page: req.query.page || 0, // default
+    hitsPerPage: req.query.hitsPerPage || 1000 // maximum
+  };
+  algoliaIndex.search(req.query.search || '', searchParams, function (error, content) {
+    if (error) {
+      res.status(500).send(error.message);
+      return;
+    }
 
-      // fetch the orignal version of the package based on the search hit
-      results = _.map(content.hits, function (hit) {
-        return packagesByName[hit.originalName] || hit;
-      });
-
-      var json = {
-        results: formatResults(fields, results),
-        total: content.hits.length
-      };
-      if (req.query.output && req.query.output === 'human') {
-        humanOutput(res, json);
-      } else {
-        res.jsonp(json);
-      }
-    });
-  } else {
-    results = formatResults(fields, packagesByName);
     var json = {
-      results: results,
-      total: results.length
+      results: formatResults(fields, content.hits),
+      hitsOnPage: content.hits.length,
+      page: content.page,
+      pages: content.nbPages,
+      total: content.nbHits
     };
     if (req.query.output && req.query.output === 'human') {
       humanOutput(res, json);
     } else {
       res.jsonp(json);
     }
-  }
+  });
 });
 
 app.get('/libraries/:library', function (req, res) {
