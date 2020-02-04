@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var fs = require('fs');
 var express = require('express');
-var algoliasearch = require('algoliasearch/lite');
+var algoliasearch = require('algoliasearch');
 var _ = require('lodash');
 var app = express();
 var args = process.argv.slice(2);
@@ -67,7 +67,7 @@ _.each(packages, function (library) {
 });
 
 packages = null;
-var algoliaIndex = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010').initIndex('libraries');
+var algoliaIndex = algoliasearch('2QWLVLXZB6', 'e16bd99a5c7a8fccae13ad40762eec3c').initIndex('libraries');
 
 if (!localMode && (typeof global.gc !== 'undefined')) {
   app.use(function (req, res, next) {
@@ -79,37 +79,19 @@ if (!localMode && (typeof global.gc !== 'undefined')) {
 }
 
 app.get('/libraries', function (req, res) {
-  var results;
-
   app.set('json spaces', 0);
 
   // format the results including optional `fields`
-  function formatResults(fields, packagesByName) {
-    return _.map(packagesByName, function (library) {
+  function formatResults(fields, hits) {
+    return _.map(hits, function (library) {
       var data = {
         name: library.name,
         latest: 'https://cdnjs.cloudflare.com/ajax/libs/' + library.name + '/' + library.version + '/' + library.filename
       };
+
       _.each(fields, function (field) {
         data[field] = library[field] || null;
       });
-
-      if (fields.indexOf('sri') > -1) {
-        try {
-          data.sri = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + library.version + '.json'))[library.filename];
-        } catch (err) {
-          data.sri = null;
-        }
-      }
-      if (fields.indexOf('assets') > -1) {
-        _.each(data.assets, function (asset) {
-          try {
-            asset.sri = JSON.parse(fs.readFileSync('sri/' + library.name + '/' + asset.version + '.json'));
-          } catch (e) {
-            asset.sri = {};
-          }
-        })
-      }
 
       return data;
     });
@@ -117,44 +99,31 @@ app.get('/libraries', function (req, res) {
 
   res.setHeader('Expires', new Date(Date.now() + 360 * 60 * 1000).toUTCString());
   var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
-  if (req.query.search) {
-    var searchParams = {
-      typoTolerance: 'min', // only keep the minimum typos
-      hitsPerPage: 1000 // maximum
-    };
-    algoliaIndex.search(req.query.search, searchParams, function (error, content) {
-      if (error) {
-        res.status(500).send(error.message);
-        return;
-      }
-
-      // fetch the orignal version of the package based on the search hit
-      results = _.map(content.hits, function (hit) {
-        return packagesByName[hit.originalName] || hit;
-      });
-
-      var json = {
-        results: formatResults(fields, results),
-        total: content.hits.length
-      };
-      if (req.query.output && req.query.output === 'human') {
-        humanOutput(res, json);
-      } else {
-        res.jsonp(json);
-      }
+  var allhits = [];
+  new Promise(function (resolve, reject) {
+    var browser = algoliaIndex.browseAll(req.query.search || '', { typoTolerance: 'min' });
+    browser.on('result', function (content) {
+      allhits = allhits.concat(content.hits);
     });
-  } else {
-    results = formatResults(fields, packagesByName);
+    browser.on('error', function (error) {
+      reject(error);
+    });
+    browser.on('end', function () {
+      resolve();
+    });
+  }).then(function () {
     var json = {
-      results: results,
-      total: results.length
+      results: formatResults(fields, allhits),
+      total: allhits.length
     };
     if (req.query.output && req.query.output === 'human') {
       humanOutput(res, json);
     } else {
       res.jsonp(json);
     }
-  }
+  }).catch(function (error) {
+    res.status(500).send(error.message);
+  });
 });
 
 app.get('/libraries/:library', function (req, res) {
