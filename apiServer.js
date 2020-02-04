@@ -108,10 +108,10 @@ app.get('/libraries', function (req, res) {
     browser.on('error', function (error) {
       reject(error);
     });
-    browser.on('end', function() {
+    browser.on('end', function () {
       resolve();
     });
-  }).then(function() {
+  }).then(function () {
     var json = {
       results: formatResults(fields, allhits),
       total: allhits.length
@@ -121,7 +121,7 @@ app.get('/libraries', function (req, res) {
     } else {
       res.jsonp(json);
     }
-  }).catch(function(error) {
+  }).catch(function (error) {
     res.status(500).send(error.message);
   });
 });
