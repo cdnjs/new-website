@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var fs = require('fs');
 var express = require('express');
-var algoliasearch = require('algoliasearch/lite');
+var algoliasearch = require('algoliasearch');
 var _ = require('lodash');
 var app = express();
 var args = process.argv.slice(2);
@@ -67,7 +67,7 @@ _.each(packages, function (library) {
 });
 
 packages = null;
-var algoliaIndex = algoliasearch('2QWLVLXZB6', '2663c73014d2e4d6d1778cc8ad9fd010').initIndex('libraries');
+var algoliaIndex = algoliasearch('2QWLVLXZB6', 'e16bd99a5c7a8fccae13ad40762eec3c').initIndex('libraries');
 
 if (!localMode && (typeof global.gc !== 'undefined')) {
   app.use(function (req, res, next) {
@@ -99,29 +99,30 @@ app.get('/libraries', function (req, res) {
 
   res.setHeader('Expires', new Date(Date.now() + 360 * 60 * 1000).toUTCString());
   var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
-  var searchParams = {
-    typoTolerance: 'min', // only keep the minimum typos
-    page: req.query.page || 0, // default
-    hitsPerPage: req.query.hitsPerPage || 1000 // maximum
-  };
-  algoliaIndex.search(req.query.search || '', searchParams, function (error, content) {
-    if (error) {
-      res.status(500).send(error.message);
-      return;
-    }
-
+  var allhits = [];
+  new Promise(function (resolve, reject) {
+    var browser = algoliaIndex.browseAll(req.query.search || '', { typoTolerance: 'min' });
+    browser.on('result', function (content) {
+      allhits = allhits.concat(content.hits);
+    });
+    browser.on('error', function (error) {
+      reject(error);
+    });
+    browser.on('end', function() {
+      resolve();
+    });
+  }).then(function() {
     var json = {
-      results: formatResults(fields, content.hits),
-      hitsOnPage: content.hits.length,
-      page: content.page,
-      pages: content.nbPages,
-      total: content.nbHits
+      results: formatResults(fields, allhits),
+      total: allhits.length
     };
     if (req.query.output && req.query.output === 'human') {
       humanOutput(res, json);
     } else {
       res.jsonp(json);
     }
+  }).catch(function(error) {
+    res.status(500).send(error.message);
   });
 });
 
