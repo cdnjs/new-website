@@ -55,7 +55,7 @@
           <br /><br />
           To get a list of all files for that library, use the assets field:
           <br /><br />
-          <code>https://api.cdnjs.com/libraries?search=[query]&amp;fields=assets</code>
+          <code>https://api.cdnjs.com/libraries/:library?fields=assets</code>
           <br /><br />
           Other fields available are:
         </p>
@@ -198,40 +198,33 @@ assets (only available on /libraries/:library)
         <p>
           Specific Library Assets
           <br />
-          <a href="https://api.cdnjs.com/libraries?search=1140&fields=assets">https://api.cdnjs.com/libraries?search=1140&amp;fields=assets</a>
+          <a href="https://api.cdnjs.com/libraries/1140?fields=assets">https://api.cdnjs.com/libraries/1140?fields=assets</a>
           <br />
         </p>
 
-        <pre><code class="json">{"results":[{"name":"1140","latest":"https://cdnjs.cloudflare.com/ajax/libs/1140/2.0/1140.min.css","assets":[{"version":"2.0","files":["1140.css","1140.min.css"],"sri":{"1140.css":"sha256-eGqdhjYKqzBy3WcntVJduYSVfwfciMn0lqS0qRUbejc=","1140.min.css":"sha256-+CxISdmBGkbG2TmwLMw48f9gcTsymmwpQjHog90bcBA="}}]}],"total":1}</code></pre>
+        <pre><code class="json">{"assets":[{"version":"2.0","files":["1140.css","1140.min.css"],"sri":{"1140.css":"sha256-eGqdhjYKqzBy3WcntVJduYSVfwfciMn0lqS0qRUbejc=","1140.min.css":"sha256-+CxISdmBGkbG2TmwLMw48f9gcTsymmwpQjHog90bcBA="}}]}</code></pre>
 
         <p>
           Specific Library Assets Human Readable output
           <br />
-          <a href="https://api.cdnjs.com/libraries?search=1140&fields=assets&output=human">https://api.cdnjs.com/libraries?search=1140&amp;fields=assets&amp;output=human</a>
+          <a href="https://api.cdnjs.com/libraries/1140?fields=assets&output=human">https://api.cdnjs.com/libraries/1140?fields=assets&amp;output=human</a>
           <br />
         </p>
 
         <pre><code class="json">{
-  "results": [
+  "assets": [
     {
-      "name": "1140",
-      "latest": "https://cdnjs.cloudflare.com/ajax/libs/1140/2.0/1140.min.css",
-      "assets": [
-        {
-          "version": "2.0",
-          "files": [
-            "1140.css",
-            "1140.min.css"
-          ],
-          "sri": {
-            "1140.css": "sha256-eGqdhjYKqzBy3WcntVJduYSVfwfciMn0lqS0qRUbejc=",
-            "1140.min.css": "sha256-+CxISdmBGkbG2TmwLMw48f9gcTsymmwpQjHog90bcBA="
-          }
-        }
-      ]
+      "version": "2.0",
+      "files": [
+        "1140.css",
+        "1140.min.css"
+      ],
+      "sri": {
+        "1140.css": "sha256-eGqdhjYKqzBy3WcntVJduYSVfwfciMn0lqS0qRUbejc=",
+        "1140.min.css": "sha256-+CxISdmBGkbG2TmwLMw48f9gcTsymmwpQjHog90bcBA="
+      }
     }
-  ],
-  "total": 1
+  ]
 }
 </code></pre>
 
