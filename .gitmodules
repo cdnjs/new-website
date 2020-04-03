@@ -1,24 +1,3 @@
 [submodule "tutorials"]
 	path = tutorials
 	url = git://github.com/cdnjs/tutorials.git
-[submodule "public/gitstats/cdnjs"]
-	path = public/gitstats/cdnjs
-	url = https://github.com/cdnjs/cdnjs-gitstats.git
-[submodule "public/gitstats/new-website"]
-	path = public/gitstats/new-website
-	url = https://github.com/cdnjs/new-website-gitstats.git
-[submodule "public/gitstats/buildScript"]
-	path = public/gitstats/buildScript
-	url = https://github.com/cdnjs/buildScript-gitstats.git
-[submodule "public/gitstats/tutorials"]
-	path = public/gitstats/tutorials
-	url = https://github.com/cdnjs/tutorials-gitstats.git
-[submodule "public/gitstats/autoupdate"]
-	path = public/gitstats/autoupdate
-	url = https://github.com/cdnjs/autoupdate-gitstats.git
-[submodule "public/gitstats/atom-extension"]
-	path = public/gitstats/atom-extension
-	url = https://github.com/cdnjs/atom-extension-gitstats.git
-[submodule "public/gitstats/cdnjs-importer"]
-	path = public/gitstats/cdnjs-importer
-	url = https://github.com/cdnjs/cdnjs-importer-gitstats.git
