@@ -12,9 +12,6 @@ git clone https://github.com/cdnjs/SRIs.git ./sri
     git log -n 1 | cat
 )
 
-git submodule init
-git submodule update --remote --force --checkout tutorials
-
 if [ x"$APP" = x"mainSite" ]; then
     node --expose-gc --max-old-space-size=2048 webServer/main.js
 elif [ x"$APP" = x"api" ]; then
