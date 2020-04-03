@@ -8,6 +8,7 @@ var args = process.argv.slice(2);
 var localMode = false;
 var compress = require('compression');
 var bodyParser = require('body-parser');
+var marked = require('marked');
 var allowCrossDomain = function (req, res, next) {
   res.header('Access-Control-Allow-Credentials', true);
   res.header('Access-Control-Allow-Origin', '*');
@@ -205,8 +206,8 @@ app.get('/libraries/:library/tutorials', function (req, res) {
 
   _.each(results, function (tutorial) {
     try {
-      fs.readFileSync('tutorials/' + req.params.library + '/' + tutorial + '/index.md');
-      var data = JSON.parse(fs.readFileSync('tutorials/' + req.params.library + '/' + tutorial + '/tutorial.json'));
+      fs.readFileSync('tutorials/' + req.params.library + '/' + tutorial + '/index.md', 'utf8');
+      var data = JSON.parse(fs.readFileSync('tutorials/' + req.params.library + '/' + tutorial + '/tutorial.json', 'utf8'));
 
       if (fields.length > 0) {
         var retData = {};
@@ -225,6 +226,49 @@ app.get('/libraries/:library/tutorials', function (req, res) {
     humanOutput(res, ret);
   } else {
     res.jsonp(ret);
+  }
+});
+
+app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
+  var results = {};
+  var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
+
+  app.set('json spaces', 0);
+  res.setHeader('Expires', new Date(Date.now() + 360 * 60 * 1000).toUTCString());
+
+  try {
+    var data = JSON.parse(fs.readFileSync('tutorials/' + req.params.library + '/' + req.params.tutorial + '/tutorial.json', 'utf8'));
+    var raw = fs.readFileSync('tutorials/' + req.params.library + '/' + req.params.tutorial + '/index.md', 'utf8');
+
+    marked.setOptions({
+      renderer: new marked.Renderer(),
+      gfm: true,
+      tables: true,
+      breaks: false,
+      pedantic: false,
+      sanitize: false,
+      smartLists: false,
+      smartypants: false,
+      langPrefix: ''
+    });
+    data.markdown = raw;
+    data.html = marked(raw);
+
+    if (fields.length > 0) {
+      _.each(fields, function (field) {
+        results[field] = data[field] || null;
+      });
+    } else {
+      results = data;
+    }
+
+    if (req.query.output && req.query.output === 'human') {
+      humanOutput(res, results);
+    } else {
+      res.jsonp(results);
+    }
+  } catch (e) {
+    res.jsonp({});
   }
 });
 
