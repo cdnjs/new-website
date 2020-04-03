@@ -202,6 +202,7 @@ app.get('/libraries/:library/tutorials', function (req, res) {
   try {
     results = fs.readdirSync('tutorials/' + req.params.library);
   } catch (e) {
+    // If no tutorials, this will error and results will be an empty array
   }
 
   _.each(results, function (tutorial) {
@@ -219,6 +220,7 @@ app.get('/libraries/:library/tutorials', function (req, res) {
         ret[tutorial] = data;
       }
     } catch (e) {
+      // If index.md or tutorial.json doesn't exist (or not valid), just skip this result
     }
   });
 
@@ -268,6 +270,7 @@ app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
       res.jsonp(results);
     }
   } catch (e) {
+    // If index.md or tutorial.json doesn't exist (or not valid), just return nothing
     res.jsonp({});
   }
 });
