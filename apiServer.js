@@ -191,6 +191,43 @@ app.get('/libraries/:library', function (req, res) {
   }
 });
 
+app.get('/libraries/:library/tutorials', function (req, res) {
+  var results = [], ret = {};
+  var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
+
+  app.set('json spaces', 0);
+  res.setHeader('Expires', new Date(Date.now() + 360 * 60 * 1000).toUTCString());
+
+  try {
+    results = fs.readdirSync('tutorials/' + req.params.library);
+  } catch (e) {
+  }
+
+  _.each(results, function (tutorial) {
+    try {
+      fs.readFileSync('tutorials/' + req.params.library + '/' + tutorial + '/index.md');
+      var data = JSON.parse(fs.readFileSync('tutorials/' + req.params.library + '/' + tutorial + '/tutorial.json'));
+
+      if (fields.length > 0) {
+        var retData = {};
+        _.each(fields, function (field) {
+          retData[field] = data[field] || null;
+        });
+        ret[tutorial] = retData;
+      } else {
+        ret[tutorial] = data;
+      }
+    } catch (e) {
+    }
+  });
+
+  if (req.query.output && req.query.output === 'human') {
+    humanOutput(res, ret);
+  } else {
+    res.jsonp(ret);
+  }
+});
+
 app.get('/', function (req, res) {
   res.redirect('https://cdnjs.com/api');
 });
