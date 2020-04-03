@@ -8,6 +8,7 @@ var args = process.argv.slice(2);
 var localMode = false;
 var compress = require('compression');
 var bodyParser = require('body-parser');
+var marked = require('marked');
 var allowCrossDomain = function (req, res, next) {
   res.header('Access-Control-Allow-Credentials', true);
   res.header('Access-Control-Allow-Origin', '*');
@@ -187,6 +188,89 @@ app.get('/libraries/:library', function (req, res) {
       res.jsonp(results[0]);
     }
   } else {
+    res.jsonp({});
+  }
+});
+
+app.get('/libraries/:library/tutorials', function (req, res) {
+  var results = [], ret = {};
+  var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
+
+  app.set('json spaces', 0);
+  res.setHeader('Expires', new Date(Date.now() + 360 * 60 * 1000).toUTCString());
+
+  try {
+    results = fs.readdirSync('tutorials/' + req.params.library);
+  } catch (e) {
+    // If no tutorials, this will error and results will be an empty array
+  }
+
+  _.each(results, function (tutorial) {
+    try {
+      fs.readFileSync('tutorials/' + req.params.library + '/' + tutorial + '/index.md', 'utf8');
+      var data = JSON.parse(fs.readFileSync('tutorials/' + req.params.library + '/' + tutorial + '/tutorial.json', 'utf8'));
+
+      if (fields.length > 0) {
+        var retData = {};
+        _.each(fields, function (field) {
+          retData[field] = data[field] || null;
+        });
+        ret[tutorial] = retData;
+      } else {
+        ret[tutorial] = data;
+      }
+    } catch (e) {
+      // If index.md or tutorial.json doesn't exist (or not valid), just skip this result
+    }
+  });
+
+  if (req.query.output && req.query.output === 'human') {
+    humanOutput(res, ret);
+  } else {
+    res.jsonp(ret);
+  }
+});
+
+app.get('/libraries/:library/tutorials/:tutorial', function (req, res) {
+  var results = {};
+  var fields = safeFields((req.query.fields && req.query.fields.split(',')) || []);
+
+  app.set('json spaces', 0);
+  res.setHeader('Expires', new Date(Date.now() + 360 * 60 * 1000).toUTCString());
+
+  try {
+    var data = JSON.parse(fs.readFileSync('tutorials/' + req.params.library + '/' + req.params.tutorial + '/tutorial.json', 'utf8'));
+    var raw = fs.readFileSync('tutorials/' + req.params.library + '/' + req.params.tutorial + '/index.md', 'utf8');
+
+    marked.setOptions({
+      renderer: new marked.Renderer(),
+      gfm: true,
+      tables: true,
+      breaks: false,
+      pedantic: false,
+      sanitize: false,
+      smartLists: false,
+      smartypants: false,
+      langPrefix: ''
+    });
+    data.markdown = raw;
+    data.html = marked(raw);
+
+    if (fields.length > 0) {
+      _.each(fields, function (field) {
+        results[field] = data[field] || null;
+      });
+    } else {
+      results = data;
+    }
+
+    if (req.query.output && req.query.output === 'human') {
+      humanOutput(res, results);
+    } else {
+      res.jsonp(results);
+    }
+  } catch (e) {
+    // If index.md or tutorial.json doesn't exist (or not valid), just return nothing
     res.jsonp({});
   }
 });
