@@ -1,6 +1,7 @@
 /* eslint-disable key-spacing */
 const typeMap = {
   'js':     'js',
+  'ts':     'js',
   'map':    'map',
 
   'css':    'css',
