@@ -23,6 +23,8 @@ const all = () => {
   const librariesMap = {};
   let versions = 0;
   libraries.forEach(library => {
+    if (!library || !library.name || !library.assets) return;
+
     library.originalName = library.name;
     library.id = library.name;
 
