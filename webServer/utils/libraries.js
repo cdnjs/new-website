@@ -266,7 +266,7 @@ const response = (req, res) => {
   // Attempt to get SRI data for the version
   let SRI;
   try {
-    SRI = fs.readFileSync('sri/' + libraryName + '/' + version + '.json');
+    SRI = JSON.parse(fs.readFileSync('sri/' + libraryName + '/' + version + '.json', 'utf8'));
   } catch (_) {
     SRI = {};
   }
@@ -301,7 +301,7 @@ const response = (req, res) => {
       data: {
         library: library,
         assets: libraryAssets,
-        SRI: SRI,
+        SRI: JSON.stringify(SRI),
         licenses: libraryLicenses,
         selectedAssets: librarySelectedAssets[0],
         tutorials: tutorialPackages,
