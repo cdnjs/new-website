@@ -71,11 +71,6 @@ packages = null;
 var algoliaIndex = algoliasearch('2QWLVLXZB6', 'e16bd99a5c7a8fccae13ad40762eec3c').initIndex('libraries');
 
 if (!localMode && (typeof global.gc !== 'undefined')) {
-  app.use(function (req, res, next) {
-    res.setHeader('Public-Key-Pins', 'pin-sha256="EULHwYvGhknyznoBvyvgbidiBH3JX3eFHHlIO3YK8Ek=";pin-sha256="x9SZw6TwIqfmvrLZ/kz1o0Ossjmn728BnBKpUFqGNVM=";max-age=3456000;report-uri="https://cdnjs.report-uri.io/r/default/hpkp/enforce"');
-    next();
-  });
-
   global.gc();
 }
 
